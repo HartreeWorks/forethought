@@ -88,11 +88,11 @@ function parseFilename($name) {
     } elseif ($baseVariant === 'pre-mortem') {
         $variantDisplay = 'Pre-mortem';
     } elseif ($baseVariant === 'baseline' && $version === '-v2') {
-        $variantDisplay = 'Baseline';
+        $variantDisplay = 'November';
     } elseif ($baseVariant === 'baseline' && $version === '-v1') {
-        $variantDisplay = 'Baseline v1 (excluded)';  // Will be filtered out
+        $variantDisplay = 'November v1 (excluded)';  // Will be filtered out
     } elseif ($baseVariant === 'baseline') {
-        $variantDisplay = 'Baseline (legacy)';  // Will be filtered out
+        $variantDisplay = 'November (legacy)';  // Will be filtered out
     }
 
     if ($prefix === 'gemini-') {
@@ -177,7 +177,7 @@ function shortVariantName($variant) {
 
 // Check if a variant is a baseline variant (only the current baseline, not legacy versions)
 function isBaselineVariant($variant) {
-    return $variant === 'Baseline';
+    return $variant === 'November';
 }
 
 $selectedVariant = $_GET['variant'] ?? 'all';
@@ -202,7 +202,7 @@ $graderPrompt = file_exists($graderPath) ? file_get_contents($graderPath) : '';
 
 <?php
 // Define base variants (excluding Gemini/GPT refinements)
-$baseVariants = ['Conversational', 'Baseline', 'Surgery', 'Personas', 'Unforgettable', 'Pivot-attack', 'Authors-tribunal', 'Pre-mortem'];
+$baseVariants = ['Conversational', 'November', 'Surgery', 'Personas', 'Unforgettable', 'Pivot-attack', 'Authors-tribunal', 'Pre-mortem'];
 $isGeminiOrGpt = fn($v) => strpos($v, 'Gemini ') === 0 || strpos($v, 'GPT ') === 0;
 
 // Create filtered versions of byVariant and byPaper for base variants only
@@ -372,7 +372,7 @@ foreach ($paperNames as $paperKey => $paperName) {
 
 // Map variant names to prompts for the intro section
 $promptMap = [
-    'Baseline' => $baselineV2Prompt,
+    'November' => $baselineV2Prompt,
     'Surgery' => $surgeryPrompt,
     'Personas' => $personasPrompt,
     'Unforgettable' => $unforgettablePrompt,
@@ -386,7 +386,7 @@ $promptMap = [
 
 <p>Can the <a href="why-automated-graders.php">ACORN grader</a> help us evaluate prompt iterations? I drafted six alternative critique prompts across two iterations and used the grader to compare them against a simple baseline.</p>
 
-<h2 id="what-i-did">Preamble</h2>
+<h2 id="preamble">Preamble</h2>
 
 <div class="prose">
     <p>For this experiment, our use case is: a researcher has drafted a paper, and they want AI to critique it.</p>
@@ -527,7 +527,7 @@ $promptMap = [
 
 <ul>
     <li><strong>Top performers:</strong> "Pivot-attack", "Unforgettable", and "Authors-tribunal", "Surgery", "Personas".</li>
-    <li><strong>Bottom performers:</strong> "Conversational", "November" and "Pre-mortem".</li>
+    <li><strong>Bottom performers:</strong> "Conversational", "November", and "Pre-mortem".</li>
 </ul>
 
 <p>But: do I agree with ACORN's judgement? To answer that, I'll just read some of the critiques it considers best, and some it considers worst. On those, its judgements track mine reasonably well (#todo ideally I'd do 20+ more pairwise comparisons, and enable others to do the same). So—this is useful signal. I could use this grader—or some better version—to run many more context engineering experiments.</p>
@@ -543,7 +543,7 @@ $promptMap = [
 
 <p>Now, I want you to form your own view. Below, I'll share the ACORN grader ratings, and then give you a bunch of example critiques.</p>
 
-<h2>The ACORN grader ratings</h2>
+<h2 id="the-acorn-grader-ratings">The ACORN grader ratings</h2>
 <h3 id="top-critiques-by-prompt">Top <?= $topNCutoff ?> critiques by prompt</h3>
 
 <p>Which prompts generated the highest-scoring critiques? If we take the top <?= $topNCutoff ?> critiques (out of <?= $baseCritiqueCount ?>), here's how they break down by prompt:</p>
@@ -557,11 +557,14 @@ $promptMap = [
         </tr>
     </thead>
     <tbody>
-        <?php foreach ($topNByPrompt as $variant => $count): ?>
-        <tr>
+        <?php foreach ($topNByPrompt as $variant => $count):
+            $share = $count / $topNCutoff * 100;
+            $highlightClass = $share > 15 ? ' class="highlight-green"' : '';
+        ?>
+        <tr<?= $highlightClass ?>>
             <td><strong><?= htmlspecialchars(shortVariantName($variant)) ?></strong></td>
             <td class="font-mono"><?= $count ?></td>
-            <td class="font-mono"><?= number_format($count / $topNCutoff * 100, 0) ?>%</td>
+            <td class="font-mono"><?= number_format($share, 0) ?>%</td>
         </tr>
         <?php endforeach; ?>
     </tbody>
@@ -572,11 +575,11 @@ $topPrompt = array_key_first($topNByPrompt);
 $topPromptCount = $topNByPrompt[$topPrompt];
 $topPromptName = shortVariantName($topPrompt);
 $topPromptPct = number_format($topPromptCount / $topNCutoff * 100, 0);
-$baselineCount = $topNByPrompt['Baseline'] ?? 0;
+$novemberCount = $topNByPrompt['November'] ?? 0;
 ?>
-<p>The "<?= htmlspecialchars($topPromptName) ?>" prompt generated <?= $topPromptPct ?>% of the top-scoring critiques (<?= $topPromptCount ?>/<?= $topNCutoff ?>), despite representing only <?= number_format(100/count($baseVariants), 0) ?>% of the total pool. Baseline generated just <?= $baselineCount ?> of the top <?= $topNCutoff ?>.</p>
+<p>The "<?= htmlspecialchars($topPromptName) ?>" prompt generated <?= $topPromptPct ?>% of the top-scoring critiques (<?= $topPromptCount ?>/<?= $topNCutoff ?>), despite representing only <?= number_format(100/count($baseVariants), 0) ?>% of the total pool. November generated just <?= $novemberCount ?> of the top <?= $topNCutoff ?>.</p>
 
-<h3 id="average-scores">Average scores by prompt</h3>
+<h3 id="average-scores-by-prompt">Average scores by prompt</h3>
 <p>Each prompt generated 10 critiques of three different papers, for 30 total critiques. Average scores are below:</p>
 <table>
     <thead>
@@ -594,8 +597,10 @@ $baselineCount = $topNByPrompt['Baseline'] ?? 0;
         </tr>
     </thead>
     <tbody>
-        <?php foreach ($baseVariantAverages as $variant => $avgs): ?>
-        <tr>
+        <?php foreach ($baseVariantAverages as $variant => $avgs):
+            $highlightClass = $avgs['overall'] > 0.3 ? ' class="highlight-green"' : '';
+        ?>
+        <tr<?= $highlightClass ?>>
             <td>
                 <strong><?= htmlspecialchars($variant) ?></strong>
             </td>
@@ -740,7 +745,7 @@ usort($conversationalResults, fn($a, $b) => $b['overall'] <=> $a['overall']);
 $topConversational = array_slice($conversationalResults, 0, 3);
 ?>
 
-<h3 id="example-1">Example 1. Conversational prompt outputs</h3>
+<h3 id="example-1-conversational-prompt-outputs">Example 1. Conversational prompt outputs</h3>
 
 <p>The conversational prompt used minimal scaffolding: just "What are the strongest objections to this paper's central argument?" Here are its three top-scoring critiques of "<a href="https://www.forethought.org/research/no-easy-eutopia" target="_blank">No Easy Eutopia</a>":</p>
 
@@ -812,7 +817,7 @@ foreach ($eutopiaBottomUniqueIds as $id) {
 }
 ?>
 
-<h3 id="example-2">Example 2. Top scoring unique critiques (all prompts)</h3>
+<h3 id="example-2-top-scoring-unique-critiques">Example 2. Top scoring unique critiques (all prompts)</h3>
 
 <p>The three top-scoring <em>unique</em> critiques of "<a href="https://www.forethought.org/research/no-easy-eutopia" target="_blank">No Easy Eutopia</a>" (excluding duplicates of the same argument):</p>
 
@@ -820,9 +825,9 @@ foreach ($eutopiaBottomUniqueIds as $id) {
 <?= renderCritiqueCard($result, $parsedDirs) ?>
 <?php endforeach; ?>
 
-<p>Use the paper toggle above to see critiques for the other papers, or see the <a href="#appendix-3">appendix</a> for all critiques.</p>
+<p>Use the paper toggle above to see critiques for the other papers, or see the <a href="#appendix-3-all-critiques">appendix</a> for all critiques.</p>
 
-<h3 id="example-3">Example 3. Bottom-scoring unique critiques</h3>
+<h3 id="example-3-bottom-scoring-unique-critiques">Example 3. Bottom-scoring unique critiques</h3>
 
 <p>Here are the three lowest-scoring <em>unique</em> critiques (excluding duplicates of the same argument):</p>
 
@@ -912,7 +917,7 @@ tell us a bunch more? Or perhaps experiments aren't what we need right now—I s
 
 <hr style="margin: 3rem 0;">
 
-<h2 id="appendix-1">Appendix 1: How did critique quality vary by paper?</h2>
+<h2 id="appendix-1-how-did-critique-quality-vary-by-paper">Appendix 1: How did critique quality vary by paper?</h2>
 
 <p>According to the ACORN grader, it didn't vary much. I've not done my own comparisons.</p>
 <table>
@@ -948,7 +953,7 @@ tell us a bunch more? Or perhaps experiments aren't what we need right now—I s
 
 <hr style="margin: 3rem 0;">
 
-<h2 id="appendix-2">Appendix 2: How many unique critiques?</h2>
+<h2 id="appendix-2-how-many-unique-critiques">Appendix 2: How many unique critiques?</h2>
 
 <p>Each of the seven prompts independently generated 10 critiques per paper. How many of those 70 critiques are genuinely distinct arguments? LLM analysis identified clusters of duplicates—arguments that multiple prompts generated independently.</p>
 
@@ -956,7 +961,7 @@ tell us a bunch more? Or perhaps experiments aren't what we need right now—I s
 
 <hr style="margin: 3rem 0;">
 
-<h2 id="appendix-3">Appendix 3: All critiques</h2>
+<h2 id="appendix-3-all-critiques">Appendix 3: All critiques</h2>
 <p>All the critiques generated by GPT 5.2 Pro.</p>
 <div class="filter-bar">
     <div class="filter-group">
@@ -1079,7 +1084,7 @@ $allHiddenClass = $allIdx >= 3 ? ' all-hidden' : '';
         if (selectedPaper !== 'all') params.set('paper', selectedPaper);
         if (selectedVariant !== 'all') params.set('variant', selectedVariant);
         const queryString = params.toString();
-        const newURL = window.location.pathname + (queryString ? '?' + queryString : '') + '#appendix-3';
+        const newURL = window.location.pathname + (queryString ? '?' + queryString : '') + '#appendix-3-all-critiques';
         history.pushState({ paper: selectedPaper, variant: selectedVariant }, '', newURL);
     }
 
