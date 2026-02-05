@@ -249,7 +249,7 @@ uasort($basePaperAverages, fn($a, $b) => $b['overall'] <=> $a['overall']);
 $top16Cutoff = 16;
 
 // Calculate top N critiques by prompt (25 chosen to avoid ties at cutoff)
-$topNCutoff = 25;
+$topNCutoff = 50;
 $allBaseCritiques = [];
 foreach ($baseByVariant as $variant => $variantResults) {
     foreach ($variantResults as $r) {
@@ -384,74 +384,67 @@ $promptMap = [
 
 <h1>Iterating on prompts with ACORN feedback</h1>
 
-<p>Can the <a href="why-automated-graders.php">ACORN grader</a> help us evaluate prompt iterations? We drafted six alternative critique prompts across two iterations and used the grader to compare them against a simple baseline.</p>
+<p>Can the <a href="why-automated-graders.php">ACORN grader</a> help us evaluate prompt iterations? I drafted six alternative critique prompts across two iterations and used the grader to compare them against a simple baseline.</p>
 
-<h2 id="what-i-did">What I did</h2>
-
-<div class="prose">
-    <p>Back in November 2025, I built an MVP "<a href="https://clients.hartreeworks.org/forethought/critique" target="_blank">critique this paper</a>" prompt chain:</p>
-</div>
-
-<div class="flowchart">
-    <div class="step-wrapper">
-        <div class="step">
-            <div class="step-number">Step 1</div>
-            <div class="step-title">Generate critique brainstorm</div>
-        </div>
-    </div>
-    <div class="arrow"></div>
-    <div class="step-wrapper">
-        <div class="step">
-            <div class="step-number">Step 2</div>
-            <div class="step-title">Score and select top five</div>
-        </div>
-    </div>
-    <div class="arrow"></div>
-    <div class="step-wrapper">
-        <div class="step">
-            <div class="step-number">Step 3</div>
-            <div class="step-title">Expand the top five critiques</div>
-        </div>
-    </div>
-    <div class="arrow"></div>
-    <div class="step-wrapper">
-        <div class="step">
-            <div class="step-number">Step 4</div>
-            <div class="step-title">Critique the critiques</div>
-        </div>
-    </div>
-    <div class="arrow"></div>
-    <div class="step-wrapper">
-        <div class="step">
-            <div class="step-number">Step 5</div>
-            <div class="step-title">Revise the critiques</div>
-        </div>
-    </div>
-    <div class="arrow"></div>
-    <div class="step-wrapper">
-        <div class="step">
-            <div class="step-number">Step 6</div>
-            <div class="step-title">Select and write up best three</div>
-        </div>
-    </div>
-</div>
+<h2 id="what-i-did">Preamble</h2>
 
 <div class="prose">
-    <p>Step (1) used the following brainstorming prompt:</p>
-</div>
+    <p>For this experiment, our use case is: a researcher has drafted a paper, and they want AI to critique it.</p>
+
+    <p>Naively, they should just go to ChatGPT.com, select the best model, and request critique using a conversational prompt. Something like this:</p>
 
 <details class="prompt-card">
     <summary>
-        <strong>Baseline</strong>
+        <strong>Conversational <span style="font-weight: normal;">(Ultra-minimal)</span></strong>
+        <span class="text-muted" style="margin-left: 0.5rem;">Click to expand</span>
+    </summary>
+    <div class="content">
+        <pre><?= htmlspecialchars($conversationalPrompt) ?></pre>
+    </div>
+</details>
+
+    <p>Our question is: could we get much more useful outputs if we apply more advanced techniques?</p> 
+
+    <p>Two ways to make the outputs more useful:</p>
+
+    <ol>
+        <li><strong>Make review easier:</strong> reviewing LLM outputs can be a slog. Minimally, the prompt could request progressive summarisation. Maximally, we could build a custom review interface—perhaps something like this. #todo - link to screengrab of the november UI.</li>
+        <li><strong>Get more insightful outputs:</strong>  Sophisticated context enginering might generate higher quality critiques.</li>
+</ol>
+<p>Today's experiment will focus on <strong>getting more insightful outputs</strong>.</p>
+
+<p>I'll ask GPT 5.2 Pro to critique three Forethought papers, using the conversational prompt above, and then also using a handful of more sophisticated prompts. Then I'll compare the outputs, using the ACORN grader—plus my own judgement.</p>
+
+<p>There are two things I care about here:</p>
+
+<ol>
+    <li><strong>Is the ACORN grader any good?</strong> To do systematic context engineering experiments at non-crazy-expense, we need automated graders we can trust to roughly track human judgement.</li>
+    <li><strong>Do some prompts clearly outperform the conversational baseline?</strong>
+    </li>
+</ol>
+
+    <p>This experiment will inform our views on the following question:</p>
+    <p>
+    <blockquote>Should Forethought hire a specialist to work on sophisticated context engineering experiments, or can researchers just get most of the value from simpler prompting techniques?</blockquote>
+</p>
+<p><strong>Limitation:</strong> I am only experimenting with prompt texts. I'm not experimenting with other kinds of context engineering and orchestration, e.g. prompt chains, multi-model synthesis, self-critique, etc. There are reasons to think that these techniques are more powerful.</p>
+
+<h2 id="sophisticated-prompts">The sophisticated prompts</h2>        
+    
+   <p>So, we need some prompts to compare to the conversational prompt.</p>
+
+   <p>Back in November 2025, I wrote a super low-effort prompt for a prompt-chain experiment:</p>
+   
+<details class="prompt-card">
+    <summary>
+        <strong>November <span style="font-weight: normal;"></span></strong>
         <span class="text-muted" style="margin-left: 0.5rem;">Click to expand</span>
     </summary>
     <div class="content">
         <pre><?= htmlspecialchars($baselineV2Prompt) ?></pre>
     </div>
 </details>
-
-<div class="prose" style="margin-top: 1.5rem;">
-    <p>For this experiment, I created three new critique prompts inspired by <a href="https://github.com/anthropics/anthropic-quickstarts/blob/main/claude-code-plugins/frontend-design-skill/agents/frontend-designer.md" target="_blank">Anthropic's frontend design skill</a>:</p>
+    <p>To go further, I created three new critique prompts inspired by <a href="https://github.com/anthropics/anthropic-quickstarts/blob/main/claude-code-plugins/frontend-design-skill/agents/frontend-designer.md" target="_blank">Anthropic's frontend design skill</a>:</p>
 </div>
 
 <details class="prompt-card">
@@ -485,7 +478,7 @@ $promptMap = [
 </details>
 
 <div class="prose" style="margin-top: 1.5rem;">
-    <p>I also developed three more prompts, drawing on the performance of the first three, deep research on prompting techniques, and extensive multi-model brainstorming:</p>
+    <p>After trying those, I developed three more prompts, drawing insights from their peformance, some deep research on prompting techniques, and extensive multi-model brainstorming:</p>
 </div>
 
 <details class="prompt-card">
@@ -518,33 +511,39 @@ $promptMap = [
     </div>
 </details>
 
-<div class="prose" style="margin-top: 1.5rem;">
-    <p>Finally, to test whether elaborate prompt engineering is worth the effort, I added a minimal conversational baseline:</p>
-</div>
-
-<details class="prompt-card">
-    <summary>
-        <strong>Conversational <span style="font-weight: normal;">(Minimal prompt, no scaffolding)</span></strong>
-        <span class="text-muted" style="margin-left: 0.5rem;">Click to expand</span>
-    </summary>
-    <div class="content">
-        <pre><?= htmlspecialchars($conversationalPrompt) ?></pre>
-    </div>
-</details>
 
 <div class="prose" style="margin-top: 1.5rem;">
-    <p>So now we have eight prompts for brainstorming critiques of a paper. Which one generates the best outputs?</p>
+    <p>So now we have seven sophisticated prompts to compare against the conversational baseline. Which one generates the best outputs?</p>
 </div>
 
 <h3 id="running-the-prompts">Running the prompts</h3>
-<p>I selected three Forethought papers (No Easy Eutopia, Convergence & Compromise and Compute Bottlenecks). I ran each of the seven "brainstorm critique" prompts using GPT 5.2 Pro, requesting 10 critiques each time. Then I asked GPT 5.2 Pro to evaluate each critique using the ACORN grader (one model call per critique).</p>
+<p>I selected three Forethought papers (No Easy Eutopia, Convergence & Compromise and Compute Bottlenecks). I ran each of the eight prompts using GPT 5.2 Pro, requesting 10 critiques each time. Then I asked GPT 5.2 Pro to evaluate each critique using the ACORN grader (one model call per critique).*</p>
+
+<p class="table-footnote">* So that's 24 critique generation prompts, then 240 evaluation prompts. Total cost ~$300 in credits.</p>
 
 <h2 id="results">Results</h2>
 
-<p>According to ACORN: all six alternative prompts outperformed the baseline. The "Pivot-attack" and "Unforgettable" prompts tied for first place.</p>
+<p>According to ACORN, there was a fairly clear split:</p>
+
+<ul>
+    <li><strong>Top performers:</strong> "Pivot-attack", "Unforgettable", and "Authors-tribunal", "Surgery", "Personas".</li>
+    <li><strong>Bottom performers:</strong> "Conversational", "November" and "Pre-mortem".</li>
+</ul>
 
 <p>But: do I agree with ACORN's judgement? To answer that, I'll just read some of the critiques it considers best, and some it considers worst. On those, its judgements track mine reasonably well (#todo ideally I'd do 20+ more pairwise comparisons, and enable others to do the same). So—this is useful signal. I could use this grader—or some better version—to run many more context engineering experiments.</p>
 
+<p>So, going back to the two questions I care about:</p>
+
+<ol>
+    <li><strong>Is the ACORN grader any good?</strong> Yes, it tracks my judgement reasonably well, and could be used to run many more context engineering experiments.</li>
+    <li><strong>Do some prompts clearly outperform the conversational baseline?</strong> Yes, the "top performers" do in fact give notably better insights.</li>
+</ol>
+
+<p><strong>#todo:</strong> how confident am I? need to pairwise compare</p>
+
+<p>Now, I want you to form your own view. Below, I'll share the ACORN grader ratings, and then give you a bunch of example critiques.</p>
+
+<h2>The ACORN grader ratings</h2>
 <h3 id="top-critiques-by-prompt">Top <?= $topNCutoff ?> critiques by prompt</h3>
 
 <p>Which prompts generated the highest-scoring critiques? If we take the top <?= $topNCutoff ?> critiques (out of <?= $baseCritiqueCount ?>), here's how they break down by prompt:</p>
