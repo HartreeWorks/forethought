@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.2,
+  "correctness": 0.65,
+  "clarity": 0.85,
+  "dead_weight": 0.2,
+  "single_issue": 0.95,
+  "overall": 0.15,
+  "reasoning": "The critique targets the paper\u2019s Section 3 formal framework (completeness + vNM axioms + cardinalization), which is a meaningful support for the paper\u2019s \u201cmost plausible views are fussy\u201d conclusion, but not the whole argument (Section 2\u2019s fragility/examples don\u2019t rely on vNM-style comparability). So centrality is moderate. The refutation strength is low because (i) the paper explicitly flags that not all moral views allow quantitative comparisons, (ii) restricting to vNM-representable \u2018betterness over prospects\u2019 is a methodological choice rather than an unargued hidden premise, and (iii) showing some moral theories are outside the model doesn\u2019t establish that easy-eutopia becomes likely under them. Correctness is mixed: it\u2019s true the analysis excludes incompleteness/incommensurability and many Kantian/pluralist frameworks, but it\u2019s overstated/partly wrong to claim this \u201cimplicitly privileges consequentialist aggregation,\u201d since vNM representability doesn\u2019t entail consequentialism and the paper notes this. The critique is fairly clear, mostly on a single methodological objection, with some rhetorical dead weight (\u201cbiased\u2026 marginalizes dissent\u201d) that doesn\u2019t add argumentative force.",
+  "title": "Cardinal utility assumptions exclude pluralist and incommensurable value frameworks"
+}

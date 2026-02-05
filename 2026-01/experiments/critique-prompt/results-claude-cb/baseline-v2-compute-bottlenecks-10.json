@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique targets a real potential equivocation: the post motivates concern with a fast, societally unmanageable jump, but later operationalizes \u201cSIE\u201d as \u22655 OOM effective training compute in <1 year and attaches probabilities to that. If that operational definition is misaligned with the motivating scenario, the final 10\u201340% figure could be less decision-relevant than it sounds. However, this attacks framing/interpretation more than the post\u2019s central object-level argument about compute bottlenecks (the CES/\u03c1 discussion and reasons \u03c1 might be closer to 0). Even if the definition were \u201cgerrymandered,\u201d much of the compute-bottleneck rebuttal could still stand. The critique\u2019s substantive force is also limited because it doesn\u2019t justify the key insinuation that 5 OOM effective compute in ~1 year might be \u201crelatively gradual\u201d or insufficient to yield the rapid takeoff scenario\u2014many readers would see that threshold as already extremely explosive. It is clear, focused, and mostly accurate about the definitional shift, with little extraneous material.",
+  "title": "The technical definition of explosion may not match the alarming scenario motivating concern"
+}

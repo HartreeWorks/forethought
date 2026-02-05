@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.55,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.32,
+  "reasoning": "The critique targets the post\u2019s \u201cimplausibly low max speed\u201d move (counterargument #6), alleging it relies on intuition that already presumes high labor\u2013compute substitutability. This is fairly central insofar as #6 is one of the more important listed reasons to distrust negative-\u03c1 estimates, but the overall position also leans on several other independent considerations (#5, #7, #2, #3), so refuting #6 would weaken rather than collapse the case. The circularity objection has moderate strength: the post does use intuitive scenarios to reject low implied ceilings, and without independent evidence this can look question-begging; however, it\u2019s not purely circular because those scenarios could in principle be supported by historical trends, concrete engineering constraints, or expert-elicited effect sizes (even if the post doesn\u2019t fully cash that out), so the critique doesn\u2019t fully undercut the claim. The critique is clear, focused, and contains little dead weight; correctness is fairly high but slightly overstated in implying the max-speed intuition has no independent content beyond the disputed conclusion.",
+  "title": "Rejecting speed ceilings via high-substitutability scenarios assumes the conclusion"
+}

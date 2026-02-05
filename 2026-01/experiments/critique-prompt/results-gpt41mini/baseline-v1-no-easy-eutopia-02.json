@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.15,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.12,
+  "reasoning": "The critique targets the paper\u2019s use of \u201cbest feasible\u201d/\u201cnear-best\u201d future benchmarks and their quantification, which is relevant because the argument\u2019s framing (eutopia rarity) is expressed in terms of percentile-best and value thresholds. However, the position explicitly anticipates this by (i) giving operational definitions (99.99th percentile under a well-informed distribution; near-best >0.9, mostly-great >0.5), (ii) restricting to VNM-representable moral views, and (iii) discussing moral uncertainty and normalization. So while it\u2019s true in practice that quantification depends on contested value standards and could affect sensitivity, the critique is largely a generic \u201cmeasurement/subjectivity\u201d worry and does not show that the conclusions materially change under reasonable precisifications. It\u2019s clear and focused, with little dead weight, but overall poses only a small problem for the position as written.",
+  "title": "Ambiguous definitions of \"best future\" leave conclusions vulnerable to subjective values"
+}

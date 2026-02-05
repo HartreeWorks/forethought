@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.45,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.85,
+  "overall": 0.25,
+  "reasoning": "The critique targets the essay\u2019s Section 3.5 claim that (some) \u201cfairest\u201d intertheoretic comparison methods make unbounded views loom larger and thus support fussiness. That section is supplementary to the core \u201cno easy eutopia\u201d case (which mainly relies on eutopian fragility/product-of-factors and the fussiness analysis for particular moral views), so centrality is moderate rather than high. The critique is fairly strong against the move from \u2018range normalization has problems\u2019 to a directional takeaway favoring fussiness, and it rightly notes that the essay\u2019s own examples show recommendation-flips across plausible aggregation methods, which undercuts using moral uncertainty as supportive evidence. However, the essay itself repeatedly flags the underdetermination and says it won\u2019t push strong conclusions, so some of the critique is partially \u2018priced in\u2019 and doesn\u2019t deeply damage the main thesis. The points made are mostly correct and clearly stated, with little filler; it stays mostly on one issue (intertheoretic normalization/decision under deep moral uncertainty) though it brings in a few adjacent decision-rule alternatives.",
+  "title": "Moral uncertainty methods are too underdetermined to support the fussiness conclusion"
+}

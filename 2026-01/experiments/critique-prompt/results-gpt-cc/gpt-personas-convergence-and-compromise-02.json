@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.45,
+  "correctness": 0.7,
+  "clarity": 0.88,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.36,
+  "reasoning": "The critique targets a fairly central pillar of the essay\u2019s optimism: that partial AM-convergence plus moral trade/compromise can plausibly steer toward a mostly-great future (section 3 and the conclusion treat this as the most promising route). If this mechanism is systematically incentive-incompatible, that meaningfully weakens the essay\u2019s outlook, though it wouldn\u2019t fully collapse the broader position (which also discusses WAM-convergence, blockers, and other paths). The argument has real force: trade premised on asymmetric moral intensity can create incentives for strategic exaggeration, commitment to extortion, and selection effects that favor credible defectors over sincere moral agents, pushing allocations away from \u201ccorrectness.\u201d However, it doesn\u2019t fully refute the trade route because (i) the essay already anticipates a nearby problem in 3.3 (threats/extortion) and flags institutional prevention as pivotal, and (ii) the critique overstates inevitability (\u201cin equilibrium\u2026\u201d) without engaging possible mitigations (verification/skin-in-the-game, mechanism design, reputational equilibria, anti-extortion norms/contracts, limiting negotiable domains). Overall it\u2019s clear, mostly accurate as a risk claim, low on fluff, and focused on a single issue, but only moderately damaging given partial overlap with acknowledged concerns and lack of engagement with countermeasures.",
+  "title": "Moral trade rewards strategic misrepresentation over genuine value convergence"
+}

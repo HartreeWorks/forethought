@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.25,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique targets the paper\u2019s treatment of scale/scope (linear views imply vast scale is needed; some bounded views could treat a solar-system utopia as near-maximal). Scale is a meaningful component of the paper\u2019s case for \u201cno easy eutopia,\u201d but it\u2019s not the whole case (the paper also leans heavily on many other fragility dimensions), so centrality is moderate. The refutation strength is limited because the alleged \u2018internal tension\u2019 largely dissolves on a literal read: the paper is not simultaneously endorsing and rejecting scope sensitivity, but conditionally analyzing different moral views (unbounded linear vs bounded/difference-making), and its label \u201cfussy\u201d is descriptive (narrow target), not a decisive objection. Still, the critique correctly flags a potential argumentative gap: the paper relies on intuitive unease about fanatical scope-sensitivity to motivate boundedness, while also using scope-sensitivity to argue linear views make eutopia hard, and it doesn\u2019t fully articulate a principled meta-stance about when scope sensitivity should be expected. The critique is clear, focused, and contains little dead weight.",
+  "title": "Selective application of scope sensitivity creates internal tension"
+}

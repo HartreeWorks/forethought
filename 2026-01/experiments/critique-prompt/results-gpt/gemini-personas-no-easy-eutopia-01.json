@@ -1,0 +1,11 @@
+{
+  "centrality": 0.42,
+  "strength": 0.28,
+  "correctness": 0.62,
+  "clarity": 0.73,
+  "dead_weight": 0.12,
+  "single_issue": 0.86,
+  "overall": 0.25,
+  "reasoning": "The critique targets the essay\u2019s setup of evaluating \u201cmostly-great futures\u201d under a baseline distribution with \u201cno serious coordinated de dicto optimization,\u201d arguing that once such stakes are articulated, incentives push actors to politicize and Goodhart proxies, collapsing the baseline assumption and producing authoritarian/metric-gamed steering. This is moderately central: if the baseline distribution is ill-posed or unstable under reflection/publication, that weakens the practical applicability of the essay\u2019s \u2018target size\u2019 claims, but it does not directly refute the core normative/philosophical thesis that value is fragile or that many moral views are fussy. Strength is limited because the essay already distinguishes \u2018target size\u2019 from navigation/steering forces and explicitly brackets optimization pressure; the critique mostly says the bracket is unrealistic, without showing that the conceptual comparison (easy vs no-easy eutopia) can\u2019t be made or that the conclusion is false under the intended conditional. It also relies on contestable game-theoretic predictions (inevitable defection/authoritarian equilibrium, no incentive-compatible separation), which are plausible but not demonstrated. Correctness is moderate: Goodhart/metric gaming and politicization risks are real, but the \u2018immediate\u2019 and \u2018no stable way\u2019 claims are overstated. Clarity is fairly good: a coherent failure mechanism is described, though key terms (proxy, incentive-compatible, equilibrium) aren\u2019t operationalized. Dead weight is low: most sentences contribute to the single main line. It largely focuses on one issue (incentives/Goodhart undermining the conditional framework), with only minor extra rhetorical framing.",
+  "title": "Fussy eutopia framing invites strategic defection and authoritarian Goodharting"
+}

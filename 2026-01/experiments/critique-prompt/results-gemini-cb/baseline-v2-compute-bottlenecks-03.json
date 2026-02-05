@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.5,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique targets a specific and relevant lever in the position\u2019s rebuttal to compute bottlenecks: the claim that smaller/cheaper experiments can substitute for near-frontier experimentation, raising effective substitutability (rho) between cognitive labor and compute. If this substitution fails, one of the position\u2019s important escape hatches weakens, but the broader position has multiple independent counters (e.g., longer-run reconfiguration/Jones-style adaptation, non-experiment routes, algorithmic efficiency increasing experiment throughput, questioning CES extrapolation), so centrality is moderate rather than high. The argument has moderate strength: emergent capabilities and scale-dependent behaviors do undermine naive extrapolation from small models, but the critique doesn\u2019t show that small-scale proxies are generally unusable, nor that near-frontier experiments are strictly required for most progress. Empirically, the claims about emergence/threshold effects are directionally plausible though somewhat overstated and not decisive against all proxy strategies, so correctness is fairly high but not perfect. It is clear, focused, and contains little to no filler.",
+  "title": "Small-scale experiments fail to predict emergent frontier model behaviors"
+}

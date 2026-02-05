@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.35,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets the independence assumption in the toy multiplicative model in \u00a72.4. That model is supportive of (and rhetorically important for) the \u2018eutopia is fragile\u2019 claim, but it is not the essay\u2019s only (or even main) support for \u2018no easy eutopia\u2019\u2014the position also relies heavily on the long list of plausible single-point moral failures and on the later \u00a73 argument about bounded/unbounded moral views. So centrality is moderate-low. The point has some force: strong positive correlations among \u201ccivilizational competence\u201d factors would make the toy model\u2019s distribution less skewed and could make mostly-great futures more common than the independent-uniform product suggests. However, the critique overstates this as \u201cbreaking\u201d the inference: the essay presents the product model explicitly as a toy/illustrative model and only claims \u2018relatively independent factors\u2019; moreover, many cited dimensions could be weakly correlated, nonlinearly related, or even negatively correlated across moral perspectives, so adding correlation doesn\u2019t straightforwardly rescue easy-eutopia. Thus strength is limited. The critique is mostly correct in the narrow sense (independence is a substantive assumption and covariance matters), but it makes a stronger conclusion than warranted, so correctness isn\u2019t perfect. It\u2019s clear, focused, and contains essentially no dead weight.",
+  "title": "Correlated civilizational competencies undermine the independent factors model"
+}

@@ -1,0 +1,10 @@
+{
+  "centrality": 0.15,
+  "strength": 0.2,
+  "correctness": 0.5,
+  "clarity": 0.7,
+  "dead_weight": 0.2,
+  "single_issue": 0.8,
+  "overall": 0.1,
+  "reasoning": "The critique argues that the paper's framework could be exploited by adversaries to manipulate collective decision-making about the future. However, this is almost entirely tangential to the paper's actual thesis, which is that eutopia is hard to achieve because the target is narrow (moral views are 'fussy'). The paper doesn't argue about how society should implement decision-procedures or defend against manipulation - it's making a philosophical/normative point about the structure of value. The critique's observation that different normalization methods yield different recommendations is actually acknowledged IN the paper as part of its analysis, not a flaw. The claim about 'motivated cognition' being a 'blueprint for adversarial manipulation' misreads a descriptive warning as prescriptive guidance. The critique is somewhat clear in what it's arguing (adversarial manipulation concerns), but this argument doesn't engage with whether eutopia IS hard to achieve - only with how the framework might be misused. This is like critiquing a physics paper on nuclear reactions by noting it could help bomb-makers. The correctness is middling: it's true that frameworks can be manipulated, but the specific claims about this paper being especially exploitable are unsupported. Low overall because strength \u00d7 centrality is very low."
+}

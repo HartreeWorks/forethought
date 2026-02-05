@@ -1,0 +1,11 @@
+{
+  "centrality": 0.2,
+  "strength": 0.1,
+  "correctness": 0.25,
+  "clarity": 0.85,
+  "dead_weight": 0.15,
+  "single_issue": 0.95,
+  "overall": 0.1,
+  "reasoning": "The critique targets an alleged political function/motive (\u201celite rent-seeking,\u201d \u201ctechnocratic moral optimizers\u201d) rather than the essay\u2019s core substantive claim that near-best futures are a narrow target due to moral/value fragility and fussiness of plausible value functions. Since the position does not centrally argue for transferring power from democracy to a technocratic caste, refuting the motive story would only weakly affect the position (low centrality). The critique provides little object-level engagement with the essay\u2019s premises (e.g., multiplicative fragility, population ethics/diversity/digital welfare, boundedness/linearity arguments), so it barely weakens what it attacks (low strength). Several characterizations are dubious or overstated (e.g., portraying the authors as calling a \u201chappy, free, abundant\u201d future a moral catastrophe merely for missing a 99.99th-percentile target; the essay\u2019s thresholds and intent are more nuanced), and the principal-agent/\u201cstealing surplus\u201d claim is speculative (low correctness). It is nonetheless understandable and focused (high clarity, single issue), with limited pure filler beyond the rhetorical framing (low-to-moderate dead weight).",
+  "title": "Rejecting common-sense utopia enables elite capture of moral authority"
+}

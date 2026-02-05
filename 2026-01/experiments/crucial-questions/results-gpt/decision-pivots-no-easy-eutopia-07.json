@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.75,
+  "tractability": 0.45,
+  "clarity": 0.7,
+  "decision_hook": 0.95,
+  "dead_weight": 0.15,
+  "overall": 0.62,
+  "reasoning": "This targets a genuine strategic fork the paper foregrounds: different intertheoretic normalisations can flip whether to prefer upside-seeking vs safety-first portfolios, so a settled answer would substantially change priorities (high cruciality, very strong decision hook). It is tightly anchored to the paper\u2019s Sec. 3.5 discussion and its specific \u2018flip\u2019 example, though the underlying issue (intertheoretic comparisons) is broader in moral uncertainty research (moderately high paper-specificity). The question is only partly tractable: you can make progress via axiomatic/desiderata-based audits, impossibility/representation results, and elicitation of stability under scale/cosmology updates, but a uniquely \u2018correct\u2019 rule may be underdetermined (mid-low tractability). Wording like \u2018correct enough to act on\u2019 leaves some ambiguity about success criteria and scope (moderate clarity). Most of the text supports the question rather than padding (low dead weight).",
+  "title": "Which intertheoretic comparison rule justifies upside-seeking versus safety-focused strategies?"
+}

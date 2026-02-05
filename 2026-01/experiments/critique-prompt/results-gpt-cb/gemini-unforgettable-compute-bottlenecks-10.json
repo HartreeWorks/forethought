@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.4,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.33,
+  "reasoning": "The critique targets the author\u2019s operational definition of an SIE (5 OOM \u201ceffective training compute\u201d in <1 year) and argues this proxy can diverge from the key substantive claim (capability sufficient to automate AI R&D and sustain the feedback loop). That is meaningfully central to the stated bottom-line probability estimate, but it doesn\u2019t fully engage the post\u2019s main thesis about compute as a bottleneck (\u03c1/complementarity) and could be partly patched by strengthening the link between effective compute and robust, frontier-relevant capability. The objection is plausible (efficiency metrics/benchmarks can be gamed; regime changes can break correlations; robust evaluation can be compute-hungry), but it doesn\u2019t show that the proxy is actually misleading in the relevant regime or that the author\u2019s conclusions would fail under a better capability-based definition. Mostly correct, clearly stated, and focused, with little extraneous material.",
+  "title": "Effective compute gains don't entail the capability needed for recursive self-improvement"
+}

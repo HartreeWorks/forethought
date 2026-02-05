@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.3,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets the essay\u2019s optimism about moral trade by challenging a key supporting intuition: that large gains from trade will exist because different moral views are often \u2018resource-compatible.\u2019 This matters to the essay\u2019s overall take (trade/compromise is presented as the most promising route to mostly-great futures), but it\u2019s not the only pillar (the essay also emphasizes threats, power concentration, institutions, and cases where trade fails), so centrality is moderate. The argument has some real force: moral trade is about irreversible world-outcomes/control rather than fungible goods, so standard commodity-trade intuitions about liquidity, repurposability, and portfolio optimization can mislead and may reduce expected gains from trade. However, it doesn\u2019t strongly refute the resource-compatibility idea itself: even illiquid, non-fungible allocations can still yield large Pareto improvements when parties value different states, can renegotiate, or can contract over control/commitments; the essay already anticipates cases where compromise yields little. Thus strength is limited. The main claims are broadly correct, though somewhat overstated (in many plausible futures, \u2018galaxy allocations\u2019 could be partially liquid via secondary trade, governance changes, or reversible modifications), so correctness is high but not perfect. The critique is clear, focused, and contains little-to-no dead weight.",
+  "title": "Moral trade lacks the fungibility and liquidity that enable standard economic gains"
+}

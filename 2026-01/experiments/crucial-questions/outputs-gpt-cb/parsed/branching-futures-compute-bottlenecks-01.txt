@@ -1,0 +1,5 @@
+**What is the short-run elasticity of AI R&D progress with respect to added automated “cognitive labor” when training/experiment compute is held fixed (i.e., does progress saturate at ~≤10× or continue past ~≥30× as labor scales by 10–1000×)?**
+   - **The branch point:** *“Strong complementarity (ρ≲−0.3) → early plateau”* vs *“Weak complementarity (−0.2≲ρ<0) → early SIE not compute-bottlenecked.”*
+   - **Paper anchor:** Stress-tests the core claim that economic-manufacturing ρ estimates are misleading for AI R&D and that plausible AI ρ is in **−0.2 to 0**, implying bottlenecks bite late.
+   - **Indicators:** If Branch A is more likely, then adding large amounts of agent-labor (coding/analysis/experiment-design) to a fixed-compute research program yields diminishing returns that flatten quickly (e.g., <10× speedup). If Branch B, measurable speedups keep compounding (e.g., >30×) before flattening.
+   - **Time sensitivity:** **Within 12–18 months**, before labs can scale agentic R&D labor by 1–2 OOM and lock in expectations/policies about takeoff speed.

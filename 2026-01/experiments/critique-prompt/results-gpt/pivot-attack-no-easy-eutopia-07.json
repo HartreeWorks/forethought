@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.45,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.35,
+  "reasoning": "The critique targets the essay\u2019s decision-theoretic/moral-theoretic \u201cfilter\u201d (completeness + VNM axioms \u2192 cardinal v with thresholds like v>0.5), and argues that this makes the headline conclusion (\u201cmost plausible views are fussy / easygoingness unlikely\u201d) overgeneral, at best conditional on VNM-style comparability. This is fairly central because the essay explicitly uses that framework to define and compare \u2018mostly-great\u2019 across futures and to motivate high-stakes comparisons (e.g., eutopia/extinction gambles vs guaranteed great futures). However, the position also offers non-VNM-dependent motivations for fragility/narrow targeting (many single-point moral failures; multiplicative-factor toy model; structural claims about scaling/aggregation) and even flags that some moral views may violate completeness, so the critique doesn\u2019t collapse the whole case. The objection plausibly weakens the scope/ambition of the conclusion and would force either a defense of the VNM restriction or a parallel argument under alternative formalisms, but it doesn\u2019t show that non-VNM views are actually easygoing or that the narrow-target result disappears. Mostly correct, though it somewhat overstates that VNM \u2018pre-decides\u2019 tiny-probability dominance (which depends more on utility shape/unboundedness than VNM per se). Clear, focused, and low on fluff.",
+  "title": "VNM axioms bake in fussiness by excluding incomparability and constraint-based views"
+}

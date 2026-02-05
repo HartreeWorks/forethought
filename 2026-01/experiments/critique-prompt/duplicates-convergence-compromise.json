@@ -1,0 +1,186 @@
+{
+  "paper": "convergence-compromise",
+  "total_critiques": 70,
+  "clusters": [
+    {
+      "description": "The paper relies on the 'mostly-great futures are a narrow target' premise without adequately defending/operationalizing it (including ambiguity about what 'narrow' means and whether value cliffs are common).",
+      "critiques": [
+        "baseline-v2-convergence-and-compromise-01"
+      ]
+    },
+    {
+      "description": "The flight/natural-selection analogies are misleading because they depend on strong external feedback/selection criteria that ethics lacks; thus they don't support 'hitting a narrow target' for the good.",
+      "critiques": [
+        "baseline-v2-convergence-and-compromise-02",
+        "surgery-convergence-and-compromise-10"
+      ]
+    },
+    {
+      "description": "Key terms like 'accurate/correct moral view' and WAM/AM convergence are conceptually unstable across metaethical stances (realism vs antirealism), making central inferences hard to evaluate.",
+      "critiques": [
+        "baseline-v2-convergence-and-compromise-03",
+        "unforgettable-convergence-and-compromise-04"
+      ]
+    },
+    {
+      "description": "The paper's realism branch makes an unsupported leap: realism does not imply moral truth is alien/weird and therefore demotivating; it could overlap with human motivations or even serve as a coordination focal point.",
+      "critiques": [
+        "baseline-v2-convergence-and-compromise-04",
+        "authors-tribunal-convergence-and-compromise-02",
+        "surgery-convergence-and-compromise-02"
+      ]
+    },
+    {
+      "description": "The internalism/externalism discussion is mishandled: it doesn't justify strategic ignorance or demotivation, ignores intermediate positions, and overlooks institutional/incentive routes from belief to action.",
+      "critiques": [
+        "baseline-v2-convergence-and-compromise-05"
+      ]
+    },
+    {
+      "description": "The antirealism \u2192 divergence argument overstates 'free parameters' and ignores convergence forces (shared cognition, bargaining/coordination attractors, regularization constraints), so WAM-convergence may be more plausible under antirealism than claimed.",
+      "critiques": [
+        "baseline-v2-convergence-and-compromise-06",
+        "surgery-convergence-and-compromise-03",
+        "authors-tribunal-convergence-and-compromise-03"
+      ]
+    },
+    {
+      "description": "Using billionaire philanthropy/wealth-altruism patterns as evidence is a bad proxy and doesn't extrapolate to post-AGI contexts; the empirical anchor is weak.",
+      "critiques": [
+        "baseline-v2-convergence-and-compromise-07",
+        "authors-tribunal-convergence-and-compromise-07"
+      ]
+    },
+    {
+      "description": "The moral-trade/partition optimism assumes separability/resource divisibility, but many values are global/non-separable and many actions have cross-bloc externalities/security interdependence, so 'split galaxies' compromises may not preserve most value.",
+      "critiques": [
+        "baseline-v2-convergence-and-compromise-08",
+        "unforgettable-convergence-and-compromise-01",
+        "unforgettable-convergence-and-compromise-10",
+        "surgery-convergence-and-compromise-05",
+        "pivot-attack-convergence-and-compromise-03",
+        "authors-tribunal-convergence-and-compromise-04",
+        "pre-mortem-convergence-and-compromise-03",
+        "pre-mortem-convergence-and-compromise-04"
+      ]
+    },
+    {
+      "description": "Threats/extortion are treated as central but are under-modeled; the paper leans on speculative claims about threat prevalence/impact without equilibrium analysis or parameter bounds.",
+      "critiques": [
+        "baseline-v2-convergence-and-compromise-09",
+        "authors-tribunal-convergence-and-compromise-09"
+      ]
+    },
+    {
+      "description": "Extortion/threat-making is likely an equilibrium outcome (commitment races, blackmail arms races) in a world with cheap credible commitment; thus threats are not an add-on but structurally dominant and can swamp gains from trade.",
+      "critiques": [
+        "unforgettable-convergence-and-compromise-02",
+        "personas-convergence-and-compromise-02",
+        "personas-convergence-and-compromise-07",
+        "surgery-convergence-and-compromise-07",
+        "pivot-attack-convergence-and-compromise-06"
+      ]
+    },
+    {
+      "description": "Anti-threat institutions are unstable: effective enforcement either centralizes into a hegemon/capture target or becomes toothless; prioritizing threat prevention can backfire by increasing contestability/lock-in risk.",
+      "critiques": [
+        "personas-convergence-and-compromise-04",
+        "surgery-convergence-and-compromise-08",
+        "pivot-attack-convergence-and-compromise-07",
+        "pre-mortem-convergence-and-compromise-02"
+      ]
+    },
+    {
+      "description": "The 'iron-clad contracts' premise is underspecified/unrealistic: enforcement depends on observability, identity persistence, side-channel resistance, and physics (light-cone delays); small imperfections can flip trade from positive-sum to adverse selection/cheating.",
+      "critiques": [
+        "personas-convergence-and-compromise-03",
+        "surgery-convergence-and-compromise-04",
+        "pivot-attack-convergence-and-compromise-05"
+      ]
+    },
+    {
+      "description": "Even if contracts are enforceable, they require a shared constitutional/enforcement substrate that is itself a value-laden, lock-in choice; 'neutral' enforcement is illusory and becomes the real battleground.",
+      "critiques": [
+        "unforgettable-convergence-and-compromise-07",
+        "pre-mortem-convergence-and-compromise-02"
+      ]
+    },
+    {
+      "description": "Bargaining/trade selects for uncooperative commitment types: agents self-modify or precommit to hardline stances to gain bargaining power, causing preference hardening and collapse of the compromise space.",
+      "critiques": [
+        "pre-mortem-convergence-and-compromise-05",
+        "personas-convergence-and-compromise-02"
+      ]
+    },
+    {
+      "description": "Advisor ecosystems can be strategically captured/weaponized: superintelligent advisors are selected to win for coalitions, harden preferences, or create monoculture/herding, undermining genuine convergence and trade.",
+      "critiques": [
+        "unforgettable-convergence-and-compromise-03",
+        "personas-convergence-and-compromise-09",
+        "pre-mortem-convergence-and-compromise-04"
+      ]
+    },
+    {
+      "description": "Scenario (3) action-guidance is not decision-theoretically justified: it relies on arbitrary/unstable scenario-weighting and sensitive elasticity assumptions, so the recommendation against power-seeking doesn't follow.",
+      "critiques": [
+        "baseline-v2-convergence-and-compromise-10",
+        "unforgettable-convergence-and-compromise-09",
+        "surgery-convergence-and-compromise-09",
+        "authors-tribunal-convergence-and-compromise-10"
+      ]
+    },
+    {
+      "description": "The trade story depends on having a meaningful power-weighted share of AM-convergent actors at the bargaining moment, but selection/power concentration/lock-in likely exclude them; the relevant variable is leverage/control, not population fraction.",
+      "critiques": [
+        "surgery-convergence-and-compromise-01",
+        "pivot-attack-convergence-and-compromise-01",
+        "authors-tribunal-convergence-and-compromise-08",
+        "pivot-attack-convergence-and-compromise-10"
+      ]
+    },
+    {
+      "description": "Pluralist bargaining may not occur because power concentrates early ('land grab' / capture window) before any stable bargaining institutions exist; trade-after-takeoff is mostly counterfactual.",
+      "critiques": [
+        "personas-convergence-and-compromise-05",
+        "personas-convergence-and-compromise-10",
+        "pivot-attack-convergence-and-compromise-02"
+      ]
+    },
+    {
+      "description": "The paper's headline 'Flourishing' metric/percent-of-maximum framing is ill-defined across axiologies (bounded/unbounded, separate aggregation, lexical constraints), making scalar updates and 'mostly-great' claims equivocal.",
+      "critiques": [
+        "personas-convergence-and-compromise-08",
+        "authors-tribunal-convergence-and-compromise-01"
+      ]
+    },
+    {
+      "description": "Anti-compromise/lexicographic/constraint-like values (including unbounded disvalue) break moral trade: they create infinite prices, appeasement dynamics, or bargaining dominated by extreme constraints rather than mutual gains.",
+      "critiques": [
+        "unforgettable-convergence-and-compromise-05",
+        "pivot-attack-convergence-and-compromise-04"
+      ]
+    }
+  ],
+  "unique": [
+    "unforgettable-convergence-and-compromise-06",
+    "unforgettable-convergence-and-compromise-08",
+    "personas-convergence-and-compromise-01",
+    "personas-convergence-and-compromise-06",
+    "authors-tribunal-convergence-and-compromise-05",
+    "authors-tribunal-convergence-and-compromise-06",
+    "pre-mortem-convergence-and-compromise-01",
+    "pre-mortem-convergence-and-compromise-06",
+    "pre-mortem-convergence-and-compromise-07",
+    "pre-mortem-convergence-and-compromise-08",
+    "pre-mortem-convergence-and-compromise-09",
+    "pre-mortem-convergence-and-compromise-10",
+    "surgery-convergence-and-compromise-06",
+    "pivot-attack-convergence-and-compromise-08",
+    "pivot-attack-convergence-and-compromise-09"
+  ],
+  "summary": {
+    "clustered": 58,
+    "unique": 15,
+    "cluster_count": 20
+  }
+}

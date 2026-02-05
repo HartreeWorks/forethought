@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.55,
+  "correctness": 0.8,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets one specific, but non-decisive, argumentative move in the position: the claim that declining counts of near-frontier experiments without slowing progress suggests near-frontier runs aren\u2019t a bottleneck (and thus weakens the \u2018frontier validation is fixed\u2019 reply). If that move fails, it meaningfully weakens one of the position\u2019s counters to compute-bottleneck skepticism, but does not collapse the overall case because the post offers several other independent reasons to expect higher substitutability / weaker bottlenecks. The critique\u2019s alternative causal story (a few frontier \u201canchor\u201d runs enabling lots of downstream non-frontier progress) is coherent and directly undercuts the inference from the historical trend, and it also plausibly explains why bottlenecks could newly bind when hypothesis generation scales faster than frontier-run capacity. However, it remains largely programmatic/speculative and doesn\u2019t supply evidence that the anchor-run story is actually the dominant driver historically or that marginal value per frontier run would scale in the way asserted, so it weakens rather than refutes. Most claims are plausible and internally consistent; clarity is good and it stays focused with minimal fluff.",
+  "title": "Past progress may hinge on scarce frontier anchors, so compute can bottleneck SIEs"
+}

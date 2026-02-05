@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.7,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique targets one of the position\u2019s key supports for taking \u03c1 close to 0 seriously (the appeal to long-run/Cobb\u2013Douglas-style estimates via Jones). Undercutting that analogy matters, but the overall post gives many other, largely independent reasons to expect weak compute bottlenecks (e.g., experiment-efficiency gains, implausibly-low implied max speeds, alternative research routes), so centrality is moderate rather than high. The objection is fairly strong against that specific move: long-run macro estimates typically reflect simultaneous adjustment in techniques and capital accumulation, so they are weak evidence about what happens when L increases while K is held fixed; this substantially weakens point (2) in the position. It doesn\u2019t fully refute the broader conclusion because the author only partly relies on this and could retreat to other arguments or argue that \u201creconfiguration\u201d is mostly software/process rather than physical-K growth. The critique\u2019s empirical/economic claim is largely correct, and it is clearly stated, focused, and contains little extraneous material.",
+  "title": "Long-run estimates bundle capital accumulation that AI reorganization cannot replicate"
+}

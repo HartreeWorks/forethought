@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.25,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.18,
+  "reasoning": "The critique targets a real concern (institutional moral-steering capacity can be captured, enabling value lock-in toward bad ends), but this is not very central to the essay\u2019s main claim that the \u201ceutopian target\u201d is narrow / mostly-great futures are rare by default. It engages more with the downstream \u201cnavigation/steering\u201d question (explicitly deferred to a later essay) than with this essay\u2019s core argument about target size and moral fussiness. Moreover, the position already gestures at meta-level perils like value lock-in (\u201cwrong reflective process\u201d, locking in unreflective values, hyper-vigilance causing harm), so the claim that this risk is not considered is partly overstated, reducing strength/correctness. The capture/temptation argument is plausible but presented without much specificity about mechanisms, countermeasures, or why it undermines (rather than complements) the paper\u2019s conclusions. It is clearly written, focused on one main issue, and contains little dead weight.",
+  "title": "Coordination mechanisms powerful enough to reach eutopia could be captured for tyranny"
+}

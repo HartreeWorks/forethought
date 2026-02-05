@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.35,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.2,
+  "reasoning": "The critique targets the paper\u2019s formal benchmarking move: defining \u201cbest feasible future\u201d via the 99.99th percentile of a \u201cwell\u2011informed\u201d probability distribution, then setting eutopia/mostly-great as fractions of that. This matters because later fussiness/rarity talk is partly framed relative to that benchmark and to likelihood under a default distribution. However, the paper\u2019s core thrust (many independent moral dimensions; fussy value functions; fragility) can largely be restated with alternative benchmarks (e.g., \u2018best physically/technologically feasible\u2019 or \u2018best in some reference class\u2019) without collapsing, so centrality is moderate, not high. Strength is moderate-low: the critique shows the percentile definition is distribution-relative and mixes feasibility with probability, which introduces ambiguity and can shift thresholds under different priors, but it doesn\u2019t strongly refute the substantive claim that near-best futures are narrow/hard\u2014it mainly pressures the objectivity/interpretation of the formalization. Most claims in the critique are correct (distribution relativity, unspecified credences, feasibility/probability conflation), and it\u2019s clearly stated with little extraneous material and a single focus.",
+  "title": "The percentile-based benchmark conflates feasibility with probability under unspecified priors"
+}

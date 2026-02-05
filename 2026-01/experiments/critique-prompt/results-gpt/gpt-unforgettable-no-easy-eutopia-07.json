@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.55,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.35,
+  "reasoning": "The critique targets a specific step in \u00a73.3: the move from \u201cbounded value over the whole universe\u201d + \u201chuge/infinite universe so our impact is tiny\u201d to \u201cpractically linear, hence fussy.\u201d That step is part of the essay\u2019s taxonomy arguing most plausible value functions are fussy, but it\u2019s not the core of the overall \u2018no easy eutopia\u2019 case (which also rests heavily on eutopian fragility/multiplicative factors, unbounded linear views, and bounded difference-making views). So centrality is moderate-low. The objection has real bite insofar as the essay explicitly relies on smooth/concave reasoning (\u201cstrictly concave\u2026 approximately linear\u201d) and the critic correctly notes this does not cover non-differentiable/threshold/lexical/constraint-based bounded views; such views could avoid the linearization claim, so the section would need qualification or reworking to justify its breadth. However, the critique overreaches a bit by implying this misclassification covers \u201ca large region\u201d without argument, and some cited alternatives (rights constraints/lexical priorities) may fall outside the essay\u2019s stated VNM/complete/expected-utility representability assumptions (though some thresholds can still be represented), which limits how far the objection applies. Clarity is high, dead weight low, and it stays tightly on one issue. Overall, it meaningfully weakens one argumentative route to \u2018bounded views are fussy\u2019 but doesn\u2019t seriously threaten the essay\u2019s broader conclusion by itself.",
+  "title": "Cosmological linearization fails for non-smooth bounded value functions"
+}

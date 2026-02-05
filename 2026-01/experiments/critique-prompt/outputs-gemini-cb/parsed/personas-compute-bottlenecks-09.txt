@@ -1,0 +1,4 @@
+[The Adversarial Red-Teamer]
+**Target claim:** The ability to "stop experiments early" and "optimize every part of the stack" as a source of efficiency.
+**Failure mode:** Hyper-optimization removes redundancy and safety margins. A system that has been "fully optimized" by an SIE to run on fixed compute is brittle. It creates a monoculture of highly specialized algorithms that are vulnerable to slight distribution shifts or adversarial perturbations that a less optimized, more robust system would handle. The search for efficiency creates attack surfaces that didn't exist before.
+**Consequence:** The result is not a superintelligence, but a "glass cannon"—extremely powerful on the specific distribution it was trained on, but prone to catastrophic failure when deployed in the chaotic real world, nullifying the value of the acceleration.

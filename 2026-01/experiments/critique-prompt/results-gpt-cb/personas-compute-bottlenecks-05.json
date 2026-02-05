@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.25,
+  "reasoning": "The critique targets an important implicit assumption in the position: that vastly increased cognitive labor (many AGI researchers) can be converted fairly efficiently into genuine algorithmic progress at roughly fixed compute, and that we can \u201cchoose routes\u201d that maximize effective substitutability. If strategic incentives and poor coordination cause large redundant experimentation/compute waste, then effective compute becomes scarcer and the position\u2019s optimistic take on bottlenecks is weakened\u2014so centrality is moderate. However, the position is mainly about physical/technical substitutability, and the critique introduces an additional sociotechnical factor that could be mitigated (e.g., a single lab with strong centralized control, aligned internal incentives, or AI agents optimized for lab goals rather than prestige), so it doesn\u2019t decisively refute the argument; strength is moderate-low. The underlying claims (race dynamics, duplication due to lack of trust, metric-gaming, hoarding) are generally plausible but the magnitude is asserted rather than demonstrated, so correctness is decent but not near-certain. The critique is clear, focused on one main mechanism, and has little filler.",
+  "title": "Strategic competition and misaligned incentives reduce effective compute for algorithmic progress"
+}

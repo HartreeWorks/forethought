@@ -1,0 +1,32 @@
+# Forethought experiment: Test ACORN grader on prompt chain outputs
+# Tests the ACORN rubric as an internal/external grader for paper critiques
+description: "Forethought critique grading experiment"
+
+providers:
+  - id: anthropic:messages:claude-sonnet-4-20250514
+    label: "Claude Sonnet 4"
+    config:
+      temperature: 0
+      max_tokens: 2000
+
+prompts:
+  - id: acorn-rubric
+    label: "ACORN rubric"
+    raw: file://prompts/grader-v2-acorn-rubric.txt
+
+tests:
+  - file://tests/forethought-test.yaml
+
+# Output settings
+outputPath: ./output/forethought-results.json
+
+# Default test configuration
+defaultTest:
+  options:
+    transformVars: |
+      // Truncate very long positions/critiques for readability in UI
+      return {
+        ...vars,
+        position_preview: vars.position?.substring(0, 200) + '...',
+        critique_preview: vars.critique?.substring(0, 200) + '...',
+      };

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.25,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.15,
+  "reasoning": "The critique targets the paper\u2019s scale/scope-sensitivity framing (notably the \u2018scale-insensitivity\u2019 discussion and the linear/unbounded-resource argument), which is an important strand but not the whole basis for \u2018no easy eutopia\u2019 (the paper also leans heavily on moral-catastrophe fragility, multiplicative-factor models, and fussiness across many moral views). If the critique landed fully, it would weaken a meaningful portion of the case but wouldn\u2019t collapse the overall position (moderate centrality). As argued, it mostly alleges under-engagement/loaded framing rather than directly rebutting the substantive claims about linear views, fat tails, or why scale might dominate on some views; it also doesn\u2019t show that person-affecting/average/variable-value views make eutopia easy rather than merely different (low-moderate strength). Still, it\u2019s largely correct that the paper sometimes treats resistance to scale as \u201cmisguided\u201d and doesn\u2019t deeply engage classic population-ethics alternatives, though it does gesture at them (moderately high correctness). The critique is clear, focused, and has little dead weight.",
+  "title": "Dismissing scope-insensitivity as bias ignores substantive population ethics objections"
+}

@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.6,
+  "tractability": 0.55,
+  "clarity": 0.75,
+  "decision_hook": 0.9,
+  "dead_weight": 0.15,
+  "overall": 0.68,
+  "reasoning": "Cruciality is high because the paper\u2019s main optimism channel (partial AM-convergence + trade/compromise) largely collapses if the future is primarily shaped by evolutionary dynamics or autonomous/misaligned AI agency, shifting priorities toward earlier alignment/control and security. Paper-specificity is moderate: it clearly targets this paper\u2019s explicit \u2018blocker\u2019 (\u00a72.5) and the assumed availability of agentic deliberation/trade, but the underlying question (who/what are the relevant future agents?) is also a common concern across AI governance/alignment work. Tractability is middling: you can make partial progress via operational proxies (e.g., historical/political economy of \u201cdeliberative steering\u201d vs selection dynamics, institutional capacity measures, models of AI takeoff/agency, concentration-of-power forecasting), but a decisive answer is hard and confounded by deep uncertainty. Clarity is decent but not crisp: \u201cchoose its future,\u201d \u201cevolutionary forces,\u201d and \u201cmisaligned AI agency\u201d bundle multiple mechanisms and time horizons, leaving ambiguity about what empirical signature would settle it. Decision hook is very strong and explicitly bifurcated into distinct strategic regimes. Dead weight is low: most framing content directly supports the question and its stakes, though it slightly bundles multiple failure modes (evolutionary dynamics vs misaligned AI) into one.",
+  "title": "Human agency versus evolutionary dynamics in AI futures"
+}

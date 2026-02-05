@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The position\u2019s core thesis is descriptive/philosophical: conditional on survival, near-best/mostly-great futures are a narrow target because value is fragile and most plausible moral views are \u201cfussy.\u201d The critique mainly targets a downstream governance/legitimacy move (treating fussiness/plausibility as grounds to empower \u2018Eutopia Steering Councils\u2019 and privileging demanding theories), arguing this creates a maximalism/selection-effect dynamic that destabilizes institutions. That is only moderately central: it challenges an implied practical inference (\u201ctherefore institutionalize fussy optimization\u201d), but does not directly undermine the main argument that many moral views are fussy or that eutopia is hard by default. Accordingly, strength is limited: even if the institutional critique is right, the paper\u2019s descriptive claim can remain intact, and the paper even flags (in broad terms) meta-level perils of over-vigilance/overbearing steering. Still, the critique provides a substantive, coherent political-economy failure mode that would weaken certain policy takeaways or implementations. Its claims are broadly plausible but largely speculative and partly attribute to the paper an endorsement (councils/privileging) not contained in the provided text, so correctness is good but not maximal. The critique is clear, focused on one mechanism, and contains little dead weight.",
+  "title": "Equating plausible fussiness with legitimacy empowers maximalists and destabilizes governance institutions"
+}

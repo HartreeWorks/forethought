@@ -1,0 +1,11 @@
+{
+  "centrality": 0.75,
+  "strength": 0.55,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.6,
+  "reasoning": "The critique targets a central move in the essay\u2019s Section 2: the inference from \u201cmany disparate moral hazards\u201d to \u201cmostly-great futures are a narrow target\u201d via (quasi-)independence/fragility and multiplicative-factor thinking. If governance-level \u2018corrigibility levers\u2019 substantially couple or mitigate many first-order hazards, that would undermine the argument that you must \u2018hit many darts\u2019 rather than \u2018build a few robust correction mechanisms,\u2019 so centrality is fairly high (though the essay also has an independent Section 3 route to fussiness that the critique doesn\u2019t directly engage, so not 1.0). Strength is moderate: it\u2019s a plausible objection that institutional design can make many hazards less independent and reduce lock-in, but the critique doesn\u2019t show that such institutions are likely by default, stable at scale, or sufficient against key hazards (e.g., cosmic expansion/first-claim dynamics, rights conflicts, value drift, or meta-level failure modes), many of which the essay anticipates. Correctness is high: it\u2019s broadly true that second-order institutions can address multiple first-order policy mistakes and that the paper would need to argue corrigibility is itself hard/unstable to sustain the narrow-target conclusion. Clarity is high and it stays tightly on one point with little filler.",
+  "title": "Shared governance structures couple moral hazards and reduce independent failure modes"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.75,
+  "strength": 0.35,
+  "correctness": 0.55,
+  "clarity": 0.8,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.3,
+  "reasoning": "The critique targets a central load-bearing move in the essay\u2019s Section 3: the taxonomy-and-elimination strategy meant to show most plausible moral views are fussy and easygoing views are rare/implausible. If that strategy were shown to be question-begging/selection-biased, a large part of the essay\u2019s support for \u201cno easy eutopia\u201d would be undermined (though Section 2\u2019s independent \u201cfragility/many dimensions\u201d argument would still stand), hence fairly high centrality. However, the critique mostly asserts a \u2018rigged by construction\u2019 claim without engaging the essay\u2019s specific reasons for pruning (e.g., why superlinear is implausible, why universal-bounded is practically linear given cosmology, why difference-making boundedness violates stochastic dominance, why separate aggregation yields extreme bad-sensitivity). It doesn\u2019t show those reasons are invalid; it alleges motivated selection. That makes the refutation partial and more rhetorical than diagnostic, so strength is low-moderate. Correctness is mixed: it is true the essay narrows to a small set and then argues the remaining easygoing slice is narrow/implausible, but calling this purely definitional gatekeeping overstates things and ignores that the essay offers substantive objections rather than stipulating them. The critique is clear and focused with little dead weight, largely pressing one meta-level objection about theory-space pruning and \u201cplausibility\u201d filtering.",
+  "title": "Selective pruning of value theories rigs \"plausible\" to entail fussiness"
+}

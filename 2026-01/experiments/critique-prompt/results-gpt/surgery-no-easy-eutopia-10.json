@@ -1,0 +1,11 @@
+{
+  "centrality": 0.75,
+  "strength": 0.35,
+  "correctness": 0.8,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.3,
+  "reasoning": "The critique targets a central inferential step: translating \u201cno de dicto optimization\u201d into \u201clittle optimization pressure toward high value,\u201d hence low frequency of mostly-great futures. If de re/endogenous selection reliably builds moral/institutional guardrails, that would undercut a substantial portion of the paper\u2019s empirical/probabilistic conclusion about rarity among survival-conditioned futures (though not all of the paper\u2019s moral-theoretic case that many views are fussy). Strength is moderate-low because it mostly asserts a plausible countervailing mechanism (institutional/selection dynamics) without showing it robustly handles the specific failure modes the paper highlights (population ethics, digital minds, cosmic resource allocation, fat-tailed value efficiency, etc.), many of which could persist or worsen under competition; it calls for a model rather than providing one. Correctness is fairly high: it\u2019s true that optimization can be de re, endogenous, and can create convergent constraints, and it\u2019s fair to say the paper would need to argue these dynamics fail if it relies on their absence. Clarity is good and focused, with little dead weight, and it is largely a single-issue \u201cequilibrium/selection dynamics\u201d objection. Overall, it\u2019s a reasonable challenge but not yet a decisive problem for the position.",
+  "title": "De re selection pressures may create convergent moral guardrails without de dicto optimization"
+}

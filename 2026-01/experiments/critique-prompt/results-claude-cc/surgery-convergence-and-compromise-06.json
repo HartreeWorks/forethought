@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.1,
+  "correctness": 0.4,
+  "clarity": 0.9,
+  "dead_weight": 0.0,
+  "single_issue": 1.0,
+  "overall": 0.1,
+  "reasoning": "The critique targets a potentially important crux in the essay\u2019s section-3 optimism: if many actors have non-discounting, linear-in-resources values, then compromise/trade may yield limited gains and could reduce the chance of a mostly-great future. However, the essay already discusses this as a live possibility and is explicitly uncertain about how prevalent such views will be; the one-line critique provides no argument or evidence that they will in fact dominate, so it barely weakens the position. The claim is clear and focused, with no dead weight, but its truth is uncertain and its unsupported nature keeps strength and overall score low.",
+  "title": "Non-discounting linear views will dominate long-term resource allocation decisions"
+}

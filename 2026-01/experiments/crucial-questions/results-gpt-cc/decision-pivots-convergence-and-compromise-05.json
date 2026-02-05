@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.86,
+  "paper_specificity": 0.84,
+  "tractability": 0.4,
+  "clarity": 0.76,
+  "decision_hook": 0.96,
+  "dead_weight": 0.22,
+  "overall": 0.66,
+  "reasoning": "Crucial because it targets the paper\u2019s main strategic hinge: whether even low rates of executed threats dominate expected value, flipping priorities between s-risk/threat suppression vs institution-building for compromise/flourishing. Highly paper-specific: it directly interrogates the paper\u2019s \u2018threats can make futures worse than extinction\u2019 mechanism and the 3.4 case split about boundedness/separate aggregation. Tractability is limited: we can make progress via moral-uncertainty models, surveys/elicitation of reflective judgements, and formal sensitivity analyses for a critical threat rate t*, but we cannot realistically \u201cdetermine\u201d the correct axiology or the true aggregation rule in a definitive way. Clarity is decent but not perfect: it bundles several properties (separate aggregation, unbounded downside, overweighting of bads) and mixes \u2018correct\u2019 vs \u2018decision-relevant under moral uncertainty,\u2019 which could lead to scope/target ambiguities. Decision hook is excellent and explicit with threshold regimes and strategy changes. Dead weight is low-to-moderate: the anchor/flip/what-would-answer sections mostly add actionable structure, though the ~0.1% vs ~5\u201310% thresholds are somewhat arbitrary and not essential to state the question.",
+  "title": "Axiology of bads: aggregation rules and critical threat thresholds"
+}

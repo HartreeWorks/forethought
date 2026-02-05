@@ -1,0 +1,11 @@
+{
+  "centrality": 0.8,
+  "strength": 0.45,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.38,
+  "reasoning": "The critique targets a central hinge of the post: that cognitive labor can substitute for compute enough to avoid an early compute bottleneck (high/near-zero complementarity). If verification truly stays compute-bound while generation scales freely, the post\u2019s optimistic conclusions would be substantially weakened. However, the critique largely restates the intuitive bottleneck objection and doesn\u2019t engage several specific counters in the post (e.g., using smaller/cheaper experiments plus extrapolation, algorithmic efficiency increasing the experiment budget, improved experimental design/early stopping, routes that rely less on near-frontier training). It also overstates claims like \u201cthe only way\u201d to verify is full training runs, and treats CES substitutability as \u2018asymmetric\u2019 in a way that is more metaphor than a precise objection to the modeling move. Still, the core point\u2014verification costs can dominate and create queues\u2014is generally plausible and clearly stated, with little filler.",
+  "title": "Verification bottlenecks limit cognitive substitution for empirical compute"
+}

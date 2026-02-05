@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.15,
+  "reasoning": "The critique targets the paper\u2019s fat-tail move in \u00a73.2 (value-per-resource is fat-tailed, so near-optimal resource use is a narrow target), which is one supporting pillar for \u201clinear views are fussy,\u201d but not the whole case for \u201cno easy eutopia\u201d (the paper also leans on many other mechanisms: moral-catastrophe examples, multiplicative fragility framing, and the bounded-views analysis). So centrality is moderate.\n\nHowever, the critique\u2019s core inference is weak: even if many real-world phenomena have fat-tailed distributions, it doesn\u2019t follow that the probability distribution over moral theories (or over \u2018unconceived theories\u2019) is fat-tailed, nor that such a fact would undermine the conditional claim in \u00a73.2 about value-efficiency within linear separable theories. This is close to a category shift/tu quoque: fat tails in one domain don\u2019t automatically transfer to another. The critique also overlooks that the paper explicitly discusses moral uncertainty (\u00a73.5) and already flags incompleteness/unknown unknowns, while still arguing that many plausible ways of aggregating/normalizing tend to preserve fussiness.\n\nStill, parts are directionally correct: the paper would need an argument for why \u2018unconceived moral theories\u2019 don\u2019t dominate credence (or why, even if they do, they wouldn\u2019t make the outlook easygoing). The critique is clearly stated, focused on one issue, and contains little filler.",
+  "title": "Fat-tailed logic about moral theories undermines confidence in fussy value distributions"
+}

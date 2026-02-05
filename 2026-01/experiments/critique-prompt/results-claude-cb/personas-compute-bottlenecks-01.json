@@ -1,0 +1,11 @@
+{
+  "centrality": 0.8,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.35,
+  "reasoning": "The critique targets a central load-bearing step in the post: the move from economy-wide CES estimates to the author\u2019s \u201cmost likely\u201d range (\u03c1 between \u22120.2 and 0) and the resulting conclusion that compute bottlenecks likely won\u2019t bite until late. If the author\u2019s \u03c1-range is unjustified, the main conclusion weakens substantially (high centrality). However, the critique mainly argues \u201cinsufficient empirical grounding\u201d rather than directly refuting the author\u2019s various object-level reasons (e.g., algorithmic efficiency increasing experiment throughput, non-frontier experimentation, changing research processes), so it moderately weakens confidence rather than overturning the case (moderate strength). It is mostly correct that the post lacks AI-specific empirical estimates of substitution elasticity and leans heavily on plausibility arguments, though it overstates with phrases like \u201czero empirical evidence\u201d and \u201cno causal mechanism,\u201d since the post does gesture at mechanisms and some indirect evidence/trends. The critique is clear, focused, and contains little fluff.",
+  "title": "Claims about AI R&D substitution elasticity lack empirical grounding"
+}

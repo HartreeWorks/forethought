@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.12,
+  "reasoning": "The critique targets a subsidiary pessimistic move in \u00a73.2 (that superficially-similar moral views may have low gains from compromise). If that were overturned, it would modestly increase optimism about moral trade, but it wouldn\u2019t undermine the essay\u2019s main conclusions, which hinge more on (i) whether the correct view is linear/unbounded, (ii) power distribution, (iii) feasibility of institutions for trade, and especially (iv) threats and lock-in/blockers. The critique\u2019s core point\u2014that there may be large shared gains from coordinating on avoiding \u201canti-utopia\u201d/catastrophic bads\u2014has some plausibility, but it only weakly engages the specific \u201cnarcissism\u201d claim (about incompatibility when disagreements are over the same domain), and it partly misfires because the essay is largely conditional on survival and already emphasizes the pivotal role of preventing value-destroying threats. It also assumes broad agreement on the badness of suffering/resource-destruction that may not hold across all agents/axiologies. Clear and focused, with little fluff, but not a major problem for the position.",
+  "title": "Shared agreement on avoiding catastrophic outcomes creates substantial gains from trade"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.22,
+  "strength": 0.45,
+  "correctness": 0.72,
+  "clarity": 0.87,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.16,
+  "reasoning": "The critique targets a specific sub-claim in the essay\u2019s argument against WAM-convergence: that if internalism is true, people may avoid learning/believing the correct moral view because it would motivate costly action. This is only one support among many (externalism, antirealism-driven divergence, power concentration, lock-in, threats, etc.), so even fully defusing it would not greatly change the essay\u2019s overall conclusions (moderate centrality). The critique has some force: internalism doesn\u2019t by itself imply agents can reliably prevent moral belief formation, and the step from \u2018moral belief is motivating\u2019 to \u2018people will choose not to learn/believe\u2019 is not entailed and needs more psychological/institutional story. Still, the essay only claims \u2018might\u2019/plausibility and motivated avoidance/doxastic insulation is psychologically common, so the critique only partially undercuts the point (moderate-low strength). The critique\u2019s main claims are broadly correct, though it likely over-assumes stable truth-tracking institutions and understates motivated cognition/avoidance dynamics (good but not perfect correctness). It is clear, focused, and contains little fluff.",
+  "title": "Internalism does not imply agents can stably avoid moral belief formation"
+}

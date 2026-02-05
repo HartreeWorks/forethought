@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.45,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.35,
+  "reasoning": "The critique targets the essay\u2019s main optimistic route to mostly-great futures under \u201cno easy eutopia\u201d: partial AM-convergence plus moral trade/compromise (section 3). If commitment races and hardline precommitments systematically block trade, that would materially weaken the essay\u2019s most promising pathway, though it wouldn\u2019t fully collapse the overall position (the essay already remains uncertain, discusses threats, and allows other pathways), hence moderately high centrality. The strength is moderate: the point is directionally plausible (credible commitment, reputation/selection effects, and linear/non-discounting utilities can make concessions extremely costly), but it\u2019s asserted rather than demonstrated, it overgeneralizes with \u201cdominant strategy\u201d language, and it doesn\u2019t engage with countervailing mechanisms the essay gestures at (institution design, enforcement, bargaining solutions, anti-threat norms, delegation choices). Correctness is fairly high but not perfect for the same reason: the underlying game-theoretic dynamic is real in some models, but not a blanket result. The critique is clear, focused on a single mechanism, and contains little fluff.",
+  "title": "Commitment races may dominate compromise in bargaining games"
+}

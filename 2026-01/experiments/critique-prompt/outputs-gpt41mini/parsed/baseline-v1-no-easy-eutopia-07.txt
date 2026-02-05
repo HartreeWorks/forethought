@@ -1,0 +1,1 @@
+The paper’s model assumes independence between factors reducing future value, yet it ignores how some factors might be correlated or causally linked, thereby overweighting the likelihood of multiplicative failure and possibly exaggerating eutopian fragility.

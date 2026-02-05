@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.2,
+  "correctness": 0.7,
+  "clarity": 0.75,
+  "dead_weight": 0.3,
+  "single_issue": 0.95,
+  "overall": 0.15,
+  "reasoning": "The critique targets Section 3.5\u2019s treatment of moral uncertainty/intertheoretic comparisons. That section is relevant to the essay\u2019s practical upshots (how to choose under moral uncertainty), but it is not the main support for the core \u201cno easy eutopia / most plausible views are fussy\u201d conclusion, so centrality is moderate-low. The critique\u2019s argumentative force is weak because it is largely generic: it alleges arbitrariness and insufficient engagement with objections without specifying which normalization choices fail, which objections matter, or how the paper\u2019s conclusions would change. The paper also explicitly flags the thorniness and demonstrates multiple normalizations, which partly defuses the charge. Still, it\u2019s broadly correct that intertheoretic aggregation is underdetermined and that conclusions about \u2018which option to prefer under uncertainty\u2019 depend sensitively on contested normalization choices. The point is fairly clear, focuses on a single issue, and contains some vagueness/handwaving that counts as dead weight.",
+  "title": "Intertheoretic value aggregation methods lack sufficient philosophical justification"
+}

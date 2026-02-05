@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.78,
+  "paper_specificity": 0.92,
+  "tractability": 0.62,
+  "clarity": 0.74,
+  "decision_hook": 0.95,
+  "dead_weight": 0.08,
+  "overall": 0.76,
+  "reasoning": "Cruciality is high because the answer directly bears on whether governance should prioritise urgent, pre-takeoff lock-in prevention versus slower iterative institution-building. Paper-specificity is very high: it targets a concrete empirical/strategic claim the paper uses to motivate fragility/path-dependence (Section 2.3.4). Tractability is moderate: partial answers are possible via modelling (space industrialisation rates under AI/robotics, launch/energy constraints, replicator dynamics, property-rights/game-theoretic first-mover advantages, historical analogues like spectrum/orbit allocation), but deep uncertainty and dependence on future AI capabilities limit definitiveness. Clarity is good but not perfect because key terms (\u201cessentially all resources,\u201d what counts as \u2018capture,\u2019 and what duration qualifies as \u2018short lock-in window\u2019) are not operationalised. Decision hook is excellent with explicit strategic branches. Dead weight is low: the question, anchor, and implications are tightly stated. Overall is strong given high importance and paper-tethering, with the main deductions coming from operational ambiguity and uncertainty-limited tractability.",
+  "title": "Speed and reversibility of space resource lock-in dynamics"
+}

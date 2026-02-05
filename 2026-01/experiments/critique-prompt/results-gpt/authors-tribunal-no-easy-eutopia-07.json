@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.6,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.35,
+  "reasoning": "The critique targets a real move in Section 2: motivating \u201ceutopian fragility\u201d by pointing to how many moral perspectives would label some feature of an otherwise-advanced society a \u2018catastrophe\u2019. If that move fails, it weakens a major intuitive pillar/illustrative motivation for \u2018no easy eutopia\u2019, but the position has substantial independent support in Section 3 (bounded/unbounded value-function analysis and moral uncertainty), so the attacked point is not fully load-bearing (moderate centrality). On its own terms, the critique is fairly strong: mere pluralism/disagreement doesn\u2019t establish that near-best futures are rare without an explicit story about which moral views are credence-weighted and how value-loss is computed; otherwise it can collapse into \u2018someone will object to anything\u2019. However, the position partly anticipates this by later discussing moral uncertainty and by using Section 2 more as an existence/illustration-of-nonobvious-flaws argument than as a formal inference from sociological disagreement, so the refutation is not complete. The critique is mostly correct but slightly overstates how much the paper relies on sociological pluralism rather than on normative uncertainty/fragility claims. It is clear, focused, and contains little to no filler.",
+  "title": "Moral disagreement doesn\u2019t imply eutopia is rare without explicit aggregation or credences"
+}

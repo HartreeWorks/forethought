@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.33,
+  "reasoning": "The critique targets the post\u2019s core analytic move of evaluating whether a \u201csoftware-only\u201d acceleration can proceed while holding compute/hardware fixed, arguing this is not a stable real-world condition because efficiency gains raise the marginal value of compute and induce an arms race. This is moderately central because the post\u2019s conclusion is explicitly about bottlenecks under (effectively) fixed hardware, but the critique is partly an \u2018external validity\u2019 objection rather than a direct refutation of the post\u2019s claim that compute bottlenecks may not bite early. It weakens the practical relevance of the fixed-K ceiling framing, but does not show that substitutability is low or that compute bottlenecks actually prevent fast software-driven progress; the post can treat fixed-K as a bounding/diagnostic exercise and still maintain its within-model conclusions. Most claims (compute endogeneity under competition, governance lag) are plausible, but the critique overstates by implying the author assumes actors \u201csit still\u201d and by asserting the equilibrium will be dominated by compute/geopolitics without demonstrating that this overturns the post\u2019s main conditional claims. The critique is clear, focused, and contains little filler.",
+  "title": "Holding compute fixed is not a stable equilibrium in competitive environments"
+}

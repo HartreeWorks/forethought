@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.35,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.9,
+  "overall": 0.22,
+  "reasoning": "The critique targets a fairly central pillar: the essay\u2019s framing of \u201cmoral catastrophe\u201d and \u201clost value\u201d often leans on there being determinate betterness facts (via a complete VNM-style ordering) such that many plausible-seeming futures can be far from near-best. If that framing were incoherent under deep moral indeterminacy/incomparability, the \u201cfragility from moral error\u201d motivation would weaken. However, it is not fully central because the position explicitly restricts attention to complete, VNM-representable views and also makes much of the argument go through conditional on a given moral view (or under moral uncertainty aggregation), without requiring robust realism in metaethics. So the paper can largely reply: (i) we are analyzing views with determinate orderings; (ii) even constructivist/anti-realist agents can have determinate evaluative standards that make \u2018missing value\u2019 meaningful; and (iii) the narrow-target claim can be driven by within-view structural features (multiplicativity, fat tails, scale sensitivity), not merely \u201cother views might condemn it.\u201d\n\nStrength is moderate-low: the critique raises a real tension (calling disagreements \u201cerrors\u201d vs acknowledging persistent underdetermination), but it doesn\u2019t directly engage the paper\u2019s explicit decision-theoretic setup (cardinal representation of an ordering over prospects) or show that under plausible non-realist/indeterminist metaethics the \u2018no easy eutopia\u2019 conclusion fails rather than merely needs reframing. Correctness is fairly high: it\u2019s true the argument\u2019s rhetoric relies on \u2018moral error\u2019 language and that many cited domains are contested/underdetermined; but it overstates the dependence on \u201crobust moral realism,\u201d since the essay\u2019s formal apparatus can be adopted by non-realist/constructivist frameworks and by moral-uncertainty approaches. Clarity is high and the critique stays focused with little dead weight.",
+  "title": "Moral realism required for the argument may not yield a unique narrow target"
+}

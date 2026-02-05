@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.9,
+  "overall": 0.25,
+  "reasoning": "The critique targets the essay\u2019s framing of the \u201cdefault\u201d distribution over futures conditional on survival and absent serious de dicto optimization, arguing this abstraction treats society as a unitary agent and misses competitive/jurisdictional dynamics that dominate key domains (space, digital rights, resource grabs). That is moderately central because the essay explicitly conditions on a particular baseline process for \u201cno serious coordinated efforts,\u201d and its conclusions about how likely mostly-great futures are depend on that distribution; if the baseline were badly misspecified, some probability claims and intuitions about \u201caccidental\u201d near-eutopia could shift. However, the essay\u2019s main thesis is largely about value fragility / moral fussiness (narrow target) across many moral views, which can remain true even under a more realist competitive baseline; indeed, competitive lock-in may even support \u201cno easy eutopia\u201d rather than undermine it. Strength is therefore limited: it doesn\u2019t clearly refute the core conclusion, but it does raise a substantive modeling objection to how the question is posed and what the \u201cdefault\u201d entails. Correctness is fairly high: it\u2019s plausible that governance is multi-agent, that partial coordination plus competition can cause lock-in and competitiveness selection, and that this affects distributions; but it overstates by implying the essay relies on a \u201cglobal common-sense utopia baseline,\u201d whereas the essay uses common-sense utopia mainly as an illustrative case and explicitly allows many failure modes, including lock-in and political defeat of minority moral views. Clarity is high and dead weight low; it stays focused on one issue (baseline political-economy/equilibrium assumptions). Overall impact is modest because the critique mostly suggests a different (arguably even more pessimistic) default rather than showing the essay\u2019s argument is wrong.",
+  "title": "Jurisdictional lock-in and bloc competition dominate over unified moral drift"
+}

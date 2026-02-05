@@ -1,0 +1,11 @@
+{
+  "centrality": 0.7,
+  "strength": 0.55,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.45,
+  "reasoning": "The critique targets a fairly central modeling move in the position: treating cognitive labor L as an input that can be increased (via more/faster/smarter AI researchers) while holding compute K fixed, and then inferring a ceiling/max-speed story from CES. Pointing out that the \u2018AI researchers\u2019 themselves consume compute (inference) means L and K are not independent in a fixed-hardware regime; scaling L can directly reduce compute available for experiments/training, plausibly tightening the ceiling and weakening the argument that bottlenecks won\u2019t bite until late. However, it doesn\u2019t fully refute the position because the framework could be repaired by redefining inputs (e.g., partitioning fixed compute into inference-vs-training budgets, counting L in effective researcher-hours given an inference-compute allocation, or noting that inference may be much cheaper than frontier training and can be improved via distillation/quantization/smaller researcher models). The core contention is correct and clearly stated, with little dead weight, but it\u2019s underdeveloped quantitatively and leaves open several plausible responses, so its net impact is moderate rather than decisive.",
+  "title": "Inference compute for AI researchers competes with training compute"
+}

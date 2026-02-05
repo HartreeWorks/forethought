@@ -1,0 +1,5 @@
+**Do capable AI agents placed in bargaining environments (with credible commitment tools) tend to converge on cooperative trade equilibria or on threat/extortion equilibria?**  
+   - **The branch point:** *“Moral trade dominates”* vs *“Threats dominate and eat most value”*  
+   - **Paper anchor:** Section 3.3–3.4 (executed threats can swamp value on many axiologies; even small threat fractions matter).  
+   - **Indicators:** If Branch A is more likely, we’d observe in red-team multi-agent experiments that agents systematically avoid value-destroying threats when reputational/commitment mechanisms exist, with low incidence of “harm unless paid” strategies; if Branch B, we’d observe robust emergence of credible extortion (including commitments to carry out harms) as a stable strategy even when it is Pareto-worse ex ante, plus real-world analogues (automated blackmail/ransom dynamics) scaling with agent capability.  
+   - **Time sensitivity:** **Within 12–18 months**, because if threat equilibria are likely, efforts should shift early toward threat-prevention norms, protocol design, and enforcement capacity (even if costly).

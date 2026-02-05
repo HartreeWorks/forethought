@@ -1,0 +1,11 @@
+{
+  "centrality": 0.28,
+  "strength": 0.22,
+  "correctness": 0.55,
+  "clarity": 0.86,
+  "dead_weight": 0.08,
+  "single_issue": 0.98,
+  "overall": 0.19,
+  "reasoning": "The critique targets the paper\u2019s treatment of moral uncertainty in \u00a73.5, alleging it collapses pluralism via a Pascal\u2019s-mugging dynamic where unbounded views dominate. That issue is relevant but not core to the main thesis (\u201cno easy eutopia\u201d via value fragility and fussiness across many moral views), so centrality is modest. Substantively, the critique has some bite in flagging a real risk: certain intertheoretic comparison/normalization schemes can make high-stakes (often unbounded) theories dominate practical choice. However, it overstates and somewhat misreads the authors: they do not simply argue \u20180 vs \u221e\u2019 stakes (they normalize best-feasible to 1), they explicitly treat the issue as thorny and avoid strong action-guidance, and their overall conclusion (fussiness/no-easy-eutopia) does not depend on unbounded views \u201chijacking\u201d decisions. Thus it only weakly undermines what it attacks. The critique is mostly clear and focused, with little filler, but contains significant exaggeration (\u201cmust sacrifice certain flourishing,\u201d \u201ctotal disenfranchisement,\u201d \u201cutility monster theology\u201d) and attributes a stronger recommendation than the paper makes.",
+  "title": "Unbounded utility views create a Pascal's Mugging that hijacks moral pluralism"
+}

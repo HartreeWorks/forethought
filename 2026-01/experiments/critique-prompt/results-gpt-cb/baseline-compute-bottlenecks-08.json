@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.45,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.3,
+  "reasoning": "The critique targets a meaningful supporting plank of the post\u2019s case for higher substitutability (\u03c1 closer to 0): that \u201csmarter/faster researchers\u201d can boost R&D output without being tightly limited by compute. If that plank fails\u2014because \u2018more/faster cognitive labor\u2019 is largely just \u2018more inference compute\u2019\u2014then the argument for weak compute bottlenecks is weakened, though not destroyed, since the post offers several other independent counterarguments (e.g., experiment efficiency gains, extrapolation limits, multiple routes). The objection is moderately strong: it correctly notes a potential equivocation/double-counting when treating AI labor as separate from compute, since faster thinking and more parallel researchers generally consume more compute/memory bandwidth. However, it doesn\u2019t fully refute the position because some \u201csmarts\u201d improvements may come from better algorithms/strategies at roughly fixed inference budgets, and the post could re-parameterize inputs (e.g., distinguish training compute, inference compute, and algorithmic efficiency) rather than collapsing. The critique is clear, focused on a single issue, and contains little extraneous material.",
+  "title": "Faster AI cognition may conflate labor gains with compute costs"
+}

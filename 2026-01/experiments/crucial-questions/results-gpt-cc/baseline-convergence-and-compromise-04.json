@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.78,
+  "paper_specificity": 0.86,
+  "tractability": 0.56,
+  "clarity": 0.77,
+  "decision_hook": 0.62,
+  "dead_weight": 0.08,
+  "overall": 0.63,
+  "reasoning": "The paper\u2019s main optimistic pathway in sections 3.1\u20133.5 relies on large gains from moral trade enabled by low transaction costs and strong contractability; if explicit modeling shows frictions/strategic behavior destroy most gains, that would materially shift how optimistic we should be about partial AM-convergence leading to mostly-great futures (high cruciality). The question directly targets that specific premise (high paper-specificity). However, \u2018realistic post-AGI bargaining environments\u2019 and \u2018achievable gains\u2019 still require choosing modeling assumptions (power distribution, enforceability, information structure, preference classes), so while progress via game theory/mechanism design/simulation is plausible, definitive answers are hard (moderate tractability). The question is mostly precise about which frictions to include, but the outcome metric and baseline (vs. what counterfactual) are not fully pinned down (good-not-perfect clarity). It gestures at implications (trade pathway weakens) but doesn\u2019t fully spell out action-relevant forks (e.g., prioritize institution design vs. moral persuasion vs. power dispersion), so decision hook is moderate. Very little extraneous text (low dead weight).",
+  "title": "Moral trade gains under realistic bargaining frictions and strategic constraints"
+}

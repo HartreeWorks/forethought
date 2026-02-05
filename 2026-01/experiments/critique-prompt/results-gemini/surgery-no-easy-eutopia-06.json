@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.2,
+  "correctness": 0.45,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.16,
+  "reasoning": "The critique targets a real sub-argument in the position: in \u00a73.3 the authors argue that many bounded, difference-making views\u2014especially those that separately aggregate goods and bads\u2014are still \u201cfussy\u201d because tiny absolute amounts of badness can prevent a mostly-great future at astronomical scale. However, this is not the sole or main support for the overall \u201cno easy eutopia\u201d conclusion (they also argue fussiness for unbounded linear views and earlier \u2018fragility\u2019 considerations), so centrality is only moderate.\n\nStrength is low because the critique partially misdescribes what \u00a73.3 assumes. The authors\u2019 separate-aggregation story already uses bounded/concave transforms (i.e., saturation/diminishing marginal value) on goods, and the cliff result is driven by scale plus separate aggregation, not by a simple assumption of linear unsaturating disvalue. The proposed fixes (\u201csaturating disvalue\u201d and \u201cratios rather than subtraction\u201d) either don\u2019t address the authors\u2019 mechanism (since saturation is already in play) or effectively shift to a different kind of view (closer to joint aggregation), which the authors already discuss as the main easygoing exception while claiming it is narrow/implausible. The \u201clexical threshold\u201d suggestion is under-argued and would need justification; as stated it\u2019s more like a stipulation than a refutation.\n\nCorrectness is mixed: it\u2019s true that alternative bounded theories (especially ones that don\u2019t separately aggregate, or that build in non-vetoing/threshold behavior) can avoid the specific \u2018tiny bads doom you\u2019 dynamic; but it is misleading to claim the argument depends on non-saturating linear disvalue, and it overstates by saying \u2018outweighs a universe of goods\u2019 rather than \u2018prevents being mostly-great\u2019 under their normalization.\n\nThe critique is clear, focused on one issue, and contains little fluff.",
+  "title": "Bounded views could feature diminishing marginal disvalue for bads"
+}

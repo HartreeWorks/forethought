@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.7,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.3,
+  "reasoning": "The critique targets the post\u2019s \u201cstrongest-link\u201d rebuttal (counterargument #7), arguing it doesn\u2019t actually answer the compute-bottleneck objection unless it names a specific compute-light pathway and explains why compute constraints don\u2019t jointly bind across routes. This is a real weakness in that particular move, but it\u2019s only one of several independent counterarguments the position offers (e.g., experiment efficiency, extrapolation limits of CES, long-run substitution, etc.), so centrality is moderate-low. Within the attacked slice, the critique is fairly strong: it correctly notes that \u2018multiple routes\u2019 doesn\u2019t rebut a claim that compute is a shared bottleneck unless a route is shown to avoid it. The claims are largely accurate/plausible relative to the text (the post gestures at possibilities rather than demonstrating a concrete compute-light path). The critique is clear, focused, and has little filler.",
+  "title": "The strongest-link framing doesn't identify a concrete compute-light path to superintelligence"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.7,
+  "strength": 0.3,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique targets the paper\u2019s core evaluative setup: defining \u201cmostly-great\u201d and \u201ceutopia\u201d as fractions of a best-feasible (99.99th percentile) future, and then drawing substantive pessimistic conclusions from how much value is \u201cleft on the table.\u201d If that relativity-to-ceiling framing were rejected in favor of an absolute flourishing threshold, much of the paper\u2019s \u2018narrow target\u2019/\u2018lost value\u2019 rhetoric would lose force, so centrality is fairly high. However, the critique mainly points out a dependence on the denominator and demands a defense of counting foregone potential as morally weighty; it doesn\u2019t directly engage the authors\u2019 own normalization/betterness-based setup (50\u201350 gamble with extinction) or show an inconsistency within their framework. So it weakens the argument only modestly. The main point about ratio sensitivity is correct, but it somewhat overstates the paper as treating a common-sense utopia as a \u201cmoral catastrophe\u201d merely because the ceiling rose (the paper frames this as opportunity cost/value loss, not necessarily \u2018catastrophe\u2019), hence less-than-perfect correctness. The critique is clear, tightly focused, and contains little to no dead weight.",
+  "title": "Defining success relative to expanding potential makes fixed outcomes arbitrarily catastrophic"
+}

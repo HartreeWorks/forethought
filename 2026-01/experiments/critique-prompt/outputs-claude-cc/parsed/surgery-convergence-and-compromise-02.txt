@@ -1,0 +1,1 @@
+Partial AM-convergence plus trade/compromise is more promising than WAM-convergence

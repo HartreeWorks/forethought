@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.3,
+  "reasoning": "The critique targets an ambiguity in the paper\u2019s illustrative benchmark (\u201cCommon-sense utopia\u201d): the description stipulates \u201cminimal suffering among nonhuman animals and non-biological beings,\u201d which does partially pre-solve at least one major example the paper later uses (animal suffering) and arguably softens the setup for digital-welfare worries. However, this is not a highly load-bearing premise for the paper\u2019s main thesis (\u201cno easy eutopia\u201d): the central argument is that many distinct, non-obvious moral dimensions can go wrong and that many plausible value functions are \u2018fussy\u2019; this does not depend heavily on that particular vignette being a default outcome. The critique also overstates its case by implying the stipulation resolves \u2018several\u2019 later-identified hard problems; many of the later failure modes (population ethics, scale, rights/ownership/justice for digital beings, value theory divergences, allocation, etc.) are not settled merely by \u201cminimal suffering.\u201d Still, it is a real (though patchable) presentational tension that weakens the rhetorical force of the \u201ceutopia seems easy\u201d intuition pump. The critique is clear, focused, and contains little fluff.",
+  "title": "Common-sense utopia smuggles in solutions to the hard problems it later identifies"
+}

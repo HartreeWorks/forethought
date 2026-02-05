@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.25,
+  "correctness": 0.65,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "The critique targets the paper\u2019s discussion of moral uncertainty and intertheoretic comparisons (Section 3.5), arguing that hedging there undermines the headline conclusion that near-best futures are a narrow target. This is somewhat central because the paper does gesture at implications under moral uncertainty and how different views might \u2018loom larger\u2019. However, much of the paper\u2019s core \u2018no easy eutopia\u2019 case is intra-theoretic: it argues that many individual plausible moral views are fussy (via fragility/product-of-factors and the bounded/unbounded taxonomy) without needing a resolved intertheoretic comparison procedure. So refuting the moral-uncertainty part would not refute most of the position. The critique\u2019s strength is limited because it overstates the dependence of the main conclusion on intertheoretic aggregation; at most it weakens one route to policy-relevant conclusions under moral uncertainty. It is partly correct that the paper hedges after showing normalization sensitivity, and that this leaves the uncertainty-based recommendations less decisive, but it is not correct that this prevents confident claims about \u2018most plausible views\u2019 being fussy. The critique is clear, focused on a single issue, and contains little to no dead weight.",
+  "title": "Unresolved intertheoretic comparisons undermine claims about combined moral fussiness"
+}

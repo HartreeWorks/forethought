@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.4,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.32,
+  "reasoning": "The critique targets a real pillar of the essay\u2019s case: that on linear/unbounded (and many practically-linear) value views, scale dominates, making \u201ccommon-sense utopia\u201d far from mostly-great; challenging that does undermine one important route to \u201cno easy eutopia,\u201d but not the broader fragility/multi-factor and bounded-view arguments, so centrality is moderate-low. It offers a plausible counterfamily of moral views (satisficing/anti-expansionist, or treating expansion as optional/risky) under which \u201cbest feasible\u201d wouldn\u2019t be pegged to maximal cosmic expansion, thereby weakening the scale-insensitivity point. However, it only partially refutes because the original essay explicitly considers linear views as a live, plausible class and argues many other mechanisms make eutopia narrow even absent pure scale maximization; also, \u201cbest feasible\u201d in the essay is percentile-relative to feasible outcomes, not explicitly \u201cquality not maximal scale,\u201d so the critique leans on a definitional reframing more than an internal refutation. Most claims are reasonable, but it overstates that the essay \u2018assumes\u2019 expansion is morally mandatory rather than conditional on certain moral theories, hence less than perfect correctness. The critique is clear, focused, and contains little filler.",
+  "title": "Morally optional expansion challenges scale-based value assumptions"
+}

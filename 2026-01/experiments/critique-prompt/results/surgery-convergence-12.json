@@ -1,0 +1,10 @@
+{
+  "centrality": 0.35,
+  "strength": 0.3,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0,
+  "reasoning": "The critique attacks one of several arguments the paper makes against expecting moral progress to continue (section 2.2.2). The paper argues past progress came from self-advocacy, which won't extend to chickens, digital minds, etc. The critique counters that moral entrepreneurs (abolitionists, animal welfare advocates) have historically driven change for non-self-advocating groups. This is a reasonable point - the paper does somewhat oversimplify the mechanism of moral progress. However, centrality is limited because: (1) this is only one of multiple arguments against expecting convergence (sections 2.4's meta-ethical argument, section 2.2.1's limited agreement argument remain untouched), and (2) even within 2.2.2, the paper offers other reasons for skepticism beyond the self-advocacy mechanism. Strength is moderate because while the critique identifies a real oversimplification, the paper's broader point still holds - chickens and digital minds present qualitatively different challenges than historical cases (no observable suffering, potentially designed to not complain, population ethics issues). The claim that 'superintelligent rhetoric' will strengthen moral entrepreneurship is speculative and somewhat undercuts the critique's force. Correctness takes a hit because abolitionists were sometimes former slaves, and the critique overstates how cleanly historical examples support its case. Very clear and focused on a single issue."
+}

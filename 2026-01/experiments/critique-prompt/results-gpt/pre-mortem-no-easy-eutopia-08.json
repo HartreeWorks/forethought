@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.25,
+  "correctness": 0.4,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.18,
+  "reasoning": "The critique targets the paper\u2019s use of a \u201cmostly-great (\u226550%)\u201d threshold and argues that, in practice, such thresholds create institutional \u2018budgetary cliffs\u2019 that distort priorities away from incremental, compounding improvements. This is somewhat connected to the position (the paper explicitly introduces and operationalizes these thresholds, and discusses how intuitions can be misled), but it does not directly refute the core thesis that near-best futures are a narrow target / value is fragile; it mainly claims the framing has bad downstream effects. The argument\u2019s refutational force is therefore limited: even if thresholds cause misallocation, \u2018no easy eutopia\u2019 could still be true. The critique is clear and largely focused on a single mechanism, with little fluff. However, it asserts a detailed causal story (portfolio shifts, repeated failures, crises, millions of deaths, authoritarian turn) without evidence; taken literally these empirical claims are unsupported and likely false outside a stipulated hypothetical, so correctness is only moderate, though the general point that thresholding can induce cliff-like decision behavior is plausible.",
+  "title": "Threshold heuristics create budgetary cliffs that crowd out resilient incremental improvements"
+}

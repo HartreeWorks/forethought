@@ -1,0 +1,11 @@
+{
+  "centrality": 0.22,
+  "strength": 0.35,
+  "correctness": 0.82,
+  "clarity": 0.92,
+  "dead_weight": 0.08,
+  "single_issue": 0.96,
+  "overall": 0.18,
+  "reasoning": "The critique targets \u00a72.3.3\u2019s \u201clong views win\u201d asymmetric-growth mechanism, arguing it is highly timeline-sensitive and treated too qualitatively. This mechanism is only one (already-limited) optimism lever within the essay, and the authors explicitly flag that it may not have time to operate and pivot to other pathways (trade), so falsifying/weakening it would not heavily undermine the overall thesis (low-moderate centrality). The critique has some real bite in highlighting that the effect could vary dramatically with lock-in timing and institutional mutability and that the essay doesn\u2019t parameterize this sensitivity; however, it mostly presses for quantification rather than showing the mechanism is wrong, and the essay already acknowledges the key caveat (\u201cmight not have time to win out\u201d), limiting marginal refutation strength. The \u2018sharp threshold/cliff\u2019 framing is somewhat overstated (the dependence could be smoother than ~0 vs dominant), but the general point about unmodeled timing sensitivity is largely correct. It\u2019s clearly written, focused on one issue, and contains little extraneous material.",
+  "title": "The compounding advantage mechanism hinges on unmodeled lock-in timing thresholds"
+}

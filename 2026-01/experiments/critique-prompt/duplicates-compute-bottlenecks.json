@@ -1,0 +1,155 @@
+{
+  "paper": "compute-bottlenecks",
+  "total_critiques": 70,
+  "clusters": [
+    {
+      "description": "CES is a mis-specified/over-smooth model for AI R&D progress: mapping a static CES production function onto dynamic, path-dependent, thresholdy research progress is unjustified, so the derived ceilings/\"late bottleneck\" results are artifacts.",
+      "critiques": [
+        "baseline-v2-compute-bottlenecks-01",
+        "unforgettable-compute-bottlenecks-04",
+        "pivot-attack-compute-bottlenecks-01",
+        "authors-tribunal-compute-bottlenecks-01"
+      ]
+    },
+    {
+      "description": "The paper\u2019s conclusions are highly sensitive to fixed/assumed parameters (especially \u03b1=0.5), so the numeric \"max speed\" ceilings are not robust and may be driven by arbitrary parameter choices.",
+      "critiques": [
+        "baseline-v2-compute-bottlenecks-02",
+        "surgery-compute-bottlenecks-02"
+      ]
+    },
+    {
+      "description": "Labor (AI researchers/agents) is not an independent input from compute: scaling L at fixed K is physically incoherent because agent cognition/inference consumes the same compute/bandwidth/infra, so the key thought experiment and substitutability claims break.",
+      "critiques": [
+        "unforgettable-compute-bottlenecks-01",
+        "personas-compute-bottlenecks-02",
+        "surgery-compute-bottlenecks-01",
+        "authors-tribunal-compute-bottlenecks-02",
+        "pre-mortem-compute-bottlenecks-01"
+      ]
+    },
+    {
+      "description": "\"AGIs can simulate compute in their heads\" is a mirage: it double-counts compute by relabeling physical computation as labor, so it doesn\u2019t refute complementarity or fixed-hardware constraints.",
+      "critiques": [
+        "baseline-v2-compute-bottlenecks-04",
+        "unforgettable-compute-bottlenecks-08",
+        "pivot-attack-compute-bottlenecks-04",
+        "authors-tribunal-compute-bottlenecks-07",
+        "surgery-compute-bottlenecks-07",
+        "pre-mortem-compute-bottlenecks-04"
+      ]
+    },
+    {
+      "description": "The \"near-frontier experiments declined yet progress continued\" inference is weak/confounded and can even support the opposite: frontier runs may be keystone anchors, and historical trends don\u2019t falsify frontier-validation bottlenecks.",
+      "critiques": [
+        "baseline-v2-compute-bottlenecks-05",
+        "unforgettable-compute-bottlenecks-07",
+        "personas-compute-bottlenecks-03",
+        "surgery-compute-bottlenecks-05",
+        "pivot-attack-compute-bottlenecks-06",
+        "authors-tribunal-compute-bottlenecks-04",
+        "pre-mortem-compute-bottlenecks-03"
+      ]
+    },
+    {
+      "description": "Algorithmic efficiency doesn\u2019t automatically increase experiment throughput or loosen compute bottlenecks: savings are often spent on pushing the frontier (induced demand) or require extra validation/search, so compute can remain binding.",
+      "critiques": [
+        "baseline-v2-compute-bottlenecks-06",
+        "unforgettable-compute-bottlenecks-02",
+        "personas-compute-bottlenecks-03",
+        "surgery-compute-bottlenecks-04",
+        "pivot-attack-compute-bottlenecks-05",
+        "pre-mortem-compute-bottlenecks-06"
+      ]
+    },
+    {
+      "description": "Small-scale/proxy experiments can\u2019t reliably substitute for frontier validation because of scale-dependent effects and regime shifts; extrapolation fails exactly where frontier behavior/emergence matters, reinstating a hard compute gate.",
+      "critiques": [
+        "surgery-compute-bottlenecks-05",
+        "pivot-attack-compute-bottlenecks-07",
+        "authors-tribunal-compute-bottlenecks-03",
+        "pre-mortem-compute-bottlenecks-02"
+      ]
+    },
+    {
+      "description": "\"Strongest-link\" / many-routes optimism fails because routes are compute-entangled and share a common compute-heavy validator (training/eval); route diversity doesn\u2019t remove the shared bottleneck.",
+      "critiques": [
+        "baseline-v2-compute-bottlenecks-08",
+        "unforgettable-compute-bottlenecks-09",
+        "surgery-compute-bottlenecks-09",
+        "pivot-attack-compute-bottlenecks-08",
+        "authors-tribunal-compute-bottlenecks-09"
+      ]
+    },
+    {
+      "description": "The paper\u2019s rejection of low \u03c1 via \"max speed seems implausibly low\" is intuition/handwaving (question-begging) rather than a calibrated argument; low ceilings could be plausible under validation-heavy/idea-scarce models.",
+      "critiques": [
+        "baseline-v2-compute-bottlenecks-07",
+        "personas-compute-bottlenecks-01",
+        "surgery-compute-bottlenecks-06",
+        "pivot-attack-compute-bottlenecks-09",
+        "authors-tribunal-compute-bottlenecks-08"
+      ]
+    },
+    {
+      "description": "\u03c1 (substitutability) is not constant across regimes: as automation scales, remaining gains become more validation/compute-intensive and complementarity can increase, making compute bind earlier than the paper claims.",
+      "critiques": [
+        "surgery-compute-bottlenecks-08",
+        "pivot-attack-compute-bottlenecks-02"
+      ]
+    },
+    {
+      "description": "Reconfiguration/adaptation isn\u2019t just \"fast thinking\": changing the R&D production process requires compute-heavy experimentation/validation and/or slow socio-technical steps, so AGIs can\u2019t quickly raise \u03c1 toward 0.",
+      "critiques": [
+        "surgery-compute-bottlenecks-03",
+        "pivot-attack-compute-bottlenecks-03",
+        "authors-tribunal-compute-bottlenecks-06",
+        "pre-mortem-compute-bottlenecks-05"
+      ]
+    },
+    {
+      "description": "Coordination/organizational scaling overhead creates serial/merge/integration bottlenecks; adding many researchers/agents can reduce net progress and effectively tighten compute/validation constraints.",
+      "critiques": [
+        "unforgettable-compute-bottlenecks-05",
+        "personas-compute-bottlenecks-04",
+        "pre-mortem-compute-bottlenecks-07"
+      ]
+    },
+    {
+      "description": "Evaluation/verification/reliability (not just training) becomes the binding bottleneck; as capability rises, assurance costs scale up and throttle validated progress even if training gets cheaper.",
+      "critiques": [
+        "unforgettable-compute-bottlenecks-06",
+        "authors-tribunal-compute-bottlenecks-10",
+        "pre-mortem-compute-bottlenecks-08"
+      ]
+    },
+    {
+      "description": "The SIE definition/metric (\"5 OOM effective training compute in <1 year\") is ambiguous or misleading: effective-compute gains may not map to capability-speed, may not compound multiplicatively, and may quietly reintroduce physical limits.",
+      "critiques": [
+        "baseline-v2-compute-bottlenecks-10",
+        "surgery-compute-bottlenecks-10",
+        "pivot-attack-compute-bottlenecks-10",
+        "authors-tribunal-compute-bottlenecks-05"
+      ]
+    }
+  ],
+  "unique": [
+    "baseline-v2-compute-bottlenecks-03",
+    "baseline-v2-compute-bottlenecks-09",
+    "unforgettable-compute-bottlenecks-03",
+    "unforgettable-compute-bottlenecks-10",
+    "personas-compute-bottlenecks-05",
+    "personas-compute-bottlenecks-06",
+    "personas-compute-bottlenecks-07",
+    "personas-compute-bottlenecks-08",
+    "personas-compute-bottlenecks-09",
+    "personas-compute-bottlenecks-10",
+    "pre-mortem-compute-bottlenecks-09",
+    "pre-mortem-compute-bottlenecks-10"
+  ],
+  "summary": {
+    "clustered": 60,
+    "unique": 12,
+    "cluster_count": 14
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.8,
+  "paper_specificity": 0.7,
+  "tractability": 0.45,
+  "clarity": 0.8,
+  "decision_hook": 0.95,
+  "dead_weight": 0.1,
+  "overall": 0.55,
+  "reasoning": "Cruciality is high because the paper\u2019s core claim is that single \u2018moral catastrophe\u2019 dimensions (like digital-being treatment) can dominate future value; learning that digital moral patients are very likely/unlikely to be dominant would materially redirect prioritisation. Paper-specificity is fairly high since it directly targets Sec. 2.3.2\u2019s \u2018vast numbers\u2019 + \u2018majority of voting power\u2019 mechanism, though similar questions arise in broader AI rights debates. Tractability is moderate-low: (i) moral status/consciousness is partly philosophical and may resist decisive evidence, and (ii) political dominance depends on uncertain socio-technical trajectories; still, scenario modeling, incentives/economics of replication, and governance-institution studies can yield substantial updates. Clarity is good but not perfect because \u2018moral status\u2019 and \u2018dominant\u2019 (numerical vs political, timeline, conditional assumptions) need sharper operational thresholds. Decision hook is excellent: explicit probability thresholds and concrete strategic flips. Dead weight is low: the framing, anchor, flip, and proposed evidence are all directly supportive.",
+  "title": "Digital moral patients' probability of political dominance"
+}

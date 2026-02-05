@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.4,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "The critique targets one supporting move in the post (Counterargument 4: that accounting for smarter/faster researchers should push \u03c1 upward). This is not core to the overall anti-bottleneck case because the author offers many independent reasons to doubt importing economy-wide \u03c1 and to expect higher substitutability in AI R&D; so centrality is modest. On the attacked point itself, the critique is fairly strong: it correctly notes that treating L as simultaneously \u201cmore copies,\u201d \u201chigher quality,\u201d and \u201cfaster thinking\u201d can mask different substitution relationships with compute, so the inference \u201ctherefore \u03c1 should be higher\u201d is under-argued without a model/disaggregation. However, it doesn\u2019t fully refute the author\u2019s intended move because the author could reasonably define L as \u2018effective cognitive labor\u2019 and still argue (with additional justification) that effective-labor increases might face weaker compute complementarity than typical labor increases. The critique is clear, focused, and contains little extraneous material.",
+  "title": "Cognitive labor quality and quantity may have different substitutability with compute"
+}

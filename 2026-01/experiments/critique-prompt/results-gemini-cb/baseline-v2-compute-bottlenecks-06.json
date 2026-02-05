@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets an implicit modeling choice in the economist/CES framing (progress as a function of compute K and cognitive labor L), arguing that a third input\u2014novel data, potentially from the physical world\u2014could be a separate hard bottleneck. If true, this would undercut the paper\u2019s practical conclusion that compute bottlenecks likely won\u2019t slow an SIE until late stages, but it doesn\u2019t directly refute the paper\u2019s main claim about compute\u2013labor substitutability; it instead adds an alternative bottleneck. Hence moderate centrality. The argument is plausible but underdeveloped: it doesn\u2019t establish that frontier AI R&D during an SIE would actually be constrained by scarce real-world data (vs. reusing existing data, synthetic data, self-play, improved inference/architecture, better evaluation, etc.), nor that such data is non-substitutable in the relevant margin. Some claims are overstated (e.g., implying physical-world data is required for \u2018the next token\u2019 of progress, or that simulation would require \u201cinfinite compute\u201d). Still, it correctly notes the omission and a real possible constraint. Clear, focused, and with little extraneous material.",
+  "title": "Data as a binding constraint is absent from the production function"
+}

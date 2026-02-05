@@ -1,0 +1,4 @@
+**What is the correct “task share” parameter α for AI R&D—i.e., what fraction of progress production is fundamentally compute-like vs cognitive-labor-like—rather than the paper’s simplifying α=0.5?**  
+   - **Paper anchor:** “*I’ll assume α=0.5 throughout.*”  
+   - **The flip:** If **α ≥ ~0.7** (progress mostly compute-like), then **strategy A: prioritize compute supply/controls and assume software-only acceleration is strongly limited**; if **α ≤ ~0.3** (progress mostly labor-like), then **strategy B: prioritize controlling/aligning cognitive labor (agents) because compute is less decisive**.  
+   - **What would answer it:** Task-level decomposition of the AI R&D pipeline (idea generation, coding, debugging, training, evals, interpretability, data work) with measured marginal progress impact per additional unit of compute vs per additional unit of high-quality cognitive labor, estimated across multiple labs/projects.

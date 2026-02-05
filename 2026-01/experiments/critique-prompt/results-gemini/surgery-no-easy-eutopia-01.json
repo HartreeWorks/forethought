@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.25,
+  "correctness": 0.55,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique targets a fairly central element of the essay: evaluating \u201cmostly-great\u201d as a fraction of a \u201cbest feasible future,\u201d and the associated claim that many plausible moral views make the target narrow (fussy). If the reference point were arbitrary or dominated by unreachable ceilings, that would significantly undermine the essay\u2019s framing.\n\nHowever, the critique\u2019s main lever\u2014\u201cbest feasible future\u201d being hypersensitive to a speculative theoretical upper bound\u2014is only partly connected to what the essay actually does. The essay defines \u201cbest feasible\u201d as ~99.99th percentile of a well\u2011informed distribution over futures, not as the absolute physical maximum. So merely pointing out that some far-out physics exploit could raise the theoretical ceiling by 10^10 doesn\u2019t, by itself, show the denominator used by the essay will explode, unless that exploit is plausibly within the distribution\u2019s 99.99th percentile. The essay also explicitly discusses bounded vs unbounded and linear scaling views, so some sensitivity-to-scale concerns are already \u201cpriced in.\u201d\n\nStill, there is a real underlying worry gestured at: percentile-based \u2018best feasible\u2019 can be sensitive to how the distribution is specified (tail assumptions, inclusion of extreme tech trajectories), and that can affect whether \u201ccommon-sense utopia\u201d lands above or below 0.5. The critique doesn\u2019t develop that point with enough precision to substantially refute the essay\u2019s conclusions, hence low strength.\n\nThe critique is clear and focused with little fluff (low dead weight) and it stays on a single issue. Correctness is mixed: the general claim about parameter sensitivity is plausible, but it mischaracterizes the essay as using a speculative physical maximum as the denominator rather than a percentile-of-distribution notion.",
+  "title": "Astronomical theoretical value ceilings make any achievable future indistinguishable from failure"
+}

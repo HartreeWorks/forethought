@@ -1,0 +1,11 @@
+{
+  "centrality": 0.2,
+  "strength": 0.25,
+  "correctness": 0.4,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.2,
+  "reasoning": "The critique targets a relatively narrow part of the essay: the discussion of digital beings and the idea that \u201cgetting rights right\u201d/delaying deployment is a safe hedge. Even if fully accepted, it wouldn\u2019t undermine the core \u201cno easy eutopia\u201d thesis (indeed it arguably adds another way eutopia is fragile), so centrality is low. As a refutation, it\u2019s also limited: it points to a plausible regulatory second\u2011order effect (displacement to black markets) but doesn\u2019t show the essay actually relies on the allegedly broken assumption or recommends a status-first pause. The mechanism is reasonably coherent and clearly stated. However, it is framed as a concrete 2030\u20132034 historical narrative, which (given today\u2019s date) is not correct as stated; treating it charitably as a hypothetical raises plausibility, but the factual dressing lowers correctness. Little of the text is fluff, and it stays tightly on one issue.",
+  "title": "Status-first digital rights delays can drive black markets and worsen safety and abuse"
+}

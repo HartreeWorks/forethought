@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.4,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.28,
+  "reasoning": "The critique targets a real vulnerability: several examples in \u00a72.3 (especially \u00a72.3.4) are framed as selectable institutional \u201cdials,\u201d while in practice policy choices are constrained by strategic behavior and equilibrium selection. If true, this would shift the story from \u201cmany accidental moral flaws are easy\u201d to \u201cmany bad outcomes are incentive-stable,\u201d which changes how plausible/tractable certain \u201cavoid moral catastrophe\u201d routes are. However, this is only moderately central to the essay\u2019s core thesis (that near-best futures are a narrow target and value is fragile/multiplicative across many dimensions). Even if the author conceded that these regimes are equilibrium outcomes, that largely reinforces (or at least leaves intact) the claim that getting to mostly-great futures is hard by default; it undercuts some illustrative framing, not the main multiplicative/fussiness argument in \u00a73. Strength is moderate because the critique doesn\u2019t show that the essay\u2019s conclusion is false, only that one class of examples is underspecified and perhaps mis-modeled as choice rather than constraint. Correctness is fairly high: identity/shelling incentives and racing-to-claim dynamics are standard, though the critique overgeneralizes by implying the paper \u2018repeatedly\u2019 treats such issues as fully controllable and that catastrophes \u2018systematically understate\u2019 manipulation across the board. The critique is clear, focused, and has little dead weight.",
+  "title": "Policy choices are presented as moral dials but will collapse into exploitative equilibria"
+}

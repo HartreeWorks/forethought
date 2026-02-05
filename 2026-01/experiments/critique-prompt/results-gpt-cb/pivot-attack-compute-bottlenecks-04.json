@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.85,
+  "correctness": 0.9,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.3,
+  "reasoning": "The critique targets the post\u2019s illustrative claim that (in an extreme limit) cognitive labor could fully substitute for compute by \u201csimulating NNs in their heads,\u201d used to motivate that a hard complementarity (\u03c1<0) can\u2019t hold in the absolute limit. Refuting this weakens one intuition pump for high substitutability, but it is not a necessary pillar of the overall anti-bottleneck case (which also rests on long-run reconfiguration, experiment-efficiency gains, extrapolation limits of CES, non-frontier experiments, etc.), so centrality is modest. On the specific attacked point, the critique is strong: it correctly notes that \u201cmental simulation\u201d still requires physical operations on some substrate, so it does not evade FLOP/energy/memory constraints and doesn\u2019t by itself show compute can be substituted away. The critique is mostly correct and clearly stated, with little extraneous material, and it stays focused on a single issue. Overall it\u2019s a good local objection but only a moderate problem for the broader position.",
+  "title": "Mental simulation cannot substitute compute, so negative \u03c1 remains plausible under fixed hardware"
+}

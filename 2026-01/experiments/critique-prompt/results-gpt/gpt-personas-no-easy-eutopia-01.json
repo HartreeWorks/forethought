@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.45,
+  "correctness": 0.8,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.3,
+  "reasoning": "The critique targets a real sub-argument: the move from \u201cmany moral perspectives judge the present deeply flawed\u201d (and historical prevalence of moral error) to \u201csingle flaws can erase a major fraction of value, so mostly-great futures are rare by default.\u201d That\u2019s moderately central to Section 2\u2019s motivation for \u2018fragility,\u2019 though the overall position also leans heavily on later structural/technical arguments (multiplicative-factor model, bounded/unbounded value-function analysis), so refuting this wouldn\u2019t collapse the whole essay. The critique is fairly correct that the table of \u2018ongoing catastrophes\u2019 is theory-relative and doesn\u2019t, by itself, operationalize a cross-view criterion or give a discriminating empirical update about how likely a Common-sense-utopia-like future is to fall below 50% of attainable value. However, its refutation power is limited: the essay\u2019s point there is mainly about historical frequency of confident moral error and cross-view fragility, not about providing an observer-independent metric; and the argument can still support \u2018fragility\u2019 even if \u201ccatastrophe\u201d is partly a label for deep disagreement, because deep disagreement itself can imply high risk of missing what\u2019s best by one\u2019s own lights under moral uncertainty. The critique is clearly stated, focused on one issue, and contains little extraneous material.",
+  "title": "Moral catastrophe labels track theory disagreement, not measurable welfare loss"
+}

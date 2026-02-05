@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.78,
+  "paper_specificity": 0.72,
+  "tractability": 0.55,
+  "clarity": 0.76,
+  "decision_hook": 0.86,
+  "dead_weight": 0.12,
+  "overall": 0.67,
+  "reasoning": "Cruciality is high because the paper\u2019s optimism/pessimism about WAM-convergence hinges on whether agents will (a) accept and implement \u201cgood de dicto\u201d conclusions when they are identity/loyalty-costly, versus (b) avoid, route around, or compartmentalize them\u2014this would materially change where to invest (moral reflection tooling, advisor design, institution-building vs. bargaining/compromise focus, or guarding against motivated avoidance). Paper-specificity is fairly high: the question targets specific mechanisms discussed in \u00a7\u00a72.3.1 and 2.4.1 (constrained advisors; realism + weak motivation; avoidance of motivating truths), though it also resembles broader work on motivated reasoning and moral psychology, so it\u2019s not maximally unique. Tractability is moderate: you can run lab/field experiments (AI-mediated moral argumentation, advisor-choice studies, costly behavioral follow-through measures) and analyze elite decision-making cases, but external validity to post-AGI, high-stakes, high-power contexts is uncertain and \u201cgood de dicto\u201d is hard to operationalize. Clarity is good but not perfect because key terms need tighter definitions (what counts as \u201cgood de dicto\u201d recommendation, what populations count as \u2018decision-makers,\u2019 what level of conflict with identity/lifestyle, and what time horizon for \u2018act on\u2019). Decision hook is strong because the question explicitly frames two branches with observable indicators and time sensitivity. Dead weight is low: most supporting text narrows interpretation and lists concrete indicators, though some framing could be shortened without loss.",
+  "title": "Adoption of identity-conflicting recommendations despite acknowledged validity"
+}

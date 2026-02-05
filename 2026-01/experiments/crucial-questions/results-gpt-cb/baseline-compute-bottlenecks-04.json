@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.82,
+  "paper_specificity": 0.62,
+  "tractability": 0.55,
+  "clarity": 0.72,
+  "decision_hook": 0.48,
+  "dead_weight": 0.12,
+  "overall": 0.62,
+  "reasoning": "This targets a central load-bearing assumption in the compute-bottleneck objection discussed in the paper: whether marginal algorithmic progress exhibits strong diminishing returns as experimentation scales, which would materially affect beliefs about SIE feasibility and pace (high cruciality). It is connected to this paper\u2019s framing (compute vs cognitive labor, \u2018ideas get harder\u2019, near-frontier experimentation), but the question is still broadly applicable to many AI progress/takeoff debates (moderate paper-specificity). It\u2019s partially empirically investigable via historical scaling analyses (algo progress vs number/cost of experiments), lab-internal data, and proxies like benchmark improvement per unit experiment/training-run budget, but causal identification and \u2018quality\u2019 measurement are hard and frontier data is scarce (moderate tractability). The wording is mostly understandable, but key terms (experiment quality, marginal algorithmic progress, proximity to frontier, what functional form counts as \u2018sublinear\u2019) are underspecified (good-not-great clarity). Strategic implications are gestured at (acceleration persists vs stalls) but not mapped to concrete decisions (e.g., how this updates \u03c1 estimates or SIE probability thresholds) (middling decision hook). The question is not bloated, with only light contextual restatement (low dead weight). Overall: a strong and relevant question, but would benefit from sharper operationalization and an explicit decision flip.",
+  "title": "How experiment returns diminish near the algorithmic frontier"
+}

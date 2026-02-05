@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.45,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.36,
+  "reasoning": "The critique targets a fairly central pillar of the essay\u2019s comparatively optimistic path to \u201cmostly-great futures\u201d: partial AM-convergence plus trade/compromise enabled by superintelligent delegates, low transaction costs, and robust contracting. If advisor ecosystems systematically harden preferences and increase adversarial bargaining, that weakens the essay\u2019s main \u201cpromising\u201d route (though not the whole essay, which is already guarded and discusses threats, power concentration, and constrained advisors). The argument is moderately strong: it identifies a plausible endogenous dynamic (advisor selection/training as strategic, preference-shaping, polarization) that could reduce convergence and shrink gains-from-trade, but it doesn\u2019t show inevitability, and the essay has some anticipatory notes about partisan advisor choice and lack of de dicto motivation, leaving room for institutional/design responses. Correctness is fairly high but not perfect because it slightly overstates the essay\u2019s optimism about superintelligent advice (the essay itself emphasizes limits and selection effects), even though it does lean on superintelligent delegates in the trade section. The critique is clear, focused on a single issue, and contains little irrelevant material.",
+  "title": "Superintelligent advisors become preference-hardeners rather than neutral trade facilitators"
+}

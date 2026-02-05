@@ -1,0 +1,11 @@
+{
+  "centrality": 0.2,
+  "strength": 0.12,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.08,
+  "reasoning": "The position\u2019s main thesis is that (conditional on survival) near-best futures are a narrow target (\u201cno easy eutopia\u201d), supported by arguments about moral fragility and the structure of plausible value functions. The critique mostly targets a different (and explicitly deferred) issue: whether \u201cmoral convergence plus compromise\u201d/deliberative steering will succeed at hitting the narrow target. That is only a speculative closing remark and is largely postponed to a subsequent essay, so centrality is low. Even on its own terms, the critique relies on loose historical analogy and an overstated claim of \u201cstructurally identical reasoning,\u201d and it partly misreads the essay as being confident that abundance + moral education yields eutopia (the essay argues the opposite). Still, it is broadly correct that past projects (utilitarian reform movements; Soviet planning) did not robustly yield morally optimal outcomes and that this should temper optimism about social optimization-by-deliberation. The critique is clear, focused on one point, and has little filler.",
+  "title": "Historical parallels suggest deliberative moral convergence consistently fails at scale"
+}

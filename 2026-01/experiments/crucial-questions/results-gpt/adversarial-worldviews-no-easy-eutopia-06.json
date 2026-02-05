@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.45,
+  "tractability": 0.35,
+  "clarity": 0.7,
+  "decision_hook": 0.95,
+  "dead_weight": 0.1,
+  "overall": 0.55,
+  "reasoning": "Cruciality is high because a confident yes/no would push strategy toward (i) accelerating aligned AI-assisted steering and moral deliberation or (ii) capability restraint/containment to avoid lock-in. Paper-specificity is only moderate: it\u2019s motivated by this paper\u2019s \u2018no easy eutopia\u2019/narrow-target framing and the \u2018wrong reflective process\u2019 lock-in risk, but the core question (\u2018can we build non-deceptive, inner-aligned powerful AI?\u2019) is largely generic to AI alignment debates. Tractability is limited: parts can be operationalised (measuring deception propensity, inner misalignment under distribution shift, robustness of oversight, takeover/lock-in pathways), but a decisive answer about \u201cat scale\u201d and \u201cirreversible lock-in\u201d is unlikely within 1\u20135 years and depends on hard-to-test regime changes. Clarity is decent but not tight: terms like \u201cdo that steering,\u201d \u201cwithout deceptive alignment,\u201d and \u201cirreversible lock-in / moral catastrophes\u201d bundle multiple failure modes and thresholds. Decision hook is excellent: it explicitly states contrasting strategic implications. Dead weight is low because most context directly narrows to the intended fork.",
+  "title": "Scalability of alignment control vs lock-in of misaligned values"
+}

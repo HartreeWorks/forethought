@@ -1,0 +1,5 @@
+**How fast is “algorithmic efficiency” improving in a way that converts fixed hardware into proportionally more effective experimentation (e.g., tokens/FLOP, quality/FLOP, or “useful experiments per day” at fixed compute)?**
+   - **The branch point:** *“Efficiency flywheel → experiments scale with software → SIE plausible”* vs *“Efficiency gains slow → experiments remain compute-capped.”*
+   - **Paper anchor:** Tests the claim that the bottleneck is really “number of experiments,” and that better algorithms let you run more experiments at the same compute, undermining a fixed-compute ceiling.
+   - **Indicators:** If Branch A is more likely, we observe sustained rapid improvements in efficiency metrics (and/or distillation, early-stopping, better optimizers) that materially increase experiment throughput at constant compute. If Branch B, efficiency improvements plateau or are offset by increasing model/data/serving requirements so experiment throughput stays roughly constant.
+   - **Time sensitivity:** **Within 12–18 months**, because this determines whether “holding compute fixed” is even a coherent assumption in the early SIE regime.

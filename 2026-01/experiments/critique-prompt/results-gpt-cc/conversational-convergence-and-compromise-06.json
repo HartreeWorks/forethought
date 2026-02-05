@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.22,
+  "reasoning": "The critique targets the paper\u2019s main optimistic pathway beyond WAM-convergence\u2014partial AM-convergence plus moral trade\u2014by claiming extortion/threats will usually overwhelm gains-from-trade. That\u2019s moderately central because it undercuts a key source of optimism, but it doesn\u2019t fully overturn the paper\u2019s broader conclusion, which already flags threats as potentially value-destroying and treats trade as conditional on preventing them. The critique adds a plausible amplification (cheap creation of bad states, commitment tech, spite/status preferences) but provides little detailed support (no equilibrium analysis, no comparison to plausible threat-prevention institutions), so it only modestly strengthens the paper\u2019s own worry rather than decisively refuting the trade path. Most claims are directionally plausible, but the \u2018likely dominates\u2019/\u2018equilibrium closer to hostage-taking\u2019 parts are speculative. It\u2019s clear, focused, and has little dead weight.",
+  "title": "\"Threats and extortion undermine the value-generating trade route\""
+}

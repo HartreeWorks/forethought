@@ -1,0 +1,11 @@
+{
+  "centrality": 0.7,
+  "strength": 0.5,
+  "correctness": 0.88,
+  "clarity": 0.93,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.42,
+  "reasoning": "The critique targets a fairly central optimism lever in the essay: that partial AM-convergence plus bargaining/trade can still yield mostly-great outcomes (section 3). If moral disagreement is frequently non-separable (global prohibitions/rights/negative-leaning constraints) or strongly coupled by externalities, then the essay\u2019s partition-and-hybrid-goods picture would cover a smaller fraction of realistic disagreements, shrinking the compromise route\u2019s promise. However, the essay partially anticipates this (resource-(in)compatibility, linear views, \u2018narcissism of small differences\u2019, threats), so the critique weakens rather than overturns the trade argument. The main claims are broadly correct and conceptually sound, and the critique is clear, focused, and low on fluff.",
+  "title": "Moral Trade Fails on Inseparable Moral Domains"
+}

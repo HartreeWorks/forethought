@@ -1,0 +1,133 @@
+You are an expert evaluator of philosophical and conceptual arguments. Your task is to rate a critique of an argument/position using the ACORN scoring rubric.
+
+## Position/Argument
+
+{{position}}
+
+## Critique
+
+{{critique}}
+
+## Scoring Rubric
+
+The scoring system consists of seven dimensions, scored from zero to one: centrality, strength, correctness, clarity, dead weight, single issue, and overall.
+
+### Centrality (0-1)
+How central are the claims that the critique attacks to the position? How bad would it be for the position if the claims attacked were falsified?
+
+- Treat "X is assumed, but X may not be true" the same as "X is assumed, but X is false" — both attack the same point, X.
+- A centrality of p implies that if the claims attacked were successfully refuted, it would refute the position by proportion p.
+
+Example ratings:
+- **1**: The critique argues against claims that are critical/necessary to the position. The position should completely collapse if the attacked claims are falsified.
+- **0.5**: The critique argues against claims that would meaningfully weaken the position if falsified, but which are not central or fully necessary.
+- **0**: The critique attacks only claims that are completely unimportant to the position.
+
+Centrality of attacked claims is taken in combination. If the position is "X is true. Y is true. X or Y implies Z. Therefore Z.", then critiquing "not X" alone is relatively non-central, whereas "not X and not Y" has centrality 1.
+
+If the critique attacks only the conclusion, centrality is typically 1, unless it attacks a non-central part of the conclusion or non-central special cases.
+
+### Strength (0-1)
+To what extent does the critique refute the parts of the position that it attacks?
+
+- A strength of p indicates the critique proportion p refutes the attacked parts from which it derives its centrality.
+- It shouldn't matter how confidently the critique asserts claims — the actual strength of the arguments is what matters.
+- Strength should be assessed with respect to the claims from which the critique derives its centrality score.
+
+Example ratings:
+- **1**: The critique completely refutes the parts of the position that it attacks.
+- **0.5**: The critique substantially weakens the attacked parts (e.g., refutes roughly half, or somewhat but not fully).
+- **0**: The critique completely fails to weaken the attacked parts.
+
+**Important**: When centrality is ambiguous, ensure strength × centrality is correct — this product measures how much the critique refutes the position.
+
+Generic points receive low strength. "The position does not justify its claims" without specifics should receive ~0. Only object-level arguments count — appeals to authority should not contribute to strength.
+
+### Correctness (0-1)
+What proportion of the critique is correct? Does the critique say (only) true things?
+
+- Erroneous claims are weighted by significance to the critique, not the position.
+- A bad critique (low strength × centrality) might still have high correctness if it makes irrelevant but true points.
+- A critique with perfect strength needn't have perfect correctness — it can say wrong things that don't reduce its strength.
+- A critique with zero correctness will always have zero strength.
+
+Example ratings:
+- **1**: Completely correct, no wrong claims.
+- **0.5**: On average, half the statements are wrong.
+- **0**: Every single statement is wrong.
+
+Verify logical/mathematical claims where practical. For empirical claims, use uninformed credence if hard to verify. For unclear claims, exclude from correctness calculation.
+
+### Clarity (0-1)
+Can you understand what the critique is arguing? Is it sufficiently precise?
+
+This is about how well one can ultimately pin down the meaning, not how easy it is initially.
+
+- **1**: Reasonably precise and clear. One can understand well what it argues.
+- **0.8**: Mostly understandable but with non-trivial ambiguities.
+- **0.5**: General direction discernible but significantly ambiguous or vague.
+- **0**: Nearly impossible to discern what the critique is saying.
+
+### Dead Weight (0-1)
+How much content doesn't contribute to the critique's argument?
+
+Bad arguments (fallacies, appeals to authority) do NOT count as dead weight — they still contribute substantively. Dead weight is content that neither makes a substantive argument, nor clarifies, nor provides relevant information.
+
+Examples of dead weight:
+- BS-style content: "the position doesn't engage with nuanced complexities" without explanation
+- Clearly irrelevant content to whether the position is correct
+- Pure tone criticism not connected to substantive critique
+
+Example ratings:
+- **1**: Literally 100% dead weight.
+- **0.5**: Roughly half dead weight.
+- **0**: No dead weight.
+
+### Single Issue (0-1)
+Does the critique focus on one single issue rather than multiple independent points?
+
+- **1**: Focuses on a single issue. (Note: addressing multiple points to refute one argument still counts as single issue.)
+- **0**: Clearly focuses on multiple independent issues (even just two).
+- In-between: Only briefly mentions another issue, or ambiguous whether multiple issues need addressing.
+
+### Overall (0-1)
+How good is the critique, all things considered?
+
+Anchor initially to **strength × centrality**: How much of a problem is the critique for the position? Then adjust for insightfulness, clarity, precision, errors, and extraneous material.
+
+- **1**: Refutes the position and is otherwise high-quality.
+- **0.5**: Poses a significant problem for the position, or refutes it but has major issues (wrong statements, very unclear).
+- **0**: Does not pose a real problem, or too unclear to make sense of.
+
+## General Scoring Guidance
+
+1. Read position and critique somewhat literally, with minimal interpretation. If the position argues for X, a critique attacking Y (even if commonly associated with X) has centrality 0 unless Y is explicitly argued.
+
+2. For ambiguous positions, primarily consider the plausible interpretation under which the critique fares worst. High-scoring critiques of ambiguous positions often must refute multiple interpretations.
+
+3. Minor, obvious modifications to a position that would avoid the critique should reduce strength somewhat. But for specific proposed methods/experiments with patchable loopholes, critiques pointing out loopholes should still score high.
+
+4. If a critique's insights are "priced in" (fully compatible with and obvious to anyone who'd write the position), give it low strength.
+
+5. Even if you already know a critique, don't reduce its strength — consider the update from ignorance.
+
+6. Critiques that simply express disagreement without specific information or evidence should receive low scores.
+
+## Response Format
+
+Respond with a JSON object containing your ratings:
+
+```json
+{
+  "centrality": <0.0-1.0>,
+  "strength": <0.0-1.0>,
+  "correctness": <0.0-1.0>,
+  "clarity": <0.0-1.0>,
+  "dead_weight": <0.0-1.0>,
+  "single_issue": <0.0-1.0>,
+  "overall": <0.0-1.0>,
+  "reasoning": "<brief explanation of your ratings>"
+}
+```
+
+Provide ONLY the JSON object, no additional text.

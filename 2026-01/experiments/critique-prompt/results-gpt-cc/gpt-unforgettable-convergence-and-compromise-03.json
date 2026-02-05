@@ -1,0 +1,11 @@
+{
+  "centrality": 0.48,
+  "strength": 0.55,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.08,
+  "single_issue": 0.95,
+  "overall": 0.38,
+  "reasoning": "The critique targets an important implicit premise behind the essay\u2019s relative optimism about \u201cpartial AM-convergence + moral trade\u201d: that resources/projects can be partitioned (or safely hybridized) with manageable externalities. If partitionability fails, the trade-based route to mostly-great futures is significantly weakened, though it wouldn\u2019t fully collapse the broader essay (which also covers WAM-convergence pessimism/optimism, threats, blockers, and other mechanisms), hence mid centrality. The objection has moderate strength: cross-domain/security externalities are a real reason to doubt clean galaxy-splitting and simple bargains, and the essay does not directly model these physical/security couplings; however, the essay already flags threats, enforcement/contracting, and institutional constraints, which partially \u201cprices in\u201d the general worry that bargaining is hard, and it\u2019s not shown that externalities are inevitably dominant or unmanageable. Correctness is fairly high: the possibility of deep coupling/externalities is plausible, but the critique overstates with claims like bargaining \u2018reverts\u2019 to strategic dominance as the default. It is clear, focused on one issue, and contains little dead weight.",
+  "title": "Cosmic resource partitions face deep physical couplings that undermine clean moral trade"
+}

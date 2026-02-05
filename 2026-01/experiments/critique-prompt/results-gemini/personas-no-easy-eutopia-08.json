@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.3,
+  "correctness": 0.55,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.15,
+  "reasoning": "The critique targets the idea that a \u2018near-best\u2019 future requiring precise moral optimization is unstable under evolutionary/selection pressures and thus not truly feasible. This is only moderately central: the essay\u2019s main thesis is about the size/fragility of the value target (how many futures are mostly-great conditional on survival), and it explicitly brackets \u201cnavigation/steering forces\u201d (selection pressures would more naturally fall under that) for a later essay. So even if the evolutionary point landed, it would more directly bear on likelihood/reaching the target, not whether the target is narrow.\n\nAs an objection to this essay, strength is limited: it largely shifts the debate to what counts as \u2018feasible\u2019 (evolutionarily stable vs physically/technologically achievable at the 99.99th percentile), and doesn\u2019t directly rebut the multiplicative/fragility arguments for why many apparently great futures could be far from best. It also doesn\u2019t engage the possibility of non-evolutionary drivers (institutions, cultural evolution, deliberate lock-in, AI governance) that could override \u201creproductive\u201d selection.\n\nCorrectness is mixed: it\u2019s broadly right that selection pressures can shape norms and that fragile equilibria can be hard to maintain, but it overstates that values are selected for survival utility (not straightforwardly true, especially for culturally transmitted/engineered values) and it asserts, without support, that \u2018easygoing\u2019 systems will dominate and that this makes fussy eutopias infeasible.\n\nThe critique is clear, focused on one line of attack, and contains little dead weight.",
+  "title": "Evolutionarily fragile moral targets will be outcompeted by robust value systems"
+}

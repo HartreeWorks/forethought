@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.72,
+  "paper_specificity": 0.78,
+  "tractability": 0.38,
+  "clarity": 0.73,
+  "decision_hook": 0.92,
+  "dead_weight": 0.12,
+  "overall": 0.56,
+  "reasoning": "This targets a linchpin premise in Sec. 3.2: that value-efficiency across feasible resource configurations is so fat-tailed that most value requires near-maximally specific uses of (almost all) resources\u2014driving the paper\u2019s \u2018fussy/ narrow target\u2019 conclusion for linear views. If the tail is much thinner, the paper\u2019s key mechanism for \u201cno easy eutopia\u201d weakens and priorities could shift toward robust, scalable improvements rather than precision targeting, so strategic stakes are fairly high. It is strongly tied to this paper\u2019s argument (fat-tail + linear separability as the reason common-sense-utopia-like outcomes lose most attainable value). However, it\u2019s only moderately tractable: \u2018value per unit resource\u2019 depends on contested moral assumptions, unknown future design space, and hard-to-justify extrapolations; research can still partially inform it via proxy distributions, theoretical bounds (e.g., welfare per joule/bit), and model-based sensitivity analyses, but not cleanly resolve it. The question is mostly clear, though still ambiguous about the value metric, feasible set, and what counts as \u2018top 0.1%\u2019 in an astronomically large configuration space. The decision hook is excellent and explicit. Minimal dead weight: the extra context largely clarifies what would count as an answer and why it matters.",
+  "title": "Fat-tailedness of value distribution across cosmic resource configurations"
+}

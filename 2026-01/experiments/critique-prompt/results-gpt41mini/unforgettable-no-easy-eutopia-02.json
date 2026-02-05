@@ -1,0 +1,11 @@
+{
+  "centrality": 0.85,
+  "strength": 0.15,
+  "correctness": 0.6,
+  "clarity": 0.8,
+  "dead_weight": 0.15,
+  "single_issue": 0.9,
+  "overall": 0.18,
+  "reasoning": "The critique targets a central pillar of the position: that conditional on survival, mostly-great/near-best futures are a narrow target because value is fragile and most plausible moral views are \u201cfussy.\u201d If it succeeded, it would significantly undercut the paper\u2019s conclusion (high centrality). However, it mostly asserts\u2014without argument or engagement\u2014that \u201cmany moral views\u201d would rate common-sense utopia >50% and that moral uncertainty should favor pluralistic/easygoing conceptions. The original piece explicitly considers an \u201ceasygoing liberalism\u201d stance and then offers multiple reasons (moral-catastrophe examples, multiplicative fragility model, and a long technical section on bounded/unbounded value functions and aggregation) for thinking easygoingness is rare; the critique doesn\u2019t grapple with these. So it weakly challenges the paper rather than refuting it (low strength). What it says is partly plausible (some views would indeed rate common-sense utopia highly; pluralism could broaden the target), but it overreaches by implying this is likely or dominates under moral uncertainty without support (moderate correctness). It is understandable and focused, with little fluff (good clarity, low dead weight, mostly single-issue). Overall impact is small (strength \u00d7 centrality is low).",
+  "title": "Most moral views rate common-sense utopia as mostly good"
+}

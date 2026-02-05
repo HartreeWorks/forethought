@@ -1,0 +1,10 @@
+{
+  "centrality": 0.35,
+  "strength": 0.25,
+  "correctness": 0.6,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.15,
+  "reasoning": "The critique attacks the paper's use of historical moral catastrophes as evidence that future catastrophes are likely. However, this is not central to the paper's main argument. The paper's core thesis is that eutopia is 'fragile' - that value is multiplicative across factors, that plausible moral views are 'fussy,' and that narrow targets require deliberate optimization to hit. The historical examples in Section 2.1 serve as illustrations, not as the logical foundation. The paper's main arguments in Sections 2.3-2.4 (about future catastrophes being easy, value as product of factors) and Section 3 (systematic analysis of bounded/unbounded views) don't depend on the historical argument. The critique has some merit: there is a tension between recognizing past errors and predicting future ones. But the paper could simply respond that moral progress is domain-specific and slow, or that recognizing errors doesn't mean avoiding them. The paper explicitly notes that even people today might not recognize ongoing catastrophes (animal farming), suggesting progress is incomplete. The critique also mischaracterizes - the paper doesn't argue 'moral catastrophes happened therefore they will happen' but rather 'the structure of value functions makes catastrophes easy.' Clarity is decent but the argument could be more precisely stated. Single issue is 1 as it focuses entirely on this one point."
+}

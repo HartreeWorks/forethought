@@ -1,0 +1,11 @@
+{
+  "centrality": 0.8,
+  "strength": 0.45,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.38,
+  "reasoning": "The critique targets the essay\u2019s key conditioning premise: that \u201cmostly-great futures are a narrow target\u201d (imported from \u201cno easy eutopia\u201d), which is central because much of the essay\u2019s pessimism about WAM-convergence and its reliance on trade/threats is motivated by target-narrowness. If target-narrowness were substantially weakened, many downstream worries would be less pressing, so centrality is high. However, the critique mainly argues under-specification and offers an alternative intuition (many axiologies are coarse-grained), rather than directly engaging the prior essay\u2019s case for no-easy-eutopia or showing that, under a realistic moral-uncertainty mixture, most value lies in a large basin of near-optimal futures. Because it\u2019s more a challenge to justification/robustness than a refutation, strength is moderate. Its main claims are broadly plausible (underspecification here; some theories tolerate wide outcome-sets once constraints are met), though it arguably underestimates how the position explicitly leans on fussy population ethics/aggregation issues and how even \u2018rights/agency/suffering constraints\u2019 can be demanding at cosmic scales; hence high but not perfect correctness. It is clear, focused on a single issue, and contains little to no filler.",
+  "title": "The paper overstates the narrowness of the moral target"
+}

@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.75,
+  "paper_specificity": 0.7,
+  "tractability": 0.6,
+  "clarity": 0.7,
+  "decision_hook": 0.55,
+  "dead_weight": 0.15,
+  "overall": 0.55,
+  "reasoning": "Crucial because it bears directly on whether compute bottlenecks meaningfully constrain a software intelligence explosion: if \u201ccompute-light\u201d routes can drive large capability gains, the paper\u2019s anti-bottleneck/strongest-link stance is strengthened; if not, the CES-style complementarity objection gains force. Fairly paper-specific since it targets the paper\u2019s strongest-link vs bottleneck framing and implicit substitutability claims, though it could be asked of other SIE/compute-bottleneck discussions. Partially tractable via empirical decomposition of frontier progress (algorithmic efficiency trends, ablation-style case studies of major advances, spend/compute accounting, proxy measures of \u2018idea\u2019 vs \u2018experiment\u2019 contributions), but causal attribution and counterfactual \u2018sufficient alone\u2019 claims are difficult. Clarity is decent but key terms are underspecified (what counts as compute-intensive/light; what operationalizes \u201cmulti-OOM capability gains\u201d; what \u201calone\u201d means). Decision hook is present but not fully action-explicit (it implies which model/frame to use, but not concretely what strategic priorities change). Low dead weight: the framing mostly supports the question without excessive padding.",
+  "title": "Compute-intensive iteration versus alternative routes for capability scaling"
+}

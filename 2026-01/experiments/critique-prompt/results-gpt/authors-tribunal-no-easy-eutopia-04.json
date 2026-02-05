@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.5,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.33,
+  "reasoning": "The critique targets a genuinely important step in the essay\u2019s case that (many) linear unbounded views are fussy: the claim that being mostly-great requires capturing nearly all accessible resources, making even a \u201ccommon-sense utopia\u201d worth only a tiny fraction of the best feasible future. If that step were removed or substantially softened, the essay\u2019s Section 3 case against easygoingness would be weakened, though not destroyed because the essay also leans heavily on independent \u201cfragility/product of factors\u201d considerations (Section 2) and on non-scale-related fussiness (e.g., bads sensitivity). The objection has moderate force: it correctly notes that \u2018available/accesssible\u2019 and \u2018best feasible\u2019 are doing work, and that feasibility/coordination/ethical-permissibility constraints could shrink the relevant benchmark so that not expanding isn\u2019t a moral failure on the view but a feasibility limit. However, it\u2019s partly speculative (it asserts possibilities rather than showing they\u2019re likely or that the authors\u2019 \u2018affectable universe\u2019 notion already includes them), and the authors can partially patch by clarifying their feasibility model while still arguing that very large-scale expansion is feasible/likely conditional on survival. The critique is clear, focused, and contains little to no dead weight.",
+  "title": "Linearity doesn\u2019t entail morally required cosmic expansion once feasibility and rights constrain resources"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.55,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.45,
+  "reasoning": "The critique targets a fairly central inferential step in the position: using an \u2018implausibly low max speed\u2019 intuition to dismiss most empirically-estimated negative \u03c1 values and narrow to \u22120.2<\u03c1<0, which then underwrites the stated 10\u201340% SIE probability. If that narrowing is undermined, the position\u2019s quantitative bottom line becomes much less supported, though the post has several other arguments for weaker compute bottlenecks, so the entire position wouldn\u2019t fully collapse (centrality ~0.65). The critique has moderate strength because it credibly argues that this step is largely unquantified/intuition-driven and not anchored to identified counterfactuals under fixed compute, which weakens the warrant for the posterior range and probabilities; however, it doesn\u2019t directly rebut the other listed counterarguments (long-run substitution, experiment efficiency gains, multiple routes, etc.), so it only partially undermines the overall case (strength ~0.55). Most claims in the critique are broadly correct\u2014this is indeed a methodological/identification complaint about replacing dubious econ estimates with informal judgment\u2014though phrases like \u201cno falsifiable mapping\u201d overstate things somewhat (correctness ~0.8). It is clear, focused, and contains little fluff (clarity high, low dead weight, single-issue high). Overall, it poses a real but not decisive problem, mainly for the argument\u2019s quantification and posterior narrowing.",
+  "title": "Rejecting empirical estimates while relying on unquantified intuitions leaves the forecast untethered"
+}

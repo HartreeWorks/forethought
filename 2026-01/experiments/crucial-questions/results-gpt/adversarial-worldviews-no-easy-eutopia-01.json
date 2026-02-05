@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.7,
+  "tractability": 0.55,
+  "clarity": 0.78,
+  "decision_hook": 0.95,
+  "dead_weight": 0.12,
+  "overall": 0.66,
+  "reasoning": "Crucial because the paper\u2019s practical upshot partly hinges on whether narrow-target eutopia can nonetheless be reached via deliberate, de-dicto optimisation pressure; a strong yes/no would materially shift prioritisation between governance-building vs more politics-robust technical/containment approaches. Moderately paper-specific: it targets the paper\u2019s explicit baseline assumption (no stronger optimisation pressure than today) and its concluding escape hatch (coordination/deliberation could still hit the target), though the institutional-design question also resembles broader AI governance debates. Tractability is middling: parts can be operationalised (comparative institutional analysis, mechanism design, historical case studies, stress-testing against capture/enforcement failures), but \u201creliably create and sustain\u201d across future high-stakes contexts is difficult and likely yields only partial, model-dependent answers. Clarity is decent but still broad: what counts as \u2018very best outcomes de dicto\u2019, \u2018reliably\u2019, and acceptable failure probabilities/time horizons is underspecified. Decision hook is excellent and explicitly bifurcates strategy. Dead weight is low; the added worldview/anchor/implications mostly sharpen rather than bloat.",
+  "title": "Governance mechanisms for sustained de dicto optimization amid capture"
+}

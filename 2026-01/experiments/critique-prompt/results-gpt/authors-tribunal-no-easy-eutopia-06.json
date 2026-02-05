@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.4,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.3,
+  "reasoning": "The critique targets a real methodological pillar of the paper\u2019s \u201csystematic\u201d argument in \u00a73: restricting to complete vNM-style orderings (cardinalizable, continuous, independence) before arguing that \u201cmost plausible views are fussy.\u201d If that filter were unjustified, the sociological/plausibility claim is weakened, so centrality is moderate. However, the paper also motivates \u201cno easy eutopia\u201d via \u00a72-style fragility/moral-catastrophe considerations that do not rely on vNM representability, so the position wouldn\u2019t fully collapse. The critique\u2019s refutational force is limited because it mainly argues possible selection bias, not that the excluded families are (a) plausible on reflection and (b) in fact easygoing about futures; vNM axioms don\u2019t by themselves force extreme sensitivity, and the paper partially acknowledges non-representable views. Still, it\u2019s a cogent burden-shifting objection: to sustain \u201cmost plausible views,\u201d the authors should either defend excluding incompleteness/lexical/constraint-based theories or analyze them. The critique is clear, focused, and contains little fluff.",
+  "title": "Assuming vNM-complete moral orderings excludes robust theories and predetermines fussiness"
+}

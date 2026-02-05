@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.4,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.32,
+  "reasoning": "The critique targets the essay\u2019s concluding \u201clive hope\u201d that convergence/compromise/truth-seeking institutions might guide society to hit a narrow eutopian target, arguing instead that pivotal early institutions (space settlement constitutions, rights regimes) are capture-prone and lock in bad outcomes. This is relevant but not central to the essay\u2019s main thesis (\u201cno easy eutopia\u201d/fragility and fussiness): the paper explicitly says the steering/convergence question is for the next essay and does not rely on successful deliberation to establish that eutopia is hard by default. So centrality is moderate-low. As an objection to the optimism in the conclusion, it has some force: if early allocations are path-dependent and hard to revise, institutional capture plausibly reduces the likelihood of later moral correction. However, it overstates by treating capture as near-inevitable (\u201cinstitutions are corrupt (they are)\u201d) and by implying the paper \u2018recommends\u2019 sensitivity that increases capture payoffs; the essay mainly describes fragility, not an institutional design program. Also, permanence of first allocations is presented as likely/important but not proven to be absolute, and the critique doesn\u2019t show that truth-seeking/compromise mechanisms couldn\u2019t be designed to resist capture. Hence only moderate strength. Correctness is middling: the capture/lock-in mechanism is plausible and consistent with the essay\u2019s emphasis on early resource grabs, but several asserted premises are contestable or too sweeping. Clarity is high and it stays focused on a single mechanism. Dead weight is low.",
+  "title": "Early institutional capture turns fragility into a self-fulfilling lock-in risk"
+}

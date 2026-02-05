@@ -1,0 +1,4 @@
+**Is it realistic that “humanity will choose its future” via deliberation/trade rather than the future being “best explained as the outcome of evolutionary forces” (or misaligned AI agency), making bargaining-based optimism mostly moot?**  
+   - **Worldview:** Alignment Pessimist *(also salient to Governance Realist)*  
+   - **Paper anchor:** §2.5 “blocker” that humanity may not choose its future at all; plus §2.3.1 assumes superintelligent advice can be used as a tool by agents with stable motivations.  
+   - **Strategic implications:** If **humans/coalitions remain the relevant agents**, strategy becomes **improve collective decision procedures + enable moral trade + anti-threat governance**; if **AI agency/evolutionary dynamics dominate**, strategy becomes **front-load alignment/control and compute-security measures, because post-AGI moral bargaining levers won’t exist in time**.

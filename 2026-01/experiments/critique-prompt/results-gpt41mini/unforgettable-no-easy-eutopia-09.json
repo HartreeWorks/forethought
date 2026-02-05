@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.25,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets the paper\u2019s treatment of moral-uncertainty aggregation and suggests the \u2018fussy views dominate / easygoingness unlikely\u2019 takeaway depends on arbitrary normalization. This is somewhat central (the moral uncertainty section is part of the paper\u2019s support for the \u2018fussy/easygoing\u2019 conclusion), but not fully central because the paper also argues for eutopian fragility and fussiness of many value functions without relying on intertheoretic aggregation. Strength is low because the paper already explicitly discusses multiple normalization methods (extinction\u2013best, range, variance, pairwise), emphasizes that intertheoretic comparisons are thorny, and hedges its conclusions; so the critique partly attacks a position the paper does not actually hold (\u2018strictly fix scaling\u2019 / \u2018must recognize ambiguity\u2019). Still, it is correct in the limited sense that aggregation choices can swing safety-vs-upside rankings and therefore can matter to how \u201cdominant\u201d fussy views appear in decision-making under moral uncertainty. The critique is clear, focused on a single issue, and contains little dead weight.",
+  "title": "Arbitrary moral uncertainty aggregation conventions drive the dominance of fussy views"
+}

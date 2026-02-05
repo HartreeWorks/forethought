@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.5,
+  "correctness": 0.8,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.32,
+  "reasoning": "The critique targets the paper\u2019s operationalization of \u201cSIE\u201d as a \u22655 OOM increase in effective training compute within a year and then using that framing to motivate discussions of takeover/coups/etc. This is moderately central: it threatens how to interpret the stated 10\u201340% probability and the connection to the cited harms, but it does not directly undermine the paper\u2019s core technical dispute (whether compute bottlenecks, modeled via CES/substitutability, likely prevent rapid software progress). The critique has moderate refutational force: it correctly notes that training-efficiency gains are not monotonically or tightly linked to agentic capabilities, deployment, objectives, and real-world harm pathways; therefore the proxy can mislead. However it overstates the issue as a \u201cvalue aggregation contradiction\u201d and doesn\u2019t show the proxy is useless\u2014rapid effective-compute gains are plausibly correlated with capability acceleration and risk, so the link isn\u2019t severed. It is mostly correct, fairly clear, focused on one issue, and contains little dead weight aside from some rhetorical labeling.",
+  "title": "Effective training compute is a poor proxy for the agentic risks that matter"
+}

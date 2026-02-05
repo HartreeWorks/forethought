@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.7,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique targets one specific move in the position\u2019s broader case: dismissing the \u201cnear-frontier experiments\u201d bottleneck by appealing to historical progress despite fewer near-frontier runs. That move is relevant but not load-bearing for the overall thesis (which rests on many other considerations about substitutability, reconfiguration of R&D, alternative routes, etc.), so centrality is moderate-low. Within that local sub-argument, the critique is fairly strong: it points out a scale/denominator mismatch (historical regime where idea-generation pressure wasn\u2019t massively increased vs an SIE regime where it would be), so \u2018progress didn\u2019t slow historically\u2019 is weak evidence against a bottleneck that only binds when cognitive labor explodes. Most claims are plausible and conceptually correct, though some empirical specifics (e.g., \u201cdozens\u201d of near-frontier experiments/year) are uncertain. The critique is clear, focused on a single issue, and contains little extraneous material.",
+  "title": "Historical algorithmic progress data doesn't address the bottleneck at superhuman idea generation scales"
+}

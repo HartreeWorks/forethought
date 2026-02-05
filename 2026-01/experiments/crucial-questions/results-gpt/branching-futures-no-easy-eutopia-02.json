@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.72,
+  "paper_specificity": 0.66,
+  "tractability": 0.74,
+  "clarity": 0.77,
+  "decision_hook": 0.71,
+  "dead_weight": 0.14,
+  "overall": 0.62,
+  "reasoning": "Answering this would substantially shift near-term priorities between (i) urgent digital-welfare/AI-rights/governance work vs (ii) focusing more on human/animal-centered levers for longer, so it\u2019s strategy-relevant. It is moderately paper-specific: it directly targets the paper\u2019s Section 2.3.2 claim that digital beings could become a major moral-catastrophe axis, but the core question (agentic deployment trends) could also be asked in many AI governance contexts. It\u2019s fairly tractable because \u201ceconomically standard\u201d deployment can be proxied via procurement patterns, product defaults, token/compute spend shares, agent-instance counts, persistence/memory architecture prevalence, and market surveys over 6\u201324 months. Clarity is decent but not perfect: \u201cmorally significant,\u201d \u201clarge-scale,\u201d and \u201ceconomically standard\u201d need explicit thresholds, and the tool/agent boundary is fuzzy. The decision hook is explicit via a branch point and observable indicators, though it stops short of spelling out concrete action changes (e.g., specific policy/research reallocations). Minimal dead weight: the bullets mostly sharpen operationalization.",
+  "title": "Digital agent deployment: economically standard or tool-like within 24 months"
+}

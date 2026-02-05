@@ -1,0 +1,4 @@
+[The Historical Parallelist]
+**Target claim:** Adding more cognitive labor (AI researchers) will linearly or exponentially increase the rate of software progress.
+**Failure mode:** This is a recurrence of the fallacy behind Brooks' Law ("Adding manpower to a late software project makes it later"). In software engineering history, scaling the number of developers increases communication and coordination overhead super-linearly ($O(N^2)$). Even if the agents are digital, they must synchronize updates to the shared codebase, resolve merge conflicts in architectural logic, and maintain coherence.
+**Consequence:** As the number of AI researchers tends to infinity, effective progress asymptotes or even decreases due to coordination paralysis, forcing $\rho$ to be much more negative than the author's optimistic estimates.

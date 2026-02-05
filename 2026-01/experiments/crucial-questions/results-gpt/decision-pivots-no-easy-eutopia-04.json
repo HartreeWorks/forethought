@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.78,
+  "paper_specificity": 0.82,
+  "tractability": 0.56,
+  "clarity": 0.76,
+  "decision_hook": 0.95,
+  "dead_weight": 0.08,
+  "overall": 0.71,
+  "reasoning": "Cruciality is high because the paper\u2019s practical upshot depends on whether \u201cspace resource capture\u201d is a near-term, path-dependent lock-in event versus a slow, revisable process; the question cleanly maps to a strategic fork (urgent constitutional/space-governance now vs slower reflection/institution-building). Paper-specificity is strong: it directly targets a distinctive empirical hinge in this paper\u2019s argument (Sec. 2.3.4\u2019s \u2018capture essentially all resources\u2019 + AI-driven rapid expansion claim), not generic \u2018governance matters\u2019 talk. Tractability is moderate: partial progress is plausible via scenario modeling (self-replicating industry feasibility, energy/launch/manufacturing constraints, expansion front speed, and historical/political-economy analogues of property-regime renegotiation), but the combined forecast remains deeply uncertain and sensitive to AI timeline assumptions. Clarity is fairly good, but key terms (\u201cessentially all resources,\u201d \u201cirreversibly,\u201d and what counts as \u2018allocation norms\u2019) still leave nontrivial operational ambiguity even with the provided 50y/200y benchmarks. Decision hook is excellent and explicit. Dead weight is low: the anchor, flip, and \u2018what would answer it\u2019 all contribute directly to making the question actionable.",
+  "title": "Timeline and reversibility of space resource lock-in"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.35,
+  "correctness": 0.75,
+  "clarity": 0.87,
+  "dead_weight": 0.12,
+  "single_issue": 0.92,
+  "overall": 0.24,
+  "reasoning": "The critique targets one component of the essay\u2019s case for \u201cno easy eutopia\u201d: that failing to pursue massive scale (and getting population ethics \u2018right\u2019) could forfeit most value. That consideration is relevant and appears in both the illustrative \u2018fragility\u2019 section and the later discussion of linear/unbounded views, but it is only one among many independent alleged fragility dimensions (digital beings, wellbeing theories, resource allocation, bads vs goods aggregation, etc.), so its centrality is moderate rather than decisive. The critique\u2019s main point\u2014that treating \u2018scale-insensitivity\u2019 as an error risks privileging totalist/population-adding intuitions and letting demanding population views drive the stakes\u2014is substantially correct, and it would weaken how confidently the essay can treat non-expansion as a generic \u201cmoral flaw.\u201d However, the essay explicitly presents multiple population-ethical frameworks and uses controversy itself as part of the fragility story, so the critique doesn\u2019t fully undercut the broader \u2018narrow target\u2019 conclusion. It is clear, focused, and contains little filler.",
+  "title": "Scale-sensitivity assumptions import contested totalist premises into the fragility argument"
+}

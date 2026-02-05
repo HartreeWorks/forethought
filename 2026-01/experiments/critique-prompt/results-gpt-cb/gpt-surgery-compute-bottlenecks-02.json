@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.65,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.4,
+  "reasoning": "The critique targets the fixed \u03b1=0.5 assumption used to generate the post\u2019s concrete \u201cmax speed\u201d ceilings and some downstream intuitions (e.g., when bottlenecks bite). That assumption is not the only pillar of the overall anti-bottleneck case (much hinges on \u03c1 and on qualitative arguments about experimentation), but it is materially involved in the numeric claims and the comparison to economic estimates, so centrality is moderate. The critique is fairly strong: for \u03c1<0, the ceiling as L\u2192\u221e is Y_max=(\u03b1K^\u03c1)^{1/\u03c1}=\u03b1^{1/\u03c1}K, which is extremely sensitive to \u03b1 when \u03c1 is mildly negative (e.g., with \u03c1=-0.2, moving \u03b1 from 0.5 to 0.8 drops the ceiling from 32\u00d7 to ~3\u00d7). This undercuts the rhetorical force of the plotted ceilings and could affect the \u201cbottlenecks bite late\u201d takeaway if \u03b1 is high or changes over time. Correctness is high: \u03b1-sensitivity and the direction of the effect are right, though \u03b1 is not literally a task-fraction and the proposed interpretation (\u201ccompute-driven \u21d2 \u03b1\u22481\u201d) is only an imperfect mapping. The critique is clear, tightly focused, and has little filler.",
+  "title": "The fixed \u03b1=0.5 assumption hides critical sensitivity in speed ceilings"
+}

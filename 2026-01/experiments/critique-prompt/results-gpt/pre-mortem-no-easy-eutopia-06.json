@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.22,
+  "reasoning": "The critique targets Section 3.5\u2019s discussion of intertheoretic comparisons/normalization and argues that operationalizing it in governance would induce metric-gaming and volatility. That is only moderately central to the essay\u2019s core thesis (\u201cno easy eutopia\u201d/fussiness of most moral views), because Section 3.5 is an add-on about moral uncertainty and decision procedures rather than a load-bearing premise for eutopian fragility or fussiness. As an attack on 3.5\u2019s practical import, it has some force: Goodhart-style dynamics and denominator manipulation are real risks when metrics become institutionalized, and the paper largely treats normalization as an intellectual choice rather than a sociopolitical equilibrium. However, it doesn\u2019t much refute the underlying philosophical claims in 3.5 (that normalization choices can flip recommendations; that some methods make unbounded views loom larger), and it\u2019s somewhat speculative/empirical in its causal story (funders, dashboards, volatility) without support. The argument is clear and focused with little fluff; most claims are plausible as risks rather than established facts, so correctness is fairly high but not near-1.",
+  "title": "Treating intertheoretic normalization as technical invites metric gaming and funding instability"
+}

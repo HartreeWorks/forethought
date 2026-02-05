@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.6,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.3,
+  "reasoning": "The critique targets a specific but important step in the position\u2019s rebuttal (#5): the claim that near-frontier experiments may not be necessary and that extrapolating from smaller runs could avoid a compute bottleneck. If that claim fails, the compute-bottleneck objection becomes meaningfully stronger, but it wouldn\u2019t by itself overturn the position because the position offers multiple independent reasons to expect weaker complementarity (e.g., long-run reconfiguration, smarter/faster labor, non-experimental routes). The critique is moderately strong against the specific sub-claim: it correctly notes that many key behaviors/instabilities are scale-dependent in modern ML, undermining naive small-scale extrapolation. However, it is asserted rather than defended in detail and doesn\u2019t directly show that such frontier-only phenomena dominate *overall* algorithmic progress or that they can\u2019t be accessed via cheaper proxies (e.g., distillation, scaling laws, simulation, interpretability work), so it doesn\u2019t fully refute the position\u2019s broader conclusion. It is mostly correct, clear, focused on one issue, and contains little dead weight.",
+  "title": "Emergent frontier phenomena make small-scale extrapolation systematically unreliable"
+}

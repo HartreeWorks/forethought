@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.9,
+  "tractability": 0.55,
+  "clarity": 0.75,
+  "decision_hook": 0.95,
+  "dead_weight": 0.1,
+  "overall": 0.68,
+  "reasoning": "Crucial because the paper\u2019s central claim (\u201cno easy eutopia\u201d) leans heavily on a multiplicative fragility picture; learning that effective N is small or that dimensions are highly correlated would substantially weaken the conclusion and shift priorities toward generic prosperity/governance, while large N with weak correlations strengthens the case for targeted multi-domain value work. Highly paper-specific: it directly interrogates Sec. 2.4\u2019s product-of-factors model and its implied rarity of mostly-great futures. Moderately tractable: you can operationalise via eliciting evaluations of many future-world vignettes across many moral views and fitting latent-factor/correlation models, but results will be sensitive to how you sample moral views, specify vignettes, elicit cardinal values, and define \u201cvalue-critical,\u201d so strong conclusions are hard. Clarity is decent but not perfect because \u201ceffective N,\u201d \u201cnear-independent,\u201d and the relevant dependence structure require methodological choices (factor model class, identifiability, what counts as a dimension vs subdimension). Decision hook is explicit and strong. Dead weight is low: most text supports the question and its strategic relevance.",
+  "title": "Effective dimensionality of value-critical moral failure modes"
+}

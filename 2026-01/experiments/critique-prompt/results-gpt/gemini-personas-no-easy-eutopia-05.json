@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.35,
+  "correctness": 0.75,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.3,
+  "reasoning": "The critique targets a second-order effect: that endorsing \u201cno easy eutopia\u201d could motivate authoritarian \u201cmoral martial law\u201d via hyper-vigilant control to avoid moral error. This is only moderately central because the essay\u2019s core claim is descriptive/metaethical (eutopia is a narrow target; many plausible views are fussy), not a policy recommendation to centralize control; the essay even explicitly flags over-vigilance as a possible failure mode. If the critique landed fully, it would mainly undermine some implied strategic/political takeaway (e.g., \u2018we should steer hard/lock in\u2019), rather than refute the argument that futures are fragile or that many value functions are fussy. Strength is limited: it\u2019s a plausible pathway but largely a speculative slippery-slope without showing that the position entails, endorses, or makes significantly more likely the authoritarian response, nor that alternative responses (pluralism, institutional checks, error-tolerant governance) are inconsistent with \u201cno easy eutopia.\u201d Correctness is fairly high insofar as this is a coherent risk and is acknowledged by the essay; however the critique overstates with claims like \u201cignore\u201d and \u201cmanufacture an intellectual justification,\u201d which mischaracterize the essay\u2019s stance. Clarity is decent: the failure mechanism and scenario are understandable, though it lacks precise linkage from the thesis to the alleged policy uptake. Dead weight is low; it\u2019s compact and on-point. It focuses on a single issue (second-order political incentive/authoritarianism risk). Overall, it raises a real but partial and under-argued concern, more about downstream interpretation than the truth of the essay\u2019s main claims.",
+  "title": "Catastrophist framing could justify authoritarian moral control"
+}

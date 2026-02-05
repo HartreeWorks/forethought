@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.25,
+  "correctness": 0.55,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.2,
+  "reasoning": "The critique targets the paper\u2019s multiplicative \u2018product of factors\u2019 model (Sec. 2.4) as allegedly the foundation for eutopian fragility. That model is a meaningful support for the \u201cfragility\u201d intuition, so the attacked claim is somewhat central, but it is not the paper\u2019s entire basis: the argument also leans on historical moral error, many independent candidate \u2018single-flaw\u2019 catastrophes, and the later technical discussion of fussy vs easygoing moral views. Strength is limited because (i) the paper presents the multiplicative model explicitly as a toy/illustrative model rather than a required assumption, and (ii) even if value were additive/with redundancy, many of the paper\u2019s examples could still imply large value loss from particular moral errors. The critique is partly correct that the paper does not empirically validate independence/multiplicativity and that alternative aggregation with substitution could weaken the \u201cnear-zero from one miss\u201d picture; however it overstates (\u201centire argument rests\u201d, \u201cmathematically manufacture\u201d) and its empirical claims about substitutability in human flourishing are contestable and not clearly transferable to cross-moral-dimension evaluation. It is clear and focused, with little dead weight.",
+  "title": "Substitutability among value dimensions undermines the multiplicative fragility model"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.15,
+  "reasoning": "The critique targets an implied premise that achieving (near-)best futures depends mainly on collective moral choice and feasible coordination, and argues instead that competitive capability races select for speed rather than moral correctness. However, this essay is explicitly scoped to \u201cpoint (1)\u201d (target size / eutopian fragility) and explicitly defers the \u201cnavigation/coordination\u201d questions to a later essay, so the attacked premise is not very central to the position as stated. Even if the critique were fully right about competitive selection effects, it would not substantially undermine the essay\u2019s core claim that the \u2018eutopian target\u2019 is narrow/fussy across many moral views; at most it offers an alternative (or additional) explanation for why we won\u2019t hit it by default. The critique is mostly clear and focused, with little fluff. Substantively, parts are plausible (multiple actors, race dynamics matter), but it overstates (\u201ccompletely ignores,\u201d \u201csystematically outcompeted,\u201d \u201cpremise \u2026 assumes coordination capacity that doesn\u2019t exist\u201d) given the essay\u2019s explicit scoping and its acknowledgment that deliberate optimization/steering is a separate question.",
+  "title": "Competitive dynamics select for speed over moral correctness in shaping futures"
+}

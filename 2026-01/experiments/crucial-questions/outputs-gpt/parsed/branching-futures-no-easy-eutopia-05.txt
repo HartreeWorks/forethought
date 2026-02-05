@@ -1,0 +1,5 @@
+**Will the first consequential wave of space resource appropriation be governed by enforceable coordination (treaties, registries, liability, anti–first-come capture), or will it default to de facto first-mover control by states/firms?**
+   - **The branch point:** *“Coordinated space governance → reversible/negotiable allocations”* vs *“Grab-race → early lock-in of resource distribution and moral diversity loss”.*
+   - **Paper anchor:** Section **2.3.4** (initial settlement captures essentially all resources we’ll ever access; allocation can introduce lasting moral errors).
+   - **Indicators:** If Branch A is more likely, we’d observe **binding or near-binding multilateral mechanisms** (licensing, adjudication, standardized claims, enforcement-linked agreements) adopted by major space actors; if Branch B, we’d observe **rapid unilateral commercial/state claims**, weak dispute resolution, and investment patterns optimized for speed-to-claim rather than compliance.
+   - **Time sensitivity:** **Within 12–24 months**, because governance must precede (not follow) scalable in-space industry and self-reinforcing claims.

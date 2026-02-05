@@ -1,0 +1,5 @@
+**Can surrogate models and analytical predictors (trained on prior runs) forecast the outcomes of candidate training runs well enough to replace a large share of brute-force experimentation, effectively substituting cognition/software for compute?**
+   - **The branch point:** *“Accurate surrogates → cognition substitutes for compute (ρ→0 behavior)”* vs *“Surrogates brittle → real experiments remain the choke point (ρ<0).”*
+   - **Paper anchor:** Tests the paper’s claim that cognitive labor can, in principle, substitute for compute (and that CES “weakest-link” framing may be wrong in the limit), via mechanisms like better experiment design and extrapolation.
+   - **Indicators:** If Branch A is more likely, we observe high-accuracy predictors for scaling outcomes (loss curves, emergent behaviors, downstream performance) that materially cut required training trials. If Branch B, predictors fail on distribution shifts (new architectures/data/training regimes) so labs must still run many expensive empirical tests.
+   - **Time sensitivity:** **Within 6–18 months**, as surrogate-based planning could rapidly change the effective experiment budget without new hardware.

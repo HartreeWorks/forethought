@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "correctness": 0.85,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets the essay\u2019s comparatively optimistic route to mostly-great futures via partial AM-convergence plus moral trade/compromise, which is an important pillar of the essay (though not its only one), so centrality is moderate (~0.45). The point has some bite\u2014trade outcomes do depend heavily on bargaining power, commitment/threat dynamics, and path dependence\u2014but the essay itself repeatedly flags these issues (threats, concentration of power, decision-procedure sensitivity, early lock-in) and already presents the trade story as conditional and uncertain rather than straightforwardly optimistic. Because much of the critique is therefore partly \u201cpriced in\u201d and it doesn\u2019t supply a concrete counter-model or show that the essay\u2019s conditional optimism is unjustified, strength is limited (~0.35). The claims it makes are broadly true and appropriately caveated (correctness high). It is succinct and understandable (clarity high), with little fluff (low dead weight), and it stays on one main objection (high single-issue). Overall it\u2019s a fair but somewhat generic sensitivity warning that modestly weakens the trade-based optimism rather than substantially refuting the essay.",
+  "title": "Moral trade optimism rests on idealized bargaining assumptions the paper elsewhere flags as blockers"
+}

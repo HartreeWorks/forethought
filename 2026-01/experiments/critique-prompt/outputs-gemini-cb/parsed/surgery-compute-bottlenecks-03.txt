@@ -1,0 +1,4 @@
+**Load-bearing claim:** Jones’ (2003) hypothesis applies to AI R&D: short-run bottlenecks ($\rho < 0$) resolve into long-run substitutability ($\rho \approx 0$) as methods are reconfigured.
+**Attack type:** Parameter sensitivity (Time step)
+**The specific problem:** Jones' hypothesis relies on "long-run" structural adaptation (building new supply chains, factories, or hardware architectures). The paper posits an SIE happening in "months or years," which compresses the timeline. While AI researchers think fast, physical reconfiguration (e.g., building a new type of chip to support a new sparse architecture) has irreducible serial latency in the physical world.
+**Impact:** The "long-run" $\rho$ of 0 is inaccessible within the "short-run" duration of an explosion. The SIE remains constrained by the short-run, lower $\rho$, collapsing the explosive growth rate.

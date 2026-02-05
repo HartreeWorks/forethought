@@ -1,0 +1,11 @@
+{
+  "centrality": 0.18,
+  "strength": 0.7,
+  "correctness": 0.9,
+  "clarity": 0.95,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets the post\u2019s \u201cAGIs can do the math in their heads\u201d toy example used to suggest that in the limit cognitive labor could substitute for compute, undermining a hard \u03c1<0 bottleneck. That point is explicitly labeled non-practical and is only one supporting consideration among many, so its centrality to the overall anti-bottleneck conclusion is low-to-moderate. Within that narrow target, the critique is fairly strong: it correctly notes that any such simulation still requires physical operations/energy somewhere, and if the hardware-compute budget is truly fixed then \u2018thinking harder\u2019 can\u2019t exceed it without changing the premise. The critique is mostly correct and clearly stated, with little extraneous material. Overall, it modestly weakens one illustrative argument but does not substantially undercut the post\u2019s broader case (which relies on multiple other reasons compute bottlenecks may be weaker).",
+  "title": "\"Cognitive labor doesn't circumvent physical compute constraints\""
+}

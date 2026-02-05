@@ -1,0 +1,11 @@
+{
+  "centrality": 0.62,
+  "strength": 0.38,
+  "correctness": 0.74,
+  "clarity": 0.86,
+  "dead_weight": 0.07,
+  "single_issue": 0.97,
+  "overall": 0.28,
+  "reasoning": "The critique targets a real structural tension in the essay: it uses cross-moral-view \u201ccatastrophe\u201d examples to motivate fragility, while later formalizing value via completeness/vNM cardinalization and fixed thresholds (0.5/0.9). If the essay\u2019s intended support for fragility were essentially \u201cmany diverse doctrines condemn the default, therefore narrow target,\u201d then a worry about incommensurability and lack of a shared metric would significantly weaken that rhetorical support. However, centrality is not maximal because (i) the essay\u2019s main conclusion is primarily about most plausible *single* moral theories being fussy and about multiplicative/fragile value within a theory, and (ii) Section 3 explicitly restricts scope to theories satisfying vNM-style axioms, so the author can reply that pluralism in 2.1 is illustrative rather than the foundational inference. Strength is moderate-low: it shows the 2.1 move doesn\u2019t straightforwardly license conclusions about \u201c90% of best feasible value\u201d across incompatible doctrines, but it doesn\u2019t fully undermine the within-theory fussiness arguments (multiplicative-factor model, linear vs bounded analyses). Correctness is fairly high: it\u2019s true many cited perspectives reject completeness/cardinality or intertheoretic commensurability, and that this limits what follows from the pluralism premise; but it overstates by implying the essay *needs* cross-doctrine commensurability for the core conclusion, whereas much of the argument is intra-theoretic and the vNM assumption is openly stated. The critique is clear, focused on one issue, and has little dead weight. Overall impact is limited because it mostly undercuts one motivating strand rather than refuting the main technical case.",
+  "title": "Imposed commensurability undermines the pluralist case for fragility"
+}

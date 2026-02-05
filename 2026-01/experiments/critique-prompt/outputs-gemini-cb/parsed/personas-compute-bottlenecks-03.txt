@@ -1,0 +1,4 @@
+[The Systems Engineer]
+**Target claim:** The feedback loop of "AI improving AI algorithms" leads to accelerating progress.
+**Failure mode:** This ignores the noise-amplification inherent in recursive self-improvement. In complex software systems, fixing a bottleneck usually reveals a new, more intractable bottleneck (Amdahl's Law applied to debugging). Furthermore, automated researchers introducing novel architectures will introduce bugs and stability issues at a rate proportional to their speed. Without hardware verification (which is bottlenecked), the "signal-to-noise" ratio of the R&D pipeline collapses.
+**Consequence:** Instead of an explosion of intelligence, you get an explosion of technical debt and unstable codebases. The system suffers "mode collapse" or catastrophic regression rather than asymptotic improvement.

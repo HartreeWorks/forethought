@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.6,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.27,
+  "reasoning": "The critique targets only Counterargument 4 (that smarter/faster researchers imply weaker compute bottlenecks / higher \u03c1). That node is supportive but not load-bearing in the overall post, which offers multiple independent reasons to doubt low \u03c1 from economics and to expect bottlenecks to bite late; so centrality is modest. The critique is a real reversal: increased cognition can raise hypothesis throughput faster than verification capacity, making compute more binding and potentially making effective complementarity stronger (more negative \u03c1) at higher L. This substantially weakens the specific inference \u2018smarter/faster \u21d2 raise \u03c1\u2019, though it doesn\u2019t fully refute it because cognition could also substitute for experiments via better priors, better experimental design, extrapolation from smaller runs, etc., and the critique doesn\u2019t quantify which effect dominates. Most claims are plausible but somewhat speculative (e.g., superlinear idea generation, mapping this to \u201c\u03c1 becomes more negative\u201d), so correctness is fairly high but not near-1. It is clearly written, focused on a single issue, and contains little extraneous material. Overall it poses a moderate problem for one supporting pillar, not for the main conclusion.",
+  "title": "Smarter workers may increase compute demand rather than substitute for it"
+}

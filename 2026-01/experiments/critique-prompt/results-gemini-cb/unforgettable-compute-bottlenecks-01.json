@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.6,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets a real sub-claim in the position: that progress need not be bottlenecked by near-frontier compute because researchers can rely on many smaller-scale experiments plus extrapolation (and related claims about reconfiguring R&D to use abundant cognitive labor). If discontinuous/emergent capabilities require large-scale runs to even appear, that undermines this particular escape hatch. However, this point is not the linchpin of the overall position, which also argues for other routes (process reconfiguration, improved experiment efficiency, non-experimental insights, multiple pathways with different effective elasticities), so centrality is moderate rather than high. The argument has decent force against the \u201csmall experiments substitute for frontier runs\u201d move, but it doesn\u2019t establish that most valuable algorithmic work is only visible at scale, nor that theory cannot be developed without large runs; the \u2018computationally irreducible/chaotic\u2019 framing is plausible but overstated. The critique is concise and understandable with little dead weight and focuses on one issue.",
+  "title": "Emergent capabilities at scale thresholds cannot be discovered through small-scale experiments"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique targets a meaningful sub-argument in the position (the claim that falling near-frontier experiment counts suggests compute scarcity is not binding). If that inference is undermined, it modestly strengthens the compute-bottleneck objection, but it does not undercut most of the position\u2019s other, independent reasons for expecting higher substitutability (e.g., longer-run reconfiguration, smarter/faster labor, non-frontier experimentation, alternative routes). Hence moderate centrality. The critique\u2019s refutation strength is limited: it offers a plausible alternative explanation (progress tracking bigger frontier runs, complementarity with scale) but provides little concrete evidence and does not directly engage the author\u2019s specific rebuttal that near-frontier scarcity would have predicted a slowdown historically. Most claims are broadly plausible (recent capability jumps and post-training often being compute-intensive), though the stronger historical generalization (\u201cfrontier compute has been the main driver\u201d) is contestable and underspecified, so correctness is good but not perfect. It is clearly written, focused on a single issue, and contains little extraneous material.",
+  "title": "Compute scaling, not just ablations, may explain progress"
+}

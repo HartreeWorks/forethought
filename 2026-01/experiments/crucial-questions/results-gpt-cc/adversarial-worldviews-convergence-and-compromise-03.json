@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.9,
+  "paper_specificity": 0.72,
+  "tractability": 0.55,
+  "clarity": 0.78,
+  "decision_hook": 0.95,
+  "dead_weight": 0.08,
+  "overall": 0.73,
+  "reasoning": "Cruciality is very high because the paper\u2019s optimism about partial AM-convergence + moral trade is strongly conditional on avoiding value-destroying executed threats; a definitive answer would plausibly flip priorities between building anti-extortion governance vs. segmentation/deterrence/reducing interactability. Paper-specificity is high but not maximal: the exact concern (executed threats undermining moral trade in a post-AGI value-pluralistic world) is central to \u00a73.3\u2013\u00a73.4, though \u2018can institutions prevent extortion?\u2019 is also a broader governance/game-theory question. Tractability is moderate: one can make progress via formal models (commitment/threat equilibria, mechanism design, bargaining with heterogeneous utilities), study analogues (mafia/extortion suppression, arms-control regimes, contract enforcement, international law), and evaluate technical enablers (monitoring, auditability, cryptographic commitments), but strong extrapolation to post-AGI \u201cvalue blocs\u201d limits confidence. Clarity is good but weakened by ambiguity around what counts as an \u2018executed threat\u2019, what \u2018mutually agreeable\u2019 means under moral uncertainty, and what stability concept is intended (Nash equilibrium, coalition-proofness, renegotiation-proofness, etc.). Decision hook is excellent and explicitly bifurcates strategy. Dead weight is low: nearly all framing points toward the single evaluable question.",
+  "title": "Enforcing anti-threat regimes across competing value blocs"
+}

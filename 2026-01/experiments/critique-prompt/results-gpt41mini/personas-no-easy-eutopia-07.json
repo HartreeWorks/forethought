@@ -1,0 +1,11 @@
+{
+  "centrality": 0.2,
+  "strength": 0.15,
+  "correctness": 0.55,
+  "clarity": 0.8,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.15,
+  "reasoning": "The critique targets the idea in \u00a72.4\u20132.5 that mostly-great futures are hard to reach because value is fragile across many dimensions. That theme is central to the essay, but the critique\u2019s direction mostly reinforces it (it argues the target is even harder due to adversarial disruption), rather than undermining the essay\u2019s conclusion. Moreover, the essay already gestures at motivated cognition, political failure, empowered minorities, and non-alignment of incentives, which partially covers the \u201cadversarial\u201d dynamic, so the charge of \u201coverlooks\u201d is only weakly supported. The critique offers no concrete model or evidence for the strong claim of \u2018infeasible under persistent adversarial attack\u2019, so its refutational strength is low. It is fairly clear and focused, with little fluff, but is somewhat assertive/inevitable in ways that are not well-justified.",
+  "title": "Adversarial actors will deliberately exploit moral gaps making eutopia infeasible"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.3,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.2,
+  "reasoning": "The critique targets a genuinely load-bearing step in the post: the author\u2019s claim that low implied max-speed ceilings from negative-\u03c1 economic estimates are \u201cimplausible,\u201d which supports the broader conclusion that compute bottlenecks likely won\u2019t bite early. If that implausibility argument fails, the post\u2019s confidence about higher \u03c1 (and thus weaker bottlenecks) is meaningfully weakened, though not fully refuted because the post also gives several independent reasons (extrapolation limits, long-run process change, experiment efficiency, multiple routes). The critique\u2019s core move\u2014inferring a binding bottleneck from the lack of observed 100x+ human researcher productivity differences\u2014is suggestive but not very strong: (i) \u201cresearcher quality\u201d is hard to observe/measure, (ii) IQ variance among frontier AI researchers is not \u201cenormous,\u201d (iii) institutional/coordination and idea-diffusion constraints can compress measured productivity differences even if cognitive labor could substitute more for compute in other regimes, and (iv) the cited 6x estimate doesn\u2019t strongly support the critique\u2019s ceiling claim. Still, the critique is coherent and engages the specific max-speed plausibility argument with an empirical-style counterconsideration. It is clear, focused, and contains little fluff, but relies on contestable empirical assumptions and a somewhat shaky inference from current talent gradients to hard compute complementarity.",
+  "title": "Current researcher productivity variance suggests cognitive gains are already near saturation"
+}

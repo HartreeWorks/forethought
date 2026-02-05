@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets a key enabling assumption for the essay\u2019s comparatively optimistic path (partial AM-convergence + trade), namely that workable institutions can realize large gains from moral trade without being subverted. If institutional capture is the default, that meaningfully reduces how promising the trade/compromise pathway is, but it doesn\u2019t refute the whole position (the essay already entertains other pathways and explicitly lists concentration of power/decision-procedure failures as major blockers). The argument offered is a plausible mechanism (capture of the adjudication/enforcement layer via definitional control and procedural laundering), but it\u2019s more a warning than a demonstrated refutation: it doesn\u2019t engage with countermeasures (decentralization, robust constitutional constraints, competitive governance, cryptographic/commitment mechanisms, adversarial audits, etc.), and it overstates with \u201cimmediately captured\u201d/near-inevitability. Still, as a failure mode it\u2019s largely correct and clearly articulated, with minimal fluff and essentially one coherent point.",
+  "title": "Institutional capture turns moral trade into legitimized domination"
+}

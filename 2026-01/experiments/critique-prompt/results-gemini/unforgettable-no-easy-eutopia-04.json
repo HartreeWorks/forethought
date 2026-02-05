@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.12,
+  "reasoning": "The critique targets the paper\u2019s discussion in \u00a73.5 about intertheoretic comparisons under moral uncertainty and the possibility that unbounded views should loom larger (a real component of the paper, but not the core \u201cno easy eutopia / fussy views are likely\u201d thesis). If successful it would mainly weaken that moral-uncertainty upshot rather than collapse the overall argument, so centrality is moderate-low. The objection is largely a label (\u201cPascal\u2019s Mugging/fanatical hijack\u201d) plus a demand for a defense, without engaging the paper\u2019s multiple normalization options and its explicit caution that intertheoretic comparison is thorny and conclusions are not pushed strongly; hence it only mildly weakens what it attacks. The underlying worry about fanatical domination is broadly correct, but the critique overstates that the paper\u2019s method \u2018forces\u2019 domination given the paper\u2019s conditional framing and partial self-awareness, so correctness is mixed. It is clear, focused on one issue, and contains little dead weight.",
+  "title": "Unbounded moral views hijack aggregation through inflated stakes"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.45,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.35,
+  "reasoning": "The critique targets a fairly central inferential move: using a \u201cbest feasible\u201d benchmark (99.99th percentile) to argue that most surviving futures are far from mostly-great, and that the target is narrow. If that benchmark were internally inconsistent or implicitly required value-destroying coordination/total control, then the paper\u2019s comparative \u2018lost value\u2019 framing would be weakened, so centrality is moderately high. However, the position already defines best feasible in terms of a well-informed distribution over feasible futures and explicitly distinguishes target-size from navigation/steering/coordination; it also allows that common-sense-utopia-style freedoms might be in tension with some maxima. So the objection doesn\u2019t straightforwardly refute \u201cno easy eutopia\u201d; it mostly presses that some cited extremes may be in the tail only under non-liberal/locked-in regimes, implying the benchmark should be conditioned on additional constraints. That would likely reduce the claimed gap but does not show that mostly-great futures become common, so strength is moderate. The critique is largely correct that feasibility/coordination constraints and value tradeoffs (freedom vs control/verification) could shift the Pareto frontier and make some extremes non-feasible under \u201cliberal\u201d constraints, but it somewhat overstates by suggesting the paper \u2018quietly assumes\u2019 incompatibility isn\u2019t already encompassed by feasibility and by implying the benchmark includes freedoms the paper often treats as optional/moral-view-dependent. It is clear, focused on a single issue, and contains little dead weight.",
+  "title": "The best-feasible benchmark may be internally inconsistent with liberal values"
+}

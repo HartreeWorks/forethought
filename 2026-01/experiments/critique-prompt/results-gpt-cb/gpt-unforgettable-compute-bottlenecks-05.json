@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets a specific pillar of the post\u2019s case against compute bottlenecks: the claim that algorithmic efficiency gains let you run more experiments at fixed compute, weakening the bottleneck. This is relevant but not fully central because the post gives several other independent reasons (extrapolation limits of CES, long-run substitution/Jones, smart/faster researchers, multiple routes, etc.), and it explicitly anticipates a \u2018near-frontier experiments are fixed\u2019 reply. The critique\u2019s main contribution is to sharpen that reply into an endogenous-frontier story (efficiency expands what\u2019s worth doing, so the marginal decision-relevant experiment stays near the compute budget). That plausibly weakens the \u2018efficiency pulls the rug\u2019 move, but it doesn\u2019t engage the author\u2019s counterpoints (e.g., progress despite fewer near-frontier runs, reliance on sub-frontier extrapolation), and it provides no quantitative or empirical support, so it\u2019s only moderately strong. The underlying economic logic is generally plausible (frontiers and budgets re-optimize), though the claim that frontier transitions remain strictly compute-fixed is somewhat overstated. It is clear, focused on one issue, and contains little to no dead weight.",
+  "title": "Efficiency gains shift the frontier rather than eliminating compute bottlenecks"
+}

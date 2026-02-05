@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.15,
+  "reasoning": "The critique targets the essay\u2019s antirealist/subjectivist discussion (2.4.2) and, more broadly, the essay\u2019s practical/normative upshot\u2014so it is somewhat central, but it doesn\u2019t directly engage the essay\u2019s main claims about convergence/trade/threats under moral uncertainty. Its main move is meta-level: if subjectivism is true, then talk of \u2018mostly-great\u2019 lacks objective normative authority, so the essay can\u2019t demand assent. That\u2019s partly right (subjectivism undermines objective, stance-independent \u2018better\u2019), but it overreaches: subjectivism doesn\u2019t \u2018defeat caring\u2019 or decision-relevance; it just relocates reasons to agents\u2019/readers\u2019 preferences (or to moral uncertainty across non-subjectivist views), which the essay explicitly leans on. So it modestly pressures the rhetoric/ambition of the subjectivist argument, but doesn\u2019t substantially refute the core position. It\u2019s clearly stated, focused on one issue, and contains little dead weight.",
+  "title": "Subjectivism undermines both convergence and the paper's own normative stakes"
+}

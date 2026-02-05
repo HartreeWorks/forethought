@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.2,
+  "correctness": 0.55,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.15,
+  "reasoning": "The critique targets the paper\u2019s use of scale/resource sensitivity and population ethics, which is a meaningful part of the paper\u2019s overall case for \u201cfussiness\u201d (especially the unbounded-linear discussion), but not the whole argument: the paper also argues for eutopian fragility via many non-scale-dependent \u201csingle flaws,\u201d and it explicitly considers non-linear/bounded and critical-level/variable-value population ethics. Strength is low because the critique mostly asserts that linear/near-linear scaling is assumed and would need revision under alternative population ethics, but the paper already discusses these alternatives and does not straightforwardly rely on a blanket linear-scaling assumption; the critique also doesn\u2019t show that plausible non-linear theories make eutopia \u201ceasy\u201d rather than differently fussy. Correctness is mixed: it\u2019s true that some plausible population ethics are non-linear/thresholdy and could affect the paper\u2019s scale-based examples, but it\u2019s misleading to say the paper assumes linear scaling across the board. The critique is fairly clear and focused with little filler.",
+  "title": "Non-linear population ethics could undermine scale-sensitivity assumptions"
+}

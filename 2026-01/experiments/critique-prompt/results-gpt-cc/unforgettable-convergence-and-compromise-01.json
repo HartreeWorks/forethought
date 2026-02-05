@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.4,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.32,
+  "reasoning": "The critique targets a fairly central source of the essay\u2019s optimism in section 3: that partial AM-convergence plus bargaining/trade can often get us close to a mostly-great future, illustrated via spatial/resource partitioning (e.g., \u2018Milky Way vs other galaxies\u2019) and more generally via separable \u201cresource-compatible\u201d compromises. If values are globally non-separable (lexical constraints like \u2018no suffering anywhere\u2019, uniqueness/non-duplication, universal-status rules, etc.), then simple carve-ups don\u2019t preserve \u2018most value\u2019 for each side. However, the essay already partially anticipates this kind of problem via (i) discussion of limited resource-compatibility and \u2018narcissism of small differences\u2019, and (ii) extensive emphasis on negative-leaning/constraint-like axiologies and the fragility of trade under threats; so the objection is more a sharpening/extension than a full refutation. It also somewhat overstates the paper\u2019s claim (the essay is conditional and uncertain rather than asserting trade straightforwardly implies mostly-great futures). Still, the point is coherent, clearly stated, and would require the essay to more explicitly model global constraints / governance rather than relying on tradable parcels.",
+  "title": "Non-separable moral values make cosmic resource partitioning unworkable"
+}

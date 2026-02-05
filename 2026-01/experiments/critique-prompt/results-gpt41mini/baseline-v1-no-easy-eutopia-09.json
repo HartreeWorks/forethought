@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.2,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.12,
+  "reasoning": "The critique targets the paper\u2019s reliance (especially in Section 3) on completeness + vNM-style representation of moral views, noting that some metaethical/ethical positions (e.g., expressivism, moral particularism, incompleteness) may not fit this framework, thereby limiting generalizability. This matters somewhat because part of the paper\u2019s ambition is to say that \u2018most plausible moral views\u2019 are fussy, but it\u2019s not fully central since the paper explicitly scopes itself to representable/complete views and could still support its conclusion for that wide class. The objection is therefore more a limitation/scope point than a refutation, and the authors partially anticipate it, so refutational strength is low. The critique is largely correct and clearly stated, with minimal dead weight, and it focuses on a single issue.",
+  "title": "Ignoring metaethical positions that reject cardinal utility limits generalizability"
+}

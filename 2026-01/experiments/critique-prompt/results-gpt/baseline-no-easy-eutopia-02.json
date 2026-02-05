@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.45,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.3,
+  "reasoning": "The critique targets the paper\u2019s decision-theoretic/VNM framework (completeness, continuity, independence) and the permissibility of sharp gamble-style tradeoffs used to define and operationalize \u2018value\u2019 and \u2018fussiness\u2019. This is fairly central to the paper\u2019s more technical Section 3 argument that most plausible moral views are fussy, but less central to the broader Section 2 narrative claim that many plausible futures have hard-to-notice moral catastrophes; hence moderate centrality. The critique moderately weakens the technical apparatus by noting that many moral theories (and approaches to moral uncertainty) reject VNM/independence and may not license the paper\u2019s quantitative comparisons, but it doesn\u2019t show that the paper\u2019s conclusions cannot be recast in alternative formalisms, nor does it engage the paper\u2019s own caveats about representability; hence moderate strength. Most claims are correct (these axioms and the implied tradeoff structure are indeed controversial), though it somewhat overstates the extent to which the core \u2018eutopia is hard\u2019 thesis is merely an artifact rather than partly supported by independent, non-formal considerations. It is clear, focused, and contains little filler.",
+  "title": "VNM decision-theoretic assumptions may artificially inflate apparent moral fussiness"
+}

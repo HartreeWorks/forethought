@@ -1,0 +1,4 @@
+**How likely is “concentration of power” in the post-AGI period to the point that the paper’s “partial AM-convergence” (≥ ~1 in a million) is functionally irrelevant because too few actors control nearly all resources?**  
+   - **Worldview:** Governance Realist  
+   - **Paper anchor:** §3.5 identifies concentration of power as a key blocker to reaching a mostly-great future via trade/compromise because it reduces representation of the “correct view” among decision-makers.  
+   - **Strategic implications:** If **power concentrates**, strategy becomes **target a tiny set of pivotal actors (compute owners, security states, frontier labs) and harden checks on them**; if **power stays distributed**, strategy becomes **scale broad-based value reflection, pluralistic governance, and mechanisms for cross-group bargaining**.

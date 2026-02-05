@@ -1,0 +1,11 @@
+{
+  "centrality": 0.8,
+  "strength": 0.45,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.42,
+  "reasoning": "The critique targets a central inferential move in the post: using a CES-style framework plus an asserted favorable \u03c1 range (e.g. -0.2<\u03c1<0) to conclude compute bottlenecks likely won\u2019t bind until later stages and to output numeric probabilities. If that methodology were undermined, the post\u2019s main upshot is substantially weakened (high centrality). The critique is moderately strong: it successfully highlights a methodological tension (condemning large extrapolations from estimated \u03c1, then still extrapolating across many OOMs after selecting \u03c1 by plausibility), which undercuts confidence in the quantitative/temporal claims. However it doesn\u2019t directly refute the post\u2019s object-level reasons for thinking \u03c1 is higher in AI R&D, nor show the relevant \u03c1 is actually low; and the post already flags uncertainty and presents the CES use partly as a toy/sensitivity analysis, which blunts the \u201cself-invalidates\u201d charge. Most statements are broadly correct, though claims like \u201ceven more heroic extrapolation\u201d and \u201ccentral purpose collapses\u201d are somewhat overstated. The critique is clear, focused on one issue, and contains little irrelevant material.",
+  "title": "The paper dismisses heroic extrapolation then relies on it for key conclusions"
+}

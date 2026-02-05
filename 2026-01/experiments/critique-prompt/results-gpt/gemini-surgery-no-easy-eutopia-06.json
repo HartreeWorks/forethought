@@ -1,0 +1,11 @@
+{
+  "centrality": 0.5,
+  "strength": 0.55,
+  "correctness": 0.85,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.3,
+  "reasoning": "The critique targets a key support for the paper\u2019s claim that linear unbounded views are fussy: the move from \u201cfat-tailed value-efficiency\u201d to \u201cmostly-great requires very specific near-optimal resource use.\u201d If that move fails, one important route to fussiness is weakened; however, it does not collapse the whole \u2018no easy eutopia\u2019 position because the paper also argues for fussiness via other mechanisms (many independent moral fragilities; bounded-view arguments; bads-vs-goods aggregation), so centrality is moderate. The critique is fairly strong against the specific \u00a73.2 inference: fat-tailedness alone doesn\u2019t imply a narrow near-optimal basin; a wide plateau of near-optimal designs would undercut the \u2018specific use\u2019 claim. But it\u2019s only a partial refutation because (i) linear views could remain fussy for other reasons even with a broad plateau (e.g., needing to capture most resources, or moral uncertainty/other dimensions), and (ii) the paper gestures at reasons (astronomical design space, expected fat tails) that somewhat anticipate robustness concerns, though not fully. The critique\u2019s main claims are largely correct conceptually (distinguishing tail thickness from breadth/robustness of near-optimal region), clearly stated, focused on one issue, and contains little extraneous material.",
+  "title": "Near-optimal design basins may be wide enough to make mostly-great easy"
+}

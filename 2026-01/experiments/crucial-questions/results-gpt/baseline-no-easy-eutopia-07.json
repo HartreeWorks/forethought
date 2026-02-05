@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.9,
+  "tractability": 0.5,
+  "clarity": 0.72,
+  "decision_hook": 0.85,
+  "dead_weight": 0.15,
+  "overall": 0.69,
+  "reasoning": "Cruciality is high because the paper\u2019s practical upshot (how much to prioritise survival/avoid-downside vs steering/seek-upside) can change substantially depending on intertheoretic comparison/normalisation; resolving it could plausibly redirect strategy. Paper-specificity is high since it directly targets the paper\u2019s Section 3.5 discussion of range/variance/pairwise normalisations and their ability to reverse rankings. Tractability is moderate: you can make progress by (i) formal analysis of desiderata/axioms for intertheoretic comparisons and (ii) robustness studies over modeled option sets, but the core \u201cdefensible enough\u201d dispute is partly irreducibly philosophical. Clarity is decent but not perfect: \u2018defensible enough\u2019 and \u2018realistic option sets\u2019 are underspecified, and two questions are bundled (normative selection + empirical/quantitative flip-frequency). Decision hook is strong: it explicitly connects answers to flipping priority between survival-focused and upside/steering-focused strategies. Dead weight is low; most text sharpens motivation and ties to the paper, though some restatement is not strictly necessary.",
+  "title": "Robustness of moral aggregation methods to survival versus upside tradeoffs"
+}

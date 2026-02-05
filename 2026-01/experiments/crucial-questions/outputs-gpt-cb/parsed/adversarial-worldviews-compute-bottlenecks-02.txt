@@ -1,0 +1,4 @@
+**How quickly can a leading lab “reconfigure AI R&D to make good use of abundant cognitive labour” (the paper’s Jones-style argument) once millions of AGI researchers are available—days/weeks as the paper suggests, or years/decades as in typical economic adjustment?**  
+   - **Worldview:** Governance Realist *(also overlaps Alignment Pessimist)*  
+   - **Paper anchor:** “that reconfiguration could be very quick with fast-thinking AGIs… in days or weeks,” applying Jones (2003) to argue short-run complementarity may vanish quickly.  
+   - **Strategic implications:** If answered “days/weeks,” strategy becomes “assume discontinuous governance lag; build ex ante international commitments, emergency response, and hard operational constraints”; if answered “years,” strategy becomes “incremental regulatory capacity-building and iterative safety standards are viable.”

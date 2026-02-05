@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets a genuinely important part of the essay\u2019s case against WAM-convergence (the move from moral realism to \u2018alien\u2019 morality and hence low motivation), but it is not the sole support for the essay\u2019s overall outlook (which also leans on antirealism-divergence arguments and on trade/threats/blockers), so centrality is moderate. As a countermodel, it does undermine any claim of necessity from realism\u2192alienation, but the essay only claims this is \u2018likely\u2019 and also discusses externalism/internalism and motivational failure even given true beliefs; the critique doesn\u2019t engage those, so it only partially weakens the attacked step. The main idea (response-dependent/constructivist realisms can make moral truths closer to human psychology) is broadly correct, but it somewhat mislabels Cornell realism/Boyd as response-dependent and overstates how much the essay\u2019s \u2018central pessimistic argument\u2019 would collapse. It is focused, clear, and contains little extraneous material.",
+  "title": "Response-dependent realism could anchor moral facts close to human intuitions"
+}

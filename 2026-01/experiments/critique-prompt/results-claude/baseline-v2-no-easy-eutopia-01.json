@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets the paper\u2019s use of v(extinction)=0 and v(best-feasible)=1 plus the 0.5/0.9 thresholds, which is moderately central because the paper\u2019s \u2018mostly-great\u2019/\u2018eutopia\u2019 claims are formulated in those units. However, within a fixed moral view this normalization is largely without loss of generality (expected-utility representations are affine-invariant, and fixing two reference outcomes is a standard way to choose units), so it doesn\u2019t by itself undermine the claim that the target is narrow. The point is more relevant to intertheoretic comparisons (which the paper itself discusses at length and treats as thorny), so the critique is partly \u2018priced in\u2019 and doesn\u2019t substantially refute the main argument. It is fairly clear and focused, with little filler, but it overstates the extent to which alternative normalizations would change the within-theory fraction of futures counted as mostly-great (given the paper\u2019s stipulated meaning of 0.5 as an extinction/eutopia gamble).",
+  "title": "The normalization of value scales embeds contested assumptions about moral comparison"
+}

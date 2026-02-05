@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "correctness": 0.65,
+  "clarity": 0.8,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.28,
+  "reasoning": "The critique targets a specific, somewhat central move in the position: the Jones-style claim that fast AGIs can quickly \u201creconfigure\u201d R&D so compute\u2013cognition complementarity weakens (\u03c1\u21920), supporting the broader conclusion that compute bottlenecks won\u2019t bite early. If this reconfiguration claim fails, the argument for high substitutability (and thus weak compute bottlenecks) is meaningfully weakened, though the post offers multiple other reasons, so it\u2019s not fully load-bearing (centrality ~0.45). The critique has moderate force: it plausibly identifies hidden complements (validation/oversight, eval integrity, provenance) that could remain binding or worsen under rapid automation, thereby undercutting the inference from \u2018more cognitive labor\u2019 to \u2018faster reliable progress\u2019 (strength ~0.35). However it\u2019s largely qualitative/speculative, doesn\u2019t engage the CES/\u03c1 logic directly, and doesn\u2019t show that these constraints must dominate specifically in early stages rather than being mitigable by better tooling, automated verification, or different research strategies. Correctness is fairly high but uncertain: the general point that governance/validation can be bottlenecks under distribution shift is credible, but claims like \u201cscale worse than compute\u201d and \u201cinvalidating the CES-speed story\u201d are not established (correctness ~0.65). The argument is understandable and focused (clarity ~0.8, single-issue ~0.9) with little fluff (dead weight ~0.1). Overall it\u2019s a useful caution that the position\u2019s compute-centric framing may miss other binding constraints, but it doesn\u2019t decisively refute the position\u2019s compute-bottleneck conclusion (overall ~0.28).",
+  "title": "Governance and validation bottlenecks replace compute constraints under agentic automation"
+}

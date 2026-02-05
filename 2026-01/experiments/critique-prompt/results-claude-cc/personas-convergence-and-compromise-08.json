@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.28,
+  "reasoning": "The critique targets the feasibility of the essay\u2019s more optimistic pathways (improving collective decision-making; reaching good outcomes via partial convergence + trade) by arguing these will be systematically blocked/captured by incumbents with concentrated interests. This is a meaningful challenge but not fully central, because the essay already treats concentration of power and institutional failure as major blockers and does not rely on a detailed political-economy story for its main conclusion (cautious optimism vs extreme pessimism, and focus on threats/blockers). Strength is moderate: it raises a plausible mechanism (collective action problems, capture) but provides no concrete engagement with the essay\u2019s own concessions (e.g., concentration-of-power as a blocker) or with scenarios where power is diffuse, post-AGI institutional design differs, or actors\u2019 incentives change under abundance/automation. Correctness is fairly high for the general public-choice points and the representation problem for animals/future beings, but it overstates inevitability (\u201cwill be captured\u2026 ensuring\u2026 serves incumbent interests\u201d) and assumes today\u2019s incumbent structure straightforwardly persists. The critique is clear, focused on one issue, and contains little dead weight.",
+  "title": "Powerful incumbents will capture moral progress institutions to protect their interests"
+}

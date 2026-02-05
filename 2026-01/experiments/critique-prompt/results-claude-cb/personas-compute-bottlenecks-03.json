@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.35,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.22,
+  "reasoning": "The critique targets one specific but important support for the position: that progress can continue without many near-frontier runs because (a) experiments become more compute-efficient and (b) we can extrapolate from smaller experiments. If that line of defense failed, the position would be meaningfully weakened, but not destroyed, since the post offers multiple other reasons to expect higher substitutability (e.g., long-run reconfiguration, \u201csmarter/faster\u201d labor, multiple routes). The critique\u2019s main force is epistemic: it notes the post doesn\u2019t formalize the scaling-to-frontier extrapolation mechanism or its failure modes, so the argument is under-justified; this does weaken the claim but doesn\u2019t refute it outright (it\u2019s compatible with there being workable extrapolation/transfer in practice). Most claims are correct (lack of formal model; extrapolation could break), though \u201cthis proves nothing\u201d is somewhat overstated because historical trends can still provide weak evidence. It is clear, focused on one issue, and contains little fluff.",
+  "title": "The extrapolation mechanism lacks formal specification and failure conditions"
+}

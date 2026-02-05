@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.35,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.28,
+  "reasoning": "The critique targets the essay\u2019s main route to optimism under low WAM-convergence: partial AM-convergence plus bargaining/trade. If many influential agents have sacred values/lexical priorities/side-constraints, the feasibility and stability of \u201cmoral trade,\u201d \u201cresource-compatibility,\u201d and \u201chybrid goods\u201d is reduced, so the attack is moderately central (though the essay also discusses other pathways and already flags some limits to trade). The argument is suggestive but underdeveloped: it doesn\u2019t quantify how common such non-compromising moral psychologies would be among future power-holders, nor show that these features systematically block most high-value trades rather than merely some, and the essay already partially anticipates incompatibility cases (e.g., low resource-compatibility, narcissism of small differences, threats). Still, the point is largely correct and relevant, and it is clearly stated with little fluff.",
+  "title": "Non-negotiable moral constraints block the bargaining-based optimism"
+}

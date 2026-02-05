@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.25,
+  "correctness": 0.65,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.15,
+  "reasoning": "The critique targets how the essay operationalizes \u201cbest feasible future,\u201d which matters because the paper normalizes value (0=extinction, 1=best-feasible) and defines \u2018mostly-great\u2019/\u2018near-best\u2019 thresholds relative to it; shifting feasibility constraints could change how hard \u2018mostly-great\u2019 is to reach (moderate centrality). However, the position explicitly defines \u2018best feasible\u2019 as a high percentile of a \u2018well-informed probability distribution\u2019 over futures (and later conditions on survival and on limited de dicto optimization), which already bakes in practical constraints like coordination/psychology/game theory insofar as they affect likelihood. So the critique\u2019s \u201cmoving target/oscillation\u201d charge is only weakly supported by the text, making the refutation limited (low strength). Still, it\u2019s broadly correct that ambiguity about what the reference distribution includes (e.g., what counts as \u2018feasible\u2019 vs merely \u2018possible\u2019) could affect conclusions if left underspecified, so correctness is moderate-high. The point is clearly stated, focused on one issue, and contains little-to-no dead weight.",
+  "title": "Shifting definitions of feasibility create an unfairly moving target"
+}

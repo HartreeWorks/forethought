@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.5,
+  "correctness": 0.8,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.9,
+  "overall": 0.25,
+  "reasoning": "The critique targets the paper\u2019s use of historical/current \u201cmoral catastrophe\u201d examples (esp. \u00a72.1) as intuitive support for eutopian fragility/narrowness. That support is not the whole case (the argument also relies on the multiplicative model, resource-scaling/fat-tail claims, and the bounded/unbounded value-function analysis), so centrality is moderate (~0.3). As a refutation of that particular evidential move, it has moderate strength: it plausibly argues the examples can be read as mere moral disagreement and that treating diverse condemnations as comparable evidence risks question-begging against pluralism/toleration-friendly metaethics; however, the paper\u2019s intent is largely illustrative (\u201cfrom many perspectives\u201d) rather than claiming equal weight, so the critique doesn\u2019t fully undercut the broader fragility claim. Most statements are fair and non-false (high correctness), and the point is clearly stated with little fluff (low dead weight) and focuses on one main issue (high single-issue). Overall, it modestly weakens one strand of motivation but does not seriously damage the full argument.",
+  "title": "Moral diversity could support acceptable futures rather than fragility"
+}

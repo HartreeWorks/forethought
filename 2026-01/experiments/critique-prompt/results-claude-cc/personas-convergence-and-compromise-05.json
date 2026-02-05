@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.86,
+  "dead_weight": 0.06,
+  "single_issue": 0.96,
+  "overall": 0.27,
+  "reasoning": "The critique targets a fairly central strand of the essay\u2019s conditional optimism: that better collective decision-making institutions could prevent threats and enable moral trade/compromise, helping produce mostly-great futures. If such institutions predictably created long-term lock-in around prevailing (possibly mistaken) values, that would substantially undercut that pathway\u2014though it wouldn\u2019t refute the whole essay (which already foregrounds lock-in/blockers and treats trade as conditional), so centrality is moderate. The argument has some bite (stability can trade off against corrigibility), but it overclaims necessity: preventing threats/enabling trade doesn\u2019t imply freezing the moral status quo, and robust systems can include amendment/exit/experimentation mechanisms; also the essay already gestures at path dependence and \u201csealing off\u201d futures, so part of the concern is partially \u201cpriced in.\u201d Most claims are plausible but not strictly established, so correctness is decent but not high. The critique is clear, focused, and contains little to no dead weight.",
+  "title": "Robust collective decision-making may lock in current moral errors"
+}

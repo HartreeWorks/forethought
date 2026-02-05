@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.8,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.35,
+  "reasoning": "The critique targets the paper\u2019s percentile-based definition of \u201cbest feasible future\u201d (99.99th percentile of a distribution) and the derived 0.9/0.5 thresholds, arguing this reference class is endogenous and gameable by powerful optimizers. This is somewhat central because the paper uses these definitions to make claims about how \u201cnarrow\u201d the target of mostly-great futures is and to ground comparisons like 50\u201350 gambles vs guarantees; undermining the stability of the benchmark weakens interpretability of their probability/threshold talk. However, much of the essay\u2019s core case for \u201cno easy eutopia\u201d is not essentially percentile-relative: it argues substantively that value is fragile/multiplicative across many dimensions and that most plausible value functions are \u201cfussy,\u201d which would largely survive if the benchmark were re-anchored (e.g., to an idealized optimum given physics/values) rather than a percentile of a distribution. Strength is moderate: the point is a real definitional vulnerability (endogeneity/specification gaming) and could make some conclusions \u201ctrivially true/false\u201d depending on how the distribution/feasible set is fixed, but it doesn\u2019t directly refute the substantive claims about value fragility or moral-view fussiness; it mainly pressures the framing and a subset of quantitative threshold claims. Correctness is fairly high: percentile benchmarks can be sensitive to how feasibility and probabilities are modeled, and \u201cwell\u2011informed distribution\u201d is underspecified. But the critique overreaches by implying optimizers can straightforwardly \u2018manipulate the distribution\u2019 that defines best feasible in the authors\u2019 intended normative/epistemic sense (the authors could stipulate feasibility absent such adversarial interference or define feasibility physically rather than politically), so the gaming worry is not decisive. The critique is clear, focused on one issue, and contains little dead weight.",
+  "title": "Percentile-based thresholds are vulnerable to manipulation by powerful optimizers"
+}

@@ -1,0 +1,4 @@
+**Is the paper’s claim that early space settlement will “capture essentially all resources that will ever be available to us” concentrated into a short, path-dependent lock-in window (potentially “within years or decades” under AI-driven expansion) actually correct?**  
+   - **Worldview:** Governance Realist *(also appears for Capability Accelerationist and Alignment Pessimist)*  
+   - **Paper anchor:** Section 2.3.4: “initial periods … will involve capturing essentially all resources that will ever be available to us,” and “could … be within years or decades.”  
+   - **Strategic implications:** If **yes (short, first-mover lock-in)**, strategy becomes **urgent pre-commitment: treaties, monitoring, compute/launch controls, and alignment/oversight before takeoff**; if **no (slow, reversible, or locally containable)**, strategy becomes **focus on iterative governance, norm-building, and incremental safety improvements rather than emergency measures**.

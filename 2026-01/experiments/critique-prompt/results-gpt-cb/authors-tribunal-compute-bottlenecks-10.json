@@ -1,0 +1,11 @@
+{
+  "centrality": 0.7,
+  "strength": 0.35,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.32,
+  "reasoning": "The critique targets a fairly central assumption behind the post\u2019s optimism\u2014namely that the relevant compute bottleneck is essentially \u201ctraining/experiment throughput,\u201d so algorithmic efficiency and more cognitive labor translate into faster real progress. If instead the binding constraint becomes evaluation/verification (robustness, regressions, alignment, deployment gating), then compute limits could bite earlier and the CES-style framing would need to be applied to \u201cvalidated progress,\u201d not raw experimentation. However, the critique remains largely a plausible failure mode rather than a demonstrated refutation: it provides no concrete model, empirical support, or argument that eval must be near-frontier-scale and cannot be substantially sped up by automation/ideas (or that actors would keep strict eval standards during an SIE). Most statements are reasonable and compatible with current ML practice, and the point is clearly presented with little fluff, focused on a single issue.",
+  "title": "Evaluation and validation costs may bottleneck SIE long before training compute does"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.2,
+  "correctness": 0.55,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "The critique targets a fairly central pillar of the essay: that many (or most) \u201cplausible\u201d moral views are fussy, so mostly-great futures are a narrow target. If one could successfully argue that such fussiness is itself a sign the theory is defective/implausible, that would significantly weaken the paper\u2019s conclusion (centrality ~0.6). However, the critique mostly asserts this rather than arguing for it, and it doesn\u2019t engage with the paper\u2019s broader routes to fussiness (e.g., population ethics, bads-vs-goods aggregation, bounded vs unbounded scaling) or with the paper\u2019s explicit framing that these \u201cfailed\u201d futures can still be wonderful in absolute terms. It also somewhat mischaracterizes the paper as saying \u201ca galaxy of happy beings is a tragedy because they aren\u2019t maximally happy,\u201d whereas the paper\u2019s claim is about missing a large fraction of feasibly achievable value, not about being worse than extinction or literally a \u201ctragedy\u201d in ordinary terms. So the point is partially right (there is a normative crux about what counts as plausible), but overstated and under-argued (strength low, correctness moderate). The critique is clear and focused, with little dead weight.",
+  "title": "Hyper-demanding moral theories may be defective rather than plausible"
+}

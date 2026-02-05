@@ -1,0 +1,11 @@
+{
+  "centrality": 0.62,
+  "strength": 0.55,
+  "correctness": 0.86,
+  "clarity": 0.9,
+  "dead_weight": 0.08,
+  "single_issue": 0.95,
+  "overall": 0.42,
+  "reasoning": "The critique targets the essay\u2019s use of a single scalar \u201cFlourishing (% of what it might be)\u201d and related reassurance that the future\u2019s expected value isn\u2019t near-zero; this is fairly central because the essay uses such numbers (e.g., 5\u201310%) to communicate its main update, though many qualitative claims (WAM-convergence unlikely; trade can help; threats matter) could survive without the scalar framing. The objection is moderately strong: once axiologies include lexicographic/threshold, bounded/unbounded, and separate aggregation, a unified \u2018mostly-great\u2019 percentage requires contentious intertheoretic comparison/aggregation assumptions that the essay does not clearly supply, so the quantitative confidence is underjustified. However it doesn\u2019t fully refute the essay\u2019s broader qualitative arguments, and the essay sometimes conditions evaluations \u201con the correct view\u201d or under moral uncertainty, which could be used to patch the issue by making the scalar explicitly view-relative or by stipulating an intertheoretic decision rule. The critique is mostly correct and clearly expressed, with little extraneous material, and it focuses on a single coherent problem.",
+  "title": "Incommensurable axiologies make the unified flourishing metric undefined"
+}

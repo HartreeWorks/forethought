@@ -1,0 +1,13 @@
+{
+  "centrality": 0.28,
+  "strength": 0.3,
+  "correctness": 0.82,
+  "clarity": 0.87,
+  "dead_weight": 0.12,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets the paper\u2019s \u201cmirage/hedonic treadmill\u201d discussion (Section 2.5), arguing it\u2019s self-undermining if treated as evidence for objective axiological fragility rather than merely epistemic limitations. This is a real tension: emphasizing systematic unreliability in future-value judgments can weaken any inference from our evaluative intuitions to \u2018the target is narrow.\u2019 However, this point is only moderately central because the core case for \u201cno easy eutopia\u201d is driven mainly by (i) the catalogue of potential moral catastrophes/fragility and (ii) the later structural/technical arguments about boundedness, linearity, aggregation of goods/bads, etc.; the mirage point is more of a psychological/rhetorical bridge than a load-bearing premise. Strength is therefore limited: even if the mirage move is dialed back, much of the argument remains. The critique is largely correct and clearly stated, with little extraneous material, and it stays focused on a single issue.",
+  "id": "c13",
+  "text": "\"The Mirage Argument Proves Too Much\" \u2014 The paper argues that hedonic-treadmill-like psychology makes eutopia \u201crecede\u201d as we approach it, supporting the idea that mostly-great futures are harder than they seem. But if the mirage dynamic is epistemic rather than axiological\u2014i.e., it\u2019s about our shifting standards and limited imagination\u2014then it undercuts the paper\u2019s own confidence that futures \u201cfall dramatically short\u201d in objective value, since the very mechanism says we are unreliable judges of how close we are to the ceiling. The argument is self-undermining: the more you emphasize unconstrained bias in future-evaluation, the less license you have to assert that the target is narrow rather than our evaluative lens being unstable. This is hard to route around because the mirage/treadmill discussion is doing real rhetorical work bridging common intuition to the \u201cno easy eutopia\u201d conclusion. If this holds, the paper must separate (a) psychological shifting of standards from (b) genuine moral fragility with independent theoretical support; otherwise the mirage story dissolves the evidential base it\u2019s meant to strengthen.",
+  "title": "The Mirage Argument Proves Too Much"
+}

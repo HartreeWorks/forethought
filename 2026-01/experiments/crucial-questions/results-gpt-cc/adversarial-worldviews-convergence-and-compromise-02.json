@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.8,
+  "paper_specificity": 0.7,
+  "tractability": 0.45,
+  "clarity": 0.75,
+  "decision_hook": 0.9,
+  "dead_weight": 0.1,
+  "overall": 0.68,
+  "reasoning": "Cruciality is high because whether power concentrates strongly determines whether the paper\u2019s \u201cpartial AM-convergence + trade\u201d pathway is even available, shifting strategy between broad pluralistic institution-building vs targeting a tiny set of pivotal actors. Paper-specificity is solid: the question is explicitly about \u00a73.5\u2019s \u2018concentration of power\u2019 blocker and about making the \u22651-in-a-million AM-converged minority irrelevant, though \u2018power concentration after AGI\u2019 is also a common governance question outside this paper. Tractability is moderate-low: we can make partial progress via political-economy modeling (returns to scale in compute/capital, security advantage, institutional scenarios), analogies to past general-purpose technologies, and empirical work on compute supply chains and state capacity, but deep post-AGI forecasting is highly uncertain and definition-sensitive. Clarity is fairly good but key terms (\u201cpost-AGI period,\u201d \u201cnearly all resources,\u201d and what threshold makes AM-convergence \u2018functionally irrelevant\u2019) need operationalization. Decision hook is excellent and explicitly bifurcates strategies. Dead weight is minimal; most text sharpens scope and stakes.",
+  "title": "Power concentration threshold for partial AM-convergence relevance"
+}

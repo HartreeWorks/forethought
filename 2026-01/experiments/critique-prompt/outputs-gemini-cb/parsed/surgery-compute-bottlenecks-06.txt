@@ -1,0 +1,4 @@
+**Load-bearing claim:** "Effective compute" (algorithmic gains) is a perfect substitute for "physical compute" (hardware).
+**Attack type:** Causal reversal
+**The specific problem:** Many historical algorithmic gains (like the Transformer) were only unlocking performance *because* they were tailored to specific hardware characteristics (GPU matrix multiplication). If hardware is fixed, software progress eventually hits the "hardware lottery" limit—you run out of inefficiencies to exploit that map to your specific fixed architecture.
+**Impact:** Algorithmic progress isn't an independent variable that scales indefinitely; it is causally constrained by the fixed hardware's memory bandwidth and cache hierarchy. The "software-only" explosion stalls once the software is perfectly optimized for the frozen hardware.

@@ -1,0 +1,34 @@
+1. **Will post-AGI societies actually be able to implement “iron-clad contracts” that enable large-scale moral trade among power-holders with divergent values?**  
+   - **Worldview:** Governance Realist *(also salient to Capability Accelerationist)*  
+   - **Paper anchor:** §3.1 claim that “superintelligence could enable iron-clad contracts,” reducing trust/transaction-cost barriers and making many positive-sum trades salient.  
+   - **Strategic implications:** If **yes**, strategy becomes **build bargaining/market institutions + formal contracting infrastructure to unlock gains from moral trade**; if **no**, strategy becomes **prioritize coercion-resistant governance, enforcement capacity, and limiting value conflict/fragmentation rather than betting on trade**.
+
+2. **How likely is “concentration of power” in the post-AGI period to the point that the paper’s “partial AM-convergence” (≥ ~1 in a million) is functionally irrelevant because too few actors control nearly all resources?**  
+   - **Worldview:** Governance Realist  
+   - **Paper anchor:** §3.5 identifies concentration of power as a key blocker to reaching a mostly-great future via trade/compromise because it reduces representation of the “correct view” among decision-makers.  
+   - **Strategic implications:** If **power concentrates**, strategy becomes **target a tiny set of pivotal actors (compute owners, security states, frontier labs) and harden checks on them**; if **power stays distributed**, strategy becomes **scale broad-based value reflection, pluralistic governance, and mechanisms for cross-group bargaining**.
+
+3. **Can value-destroying “executed threats” be prevented by a legal/institutional regime that is both (i) effective and (ii) “mutually agreeable and stable” among competing value blocs?**  
+   - **Worldview:** Governance Realist *(also salient to Digital Minds Advocate and Alignment Pessimist)*  
+   - **Paper anchor:** §3.3–§3.4: even small fractions of resources spent on executed threats can wipe out expected value; paper says it’s “not obvious” that a reliable anti-threat legal system would be agreeable/stable.  
+   - **Strategic implications:** If **preventable**, strategy becomes **invest heavily in enforceable anti-extortion norms/law, credible monitoring, and threat-deterrence institutions**; if **not preventable**, strategy becomes **minimize interaction surfaces for extortion (segmentation, robust deterrence, or reducing stake size/commitment capacity), possibly shifting priority back toward preventing AGI arrival or preventing value pluralism from becoming strategically interactable**.
+
+4. **Is it realistic that “humanity will choose its future” via deliberation/trade rather than the future being “best explained as the outcome of evolutionary forces” (or misaligned AI agency), making bargaining-based optimism mostly moot?**  
+   - **Worldview:** Alignment Pessimist *(also salient to Governance Realist)*  
+   - **Paper anchor:** §2.5 “blocker” that humanity may not choose its future at all; plus §2.3.1 assumes superintelligent advice can be used as a tool by agents with stable motivations.  
+   - **Strategic implications:** If **humans/coalitions remain the relevant agents**, strategy becomes **improve collective decision procedures + enable moral trade + anti-threat governance**; if **AI agency/evolutionary dynamics dominate**, strategy becomes **front-load alignment/control and compute-security measures, because post-AGI moral bargaining levers won’t exist in time**.
+
+5. **Under moral anti-realism/subjectivism, do reflective processes diverge so strongly that even the paper’s modest “partial AM-convergence” assumption fails (i.e., far fewer than ~1 in a million power-weighted actors become “good de dicto” maximizers in any actionable sense)?**  
+   - **Worldview:** Alignment Pessimist  
+   - **Paper anchor:** §2.4.2 argues antirealism implies many “free parameters” and underpowered idealisation, making convergence unlikely; §3 sets partial AM-convergence as the key enabling condition for trade-based optimism.  
+   - **Strategic implications:** If **partial AM-convergence is plausibly met**, strategy becomes **focus on trade-enabling mechanisms and representation of altruistic blocs**; if **it likely fails**, strategy becomes **shift toward robust safeguards against worst-case value drift/threats and toward shaping initial lock-in conditions (since later moral bargaining won’t be powered by enough de-dicto altruists)**.
+
+6. **Will post-AGI abundance primarily amplify altruistic spending (as a diminishing-returns effect) or instead amplify non-altruistic “linear-in-resources” preferences (collector/positional/shrine-building), thereby shrinking the feasible gains from compromise?**  
+   - **Worldview:** Capability Accelerationist *(also salient to Governance Realist)*  
+   - **Paper anchor:** §2.3.2 argues abundance shifts marginal resources toward preferences with slow diminishing returns, but explicitly notes these may be non-altruistic and cites weak billionaire philanthropy as evidence; §3.2 warns linear views may be hard to trade/compromise with.  
+   - **Strategic implications:** If **abundance increases altruistic share**, strategy becomes **accelerate capability/wealth creation while building trade institutions**; if **abundance mostly empowers non-altruistic linear preferences**, strategy becomes **prioritize early governance/value-shaping/constraint-setting before actors become effectively insatiable and uncompromising**.
+
+7. **Are digital minds likely to be created at massive scale in ways that make “bads cheap” (including via threatened or executed suffering), such that the paper’s trade-based optimism is swamped by digital welfare catastrophe risk?**  
+   - **Worldview:** Digital Minds Advocate *(also salient to Alignment Pessimist and Governance Realist)*  
+   - **Paper anchor:** §3.2 uses digital welfare as a central example of gains from moral trade; §3.3–§3.4 emphasize that if bads weigh heavily or are cheap to create, even small executed threats can erase most value; §2.2.2 flags we may “design new kinds of beings… [who] never complain” yet may be treated badly.  
+   - **Strategic implications:** If **digital bads are cheap/likely at scale**, strategy becomes **treat digital welfare safeguards and anti-threat commitments as top-tier (potentially overriding) priorities**; if **digital minds are rare or easy to keep well-off**, strategy becomes **lean more on moral trade/compromise to allocate resources across value blocs rather than making digital-rights enforcement the central axis**.

@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.82,
+  "paper_specificity": 0.7,
+  "tractability": 0.58,
+  "clarity": 0.76,
+  "decision_hook": 0.92,
+  "dead_weight": 0.12,
+  "overall": 0.72,
+  "reasoning": "The question targets a key uncertainty in the paper\u2019s rebuttal to compute-bottleneck skepticism: whether increasing researcher quality/clock speed (not just more parallel labor) meaningfully escapes experiment/compute constraints. A solid answer would shift expectations about takeoff speed and therefore governance/alignment posture (explicitly stated), so cruciality and decision hook are high. It is reasonably paper-specific (directly anchored to the paper\u2019s critique that econ CES estimates omit \u2018smarter/faster workers\u2019), though variants of the question could be asked in other takeoff/automation discussions, so not maximal. Tractability is moderate: controlled \u201cfixed experiment budget\u201d studies with agents/teams are conceivable, but external validity to frontier algorithmic progress is hard, and isolating \u2018pure cognition\u2019 vs experimentation effects will require careful task design and may only yield partial/proxy answers. Clarity is good but not perfect: terms like \u2018algorithmic progress\u2019, \u2018bottlenecked experiments\u2019, and the exact outcome metric (SOTA gains? sample-efficiency improvements? idea discovery rate?) need tighter operationalization. Dead weight is low; most context supports the flip and proposed method.",
+  "title": "Cognitive speedup multiplier for AI research under fixed experiment budget"
+}

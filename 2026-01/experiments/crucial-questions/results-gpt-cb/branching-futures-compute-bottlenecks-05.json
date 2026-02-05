@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.72,
+  "paper_specificity": 0.7,
+  "tractability": 0.58,
+  "clarity": 0.69,
+  "decision_hook": 0.82,
+  "dead_weight": 0.12,
+  "overall": 0.62,
+  "reasoning": "The question targets a real fork in the paper\u2019s argument: whether progress can route around compute bottlenecks via \u2018strongest-link\u2019 compute-light paths, which would materially affect SIE plausibility and the relative priority of compute governance vs monitoring other channels (high cruciality, strong decision hook). It is fairly anchored to this paper\u2019s specific rebuttal (multi-route/strongest-link vs CES bottleneck), though similar questions could be asked in other AI-progress-bottleneck discussions (moderately high paper-specificity). It\u2019s only moderately tractable because attributing \u2018fraction of frontier-relevant progress\u2019 across mechanisms is methodologically hard, partially proprietary, and sensitive to definitions; still, one could make progress via structured expert elicitation, bibliometrics, model release/postmortem analysis, and compute/ablation proxies. Clarity is decent but key terms (frontier-relevant, compute-light vs compute-heavy, what counts as \u2018fraction\u2019, and \u201cincreasing with automation\u201d) remain ambiguous. Little dead weight: the branch point/indicators are mostly helpful scaffolding rather than fluff.",
+  "title": "Compute-light versus compute-heavy routes to frontier progress"
+}

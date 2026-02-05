@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.82,
+  "paper_specificity": 0.86,
+  "tractability": 0.62,
+  "clarity": 0.83,
+  "decision_hook": 0.95,
+  "dead_weight": 0.08,
+  "overall": 0.78,
+  "reasoning": "Cruciality is high because the paper\u2019s main optimism about reaching mostly-great futures under partial AM-convergence heavily relies on trade/compromise working at scale; whether agreements are near-frictionless is plausibly a strategic fork (build \u201cmoral trade infrastructure\u201d vs focus on centralised governance/value alignment). Paper-specificity is high: it directly interrogates the paper\u2019s particular premise that superintelligence enables iron-clad contracts and that transaction costs become negligible, and it maps to the paper\u2019s explicit uncertainty point about how much frictionless-trade gains are realised. Tractability is moderate: parts are operationalisable now (mechanism design, cryptographic commitment, formal verification, multi-agent adversarial evaluations), but the key variable depends on future superintelligent capabilities, power asymmetries, and socio-political conditions that are hard to model; still, meaningful partial progress seems possible in 1\u20135 years. Clarity is strong but not perfect: \u201cmost available gains from trade,\u201d \u201crobust across major actor types,\u201d and a scalar reliability r are directionally clear yet under-specified (how measured, which environments/threat models). Decision hook is excellent due to explicit thresholds and strategy flips. Dead weight is low: anchor, flip, and proposed evidence mostly contribute directly to making the question actionable.",
+  "title": "Enforceability thresholds for superintelligent moral trade"
+}

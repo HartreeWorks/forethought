@@ -1,0 +1,10 @@
+{
+  "centrality": 0.35,
+  "strength": 0.25,
+  "correctness": 0.55,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "The critique argues that capability development is exogenous to moral deliberation, so whoever achieves capabilities first determines the future regardless of moral frameworks. However, the paper explicitly addresses this concern - it's about whether eutopia is a 'big target' that would be hit across many trajectories, not about whether humanity collectively deliberates. The paper acknowledges competitive dynamics ('whoever was most-willing and most-able to grab them') and discusses navigation and aiming in subsequent essays. The critique conflates 'moral views matter for evaluating futures' with 'collective moral deliberation determines futures.' The paper's core argument - that most futures fall far short of eutopia across many moral views - is largely independent of whether deliberation or competition determines outcomes. If competitive dynamics dominate, that actually supports the paper's thesis that eutopia is hard (narrow target + competitive pressures = unlikely to hit). The critique makes some valid points about selection dynamics being important, but doesn't engage with the actual argument about what fraction of possible futures count as mostly-great. Moderate correctness as the observation about capability dynamics is partially true but misapplied."
+}

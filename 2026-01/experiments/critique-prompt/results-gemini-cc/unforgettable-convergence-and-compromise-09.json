@@ -1,0 +1,11 @@
+{
+  "centrality": 0.18,
+  "strength": 0.28,
+  "correctness": 0.62,
+  "clarity": 0.86,
+  "dead_weight": 0.05,
+  "single_issue": 0.96,
+  "overall": 0.13,
+  "reasoning": "The critique targets a specific move in \u00a74.2: that producing intrinsically valuable goods only instrumentally won\u2019t get you to a mostly-great future. This is relevant to the essay\u2019s broader question of whether \u201cno one aims at the good\u201d could still yield great outcomes, but it\u2019s not central to the main thrust (which leans on skepticism about WAM-convergence and then discusses partial AM-convergence + trade/threats). So centrality is modest.\n\nAs an objection, it has some force: instrumental-convergence-type pressures could indeed yield lots of knowledge/engineering/control that superficially resembles parts of many utopias, potentially undermining the authors\u2019 \u201cextraordinary coincidence\u201d framing. However, it only weakly engages the essay\u2019s key reason \u00a74.2 is pessimistic: even large amounts of instrumental goods can fall far short of the narrow \u201cmostly-great\u201d target if the missing components are (i) particular intrinsic goods, (ii) correct tradeoffs, or (iii) avoidance of disvalued states. The critique also doesn\u2019t address the authors\u2019 concern that instrumental pursuit tends to produce less of a good than intrinsic pursuit, nor that instrumental goals can be paired with massive creation of bads (e.g., suffering subagents) or exclusion of minority-valued goods.\n\nCorrectness is mixed: it\u2019s broadly true that many agents with open-ended goals may pursue power/resources/capability, and that such trajectories could look like \u201cprogress\u201d for long periods. But the critique overgeneralizes (\u201calmost any agent will maximize \u2026 freedom of action\u201d) and conflates resemblance over time with being close to the paper\u2019s \u2018mostly-great relative to ceiling\u2019 metric.\n\nClarity is high, it stays on one issue, and it has little dead weight.",
+  "title": "Instrumental convergence makes self-interested AI trajectories resemble eutopia"
+}

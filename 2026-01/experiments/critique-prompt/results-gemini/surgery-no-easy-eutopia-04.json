@@ -1,0 +1,11 @@
+{
+  "centrality": 0.32,
+  "strength": 0.22,
+  "correctness": 0.7,
+  "clarity": 0.86,
+  "dead_weight": 0.08,
+  "single_issue": 0.96,
+  "overall": 0.16,
+  "reasoning": "The critique targets an important background assumption: that the probability of reaching a near-best future can be analyzed using something like static, independent \u2018getting-it-right\u2019 factors, rather than accounting for future agents\u2019 endogenous error-correction and institution-building (instrumental convergence / equilibrium effects). If this were a core assumption of the essay, it would matter a lot. However, the essay is explicitly scoped to the \u2018target size\u2019 question (is eutopia a big target?) and explicitly conditions on \u201cno serious, coordinated efforts to promote the overall best outcomes de dicto,\u201d while flagging that \u201cforces which guide society\u201d are addressed in the next essay. So the critique is only moderately central and somewhat off-target: it mainly presses on navigation/dynamics rather than on the essay\u2019s main claim that the value landscape is fussy/fragile across many moral dimensions. As an objection, it weakly undermines any implicit move from \u2018fussy target\u2019 to \u2018unlikely by default\u2019, but it doesn\u2019t refute the essay\u2019s core case that many plausible moral views make the near-best set narrow, nor that single moral errors can erase a lot of value. The critique is mostly correct in pointing out endogenous steering could widen basins of attraction, but it overstates that the paper \u201cignores\u201d this (it\u2019s partially acknowledged/deferred). It is clear, focused, and contains little dead weight.",
+  "title": "Future agents may actively widen the basin of attraction toward good outcomes"
+}

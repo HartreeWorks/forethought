@@ -1,0 +1,11 @@
+{
+  "centrality": 0.32,
+  "strength": 0.42,
+  "correctness": 0.72,
+  "clarity": 0.88,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.24,
+  "reasoning": "The critique targets a genuinely load-bearing step in Section 3.2: the move from \u201clinear views\u201d to \u201cmostly-great futures are a narrow target\u201d via an asserted fat-tailed distribution of value-efficiency. If that fat-tail claim were undermined, the paper\u2019s specific argument that linear unbounded views are fussy because only a tiny set of uses gets most value would weaken. However, the overall \u2018no easy eutopia\u2019 conclusion also rests on other independent routes (multiplicative fragility across many dimensions; other reasons for fussiness under bounded views), so centrality is moderate rather than high. Strength is moderate: the parameter-sensitivity point is apt and the essay indeed does little to pin down tail thickness, but the critique doesn\u2019t establish that plausible tail indices would make near-optimal value common, nor does it engage the remaining \u2018scale\u2019 requirement under linear views (needing most resources) which still preserves some fussiness. Correctness is fairly high: it\u2019s true that fat-tailedness varies by domain and tail index matters; but the critique overconfidently implies that \u03b1>2 would make \u2018reasonable\u2019 allocation capture a substantial fraction, which need not follow without further modeling. The critique is clear, tightly focused, and has minimal dead weight.",
+  "title": "Moderate tail thickness would make reasonable allocation sufficient"
+}

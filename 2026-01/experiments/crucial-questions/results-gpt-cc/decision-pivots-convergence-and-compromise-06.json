@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.82,
+  "paper_specificity": 0.74,
+  "tractability": 0.58,
+  "clarity": 0.76,
+  "decision_hook": 0.93,
+  "dead_weight": 0.08,
+  "overall": 0.72,
+  "reasoning": "The question targets a central hinge in the paper\u2019s optimistic path (partial AM-convergence + trade): whether enough independent power-holders exist for bargaining/representation to matter. A strong answer would materially redirect strategy between (i) elite-targeted interventions vs (ii) scalable bargaining/anti-threat institutions, so cruciality and decision hook are high. It is fairly paper-specific because it operationalises the paper\u2019s \u2018concentration of power\u2019 blocker for the trade-based route to mostly-great futures, though power-concentration questions also arise in broader AI governance (so not maximal specificity). Tractability is moderate: one can make progress via political-economy/IO models, compute supply-chain and deployment chokepoint analysis, ownership/governance mapping, and scenario-based forecasting, but \u201cpost-AGI\u201d regimes, endogeneity, and strategic behavior make definitive estimation hard. Clarity is decent but not perfect: \u2018effective number of decisive actors\u2019 and the thresholds (10\u2013100 vs 1,000+) need tighter definition (decisive over what decisions? over what time window? global vs regional vs sectoral). Dead weight is low; most text sharpens the hinge and measurement approaches.",
+  "title": "Post-AGI power concentration and viability of pluralist governance"
+}

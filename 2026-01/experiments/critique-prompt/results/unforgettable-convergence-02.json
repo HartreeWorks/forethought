@@ -1,0 +1,10 @@
+{
+  "centrality": 0.35,
+  "strength": 0.3,
+  "correctness": 0.55,
+  "clarity": 0.7,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "The critique targets the moral trade argument in Section 3, which is one pathway to a mostly-great future but not the only one. The paper explicitly presents trade as the 'most likely way' to reach good futures, so this has some centrality but isn't fatal if undermined. The critique's core claim\u2014that views likely to engage in moral trade are those most likely to exhibit narcissism of small differences\u2014is speculative and not well-supported. The paper itself introduces the narcissism concept as one consideration among many, not as the basis for optimism about trade. The critique asserts that resource-compatible views (wisdom vs bliss) would be held by people with 'such different psychological profiles that they're unlikely to be trading partners' without evidence. This is questionable\u2014the paper discusses how different value systems (common-sense utopia vs total utilitarianism) could trade galaxies, which doesn't require similar psychological profiles, just rational actors. The critique correctly identifies a tension but overstates its implications. The paper doesn't rely solely on hybrid goods; it also discusses gains from different resource valuations, time preferences, and risk attitudes. The demand for a 'principled account' of which view-pairs are both resource-compatible AND plausible trading partners is reasonable but the critique doesn't show this is impossible or that the paper's framework fails without it."
+}

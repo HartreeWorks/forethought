@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.35,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.28,
+  "reasoning": "The critique targets a fairly central move in the position: treating \u201ccognitive labour\u201d as an input that can scale somewhat independently of compute, thereby weakening compute-bottleneck/low-substitutability arguments. If it were true that scaling cognitive labour mostly just reallocates/scales inference compute, that would push effective substitutability downward and make compute bottlenecks bite earlier. However, it only partially refutes the argument: (i) the position\u2019s K is \u201ccompute\u201d in general, not explicitly \u201ctraining-only,\u201d so inference-heavy cognition could be folded into K rather than showing a category mistake; (ii) many R&D-relevant gains (parallelism, better ideas, better experiment design, better code/efficiency) may not require massive inference search, so the critique doesn\u2019t show the substitution is generally illusory. The point is directionally plausible (advanced agent \u2018labour\u2019 can be compute-hungry), but it overstates the paper\u2019s alleged sharp inference/training separation and doesn\u2019t quantify how large the effect must be to undercut the claimed early-stage SIE. Clear, focused, and with little dead weight.",
+  "title": "High-quality cognitive labor may itself be compute-bound, making substitution illusory"
+}

@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.8,
+  "paper_specificity": 0.7,
+  "tractability": 0.55,
+  "clarity": 0.75,
+  "decision_hook": 0.85,
+  "dead_weight": 0.05,
+  "overall": 0.68,
+  "reasoning": "The question targets a key hinge in the paper\u2019s anti-WAM-convergence argument (especially the realism+internalism/externalism discussion): if powerful actors systematically engage in \u201cmotivational avoidance,\u201d then governance-by-moral-advice and convergence stories weaken substantially; if not, they strengthen\u2014so strategy could change a lot (high cruciality, strong decision hook). It is fairly paper-specific because it directly probes a named mechanism the essay relies on (avoidance of motivating moral truth), though versions of it also arise in broader moral psychology/political economy (so not maximal specificity). It\u2019s only moderately tractable because the relevant target class is \u201cpowerful actors\u201d in highly novel post-AGI conditions; still, partial progress is possible via proxies (elite decision-making studies, motivated reasoning/identity-protective cognition experiments, historical cases of willful ignorance, organizational incentive analyses). Clarity is decent but not perfect: \u2018learn vs believe vs internalize,\u2019 what counts as \u2018moral reflection/advice,\u2019 and the unit (\u2018how often\u2019) need operational definitions. Minimal dead weight.",
+  "title": "Frequency of motivated avoidance in moral belief adoption"
+}

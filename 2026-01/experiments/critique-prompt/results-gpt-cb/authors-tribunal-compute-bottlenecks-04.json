@@ -1,0 +1,11 @@
+{
+  "centrality": 0.28,
+  "strength": 0.62,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.92,
+  "overall": 0.3,
+  "reasoning": "The critique targets a specific rebuttal in the position: the claim that continued progress despite an apparent decline in near-frontier experiments implies near-frontier experiments aren\u2019t a bottleneck. This is only one of several independent counters to the compute-bottleneck objection, so it\u2019s moderately non-central (the overall anti-bottleneck case could stand on other points). Within that local sub-argument, the critique is fairly strong: it highlights (i) confounding from rising training compute, data/engineering improvements, and paradigm shifts that could allow progress with few frontier validations, and (ii) that the key empirical premise (\u201cnear-frontier experiments decreased\u201d) is under-defined and likely unmeasured, weakening the \u2018proves too much\u2019 inference. These points are largely plausible and mostly correct, and they\u2019re stated clearly with little fluff. However, even if fully accepted, this would mainly remove one line of evidence rather than reinstate the CES-based bottleneck conclusion, so the overall impact on the position is limited.",
+  "title": "Compute and measurement confounds mean fewer near-frontier runs don\u2019t refute bottlenecks"
+}

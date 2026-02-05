@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.4,
+  "correctness": 0.45,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets a meaningful sub-claim in the position\u2019s anti-bottleneck case: that progress needn\u2019t rely on near-frontier experiments because small/cheap experiments can be extrapolated and because historically fewer near-frontier trials didn\u2019t halt progress. If that extrapolatability fails at frontier (due to regime shifts/phase transitions), then compute/near-frontier experimentation could indeed become a harder bottleneck than the post suggests\u2014so centrality is moderate. However, the critique\u2019s support is largely a speculative scenario (future labs, sign-flip correlations, regulatory shutdowns) rather than present evidence or a demonstrated mechanism; it raises a plausible failure mode but does not strongly refute the position\u2019s broader multi-pronged argument (other routes, longer-run reconfiguration, smarter/faster researchers, etc.), so strength is moderate. Correctness is mixed because the core worry (non-predictive small-scale proxies under distribution/regime shift) is plausible, but the detailed factual claims are unverified/hypothetical. The argument is clear, tightly focused on one issue, and contains little dead weight.",
+  "title": "Small-scale extrapolation fails under capability regime shifts, requiring frontier trials"
+}

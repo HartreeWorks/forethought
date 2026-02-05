@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.6,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.22,
+  "reasoning": "The critique targets the paper\u2019s Section 3.5 \u2018upshot\u2019 that, under plausible intertheoretic comparison methods, unbounded views should get more effective weight, helping \u201cfussiness\u201d survive moral uncertainty. That\u2019s relevant but not core to the overall \u2018no easy eutopia\u2019 thesis, which is largely supported by earlier arguments about eutopian fragility and the prevalence of fussy views even absent moral uncertainty; so centrality is moderate-low. On the attacked subclaim, the critique has decent force: it highlights acknowledged method-dependence (variance vs pairwise) and challenges a key premise of the pairwise scaling (\u2018agreement on disvalue of bads\u2019). However, it somewhat overstates by saying the conclusion depends \u201centirely\u201d on that method, since the paper also gestures at variance normalization and other considerations, and it doesn\u2019t fully show that no plausible non-pairwise approach yields the paper\u2019s weighting conclusion. Most statements are plausible and aligned with what the paper concedes, and the critique is clear, focused, and has little fluff.",
+  "title": "Normalization method choice determines whether unbounded views dominate"
+}

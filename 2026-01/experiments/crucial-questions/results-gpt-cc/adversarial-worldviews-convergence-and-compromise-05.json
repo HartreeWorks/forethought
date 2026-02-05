@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.9,
+  "tractability": 0.45,
+  "clarity": 0.75,
+  "decision_hook": 0.95,
+  "dead_weight": 0.15,
+  "overall": 0.72,
+  "reasoning": "Crucial because the paper\u2019s main optimistic pathway (\u00a73) relies on partial AM-convergence; if even that fails under antirealism, the recommended focus shifts substantially toward lock-in shaping and worst-case safeguards. Highly paper-specific: it directly targets \u00a72.4.2\u2019s antirealism/free-parameters argument and stress-tests the paper\u2019s explicit ~1-in-a-million enabling assumption for trade-based optimism. Tractability is moderate-low: you can gather indirect evidence (e.g., empirical work on value divergence under reflection, computational/agent-based models of idealisation dynamics, eliciting stability of de-dicto motivations under enhancement/AI-advice scenarios), but the core claim depends on hard-to-operationalise counterfactuals about post-AGI reflective processes and metaethics. Clarity is decent but hampered by ambiguities in \u201creflective processes,\u201d \u201cgood de dicto maximizers,\u201d \u201cactionable sense,\u201d and the exact operational meaning of \u201cpower-weighted\u201d and the 1e-6 threshold. Decision hook is explicit with clear strategy forks. Dead weight is low: the anchor and implications mostly serve to pin down why the question matters.",
+  "title": "Does moral anti-realism undermine even partial convergence on altruistic goals?"
+}

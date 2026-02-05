@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.4,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.32,
+  "reasoning": "The critique targets a fairly central modeling choice in the post: treating compute as (approximately) fixed/exogenous when analyzing whether software-only acceleration gets bottlenecked, and focusing on a technical substitutability parameter \u03c1. If compute is instead endogenously expanded and/or politically rationed, then the post\u2019s technical bottleneck analysis could mispredict what actually constrains the pace of progress. However, the critique only partially refutes the position: it largely adds an additional (political economy) bottleneck channel rather than showing the post\u2019s technical claims about compute/experiments/substitutability are wrong on their own terms, and it provides little concrete evidence that political allocation would dominate over technical bottlenecks during the relevant window. The claims made (compute responds to incentives; supply chains/export controls can constrain access) are broadly plausible, and the critique is clear and focused with little fluff.",
+  "title": "Compute becomes endogenous to power dynamics, not a fixed technical constraint"
+}

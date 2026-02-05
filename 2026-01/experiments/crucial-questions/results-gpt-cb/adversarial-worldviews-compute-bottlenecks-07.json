@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.7,
+  "paper_specificity": 0.6,
+  "tractability": 0.35,
+  "clarity": 0.55,
+  "decision_hook": 0.9,
+  "dead_weight": 0.15,
+  "overall": 0.47,
+  "reasoning": "If digital-welfare considerations would dominate the expected value of pursuing/slowing an SIE, that plausibly flips high-level strategy (welfare constraints and possibly slowing/redirecting SIE routes vs focusing primarily on takeover/coordination), so cruciality is high. The question is moderately tied to this paper via its specific \u2018cognitive labour can substitute for compute\u2019 framing, toy in-head simulation example, and reliance on massive parallel copies/fast thinking; however, digital sentience/welfare concerns also apply fairly broadly to many AI-automation/SIE discussions, limiting paper-specificity. Tractability is low-to-middling because determining (or even assigning probabilities to) machine sentience and welfare-relevant states is methodologically hard; some partial progress is possible (operational criteria, model-based indicators, scaling estimates of copy counts/workloads), but not cleanly resolvable in 1\u20135 years. Clarity is only moderate: terms like \u2018potentially sentient,\u2019 \u2018vast numbers,\u2019 and \u2018dominate the expected value\u2019 are underspecified and could be cashed out in many ways. Decision hook is excellent and explicit. Dead weight is low: the added context mainly serves to pin the question to the paper and spell out implications.",
+  "title": "Digital sentience scale and moral dominance in recursive AI labor"
+}

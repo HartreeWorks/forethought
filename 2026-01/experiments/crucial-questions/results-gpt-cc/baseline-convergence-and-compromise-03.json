@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.72,
+  "paper_specificity": 0.86,
+  "tractability": 0.44,
+  "clarity": 0.76,
+  "decision_hook": 0.82,
+  "dead_weight": 0.14,
+  "overall": 0.66,
+  "reasoning": "This targets a key load-bearing parameter in the paper\u2019s trade/compromise pathway (section 2.3.2 on diminishing returns and section 3.2 on when moral trade yields near-best futures): whether post-AGI power-holders are mostly easily-satiable vs approximately linear maximizers. If the world is dominated by linear objectives, the paper\u2019s optimism from compromise weakens and the threat/extortion concerns become more central; if not, \u201cmoral minorities\u201d can buy large improvements cheaply\u2014so the strategic stakes are high. It is strongly paper-specific because the question is framed in exactly the paper\u2019s terms (linear-in-resources preferences, moral trade, resource-compatibility). However, tractability is only moderate-to-low: we can make partial progress via empirical proxies (current philanthropic elasticities, revealed preferences of elites, behavioral econ on satiation, modeling selection effects, scenario analysis about who holds power), but predicting post-AGI \u2018agents who control most resources\u2019 depends heavily on contingent governance/tech pathways and endogenous preference change. The question is mostly clear, but key terms need operationalization (what counts as \u201capproximately linear,\u201d what time horizon, which agent class\u2014humans, orgs, AIs, uploads\u2014and what \u201ccontrol\u201d means). Decision relevance is explicitly articulated with a clear bifurcation. There\u2019s little dead weight: the framing sentence(s) mostly serve to pin down why the distribution matters.",
+  "title": "Prevalence of linear maximizers in post-AGI resource control"
+}

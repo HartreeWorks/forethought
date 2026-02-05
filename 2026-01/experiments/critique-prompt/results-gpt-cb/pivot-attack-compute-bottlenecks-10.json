@@ -1,0 +1,11 @@
+{
+  "centrality": 0.7,
+  "strength": 0.5,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.45,
+  "reasoning": "The critique targets a load-bearing part of the post\u2019s bottom-line quantification: the operational SIE definition in terms of \u201c\u22655 OOM effective training compute in <1 year without more hardware,\u201d and argues this smuggles back in a hard physical throughput constraint unless one can plausibly get ~1e5 software efficiency quickly. If that definition is unattainable, the stated 10\u201340% probability (under that metric) is indeed overstated, so centrality is fairly high. However, it only partially undermines the broader thesis that compute bottlenecks may not bite until later, because the author could (i) adopt a different SIE metric (capability/takeoff speed), (ii) allow longer timescales, or (iii) argue that \u201ceffective compute\u201d is precisely meant to capture algorithmic/data efficiency gains and that very large gains are possible. The argument\u2019s core factual pieces (fixed-hardware FLOP cap; 5 OOM implies ~100k\u00d7 efficiency) are correct, and the non-multiplicativity/engineering-tradeoff points are plausible, but the asserted \u201crealistic ceiling 10\u20131,000\u00d7 within a year\u201d is speculative and does much of the work, limiting strength/correctness. The critique is focused, concrete, and has little extraneous material.",
+  "title": "The SIE metric assumes implausible software-only gains despite fixed hardware throughput caps"
+}

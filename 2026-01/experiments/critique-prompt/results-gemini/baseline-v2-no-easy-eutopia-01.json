@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.4,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets the essay\u2019s \u201cvalue as a product of many factors\u201d model used to motivate eutopian fragility and the idea that single flaws can wipe out most value. That claim is meaningfully supportive of the overall \u201cno easy eutopia\u201d thesis, but it is not the sole or necessary pillar (the essay also argues fussiness via bounded/unbounded value functions, scale considerations, aggregation of goods/bads, etc.), so centrality is moderate. The objection has some force: the multiplicative model does encode a strong non-substitutability/conjunctive structure and (often) independence assumptions, and many moral theories allow compensation across dimensions, so the toy model could overstate how rare \u2018mostly-great\u2019 futures are. However, the critique only notes an alternative (additive/compensatory) possibility and does not engage the essay\u2019s broader claim that many plausible views are fussy for other reasons, nor show that fragility can\u2019t arise under non-multiplicative aggregation. It also somewhat overstates by saying the paper \u201crelies heavily\u201d on this model as if the overall argument turns on it. The critique is clear, focused on one issue, and contains little dead weight.",
+  "title": "Multiplicative value model ignores compensatory moral frameworks"
+}

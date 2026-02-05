@@ -1,0 +1,11 @@
+{
+  "centrality": 0.38,
+  "strength": 0.28,
+  "correctness": 0.55,
+  "clarity": 0.87,
+  "dead_weight": 0.08,
+  "single_issue": 0.97,
+  "overall": 0.16,
+  "reasoning": "Centrality: The critique targets the essay\u2019s \u201cthreats could eat most value from moral trade\u201d worry, which is an important modifier to the trade/compromise optimism but not the essay\u2019s main conclusion (the essay also argues WAM-convergence is unlikely and that even threat-free trade can fail on linear/unbounded views). Strength: It offers a plausible counter-mechanism (deterrence/MAD and norm formation) but doesn\u2019t engage key complications the essay relies on: asymmetric threat advantages, credible commitment/commitment races, extortion equilibria, and cases where retaliation is impossible/too costly; it also doesn\u2019t address the essay\u2019s point that even low probability of executed threats can dominate expected value under many axiologies. Correctness: Some points are reasonable (deterrence can stabilize; nuclear history suggests non-execution is common), but a major claim appears mistaken or at least backwards: altruists having less credible threats would generally make them easier extortion targets (less ability/willingness to retaliate), not \u201cpoor\u201d ones. The leap from \u201cthreats are cheap\u201d to \u201ccounter-threat capabilities will proliferate and deter\u201d is also under-argued. Clarity is high and it stays focused with little dead weight.",
+  "title": "Mutual threat capacity may create deterrent stability rather than fragility"
+}

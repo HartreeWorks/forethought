@@ -1,0 +1,4 @@
+**Will post-AGI societies actually be able to implement “iron-clad contracts” that enable large-scale moral trade among power-holders with divergent values?**  
+   - **Worldview:** Governance Realist *(also salient to Capability Accelerationist)*  
+   - **Paper anchor:** §3.1 claim that “superintelligence could enable iron-clad contracts,” reducing trust/transaction-cost barriers and making many positive-sum trades salient.  
+   - **Strategic implications:** If **yes**, strategy becomes **build bargaining/market institutions + formal contracting infrastructure to unlock gains from moral trade**; if **no**, strategy becomes **prioritize coercion-resistant governance, enforcement capacity, and limiting value conflict/fragmentation rather than betting on trade**.

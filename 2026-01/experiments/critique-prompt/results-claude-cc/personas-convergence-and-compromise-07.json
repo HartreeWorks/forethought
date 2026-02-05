@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.3,
+  "correctness": 0.6,
+  "clarity": 0.8,
+  "dead_weight": 0.12,
+  "single_issue": 0.95,
+  "overall": 0.22,
+  "reasoning": "The critique targets the essay\u2019s relatively optimistic pathway to mostly-great futures via partial AM-convergence plus trade/compromise (section 3), arguing that the assumed stable separability/implementability of bargains is unrealistic once interacting value-systems generate institutional dynamics and drift. This is a meaningful hit to one of the essay\u2019s main proposed optimism channels, but not fully central because the essay already flags multiple blockers (threats, institutions, power concentration, timing) and treats the \u201cgalaxy split\u201d as illustrative rather than required. The critique\u2019s argument is suggestive but largely generic: it asserts \u2018complex adaptive system\u2019 unpredictability and dynamic instability without showing that (a) the relevant trade equilibria can\u2019t be made robust with enforcement/contracting, (b) partitioning truly requires strong interaction, or (c) unpredictability implies systematically low value rather than just variance. Several claims are plausible (institutional drift, emergent dynamics), but the stronger phrasing (\u201cfundamentally unpredictable from initial conditions,\u201d \u201cclean separation\u2026dynamically unstable\u201d) is overconfident and under-argued. It is reasonably clear and focused, with modest jargon but little outright filler.",
+  "title": "Moral trade boundaries create unpredictable emergent dynamics that destabilize clean separation"
+}

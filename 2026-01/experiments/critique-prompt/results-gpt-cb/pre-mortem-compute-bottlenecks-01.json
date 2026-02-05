@@ -1,0 +1,11 @@
+{
+  "centrality": 0.85,
+  "strength": 0.55,
+  "correctness": 0.65,
+  "clarity": 0.87,
+  "dead_weight": 0.2,
+  "single_issue": 0.92,
+  "overall": 0.48,
+  "reasoning": "The critique targets a central enabling assumption of the post\u2019s anti-bottleneck case: that \u201ccognitive labour\u201d can scale up while \u201ccompute\u201d is effectively held fixed, so compute bottlenecks won\u2019t bind early. By arguing that scaling researcher-agents primarily manifests as increased inference/memory/bandwidth demand (and thus competes with training/experimentation on shared infrastructure), it directly challenges the separability of L and K as used in the CES framing and the idea that early-stage acceleration is largely software-only. It substantially weakens the position but doesn\u2019t fully refute it, because the original argument can partially patch by redefining K as total compute (training + inference), by noting researcher inference may be small relative to frontier training, by using cheaper/slower agents, or by scheduling/architectural changes; the critique doesn\u2019t quantify these tradeoffs. Many claims are plausible (agent copies consume inference compute; bandwidth/latency can bottleneck; validation can be cut under pressure), but the \u201chidden identity\u201d framing and the specific future narrative (2028, \u2018several high-profile breakthroughs failed\u2019) are speculative and somewhat overstated. The critique is clear, focused on one issue, and has limited dead weight aside from the scenario-setting details.",
+  "title": "Treating cognitive labour as separable from compute ignores inference-driven bottlenecks"
+}

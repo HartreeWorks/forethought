@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.4,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.3,
+  "reasoning": "The critique targets a fairly central move in the position: the Jones-style claim that complementarity (rho<0) may quickly relax toward rho\u22480 via rapid \u201creconfiguration,\u201d which helps underwrite the paper\u2019s optimism that compute bottlenecks won\u2019t bite until later. If reconfiguration itself is compute-intensive, the paper risks assuming away the bottleneck. However, the position offers multiple other pro-SIE considerations (e.g., algorithmic efficiency increasing experiment throughput, potential to rely less on near-frontier experiments, multiple routes to progress), which this critique doesn\u2019t address, so centrality isn\u2019t 1. The argument is plausible and relevant but not decisive: it asserts (reasonably) that validation/training/ablations remain necessary, yet it doesn\u2019t quantify how prohibitive this is or rule out partial substitution via smaller-scale experiments, better priors, extrapolation, or other low-compute routes. The critique is mostly correct, clear, focused, and contains little to no filler.",
+  "title": "Reconfiguring ML R&D to reduce complementarity still requires bottlenecked compute"
+}

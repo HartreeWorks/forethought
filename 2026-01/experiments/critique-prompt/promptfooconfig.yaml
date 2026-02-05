@@ -1,0 +1,63 @@
+# Critique Prompt Experiment
+# Tests 9 different brainstorm prompts on the Convergence and Compromise paper
+# Grades outputs using a modified ACORN rubric for critique collections
+
+description: "Critique prompt comparison experiment"
+
+providers:
+  - id: anthropic:messages:claude-opus-4-5-20251101
+    label: "Claude Opus 4.5"
+    config:
+      temperature: 0.7
+      max_tokens: 4000
+
+prompts:
+  # Claude-authored prompts
+  - id: claude-surgery
+    label: "Claude: Argument Surgery"
+    raw: file://prompts/claude-surgery.md
+
+  - id: claude-personas
+    label: "Claude: Hostile Personas"
+    raw: file://prompts/claude-personas.md
+
+  - id: claude-unforgettable
+    label: "Claude: Unforgettable Objection"
+    raw: file://prompts/claude-unforgettable.md
+
+  # GPT-authored prompts
+  - id: gpt-surgery
+    label: "GPT: Argument Surgery"
+    raw: file://prompts/gpt-surgery.md
+
+  - id: gpt-personas
+    label: "GPT: Hostile Personas"
+    raw: file://prompts/gpt-personas.md
+
+  - id: gpt-unforgettable
+    label: "GPT: Unforgettable Objection"
+    raw: file://prompts/gpt-unforgettable.md
+
+  # Gemini-authored prompts
+  - id: gemini-surgery
+    label: "Gemini: Argument Surgery"
+    raw: file://prompts/gemini-surgery.md
+
+  - id: gemini-personas
+    label: "Gemini: Hostile Personas"
+    raw: file://prompts/gemini-personas.md
+
+  - id: gemini-unforgettable
+    label: "Gemini: Unforgettable Objection"
+    raw: file://prompts/gemini-unforgettable.md
+
+tests:
+  - vars:
+      paper: file://paper.md
+    assert:
+      - type: llm-rubric
+        provider: anthropic:messages:claude-opus-4-5-20251101
+        value: file://grader-critique-collection.txt
+
+# Output settings
+outputPath: ./output/results.json

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.55,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.32,
+  "reasoning": "The critique targets a key support for the paper\u2019s claim that unbounded linear views are fussy: the step in \u00a73.2 from \u201cmany observed domains are fat-tailed\u201d to \u201cvalue-efficiency over future resource-uses is fat-tailed enough that only very specific uses get near-maximal value.\u201d If that inference fails, the specific \u2018linear \u21d2 needs very specific use\u2019 route to fussiness is materially weakened. However, it is not the whole paper: the position also argues for fragility via many independent moral-catastrophe dimensions (\u00a72), and for fussiness across bounded views via separate aggregation and bad-sensitivity (\u00a73.3). So centrality is moderate-high, not total.\n\nStrength is moderate. The critique correctly notes an evidential gap/identification problem: empirical fat tails in wealth/citations/consumer goods don\u2019t straightforwardly license fat tails in moral value density over an enormous, theory-laden design space, and without an operational model the tail-shape is underdetermined. That substantially undercuts the confidence of the fat-tail premise as an empirical regularity. But it does not fully refute the premise; fat-tailed value-efficiency remains plausible on many views, and the position also gestures at robustness-from-uncertainty (expected fat tails), which the critique doesn\u2019t directly dismantle. Also, even if \u201cmany near-maximal designs exist,\u201d linear views can still be fussy via the separate scale argument (must use most resources) and other non-fat-tail reasons.\n\nCorrectness is high: the critique\u2019s main claims about theory-ladenness and weak empirical support are largely right, though it overstates by saying the \u2018whole punchline\u2019 collapses\u2014at best it collapses one major plank. Clarity is high and the critique is tightly focused, with little dead weight.",
+  "title": "Fat-tail claims about moral value-efficiency lack empirical grounding in extreme design spaces"
+}

@@ -1,0 +1,1 @@
+Trade between groups with different values can achieve near-optimal outcomes for multiple views simultaneously

@@ -1,0 +1,4 @@
+**Load-bearing claim:** Economic estimates of $\rho$ from manufacturing (e.g., -0.4) are too pessimistic because manufacturing lacks the "optimization depth" of software.
+**Attack type:** Reference class failure (Inversion)
+**The specific problem:** Manufacturing may actually have *higher* substitutability than AI because human labor can physically manipulate atoms to replace machines (hand-made vs. factory-made). In AI, the product *is* computation. You cannot produce a "compute-equivalent" output without the physical medium of FLOPs. The coupling between the input (compute) and output (trained model) is tighter in digital goods than physical goods.
+**Impact:** The "pessimistic" economic estimates might actually be upper bounds. If the true AI $\rho$ is closer to -1 or lower, the "max speed" of progress is negligible regardless of software intelligence.

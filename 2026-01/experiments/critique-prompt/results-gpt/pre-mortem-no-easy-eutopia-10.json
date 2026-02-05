@@ -1,0 +1,11 @@
+{
+  "centrality": 0.22,
+  "strength": 0.25,
+  "correctness": 0.6,
+  "clarity": 0.87,
+  "dead_weight": 0.1,
+  "single_issue": 0.92,
+  "overall": 0.18,
+  "reasoning": "The critique targets an implied policy/methodological takeaway (\u201ckeep everything revisable; avoid lock-in\u201d) rather than the paper\u2019s core thesis that (conditional on survival) mostly-great futures are a narrow target because value is fragile and most plausible moral views are fussy. If the critique\u2019s point about the need for durable commitments were accepted, it would mainly weaken a potential anti-lock-in emphasis or a naive \u2018reversibility is always good\u2019 stance, not the central \u2018no easy eutopia\u2019 conclusion\u2014hence low-moderate centrality. Strength is limited because the paper already gestures at a closely related meta-level failure mode (over-vigilance/overbearing governance to avoid moral error causing harm), so the critique is partly \u201cpriced in\u201d and doesn\u2019t directly rebut the multiplicative-fragility/fussiness arguments. The underlying claim that durable commitments enable accountability, verification, and long-term coordination is broadly plausible (raising correctness), but the critique likely overstates what the paper \u2018drove\u2019 (a movement) and somewhat straw-mans the paper as assuming reversibility is mostly good. The argument is clear, focused on one issue, and contains little filler.",
+  "title": "Maximizing reversibility erodes durable commitments, enabling adversarial exploitation and norm instability"
+}

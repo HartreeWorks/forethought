@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.25,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.0,
+  "single_issue": 1.0,
+  "overall": 0.12,
+  "reasoning": "The critique targets a real component of the essay (the realism/internalism/externalism-based argument against WAM-convergence), but that component is not the sole or primary support for the essay\u2019s overall thesis (that mostly-great futures are hard without convergence/trade and that convergence is unlikely for multiple reasons). So centrality is moderate-low. The alleged inconsistency is also only weakly damaging: the essay can coherently claim (i) many/most agents won\u2019t be motivated by moral truth (or will avoid it) while (ii) a non-negligible minority of readers/actors will be motivated enough to act, or can be motivated by non-moral incentives, institutions, coordination, identity, etc. The critique\u2019s forced dichotomy (\u201ceither moral knowledge tends to motivate, which helps convergence, or it doesn\u2019t, which makes the paper inert\u201d) is too strong; motivation can be partial, heterogeneous, and context-dependent. Still, it correctly flags a performative tension worth addressing (who is expected to act, and why), hence middling correctness and some limited strength. The critique is clear, focused, and contains no real dead weight.",
+  "title": "Motivation failures would equally undermine the paper's own practical recommendations"
+}

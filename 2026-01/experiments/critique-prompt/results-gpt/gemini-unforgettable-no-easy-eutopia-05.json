@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.4,
+  "correctness": 0.85,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets the essay\u2019s appeal to historical \u201congoing moral catastrophes\u201d as evidence for default-value fragility/moral blindness, arguing the same history supports moral convergence/error-correction and thus a larger \u2018target\u2019 for good futures. That line is relevant but not fully central: the position also rests on many forward-looking fragility mechanisms (population ethics, digital beings, bounded/unbounded value-function analysis, multiplicative-factor model), so even if history suggested default improvement, much of the argument could survive. Strength is moderate: pointing out underdetermination/reversal in the historical evidence does weaken that evidential support, but it doesn\u2019t directly answer the essay\u2019s main claim that even \u2018common-sense utopia\u2019 can miss most value due to many specific, non-obvious failure modes; showing \u201csome moral progress happens\u201d doesn\u2019t establish \u201cmostly-great futures are likely by default.\u201d Correctness is high: it\u2019s plausible that historical abolition/rights expansions often arose endogenously rather than explicit de dicto optimization for \u2018best outcomes,\u2019 and that this undercuts a one-directional inference from historical moral blindness to future moral catastrophe. Clarity is high and dead weight is low; it focuses on a single objection. Overall is anchored to centrality\u00d7strength (~0.18) and nudged up slightly for crispness/insight, but remains limited because it attacks only one support strand and doesn\u2019t engage the essay\u2019s broader, more technical case for \u2018no easy eutopia.\u2019",
+  "title": "Historical moral progress suggests strong attractors toward improvement, not fragility"
+}

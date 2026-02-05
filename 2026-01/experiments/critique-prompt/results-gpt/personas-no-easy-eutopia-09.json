@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.12,
+  "reasoning": "The critique targets one sub-claim/example in Sec. 2.3.4: that early space-settlement resource appropriation is a key moment that can \"introduce lasting moral errors,\" such that \"getting initial allocation right\" is especially important. Even if this were wrong, the essay\u2019s main \u201cno easy eutopia\u201d conclusion is supported by many other independent fragility arguments (population ethics, digital beings, wellbeing theory, multiplicative factors, bounded/unbounded value-function fussiness), so centrality is limited. Strength is moderate: historical analogies plausibly suggest renegotiation/instability rather than permanent lock-in, undermining the emphasis on one-shot allocation correctness; however, it doesn\u2019t directly refute the possibility of lock-in via self-reinforcing property rights, path dependence, technological constraints, or rapid AI-driven expansion, nor does it show the essay\u2019s broader fragility thesis is false (indeed chronic contestation could be another fragility mode). Correctness is fairly high but not airtight: it\u2019s broadly true that terrestrial frontiers often produced long conflict and renegotiation rather than stable settlements, but extrapolating from Earth colonial history to interstellar governance is uncertain, and the critique overstates that the paper\u2019s focus is mainly \u201cgetting the initial allocation right\u201d rather than one illustrative risk among many. The critique is clear, focused on a single issue, and contains little dead weight. Overall, it\u2019s a useful local amendment (frontier fragmentation as an additional/alternative risk) but only mildly damaging to the paper\u2019s core argument.",
+  "title": "Historical frontiers suggest chronic contestation matters more than initial allocation"
+}

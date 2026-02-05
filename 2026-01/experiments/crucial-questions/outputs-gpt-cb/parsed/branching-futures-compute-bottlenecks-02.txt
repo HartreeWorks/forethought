@@ -1,0 +1,5 @@
+**Are near-frontier experiments (e.g., runs consuming ≥0.1–1% of a leading lab’s compute) actually necessary for most algorithmic capability gains, or can gains be reliably developed and validated using much smaller-scale experiments plus extrapolation?**
+   - **The branch point:** *“Near-frontier essential → compute bottleneck binds early”* vs *“Small-scale extrapolation works → compute bottleneck weak.”*
+   - **Paper anchor:** Tests the rebuttal to the “fixed number of near-frontier experiments” sceptic reply (the paper claims near-frontier may not be required and history suggests it can’t be the binding constraint).
+   - **Indicators:** If Branch A is more likely, then new methods that look good at small scale frequently fail or reverse at scale, and scaling decisions require repeated near-frontier trials. If Branch B, then small-scale results plus scaling-law/surrogate prediction select successful frontier methods with high hit-rate.
+   - **Time sensitivity:** **Next 12–24 months**, as frontier runs get more expensive and labs increasingly rely on extrapolation tooling.

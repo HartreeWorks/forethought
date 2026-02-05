@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.5,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.3,
+  "reasoning": "The critique targets a nontrivial pillar of the essay\u2019s case for \u201cfussiness,\u201d namely the claim (in the linear/unbounded discussion) that achieving a mostly-great future requires controlling and optimally deploying most accessible resources. If that inference fails, it weakens an important route to \u201cno easy eutopia,\u201d though it does not defeat the broader argument (which also relies on fragility/multiplicative factors and bounded-view fussiness), so centrality is moderate. The critique has moderate strength: it correctly notes that some linear-seeming moral views could treat non-intervention/wild nature as intrinsically valuable, so \u2018more control\u2019 needn\u2019t track \u2018more value,\u2019 undercutting a simple scale requirement. However, it partially misframes the target by implying the paper assumes uncontrolled resources contribute zero/random value; the essay\u2019s argument is closer to \u201cbest feasible uses require harnessing/configuring resources,\u201d and \u201cleaving alone\u201d can itself be modeled as a deliberate choice within a resource-use space, so the scale claim may be patchable rather than collapsing. The point is clear, focused, and contains little dead weight.",
+  "title": "Uncontrolled resources may contribute more value than controlled ones"
+}

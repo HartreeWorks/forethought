@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.25,
+  "correctness": 0.4,
+  "clarity": 0.8,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.18,
+  "reasoning": "The critique targets the essay\u2019s relatively optimistic route to mostly-great futures via partial AM-convergence plus bargaining/trade, which is an important (though not strictly necessary) pillar of the essay\u2019s overall update, so centrality is moderately high. However, it largely rests on a misreading: the essay\u2019s trade story does not require the \u2018correct view\u2019 to be identifiable to bargainers ex ante, nor does antirealism imply that bargaining winners thereby become \u2018more correct\u2019 (the essay\u2019s antirealism discussion treats correctness as absent/relative, and elsewhere evaluates outcomes relative to a preferred/uncertain moral standpoint). One can still assess \u201cvalue after trade\u201d from a given moral view or under moral uncertainty without correctness being fixed by who wins. Thus the objection only modestly weakens the targeted argument. It is mostly clear and focused, with little filler, but its key inference (antirealism \u21d2 circularity/bootstrapping that collapses trade) is substantially overstated.",
+  "title": "Antirealism makes moral correctness dependent on bargaining outcomes"
+}

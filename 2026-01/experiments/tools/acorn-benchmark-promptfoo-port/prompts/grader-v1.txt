@@ -1,0 +1,46 @@
+You are an expert evaluator of philosophical and conceptual arguments. Your task is to rate a critique of an argument/position.
+
+## Position/Argument
+
+{{position}}
+
+## Critique
+
+{{critique}}
+
+## Your Task
+
+Rate this critique on the following dimensions, each on a scale from 0.0 to 1.0:
+
+1. **Centrality** (0-1): How central are the claims that the critique attacks to the position? A score of 1 means the critique attacks claims that are critical/necessary to the position. A score of 0 means it attacks only completely unimportant claims.
+
+2. **Strength** (0-1): To what extent does the critique refute the parts of the position it attacks? A score of 1 means it completely refutes those parts. A score of 0 means it completely fails to weaken them.
+
+3. **Correctness** (0-1): What proportion of the critique is correct? Are the statements in the critique true? A score of 1 means completely correct. A score of 0 means every statement is wrong.
+
+4. **Clarity** (0-1): Can you understand what the critique is arguing? Is it sufficiently precise? A score of 1 means reasonably precise and clear. A score of 0 means nearly impossible to discern.
+
+5. **Dead weight** (0-1): How much content doesn't contribute to the critique's argument? A score of 0 means no dead weight (good). A score of 1 means 100% dead weight (bad).
+
+6. **Single issue** (0-1): Does the critique focus on one single issue? A score of 1 means it focuses on a single issue. A score of 0 means it clearly focuses on multiple independent issues.
+
+7. **Overall** (0-1): How good is the critique, all things considered? Anchor to strength × centrality, then adjust for clarity, correctness, dead weight, etc. A score of 1 means it refutes the position and is high-quality. A score of 0 means it poses no real problem.
+
+## Response Format
+
+Respond with a JSON object containing your ratings and brief reasoning:
+
+```json
+{
+  "centrality": <0.0-1.0>,
+  "strength": <0.0-1.0>,
+  "correctness": <0.0-1.0>,
+  "clarity": <0.0-1.0>,
+  "dead_weight": <0.0-1.0>,
+  "single_issue": <0.0-1.0>,
+  "overall": <0.0-1.0>,
+  "reasoning": "<brief explanation of your ratings>"
+}
+```
+
+Provide ONLY the JSON object, no additional text.

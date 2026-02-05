@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.78,
+  "paper_specificity": 0.66,
+  "tractability": 0.56,
+  "clarity": 0.71,
+  "decision_hook": 0.93,
+  "dead_weight": 0.12,
+  "overall": 0.64,
+  "reasoning": "Cruciality is high because the answer pushes toward two quite different strategic emphases the paper highlights (capability/wealth acceleration + trade institutions vs early governance/value-shaping to avoid insatiable, hard-to-compromise actors). Paper-specificity is moderately high: it directly targets the paper\u2019s abundance/diminishing-returns argument (\u00a72.3.2) and the concern that linear-in-resources values reduce gains from moral trade (\u00a73.2), though variants of the question could be asked in broader political economy/futures debates. Tractability is medium: we can study proxies (ultra-wealth behavior, philanthropy elasticities, positional-good consumption, preference formation under abundance, lab/field experiments, formal models of diminishing marginal utility and cultural selection), but extrapolating to post-AGI regimes is highly uncertain and likely underdetermined. Clarity is decent but key terms need operationalization (what counts as \u201cprimarily,\u201d how to measure altruistic share vs linear/positional preferences, and how to map to \u2018feasible gains from compromise\u2019). Decision hook is excellent and explicitly conditional. Dead weight is low: most context directly supports the question and its implications.",
+  "title": "Abundance's effect on altruistic versus positional preferences"
+}

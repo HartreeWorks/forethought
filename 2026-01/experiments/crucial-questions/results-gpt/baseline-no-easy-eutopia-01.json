@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.8,
+  "paper_specificity": 0.86,
+  "tractability": 0.45,
+  "clarity": 0.7,
+  "decision_hook": 0.74,
+  "dead_weight": 0.1,
+  "overall": 0.6,
+  "reasoning": "This targets a load-bearing assumption in the paper: the (largely implicit) default distribution over post-survival futures absent strong de dicto optimization, which directly affects the claim that mostly-great futures are a narrow target. If that distribution (or reasonable proxies for it) put substantial probability mass on mostly-great outcomes due to systematic selection forces (institutions, markets, AI deployment dynamics), the paper\u2019s main strategic implication (skepticism about \u2018easy eutopia\u2019 and the need for deliberate steering) could weaken substantially, so cruciality is high. It is strongly tied to this paper\u2019s framing and definitions (post-survival conditional distribution, de dicto optimization, mostly-great threshold), so paper-specificity is high. However, empirically grounding a far-future distribution is methodologically difficult: you can make partial progress via historical/institutional analogies, formal models, expert elicitation, and scenario forecasting, but uncertainty and dependence on contested value metrics limit tractability. The question is mostly clear but still under-specified about what would count as \u2018empirically grounded\u2019 and how to operationalize \u2018mostly-great\u2019 across moral uncertainty. It includes a meaningful decision hinge (if default dynamics push to high-value regions, conclusion weakens), though it could more explicitly map to concrete strategic choices. Minimal dead weight.",
+  "title": "Default future distribution's empirical basis and great outcomes probability"
+}

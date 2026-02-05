@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.45,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.27,
+  "reasoning": "The critique targets a moderately central element: the essay\u2019s percentile-based definition of \u201cbest feasible future\u201d and its normalization to 1, combined with fixed thresholds (0.5/0.9), could in principle make \u201cmostly-great is rare\u201d partly a definitional artifact. If that were true, it would undercut some of the paper\u2019s quantitative framing about how often we hit 50%/90% of potential. However, the core \u201cno easy eutopia\u201d thesis is not solely derived from percentile anchoring: much of the argument is about moral fragility/multiplicative factors, narrowness of targets under many moral theories (linear/unbounded, bounded variants), and empirical/structural claims (fat-tailed value-efficiency, scale effects). The critique also overstates the mechanicality: a 99.99th percentile anchor does not by itself imply that futures above 0.5 are rare; that depends on the distribution\u2019s shape relative to the top tail. The essay\u2019s claim is conditional on substantive assumptions (e.g., fat tails, multiplicative dimensions), so the critique refutes only part of the support, not the main case. Still, it correctly notes that the paper owes more justification for why 99.99th percentile is the normatively appropriate reference point and that heavy-tailedness plus extreme anchoring can make \u201cmostly-great\u201d look rarer. The critique is clear, focused, and contains little fluff.",
+  "title": "Defining success by extreme percentiles mechanically guarantees rarity of success"
+}

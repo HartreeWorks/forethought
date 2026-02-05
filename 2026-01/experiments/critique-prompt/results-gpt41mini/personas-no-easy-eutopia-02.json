@@ -1,0 +1,11 @@
+{
+  "centrality": 0.2,
+  "strength": 0.15,
+  "correctness": 0.45,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.12,
+  "reasoning": "The critique targets an alleged implicit assumption that society can coordinate/avoid defection to hit the \u201cnarrow eutopian target,\u201d arguing incentives will push toward exploitative equilibria. But the essay explicitly brackets navigation/coordination (it says it is focusing on \u2018point (1)\u2019\u2014target size\u2014and conditions on no serious coordinated efforts to optimize for best outcomes), and it does not rely on the claim that the target can be stably reached; if anything, incentive problems would tend to reinforce the essay\u2019s pessimism rather than undermine it. So the attacked claim is not very central to the essay\u2019s main conclusion (target narrow / no easy eutopia), and the critique only weakly engages what the essay is actually arguing. Still, the point that incentive gradients matter for digital rights/resource allocation is generally plausible, so the critique is partly correct in substance but misapplied to this specific essay. It is clearly stated, focused on a single issue, and contains little fluff.",
+  "title": "Strategic defection by powerful actors destabilizes coordination toward eutopia"
+}

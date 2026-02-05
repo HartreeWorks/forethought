@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.82,
+  "paper_specificity": 0.78,
+  "tractability": 0.66,
+  "clarity": 0.81,
+  "decision_hook": 0.92,
+  "dead_weight": 0.14,
+  "overall": 0.73,
+  "reasoning": "This targets a key fork in the paper\u2019s core dispute: whether compute bottlenecks bind early depends heavily on whether near-frontier trials are required vs whether small-scale experiments plus extrapolation suffice. A definitive answer would substantially update beliefs about the feasibility/speed of a software intelligence explosion and thus alter strategic emphasis (e.g., prioritizing compute forecasting vs algorithmic automation risks). It is well-anchored to a specific rebuttal in the paper, though the question also resembles broader ML scaling/predictability debates (so not maximally paper-unique). It\u2019s moderately tractable: one can study historical \u201cworks at small scale \u2192 works at frontier\u201d hit rates, scaling-law predictability, and cases of sign flips, but access to true near-frontier experimental logs is limited and definitions of \u201calgorithmic capability gains\u201d and \u201creliably validated\u201d need tighter operationalization. The branch-point framing provides an unusually strong decision hook, and the added context is mostly useful rather than fluff.",
+  "title": "Near-frontier experiments vs small-scale extrapolation for capability gains"
+}

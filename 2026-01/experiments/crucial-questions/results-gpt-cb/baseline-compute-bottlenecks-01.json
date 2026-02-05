@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.8,
+  "paper_specificity": 0.95,
+  "tractability": 0.45,
+  "clarity": 0.75,
+  "decision_hook": 0.6,
+  "dead_weight": 0.1,
+  "overall": 0.62,
+  "reasoning": "Crucial because the paper\u2019s central dispute is whether compute imposes a hard ceiling on software-driven acceleration, and the CES substitutability parameter \u03c1 largely determines that ceiling and thus SIE plausibility/takeoff speed. Very paper-specific: it directly targets the key parameter the post imports from economics and argues is misapplied. Tractability is moderate-low: direct measurement in frontier AI R&D is hard (data access, defining \u2018cognitive labor\u2019 vs compute for R&D, and especially identifying \u03c1 over multi-OOM L/K changes rather than local variation), though partial evidence could come from historical within-lab productivity vs experiment budgets, algorithmic efficiency trends, and structured elicitation/measurement in controlled R&D settings. Clarity is decent but not perfect because \u2018empirically correct \u03c1\u2019 and \u2018cognitive labor\u2019 need operational definitions, and the domain (\u2018frontier AI R&D\u2019) and extrapolation regime (\u2018large changes in L/K\u2019) create ambiguity about what would count as an estimate. Decision hook is present but not fully action-explicit: it states the belief-update consequence for SIE (strongly negative \u03c1 blunts/prevents), but doesn\u2019t clearly spell the concrete strategic shifts (e.g., governance focus on compute vs automation, forecasting adjustments, lab investment choices). Dead weight is low: the added text mostly motivates why the parameter matters.",
+  "title": "Cognitive labor-compute substitutability in frontier AI R&D"
+}

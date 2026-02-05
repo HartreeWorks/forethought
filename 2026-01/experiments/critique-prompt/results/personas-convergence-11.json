@@ -1,0 +1,10 @@
+{
+  "centrality": 0.4,
+  "strength": 0.35,
+  "correctness": 0.6,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique raises a potentially important point about power dynamics - that views permitting ruthless behavior may systematically accumulate more power, which could undermine scenarios where 'correct' moral views retain meaningful resource shares for trade. However, this is only moderately central to the paper's argument. The paper explicitly discusses 'blockers' including 'concentration of power' in section 3.5, and section 2.3.3 discusses 'asymmetric growth' and how non-discounting values might win out. The paper doesn't treat resource distribution as fully exogenous - it acknowledges uncertainty about what fraction of resources correct views will control. The critique has moderate strength because while it identifies a real concern, the paper already partially addresses selection dynamics, and the critique doesn't fully engage with the paper's arguments about why altruistic/patient views might also have competitive advantages (saving more, having more children). The correctness is moderate - the claim that ruthless views tend to concentrate power has some empirical support historically, but the relationship is contested and the paper's discussion of how patient/altruistic strategies might win long-term partly addresses this. Clarity is reasonable though the critique could be more specific about mechanisms. It focuses on a single issue coherently."
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.2,
+  "strength": 0.75,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique targets one specific supporting move in the position: the toy argument that in the infinite-labor limit \u201ccognitive labour can fully substitute for compute,\u201d so \u03c1<0 must be flawed in principle. That point is not central to the overall case (the post offers many other reasons to expect higher substitutability and weaker bottlenecks), so centrality is low (~0.2). Within that sub-argument, the critique is fairly strong: it correctly notes that any \u2018in-head\u2019 simulation by AIs still requires physical computation and that, for frontier deep learning workloads, the overhead of emulating large-scale tensor computation via \u2018cognitive labor\u2019 could be so extreme that it doesn\u2019t inform the relevant regime for an SIE; thus it substantially undercuts the intended inference from \u201cpossible in principle\u201d to \u201c\u03c1 can\u2019t be <0 in practice at relevant scales.\u201d The critique is mostly correct and conceptually sound, though it leans on plausibility rather than quantified bounds, and \u2018still cashes out as physical compute somewhere\u2019 is true but doesn\u2019t strictly preclude higher effective substitutability via other pathways. It is clear, focused on a single issue, and contains little to no dead weight. Overall it\u2019s a good local rebuttal but doesn\u2019t substantially threaten the post\u2019s main conclusion.",
+  "title": "Cognitive substitution for compute remains astronomically inefficient at relevant scales"
+}

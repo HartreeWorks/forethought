@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.25,
+  "reasoning": "The critique targets the paper\u2019s moral-uncertainty section and the claim that (under plausible intertheoretic comparisons) unbounded/linear \u2018fussy\u2019 views should loom large. This is relevant but not fully central: the paper\u2019s main \u2018no easy eutopia\u2019 conclusion is also supported by the earlier fragility/product-of-factors argument and by within-theory fussiness claims, which don\u2019t require intertheoretic scaling. Strength is moderate: pointing out that normalization can drive the moral-uncertainty punchline does undercut any strong, theory-aggregation-based policy conclusions, but it doesn\u2019t substantially refute the broader thesis that many plausible first-order views are fussy. Correctness is fairly high: it\u2019s true that intertheoretic comparison is underspecified and that different normalizations can swing recommendations; however the critique overreaches in suggesting this prevents claims like \u2018easygoingness is unlikely\u2019 (much of that claim is intra-theoretic, not aggregation-dependent). The critique is clear, focused on one main issue, and contains little dead weight.",
+  "title": "Intertheoretic scaling choices undermine the moral uncertainty conclusions"
+}

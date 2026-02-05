@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.2,
+  "correctness": 0.5,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.16,
+  "reasoning": "The critique targets the essay\u2019s emphasis on de dicto motivation (WAM/AM-convergence) and argues this framing would push institutions toward morally-formalized \u201cwhat\u2019s best\u201d optimization, triggering legitimacy crises that undermine flourishing. This is somewhat central (section 2 is a major component, and de dicto motivation is an explicit axis of analysis), but the essay itself is largely pessimistic about WAM-convergence and leans toward trade/compromise as the more plausible route, so the attacked component is not necessary to the essay\u2019s overall conclusion; hence moderate centrality. Strength is low because the critique mostly offers a speculative sociopolitical failure mode (a cautionary \u2018could cause\u2019 story) rather than engaging the essay\u2019s actual claims about likelihood of convergence, bargaining conditions, threats, or blockers; it doesn\u2019t show the de dicto framing is false or that the essay\u2019s main comparisons (WAM vs partial AM + trade) are wrong. Correctness is mixed: the general risk that \u201coptimize for the good de dicto\u201d can incentivize premature formalization/technocracy is plausible, and is partly compatible with the essay\u2019s own concern that people won\u2019t defer to reflective processes; but the critique\u2019s stronger causal claims (that this paper would in fact steer governance/alignment, that de dicto-optimizers would be deployed, and that a specific cascade would occur) are unsupported. The critique is clear, tightly focused on a single failure mode, and contains little true dead weight.",
+  "title": "De dicto moral optimization invites technocracy, polarization, and legitimacy collapse under uncertainty"
+}

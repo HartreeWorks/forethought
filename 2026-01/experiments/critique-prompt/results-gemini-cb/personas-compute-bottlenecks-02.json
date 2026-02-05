@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.3,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets a moderately central pillar of the post\u2019s case against compute bottlenecks: that there remains large algorithmic/engineering slack such that abundant cognitive labor can translate into very large effective experiment throughput and thus high implied \u2018max speed\u2019 (i.e., relatively high substitutability / less binding compute ceiling). If that were false and we were already near the frontier, it would materially weaken the author\u2019s plausibility arguments for high max speed and for rho being closer to 0 than to typical economic estimates, though it wouldn\u2019t refute the whole position because the post offers several other routes (e.g., non-frontier experimentation, alternative research pathways, reconfiguration effects, stronger-link framing).\n\nAs an argument, it has limited refutational force: it mainly asserts an \u201cevolutionary tournament\u201d intuition without engaging the post\u2019s specific counterpoints (extrapolation limits of CES, long-run reconfiguration/Jones hypothesis, possibility of progress via better experimental design and small-scale extrapolation, historical trend re: near-frontier experiments, multiple progress channels). The claim that we\u2019re likely near a Pareto frontier is plausible but far from established, and the specific \u2018log(n) not exponential\u2019 characterization is underspecified and not well-justified. Still, the general point that competitive pressure may already have harvested many easy efficiency wins is directionally reasonable and likely partially correct.\n\nThe critique is clear, focused on one issue, and contains little extraneous material.",
+  "title": "Competitive AI research has already harvested most algorithmic efficiency gains"
+}

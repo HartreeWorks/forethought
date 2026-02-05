@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.4,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.2,
+  "reasoning": "The critique targets the paper\u2019s Section 3.5 claim that, under moral uncertainty, the \u201cfairest/plausible\u201d intertheoretic-comparison methods tend to weight unbounded views more and thus preserve fussiness. That\u2019s a real support-strand but not core to the overall \u2018no easy eutopia\u2019 conclusion, which is also argued via eutopian fragility and the fussiness of many individual moral views; hence moderate centrality. The objection has moderate strength: it rightly notes the paper\u2019s own examples show that different normalizations can flip recommendations and that the paper doesn\u2019t decisively vindicate variance normalization or its proposed pairwise scaling, so robustness claims about uncertainty are weakened. However, it doesn\u2019t show that the paper\u2019s preferred methods are wrong or that easygoingness follows; it mainly pushes the conclusion toward being conditional, and the original text already flags thorniness and avoids fully decisive claims. The critique is clear, focused, and contains little to no dead weight, and its key factual/interpretive claims are mostly correct (though it arguably overstates how \u2018headline\u2019 or unconditional the paper\u2019s uncertainty takeaway is).",
+  "title": "Unjustified intertheoretic normalization choices make the paper\u2019s \u201cfussy under uncertainty\u201d result non-robust"
+}

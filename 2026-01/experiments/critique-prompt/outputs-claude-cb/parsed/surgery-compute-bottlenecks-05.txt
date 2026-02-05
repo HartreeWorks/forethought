@@ -1,0 +1,14 @@
+Algorithmic efficiency gains allow increasing both inputs (cognitive labor AND effective experiments), undermining the fixed-input assumption
+
+**Dependencies**:
+- The thesis depends on (1), which depends on (2), (3), and (4) as supporting arguments
+- (5) is presented as an independent defeater of the bottleneck objection
+- The "early stages" qualifier depends on the claim that even if -0.2<ρ<0, bottlenecks only bite after ~5 OOMs of progress
+
+**Hidden load**:
+- Assumes AI R&D progress can be meaningfully decomposed into separable inputs of "cognitive labor" and "compute"
+- Assumes the SIE dynamic involves cognitive labor scaling while compute remains relatively fixed
+- Assumes insights from talking to current AI researchers about what superintelligent researchers could do are reliable
+- Assumes algorithmic efficiency gains during an SIE would be applicable to the experiments themselves (not just deployed models)
+
+---

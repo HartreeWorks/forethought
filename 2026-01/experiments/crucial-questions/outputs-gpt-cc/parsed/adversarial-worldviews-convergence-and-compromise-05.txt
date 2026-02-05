@@ -1,0 +1,4 @@
+**Under moral anti-realism/subjectivism, do reflective processes diverge so strongly that even the paper’s modest “partial AM-convergence” assumption fails (i.e., far fewer than ~1 in a million power-weighted actors become “good de dicto” maximizers in any actionable sense)?**  
+   - **Worldview:** Alignment Pessimist  
+   - **Paper anchor:** §2.4.2 argues antirealism implies many “free parameters” and underpowered idealisation, making convergence unlikely; §3 sets partial AM-convergence as the key enabling condition for trade-based optimism.  
+   - **Strategic implications:** If **partial AM-convergence is plausibly met**, strategy becomes **focus on trade-enabling mechanisms and representation of altruistic blocs**; if **it likely fails**, strategy becomes **shift toward robust safeguards against worst-case value drift/threats and toward shaping initial lock-in conditions (since later moral bargaining won’t be powered by enough de-dicto altruists)**.

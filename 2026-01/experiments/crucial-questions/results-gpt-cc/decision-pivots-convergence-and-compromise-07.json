@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.8,
+  "tractability": 0.55,
+  "clarity": 0.75,
+  "decision_hook": 0.95,
+  "dead_weight": 0.1,
+  "overall": 0.74,
+  "reasoning": "Crucial because the paper\u2019s optimism about \u201clong views win\u201d vs early lock-in is a central strategic fork: if lock-in is fast, prioritize urgent governance/anti-threat work; if slow, prioritize compounding/institutional/pluralism approaches. Highly paper-specific (directly targets the paper\u2019s conditional claim that selection/asymmetric growth may not have time before persistent decisions), though similar lock-in questions arise in adjacent longtermist work. Tractability is moderate: we can make progress via operationalizing \u2018lock-in\u2019 into specific irreversibility mechanisms (AI takeoff/constitutional entrenchment/space expansion patterns), scenario modeling, and identifying reversible vs irreversible commitments\u2014but definitive timelines are inherently speculative and sensitive to unknowns about TAI pathways. Clarity is decent but not perfect because \u201cmost-important decisions\u201d and \u201ceffectively locked in\u201d need sharper definitions/metrics (e.g., what counts as reversible, who can reverse, at what cost). Decision hook is excellent and explicitly stated. Little dead weight: most text either pins the anchor, defines the flip, or suggests a research approach.",
+  "title": "Lock-in timing vs patient value accumulation windows"
+}

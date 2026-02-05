@@ -1,0 +1,1 @@
+The argument relies heavily on an idealized concept of “best feasible future” and “near-best future,” but it remains ambiguous how these are quantified in practice, leaving open questions about how sensitive the conclusions are to subjective or culturally relative conceptions of moral value and what standards to apply.

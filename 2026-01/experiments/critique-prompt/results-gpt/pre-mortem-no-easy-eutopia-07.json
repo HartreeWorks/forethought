@@ -1,0 +1,11 @@
+{
+  "centrality": 0.28,
+  "strength": 0.38,
+  "correctness": 0.6,
+  "clarity": 0.87,
+  "dead_weight": 0.27,
+  "single_issue": 0.9,
+  "overall": 0.24,
+  "reasoning": "The critique targets a real premise used in the paper\u2019s bounded-\u201cuniversal value\u201d discussion: if most value is outside humanity\u2019s influence (e.g., many alien moral patients), then bounded concave views become approximately linear over our action range, supporting \u201cfussiness.\u201d If that empirical/cosmological premise weakens, that sub-argument weakens too (moderate centrality). However, the paper\u2019s overall \u201cno easy eutopia\u201d conclusion is supported by multiple independent routes (eutopian fragility/multiplicativity; unbounded linear views; bounded difference-making fussy cases), so undermining the alien-civilizations move does not collapse the position (centrality well below 0.5). The critique\u2019s refutation strength is limited: it relies on speculative future evidence (2032 null technosignatures) and assumes that would substantially change the \u2018tiny marginal impact\u2019 claim; plus the paper frames the alien-civilization point conditionally (\u201cIf so\u2026\u201d), not as a fixed assumption. Still, it insightfully notes that the practical upshot is contingent and would warrant explicit robustness/sensitivity analysis. Clarity is high. Some narrative about institutional cascades/ecosystem collapse is more illustrative than necessary, creating moderate dead weight. It largely stays focused on one issue.",
+  "title": "The paper\u2019s linear \u201cmarginalism\u201d hinges on an empirically fragile big-universe premise"
+}

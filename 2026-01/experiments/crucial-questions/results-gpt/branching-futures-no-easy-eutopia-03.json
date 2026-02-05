@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.82,
+  "paper_specificity": 0.64,
+  "tractability": 0.78,
+  "clarity": 0.76,
+  "decision_hook": 0.72,
+  "dead_weight": 0.08,
+  "overall": 0.73,
+  "reasoning": "Cruciality is high because the emergence vs entrenchment of AI-welfare governance would substantially change which \u201cmoral catastrophe\u201d trajectories are likely and where to invest (rights/standards/litigation vs other levers), which is central to the paper\u2019s no-easy-eutopia thesis. Paper-specificity is moderate-high: it directly targets the paper\u2019s Section 2.3.2 mechanism (ownership, deletion/death, forced labor norms for digital beings) and the idea that seemingly fine futures can hide catastrophic moral error, but it could still be asked in a broader AI governance/AI rights context without this particular paper. Tractability is fairly strong: it can be partially answered via near-term empirical indicators (regulatory text, standards drafts, court filings, lab policies, contract/IP doctrine shifts) and forecasting methods, though it remains uncertain and path-dependent. Clarity is good but not perfect: \u201cadvanced AI systems,\u201d \u201cwelfare-relevant constraints,\u201d and the threshold for \u201ctreating as welfare-relevant\u201d could be operationalized more tightly, and venues differ in what counts as movement. Decision hook is solid: it names two branches and gives concrete observable indicators, but it doesn\u2019t fully spell out the downstream strategic choices conditional on each branch. Dead weight is low: most text sharpens the branch point, anchors to the paper, and lists indicators/time horizon.",
+  "title": "Welfare constraints vs property paradigm in AI governance"
+}

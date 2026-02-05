@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.3,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.15,
+  "reasoning": "The critique targets one supporting move in the post: using a small expert survey and the general idea that \u201csmarter/faster researchers\u201d implies substantially more AI R&D output, which the author uses to argue compute\u2013cognitive-labor substitutability (\u03c1) is higher than manufacturing estimates. That point is relevant but not central, because the overall case against compute bottlenecks rests on many other arguments (experiment efficiency gains, extrapolation limits of CES, long-run reconfiguration, alternative routes to progress, etc.). The critique\u2019s arguments are plausible (survey anchoring/self-attribution bias; possible diminishing returns to IQ beyond competence), but are mostly generic and don\u2019t directly engage the author\u2019s broader claim that AI R&D is unusually amenable to leveraging additional cognition (including speed/parallelism) nor do they provide strong evidence that the effect is small. It also risks straw-manning the post with an implicit \u201c2x smarter = 2x faster\u201d model the post doesn\u2019t clearly endorse. Overall it modestly weakens one piece of evidence, but doesn\u2019t substantially undermine the position.",
+  "title": "Expert surveys on research productivity suffer from cognitive biases and ignore diminishing returns"
+}

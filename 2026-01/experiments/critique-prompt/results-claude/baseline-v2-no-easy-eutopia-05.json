@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.5,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique targets the paper\u2019s fat-tailed value-per-resource claim used to argue that, on linear (resource-separable) unbounded views, most resources must be used in very specific ways, making mostly-great futures a narrow target. That claim is a supporting pillar for one strand of the overall \u201cno easy eutopia\u201d case, but the position also has substantial independent support (e.g., multiplicative/fragility arguments; scale requirements without fat-tail exactingness; bounded-view fussiness via bads aggregation). So centrality is moderate (~0.3). On the attacked point, the critique has moderate strength: it correctly notes that several cited fat-tail examples are about competitive/instrumental domains and that the paper doesn\u2019t fully derive an intrinsic-value fat-tail from first principles. It also raises a real worry about the paper\u2019s quick inference from uncertainty to heavy tails. However, it doesn\u2019t engage the paper\u2019s additional intrinsic-value discussion (extreme experience examples/surveys) and doesn\u2019t show the distribution is thin-tailed; it mainly undercuts confidence. Correctness is fairly high but not perfect: the \u201cmathematical non-sequitur\u201d charge is directionally right (mixtures don\u2019t automatically have the desired tail properties), though mixtures often can be heavy-tailed depending on priors/weights, so the critique slightly overstates. The critique is clear, focused, and contains little dead weight.",
+  "title": "Fat-tailed value distribution lacks theoretical grounding and misapplies empirical analogies"
+}

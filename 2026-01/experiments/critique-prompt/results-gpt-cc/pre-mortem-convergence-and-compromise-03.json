@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.45,
+  "correctness": 0.65,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.35,
+  "reasoning": "The critique targets a fairly central optimistic pathway in the essay: that partial moral convergence plus bargaining/trade could yield a mostly-great future, illustrated by \u201cgalaxy partition\u201d deals. If frontier expansion makes pre-bargained partitions infeasible and pushes agents into non-cooperative control races, that would substantially undermine the plausibility of the paper\u2019s most vivid trade scenario and some of its optimism about realizing large gains from moral trade. However, the essay does not rest entirely on clean ex ante partitioning (it discusses threats, power concentration, and institutional blockers already), and trade could still occur in other ways (local bargains, slower/coordination-first expansion, shared governance, verification tech, mutually agreed expansion protocols). So the critique weakens an important subset of the argument rather than refuting the overall position. Empirically/strategically, the points about light-speed delays, ambiguous reachable sets, first-mover logistics, and escalation to denial strategies are plausible but speculative, and the critique overstates slightly by implying the essay \u201cmissed\u201d the need for enforcement/commons\u2014threats and institutional stability are already flagged, though not this specific frontier-physics mechanism. The critique is clear, focused, and contains little fluff.",
+  "title": "Moral trade fails when frontier ambiguity turns partition bargains into control races"
+}

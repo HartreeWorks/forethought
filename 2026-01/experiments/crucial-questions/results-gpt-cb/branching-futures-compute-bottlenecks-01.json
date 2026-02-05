@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.87,
+  "paper_specificity": 0.92,
+  "tractability": 0.58,
+  "clarity": 0.77,
+  "decision_hook": 0.82,
+  "dead_weight": 0.14,
+  "overall": 0.74,
+  "reasoning": "This targets the paper\u2019s central crux: whether AI R&D is strongly compute-complementary (\u03c1 well below 0) versus weakly complementary (\u03c1 near 0), which largely determines whether an early software intelligence explosion is plausible under fixed compute. A decisive answer would substantially shift forecasts about takeoff speed and the urgency/shape of governance and safety preparation (high cruciality). It is tightly anchored to the paper\u2019s CES framing and claimed plausible \u03c1 range (high paper-specificity). However, it\u2019s only moderately tractable: measuring \u2018AI R&D progress speed\u2019 under controlled \u2018fixed compute\u2019 while scaling automated cognitive labor by 10\u20131000\u00d7 is hard, likely requires strong proxies (e.g., algorithmic efficiency gains per unit time under fixed training budgets), access to lab-internal data, and careful identification to avoid confounds. The question is mostly clear, but still has ambiguities about operational definitions (what counts as progress, what time window is \u2018short-run\u2019, what is held fixed\u2014training compute only vs total experimentation/inference/agent compute). The branch-point framing provides an explicit if-A/if-B implication (good decision hook). The added bullets largely support the question rather than bury it (low dead weight).",
+  "title": "Cognitive labor elasticity in AI R&D under compute constraints"
+}

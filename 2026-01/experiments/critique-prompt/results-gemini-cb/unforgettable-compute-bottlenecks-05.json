@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "The critique targets a specific sub-claim in the position: that abundant cognitive labor could substitute for compute by using internal simulation/prediction of experimental outcomes (the \u201cdo the math in their heads\u201d / simulator idea). If this substitution fails, it weakens one route for arguing compute won\u2019t bottleneck, but the overall position offers multiple other routes (algorithmic efficiency increasing experiment throughput, non-near-frontier extrapolation, stack optimization, alternate progress paths), so centrality is only moderate-low. The critique has some real bite\u2014Goodharting of learned/predicted metrics is a genuine failure mode, and it\u2019s true that keeping a simulator honest typically requires periodic expensive grounding. However, it overgeneralizes: AI R&D can validate against real runs (limiting pure proxy optimization), simulators can be used for narrowing hypotheses rather than being the sole objective, and it\u2019s not guaranteed that simulator fidelity must asymptotically match full experiment cost in the relevant regime. Thus it partially weakens the attacked point but doesn\u2019t strongly undermine the broader argument. It is clear, focused on one issue, and contains little-to-no fluff.",
+  "title": "Optimizing predicted metrics will Goodhart the cognitive labor proxy"
+}

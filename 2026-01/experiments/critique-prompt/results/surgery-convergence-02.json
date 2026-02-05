@@ -1,0 +1,10 @@
+{
+  "centrality": 0.4,
+  "strength": 0.35,
+  "correctness": 0.65,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique attacks the paper's argument that antirealism implies unlikely convergence (section 2.4.2). This is moderately central - the paper argues convergence is unlikely under both realism and antirealism, so undermining just the antirealist case doesn't collapse the position. The critique makes a reasonable point that some constructivist theories might constrain variance, but the paper explicitly addresses this: it argues that even with idealization processes, different people's subjective idealizing procedures introduce 'free parameters' leading to divergence. The claim that 'some antirealist theories actually constrain variance more tightly than realism' is questionable - realism with internalism about motivation would also constrain variance through the attractiveness of correct moral facts. The critique correctly identifies that the paper treats 'distance' as roughly fixed, but the paper's argument doesn't actually depend on this - it depends on there being insufficient constraining force toward convergence under antirealism, which holds across most antirealist variants. The critique is clear and focused on a single issue, with minimal dead weight. Overall impact is limited because it doesn't fully engage with the paper's detailed arguments about why constructivist idealization processes would still diverge."
+}

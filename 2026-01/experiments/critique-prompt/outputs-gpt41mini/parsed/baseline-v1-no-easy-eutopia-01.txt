@@ -1,0 +1,1 @@
+The paper assumes that multiple moral flaws independently and multiplicatively reduce the overall value of the future, but it does not seriously consider alternative models of value aggregation (e.g., additive or non-independent interactions), which could significantly alter the conclusion about eutopian fragility and ease of achieving mostly-great futures.

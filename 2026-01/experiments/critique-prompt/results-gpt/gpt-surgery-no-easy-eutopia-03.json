@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.55,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.32,
+  "reasoning": "The critique targets the role of \u201cCommon-sense utopia\u201d as an illustrative/default-case meant to show that even very attractive-looking futures can be far from near-best due to non-obvious moral fragilities. If that vignette is illegitimately \u201ctoo steered\u201d (because enforcing a robust no-harm constraint and stable bargaining institutions arguably presupposes strong governance/alignment capacity), then the illustrative force of \u00a72.3 weakens and the \u2018fragility under default conditions\u2019 claim is less supported. However, this is not the whole argument for \u201cno easy eutopia\u201d: much of the essay\u2019s case also comes from the multiplicative-fragility framing and especially the later, more systematic discussion of fussy vs easygoing value functions. So centrality is moderate, not maximal. Strength is moderate: it plausibly exposes a hidden assumption mismatch between \u2018no serious coordinated optimisation pressure\u2019 and a world with globally reliable harm-accounting, but it doesn\u2019t show that such capacity would in fact resolve most listed fragilities (e.g., population ethics, scale choices, value disagreements, bad-minimisation under separate aggregation, etc. can persist despite good governance). Correctness is high because the tension it points to is real, though it somewhat overclaims by suggesting robust no-harm enforcement would \u201cplausibly correct several\u201d of the hard moral-uncertainty items (it might reduce some failure modes without eliminating value-loss). The critique is clear, focused on a single issue, and contains little dead weight. Overall impact is limited because even granting it, the position can reply by (i) treating Common-sense utopia as a deliberately optimistic governance baseline, or (ii) noting that many fragilities concern value disagreement and deep normative facts not fixed by competence alone.",
+  "title": "Common-sense utopia tacitly assumes the governance capacity it claims to bracket"
+}

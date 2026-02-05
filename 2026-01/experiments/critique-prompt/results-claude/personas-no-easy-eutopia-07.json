@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.45,
+  "correctness": 0.65,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.32,
+  "reasoning": "The critique targets a fairly central methodological pillar: the paper\u2019s move to quantify/compare futures via a VNM-style representation over prospects, and its later moral-uncertainty aggregation. If that framework were illegitimate or excluded many important moral views, the paper\u2019s \u201cmost plausible views are fussy\u201d conclusion would be substantially weakened (though not totally, since the paper also offers non-technical/qualitative fragility arguments). The critique has moderate strength: it\u2019s right that VNM completeness+continuity rules out lexical/prohibition-style deontology and that the paper\u2019s gamble-based cardinalization presupposes compensatory tradeoffs. However, it overreaches by calling this \u201cconsequentialist\u201d: outcome-rankings and even many nonconsequentialist theories can be representable by VNM utilities, and the paper explicitly flags that not all moral views fit (e.g., incompleteness). Claims that they are \u201cnot actually comparing moral theories\u201d and that the conclusion is \u201ccircular\u201d via redefining plausibility are too strong. The critique is clear, focused, and contains little dead weight.",
+  "title": "VNM utility representation smuggles in consequentialist assumptions that exclude deontological views"
+}

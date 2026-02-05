@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.45,
+  "correctness": 0.85,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.35,
+  "reasoning": "The critique targets a fairly central pillar of the essay\u2019s optimism: that partial AM-convergence plus low-friction moral trade can make a mostly-great future plausible, and that this supports shifting attention from mere survival to flourishing failure-modes. If that pillar collapses, a substantial portion of the essay\u2019s positive update and practical emphasis weakens, though the essay has other strands (e.g., arguments against WAM-convergence; threats; blockers; metaethical uncertainty), so it wouldn\u2019t fully collapse. The objection\u2019s strength is moderate: it effectively highlights that the essay relies heavily on illustrative analogies and qualitative claims about \u2018enormous gains from trade\u2019 without specifying a toy model or decision-theoretic assumptions that would let one predict sign/magnitude of post-bargaining value, so it undercuts confidence in the quantified 5\u201310% update and in the robustness of the trade-based optimism. However, it doesn\u2019t directly show that trade is unlikely or net harmful; it\u2019s mainly an underdetermination/robustness critique, and the essay itself partially anticipates uncertainty and failure modes (threats, resource-compatibility limits), which reduces marginal force. Most claims in the critique are plausible and consistent with the essay (lack of formalization, sensitivity to bargaining details), though the \u2018numerology\u2019/\u2018vibe\u2019 framing is somewhat rhetorical/overstated. The critique is clear, focused on one main methodological vulnerability, and contains little dead weight.",
+  "title": "Moral trade argument lacks causal model to generate falsifiable predictions"
+}

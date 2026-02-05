@@ -1,0 +1,10 @@
+{
+  "centrality": 0.55,
+  "strength": 0.25,
+  "correctness": 0.6,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique attacks the paper's assumption that there exists a 'correct moral view' that can rank futures, arguing moral particularism would render such comparisons meaningless. This is moderately central - the paper does rely on being able to discuss 'mostly-great futures' and make value comparisons. However, the paper explicitly acknowledges metaethical uncertainty in section 2.4, discussing both realism and antirealism scenarios, and many of its key arguments (about convergence, trade, blockers) don't strictly require cardinal comparisons - they work with ordinal preferences or simply that different people/views have different goals. The critique's strength is limited because: (1) the paper already hedges significantly on metaethics; (2) many arguments survive even with weaker assumptions about value comparisons; (3) the 5-10% estimates are explicitly presented as rough personal credences under uncertainty, not precise cardinal calculations. The claim that particularism renders these discussions 'meaningless' overstates the case - one can discuss coordination problems, trade, and convergence without assuming a single cosmic ranking. Correctness is moderate - particularism is a real position, but the critique overstates what the paper requires. The paper's framework could largely survive by reframing conclusions in terms of different views' perspectives rather than an objective ranking. Clarity is decent but could better specify what exactly would be 'illicit.'"
+}

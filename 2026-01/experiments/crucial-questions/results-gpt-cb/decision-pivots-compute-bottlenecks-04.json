@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.72,
+  "paper_specificity": 0.85,
+  "tractability": 0.55,
+  "clarity": 0.76,
+  "decision_hook": 0.92,
+  "dead_weight": 0.12,
+  "overall": 0.62,
+  "reasoning": "This targets a central hinge in the paper\u2019s rebuttal to compute-bottleneck arguments: whether progress can come largely from small/cheap experiments plus extrapolation, versus needing scarce near-frontier runs. A solid answer would materially shift beliefs about whether compute constrains an SIE early, and thus shift emphasis between frontier-compute governance vs. preparing for rapid software-only iteration (high cruciality, strong decision hook). It is tightly anchored to a specific exchange and claim in the paper (high paper-specificity). However, it\u2019s only moderately tractable: many key experiments/results are proprietary; defining \u201cmeaningful algorithmic progress,\u201d \u201crequires,\u201d and assigning a \u2018largest-run fraction needed\u2019 is methodologically fraught and likely to yield noisy, contestable estimates. Still, partial progress via curated case studies, open-lab replication, and preregistered scaling-law/extrapolation tests seems feasible in 1\u20135 years. The question is mostly clear but has nontrivial ambiguities about scope (which advances count), counterfactual necessity (\u201crequire\u201d), and the 1% threshold\u2019s arbitrariness.",
+  "title": "Compute scale requirements for discovering major algorithmic improvements"
+}

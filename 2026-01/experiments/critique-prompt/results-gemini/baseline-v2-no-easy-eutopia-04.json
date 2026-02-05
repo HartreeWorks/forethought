@@ -1,0 +1,11 @@
+{
+  "centrality": 0.28,
+  "strength": 0.32,
+  "correctness": 0.7,
+  "clarity": 0.88,
+  "dead_weight": 0.08,
+  "single_issue": 1.0,
+  "overall": 0.18,
+  "reasoning": "The critique targets the essay\u2019s \u201cvalue-as-product-of-factors\u201d/fragility illustration, which is a meaningful support for the \u2018no easy eutopia\u2019 conclusion but not the core of the overall case (which also relies on historical moral catastrophe analogies and an extended argument that many plausible moral views are intrinsically \u2018fussy\u2019). So centrality is moderate-low. It has some bite: strong positive correlations between moral progress dimensions would make the independence-based multiplicative story less pessimistic about how rarely many things go right together. However, it doesn\u2019t show that correlations are strong enough, robust across key dimensions, or net-positive (some could be negative, or dominated by lock-in/power dynamics), and it overstates the paper as \u201ccalculating probability as the product\u201d rather than using independence as a toy model/intuition pump. Thus it only modestly weakens the attacked component. The critique is mostly coherent and plausible in spirit (correlation/\u2018expanding circle\u2019 considerations are real), but partially mischaracterizes how central/committed the authors are to strict independence, lowering correctness somewhat.",
+  "title": "Correlated moral and technological progress undermines the independence assumption"
+}

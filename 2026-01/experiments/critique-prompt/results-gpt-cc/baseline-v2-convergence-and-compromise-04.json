@@ -1,0 +1,11 @@
+{
+  "centrality": 0.28,
+  "strength": 0.55,
+  "correctness": 0.82,
+  "clarity": 0.91,
+  "dead_weight": 0.08,
+  "single_issue": 0.9,
+  "overall": 0.24,
+  "reasoning": "The critique targets a specific step in \u00a72.4.1: from moral realism to the claim that correct morality is likely \u2018alien/distant\u2019 and hence demotivating/avoided. That step supports (but is not necessary for) the essay\u2019s broader skepticism about WAM-convergence and its pivot to partial convergence + trade, so centrality is moderate-low. Substantively, the critique plausibly weakens the author\u2019s inference: realism alone doesn\u2019t entail large distance from human motives (there are realist views on which moral facts track human flourishing), and the \u2018people will avoid learning/believing\u2019 move is indeed psychologically speculative and selection-of-decisionmakers could matter. However, it doesn\u2019t fully refute the author\u2019s probabilistic \u2018likely alien\u2019 claim, since realism is compatible with both close and distant moral truths and the author could still argue distance is probable given evolutionary debunking-style considerations. Most claims in the critique are accurate and clearly stated, with little fluff.",
+  "title": "Moral realism does not entail alienation from human motivational structures"
+}

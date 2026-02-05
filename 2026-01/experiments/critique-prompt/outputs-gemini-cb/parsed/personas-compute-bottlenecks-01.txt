@@ -1,0 +1,4 @@
+[The Cognitive Scientist]
+**Target claim:** The assertion that in the limit, cognitive labor can fully substitute for compute (e.g., "use AGIs to do the math for NNs in their heads") and thus $\rho$ approaches 0.
+**Failure mode:** This fundamentally misunderstands the epistemological nature of deep learning. Neural networks are not analytical puzzles solvable by higher IQ; they are high-dimensional, non-convex optimization problems that are irreducibly empirical. The "computation" *is* the insight; you cannot derive the weights of GPT-5 through pure reasoning any more than you can derive the weather next year by "thinking harder" without running the simulation.
+**Consequence:** The substitutability parameter $\rho$ is likely highly negative because "cognitive labor" without execution time is hallucination. The SIE halts immediately because AIs cannot verify their own architectural improvements without running the very experiments the author claims they can bypass.

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.2,
+  "correctness": 0.45,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.12,
+  "reasoning": "The critique targets an alleged tension between (i) the essay\u2019s \u201cnarrow target/no easy eutopia\u201d framing and (ii) an illustrative trade example involving \u201ccommon-sense utopia.\u201d This is somewhat central insofar as the essay uses that example to motivate moral trade optimism, but it\u2019s not a linchpin of the main argument (which is about convergence vs partial convergence+trade under uncertainty). The critique is weak because it largely relies on a misread: the essay does not assume common-sense morality is correct; it says common-sense utopia achieves most value *by common-sense lights*, which can be true even if common-sense is far from the \u201ccorrect\u201d view. Trade scenarios can be valuable (to common-sense agents) without implying the target is wide or that convergence is likely. Still, the conditional point (\u201cif common-sense morality were correct, the target would be less narrow for many\u201d) is coherent, giving it moderate correctness. It\u2019s clearly stated, focused on one issue, and contains little fluff.",
+  "title": "Common-sense morality cannot be both reliable enough for trade and unreliable enough for non-convergence"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.25,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.18,
+  "reasoning": "The critique targets a real load-bearing piece of one strand of the essay: the claim that (on linear-in-resources views) achieving a mostly-great future requires capturing essentially all accessible cosmic resources, motivating \u201cscale-based\u201d fussiness. However, the essay\u2019s overall \u201cno easy eutopia\u201d conclusion is also supported by several largely independent arguments (fragility/multiplicative factors; moral-catastrophe-by-default considerations; and bounded-view fussiness via sensitivity to bads and aggregation), so even a strong hit to the scale/cosmic-expansion premise would only partially weaken the position (moderate centrality). The argument\u2019s refutation force is limited: even if competition or strategic choice reduces what\u2019s practically reachable, the essay\u2019s notion of \u2018best feasible future\u2019 is percentile-based relative to a feasibility/likelihood distribution, so the target can shrink with the resource set rather than making fussiness \u201cmoot.\u201d Also, \u2018linear views become similar to bounded views in practice\u2019 is not generally true: linear vs bounded is primarily about how value scales, not the absolute size of the resource endowment. Still, the point that the paper treats \u2018affectable universe\u2019 as exogenous and single-agent, and that multi-agent equilibrium/competition could change the relevant feasible scale, is plausible and relevant (decent correctness). The critique is clear, focused, and contains little fluff.",
+  "title": "Competitive dynamics between civilizations may drastically shrink accessible resources"
+}

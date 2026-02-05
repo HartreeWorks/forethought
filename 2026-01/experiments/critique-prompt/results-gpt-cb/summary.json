@@ -1,0 +1,60 @@
+{
+  "conversational": {
+    "centrality": {
+      "mean": 0.478,
+      "std": 0.18784154078489784,
+      "min": 0.18,
+      "max": 0.8,
+      "count": 10
+    },
+    "strength": {
+      "mean": 0.45,
+      "std": 0.1178511301977579,
+      "min": 0.35,
+      "max": 0.7,
+      "count": 10
+    },
+    "correctness": {
+      "mean": 0.8,
+      "std": 0.074535599249993,
+      "min": 0.7,
+      "max": 0.9,
+      "count": 10
+    },
+    "clarity": {
+      "mean": 0.895,
+      "std": 0.028382310609877337,
+      "min": 0.85,
+      "max": 0.95,
+      "count": 10
+    },
+    "dead_weight": {
+      "mean": 0.065,
+      "std": 0.024152294576982397,
+      "min": 0.05,
+      "max": 0.1,
+      "count": 10
+    },
+    "single_issue": {
+      "mean": 0.95,
+      "std": 0.04082482904638629,
+      "min": 0.9,
+      "max": 1.0,
+      "count": 10
+    },
+    "overall": {
+      "mean": 0.294,
+      "std": 0.06995236474439827,
+      "min": 0.22,
+      "max": 0.45,
+      "count": 10
+    },
+    "strength_x_centrality": {
+      "mean": 0.2056,
+      "std": 0.0826471079012717,
+      "min": 0.126,
+      "max": 0.4,
+      "count": 10
+    }
+  }
+}

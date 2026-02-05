@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.65,
+  "paper_specificity": 0.65,
+  "tractability": 0.7,
+  "clarity": 0.78,
+  "decision_hook": 0.86,
+  "dead_weight": 0.18,
+  "overall": 0.72,
+  "reasoning": "This targets a real strategic fork: if early space-resource governance will be enforceably coordinated, effort should shift toward treaty/registry/enforcement design and coalition-building; if a grab-race is the default, priorities shift toward countervailing institutions, norms, and deterrence/contestability strategies. It is tied to the paper\u2019s specific claim in \u00a72.3.4 about early settlement capturing most accessible resources and causing long-run lock-in, though the question also resembles broader space-governance debates (so not maximally paper-specific). It is reasonably tractable: near-term evidence can be gathered from legal developments (Artemis Accords practice, national space resource laws, ITU/UN COPUOS activity), announced enforcement mechanisms, dispute-resolution provisions, and investment/mission behavior indicative of speed-to-claim vs compliance. Clarity is good but not perfect because \u2018first consequential wave\u2019, \u2018enforceable\u2019, and the exact scope of \u2018resources/claims\u2019 could be operationalized in multiple ways. The decision hook and indicators are explicit and strong. There is some extra framing, but most text supports operationalization, so dead weight is low.",
+  "title": "Coordinated space governance vs de facto first-mover resource capture"
+}

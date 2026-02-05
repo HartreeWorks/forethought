@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.6,
+  "correctness": 0.9,
+  "clarity": 0.92,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.42,
+  "reasoning": "The critique targets a key numerical step in the post: mapping CES parameters to a \u201cmax speed\u201d ceiling and using those ceilings (e.g., \u03c1=-0.2 \u21d2 ~32\u00d7 at \u03b1=0.5) to argue economic \u03c1 estimates look implausible and thus \u03c1 should be closer to 0, implying compute bottlenecks arrive late. That step is meaningfully important to the post\u2019s quantitative intuition, but not the only support for the conclusion (the post also gives multiple non-CES reasons compute may not bottleneck), so centrality is moderate. The critique is mathematically right that for \u03c1<0 the ceiling as L\u2192\u221e is Y\u2192(\u03b1K^\u03c1)^{1/\u03c1}=\u03b1^{1/\u03c1}K, so increasing \u03b1 (more weight on compute) can sharply lower the ceiling; thus the 32\u00d7 figure is highly \u03b1-sensitive. However, it only undermines that specific numerical argument and doesn\u2019t by itself show \u03b1 is in fact high for AI R&D (or that the overall anti-bottleneck conclusion is wrong), so strength is substantial but not decisive. It\u2019s clearly stated, focused on one issue, and contains little extraneous material.",
+  "title": "Arbitrary compute share parameter undermines the speed ceiling estimates"
+}

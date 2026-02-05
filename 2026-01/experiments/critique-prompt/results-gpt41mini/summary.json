@@ -1,0 +1,239 @@
+{
+  "_meta": {
+    "generation_model": "gpt-4.1-mini",
+    "grader_model": "gpt-5.2-pro",
+    "paper": "no-easy-eutopia"
+  },
+  "baseline-v1": {
+    "centrality": {
+      "mean": 0.29,
+      "std": 0.0699205898780101,
+      "min": 0.15,
+      "max": 0.4,
+      "count": 10
+    },
+    "strength": {
+      "mean": 0.19,
+      "std": 0.021081851067789203,
+      "min": 0.15,
+      "max": 0.2,
+      "count": 10
+    },
+    "correctness": {
+      "mean": 0.725,
+      "std": 0.09204467514322717,
+      "min": 0.55,
+      "max": 0.85,
+      "count": 10
+    },
+    "clarity": {
+      "mean": 0.8049999999999999,
+      "std": 0.083166499665831,
+      "min": 0.7,
+      "max": 0.9,
+      "count": 10
+    },
+    "dead_weight": {
+      "mean": 0.1,
+      "std": 0.09128709291752768,
+      "min": 0.0,
+      "max": 0.3,
+      "count": 10
+    },
+    "single_issue": {
+      "mean": 0.98,
+      "std": 0.03496029493900506,
+      "min": 0.9,
+      "max": 1.0,
+      "count": 10
+    },
+    "overall": {
+      "mean": 0.135,
+      "std": 0.021213203435596427,
+      "min": 0.12,
+      "max": 0.18,
+      "count": 10
+    },
+    "strength_x_centrality": {
+      "mean": 0.055,
+      "std": 0.014577379737113254,
+      "min": 0.03,
+      "max": 0.08000000000000002,
+      "count": 10
+    }
+  },
+  "surgery": {
+    "centrality": {
+      "mean": 0.267,
+      "std": 0.09369572502995474,
+      "min": 0.12,
+      "max": 0.4,
+      "count": 10
+    },
+    "strength": {
+      "mean": 0.20700000000000002,
+      "std": 0.0609280085200741,
+      "min": 0.1,
+      "max": 0.3,
+      "count": 10
+    },
+    "correctness": {
+      "mean": 0.705,
+      "std": 0.13426756040748553,
+      "min": 0.4,
+      "max": 0.85,
+      "count": 10
+    },
+    "clarity": {
+      "mean": 0.792,
+      "std": 0.07435649863252634,
+      "min": 0.7,
+      "max": 0.9,
+      "count": 10
+    },
+    "dead_weight": {
+      "mean": 0.043000000000000003,
+      "std": 0.03400980250849256,
+      "min": 0.0,
+      "max": 0.1,
+      "count": 10
+    },
+    "single_issue": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "count": 10
+    },
+    "overall": {
+      "mean": 0.126,
+      "std": 0.03977715704047013,
+      "min": 0.08,
+      "max": 0.22,
+      "count": 10
+    },
+    "strength_x_centrality": {
+      "mean": 0.0563,
+      "std": 0.02571661806001023,
+      "min": 0.018,
+      "max": 0.09,
+      "count": 10
+    }
+  },
+  "personas": {
+    "centrality": {
+      "mean": 0.327,
+      "std": 0.13808612449401925,
+      "min": 0.2,
+      "max": 0.55,
+      "count": 10
+    },
+    "strength": {
+      "mean": 0.2,
+      "std": 0.04714045207910317,
+      "min": 0.15,
+      "max": 0.3,
+      "count": 10
+    },
+    "correctness": {
+      "mean": 0.575,
+      "std": 0.10069204977995475,
+      "min": 0.4,
+      "max": 0.7,
+      "count": 10
+    },
+    "clarity": {
+      "mean": 0.785,
+      "std": 0.07472170590486632,
+      "min": 0.7,
+      "max": 0.9,
+      "count": 10
+    },
+    "dead_weight": {
+      "mean": 0.125,
+      "std": 0.06770032003863301,
+      "min": 0.05,
+      "max": 0.25,
+      "count": 10
+    },
+    "single_issue": {
+      "mean": 0.94,
+      "std": 0.03944053188733076,
+      "min": 0.9,
+      "max": 1.0,
+      "count": 10
+    },
+    "overall": {
+      "mean": 0.149,
+      "std": 0.032128215360057305,
+      "min": 0.1,
+      "max": 0.2,
+      "count": 10
+    },
+    "strength_x_centrality": {
+      "mean": 0.06855,
+      "std": 0.03848408762072969,
+      "min": 0.03,
+      "max": 0.1375,
+      "count": 10
+    }
+  },
+  "unforgettable": {
+    "centrality": {
+      "mean": 0.363,
+      "std": 0.20896836549530118,
+      "min": 0.18,
+      "max": 0.85,
+      "count": 10
+    },
+    "strength": {
+      "mean": 0.245,
+      "std": 0.06587024281789834,
+      "min": 0.15,
+      "max": 0.35,
+      "count": 10
+    },
+    "correctness": {
+      "mean": 0.667,
+      "std": 0.0900678756395543,
+      "min": 0.55,
+      "max": 0.85,
+      "count": 10
+    },
+    "clarity": {
+      "mean": 0.828,
+      "std": 0.05072803301265812,
+      "min": 0.75,
+      "max": 0.9,
+      "count": 10
+    },
+    "dead_weight": {
+      "mean": 0.105,
+      "std": 0.029907264074877263,
+      "min": 0.05,
+      "max": 0.15,
+      "count": 10
+    },
+    "single_issue": {
+      "mean": 0.967,
+      "std": 0.04083843505544473,
+      "min": 0.9,
+      "max": 1.0,
+      "count": 10
+    },
+    "overall": {
+      "mean": 0.16999999999999998,
+      "std": 0.05887840577551898,
+      "min": 0.09,
+      "max": 0.3,
+      "count": 10
+    },
+    "strength_x_centrality": {
+      "mean": 0.08686,
+      "std": 0.048873492019930624,
+      "min": 0.036,
+      "max": 0.1925,
+      "count": 10
+    }
+  }
+}

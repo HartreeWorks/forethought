@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.65,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.35,
+  "reasoning": "The critique targets the paper\u2019s translation from CES parameters to concrete \u201cmax speed\u201d ceilings (e.g., \u03c1=-0.2 \u21d2 ~30\u00d7), highlighting that these numerical ceilings depend strongly on the fixed \u03b1=0.5 assumption. This matters because the post uses these ceilings to argue that economy-based \u03c1 estimates have implausible implications and thus shouldn\u2019t strongly constrain SIE predictions. However, it\u2019s not fully central to the post\u2019s broader conclusion (many other counterarguments are offered; and one could redo the calculation with alternative \u03b1 values), so centrality is moderate. The critique is substantively strong on the math: for \u03c1<0, the asymptotic ceiling as L\u2192\u221e is Y\u2192(\u03b1K^\u03c1)^{1/\u03c1}=\u03b1^{1/\u03c1}K, so small \u03b1 shifts can change the ceiling by large factors (especially when 1/\u03c1 is large in magnitude). Some rhetoric (\u201cmostly an artifact of \u03b1\u201d) overreaches a bit\u2014\u03c1 still matters and \u03b1 might be bounded by how \u201ccompute-intensive\u201d R&D inherently is\u2014but overall it correctly identifies a serious sensitivity/underspecification in the paper\u2019s quantitative examples. It\u2019s clear, focused, and contains little to no dead weight.",
+  "title": "Fixed labor share parameter drives speed ceiling estimates more than substitutability"
+}

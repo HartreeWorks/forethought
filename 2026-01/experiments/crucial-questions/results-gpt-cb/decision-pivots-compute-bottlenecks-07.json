@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.9,
+  "tractability": 0.6,
+  "clarity": 0.75,
+  "decision_hook": 0.95,
+  "dead_weight": 0.15,
+  "overall": 0.78,
+  "reasoning": "Crucial because it targets the main strategic crux of the paper (whether compute bottlenecks actually cap an SIE) and explicitly maps answers to different governance/alignment emphases. Highly paper-specific: it directly engages the paper\u2019s CES/\u03c1 framing and its \u201cstrongest-link\u201d rebuttal to the compute-bottleneck objection. Moderately tractable: you can do route-by-route constrained-compute evaluations and estimate marginal gains, but pinning down an \u2018effective \u03c1\u2019, demonstrating robustness, and especially establishing \u2018sufficient to reach superintelligence without near-frontier scaling\u2019 is hard and may require long horizons and contested capability metrics. Clarity is decent but has notable ambiguities in definitions (what counts as a distinct route, how to operationalize effective \u03c1 in R&D, what benchmarks constitute \u2018major capability gains\u2019/\u2018superintelligence\u2019, and what \u2018without near-frontier scaling\u2019 precisely means). Decision hook is excellent and explicit. Low dead weight: most of the text supports the question and its action-relevance, with only minor extra framing.",
+  "title": "Existence of compute-light pathways to superintelligence"
+}

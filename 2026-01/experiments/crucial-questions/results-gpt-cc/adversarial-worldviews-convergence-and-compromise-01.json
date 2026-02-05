@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.82,
+  "paper_specificity": 0.86,
+  "tractability": 0.46,
+  "clarity": 0.74,
+  "decision_hook": 0.93,
+  "dead_weight": 0.12,
+  "overall": 0.62,
+  "reasoning": "Crucial because the paper\u2019s optimism about reaching mostly-great futures via partial AM-convergence + moral trade depends heavily on whether high-trust, low-transaction-cost bargaining is feasible; a definitive \u201cno\u201d would shift emphasis toward coercion-resistant governance, power-distribution, and conflict-limitation rather than institution-building for trade. Highly paper-specific: it directly targets the \u00a73.1 \u2018superintelligence could enable iron-clad contracts\u2019 premise rather than generic AI governance. Moderately tractable: parts can be operationalised via research on verifiable commitment, mechanism design, auditing/verification tech, cryptographic/fault-tolerant enforcement, and historical analogues of contract enforceability under extreme capability, but the \u2018post-AGI\u2019 setting makes direct empirical resolution hard and pushes this toward scenario analysis. Clarity is decent but key terms (\u2018iron-clad\u2019, \u2018post-AGI societies\u2019, \u2018large-scale\u2019, \u2018power-holders\u2019, and what counts as \u2018enable moral trade\u2019) leave nontrivial ambiguity about success criteria and threat models. Decision hook is explicit with a clear strategy flip. Low dead weight: the added context is mostly functional (worldview, anchor, implications) rather than fluff.",
+  "title": "Feasibility of binding contracts for moral trade among AGI-era powers"
+}

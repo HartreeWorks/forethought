@@ -1,0 +1,11 @@
+{
+  "centrality": 0.75,
+  "strength": 0.55,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.42,
+  "reasoning": "The critique targets a fairly central modeling move in the post: analyzing large increases in AI \u201ccognitive labour\u201d while holding \u201ccompute\u201d fixed (and drawing conclusions about when compute bottlenecks bite). If AI-research-labor is itself largely constituted by inference compute, then L and K are not independent inputs and the CES-style thought experiment (letting L\u2192\u221e with fixed K) becomes questionable, undermining the argument that bottlenecks are late. However, the objection is only moderately strong because the position can be patched by (a) defining K as total compute budget including inference, (b) treating L as already net of its compute cost, or (c) arguing inference costs are small compared to experimental/training compute\u2014none of which the critique engages. The core point (scaling AI researchers consumes compute) is mostly correct and clearly stated, with little extraneous material, and it focuses on a single issue.",
+  "title": "Scaling AI researchers consumes the compute assumed to be fixed"
+}

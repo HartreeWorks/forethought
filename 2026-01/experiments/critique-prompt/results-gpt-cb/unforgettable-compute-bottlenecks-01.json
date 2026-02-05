@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.6,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.5,
+  "reasoning": "The critique targets a fairly central move in the post: reasoning about a \u201cmax speed\u201d of software progress by letting cognitive labor L grow without bound while holding compute K fixed, and using this to argue that very negative \u03c1 values have implausible implications. If L in AI R&D must itself be instantiated on compute, then the L\u2192\u221e at fixed K limit is not a coherent counterfactual, and the max-speed-based rejection of low \u03c1 is substantially weakened. However, the post has other independent counterarguments (e.g., algorithmic efficiency increasing effective experiment count, extrapolation concerns, alternative routes less bottlenecked by frontier-scale experiments), so even a successful version of this objection wouldn\u2019t fully collapse the overall thesis. The point is mostly correct\u2014large increases in \u2018research labor\u2019 generally require inference/coordination compute and compete with experimental compute\u2014but it somewhat overstates by implying the whole analysis needs to be rebuilt: the original argument can be partially salvaged if researcher inference is small relative to training/experiments at relevant scales, or if K is interpreted as training compute only. The critique is clear, focused on one issue, and contains little extraneous material.",
+  "title": "AI labor cannot be varied independently of compute in the target domain"
+}

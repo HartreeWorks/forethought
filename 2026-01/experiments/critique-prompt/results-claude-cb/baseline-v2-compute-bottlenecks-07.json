@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.3,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.18,
+  "reasoning": "The critique targets the post\u2019s headline-style takeaway (\u201ccompute bottlenecks unlikely to block an SIE in its early stages\u201d), so it\u2019s moderately central: if \u201cearly\u201d were misleadingly short or pre-superintelligence, the practical upshot changes. However, it doesn\u2019t really attack the core object-level case about substitutability/\u03c1 or whether compute bottlenecks actually bind; it mainly challenges interpretability/falsifiability. Strength is limited because the post does provide partial operationalization (early\u22481\u20133 OOM labor increase; later\u2248\u22655 OOM) and even gives a tentative SIE definition tied to <1 year and \u22655 OOM effective training compute\u2014so \u201cnever precisely defined\u201d is overstated. Still, it\u2019s correct that the mapping from these OOM markers to capability milestones (e.g., \u2018superintelligence\u2019) and real-world timelines is not clearly specified, which weakens action-guiding implications. The critique is clear, focused on a single point, and has little dead weight.",
+  "title": "Undefined \"early stages\" makes the central conclusion unfalsifiable"
+}

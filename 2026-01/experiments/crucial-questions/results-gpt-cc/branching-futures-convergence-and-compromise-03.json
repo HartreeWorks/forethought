@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.7,
+  "paper_specificity": 0.78,
+  "tractability": 0.58,
+  "clarity": 0.74,
+  "decision_hook": 0.92,
+  "dead_weight": 0.12,
+  "overall": 0.66,
+  "reasoning": "This targets a real fork in the paper\u2019s argument: whether partial AM-convergence can translate into mostly-great outcomes via low-friction moral trade depends heavily on enforceable commitment/verification (Section 3.1\u20133.2). A definitive answer would substantially shift priorities between building trade/contracting infrastructure vs alternative governance/constraint paths (high cruciality, very strong decision hook). It is fairly paper-specific (it\u2019s not just \u2018AI governance\u2019\u2014it\u2019s about the paper\u2019s proposed mechanism for compromise/trade under value pluralism), though contracting robustness is also a broader issue in adjacent literatures. Tractability is moderate: you can gather evidence from formal verification progress, autonomous agent security under distribution shift, dispute/renegotiation rates in deployed high-stakes smart-contract-like systems, and protocol audits\u2014but extrapolating to \u201ccosmic-scale bargaining\u201d remains speculative and the 18\u201324 month horizon is aggressive. Clarity is good but not perfect because \u201ciron-clad,\u201d \u201cpractically deployable,\u201d and \u201cthe margin where cosmic-scale bargaining would matter\u201d require operational thresholds.",
+  "title": "Feasibility of verifiable AI-to-AI contracting at scale"
+}

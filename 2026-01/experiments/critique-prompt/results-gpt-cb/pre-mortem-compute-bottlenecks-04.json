@@ -1,0 +1,11 @@
+{
+  "centrality": 0.2,
+  "strength": 0.3,
+  "correctness": 0.55,
+  "clarity": 0.85,
+  "dead_weight": 0.45,
+  "single_issue": 0.8,
+  "overall": 0.15,
+  "reasoning": "The critique targets a specific supporting move in the post (the toy \u2018AGIs do NN math in their heads\u2019 example used to suggest compute\u2013cognitive-labor complementarity can\u2019t be absolute). That move is not central to the overall case (which rests on multiple other considerations like long-run reconfiguration, extrapolation limits, smarter/faster labor, algorithmic efficiency increasing experiment throughput, etc.), so centrality is low. It does somewhat weaken that sub-argument by correctly noting that \u201cthinking\u201d is still physical computation with memory/latency/energy constraints, so the toy example shouldn\u2019t carry much weight; however it doesn\u2019t substantially undermine the broader claim that effective substitutability in AI R&D could be much higher than manufacturing estimates. Correctness is mixed: the physical-constraint point is broadly right, but the 2027\u20132031 policy-cascade narrative and causal attribution to the paper are speculative/unfounded relative to the provided text. Clarity is good. A sizable fraction is dead weight because the geopolitical/policy storyline is largely orthogonal to evaluating whether \u03c1 is near 0 in AI R&D. The critique is mostly focused on one issue.",
+  "title": "Treating cognitive labor as compute-substitutable misled policy and ignored physical constraints"
+}

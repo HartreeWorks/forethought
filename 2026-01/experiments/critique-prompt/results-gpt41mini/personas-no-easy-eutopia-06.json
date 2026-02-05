@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.15,
+  "reasoning": "The critique targets an implied upshot (that successfully \u2018narrowing aim\u2019 to hit eutopia could be counterproductive by reducing diversity and creating brittleness), rather than the essay\u2019s main thesis that eutopia is a narrow target absent deliberate optimization. That makes it only moderately central: even if true, it wouldn\u2019t directly rebut the argument that mostly-great futures are rare by default, though it could weaken the broader optimism that deliberate aiming is unalloyedly good. Strength is low because (i) the essay explicitly flags similar meta-level failure modes (overbearing hyper-vigilance, stifling openness/freedom, value lock-in risks), so much of this is already accommodated, and (ii) the critique offers no concrete mechanism, evidence, or argument that diversity-loss is a likely consequence of eutopia-aiming rather than a contingent risk. Correctness is moderate: the general claim that loss of genetic/cultural/epistemic diversity can increase systemic fragility is plausible but speculative here and overgeneralized. Clarity is decent but leaves ambiguities (what exactly counts as \u2018narrow aim,\u2019 how it causally forces homogeneity, and why this would dominate benefits). Dead weight is low. It\u2019s essentially a single-issue critique. Overall, it poses only a small problem for the position as written.",
+  "title": "Narrowing moral aims may create brittle homogeneity and second-order catastrophes"
+}

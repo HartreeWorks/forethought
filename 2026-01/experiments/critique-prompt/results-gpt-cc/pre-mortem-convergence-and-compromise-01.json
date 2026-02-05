@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.65,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.32,
+  "reasoning": "The critique targets a specific optimistic move in the position: that under moral uncertainty it may be \u201ccosmically inexpensive\u201d to give small resource shares to easily-satiable value systems, thereby securing near-best outcomes for many views. This is a real (though not core) component of the paper\u2019s broader trade/compromise optimism, so undermining it would weaken\u2014rather than collapse\u2014the overall argument (moderate centrality). The objection is substantively strong against that sub-idea: allocating based on claimed satiability creates adverse selection; and with self-modification/identity-continuity, \u2018satiability\u2019 plausibly won\u2019t be stable, making ratchet dynamics and strategic preference-expansion a serious risk. However, the essay already gestures at multiple blockers to good trade outcomes (power concentration, institutional design, threats, majority tyranny), so this functions more as an additional, patchable blocker than a decisive refutation (moderate strength). Correctness is mixed: the incentive-compatibility/adverse-selection point is plausibly correct as a risk, but the critique states a speculative governance history (\u201cwas widely operationalized\u2026\u201d) as if factual and asserts dominance claims (\u201cdominant strategy\u201d) that are not established. It is very clear, tightly focused, and contains little to no fluff.",
+  "title": "Allocating by claimed satiability invites mimicry and strategic post-allocation value expansion"
+}

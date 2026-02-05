@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.12,
+  "reasoning": "The critique targets one sub-argument in the essay: that (difference-making) bounded views which aggregate goods and bads separately become extremely \u201cfussy\u201d because even a tiny fraction of \u201cbads\u201d can prevent a mostly-great future. This is relevant but not central to the overall \u201cno easy eutopia\u201d conclusion, which is also supported by independent arguments (historical moral catastrophes, multiplicative fragility, unbounded/linear views, fat-tailed value-efficiency, etc.). The critique has limited strength because it largely reads the paper\u2019s separate-aggregation asymmetry example as relying on an extreme, near-lexical priority for avoiding bads; but the paper also argues fussiness even for symmetric separate-aggregation, and the \u2018one star of bad\u2019 claim is conditional on specific normalization/bounding assumptions rather than straightforward negative utilitarian dominance. Still, it is partly correct that the paper\u2019s strongest-sounding illustration depends on contestable modeling choices (separate aggregation + strong asymmetry + the particular scaling). The critique is clear, focused on a single issue, and contains little dead weight, but it overstates how much the paper\u2019s conclusion depends on the extreme asymmetric case.",
+  "title": "Extreme negative-dominance assumptions make bounded views seem implausibly fussy"
+}

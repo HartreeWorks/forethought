@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.27,
+  "reasoning": "The critique targets a fairly central plank of the essay\u2019s optimism: that partial AM-convergence plus bargaining/trade can still yield mostly-great futures. Undercutting the feasibility of compromise would significantly weaken that pathway (though it wouldn\u2019t fully collapse the overall position, which is explicitly uncertain and also discusses other mechanisms and blockers). The argument has some force: many plausible value systems (e.g., strongly negative-leaning or perfectionist/absolutist ideologies) can be non-satisficing and non-tolerant, making territorial splits or Pareto-style moral trade much less effective. However, the essay already anticipates much of this via (i) discussion of linear/non-discounting views, low resource-compatibility, and \u2018narcissism\u2019 effects, and (ii) a substantial section on threats/extortion and on views where bads dominate\u2014precisely cases where trade fails or becomes value-destroying. So the critique is only a partial, not decisive, refutation and somewhat overstates that the paper assumes liberal pluralism. It is clear, focused, and contains little dead weight.",
+  "title": "Totalizing moral views may reject territorial compromise as valueless"
+}

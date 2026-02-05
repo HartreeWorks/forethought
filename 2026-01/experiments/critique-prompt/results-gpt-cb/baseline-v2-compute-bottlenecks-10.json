@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.5,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.32,
+  "reasoning": "The critique targets a real tension in the post: the operationalized \u201cSIE\u201d definition (5 OOM effective training compute in <1 year) is not obviously the same object as earlier talk of accelerating \u201cpace of AI software progress,\u201d and \u201ceffective compute\u201d can bundle many factors in a way that may sidestep the physical-throughput/empirical-validation intuition behind compute bottlenecks. That matters to the extent the post\u2019s bottom-line probability and \u2018compute bottlenecks won\u2019t bite until late\u2019 depend on what is being measured, so centrality is moderate rather than high (the bulk of the post\u2019s argument is about substitutability/\u03c1 and experiment efficiency, which could stand even with a different SIE definition). The critique substantially weakens the precision/interpretability of the conclusion but doesn\u2019t directly show the substantive compute-bottleneck rebuttals fail, so strength is moderate. Most claims are plausible and internally consistent; a few are speculative (e.g., how arbitrary the 5-OOM threshold is), but not clearly false. It is clearly written, focused on a single issue, and contains little fluff.",
+  "title": "The definition of 'effective training compute' conflates distinct metrics and obscures real bottlenecks"
+}

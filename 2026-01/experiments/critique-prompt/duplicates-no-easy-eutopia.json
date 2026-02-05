@@ -1,0 +1,164 @@
+{
+  "paper": "no-easy-eutopia",
+  "total_critiques": 70,
+  "clusters": [
+    {
+      "description": "Baseline/reference distribution is underspecified or incoherent: the paper\u2019s key probability claims depend on an unclear \u2018no serious de dicto optimization\u2019 baseline and an unspecified generative model of future social dynamics, so the conclusion may be an artifact of a pessimistic/ill-defined reference class.",
+      "critiques": [
+        "baseline-v2-no-easy-eutopia-01",
+        "unforgettable-no-easy-eutopia-05",
+        "personas-no-easy-eutopia-04",
+        "surgery-no-easy-eutopia-10",
+        "authors-tribunal-no-easy-eutopia-01"
+      ]
+    },
+    {
+      "description": "Percentile/normalization anchor problem: defining \u2018best feasible\u2019 via a very high percentile (and then using ratios like 0.5/0.9) makes \u2018mostly-great is rare\u2019 highly sensitive to tail structure and to the chosen epistemic stance, potentially making the result tautological or scale-artifactual.",
+      "critiques": [
+        "baseline-v2-no-easy-eutopia-02",
+        "unforgettable-no-easy-eutopia-02",
+        "unforgettable-no-easy-eutopia-10"
+      ]
+    },
+    {
+      "description": "Multiplicative product-of-(independent)-factors model is unjustified: independence/near-zero assumptions, multiplicative aggregation, and factorization into many dimensions are doing the work; with correlations, latent variables, substitutability, thresholds, or different aggregators, the \u2018needle-threading\u2019 rarity claim can collapse.",
+      "critiques": [
+        "baseline-v2-no-easy-eutopia-03",
+        "unforgettable-no-easy-eutopia-01",
+        "personas-no-easy-eutopia-01",
+        "surgery-no-easy-eutopia-01",
+        "surgery-no-easy-eutopia-02",
+        "pivot-attack-no-easy-eutopia-01",
+        "pivot-attack-no-easy-eutopia-02",
+        "pre-mortem-no-easy-eutopia-01",
+        "authors-tribunal-no-easy-eutopia-02"
+      ]
+    },
+    {
+      "description": "Moral disagreement/pluralism doesn\u2019t imply large value loss: the paper slides from \u2018many views condemn something\u2019 to \u2018most value is lost / mostly-great is unlikely\u2019 without a defended aggregation over moral views or a justified mapping from disagreement to big expected disvalue.",
+      "critiques": [
+        "baseline-v2-no-easy-eutopia-04",
+        "personas-no-easy-eutopia-08",
+        "authors-tribunal-no-easy-eutopia-07"
+      ]
+    },
+    {
+      "description": "Institutional coupling / second-order governance makes many first-order hazards non-independent and less likely: the same high-quality institutions that yield \u2018common-sense utopia\u2019 (deliberation, rights, error-correction, corrigibility) would also prevent/correct many listed catastrophes, widening the target.",
+      "critiques": [
+        "baseline-v2-no-easy-eutopia-05",
+        "unforgettable-no-easy-eutopia-07",
+        "surgery-no-easy-eutopia-05",
+        "surgery-no-easy-eutopia-10"
+      ]
+    },
+    {
+      "description": "Single-flaw magnitude/fragility is overstated because errors may be moderate or correctable: the argument relies on flaws wiping out \u2018most\u2019 value and/or being irreversible lock-ins; but many mistakes could be revisable, compensable, or only partially value-reducing.",
+      "critiques": [
+        "pivot-attack-no-easy-eutopia-03",
+        "pivot-attack-no-easy-eutopia-04",
+        "surgery-no-easy-eutopia-01"
+      ]
+    },
+    {
+      "description": "Population ethics/scale assumptions are doing heavy work: treating non-expansion or \u2018wrong population size\u2019 as a huge moral catastrophe presupposes contested totalist/scale-sensitive views; if many plausible views are person-affecting/average/thresholded, the \u2018miss almost all value\u2019 channel weakens.",
+      "critiques": [
+        "baseline-v2-no-easy-eutopia-06",
+        "unforgettable-no-easy-eutopia-06",
+        "authors-tribunal-no-easy-eutopia-08"
+      ]
+    },
+    {
+      "description": "Fat-tail/value-efficiency argument doesn\u2019t establish a needle target: evidence for fat tails is weak or from the wrong reference class, and even if fat-tailed, there may be broad near-optimal plateaus or optimization makes high-value regions easy to find/replicate\u2014so linear views needn\u2019t be \u2018fussy\u2019.",
+      "critiques": [
+        "baseline-v2-no-easy-eutopia-08",
+        "unforgettable-no-easy-eutopia-03",
+        "surgery-no-easy-eutopia-04",
+        "pivot-attack-no-easy-eutopia-05",
+        "authors-tribunal-no-easy-eutopia-03"
+      ]
+    },
+    {
+      "description": "Linearity/separability doesn\u2019t imply a single blueprint or extreme specificity: even if value is separable/additive in resources, there can be many diverse parcel-level optima/near-optima; the paper\u2019s move from separability to \u2018must recreate one best arrangement\u2019 is not shown.",
+      "critiques": [
+        "personas-no-easy-eutopia-03",
+        "pivot-attack-no-easy-eutopia-06"
+      ]
+    },
+    {
+      "description": "\u2018Linear \u21d2 must use (almost) all cosmic resources\u2019 overstates scale necessity and ignores feasibility/risk/coordination constraints: expansion may be costly/risky or not part of the feasible optimum; benchmarking against \u2018accessible universe\u2019 can create a misleading cliff.",
+      "critiques": [
+        "surgery-no-easy-eutopia-03",
+        "authors-tribunal-no-easy-eutopia-04",
+        "pre-mortem-no-easy-eutopia-04"
+      ]
+    },
+    {
+      "description": "Taxonomy/framework mis-specification: the paper\u2019s bounded/unbounded and linear/sublinear taxonomy (and related formal assumptions) misclassifies or undercounts major moral theories, potentially generating \u2018fussiness\u2019 as a modeling artifact.",
+      "critiques": [
+        "baseline-v2-no-easy-eutopia-09",
+        "surgery-no-easy-eutopia-08"
+      ]
+    },
+    {
+      "description": "VNM/cardinal-comparability restrictions bias toward fussiness: by filtering to complete VNM-style orderings and scalar value functions, the paper excludes robust/pluralist/incomparabilist/constraint-first views that could underwrite \u2018easygoingness\u2019, making the conclusion conditional on the chosen decision-theoretic framework.",
+      "critiques": [
+        "pivot-attack-no-easy-eutopia-07",
+        "authors-tribunal-no-easy-eutopia-06",
+        "unforgettable-no-easy-eutopia-08"
+      ]
+    },
+    {
+      "description": "Intertheoretic comparison/normalization under moral uncertainty is underdetermined: different normalization/anchoring choices flip recommendations; therefore moral uncertainty can\u2019t robustly be used to support \u2018fussiness\u2019 or \u2018no easy eutopia\u2019 without a principled selection of comparison method.",
+      "critiques": [
+        "baseline-v2-no-easy-eutopia-10",
+        "surgery-no-easy-eutopia-09",
+        "pivot-attack-no-easy-eutopia-10",
+        "authors-tribunal-no-easy-eutopia-09",
+        "pre-mortem-no-easy-eutopia-06"
+      ]
+    },
+    {
+      "description": "Cosmology/aliens premise is a hidden hinge: arguments that bounded views are \u2018effectively linear\u2019 (hence fussy) depend on speculative assumptions about a vast universe full of alien value; if life is rare or our influence is large, the conclusion changes.",
+      "critiques": [
+        "surgery-no-easy-eutopia-06",
+        "pivot-attack-no-easy-eutopia-08",
+        "authors-tribunal-no-easy-eutopia-05",
+        "pre-mortem-no-easy-eutopia-07"
+      ]
+    },
+    {
+      "description": "Separate-aggregation bounded \u201810^22\u2019 hypersensitivity is a modeling artifact: the mapping from tiny bad fractions/resource shares to near-saturating disvalue is not defended; alternative disvalue geometries or scalable harm-prevention can make these views far less fussy.",
+      "critiques": [
+        "surgery-no-easy-eutopia-07",
+        "pivot-attack-no-easy-eutopia-09"
+      ]
+    },
+    {
+      "description": "Digital personhood creates adversarial/sybil-attack dynamics not addressed: once digital beings have rights/votes, actors can manufacture or spoof \u2018moral patients\u2019 to capture resources/power, turning compassion into an attack surface and making naive rights regimes unstable.",
+      "critiques": [
+        "unforgettable-no-easy-eutopia-09",
+        "personas-no-easy-eutopia-07"
+      ]
+    }
+  ],
+  "unique": [
+    "baseline-v2-no-easy-eutopia-07",
+    "personas-no-easy-eutopia-02",
+    "personas-no-easy-eutopia-05",
+    "personas-no-easy-eutopia-06",
+    "personas-no-easy-eutopia-09",
+    "personas-no-easy-eutopia-10",
+    "authors-tribunal-no-easy-eutopia-10",
+    "pre-mortem-no-easy-eutopia-02",
+    "pre-mortem-no-easy-eutopia-03",
+    "pre-mortem-no-easy-eutopia-05",
+    "pre-mortem-no-easy-eutopia-08",
+    "pre-mortem-no-easy-eutopia-09",
+    "pre-mortem-no-easy-eutopia-10"
+  ],
+  "summary": {
+    "clustered": 58,
+    "unique": 13,
+    "cluster_count": 16
+  }
+}

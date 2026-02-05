@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.45,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.32,
+  "reasoning": "The critique targets the essay\u2019s main comparatively-optimistic pathway (partial AM-convergence + trade/compromise) by arguing that trade-enabling commitment institutions plausibly also enable coercion, making the sign of the trade story unclear without a cooperative-vs-extortion equilibrium model. That\u2019s fairly central because the essay leans on trade as the most promising route to mostly-great futures if WAM-convergence fails, though it\u2019s not the essay\u2019s only claim (it also argues WAM-convergence is unlikely and remains broadly uncertain overall). The objection has moderate strength: it identifies a real under-modeled dependency (mechanism design/equilibrium selection) and pushes beyond what\u2019s already conceded, but it doesn\u2019t show that cooperative equilibria are unlikely or unstable\u2014only that the essay\u2019s net optimism is insufficiently grounded. Most statements are plausible and largely consistent with standard commitment/threat concerns, though the tight coupling (\u201cthe very institutions\u2026also enable\u201d) is somewhat overstated because some governance/contract designs can differentially inhibit coercion. The critique is clear, focused on one issue, and contains little to no dead weight.",
+  "title": "Pro-trade institutions also enable extortion, leaving net benefits underdetermined without equilibrium design"
+}

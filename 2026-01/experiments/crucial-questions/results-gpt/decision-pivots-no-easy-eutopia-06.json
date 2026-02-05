@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.9,
+  "tractability": 0.35,
+  "clarity": 0.75,
+  "decision_hook": 0.95,
+  "dead_weight": 0.15,
+  "overall": 0.55,
+  "reasoning": "Cruciality is high because the answer plausibly flips priorities between (i) s-risk/\"any-bads\" minimisation and (ii) scaling goods/expansion with safeguards\u2014i.e., a major strategic fork. It is highly paper-specific: it directly targets the paper\u2019s separate-aggregation bounded-view argument and the highlighted 10^22 sensitivity/asymmetry claims, and would be much less natural without that context. Tractability is the main weakness: whether disvalue is unbounded/lexically dominant is largely metaethical and depends on contested intertheoretic comparisons and reflective-equilibrium judgments; progress is possible (formal modelling + structured elicitation), but a decisive answer is unlikely. Clarity is fairly good, but key primitives (\u201cbads\u201d, \u201cresources\u201d, what counts as \u2018fraction used toward bads\u2019, and what exactly \u2018lexically dominant\u2019 means under uncertainty) admit nontrivial ambiguity. Decision hook is excellent and explicitly states the flip. Dead weight is low: most of the framing (anchor + flip + proposed method) supports actionability, though it adds some length.",
+  "title": "Moral asymmetry threshold: when suffering prevention dominates expansion"
+}

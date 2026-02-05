@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.12,
+  "reasoning": "The critique targets a nontrivial premise in the paper\u2019s case that (unbounded) linear views are fussy: that mostly-great futures require resources to be used in a very specific, near-maximally value-efficient way. If this were undermined, it would weaken one major route to \u201cno easy eutopia,\u201d but the position also has substantial independent support (eutopian fragility/multiplicative factors, and the bounded-views analysis), so centrality is moderate rather than decisive. The refutation strength is low because the paper\u2019s specificity claim is supported by an explicit fat-tail/value-efficiency argument; the critique largely appeals to intuitive pluralism (many lives equally valuable) and a simple example without engaging the fat-tail premise or showing that linearity implies broad near-optimal plateaus. The critique is partly correct that linear views can, in principle, be pluralistic and that the argument would need the additional assumption that near-maximal efficiency occupies a tiny region of the space of uses; however, it overstates by implying the paper offers no justification, since the text does offer (contestable) reasons. The point is clearly stated, focused on one issue, and contains little dead weight.",
+  "title": "Linear views may allow diverse equally valuable configurations"
+}

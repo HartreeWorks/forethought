@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.15,
+  "correctness": 0.5,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.15,
+  "reasoning": "The critique targets (i) the paper\u2019s navigational/optimization metaphor and (ii) the idea (in the discussion of linear/unbounded views) that near-best futures require highly specific resource-use. Those points are somewhat connected to the paper\u2019s broader conclusion that eutopia is a narrow target, but not fully central: the paper\u2019s core claim is about evaluative fragility and the rarity of mostly-great futures across moral views, not a recommendation to \u201chomogenize the system\u201d or pursue single-variable maximization. The critique\u2019s main move\u2014that complex adaptive systems can\u2019t be \u2018aimed\u2019 at a value peak and that maximizing value-efficiency would cause collapse\u2014does little to refute the paper\u2019s thesis; if anything, it could be compatible with or even reinforce the \u201cno easy eutopia\u201d conclusion (steering is hard). It also partially misreads the linear/unbounded section as a practical optimization proposal rather than a claim about what would count as mostly-great on certain moral value functions. Some claims (importance of resilience/diversity in complex systems) are plausible, but the strong assertions about a \u201cfallacy,\u201d \u201clinear vectors,\u201d and inevitable \u201csystem-wide ruin\u201d are under-argued and speculative. The critique is fairly clear and focused with little fluff.",
+  "title": "Optimizing for a single value destroys the systemic resilience needed for survival"
+}

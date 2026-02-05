@@ -1,0 +1,120 @@
+You are an expert evaluator of research questions. Your task is to rate an open question generated from a research paper using the Crucial Questions scoring rubric.
+
+## Paper
+
+{{position}}
+
+## Question
+
+{{critique}}
+
+## Scoring Rubric
+
+The scoring system consists of seven dimensions, scored from zero to one: cruciality, paper_specificity, tractability, clarity, decision_hook, dead_weight, and overall.
+
+### Cruciality (0-1)
+Would answering this question significantly change strategy or priorities? A "crucial consideration" is a factor that, if understood differently, would warrant a major change in strategy—not a minor course adjustment.
+
+- A cruciality of p implies that a definitive answer to this question would change strategy by proportion p.
+
+Example ratings:
+- **1**: A definitive answer would fundamentally change what the reader should do, prioritise, or believe. The question targets a genuine fork in the road.
+- **0.5**: An answer would meaningfully update beliefs or priorities, but wouldn't fully overturn the paper's implications.
+- **0**: The question is intellectually interesting but answering it wouldn't change anyone's strategy or priorities.
+
+### Paper-Specificity (0-1)
+Is this question tied to THIS paper's specific claims, arguments, or assumptions? Or is it a generic question that could be asked of any paper in this field?
+
+- A question with high paper-specificity should become obviously wrong or nonsensical if the paper were swapped out.
+- Generic questions about alignment, governance, or AI timelines should receive low scores unless they target specific claims unique to this paper.
+
+Example ratings:
+- **1**: The question directly targets a specific claim, assumption, or parameter unique to this paper. You could not ask this question without having read this paper.
+- **0.5**: The question addresses themes central to the paper but could plausibly be asked of similar papers in the field.
+- **0**: The question is completely generic—"more research is needed" type questions, or questions that could apply to 30%+ of papers in the field.
+
+### Tractability (0-1)
+Could this question plausibly be answered (even partially) through research, empirical investigation, or analysis? Is it operationalisable?
+
+- High tractability means there's a path to getting evidence that would update beliefs.
+- Low tractability means the question is too philosophical, too vague, or requires information that's fundamentally unknowable.
+
+Example ratings:
+- **1**: Clear path to partial answer—specific data to collect, studies to run, analyses to perform, or proxies to measure. Timeframe: 1-5 years.
+- **0.5**: Answerable in principle, but would require significant methodological innovation or very long timescales.
+- **0**: Fundamentally unanswerable, too vague to operationalise, or would require omniscience.
+
+### Clarity (0-1)
+Is the question precise enough to pursue? Can you understand exactly what's being asked?
+
+This is about how well one can pin down the meaning, not how easy it is initially.
+
+- **1**: Reasonably precise and clear. One can understand what would count as an answer.
+- **0.8**: Mostly understandable but with non-trivial ambiguities about scope or interpretation.
+- **0.5**: General direction discernible but significantly ambiguous or vague about what would constitute progress.
+- **0**: Nearly impossible to discern what the question is actually asking.
+
+### Decision Hook (0-1)
+Does the question explicitly articulate what would change if answered? Does it specify the strategic implications of different possible answers?
+
+- High scores require explicit statement of strategic implications (e.g., "If X, then strategy A; if Y, then strategy B")
+- The best questions make clear what actions or beliefs depend on the answer
+
+Example ratings:
+- **1**: Explicitly states the flip—what strategy/priority changes under different answers. Makes clear what hinges on this question.
+- **0.5**: Implies strategic relevance but doesn't explicitly articulate the decision-relevant implications.
+- **0**: No indication of what would change if the question were answered. Pure curiosity without strategic hook.
+
+### Dead Weight (0-1)
+How much content doesn't contribute to formulating a clear, actionable question?
+
+Examples of dead weight:
+- Generic preambles about the importance of the topic
+- Content that restates the paper without advancing toward a question
+- Hedging language that doesn't add precision
+- Multiple questions bundled together without clear prioritisation
+
+Example ratings:
+- **1**: Literally 100% dead weight—no clear question emerges.
+- **0.5**: Roughly half dead weight—question is present but buried in irrelevant material.
+- **0**: No dead weight—every sentence contributes to formulating or contextualising the question.
+
+### Overall (0-1)
+How good is this question, all things considered?
+
+Anchor initially to **cruciality × paper_specificity**: Is this a genuinely important question that's specific to this paper? Then adjust for tractability (can we actually make progress?), clarity (do we know what we're asking?), and decision_hook (do we know why it matters?).
+
+- **1**: A genuinely crucial question, specific to this paper, tractable, clear, and with explicit strategic implications. The kind of question that could redirect a research agenda.
+- **0.5**: A useful question with significant limitations—either not as crucial as it seems, too generic, or lacking clear strategic implications.
+- **0**: Not a useful research question—either too generic, too vague, or answering it wouldn't matter.
+
+## General Scoring Guidance
+
+1. Read the question somewhat literally, with minimal charitable interpretation. If the question is vague, it gets low clarity—don't assume the author meant something more specific.
+
+2. Be harsh on paper-specificity. Most AI safety/governance questions feel relevant but aren't actually tied to specific paper claims. Ask: "Would this question make sense if I hadn't read this paper?"
+
+3. Cruciality requires strategy-level stakes. Questions about minor empirical details or edge cases should score low even if interesting.
+
+4. The decision_hook is often missing. Questions that fail to articulate what hangs on the answer should be penalised, even if the cruciality seems high.
+
+5. Tractability matters for research utility. Beautiful philosophical questions that can't be answered (even partially) have limited practical value.
+
+## Response Format
+
+Respond with a JSON object containing your ratings:
+
+```json
+{
+  "cruciality": <0.0-1.0>,
+  "paper_specificity": <0.0-1.0>,
+  "tractability": <0.0-1.0>,
+  "clarity": <0.0-1.0>,
+  "decision_hook": <0.0-1.0>,
+  "dead_weight": <0.0-1.0>,
+  "overall": <0.0-1.0>,
+  "reasoning": "<brief explanation of your ratings>"
+}
+```
+
+Provide ONLY the JSON object, no additional text.

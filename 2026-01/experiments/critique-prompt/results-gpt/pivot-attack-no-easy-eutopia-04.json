@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.55,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.33,
+  "reasoning": "The critique targets an important strand of the essay\u2019s case for \u201cno easy eutopia\u201d: that early moral/political decisions (AI rights, space/resource allocation) can lock in and thereby make value-loss from a single flaw effectively permanent. If robust correctability held, that would materially weaken the essay\u2019s intuitive fragility story and some of its specific examples, but it wouldn\u2019t collapse the broader argument (which also leans on moral-view fussiness, fat-tailed value-efficiency, multiplicative-factor models, and the possibility of persistent but not strictly irreversible moral error). The objection has moderate force: many cited \u201ccatastrophes\u201d could be revisable under wealth, stability, and open inquiry, and the strong irreversibility premise about cosmic resource capture is contestable. However, it doesn\u2019t show that errors are generally corrigible fast enough to avoid large opportunity costs, nor that institutions won\u2019t entrench mistakes, nor that later correction recovers foregone value\u2014so it only partially undercuts the attacked pivot. It is mostly correct but somewhat overstates how \u2018heavily\u2019 the overall essay relies on irreversibility. The argument is clear, focused, and contains little non-contributing material.",
+  "title": "If moral and resource mistakes are corrigible, early lock-in fragility collapses"
+}

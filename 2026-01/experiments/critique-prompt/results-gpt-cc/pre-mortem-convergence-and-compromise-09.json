@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.25,
+  "correctness": 0.5,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.15,
+  "reasoning": "The critique targets a potential downstream rhetorical/institutional effect of the essay\u2019s antirealist-friendly \u201crandom walk/divergence\u201d framing: that meta-ethical humility could be operationalized as enforcement-avoidance, worsening outcomes for weakly represented beings and destabilizing cooperation. This is only moderately central: it doesn\u2019t directly undercut the essay\u2019s main object-level claims about (non-)convergence, trade, threats, or blockers, but it is somewhat connected to the essay\u2019s concerns about memetic dynamics and institutional decision-making under uncertainty. The argument\u2019s strength is limited because it is largely a speculative causal narrative (a plausible mechanism, but with little substantiation and no engagement with alternative institutional responses or with the essay\u2019s own partial acknowledgments of memetic/blocker risks). Correctness is mixed: the mechanism is plausible, but the critique asserts concrete sociological uptake/cascades that aren\u2019t supported by evidence in the critique and could easily fail to materialize. Clarity is high and the critique stays focused on one main issue, with little dead weight.",
+  "title": "Meta-ethical humility can devolve into enforcement nihilism, enabling later atrocities and backlash"
+}

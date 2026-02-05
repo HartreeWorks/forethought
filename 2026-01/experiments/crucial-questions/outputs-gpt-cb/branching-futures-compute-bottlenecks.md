@@ -1,0 +1,41 @@
+1. **What is the short-run elasticity of AI R&D progress with respect to added automated “cognitive labor” when training/experiment compute is held fixed (i.e., does progress saturate at ~≤10× or continue past ~≥30× as labor scales by 10–1000×)?**
+   - **The branch point:** *“Strong complementarity (ρ≲−0.3) → early plateau”* vs *“Weak complementarity (−0.2≲ρ<0) → early SIE not compute-bottlenecked.”*
+   - **Paper anchor:** Stress-tests the core claim that economic-manufacturing ρ estimates are misleading for AI R&D and that plausible AI ρ is in **−0.2 to 0**, implying bottlenecks bite late.
+   - **Indicators:** If Branch A is more likely, then adding large amounts of agent-labor (coding/analysis/experiment-design) to a fixed-compute research program yields diminishing returns that flatten quickly (e.g., <10× speedup). If Branch B, measurable speedups keep compounding (e.g., >30×) before flattening.
+   - **Time sensitivity:** **Within 12–18 months**, before labs can scale agentic R&D labor by 1–2 OOM and lock in expectations/policies about takeoff speed.
+
+2. **Are near-frontier experiments (e.g., runs consuming ≥0.1–1% of a leading lab’s compute) actually necessary for most algorithmic capability gains, or can gains be reliably developed and validated using much smaller-scale experiments plus extrapolation?**
+   - **The branch point:** *“Near-frontier essential → compute bottleneck binds early”* vs *“Small-scale extrapolation works → compute bottleneck weak.”*
+   - **Paper anchor:** Tests the rebuttal to the “fixed number of near-frontier experiments” sceptic reply (the paper claims near-frontier may not be required and history suggests it can’t be the binding constraint).
+   - **Indicators:** If Branch A is more likely, then new methods that look good at small scale frequently fail or reverse at scale, and scaling decisions require repeated near-frontier trials. If Branch B, then small-scale results plus scaling-law/surrogate prediction select successful frontier methods with high hit-rate.
+   - **Time sensitivity:** **Next 12–24 months**, as frontier runs get more expensive and labs increasingly rely on extrapolation tooling.
+
+3. **How fast is “algorithmic efficiency” improving in a way that converts fixed hardware into proportionally more effective experimentation (e.g., tokens/FLOP, quality/FLOP, or “useful experiments per day” at fixed compute)?**
+   - **The branch point:** *“Efficiency flywheel → experiments scale with software → SIE plausible”* vs *“Efficiency gains slow → experiments remain compute-capped.”*
+   - **Paper anchor:** Tests the claim that the bottleneck is really “number of experiments,” and that better algorithms let you run more experiments at the same compute, undermining a fixed-compute ceiling.
+   - **Indicators:** If Branch A is more likely, we observe sustained rapid improvements in efficiency metrics (and/or distillation, early-stopping, better optimizers) that materially increase experiment throughput at constant compute. If Branch B, efficiency improvements plateau or are offset by increasing model/data/serving requirements so experiment throughput stays roughly constant.
+   - **Time sensitivity:** **Within 12–18 months**, because this determines whether “holding compute fixed” is even a coherent assumption in the early SIE regime.
+
+4. **If an organization suddenly gains ~100–10,000× more automated research labor (agents) but only modestly more compute, can it “reconfigure” its R&D process (tooling, delegation, evaluation, theory-experiment loop) within weeks such that the marginal productivity of additional labor stops collapsing?**
+   - **The branch point:** *“Rapid Jones-style reconfiguration → effective ρ rises toward 0 quickly”* vs *“Organizational/coordination drag → low ρ persists.”*
+   - **Paper anchor:** Stress-tests the Jones (2003) analogy the paper leans on: short-run bottlenecks may disappear quickly when production processes adapt—especially with fast-thinking AGIs.
+   - **Indicators:** If Branch A is more likely, we see step-changes in research throughput after short adaptation periods (e.g., new automated experiment pipelines, hypothesis markets, agent management) rather than persistent congestion. If Branch B, adding more agents mostly increases overhead (evaluation bottlenecks, duplicated work, brittle integration) and throughput barely rises.
+   - **Time sensitivity:** **Next 6–18 months**, since agentic R&D scaling may happen abruptly and process plasticity determines whether an SIE accelerates or stalls.
+
+5. **What fraction of frontier-relevant progress over the last ~2–3 years has come from “compute-light” routes (conceptual/theoretical insights, scaffolding, data/elicitation improvements, evaluation innovations) versus compute-heavy empirical search, and is that fraction increasing with better automation?**
+   - **The branch point:** *“Strongest-link route exists (some paths not compute-bottlenecked) → SIE can route around compute”* vs *“All major routes are compute-bound → CES-style bottleneck dominates.”*
+   - **Paper anchor:** Tests the paper’s “multiple routes/strongest-link” argument that compute bottlenecks only block SIE if **all** routes are compute-bottlenecked.
+   - **Indicators:** If Branch A is more likely, postmortems/ablations of major gains increasingly attribute progress to non-scaling experiments (or to improvements transferable without large new runs). If Branch B, progress attribution concentrates on large-run empirical iteration, with compute-light ideas rarely surviving contact with scaling.
+   - **Time sensitivity:** **Within 12–24 months**, because this affects whether strategy should emphasize compute governance vs. monitoring/steering non-compute progress channels (data, scaffolds, evals).
+
+6. **Does “idea difficulty” in ML (measured by experiments-per-meaningful-improvement, time-to-find-next-improvement, or variance of outcomes) increase fast enough to overwhelm gains from more/smarter/faster automated researchers under fixed compute?**
+   - **The branch point:** *“Steep diminishing returns → acceleration fizzles even with many agents”* vs *“Manageable diminishing returns → sustained acceleration until late-stage limits.”*
+   - **Paper anchor:** Stress-tests the sceptic’s claim (in the intuitive objection) that low-hanging fruit runs out and the required experimental burden rises, forcing slowdown when compute is fixed.
+   - **Indicators:** If Branch A is more likely, leading groups report rapidly rising search costs (more failed runs per win, smaller marginal gains per research-cycle) even as automation improves. If Branch B, automation keeps the “cost per improvement” roughly stable or falling (e.g., better priors, better triage, stronger reuse).
+   - **Time sensitivity:** **Next 12–24 months**, because this determines whether an early “fast phase” is self-terminating without needing hardware growth.
+
+7. **Can surrogate models and analytical predictors (trained on prior runs) forecast the outcomes of candidate training runs well enough to replace a large share of brute-force experimentation, effectively substituting cognition/software for compute?**
+   - **The branch point:** *“Accurate surrogates → cognition substitutes for compute (ρ→0 behavior)”* vs *“Surrogates brittle → real experiments remain the choke point (ρ<0).”*
+   - **Paper anchor:** Tests the paper’s claim that cognitive labor can, in principle, substitute for compute (and that CES “weakest-link” framing may be wrong in the limit), via mechanisms like better experiment design and extrapolation.
+   - **Indicators:** If Branch A is more likely, we observe high-accuracy predictors for scaling outcomes (loss curves, emergent behaviors, downstream performance) that materially cut required training trials. If Branch B, predictors fail on distribution shifts (new architectures/data/training regimes) so labs must still run many expensive empirical tests.
+   - **Time sensitivity:** **Within 6–18 months**, as surrogate-based planning could rapidly change the effective experiment budget without new hardware.

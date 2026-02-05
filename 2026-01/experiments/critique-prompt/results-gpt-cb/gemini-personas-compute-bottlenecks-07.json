@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.8,
+  "dead_weight": 0.2,
+  "single_issue": 0.9,
+  "overall": 0.15,
+  "reasoning": "The critique targets the post\u2019s use of CES parameters (e.g., \u03b1=0.5 and the plausible range for \u03c1) as under-justified and susceptible to motivated cherry-picking, which is somewhat related to the post\u2019s methodology but not directly to its core object-level conclusion about compute bottlenecks likely not binding early in an SIE. If the critique landed fully, it would mostly undermine the framework\u2019s policy/epistemic usefulness rather than falsify the substantive claims about \u03c1 in AI R&D, so centrality is moderate. The critique offers little object-level engagement (no alternative model, no evidence that the author\u2019s \u03c1 range is wrong, no demonstration that the argument relies crucially on propaganda-like parameter choice), so it weakly refutes the position. It is partly correct that \u03b1 is arbitrary and that wide-uncertainty parameters can be rhetorically misused, but it overstates by implying the parameters are \u201cjust vibes\u201d despite the post explicitly discussing uncertainty, empirical limitations, and giving several reasons (even if debatable) for higher \u03c1 in AI R&D. It is fairly clear and mostly focused on a single governance/interpretability concern, with some rhetorical phrasing but limited pure fluff.",
+  "title": "Subjective parameter choices enable strategic manipulation by competing interests"
+}

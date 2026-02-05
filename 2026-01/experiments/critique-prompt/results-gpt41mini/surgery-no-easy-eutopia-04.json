@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.7,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.1,
+  "reasoning": "The critique targets one sub-argument in Section 3.3: that (difference-making) bounded views with separate aggregation of goods/bads become extremely fussy because even tiny fractions of bads prevent a mostly-great future. This is relevant but not load-bearing for the whole \u2018no easy eutopia\u2019 conclusion, which also rests on other routes to fussiness (e.g., linear/unbounded views, practical linearity of many bounded views, and the broader \u201cfragility/product of factors\u201d story), so centrality is moderate (~0.3). The critique\u2019s refutation power is low because it mainly asserts that many moral theories are context-sensitive and not well-modeled by separable aggregation, without showing that the paper\u2019s separate-aggregation modeling is unjustified for the class of views it claims is \u201cmost plausible,\u201d or that context-sensitivity would actually remove the extreme sensitivity-to-bads result. It also labels this as a \u201creference class failure,\u201d which is not clearly the right diagnosis. Still, it is directionally correct that many moral theories don\u2019t fit simple additive/separable structures and that this could weaken a claim of necessity (\u2018bounded views must be fussy in this way\u2019). The critique is fairly clear and focused, with little extraneous material. Overall it poses only a small problem for the position.",
+  "title": "Context-dependent moral tradeoffs challenge the separability assumption behind bounded fussiness"
+}

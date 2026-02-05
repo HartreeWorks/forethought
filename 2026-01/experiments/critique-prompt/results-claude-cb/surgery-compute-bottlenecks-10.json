@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.4,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.18,
+  "reasoning": "The critique targets one supporting plank in the author\u2019s case for higher substitutability (\u03c1): that economic estimates miss \u201csmarter workers,\u201d and a (reported) ~6\u00d7 median-to-top researcher effect suggests big gains from better cognition. This is relevant but not load-bearing for the overall position because the post offers many other independent reasons to doubt strong compute bottlenecks (e.g., experiment efficiency, extrapolation issues, long-run reconfiguration, alternative routes), so centrality is modest. The critique has some real bite: it correctly notes the inference from within-human variation to superintelligent gains is under-justified and could be consistent with rapid saturation of the \u2018cognitive\u2019 component. However, it only undercuts that specific evidential move; it doesn\u2019t show the 6\u00d7 evidence actually implies saturation, and the author\u2019s broader argument for higher \u03c1 could remain intact. Most claims are conceptually correct and framed conditionally, with good clarity and minimal fluff.",
+  "title": "The 6x researcher quality gap may reflect a ceiling, not a slope"
+}

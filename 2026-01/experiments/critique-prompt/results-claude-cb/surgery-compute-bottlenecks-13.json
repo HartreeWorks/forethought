@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.4,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.28,
+  "reasoning": "The critique targets a real load-bearing move in the post: downweighting CES-based compute-bottleneck arguments on the grounds that they require extreme extrapolation, while the author then gives their own far-extrapolative, intuition-driven bounds on \u03c1 (e.g., \u201cmax speed <10 seems implausible\u201d and \u201cmost likely \u22120.2<\u03c1<0\u201d). Undermining that move would meaningfully weaken the post\u2019s confidence about compute bottlenecks not biting early, though it wouldn\u2019t fully collapse the overall position because the post offers several other counterarguments besides the extrapolation point. The refutation is moderate: pointing out symmetry/inconsistency weakens the author\u2019s dismissal of the skeptic\u2019s method and the author\u2019s confidence in their own \u03c1-range, but it doesn\u2019t show the CES approach is correct, nor that all informal reasoning about superhuman R&D is equally unreliable in the relevant way. The critique is mostly correct and clearly stated; the \u201ccausal reversal\u201d label is off but not crucial. It stays tightly on one issue with little dead weight.",
+  "title": "The paper's own capability extrapolations are more speculative than the CES estimates it dismisses"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.25,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.18,
+  "reasoning": "The critique targets the paper\u2019s operational definitions of \u201cbest feasible\u201d (99.99th percentile) and thresholds for \u201cnear-best\u201d/\u201cmostly-great,\u201d arguing these choices are arbitrary and could bias the \u2018narrow target\u2019 framing. This is somewhat central because the essay repeatedly uses these benchmarks to structure comparisons and quantify how \u2018rare\u2019 mostly-great futures are, but the core thesis (eutopia is fragile; many plausible moral views are fussy) does not seem to depend strongly on the specific cutoffs and can be restated with other thresholds. The critique has limited strength: it notes arbitrariness and sensitivity to distributional assumptions, but does not show that reasonable alternative cutoffs or distributions would materially change the conclusions; moreover, the essay itself explicitly says the \u201cmostly-great\u201d threshold isn\u2019t special, partially defusing the objection. The critique is mostly correct that percentile/threshold choices need justification and can affect apparent distance-from-best, but it overstates by implying the conclusion is largely stipulated. It is clear, focused on a single issue, and contains little to no fluff.",
+  "title": "Arbitrary percentile cutoffs may predetermine the narrow target conclusion"
+}

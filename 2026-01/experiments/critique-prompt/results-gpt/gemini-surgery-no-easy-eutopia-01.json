@@ -1,0 +1,11 @@
+{
+  "centrality": 0.75,
+  "strength": 0.35,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.3,
+  "reasoning": "The critique targets a fairly central move in the essay\u2019s Section 2: the step from \u201cmany independent ways to lose large value\u201d (fragility/product model) to \u201ctherefore mostly-great futures are unlikely by default.\u201d If robust self-correction made big irreversible errors rare, that would substantially weaken the \u2018narrow target\u2019 picture, though the position also has a separate Section 3 argument (about fussy value functions and scale/aggregation) that would remain largely intact; hence centrality < 1. The critique\u2019s main contribution is a plausible alternative dynamic (\u2018procedural corrigibility\u2019 leading to reversible commitments and ongoing revision) showing that \u2018many ways to be wrong\u2019 does not by itself imply low probability of being >0.5; this is a real under-argued inference in the position. However, strength is limited because (i) the essay already flags navigation/optimization pressures and later essays address convergence/compromise, so the need for a dynamics story is partly anticipated; (ii) many of the cited failure modes in the position are precisely about lock-in, preference engineering, and non-obvious value loss even in satisfied societies, so \u201cprocedural corrigibility\u201d is not shown to be a default attractor; and (iii) it doesn\u2019t engage the Section 3 claim that many plausible moral views make >0.5 hard even given broadly nice institutions (e.g., linear scale demands, separate aggregation sensitivity to tiny bads). Correctness is fairly high: it correctly identifies an implicit probabilistic step and offers a coherent counter-model, but it overstates by implying the paper\u2019s conclusion \u2018silently assumes\u2019 roughly independent ~50/50 success rates per dimension; the position\u2019s product model is illustrative and not committed to that specific assumption. The critique is clear, focused, and has little dead weight.",
+  "title": "Procedural corrigibility norms could cluster futures above 50% without explicit optimization"
+}

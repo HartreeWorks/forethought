@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.35,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.27,
+  "reasoning": "The critique targets a fairly central practical assumption behind the position\u2019s conclusion (\u201ccompute bottlenecks won\u2019t slow an SIE until late stages\u201d): that compute availability is exogenous/steady enough that only technical complementarity matters. If geopolitical sabotage/denial makes compute scarce or forces wasteful security behavior, that could move compute constraints earlier, weakening the conclusion (moderate centrality). However, it only partially refutes the position because it is largely speculative and doesn\u2019t establish (i) that such strategic attacks are likely at the relevant time, (ii) that they would effectively constrain total compute rather than shift it geographically/organizationally, or (iii) that their net effect is large enough to overcome the software-driven efficiency gains discussed in the post (limited strength). Many component claims are plausible (export controls, supply-chain attacks, datacenter targeting incentives), but several concrete dynamics asserted (collapse into discontinuous retraining cycles, major compute waste) are uncertain (moderate correctness). The argument is crisp and focused with little filler.",
+  "title": "Strategic sabotage of compute infrastructure undermines the late-stage bottleneck assumption"
+}

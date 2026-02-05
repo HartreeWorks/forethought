@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.87,
+  "paper_specificity": 0.84,
+  "tractability": 0.62,
+  "clarity": 0.78,
+  "decision_hook": 0.95,
+  "dead_weight": 0.08,
+  "overall": 0.76,
+  "reasoning": "This targets a central load-bearing uncertainty in the paper\u2019s Section 3.3: whether executed value-destroying threats are a small perturbation or a dominant EV sink, which would substantially flip priorities (threat-prevention institutions/norms vs expanding trade/compromise capacity). It is strongly paper-specific because the paper\u2019s optimism about partial AM-convergence via moral trade is explicitly conditional on threats being rare and containable. The question is fairly clear and operationalisable (estimate a resource-share t; study how t changes with multipolarity/enforcement), and it includes explicit thresholds and strategic implications (excellent decision hook). Main weakness is tractability: \u2018future resource share devoted to executed threats\u2019 depends on hard-to-model strategic dynamics, commitment tech, and value pluralism; simulations/AI-agent bargaining experiments can give partial, model-dependent bounds but not decisive estimates soon. Some ambiguity remains about definitions (what counts as a \u2018threat\u2019, what qualifies as \u2018value-destroying\u2019, and what \u2018resources\u2019 means across cosmic/post-AGI contexts), but these can be pinned down in a research design.",
+  "title": "Resource losses from executed threats in multipolar bargaining"
+}

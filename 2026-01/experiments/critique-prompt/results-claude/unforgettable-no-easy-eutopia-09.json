@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.35,
+  "correctness": 0.65,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets the paper\u2019s stipulation v(extinction)=0 together with v(best feasible)=1, arguing this isn\u2019t mere normalization but builds in that extinction is worse than the best feasible future and so excludes \u201cpro\u2011extinction\u201d/anti-natalist/etc. views. This is moderately central because the paper uses extinction as the zero point for its quantitative thresholds (mostly-great/eutopia) and for some comparisons, so excluding views where extinction is better than any survivable future narrows the scope. However, much of the paper\u2019s \u2018no easy eutopia\u2019 case is conditional on survival and on frameworks where survival isn\u2019t intrinsically good/bad in the extreme, so the critique doesn\u2019t collapse the main argument\u2014rather it trims its domain and challenges some rhetoric about neutrality. The critique is partly correct: setting extinction=0 alone could be an affine choice, but fixing both extinction=0 and best-feasible=1 does assume best-feasible > extinction, so it does exclude theories ranking extinction above all feasible survivals. Still, it overreaches by implying the stipulation automatically makes extinction better than all negative futures (that\u2019s definitional given the scale, not an extra claim) and by asserting, without support, that the excluded views are \u201cprecisely\u201d or \u201cmost plausibly\u201d the easygoing alternatives. It is clear, focused, and contains little dead weight.",
+  "title": "The zero-value extinction stipulation excludes the most plausible easygoing views"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.3,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.22,
+  "reasoning": "The critique targets the paper\u2019s scale/population-ethics-driven route to \u201cfussiness\u201d (e.g., claims that solar-system utopia is negligible vs cosmic expansion under linear/totalist assumptions). That strand is important but not the whole case: the paper also argues for fragility via many non-scale moral catastrophes and (in Section 3) for fussiness across many bounded/unbounded value-function families, so undermining scale arguments would weaken rather than collapse the overall position (moderate centrality). The critique does provide a real challenge to the \u2018rounding error\u2019 rhetoric by noting population ethics is deeply unsettled and that many plausible views (person-affecting/average-constrained/rights-based) don\u2019t treat \u201cmore lives/expansion\u201d as straightforwardly better; it also flags an extra assumption about scalability of high welfare. However, it doesn\u2019t engage the paper\u2019s broader claim that many non-expansion-related dimensions can still make mostly-great futures rare, nor does it show that population-ethics uncertainty implies easygoingness rather than a different kind of fussiness/target-narrowness. Most claims are accurate, though the move from \u201cuncertainty\u201d to \u201crobust satisficing\u201d is more suggestive than argued. Clear and focused with little filler.",
+  "title": "Population ethics uncertainty undermines scale-based moral fussiness"
+}

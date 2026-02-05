@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.2,
+  "correctness": 0.75,
+  "clarity": 0.75,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.15,
+  "reasoning": "The critique targets the paper\u2019s \u201ceutopia is fragile / narrow target\u201d premise (Sections 2.3\u20132.4), which is moderately central to the paper\u2019s overall case that mostly-great futures are rare. However, the paper repeatedly conditions on a distribution where there is no serious, coordinated optimization toward the very best outcomes (and explicitly flags \u2018navigation/institutions\u2019 as a separate factor deferred to the next essay). Given that framing, pointing out that future societies might build robust error-correcting institutions mainly shifts to a different conditional case than the one being analyzed, so it only weakly undermines the argument as presented. The critique is broadly plausible (institutions can reduce fragility), but it\u2019s underspecified (what mechanisms, why they\u2019d work across moral disagreements, why they\u2019d be robust to lock-in/power capture, etc.), so it provides limited refutational force. It\u2019s clear and focused, with minimal dead weight.",
+  "title": "Error-correcting institutions may neutralize the fragility of moral progress"
+}

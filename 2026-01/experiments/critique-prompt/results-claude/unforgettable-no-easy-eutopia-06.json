@@ -1,0 +1,11 @@
+{
+  "centrality": 0.15,
+  "strength": 0.4,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.12,
+  "reasoning": "The critique targets the hedonic-treadmill/psychological debunking move in \u00a72.5. That point is only a minor, explicitly hedged support for the broader \u201cno easy eutopia\u201d thesis; the position\u2019s main weight rests on (i) the many concrete fragility examples (\u00a72.3), (ii) the multiplicative-value model (\u00a72.4), and especially (iii) the systematic \u2018fussy vs easygoing\u2019 analysis of value functions (\u00a73). So centrality is low. Within its target, the critique has some bite: hedonic adaptation plausibly explains salience-shifting and may not uniquely support \u2018we underestimate distance to eutopia\u2019, making that debunking argument directionally underdetermined. However, the position itself already flags the analogy as potentially misleading and does not heavily rely on it, which limits refutational strength. The critique\u2019s psychological claims are plausible but somewhat speculative/overconfident (e.g., that treadmills bias toward overweighting the newest concern), so correctness is good but not perfect. It is clear, focused on a single issue, and contains little or no dead weight. Overall, it slightly weakens a peripheral argumentative strand but does not substantially threaten the position.",
+  "title": "Hedonic adaptation could bias toward overweighting recent concerns, not underestimating distance"
+}

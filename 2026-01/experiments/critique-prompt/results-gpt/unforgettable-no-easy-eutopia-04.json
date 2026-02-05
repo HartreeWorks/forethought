@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.4,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.3,
+  "reasoning": "The critique targets a fairly central move in the essay: using broad cross-view disagreement and a catalogue of \u201cmoral catastrophe\u201d failure modes to support the claim that near-best futures are a narrow target (easygoingness unlikely). If reflection would prune many currently-held but \u201ccatastrophe-generating\u201d views, that would reduce the number/independence of failure modes and weaken the Section 2 fragility intuition that motivates the later technical sections. However, the essay explicitly discusses reflection/convergence/compromise as an open possibility and, in Section 3, argues fussiness persists for many plausible value functions even abstracting away from today\u2019s parochial disagreements. So even if the objection works against part of the motivating catalogue, it only partially undercuts the overall case. The critique is mostly correct in diagnosing a reference-class ambiguity (current views vs views surviving idealized reflection) and in demanding the authors either justify inclusion or rerun the argument. But it overstates how much the paper \u201cquietly counted\u201d these together, since the paper already flags convergence as a separate factor and does not solely rely on the catalogue for its conclusion. It\u2019s clear, focused, and has little dead weight.",
+  "title": "Meta-ethical convergence may prune catastrophe-generating views from the reference class"
+}

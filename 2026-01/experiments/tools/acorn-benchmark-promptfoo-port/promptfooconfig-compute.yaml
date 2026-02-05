@@ -1,0 +1,14 @@
+description: "Compute Bottlenecks grading experiment"
+providers:
+  - id: anthropic:messages:claude-sonnet-4-20250514
+    label: "Claude Sonnet 4"
+    config:
+      temperature: 0
+      max_tokens: 2000
+prompts:
+  - id: acorn-rubric
+    label: "ACORN rubric"
+    raw: file://prompts/grader-v2-acorn-rubric.txt
+tests:
+  - file://tests/compute-bottlenecks-test.yaml
+outputPath: ./output/compute-results.json

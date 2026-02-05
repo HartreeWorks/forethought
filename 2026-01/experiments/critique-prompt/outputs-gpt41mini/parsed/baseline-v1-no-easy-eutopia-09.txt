@@ -1,0 +1,1 @@
+While the paper outlines a broad taxonomy of moral views (bounded, unbounded, linear, etc.), it fails to rigorously incorporate or address competing metaethical positions such as expressivism or moral particularism that may reject a cardinal utility representation or the completeness axiom, limiting the generalizability of its analysis.

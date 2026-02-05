@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.45,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.33,
+  "reasoning": "The critique targets the position\u2019s (continued) use of a CES-style, time-invariant substitutability parameter \u03c1 to derive \u2018max speed\u2019 ceilings and early-vs-late stage implications. That\u2019s fairly central to the post\u2019s quantitative/sensitivity-analysis reasoning about when compute bottlenecks bite, though less central to the broader qualitative claim that naive economic estimates are a weak prior (which the post itself already partially concedes via Jones-style \u201cproduction function changes\u201d and extrapolation caveats). The objection has moderate force: AI R&D progress is dynamic and path-dependent, so a static CES mapping from (L,K) to a progress rate is not automatically justified, and treating a fixed \u03c1 as informative can be question-begging. However it doesn\u2019t fully refute the approach, since one can still use CES as a local/short-run approximation or embed it within a dynamic model; calling it a categorical failure somewhat overstates the case. The critique is mostly correct, clear, tightly focused, and contains little dead weight.",
+  "title": "A static CES production function cannot bound dynamic, path-dependent algorithmic progress"
+}

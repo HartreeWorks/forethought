@@ -1,0 +1,10 @@
+{
+  "centrality": 0.35,
+  "strength": 0.25,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "The critique attacks the paper's use of von Neumann-Morgenstern expected utility theory, claiming it excludes deontological and virtue ethics views. However, this critique has limited centrality because: (1) The paper explicitly acknowledges this limitation in footnote 4, noting 'not all reasonable moral views allow quantitative comparisons of value, but a wide variety can be represented in this way, including non-consequentialist views'; (2) The paper's main arguments about moral catastrophe, fragility of value, and the multiplicative model in Section 2 do not depend on vNM axioms - they illustrate how single flaws can undermine value across many moral frameworks; (3) Section 2.1 explicitly surveys ongoing moral catastrophes from deontological, religious, conservative, and other non-consequentialist perspectives. The strength is low because the paper 'priced in' this concern - it's presented as a framework for quantitative analysis while acknowledging limitations. The critique is largely correct that vNM excludes some views, but overstates the paper's reliance on this framework for its core 'no easy eutopia' thesis. The argument is clear and focused on a single methodological issue."
+}

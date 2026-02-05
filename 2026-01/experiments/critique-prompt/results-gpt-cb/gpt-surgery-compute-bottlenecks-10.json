@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.55,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.38,
+  "reasoning": "The critique targets the post\u2019s operationalized bottom-line metric/definition of an SIE (\"5 OOM effective training compute in <1 year without more hardware\"), arguing it is vulnerable to compute-accounting arbitrage (shifting costs from training to inference/eval/tooling). This is moderately central: it directly bears on the claimed likelihood of an SIE under compute constraints, but it doesn\u2019t fully undercut the broader thesis that compute bottlenecks may not bite until later (which could be reformulated with a different metric). The objection has moderate strength because it raises a real, nontrivial ambiguity/moving-target problem and highlights a plausible counterworld where full-system compute remains binding; however it is partly patchable by redefining \u201ceffective compute\u201d or explicitly budgeting total compute, so it doesn\u2019t decisively refute the position. Most claims are correct/plausible (training vs inference/eval tradeoffs, AGI researcher inference costs potentially dominating), with some uncertainty about magnitudes and inevitability. It\u2019s clearly stated, focused on one core issue, and contains little dead weight.",
+  "title": "Effective compute gains may shift costs to inference rather than eliminating hardware constraints"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.3,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "The critique targets the paper\u2019s multiplicative \u2018product of factors\u2019 toy model (Sec 2.4) and its assumptions (independence, distributional form, empirical/falsifiable grounding). That model is a meaningful support for the \u2018eutopian fragility\u2019 intuition, so the attack is moderately central. But much of the paper\u2019s overall \u201cno easy eutopia / most plausible views are fussy\u201d case also rests on non-multiplicative considerations (lists of moral-catastrophe dimensions, plus the bounded/unbounded scaling arguments in Sec 3), so refuting the multiplicative model would not collapse the position. The critique is partly correct that the toy model doesn\u2019t establish causal independence or justify uniform sampling and doesn\u2019t yield straightforward empirical predictions; however it overclaims that the paper\u2019s \u201ccore argument\u201d becomes unfalsifiable or loses \u201call empirical grounding,\u201d since the paper presents the product model explicitly as a toy/illustrative model and offers additional argument strands. It is clear, focused, and contains little to no dead weight.",
+  "title": "The multiplicative model lacks empirical grounding and falsifiable predictions"
+}

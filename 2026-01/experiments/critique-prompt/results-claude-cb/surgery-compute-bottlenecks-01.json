@@ -1,0 +1,11 @@
+{
+  "centrality": 0.0,
+  "strength": 0.0,
+  "correctness": 0.6,
+  "clarity": 0.95,
+  "dead_weight": 0.0,
+  "single_issue": 1.0,
+  "overall": 0.05,
+  "reasoning": "The purported \u201ccritique\u201d does not attack the position at all; it restates and supports one of the position\u2019s main counterclaims (that AI R&D likely has higher labor/compute substitutability, i.e., rho closer to 0, than manufacturing estimates). Because it doesn\u2019t oppose any central premise or inference of the position, its centrality and refutational strength are effectively zero. The claim itself is reasonably plausible but asserted without argument or evidence, so correctness is moderate rather than high. It is very clear, contains no filler, and focuses on a single issue.",
+  "title": "AI R&D likely has higher input substitutability than manufacturing-based estimates suggest"
+}

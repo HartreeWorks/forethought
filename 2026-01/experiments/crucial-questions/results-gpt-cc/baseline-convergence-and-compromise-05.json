@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.82,
+  "paper_specificity": 0.86,
+  "tractability": 0.56,
+  "clarity": 0.72,
+  "decision_hook": 0.83,
+  "dead_weight": 0.14,
+  "overall": 0.63,
+  "reasoning": "Crucial because the paper\u2019s trade-based optimism is highly sensitive to whether value-destroying threats are equilibrium behavior and how costly they are; resolving this would substantially shift views on whether to prioritize enabling moral trade vs prioritizing threat-prevention/robust institutions. Strong paper-specificity: the question directly targets the essay\u2019s distinctive emphasis on moral trade being undermined by executed threats and the claim that even small fractions of threat-execution can dominate EV under many axiologies. Tractability is moderate: there are plausible research paths (formal game-theoretic modeling of commitment/threat equilibria, mechanism design, empirical/agent-based simulations, lab/field evidence from extortion/credible-commitment analogues), but mapping to post-AGI/high-stakes settings is hard and results will be model-sensitive. Clarity is decent but not perfect: key terms like \u201cvalue-destroying,\u201d \u201cresource-intensive,\u201d \u201ccommitment capabilities,\u201d and the relevant equilibrium concept need operationalization; it also bundles prevalence + intensity + institutional design/stability + lock-in side-effects. Decision hook is explicit (rare/containable vs equilibrium/hard-to-prevent implies optimism vs pessimism and different priorities). Dead weight is low: the context mainly sharpens why the question matters and what flips on the answer.",
+  "title": "Prevalence and containability of value-destroying threats in commitment-capable multiagent equilibria"
+}

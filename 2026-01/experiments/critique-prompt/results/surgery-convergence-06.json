@@ -1,0 +1,10 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "correctness": 0.6,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique attacks the paper's optimism about moral trade (Section 3), which is indeed one of the two main paths to a mostly-great future discussed. However, it's not fully central since the paper already acknowledges significant obstacles to trade including threats, power asymmetries, and the possibility that 'mutual gains from trade seems especially unlikely... if the prevailing views are non-discounting and linear-in-resources.' The critique's point about bargaining power asymmetry is valid but partially addressed by the paper's own discussion of threats and extortion (3.3). The analogy to hostage negotiations is somewhat apt but overstates the case - the paper doesn't assume symmetric bargaining power and explicitly discusses how minorities might fare poorly. The critique's reference class argument has some merit (ordinary trade vs cosmic-scale moral trade) but the paper's examples were illustrative, not meant to establish that trade dynamics would be identical. Correctness is moderate - the basic point about asymmetric outside options affecting bargaining is true, but the claim that this resembles 'hostage negotiations' rather than markets is debatable. The critique is reasonably clear and focused on a single issue."
+}

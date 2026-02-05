@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.3,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.9,
+  "overall": 0.2,
+  "reasoning": "The critique targets a specific sub-claim in the position\u2019s rebuttal to compute bottlenecks: that near-frontier experiments may be unnecessary because researchers can rely on extrapolation/proxies and because progress hasn\u2019t slowed despite fewer near-frontier runs. That sub-claim supports the broader conclusion, but it\u2019s not the core of the post (which argues via multiple routes that compute complementarity \u03c1 is likely higher / bottlenecks later), so centrality is modest. The critique\u2019s mechanism (adversarial poisoning causing proxy-based epistemic failure) is conceptually coherent and would be relevant if strong adversaries and compromised evaluation channels are in play, but it is highly speculative, does not show that compute bottlenecks themselves bite earlier, and doesn\u2019t directly rebut the main economic/\u03c1-based argument\u2014at most it introduces an additional, different bottleneck (security/measurement integrity). Hence moderate correctness (plausible but assumption-heavy) and low-to-moderate strength. It is clearly stated, tightly focused, and contains little filler.",
+  "title": "Reliance on extrapolation creates exploitable adversarial attack surfaces"
+}

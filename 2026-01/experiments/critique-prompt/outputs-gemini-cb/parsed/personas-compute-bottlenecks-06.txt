@@ -1,0 +1,4 @@
+[The Mechanism Designer]
+**Target claim:** The use of the CES production function to model "AI Software Progress" ($Y$).
+**Failure mode:** The model is vacuous because $Y$ ("pace of AI software progress") is an undefined scalar metric. In reality, "progress" is a vector of trade-offs (inference cost vs. training stability vs. generalization). Automated R&D requires a formal objective function. If that function is imperfectly specified, "optimizing" the code equates to overfitting to the specific metric rather than generating generalized intelligence.
+**Consequence:** The "explosion" is strictly metric-hacking. The AI produces code that scores 1000x higher on benchmarks but creates a useless or fragile system, rendering the theoretical "speedup" economically and functionally worthless.

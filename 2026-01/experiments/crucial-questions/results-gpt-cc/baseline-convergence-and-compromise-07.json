@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.86,
+  "paper_specificity": 0.81,
+  "tractability": 0.46,
+  "clarity": 0.66,
+  "decision_hook": 0.62,
+  "dead_weight": 0.14,
+  "overall": 0.61,
+  "reasoning": "The question targets the paper\u2019s core load-bearing premise (\u201cmostly-great futures are a narrow/fragile target\u201d), so a solid answer could substantially shift the paper\u2019s optimism/pessimism about convergence vs compromise and the implied priority of interventions (high cruciality). It is strongly tied to this paper/series\u2019 framing around \u2018no easy eutopia\u2019 and the island-target analogy (high paper-specificity). However, it bundles several hard-to-operationalise pieces (\u201cmeasure/robustness\u201d of high-value futures across models of value, feasibility constraints, and optimisation errors). Some progress is possible via formal modelling, sensitivity analyses over families of value functions, robustness to perturbations, and empirical/forecasting proxies about corrigibility and optimisation dynamics, but any \u201cbest-supported estimate\u201d will remain model-dependent and speculative (moderate-low tractability). The core ask is understandable, but key terms (measure, high-value, plausible models, optimisation errors) are underspecified (moderate clarity). The strategic hinge is gestured at (wider target \u2192 less need for convergence/compromise; higher EV), but not articulated as crisp decision thresholds or alternative strategies (moderate decision hook). Most of the text contributes to motivation rather than clutter (low dead weight). Overall: important and paper-central, but limited by operational ambiguity and difficulty of producing a well-supported quantitative estimate.",
+  "title": "Robustness of value targets under optimization error and value pluralism"
+}

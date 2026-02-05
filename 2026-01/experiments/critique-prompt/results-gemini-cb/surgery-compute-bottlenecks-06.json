@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.3,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "The critique targets a relevant, somewhat central plank of the post: that software/algorithmic progress can substantially substitute for fixed compute such that compute bottlenecks won\u2019t bind until late (or at all). If hardware constraints made algorithmic gains quickly saturate on fixed architectures, that would meaningfully support the compute-bottleneck objection. However, the critique overstates the post\u2019s commitment to \u2018perfect substitution\u2019 and doesn\u2019t engage key replies in the position (e.g., gains from better experiment design, extrapolation from smaller runs, many routes to progress, and that \u2018compute\u2019 is partly mediated by algorithmic efficiency). The argument is suggestive but not developed enough to show that fixed memory bandwidth/cache hierarchy implies a low effective \u03c1 or a low max speed (or that saturation happens soon rather than after large gains). Factual claims are directionally plausible (algorithms can be hardware-coupled), but the strong conclusion (\u2018software-only explosion stalls once perfectly optimized\u2019) is under-argued and somewhat speculative.",
+  "title": "Algorithmic gains are hardware-dependent, limiting software-only scaling"
+}

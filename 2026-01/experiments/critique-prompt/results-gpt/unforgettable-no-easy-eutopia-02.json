@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.45,
+  "correctness": 0.85,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.3,
+  "reasoning": "The critique targets the paper\u2019s percentile-based anchoring/normalization (best feasible = 99.99th percentile, extinction=0, cutoffs at 0.5/0.9) and argues this can manufacture \u201cfussiness\u201d when the upper tail is extreme. This is moderately central because the paper\u2019s formal \u2018mostly-great\u2019/\u2018eutopia\u2019 thresholds and some later quantitative comparisons depend on that scaling; if the scaling were badly distorting, parts of the argument about how common mostly-great futures are would weaken. However, it is not fully central: much of the paper\u2019s case for \u2018no easy eutopia\u2019 is qualitative (many independent moral failure modes; multiplicative fragility; broad moral disagreement), and the authors explicitly note the threshold is not magical and could be varied. Strength is moderate-to-low because the critique shows a real sensitivity/measurement-risk but does not demonstrate that the paper\u2019s main conclusion is an artifact rather than a robust claim across reasonable alternative anchors; the paper could reply that they intentionally define \u2018best feasible\u2019 via a high percentile to capture opportunity cost relative to the best realistically attainable, and that tail-heaviness is itself part of why targets are narrow on many views. Correctness is high: percentile anchoring can be tail-sensitive and can compress most outcomes below 0.5 when the upper tail is very large; the \u2018tautological\u2019 phrasing is somewhat overstated but points to a genuine methodological vulnerability. The critique is clear, focused on one issue, and contains little dead weight.",
+  "title": "Anchoring value to extreme tail outcomes inflates apparent fragility"
+}

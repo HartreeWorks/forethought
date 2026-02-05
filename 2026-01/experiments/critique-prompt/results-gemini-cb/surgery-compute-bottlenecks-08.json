@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.3,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.2,
+  "reasoning": "The critique targets a real, load-bearing move in the post (counterargument #6: that low implied max-speed ceilings are intuitively implausible, hence economic rho estimates are suspect). However, the overall position is supported by many other lines of argument (e.g., experiment efficiency, long-run reconfiguration, extrapolation issues, alternative routes), so even fully succeeding here would only partially undercut the conclusion that compute bottlenecks may not bite early. The critique\u2019s core point\u2014there may be information-theoretic/computational-irreducibility limits that intelligence can\u2019t shortcut\u2014is directionally plausible, but it is asserted rather than demonstrated for the concrete ML/R&D setting, and it overstates universality (\u201cno amount of intelligence,\u201d \u201chard limit set by the universe\u201d) without specifying what the limit is or why it would land near 30\u00d7 rather than, say, 300\u00d7. It also doesn\u2019t engage the author\u2019s main ways to get speedups without \u2018predicting the entire landscape\u2019 (better experiment design, scaling laws/extrapolation, early stopping, proxy tasks, etc.). Still, it\u2019s clear, focused, and has little fluff.",
+  "title": "Computational irreducibility may impose hard limits on AI research speedup"
+}

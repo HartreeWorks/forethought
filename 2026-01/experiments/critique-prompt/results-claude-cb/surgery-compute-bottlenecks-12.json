@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.35,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.15,
+  "reasoning": "The critique targets the post\u2019s \u201cstrongest link / multiple routes\u201d reply (point 7), arguing that revealed preference from frontier labs suggests compute-heavy routes dominate because compute-light routes don\u2019t scale far. This is relevant but not highly central, since the position offers several other independent counters (e.g., changing experiment efficiency, long-run reconfiguration/Jones hypothesis, extrapolation limits of CES), and SIE plausibility doesn\u2019t hinge on point 7 alone. The argument has some bite\u2014current allocation toward big training runs is evidence against easy compute-light substitute paths\u2014but it\u2019s not close to decisive: present-day choices are made under today\u2019s constraints (scarce high-quality cognitive labor, organizational limits, model-paradigm dependence, missing automation), so \u201cwe would already be doing it\u201d is only a weak inference. Much of the critique is speculative (that alternatives are exhausted / hit walls), though the descriptive premise about compute-intensive emphasis is broadly true. It is stated clearly, stays focused on one issue, and contains little non-contributing text.",
+  "title": "Current lab investments suggest high-\u03c1 routes are already exploited or bottlenecked"
+}

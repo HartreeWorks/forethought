@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.45,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.35,
+  "reasoning": "The critique targets a genuinely important support for the paper\u2019s \u201cmostly-great futures are rare\u201d intuition: the Section 2.4 move from \u201cmany possible flaws\u201d to a strongly skewed value distribution via an independent multiplicative toy model. If that step were badly undermined, the argument\u2019s intuitive backbone weakens, though the overall position also rests on other strands (historical moral catastrophe examples; and especially the later Section 3 \u2018fussy moral views\u2019 analysis), so it wouldn\u2019t fully collapse. The objection has moderate force: correlations/latent variables (institutional quality, epistemics, value convergence) could indeed make high scores co-occur and reduce the degree of fragility predicted by an independence model. However, it doesn\u2019t show that plausible correlation structures actually make mostly-great futures common, nor that remaining downside isn\u2019t still dominated by a few high-impact correlated failure modes; the paper can also reply that it only claimed \u201crelatively independent\u201d factors and used the model illustratively. Most statements in the critique are correct and well-posed, it\u2019s clear, focused, and contains little extraneous material.",
+  "title": "Correlated moral dimensions make mostly-great futures less rare than the product model claims"
+}

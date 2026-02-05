@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.86,
+  "paper_specificity": 0.81,
+  "tractability": 0.56,
+  "clarity": 0.76,
+  "decision_hook": 0.92,
+  "dead_weight": 0.12,
+  "overall": 0.73,
+  "reasoning": "Cruciality is high because the paper\u2019s optimism about compromise/trade is explicitly fragile to \u2018bads are cheap\u2019 and threats; if digital suffering scales easily, it can dominate expected value and flip priorities toward prevention/enforcement. Paper-specificity is high: the question directly stress-tests the paper\u2019s central mechanism (trade-based optimism) using the paper\u2019s own digital-welfare and threat caveats (\u00a73.2\u2013\u00a73.4, plus \u00a72.2.2). Tractability is moderate: we can make partial progress via modeling (compute-cost-to-suffering vs welfare, incentive analysis for creating digital labor/agents, threat-credibility game theory, governance/contracting feasibility), but forecasting \u201cmassive scale\u201d creation and normative \u2018cheap bads\u2019 under post-AGI conditions remains highly uncertain. Clarity is decent but bundles multiple sub-questions (scale of digital minds, prevalence of suffering vs welfare, and threat/execution dynamics), which introduces ambiguity about what constitutes an answer. Decision hook is explicit and well-posed (digital safeguards vs relying on trade). Dead weight is low: the anchor and implications mostly sharpen the question rather than restating the paper.",
+  "title": "Digital welfare catastrophe vs gains from moral trade"
+}

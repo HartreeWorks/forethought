@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.75,
+  "paper_specificity": 0.6,
+  "tractability": 0.65,
+  "clarity": 0.75,
+  "decision_hook": 0.8,
+  "dead_weight": 0.15,
+  "overall": 0.68,
+  "reasoning": "This targets a key fork highlighted in \u00a73.5: whether institutions evolve toward reason-tracking/pluralist mechanisms that preserve minority-valued options (enabling moral trade/compromise) versus majoritarian/identity-signaling politics that can legally or memetically seal off \u201cminority utopias.\u201d A clear answer would substantially shift governance priorities (e.g., investing in deliberative/justificatory institutions, minority-protection frameworks, legal pluralism, or\u2014if trending the other way\u2014more defensive/anti-lock-in interventions), so cruciality is high. However, the question is somewhat broader than the paper\u2019s unique claims (it resembles generic AI governance/institutions questions), so paper-specificity is moderate. It is partially tractable via empirical institutional mapping (adoption of citizens\u2019 assemblies + AI support, procedural-justification requirements, court/agency standards, regulatory patterns tied to culture-war salience, rights for novel minds, etc.), though \u201cAI-mediated societal choices\u201d and cross-jurisdiction aggregation make it methodologically challenging and the 12\u201318 month horizon adds noise. Clarity is fairly good (two mechanism-types + concrete indicators), but key terms remain underspecified (what counts as \u201cAI-mediated,\u201d what threshold of \u201cbeing implemented,\u201d how to score mixed systems). Decision hook is strong because it explicitly frames two branches with different implications. Little dead weight: the indicators/time-sensitivity mostly sharpen operationalization rather than distract.",
+  "title": "Reason-tracking deliberation versus majoritarian preference aggregation in AI governance"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "correctness": 0.8,
+  "clarity": 0.92,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets an important conceptual load-bearing term (\u201caccurate/correct\u201d moral view) used in defining WAM-convergence and in the conditional claim that WAM-convergence would yield a mostly-great future. If the notion of \u2018accuracy\u2019 can\u2019t be held fixed across the metaethical cases the essay considers, then some comparisons and inferences about (non-)convergence are harder to evaluate, so centrality is moderate. However, the essay often signals perspective-dependence (\u201cby their lights,\u201d \u2018preferred view\u2019) and could fairly easily regiment the terminology (e.g., define \u2018accurate\u2019 as \u2018correct on moral realism, and matches a specified idealization/endorsement target on antirealism\u2019), so the critique doesn\u2019t substantially undercut the main substantive thrust (skepticism about WAM-convergence; conditional optimism via trade). Thus strength is only modest. Most of what the critique says is true: there is some slippage between \u2018single determinate correct target\u2019 talk and agent-relative/anti-realist framing, and this can blur what is being predicted. The critique is clear, focused, and contains little extraneous material.",
+  "title": "Shifting definitions of moral accuracy undermine the convergence argument"
+}

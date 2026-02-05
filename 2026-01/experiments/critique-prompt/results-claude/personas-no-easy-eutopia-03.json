@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.18,
+  "reasoning": "The critique mainly targets the essay\u2019s (tentative) suggestion in the conclusion that convergence/compromise or truth-seeking deliberation might still steer us to a near-best future. That\u2019s not central to the essay\u2019s core thesis (\u201cno easy eutopia\u201d / value fragility / most moral views are fussy), and the authors explicitly bracket the steering question for a later essay, so centrality is modest. Within that narrower target, the critique offers a plausible mechanism (institutional capture by concentrated interests) and some relevant historical analogies, which does weaken the optimism of that steering pathway. However, it overclaims predictability (\u201cnever held in practice,\u201d \u201cany institutional arrangement\u201d) and doesn\u2019t engage with countermeasures (institution design, checks/competition, AI-mediated governance, unusual future conditions), so it only partially refutes the attacked claim. Most points are broadly plausible but include exaggerated universals, keeping correctness below 1. The argument is clear, focused on a single issue, and contains little dead weight.",
+  "title": "Institutional capture makes truth-seeking deliberation favor powerful interests over eutopia"
+}

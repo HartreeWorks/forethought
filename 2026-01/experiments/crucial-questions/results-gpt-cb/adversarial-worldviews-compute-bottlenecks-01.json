@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.82,
+  "paper_specificity": 0.93,
+  "tractability": 0.42,
+  "clarity": 0.76,
+  "decision_hook": 0.95,
+  "dead_weight": 0.14,
+  "overall": 0.64,
+  "reasoning": "Cruciality is high because the core strategic fork in the paper is whether compute is a hard bottleneck (rho materially < 0) versus near\u2013Cobb\u2013Douglas (rho\u22480), which would shift emphasis between compute/hardware governance and rapid-takeoff preparedness. Paper-specificity is very high: it directly interrogates the paper\u2019s central quantitative move (mapping rho to max-speed ceilings and the claim -0.2<rho<0). Tractability is the main weakness: estimating an \u2018effective rho\u2019 for post-OAI AI R&D over 1\u20135 OOM increases in L is only partially operationalisable and would rely on uncertain proxies, modeling assumptions, or limited early-post-OAI data rather than clean empirical identification. Clarity is good but not perfect because \u2018AI cognitive labour\u2019, \u2018after OAI\u2019, and \u2018effective rho across 1\u20135 OOM\u2019 leave room for interpretation (how to measure L, what tasks count as R&D, whether rho is constant or piecewise). Decision hook is excellent with explicit action-relevant thresholds. Dead weight is low; the worldview/implication bullets add some non-essential text but don\u2019t obscure the question.",
+  "title": "Compute-labor substitutability elasticity in post-OAI AI R&D"
+}

@@ -1,0 +1,12 @@
+{
+  "centrality": 0.85,
+  "strength": 0.6,
+  "correctness": 0.88,
+  "clarity": 0.92,
+  "dead_weight": 0.12,
+  "single_issue": 0.9,
+  "overall": 0.58,
+  "reasoning": "The critique targets a highly central move in the essay: the slide from \u201cmany ways to lose value / eutopia is fragile\u201d to an implicitly probabilistic claim that, conditional on survival under default dynamics, the mass of futures above the \u2018mostly-great\u2019 threshold is small. If that inference fails, the essay\u2019s main upshot (no easy eutopia under default) is substantially weakened even if the qualitative \u2018fragility\u2019 thesis stands. The critique is moderately strong: it correctly notes that enumerating failure modes or invoking a multiplicative toy model does not, by itself, determine probability mass without assumptions about independence/correlation, attractors, detectability/corrigibility, and lock-in irreversibility; it also specifies what a bridging model would need. However, it does not fully refute the position because the original essay also offers more than mere enumeration (e.g., claims about fat-tailed value-efficiency, linear/unbounded views, and bounded-view sensitivity to bads), which\u2014if accepted\u2014can partially support narrow-target conclusions even without a full sociological generative model. Most statements are accurate and appropriately hedged; empirical suggestions (e.g., state-capacity correlations) are plausible but not established, so correctness is high but not perfect. The writing is clear and focused with little dead weight, and the multiple subpoints largely serve the single methodological objection.",
+  "id": "c20",
+  "title": "The Target-Size/Value-Loss Conflation"
+}

@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.86,
+  "tractability": 0.45,
+  "clarity": 0.67,
+  "decision_hook": 0.92,
+  "dead_weight": 0.18,
+  "overall": 0.61,
+  "reasoning": "The question targets a central strategic fork in the paper: whether \u2018mostly-great\u2019 futures are common by default or require deliberate steering, with explicit thresholds that would materially change prioritisation (high cruciality, strong decision hook). It is tightly tied to the paper\u2019s core construct\u2014fussiness/easygoingness defined via P(mostly-great | survival, no de dicto optimisation) (high paper-specificity). However, it is only moderately tractable: \u2018mostly-great\u2019, \u2018reasonable distribution\u2019, and \u2018no serious coordinated de dicto optimisation\u2019 are hard to operationalise, and any estimate is heavily model- and moral-view-dependent; expert elicitation/forecasting can provide partial but noisy answers. Clarity is decent but not crisp because the conditioning events and the evaluative standard for \u2018mostly-great\u2019 remain underspecified in practice. Little dead weight: the added bullets mostly sharpen motivation and proposed methods.",
+  "title": "Default probability of flourishing futures without coordinated optimization"
+}

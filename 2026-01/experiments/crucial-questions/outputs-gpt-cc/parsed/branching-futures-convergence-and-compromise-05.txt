@@ -1,0 +1,5 @@
+**Will the distribution of effective power over frontier AI (compute, deployment, and agenda-setting) become more concentrated or more pluralistic over the next 1–2 years?**  
+   - **The branch point:** *“Concentration of power blocks representation of correct views”* vs *“Sufficiently diffuse power enables partial AM-convergence + bargaining”*  
+   - **Paper anchor:** Section 3.5 (concentration of power as a key blocker to trade-based good futures).  
+   - **Indicators:** If Branch A is more likely, we’d observe increasing compute and model access concentration (HHI-style metrics rising), tighter closed-model dominance, and policy that centralizes deployment authority in a few labs/states; if Branch B, we’d observe sustained high-quality open/competitive access, multiple independent actors with frontier-grade systems, and governance structures that preserve contestability and voice.  
+   - **Time sensitivity:** **Within 12–24 months**, because power concentration can rapidly determine which values are even present at the bargaining table before lock-in dynamics intensify.

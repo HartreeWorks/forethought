@@ -1,0 +1,11 @@
+{
+  "centrality": 0.15,
+  "strength": 0.6,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.16,
+  "reasoning": "The critique targets a fairly small part of the overall case (one sub-argument under point 4 about a survey on researcher quality), so centrality is low: even if the critique fully landed, most of the position\u2019s multi-pronged case against a strong compute bottleneck would remain. Within that narrow target, it has decent strength: the cited survey indeed doesn\u2019t directly identify the elasticity of substitution between cognitive labor and compute (it varies researcher quality in today\u2019s regime, not L holding K fixed across wide ranges), so it weakens the evidential support that this survey provides for \u201craise \u03c1\u201d. However, it slightly overreaches by suggesting the survey supports complementarity; the safer claim is just non-diagnostic/consistent with both. The critique is clear, focused on one issue, and contains little to no fluff.",
+  "title": "Survey evidence on researcher quality doesn't address compute complementarity"
+}

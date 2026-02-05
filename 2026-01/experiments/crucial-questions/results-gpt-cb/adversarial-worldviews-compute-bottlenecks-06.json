@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.82,
+  "paper_specificity": 0.56,
+  "tractability": 0.54,
+  "clarity": 0.76,
+  "decision_hook": 0.92,
+  "dead_weight": 0.16,
+  "overall": 0.66,
+  "reasoning": "Crucial because it could substantially shift governance priorities between compute controls vs broader lab/audit/infosec and coordination mechanisms. Moderately paper-specific: it\u2019s prompted by this paper\u2019s claim that compute bottlenecks may not bind early and that progress could be software-driven, but similar questions arise in many SIE/takeoff/governance discussions. Tractability is medium: can be partially addressed with threat models, historical analogies (export controls), measurement of substitution/displacement into software efficiency, and scenario-based policy analysis, but true causal impact on \u201cSIE risk\u201d is hard to operationalize and depends on uncertain strategic responses. Clarity is decent, though it bundles two mechanisms (risk reduction vs displacement/coordination harm) and leaves \u2018meaningfully reduce SIE risk\u2019 somewhat underspecified. Decision hook is excellent and explicitly lays out strategy flips. Dead weight is low: most text serves to frame the fork and implications.",
+  "title": "Compute governance's effectiveness against late-stage software-driven acceleration"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.7,
+  "strength": 0.25,
+  "correctness": 0.4,
+  "clarity": 0.7,
+  "dead_weight": 0.2,
+  "single_issue": 0.9,
+  "overall": 0.2,
+  "reasoning": "The critique targets a fairly central modeling assumption in the essay\u2019s Section 3 (and, indirectly, the convergence framing in Section 2): that there will be identifiable agents/groups with sufficiently stable preferences to bargain/compromise. If that assumption failed comprehensively, the moral-trade route to mostly-great futures would be significantly weakened. However, the critique mostly asserts (via complexity/chaos metaphors) that fluid identities make trade/convergence impossible, without showing why bargaining couldn\u2019t occur among whatever stable decision-making loci remain (institutions, AIs, coalitions, copies that coordinate, governance layers, etc.), or why preferences couldn\u2019t be stable enough over relevant timescales. Several claims are overstated (e.g., \u201cYou cannot have trade or convergence\u201d) and speculative. Still, it usefully flags a potentially under-discussed complication (posthuman identity/agent-boundary instability) that could reduce the applicability of the essay\u2019s game-theoretic/bargaining intuitions.",
+  "title": "Fluid post-human identities undermine stable agent negotiation models"
+}

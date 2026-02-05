@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.72,
+  "paper_specificity": 0.9,
+  "tractability": 0.55,
+  "clarity": 0.8,
+  "decision_hook": 0.75,
+  "dead_weight": 0.12,
+  "overall": 0.69,
+  "reasoning": "This targets a load-bearing assumption in the paper\u2019s core argument for \u201cno easy eutopia\u201d: that overall value is (approximately) multiplicative across many quasi-independent dimensions, making high-value futures rare. If that modeling choice is substantially wrong\u2014e.g., due to strong positive correlations between dimensions or more additive/saturating aggregation\u2014then the paper\u2019s central conclusion about eutopian fragility could weaken materially, affecting how much to prioritise \u2018flourishing steering\u2019 versus \u2018mere survival\u2019 (high cruciality). It is tightly tied to this specific paper\u2019s framework and toy model (high paper-specificity). The question is mostly clear, though terms like \u201caccurate,\u201d \u201ctested against,\u201d and which \u201cstructured moral theories\u201d count leave some scope ambiguity (clarity < 1). It\u2019s partially tractable via formal modeling (compare multiplicative vs additive/concave aggregators across moral theories), sensitivity analyses with correlated dimensions, and expert elicitation/empirical proxies for correlation structure, but definitive validation is hard and underdetermined (moderate tractability). It includes a clear hinge: correlated/additive implies less fragility; independent/multiplicative implies more (good decision hook). Minimal extra preamble, so low dead weight.",
+  "title": "Multiplicative independence assumptions in moral value aggregation"
+}

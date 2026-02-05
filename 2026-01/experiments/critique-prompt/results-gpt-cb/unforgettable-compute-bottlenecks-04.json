@@ -1,0 +1,11 @@
+{
+  "centrality": 0.7,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.38,
+  "reasoning": "The critique targets a central pillar of the post\u2019s case against compute-bottleneck skepticism: the use of a smooth CES-style marginal substitution picture to argue bottlenecks likely bite only late, so early acceleration can proceed for several OOMs. If R&D is instead governed by compute-gated milestone thresholds (minimum experiment/training sizes to enter new regimes), then early-stage \u201csmooth\u201d acceleration could fail, undermining the post\u2019s comfort about early SIE dynamics\u2014hence fairly high centrality. However, the critique is mostly a modeling counter-possibility rather than a demonstrated refutation: it provides no concrete evidence that key self-improvement steps are in fact discretely gated in a way that cannot be relieved by algorithmic efficiency gains, better extrapolation, or alternative low-compute routes (some of which the post explicitly discusses). So it substantially weakens but does not overturn the argument. The claims are broadly plausible (ML often exhibits thresholds and phase changes), though the strongest claim (\u201ccannot be met with constant compute, no matter how much cognitive labor\u201d) is overstated given the post\u2019s own emphasis on efficiency improvements and non-frontier experimentation. The critique is clear, focused on a single issue, and contains little to no dead weight.",
+  "title": "Discrete capability thresholds may create sudden compute bottlenecks CES models miss"
+}

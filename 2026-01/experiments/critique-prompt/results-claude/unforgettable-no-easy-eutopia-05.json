@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.12,
+  "reasoning": "The critique targets the paper\u2019s use of \u201cCommon-sense utopia\u201d as an intuitive benchmark and argues it\u2019s chosen to make scale-sensitive views look fussy. This point is somewhat relevant (the benchmark is indeed small-scale and will systematically underperform on linear/scale-sensitive views), but it is not central to the paper\u2019s overall case, which also rests heavily on the broader \u2018many independent moral pitfalls\u2019 argument and (especially) Section 3\u2019s more general claims about linearity/boundedness and fussiness. Even if the benchmark were changed, much of the argument could stand. The critique\u2019s main overreach is claiming the paper\u2019s conclusion \u201cdepends entirely\u201d on this benchmarking and that it\u2019s \u201cdeliberately\u201d constructed; that seems false/unsupported given the paper\u2019s broader and more systematic argumentation and its explicit discussion of scale. The critique is clear, focused, and contains little dead weight, but it only modestly weakens a non-essential part of the overall position.",
+  "title": "The common-sense utopia benchmark is gerrymandered to favor scale-insensitive views"
+}

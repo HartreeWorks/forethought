@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.3,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.15,
+  "reasoning": "The critique targets one supporting plank of the post\u2019s broader case (the claim that economic L/K substitution estimates miss the effect of smarter/faster researchers), but the position offers multiple other reasons compute bottlenecks may be weak, so even a full refutation here wouldn\u2019t collapse the overall conclusion (moderate-low centrality). The objection is conceptually plausible (burden-of-knowledge / diminishing returns to ideas), but it is asserted rather than argued, doesn\u2019t engage the post\u2019s specific mechanisms for leverage from extra cognition (e.g., better experiment design, stack optimization, extrapolation from small runs), and overstates by claiming the post assumes linearity and that the bonus is \u201ccanceled out\u201d (limited strength). The main factual/conceptual points are not obviously false, but some characterizations are doubtful/overconfident, yielding middling correctness. It is clear and focused with little extraneous material.",
+  "title": "Exponentially harder R&D problems offset smarter AI researchers"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.45,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.33,
+  "reasoning": "The critique targets the paper\u2019s key operational setup for \u201cfussiness\u201d: the probability of mostly-great futures conditional on a baseline of \u201cno more serious optimisation pressure than today.\u201d That baseline matters a lot for the paper\u2019s main upshot about how likely mostly-great futures are absent deliberate steering, but it is not the only pillar of the position (the paper also argues for intrinsic fragility/fussiness of many moral views), so centrality is moderate rather than maximal. The critique has moderate strength: it successfully highlights an underspecification that could shift the reference class and thus the estimated rarity of eutopia, but it does not show that realistic default dynamics would in fact supply enough coordination/learning to make the target broad, nor does it directly rebut the paper\u2019s claims about value being \u2018narrow\u2019 under many plausible moral theories. Most statements are accurate/plausible (the baseline is indeed vague; the distinctions between BAU vs no explicit optimisation vs no aligned powerful actor are real), though some claims about future societies being more reflective/coordinated are speculative. The critique is clear, focused on a single methodological issue, and contains little filler.",
+  "title": "The baseline excludes stabilizing social dynamics that could widen the target"
+}

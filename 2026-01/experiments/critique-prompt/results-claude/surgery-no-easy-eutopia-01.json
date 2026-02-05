@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.5,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.27,
+  "reasoning": "The critique targets Section 2.4\u2019s load-bearing illustrative model: that future value behaves like a product of (roughly) independent factors, implying mostly-great futures are rare. If that specific independence-style multiplicative picture were wrong, some of the paper\u2019s quantitative/intuition-building support for \u201ceutopian fragility\u201d would weaken, but the overall \u201cno easy eutopia\u201d thesis also has many other supports (historical moral catastrophes, diverse moral theories being \u2018fussy\u2019, bounded/unbounded value-function analysis), so centrality is moderate rather than decisive. As a countermodel, correlation/transfer of moral competence is a plausible and relevant challenge: if high performance on one dimension raises the conditional probability of high performance on others, then independence-based rarity claims can be overstated. However, it doesn\u2019t fully refute the paper\u2019s core claim because (i) multiplicative fragility can persist under correlation, (ii) the paper\u2019s toy model is explicitly labeled a toy/illustrative distribution, and (iii) the broader argument for fussiness doesn\u2019t rely solely on independence. The critique\u2019s main factual/logical points are mostly correct, though it asserts \u201cdramatically\u201d without quantification. It is clear, focused, and has little dead weight.",
+  "title": "Correlated moral competence across domains enlarges the target"
+}

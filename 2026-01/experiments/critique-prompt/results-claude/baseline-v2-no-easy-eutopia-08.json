@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.3,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "The critique targets a real dependency in Section 3: the paper\u2019s conclusion that \u201cmost plausible views are fussy\u201d relies heavily on a bounded vs unbounded taxonomy plus further structural assumptions about scaling and aggregation. If that taxonomy were badly mismatched to the space of plausible views, the systematic argument would weaken. However, the position also has an independent, non-taxonomy-based case in Section 2 (moral-catastrophe fragility/multiplicative factors), so even a successful taxonomy objection would not collapse the overall \u2018no easy eutopia\u2019 conclusion, yielding moderate centrality.\n\nStrength is limited because the critique remains schematic: it asserts that many plausible views are context-dependent/thresholded or mixed across value-types, but does not show that such views are both (i) plausibly correct and (ii) importantly more \u201ceasygoing\u201d under the paper\u2019s own target question. The paper also already introduces multiple sub-cases within bounded views (bounded overall vs difference-making; separate vs joint aggregation), which partially anticipates the \u2018not cleanly classifiable\u2019 worry. So this objection mostly narrows scope rather than refutes the key claims.\n\nCorrectness is fairly high: moral theories can indeed have piecewise/threshold behavior or mixed aggregation, so a strict binary framing can oversimplify. But it somewhat overstates how binary the paper actually is, since it already discusses important internal heterogeneity within \u201cbounded.\u201d The critique is clear, focused, and contains little to no dead weight.",
+  "title": "Moral boundedness is often context-dependent rather than binary"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.5,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.85,
+  "overall": 0.42,
+  "reasoning": "The critique targets a fairly central pillar of the paper\u2019s headline conclusion (\u201cmost plausible moral views are fussy\u201d): the Section 3 formal framework (VNM-representable, cardinal, resource-scaling taxonomy) and the move from results inside that framework to a broad claim about moral philosophy. If that generalization fails, the paper\u2019s strongest cross-theory support for \u2018no easy eutopia\u2019 is weakened, though Section 2\u2019s informal \u2018fragility\u2019 considerations would still stand, so centrality isn\u2019t 1. The critique has moderate refutational force: it plausibly shows the paper\u2019s conclusion should be conditional on a narrower class of theories and that some key claims (e.g., about separability/linearity and what boundedness implies \u201cin practice\u201d) are under-argued; however, it does not demonstrate that the excluded theories are actually easygoing (only that they don\u2019t fit neatly), so it only partially undermines the substantive conclusion. Most of the critique\u2019s points are correct and well-aimed (cardinal/VNM assumptions exclude many views; boundedness-to-linearity depends on what\u2019s being bounded/concave in; separability claims are contestable), and it is clear and focused with little fluff.",
+  "title": "Narrow formal framework may generate fussiness as a modeling artifact"
+}

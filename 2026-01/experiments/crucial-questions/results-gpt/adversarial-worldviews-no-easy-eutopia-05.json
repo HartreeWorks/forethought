@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.75,
+  "paper_specificity": 0.6,
+  "tractability": 0.5,
+  "clarity": 0.7,
+  "decision_hook": 0.9,
+  "dead_weight": 0.15,
+  "overall": 0.61,
+  "reasoning": "Cruciality is high because the answer plausibly swings prioritisation between digital-minds welfare/rights work vs other \"fragility\" dimensions the paper highlights. It is moderately paper-specific: it targets a concrete fragility pathway emphasized in Section 2.3.2, but the question (digital moral patients + rights failures) is also a common, reusable concern in broader AI ethics/safety. Tractability is medium: partial progress is feasible via forecasting of economic incentives for digital labor/agents, technical roadmaps for emulation/agentic AI, governance trend analysis, and moral-patienthood indicators; however, the core uncertainty about sentience/moral status and long-run societal choices limits decisiveness. Clarity is decent but not fully crisp because thresholds like \"vast numbers,\" \"plausibly have moral status,\" and \"dominant source of value-loss\" are not operationalised. Decision hook is excellent and explicitly conditional. Dead weight is low: the added context (worldview/anchor/implications) mostly supports actionability rather than obscuring the question.",
+  "title": "Digital sentience prevalence and moral status recognition likelihood"
+}

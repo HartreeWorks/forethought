@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.15,
+  "correctness": 0.45,
+  "clarity": 0.8,
+  "dead_weight": 0.15,
+  "single_issue": 0.95,
+  "overall": 0.12,
+  "reasoning": "The critique targets a real component of the essay (Section 3.2\u2019s case that unbounded linear views make mostly-great futures a narrow target because value-per-resource is highly uneven/fat-tailed), but that component is only one pillar among several (eutopian fragility in \u00a72, bounded-view analysis in \u00a73.3), so centrality is moderate. Substantively, the critique largely misfires: \u201claw of diminishing marginal utility\u201d is not a general refutation of the paper\u2019s \u2018linear in resources\u2019 framework (which is about the moral value scaling with resources/space-time parcels, not consumer-utility for repeated units of a single good to the same agent), and diminishing returns can coexist with fat-tailed value-efficiency across different uses. The \u2018winner-take-all\u2019/\u201cstable economy\u201d framing reads as a strawman of the paper\u2019s claim (about moral evaluation of futures) rather than an argument against it, lowering strength and correctness. Nonetheless the point that linear/unbounded modeling excludes some kinds of saturation/concavity is partially correct, and the critique is fairly clear and focused with little purely irrelevant filler.",
+  "title": "Diminishing marginal utility undermines the case for winner-take-all resource allocation"
+}

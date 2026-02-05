@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.45,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.38,
+  "reasoning": "The critique targets a fairly central move: the post\u2019s operational handle on \u201csoftware progress\u201d/SIE via \u201ceffective training compute\u201d improvements, and the implicit assumption that faster AI R&D pace cleanly cashes out as multiplicative capability gains without shifting hardware constraints. If that mapping fails, the post\u2019s quantitative framing of how far/fast a software-only explosion can go (and thus how much compute bottlenecks matter) is materially weakened, though not totally destroyed because the post\u2019s broader thesis is about R&D pace vs fixed compute, not solely about a single capability numeraire. The objection has moderate refutational force: it shows the chosen metric can miscount progress and reintroduce bottlenecks (tokens, memory bandwidth, inference latency), but it doesn\u2019t directly show compute can\u2019t be substituted in the relevant R&D loop, nor does it engage the post\u2019s reasons for expecting high substitutability/alternative routes. Most claims are plausible and largely correct, albeit somewhat speculative about which constraints dominate. The critique is clear, focused on one issue, and contains little dead weight.",
+  "title": "Software progress metrics conflate diverse improvements with multiplicative compute gains"
+}

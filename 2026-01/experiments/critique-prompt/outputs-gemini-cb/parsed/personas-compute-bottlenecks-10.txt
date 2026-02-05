@@ -1,0 +1,4 @@
+[The Resource Economist]
+**Target claim:** The assumption that efficiency gains (software progress) lead to reduced need for compute (substitutability).
+**Failure mode:** Jevons Paradox. Historically, every increase in the efficiency of using a resource leads to *increased* consumption of that resource, not less. If AI researchers make training 10x more efficient, the economic imperative will be to train a model that is 100x larger/more complex to capture the marginal value. The demand for compute is elastic.
+**Consequence:** The "fixed compute" scenario is economically unstable. The pressure to acquire more hardware will intensify, not vanish. If hardware is truly fixed, the "efficiency gains" will be spent on increasing model width/depth until the system is bottlenecked by memory or latency, effectively halting the perceived "explosion" in wall-clock time.

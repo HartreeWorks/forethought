@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.25,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.18,
+  "reasoning": "The critique targets the essay\u2019s emphasis on de dicto motivation/convergence as a key route to a \u201cmostly-great\u201d future, which is a meaningful part of the essay\u2019s structure (section 2 framing) but not the whole position (the essay also develops trade/compromise routes and considers non-de-dicto paths in section 4). So centrality is moderate rather than high. The refutation is weak because it largely asserts\u2014rather than argues\u2014that most mostly-great futures are characterized by broad low-level outcome overlap (e.g. \u2018no agony, people happy\u2019), which clashes with the essay\u2019s core \u2018no easy eutopia\u2019 premise about narrow targets, high optimization, and divergence between plausible de re aims. It also somewhat mischaracterizes the essay as making de dicto convergence a requirement for success simpliciter; the essay treats it as one pathway and explicitly discusses alternatives. Still, the critique is partly correct that the de dicto/de re distinction can overstate required philosophical agreement and that outcome-level coordination can sometimes suffice. It is clear, focused, and contains little filler.",
+  "title": "Demanding de dicto convergence turns practical coordination into an impossible purity test"
+}

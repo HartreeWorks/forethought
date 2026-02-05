@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.9,
+  "tractability": 0.55,
+  "clarity": 0.8,
+  "decision_hook": 0.95,
+  "dead_weight": 0.15,
+  "overall": 0.72,
+  "reasoning": "Cruciality is high because the paper\u2019s core dispute is whether compute imposes an early ceiling on software-driven acceleration; pinning down whether \u03c1 is below or above ~\u22120.2 would materially shift governance vs fast-alignment/crisis-prep prioritization. Paper-specificity is very high: the question directly targets the paper\u2019s CES framing, its suggested range (\u22120.2<\u03c1<0), and the derived \u201cmax speed\u201d implications. Tractability is moderate: one can run fixed-budget agentic-R&D experiments and fit scaling laws, but extrapolating from today\u2019s agents/teams to \u201cmillions of AGIs\u201d and ensuring the construct validity of \u2018pace of AI software progress\u2019 vs \u2018compute\u2019 is difficult, and results may be heavily regime-dependent/non-CES. Clarity is good but not perfect due to ambiguities about how to operationalize \u2018cognitive labor scaled by 1\u20133 OOM\u2019, what counts as \u2018compute held fixed\u2019 (training vs inference vs wall-clock), and what metric defines \u2018progress speed\u2019 (capability, loss, cost-efficiency, time-to-SOTA, etc.). Decision hook is explicit and well-formed (strategy A vs B). Dead weight is low: most text either specifies the parameter, anchors to the paper, or lays out an empirical approach, though some framing could be shortened.",
+  "title": "Complementarity ceiling for cognitive labor in fixed-compute R&D scaling"
+}

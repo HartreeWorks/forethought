@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.75,
+  "overall": 0.25,
+  "reasoning": "The critique targets the position\u2019s \u201cstrongest link\u201d framing (that multiple routes to progress mean compute bottlenecks must constrain all routes). That claim is supportive but not the core of the post (which also leans on substitutability/\u03c1 arguments, experiment efficiency, extrapolation issues, etc.), so centrality is moderate-low. The critique plausibly notes real-world interdependencies and that shared infrastructure can create correlated bottlenecks, and it usefully flags that constraints can bite before a hard ceiling. However, it doesn\u2019t show that all proposed routes are compute-bottlenecked in the relevant sense (some routes in the position explicitly aim to reduce need for near-frontier compute), and the post already partially concedes gradual/late-stage bottlenecks, so the refutation is limited. Most claims are broadly plausible but somewhat overstated (e.g., compute necessarily bottlenecks all routes \u201csimultaneously\u201d). Clear, focused, and with little fluff.",
+  "title": "Shared infrastructure creates correlated failures across supposedly parallel research paths"
+}

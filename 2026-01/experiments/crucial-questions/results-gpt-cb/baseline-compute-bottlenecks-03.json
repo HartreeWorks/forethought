@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.75,
+  "paper_specificity": 0.82,
+  "tractability": 0.55,
+  "clarity": 0.76,
+  "decision_hook": 0.62,
+  "dead_weight": 0.12,
+  "overall": 0.67,
+  "reasoning": "This targets a central load-bearing move in the paper\u2019s rebuttal to compute-bottleneck arguments: that algorithmic efficiency effectively increases \u201cexperiments\u201d even with fixed hardware, and that near-frontier experiments may not be required. If the empirical reality is that major capability gains disproportionately require near-frontier (large, expensive) runs, then compute complementarity is stronger and the paper\u2019s optimism about early-stage SIE acceleration weakens substantially (high cruciality). The question is tightly tied to this paper\u2019s specific claims about experiments vs compute and the near-frontier objection (high paper-specificity). It\u2019s partly tractable via historical case studies of key algorithmic breakthroughs, scaling-law extrapolation performance, analysis of how often SOTA advances came from sub-frontier experiments, and org-internal logs where available\u2014but data access/confounding make it hard to answer cleanly (moderate tractability). The question is mostly clear, though terms like \u201cinformative experiments\u201d and \u201cnear-frontier capability\u201d need operational definitions/metrics (good but not perfect clarity). It gestures at implications (tighter constraints if near-frontier is required) but doesn\u2019t fully spell out specific decision pivots or thresholds (moderate decision hook). The added context is brief and mostly relevant (low dead weight).",
+  "title": "Algorithmic efficiency gains vs constraint of near-frontier experiments"
+}

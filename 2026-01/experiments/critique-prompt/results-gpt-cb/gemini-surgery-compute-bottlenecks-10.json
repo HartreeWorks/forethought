@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.55,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.45,
+  "reasoning": "The critique targets a central modeling move in the position: treating cognitive labor L as scalable independently of compute K (including in the \u201cearly stages\u201d claims about 1\u20133 OOM more cognitive labor with fixed compute). If L is in practice largely implemented as additional AGI instances, then inference compute and memory/communication constraints couple L to K, undermining the paper\u2019s use of a CES-style tradeoff where L can rise while K is held fixed. This would especially threaten the conclusion that compute bottlenecks are unlikely to matter early, since the \u2018extra researchers\u2019 would directly compete for the same compute budget as experiments. However, it does not fully refute the overall position: (i) the author\u2019s L may include \u2018smarter/faster per-FLOP\u2019 cognition (algorithmic improvements) rather than just more instances; (ii) the argument for weaker bottlenecks also relies on making experiments more compute-efficient and on non-frontier experimentation, which can still generate acceleration even if parallel researcher count is bounded. The critique is mostly correct and clearly stated, with little fluff, but it relies on an empirical premise (researcher effectiveness scaling with model size/speed, net researcher-seconds not increasing much) that is plausible yet not established, keeping strength moderate.",
+  "title": "Cognitive labor and compute are coupled, not independently scalable"
+}

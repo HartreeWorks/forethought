@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.6,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.38,
+  "reasoning": "The critique targets the essay\u2019s optimism about moral trade being enabled by superintelligence via \u201ciron-clad contracts.\u201d Trade/compromise is a major pillar of the essay\u2019s conditional optimism (esp. section 3), but not the only route discussed, and the essay hedges that institutions and realized trade are uncertain; thus centrality is moderate rather than decisive. The objection is substantively strong: for high-stakes inter-agent bargains with copying, self-modification, delegation, and hidden channels, contract enforcement/identity/observability are nontrivial and the essay doesn\u2019t specify enforcement primitives, so the \u2018contracts solve trust\u2019 move is under-argued and could fail in precisely the most important cases. Still, it doesn\u2019t fully refute trade (there could be other enforcement mechanisms, norms, or architectures), and the essay only claims superintelligence \u201ccould\u201d help. Most claims in the critique are plausible/true at a high level, though it likely overstates by implying section 3\u2019s story collapses entirely and that contracts are the \u201cmain enabling technology.\u201d It is clear, focused on a single issue, and contains little fluff.",
+  "title": "Superintelligent contracts lack enforceable primitives when agents can fork or self-modify"
+}

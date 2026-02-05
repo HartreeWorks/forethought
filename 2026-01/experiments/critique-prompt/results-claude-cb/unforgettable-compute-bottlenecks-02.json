@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.35,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.3,
+  "reasoning": "The critique targets a fairly central move in the post: rejecting CES-based \u03c1 estimates as \u201cheroic extrapolation\u201d while still offering a confident-ish range for \u03c1 (\u2248[-0.2,0]) and dismissing low implied max-speeds as \u201cimplausible.\u201d If that epistemic move is undermined, the post\u2019s quantitative confidence about when compute bottlenecks bite is weakened (centrality ~0.6), though it doesn\u2019t directly refute many other listed counterarguments (e.g., experiment efficiency gains, alternative research routes), so it\u2019s not fully position-collapsing. The argument has moderate strength: it credibly points out an asymmetry/selection problem in how extrapolation skepticism is applied, but it doesn\u2019t show that the author\u2019s non-econometric considerations are valueless or equally unreliable, nor does it engage the post\u2019s multiple independent reasons for higher substitutability; so it weakens confidence rather than refuting the claim (strength ~0.35). It is mostly correct: both sides are extrapolating beyond observed regimes, and \u201cmax speed\u201d intuitions are indeed speculative; minor overstatement is that we\u2019ve \u201cnever observed\u201d even 10\u00d7 more researchers (there is some variation), but the intended point (not orders-of-magnitude variation, not superintelligent researchers) stands. Clear, focused, and minimal fluff.",
+  "title": "Extrapolation skepticism is applied selectively to empirical estimates but not armchair intuitions"
+}

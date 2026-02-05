@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.25,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.15,
+  "reasoning": "The critique targets the paper\u2019s use of digital-beings scenarios as evidence that mostly-great futures are a narrow target. That\u2019s relevant, but it\u2019s only one illustrative subsection among many independent considerations (animal welfare, population ethics, space governance, multiplicative fragility model, and the technical bounded/unbounded-value discussion), so centrality is limited. Strength is modest because the paper\u2019s point in that subsection is largely: (i) different plausible moral views generate different failure modes, and (ii) the future could lock in a big mistake without inhabitants perceiving it as such; it is not trying to establish a single prioritized criterion for digital rights. So pointing out that opposite moral premises yield opposite \u2018catastrophes\u2019 doesn\u2019t undercut the intended conclusion as much as claimed. Still, the critique is partly correct that without a worked method for resolving/aggregating such conflicts, these examples function more as possibility illustrations than as quantified evidence that the target is narrow. The critique is clear, focused, and contains little filler.",
+  "title": "Conflicting digital beings concerns make the catastrophe category unfalsifiable"
+}

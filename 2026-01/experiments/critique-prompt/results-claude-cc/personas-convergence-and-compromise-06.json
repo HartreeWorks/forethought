@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.55,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.2,
+  "reasoning": "The critique targets the paper\u2019s opening analogy (powered flight/selection honing in on a narrow target) used to rebut the inference from \u201cno easy eutopia\u201d to near-zero expected flourishing. That analogy is relevant, but it\u2019s not structurally central to the essay\u2019s later case, which largely rests on substantive discussion of WAM-convergence, partial convergence plus trade, and blockers/threats. So centrality is modest. Within that limited target, the critique reasonably weakens the analogy by highlighting a key disanalogy: aviation had rapid iteration and clear empirical feedback, whereas \u2018moral truth\u2019 about cosmic-scale futures plausibly lacks cheap tests and fast, unambiguous feedback, making \u2018honing in\u2019 harder. However, it doesn\u2019t show the essay\u2019s broader claim false, and the essay itself already emphasizes hard epistemics and divergence, so the additional damage is limited. Most claims are plausible though somewhat overstated (e.g., saying moral convergence has \u201cnone\u201d of the relevant properties; there can be partial feedback via local moral experiments/institutions). The critique is clear, focused, and has little dead weight.",
+  "title": "The aviation analogy fails because moral progress lacks iterative feedback mechanisms"
+}

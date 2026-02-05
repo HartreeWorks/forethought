@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.25,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.18,
+  "reasoning": "The critique targets a moderately central element: the paper\u2019s framing that a \u201cbig target\u201d (common-sense utopia) vs a \u201cnarrow target\u201d (near-best future) matters for how likely we are to get mostly-great futures by default, and that \u201cno easy eutopia\u201d follows from target narrowness. However, the paper explicitly brackets navigation/steering (factors 2\u20133) and even notes that narrow targets might still be hit via convergence/optimization (and defers that to the next essay), so the critique partly shifts the debate rather than undermining the core claim that eutopia is a narrow target under many plausible value theories. Argumentatively, it asserts (without support) a strong \u201cinstrumental convergence of moral progress\u201d thesis and that common-sense utopia is the only reliable mechanism; it also doesn\u2019t engage the paper\u2019s specific reasons for fragility (multiplicative factors, population ethics, digital beings, bounded/unbounded views, etc.) or the paper\u2019s conditioning on \u201cno serious coordinated de dicto optimization.\u201d The key point\u2014that liberal abundance plus reflection could improve the odds of steering toward the narrow target\u2014is plausible, hence moderate correctness, but it does not substantially refute the position as stated. The critique is clear, focused on one issue, and contains little dead weight.",
+  "title": "Common-sense utopia may be the necessary path to discovering the narrow target"
+}

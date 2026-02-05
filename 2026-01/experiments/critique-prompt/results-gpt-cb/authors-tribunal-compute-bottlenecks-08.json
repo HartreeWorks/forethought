@@ -1,0 +1,11 @@
+{
+  "centrality": 0.32,
+  "strength": 0.45,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.08,
+  "single_issue": 0.95,
+  "overall": 0.27,
+  "reasoning": "The critique targets one specific plank of the post\u2019s case against the compute-bottleneck objection: the claim that negative-\u03c1 estimates imply an \u201cimplausibly low\u201d ceiling on progress speed (argument #6). That point supports the author\u2019s overall conclusion that economic \u03c1 estimates likely overstate bottlenecks, but the post has multiple largely independent counterarguments (#1\u20135, #7). So centrality is moderate (~0.3): refuting this would weaken confidence but wouldn\u2019t collapse the overall position.\n\nStrength is moderate: it credibly undercuts the rhetorical force of \u201cimplausibly low\u201d by noting the author\u2019s appeal is mostly intuitive and that many proposed gains still require compute for validation, may saturate, or be limited by reliable evaluation/robustness. However, it doesn\u2019t directly show the ceilings aren\u2019t implausible; it mainly presses for calibration and highlights plausible failure modes without quantifying them. \n\nCorrectness is fairly high: these are standard, reasonable constraints in empirical ML R&D, and the meta-point about lack of empirical anchoring is largely accurate. Clarity is high and it stays tightly on one issue. Dead weight is minimal.",
+  "title": "Appeals to \u201cimplausibly low max speed\u201d lack empirical calibration and ignore verification limits"
+}

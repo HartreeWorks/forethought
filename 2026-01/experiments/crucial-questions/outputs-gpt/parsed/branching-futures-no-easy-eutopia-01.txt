@@ -1,0 +1,5 @@
+**How fat-tailed is the distribution of “value per unit resource” across plausible future uses of compute/energy/matter (i.e., do the top ~0.1–1% uses dominate total attainable value)?**
+   - **The branch point:** *“Linear/unbounded + fat-tailed efficiency → narrow target”* vs *“Flatter efficiency → broad target (closer to ‘easy eutopia’)”.*
+   - **Paper anchor:** Section **3.2** (fat-tailed value-efficiency makes linear views fussy) and the claim that “very best uses” dwarf most others.
+   - **Indicators:** If Branch A is more likely, we’d observe **extreme winner-take-most patterns** in early “welfare-tech” domains (e.g., neuro/psychedelic interventions, preference engineering, digital-life design) where a few interventions deliver orders-of-magnitude larger self-reported/behavioral welfare gains per joule/$ than the median; if Branch B, we’d observe **smooth diminishing returns** with no giant outliers across many independent attempts.
+   - **Time sensitivity:** **Within 12–18 months**, to decide whether strategy should prioritize “finding the peak configuration” (search/optimization) vs broad improvements and institution-building.

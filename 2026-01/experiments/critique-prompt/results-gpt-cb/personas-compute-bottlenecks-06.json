@@ -1,0 +1,11 @@
+{
+  "centrality": 0.2,
+  "strength": 0.3,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.15,
+  "reasoning": "The critique mainly targets an implied governance/policy takeaway (that we can track compute/notice bottlenecks approaching) rather than the post\u2019s core object-level claim about whether compute is in fact a binding constraint on software-driven acceleration. If the critique is right, it weakens strategies that rely on measurement and disclosure, but it doesn\u2019t directly undermine the argument that compute bottlenecks may not slow an SIE until later stages. The points about incentives to misreport, regulatory evasion, and principal\u2013agent problems are broadly plausible, though somewhat speculative and not tightly connected to a specific explicit claim in the position. The critique is clear, focused, and contains little fluff.",
+  "title": "Compute metrics are easily gamed through compliance theatre and internal misreporting"
+}

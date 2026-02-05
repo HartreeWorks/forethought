@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.2,
+  "correctness": 0.55,
+  "clarity": 0.8,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.15,
+  "reasoning": "The critique targets the paper\u2019s use of an (apparently) unverifiable/unevaluable objective (\u201cbest feasible future\u201d, percentile thresholds, algebraic treatment of goods/bads), arguing this makes any attempt to \u2018aim\u2019 at eutopia prone to proxy-optimization and Goodharting. However, the position is primarily a meta-ethical/conceptual claim about the distribution of value across futures and the (likely) fussiness of plausible moral views, not a proposal for a concrete governance mechanism with sensors/oracles. So the attacked point is only moderately central: it challenges practical implementation and one interpretation of \u201caiming\u201d, but doesn\u2019t undercut the core thesis that near-best futures are a narrow target. Strength is low because the critique doesn\u2019t show the thesis is false; at most it says optimization efforts are hard/ill-posed. Correctness is mixed: it\u2019s fair that no operational elicitation/measurement scheme is specified and that Goodhart risks arise in real optimization, but claims like \u201ccomputationally undecidable\u201d and the implied requirement of a literal oracle to distinguish percentiles are overstated/misapplied to a normative framework. The critique is mostly clear and focused, with little dead weight.",
+  "title": "Unspecified objective functions will collapse into Goodharted proxy metrics"
+}

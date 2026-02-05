@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.85,
+  "paper_specificity": 0.7,
+  "tractability": 0.55,
+  "clarity": 0.75,
+  "decision_hook": 0.85,
+  "dead_weight": 0.1,
+  "overall": 0.72,
+  "reasoning": "Cruciality is high because whether irreversible lock-in precedes mature reflection/bargaining is a major fork: it would shift emphasis from cultivating convergence/markets for moral trade to early governance, constraint-setting, and anti-lock-in institutions. Paper-specificity is fairly high: the paper repeatedly relies on \u2018reasonably good conditions\u2019 and explicitly flags early lock-in as a key blocker that would undercut both WAM-convergence and trade-based routes; however, \u2018lock-in mechanisms/indicators\u2019 is also a somewhat general longtermist/governance question. Tractability is moderate: one can operationalise partial answers via historical/political-economy studies of path dependence, empirical work on institutional irreversibility, technical analyses of AI deployment/standard-setting dynamics, and leading indicators (e.g., concentration of compute/power, hard-to-reverse infrastructure, binding treaties/constitutional changes, widespread adoption of rigid automated enforcement), but forecasting timing relative to \u2018moral deliberation capacity\u2019 remains difficult and model-dependent. Clarity is good but not crisp: \u2018lock-in\u2019, \u2018reflection and bargaining mature\u2019, and \u2018irreversible commitments\u2019 need sharper definitions and scope boundaries to be directly researchable. Decision hook is strong and explicitly stated (if lock-in tends to come early, prioritize early interventions). Dead weight is low: the context sentence directly motivates the question without redundant restatement.",
+  "title": "Lock-in timing relative to moral deliberation capacity"
+}

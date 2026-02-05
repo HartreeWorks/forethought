@@ -1,0 +1,10 @@
+{
+  "centrality": 0.3,
+  "strength": 0.25,
+  "correctness": 0.6,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.15,
+  "reasoning": "The critique attacks the paper's use of 'common-sense utopia' as a baseline, claiming it already presupposes solutions to hard problems (animal/digital welfare). This is only moderately central because the paper's main argument about fussiness doesn't depend entirely on common-sense utopia\u2014it uses multiple independent arguments (multiplicative value, population ethics, resource allocation, etc.). The critique has low strength because: (1) the paper explicitly acknowledges common-sense utopia might already be demanding on some views\u2014that's part of the argument; (2) the paper's point is that even if you achieve something like common-sense utopia, you could still miss most value for other reasons (wrong population ethics, wrong resource allocation, etc.); (3) the 'minimal suffering' clause in common-sense utopia is described minimally, not as requiring full solution to these problems. The critique correctly identifies a tension but overstates its significance\u2014the paper could easily reformulate with a less demanding baseline and the core arguments would remain. Correctness is moderate because the observation about the baseline containing some moral demands is true, but the inference that this 'undermines' the argument is overstated. Single issue is 1.0 as it focuses on one point. Overall is low because the critique doesn't substantially threaten the paper's core thesis about fussy value functions."
+}

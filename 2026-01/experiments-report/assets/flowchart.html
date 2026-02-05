@@ -1,0 +1,174 @@
+<!-- Paper Critique Chain Flowchart - Standalone HTML/CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper Critique Chain Flowchart</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #fbfaf4;
+      padding: 2rem;
+    }
+
+    .flowchart {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      overflow-x: auto;
+      padding: 2.5rem 1rem 1rem;
+      max-width: 100%;
+    }
+
+    .step-wrapper {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .step {
+      background: #ffffff;
+      border: 1px solid #e5e2da;
+      border-radius: 6px;
+      padding: 0.625rem 0.875rem;
+      min-width: 120px;
+      max-width: 140px;
+      text-align: center;
+      font-size: 0.75rem;
+      line-height: 1.4;
+      color: #2f2a26;
+      flex-shrink: 0;
+    }
+
+    .step-number {
+      font-size: 0.625rem;
+      font-weight: 600;
+      color: #6b6560;
+      margin-bottom: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .step-title {
+      font-weight: 500;
+    }
+
+    /* Highlighted first step */
+    .step.highlighted {
+      border: 2px solid #FA7248;
+      background: #fff8f6;
+    }
+
+    .step.highlighted .step-number {
+      color: #FA7248;
+    }
+
+    /* "This experiment" label */
+    .experiment-label {
+      position: absolute;
+      top: -2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      color: #FA7248;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .experiment-label::after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 6px solid #FA7248;
+    }
+
+    /* Arrow between steps */
+    .arrow {
+      width: 24px;
+      height: 2px;
+      background: #e5e2da;
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .arrow::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-left: 6px solid #e5e2da;
+    }
+
+    /* Responsive: scroll on small screens */
+    @media (max-width: 900px) {
+      .flowchart {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="flowchart">
+    <div class="step-wrapper">
+      <div class="experiment-label">This experiment</div>
+      <div class="step highlighted">
+        <div class="step-number">Step 1</div>
+        <div class="step-title">Generate critique brainstorm</div>
+      </div>
+    </div>
+    <div class="arrow"></div>
+    <div class="step-wrapper">
+      <div class="step">
+        <div class="step-number">Step 2</div>
+        <div class="step-title">Score and select top five</div>
+      </div>
+    </div>
+    <div class="arrow"></div>
+    <div class="step-wrapper">
+      <div class="step">
+        <div class="step-number">Step 3</div>
+        <div class="step-title">Expand the top five critiques</div>
+      </div>
+    </div>
+    <div class="arrow"></div>
+    <div class="step-wrapper">
+      <div class="step">
+        <div class="step-number">Step 4</div>
+        <div class="step-title">Critique the critiques</div>
+      </div>
+    </div>
+    <div class="arrow"></div>
+    <div class="step-wrapper">
+      <div class="step">
+        <div class="step-number">Step 5</div>
+        <div class="step-title">Revise the critiques</div>
+      </div>
+    </div>
+    <div class="arrow"></div>
+    <div class="step-wrapper">
+      <div class="step">
+        <div class="step-number">Step 6</div>
+        <div class="step-title">Select and write up best three</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

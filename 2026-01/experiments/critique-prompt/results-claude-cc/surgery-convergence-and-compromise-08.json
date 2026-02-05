@@ -1,0 +1,11 @@
+{
+  "centrality": 0.6,
+  "strength": 0.15,
+  "correctness": 0.8,
+  "clarity": 0.7,
+  "dead_weight": 0.2,
+  "single_issue": 0.2,
+  "overall": 0.12,
+  "reasoning": "The critique mainly flags implicit assumptions (possibility of meaningful moral trade, coherence of a \u201ccorrect view\u201d under antirealism, feasibility of binding commitments, and the \u201cnarrow target\u201d picture). These are fairly central to the essay\u2019s optimism-via-trade and its framing of convergence, so centrality is moderate-high. However, it doesn\u2019t supply object-level arguments that these assumptions are false or unlikely; it mostly labels dependencies/hidden load, so it only weakly undermines the position (low strength). The flagged assumptions are generally plausible as genuine background dependencies, so correctness is high. It is understandable but schematic and underspecified (e.g., how each hidden assumption materially changes the conclusion), hence moderate clarity. Little is purely irrelevant, but some of the \u201cdependencies\u201d section reads more like a map than a critique, giving modest dead weight. It raises multiple independent issues rather than pressing a single line of attack. Overall impact on the position is small.",
+  "title": "Broad moral convergence scenarios deserve greater decision weight than assumed"
+}

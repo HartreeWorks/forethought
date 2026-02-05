@@ -1,0 +1,11 @@
+{
+  "centrality": 0.28,
+  "strength": 0.7,
+  "correctness": 0.82,
+  "clarity": 0.9,
+  "dead_weight": 0.08,
+  "single_issue": 0.95,
+  "overall": 0.28,
+  "reasoning": "The critique targets one specific rebuttal in the position (the \u2018near-frontier experiments have decreased, so they can\u2019t be the bottleneck\u2019 move). That point is not load-bearing for the overall anti-compute-bottleneck case (the post gives many independent reasons), but it is a meaningful piece of the argument, so centrality is modest (~0.3). Within that narrow target, the critique is fairly strong: it correctly notes a causal-identification gap and multiple confounders (frontier shifting, changing definitions, rising global compute, different actors at the frontier), which substantially undercuts the inference that fewer near-frontier experiments implies they aren\u2019t a bottleneck. Most claims are plausible and conceptually correct; minor overreach is that it asserts some dynamics (e.g., per-lab decreases, frontier shifting across actors) without evidence, but these function mainly as credible confounders rather than decisive factual premises. The critique is clear, focused on a single issue, and contains little to no filler.",
+  "title": "Historical inference conflates shifting frontier definitions with causal identification"
+}

@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.72,
+  "paper_specificity": 0.87,
+  "tractability": 0.52,
+  "clarity": 0.76,
+  "decision_hook": 0.56,
+  "dead_weight": 0.12,
+  "overall": 0.61,
+  "reasoning": "This targets a load-bearing assumption in the paper: representing moral views with a single vNM-style cardinal value function and using that to define \u2018mostly-great\u2019/\u2018eutopia\u2019 thresholds and \u201cnarrow target\u201d claims. If the fussiness result fails under plausible non-vNM moral/decision frameworks (incomparability, lexicality, deontic constraints, non-EUT choice rules), the paper\u2019s central generality claim could be substantially weakened, potentially shifting emphasis back toward survival-only work or changing what \u201csteering to eutopia\u201d even means. It\u2019s quite paper-specific (wouldn\u2019t arise the same way without this paper\u2019s fussy/easygoing framework), and fairly clear, but it bundles several distinct relaxations (each could behave differently), which slightly reduces clarity and makes the research program broader. It is moderately tractable via formal analysis (e.g., imprecise/lexicographic utility models, choice under moral uncertainty, partial orderings) and by testing whether analogous \u2018target narrowness\u2019 notions can be defined, though it remains substantially philosophical. The strategic implications are gestured at (undermining generality) but not cleanly framed as alternative action recommendations under different possible answers.",
+  "title": "Fussiness robustness beyond expected utility frameworks"
+}

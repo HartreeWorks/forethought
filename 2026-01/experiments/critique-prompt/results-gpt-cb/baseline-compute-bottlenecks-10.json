@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.5,
+  "correctness": 0.9,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.42,
+  "reasoning": "The critique targets the paper\u2019s final quantitative credences (10\u201340% for an SIE under a defined threshold) and argues they aren\u2019t derived from an explicit probabilistic model or quantified parameterization. This is fairly central insofar as those numbers are the paper\u2019s bottom-line forecast, but it does not directly refute the core qualitative claim that compute bottlenecks may not bind until late stages\u2014so centrality is substantial but not total. The objection moderately weakens the conclusion by undercutting justification/calibration of the probability range rather than showing the range is wrong; it\u2019s also partly \u201cmethodological,\u201d and the post already signals uncertainty, limiting strength. The claims themselves (lack of explicit model, unquantified key parameters, no clear mapping from arguments to probabilities) are largely accurate and clearly stated, with minimal extraneous material and a single coherent focus.",
+  "title": "Headline probability estimates lack a rigorous quantitative model"
+}

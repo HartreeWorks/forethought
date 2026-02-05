@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.45,
+  "correctness": 0.8,
+  "clarity": 0.87,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets the paper\u2019s Section 2.1 move from \u201cmany moral views judge the present as a moral catastrophe\u201d to \u201cfuture moral catastrophes are easy/non-obvious, so eutopia is fragile.\u201d That supports (but is not the sole basis of) the broader \u2018no easy eutopia\u2019 conclusion, which also rests on later arguments about population ethics, digital beings, multiplicative fragility models, and the bounded/unbounded \u2018fussy views\u2019 taxonomy\u2014so centrality is moderate. The critique has some bite: if the argument is effectively using the mere existence of deep moral disagreement (including unfalsifiable or idiosyncratic doctrines) as evidence of high probability of massive value loss, that can indeed inflate perceived fragility unless one justifies a filter over \u201cmorally serious/epistemically responsible\u201d views. However, it only partially undermines the targeted support, because the paper could reply that the point is historical non-obviousness and pluralism under reasonable uncertainty, not that every dissenting doctrine should be heavily weighted. The critique is mostly correct, clearly stated, and stays focused with little extraneous material.",
+  "title": "\"Disagreement Inflation Overstates Moral Catastrophe Risk\""
+}

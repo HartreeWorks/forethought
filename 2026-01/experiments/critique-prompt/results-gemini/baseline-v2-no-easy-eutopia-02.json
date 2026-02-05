@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.15,
+  "reasoning": "The critique targets the paper\u2019s benchmarking move (defining \u201cmostly-great\u201d as \u226550% of \u201cbest feasible\u201d), which is moderately central to how the argument operationalizes \u201cno easy eutopia,\u201d but not strictly necessary to the core claim that many futures fall far short due to fragility/fussiness (so centrality < 0.5). Its refutational force is limited because (i) the position explicitly anticipates that intuitively wonderful futures (e.g., Star Trek-like) may be valued far below \u201cnear-best\u201d on many views, and uses that as part of the case, and (ii) \u201cbest feasible\u201d is defined as a high-percentile of a feasibility distribution, not the theoretical maximum, which directly blunts the critique\u2019s \u201castronomically high ceiling\u201d framing. Still, the critique correctly notes a real hazard: percentile-normalized thresholds can make \u2018mostly-great\u2019 judgments feel counterintuitive and potentially less decision-useful if the distribution has extreme tails. The critique is clear and focused with little dead weight, but contains a significant mischaracterization (treating the benchmark as effectively the absolute ceiling), lowering correctness and strength.",
+  "title": "Astronomically high value ceilings make intuitive successes count as failures"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.2,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.15,
+  "reasoning": "The critique targets the essay\u2019s brief endnote-style suggestion (Section 4) that societies might still hit a narrow eutopian target via convergence/compromise. But the core thesis of the position is about the *size of the target* (eutopia being \u201cfragile\u201d/rare) and the fussiness of plausible moral views, explicitly framed as point (1) in the sailing analogy; navigation/institutional steering is largely deferred to the next essay. So the attacked claim is only weakly central. Even on its own terms, the critique mostly asserts institutional failure mechanisms without connecting them tightly to the essay\u2019s specific probabilistic framing (\u201cno serious coordinated efforts... de dicto\u201d), and it does not engage the main multiplicative/fussiness arguments. Moreover, if institutional pathologies make convergence less likely, that tends to *reinforce* \u2018no easy eutopia\u2019 rather than refute it. Correctness is mixed: principal\u2013agent problems/capture are real, but the critique overstates that the essay \u201cassumes\u201d convergence (the essay presents it as a possibility, not a premise). The critique is reasonably understandable and focused, with little filler.",
+  "title": "Institutional corruption systematically prevents convergence on correct moral views"
+}

@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.8,
+  "paper_specificity": 0.85,
+  "tractability": 0.45,
+  "clarity": 0.7,
+  "decision_hook": 0.9,
+  "dead_weight": 0.1,
+  "overall": 0.64,
+  "reasoning": "This targets a central pivot in the paper\u2019s argument for optimism via partial AM-convergence + moral trade: the initial resource share of the \u2018correct-view\u2019 coalition strongly affects whether trade/institutions are the right focus versus power-concentration prevention or targeted leverage (high cruciality, strong decision hook). It is tightly anchored to the paper\u2019s framing (partial AM-convergence at the bargaining/lock-in moment and resource share s), so paper-specificity is high. However, tractability is limited: \u2018correct moral view\u2019 is not observable, \u2018partial AM-convergence\u2019 and \u2018willing to spend most resources on it\u2019 are hard to operationalize, and the \u2018key bargaining/lock-in moment\u2019 plus what counts as \u2018resources/power\u2019 (compute, capital, coercive force, AI control) are underspecified and likely regime-dependent. Still, partial progress via scenario modeling, historical analogies on power concentration, and experiments on reflective altruism is plausible. Clarity is decent but not fully crisp due to these definitional ambiguities. Little dead weight; most text supports the question and its action relevance.",
+  "title": "Resource share of moral-convergers at AGI lock-in moment"
+}

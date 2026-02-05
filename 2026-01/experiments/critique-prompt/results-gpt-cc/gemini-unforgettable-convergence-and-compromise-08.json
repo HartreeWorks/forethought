@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.55,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.42,
+  "reasoning": "The critique targets a fairly central pillar of the essay\u2019s optimistic pathway: that partial AM-convergence plus trade/compromise (often illustrated via spatial/resource partitioning like \u201cdifferent galaxies\u201d) can yield mostly-great outcomes. If non-separability is common\u2014i.e., many values treat others\u2019 practices anywhere as intrinsically disvaluable\u2014then a large class of purportedly positive-sum moral trades collapses into contests over universal prohibitions, undermining the compromise-based optimism (centrality ~0.65). The argument has real force, especially against the flagship \u201cresource-splitting buys near-best for each side\u201d picture and against optimism that \u201chybrid goods\u201d generally rescue bargaining; it identifies a structural assumption (separability) that isn\u2019t made explicit. However, the position already anticipates related failure modes (negative-leaning views, heavy bad-weighting, threats/extortion, low resource-compatibility among linear views), so the critique is partly \u201cpriced in,\u201d and doesn\u2019t fully refute the essay\u2019s broader claim that trade can sometimes help under certain conditions (strength ~0.55). Most claims are conceptually correct, but it overstates by implying the framework effectively requires separable welfarism and that dropping non-separable views would substantially blunt \u2018no easy eutopia\u2019 (correctness ~0.75). The critique is clear, focused, and has minimal fluff (clarity high; dead weight low; single-issue high). Overall it poses a meaningful but not decisive problem.",
+  "title": "Non-separable values make galaxy-splitting compromises impossible"
+}

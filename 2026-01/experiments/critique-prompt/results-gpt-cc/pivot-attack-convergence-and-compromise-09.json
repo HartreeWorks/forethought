@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.4,
+  "correctness": 0.78,
+  "clarity": 0.87,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.36,
+  "reasoning": "The critique targets a fairly central support for the essay\u2019s non-near-zero \u201cFlourishing\u201d credence: the idea that partial AM-convergence plus moral trade/compromise makes mostly-great futures more plausible under moral uncertainty. If trade\u2019s contribution were flipped (trade increases downside EV under uncertainty), that would significantly weaken the essay\u2019s optimistic update, though it wouldn\u2019t refute the whole essay (there are other routes to nonzero flourishing, and the essay already treats threats as a major obstacle). The critique\u2019s core point\u2014that pluralist bargaining increases threat/extortion surfaces and so is disproportionately penalized by threat-sensitive axiologies, potentially dominating EV under moral uncertainty\u2014is substantively plausible and not fully neutralized by what the essay says. However, the essay already foregrounds threats as potentially value-destroying and explicitly conditions optimism on preventing them, so the critique somewhat overstates the extent to which \u201ctrade\u201d is treated as broadly value-positive in expectation; it doesn\u2019t tightly show that, given the essay\u2019s own uncertainty weights and plausible threat rates, the net effect should be more pessimistic than the essay concludes. Still, it identifies a real missing step: integrating axiology-weight uncertainty with a model of threat prevalence across governance/trade regimes. Clear, focused, and with little dead weight.",
+  "title": "Moral uncertainty makes trade-based pluralism too threat-prone to sustain optimism"
+}

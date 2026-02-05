@@ -1,0 +1,11 @@
+{
+  "centrality": 0.18,
+  "strength": 0.8,
+  "correctness": 0.8,
+  "clarity": 0.93,
+  "dead_weight": 0.06,
+  "single_issue": 1.0,
+  "overall": 0.22,
+  "reasoning": "The critique targets a specific sub-argument in the position: the toy claim that in the limit of infinite AGIs, \u201cin-head\u201d simulation shows cognitive labor can fully substitute for compute, undermining a hard bottleneck (\u03c1<0). This point is not a major pillar of the overall case (the post offers many other reasons to expect higher substitutability), so centrality is low-moderate. On the attacked point, the critique is fairly strong: a faithful simulation requires physical computation somewhere, so treating it as compute-free substitution is misleading if the relevant constraint is total compute/energy. It\u2019s mostly correct, though there\u2019s some definitional ambiguity (the post\u2019s K is \u2018external training compute\u2019, while AGI cognition could be categorized as L), which slightly reduces correctness. The critique is clear, focused on a single issue, and contains little dead weight. Overall impact on the position is limited because removing this toy example leaves most of the pro-SIE reasoning intact.",
+  "title": "In-head neural training simulations covertly spend compute, so fixed budgets still bind"
+}

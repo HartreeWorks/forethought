@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.75,
+  "paper_specificity": 0.9,
+  "tractability": 0.55,
+  "clarity": 0.8,
+  "decision_hook": 0.95,
+  "dead_weight": 0.1,
+  "overall": 0.7,
+  "reasoning": "Cruciality is high because \u03b1 materially affects whether fixed-compute scenarios imply a hard ceiling on software progress, which in turn shifts governance emphasis (compute controls vs controlling/aligning agentic cognitive labor). Paper-specificity is very high: it directly targets the paper\u2019s explicit simplifying assumption \u03b1=0.5 in the CES framing. Tractability is moderate: partial estimates are possible (time-and-compute accounting, ablation-style analyses, retrospective project postmortems, cross-lab comparisons), but mapping real R&D workflows onto a CES \u2018task share\u2019 parameter is methodologically difficult, context-dependent, and requires proprietary data. Clarity is fairly strong, though there\u2019s some ambiguity because \u03b1 in CES is a scale/share parameter, not literally \u201cfraction of tasks,\u201d so an operational definition would need to be fixed to avoid category errors. Decision hook is excellent: it clearly states strategy flips at different \u03b1 ranges. Dead weight is low; nearly all content supports the question and its stakes.",
+  "title": "Compute versus cognitive labor share in AI R&D progress"
+}

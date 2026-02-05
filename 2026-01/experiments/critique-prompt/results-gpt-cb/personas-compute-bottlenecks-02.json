@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.8,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.38,
+  "reasoning": "The critique targets a specific \u201cescape hatch\u201d in the post: the toy argument that, in the limit, cognitive labor could substitute for compute by \u2018simulating NNs in heads,\u2019 supporting the claim that a hard \u03c1<0 ceiling is conceptually flawed. That point is not the sole or main support for the overall anti-bottleneck conclusion (the post gives many other reasons), so centrality is moderate. Within its target, the critique is strong: if AGIs are implemented on the same fixed hardware, treating L (AGI labor) as independent of K (compute) risks double-counting; without explicit accounting of inference FLOPs, memory/bandwidth, and tradeoffs with experimental/training compute, the \u201cin-head simulation\u201d move doesn\u2019t actually evade a fixed physical budget. This is largely correct and clearly stated, with little filler. However, even if accepted, it doesn\u2019t knock out the broader case for weak bottlenecks (e.g., improved experiment efficiency, extrapolation from smaller runs, changing research workflows), so the overall impact on the position is limited.",
+  "title": "Cognitive labor as compute substitution double-counts the same hardware resources"
+}

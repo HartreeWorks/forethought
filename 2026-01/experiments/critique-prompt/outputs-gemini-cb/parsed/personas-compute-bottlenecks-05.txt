@@ -1,0 +1,4 @@
+[The Complexity Theorist]
+**Target claim:** Software progress can continue independently of hardware constraints ("without any additional hardware").
+**Failure mode:** The "Hardware Lottery" phenomenon dictates that successful algorithms are those tailored to the specific biases of available hardware. You cannot optimize software in a vacuum; extreme optimization requires tighter coupling with the physical hardware (memory hierarchy, interconnect topology, thermal limits). As software becomes hyper-optimized, it hits physical barriers like cache coherency and memory bandwidth that "smarter code" cannot bypass.
+**Consequence:** The decoupling of software and hardware R&D is an illusion. The SIE hits a "complexity wall" where further algorithmic gains require non-existent hardware architectures, effectively locking $\rho$ to the physical substrate.

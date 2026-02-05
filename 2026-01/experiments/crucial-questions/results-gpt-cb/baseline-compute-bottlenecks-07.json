@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.75,
+  "paper_specificity": 0.8,
+  "tractability": 0.55,
+  "clarity": 0.75,
+  "decision_hook": 0.55,
+  "dead_weight": 0.1,
+  "overall": 0.66,
+  "reasoning": "Cruciality is high because the paper\u2019s core move is to reason about compute bottlenecks via a CES-style substitutability/ceiling; if that mapping is structurally wrong for AI R&D, conclusions about whether/when compute bottlenecks bite (and thus SIE plausibility and urgency) could change a lot. Paper-specificity is high: it directly targets this paper\u2019s CES framing and the \u2018max speed\u2019 ceiling reasoning, not generic AI governance. Tractability is moderate: one can develop/compare alternative process models (e.g., discrete breakthrough/search models, portfolio/parallelism models) and try to fit them to historical algorithmic progress, experiment/compute logs, scaling-law residuals, and org-level R&D throughput data, but external validity to \u201cmany OOMs\u201d SIE regimes remains hard. Clarity is fairly good but still somewhat bundled (multiple alternative models and multiple outcome notions: bottlenecks + takeoff speed) and doesn\u2019t specify what would count as \u2018accurate\u2019 vs \u2018qualitatively different\u2019. Decision hook is present but not fully explicit about concrete strategy shifts (e.g., which forecasts/policies change under which model outcomes). Dead weight is low: most of the text supports a single, focused challenge to the CES functional-form assumption.",
+  "title": "CES versus discrete-search models for AI R&D dynamics"
+}

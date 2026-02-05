@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.75,
+  "paper_specificity": 0.62,
+  "tractability": 0.63,
+  "clarity": 0.72,
+  "decision_hook": 0.9,
+  "dead_weight": 0.12,
+  "overall": 0.68,
+  "reasoning": "Cruciality is high because the paper\u2019s Section 3.5 highlights that different intertheoretic comparison/normalization choices can flip recommendations between upside-seeking and safety-first portfolios; learning which way key actors actually lean would materially affect strategy. Paper-specificity is moderate: it directly invokes the paper\u2019s featured aggregation families (range/variance/pairwise) and the \u2018flip\u2019 claim, but questions about what longtermists do under moral uncertainty could also be asked of other moral-uncertainty work. Tractability is moderate: you could operationalize via surveys/interviews, document and grant-portfolio coding, and governance-proposal text analysis, but \u201cinfluential longtermist decision-makers,\u201d \u201coverweight upside/downside,\u201d and \u201cstable across institutions\u201d require nontrivial methodological choices and may be confounded by rhetoric vs revealed preferences. Clarity is fairly good (the two branches and indicators are spelled out) but still has ambiguity about population, classification thresholds, and what counts as \u2018convergence\u2019 and \u2018stability.\u2019 Decision hook is very strong and explicit. Dead weight is low; most of the text sharpens scope, anchors to the paper, and provides observable implications. Overall is solid but limited by only-moderate paper-specificity and measurement challenges.",
+  "title": "Longtermist convergence on upside-weighted vs downside-weighted moral uncertainty"
+}

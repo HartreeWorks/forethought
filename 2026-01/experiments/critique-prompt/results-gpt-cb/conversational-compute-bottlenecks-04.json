@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.45,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.32,
+  "reasoning": "The critique targets a fairly central plank of the post\u2019s anti-bottleneck case: the idea (esp. in point 5) that algorithmic efficiency lets you run more experiments / relaxes the compute constraint during an SIE. If that mechanism fails in practice because efficiency gains are endogenously reinvested into more compute-hungry training/inference regimes, the post\u2019s case is meaningfully weakened\u2014but not fully refuted, since the post also leans on other considerations (different \u03c1 in AI R&D than manufacturing, smarter/faster labor, alternative \u2018routes\u2019 to progress, doubts about CES extrapolation). The critique is moderately strong: it highlights a real dynamic (frontier-chasing/compute hunger) and explains why \u2018efficiency \u21d2 spare capacity\u2019 need not hold under competition, but it doesn\u2019t directly engage the post\u2019s replies about non-frontier experiments, extrapolation from smaller runs, or the possibility that progress can continue even when frontier compute is fixed. Most claims are plausible and broadly correct, though the implication that fixed hardware straightforwardly caps progress conflates \u201ccompute budget\u201d with \u201ccapability progress\u201d and is less than decisive. Clear, focused, and with minimal fluff.",
+  "title": "\"Efficiency gains may expand compute appetite, not slack it\""
+}

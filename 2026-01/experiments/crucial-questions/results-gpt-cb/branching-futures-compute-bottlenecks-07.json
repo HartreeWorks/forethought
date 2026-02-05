@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.72,
+  "paper_specificity": 0.7,
+  "tractability": 0.66,
+  "clarity": 0.74,
+  "decision_hook": 0.82,
+  "dead_weight": 0.16,
+  "overall": 0.66,
+  "reasoning": "The question targets a central crux in the paper\u2019s argument against compute bottlenecks: whether software/cognition can substitute for compute by reducing the need for expensive empirical runs. A strong positive/negative answer would substantially shift beliefs about whether AI R&D hits a hard compute ceiling (\u03c1<0) vs allowing near-Cobb\u2013Douglas dynamics (\u03c1\u22480), though it\u2019s only one of several substitution pathways discussed, so it\u2019s not fully decisive. It is reasonably paper-specific because it explicitly operationalizes the paper\u2019s \u2018cognition can replace experiments\u2019 claim, but surrogates are also a broadly relevant ML-R&D topic. It\u2019s moderately tractable via empirical studies (predicting loss curves, downstream metrics, emergent behaviors across architecture/data/regime shifts; measuring experiment reduction), but frontier-relevant evidence may be limited by access and distribution-shift difficulty. Clarity is good but key thresholds (\u201cwell enough\u201d, \u201clarge share\u201d, which outcomes count, what counts as replacement vs assistance) remain somewhat underspecified. Decision hook is strong due to explicit branch-point framing and stated implications for bottlenecks/\u03c1. Dead weight is low: the added context mostly tightens the fork and evaluation criteria.",
+  "title": "Surrogate accuracy as substitute for compute-intensive experimentation"
+}

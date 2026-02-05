@@ -1,0 +1,5 @@
+**Does “idea difficulty” in ML (measured by experiments-per-meaningful-improvement, time-to-find-next-improvement, or variance of outcomes) increase fast enough to overwhelm gains from more/smarter/faster automated researchers under fixed compute?**
+   - **The branch point:** *“Steep diminishing returns → acceleration fizzles even with many agents”* vs *“Manageable diminishing returns → sustained acceleration until late-stage limits.”*
+   - **Paper anchor:** Stress-tests the sceptic’s claim (in the intuitive objection) that low-hanging fruit runs out and the required experimental burden rises, forcing slowdown when compute is fixed.
+   - **Indicators:** If Branch A is more likely, leading groups report rapidly rising search costs (more failed runs per win, smaller marginal gains per research-cycle) even as automation improves. If Branch B, automation keeps the “cost per improvement” roughly stable or falling (e.g., better priors, better triage, stronger reuse).
+   - **Time sensitivity:** **Next 12–24 months**, because this determines whether an early “fast phase” is self-terminating without needing hardware growth.

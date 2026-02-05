@@ -1,0 +1,11 @@
+{
+  "centrality": 0.15,
+  "strength": 0.12,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.08,
+  "reasoning": "The critique targets only one illustrative sub-case (digital being rights in \u00a72.3.2) within a much broader argument that many independent moral/axiological failure modes make near-best futures a narrow target; so even fully defusing this example would only modestly weaken the overall case (low centrality). It also partly misreads the essay as presuming a moral catastrophe here; the text mainly offers conditional risk scenarios, not a claim that extremes are likely or exhaustive. Pointing out that adaptive governance could find stable intermediate equilibria is a plausible possibility, but it doesn\u2019t substantially undercut the essay\u2019s core claim that non-obvious moral errors are easy and that there\u2019s no generally \u201csafe option\u201d across views (low strength). The main claim (adaptive institutions might avoid extremes) is reasonable, but the insinuation that the essay relies on an \u201ceither owned tools or full rights\u201d assumption is somewhat incorrect (moderate correctness). The critique is concise and understandable (high clarity), focused on one issue (single issue), and contains little fluff (low dead weight).",
+  "title": "Adaptive governance mechanisms could prevent digital being moral catastrophes"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.6,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.9,
+  "overall": 0.36,
+  "reasoning": "The critique targets a meaningful enabling premise for the essay\u2019s more optimistic pathway (partial AM-convergence + moral trade): that advanced tech makes contracts \u201ciron-clad\u201d and transaction costs/trust problems small. If that premise fails, the feasibility and expected gains from moral trade drop a lot, weakening a major optimism lever, though it wouldn\u2019t wholly collapse the overall position (which already discusses threats, power concentration, and other blockers, and could still allow more-local or earlier trade). The objection is fairly strong: enforcement and monitoring are not purely computational, light-cone delays limit responsive punishment/verification across expanding space, and many morally relevant commitments (e.g., no hidden suffering sims/threats) are hard to verify even locally. Still, the critique doesn\u2019t fully refute implementability because trade could be largely intra-lightcone/within a polity, and there are conceivable partial mitigations (auditable substrates, secured hardware, institutional design) that could preserve some gains. Most claims are correct in spirit; a few are more speculative (e.g., the degree to which this shifts equilibrium toward preemptive control). It is clear, focused, and contains little to no filler.",
+  "title": "Relativistic and unverifiable actions make iron-clad moral contracts unenforceable at scale"
+}

@@ -1,0 +1,4 @@
+**Do algorithmic efficiency gains during an SIE reliably convert into *more informative* experimentation capacity (not just cheaper training at the same frontier), as the paper claims when it says labs can increase both “cognitive labour and # experiments” without more hardware?**  
+   - **Worldview:** Capability Accelerationist  
+   - **Paper anchor:** “when your AI algorithms become twice as efficient, you can run twice as many experiments… during an SIE, labs can increase the quantity of both key inputs.”  
+   - **Strategic implications:** If answered “yes, roughly proportional,” strategy becomes “expect strong positive feedback and faster-than-governance dynamics; prioritise rapid capability-safe deployment pathways and robust monitoring”; if answered “no (efficiency doesn’t buy comparable marginal R&D signal),” strategy becomes “compute bottlenecks are more real; slowing scaling and constraining compute could substantially change outcomes.”

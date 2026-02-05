@@ -1,0 +1,947 @@
+- description: 'ACORN #327'
+  metadata:
+    acorn_index: 327
+    human_ratings:
+      centrality: 1.0
+      clarity: 0.78
+      correctness: 0.5
+      dead_weight: 0.0
+      overall: 0.05
+      single_issue: 1.0
+      strength: 0.08
+  vars:
+    critique: 'The key issue in this argument lies in its interpretation and application of the principle of distributive
+      conjunction (DC) for obligations. The argument assumes that if an agent is obligated to perform a conjunctive action
+      P & Q, then the agent must be separately obligated to perform P and separately obligated to perform Q. However, this
+      assumption is problematic and does not necessarily hold true.
+
+
+      The flaw emerges from conflating the obligation of a compound action with the obligations of its component parts. Just
+      because an agent is obligated to perform a complex action (P & Q) does not automatically imply that the agent has separate,
+      independent obligations to perform P and Q in isolation.
+
+
+      For example, consider a scenario where an agent is obligated to complete a complex task that requires multiple interconnected
+      steps. The obligation exists specifically for the complete task, not necessarily for each individual component in isolation.
+      Breaking down the task might actually compromise the overall obligation if the steps are not performed in a specific
+      sequence or with a particular integrated approach.
+
+
+      By incorrectly applying the distributive conjunction principle, the argument creates a false dilemma that leads to the
+      paradoxical conclusion about maximizing utility. This misapplication invalidates the subsequent reasoning that attempts
+      to prove the utilitarian principle (U) is false.
+
+
+      The critique suggests that the argument''s logic fails at its foundational premise about how obligations distribute
+      across conjunctive actions, rendering the subsequent logical derivation invalid.'
+    position: 'There are many senses, or types, or kinds of obligation, or respects in which actions are obligatory. But regardless
+      of how this multiplicity of obligations is to be analyzed, it is clear that for each sense, type, kind or respect, obligatoriness
+      distributes through logical conjunction. That is, we have for each type, kind, respect, or sense i, the principle
+
+
+      (DC) “is obligatedᵢ to do both A andᶜ B” entails “X is obligated_i to do A and_C X is obligated_i to do B”,
+
+
+      where ‘and_C’ denotes mere logical conjunction. (It is well-known that the word ‘and’ expresses sometimes other logical
+      connections.)
+
+
+      There are many types of utilitarianism: some are analytic, some are synthetic, some are hedonistic, etc. But all of
+      them agree in holding a bi-conditional proposition of the form:
+
+
+      (U) X is morally obligated to do A in circumstances C, if and only if X’s doing A in C will bring about a greater balance
+      of good (pleasure, etc.) over bad (pain, etc.) than his doing any other alternative action open to him in C.
+
+
+      Let it be the case that X is morally obligated to do a conjunctive act P & Q. Hence, by (DC) X is obligated, morally,
+      to do P and he is also morally obligated to do Q. By (U), his doing P will bring about in his circumstances a greater
+      balance of good (etc.) than his doing any other alternative, a fortiori, than his doing Q. Likewise, by (U) X’s doing
+      Q will bring about a greater balance of good (etc.) than his doing any other alternative, a fortiori, than his doing
+      P. Thus, X’s doing P will bring about both a greater and a lesser balance of good (etc.) than his doing Q! Thus, (U)
+      is false regardless of whether it is put forward as an analysis of moral obligation, or as a synthetic moral principle,
+      and regardless of the kind of utilitarianism involved.'
+- description: 'ACORN #57'
+  metadata:
+    acorn_index: 57
+    human_ratings:
+      centrality: 1.0
+      clarity: 1.0
+      correctness: 1.0
+      dead_weight: 0.0
+      overall: 1.0
+      single_issue: 1.0
+      strength: 1.0
+  vars:
+    critique: 'I''ll critique this argument by focusing on its core logical flaw: the confusion between correlation and causation.
+
+
+      The argument concludes that "using the lights caused the students to doze off" based on the observation that students
+      fell asleep more frequently when using artificial lights compared to natural light. However, this conclusion commits
+      the "post hoc ergo propter hoc" (after this, therefore because of this) fallacy.
+
+
+      There could be many alternative explanations for the correlation between artificial light use and falling asleep. Most
+      notably, students are more likely to use artificial lights when studying at night, and they are naturally more likely
+      to fall asleep at night due to their circadian rhythms. The time of day is thus a potential confounding variable that
+      could explain both the use of artificial light and the tendency to fall asleep.
+
+
+      To illustrate this, imagine if we observed that people who wear pajamas fall asleep more often than people wearing regular
+      clothes. We wouldn''t conclude that pajamas cause sleepiness; rather, people wear pajamas when they''re planning to
+      sleep or when it''s bedtime.
+
+
+      To properly establish causation, the study would need to control for time of day and other potential confounding variables.
+      As it stands, the evidence only shows correlation, not causation, making the conclusion unwarranted.'
+    position: 'Recent reports suggest that studying with the lights on causes students to
+
+      fall asleep. Investigators secretly installed cameras in the dorm rooms of
+
+      twenty-five students. The investigators noted each time one of the
+
+      students sat down at his or her desk to study and whether the student
+
+      turned on the light or used only natural illumination (sunlight) coming in
+
+      through a nearby window. (They selected for the study only students
+
+      whose desks were near windows that let in a considerable amount of
+
+      light.) During the period of the study, there were 175 occasions on which
+
+      students studied. Of these, 125 times the student turned on a light and 50
+
+      times the student used adequate natural light. The students using lights
+
+      fell asleep within a half hour 40 times, while the students not using lights
+
+      fell asleep only 10 times. It seems clear that using the lights caused the
+
+      students to doze off.'
+- description: 'ACORN #12'
+  metadata:
+    acorn_index: 12
+    human_ratings:
+      centrality: 0.5
+      clarity: 1.0
+      correctness: 1.0
+      dead_weight: 0.0
+      overall: 0.4
+      single_issue: 1.0
+      strength: 0.75
+  vars:
+    critique: While this idea works and is intuitive for Newcomb’s problem, it becomes much less intuitively reasonable in
+      other decision problems. For instance, consider the twin prisoner’s dilemma in which the twins are decision-theoretically
+      similar but value different things. While it is possible for CDT to exhibit EDT-style behaviour in this problem by thinking
+      it might be its twin, this challenges usual notions of anthropic uncertainty, since these agents do not prima facie
+      appear to have the same (internal) observations. Thus, additional argument would be needed to justify why it might be
+      intuitively reasonable for the agent to have anthropic uncertainty in this kind of problem.
+    position: 'Suppose that a (program) agent faces Newcomb’s Problem (Nozick, 1969): in front of it are two boxes — an opaque
+      box, either containing $1,000,000 or nothing, and or a transparent box containing a sure $1,000. It must choose whether
+      to take only the opaque box, or both boxes. The catch is that Omega, a perfect predictor, filled the opaque box if and
+      only if it thought that the agent would take only one box. In particular, shortly before the agent was first run, Omega
+      copied its source code. Omega then checked (via running the code, i.e., simulating the agent) whether the agent would
+      take one box or both, and hence either filled the opaque box or didn’t, respectively.
+
+
+      What should a causal decision theorist do in this scenario? The traditional CDT answer is that since the agent cannot
+      causally affect whether the opaque box is filled, it should take both boxes. The agent knows at the point it makes its
+      decision that it will receive only $1,000, but views itself as making the best of a bad situation. Moreover, in this
+      scenario, the agent doesn’t even want to commit to one-boxing. Since its source code was copied before it was ever run,
+      the agent reasons that it cannot causally affect whether the simulation (and hence Omega’s prediction) one-boxes or
+      two-boxes.
+
+
+      But something seems to be going wrong here. The simulated agent in this case has exactly the same experiences as the
+      actual agent, and two-boxes for exactly the same reasons. Shouldn’t the CDT agent have anthropic uncertainty about whether
+      it’s the real agent or the simulation?
+
+
+      Indeed, if the CDT agent instead reasons that it is the simulated agent with probability 1/2, and the real agent with
+      probability 1/2, we get that it thinks that taking the second box loses it utility: With probability ½, it is the real
+      agent, and taking the second box gets it an additional $1000, and with probability 1⁄2, it is the simulated agent, and
+      taking the second box loses it $1,000,000, relative to taking only one box. So, in expectation, it reasons that one-boxing
+      gets it 0.5*$1,000,000 - 0.5*$1000 = $499,500 more than two-boxing. In fact, to make the agent neutral between one-boxing
+      and two-boxing, we now need the maximum potential money in both boxes to be the same. This is precisely the point at
+      which an EDT (or FDT) agent becomes neutral between the two options, or the point at which both policies are equally
+      good ex ante.
+
+
+      This illustrates that with appropriate anthropic beliefs CDT might be made to in general behave similarly to EDT.'
+- description: 'ACORN #379'
+  metadata:
+    acorn_index: 379
+    human_ratings:
+      centrality: 0.0
+      clarity: 0.965
+      correctness: 0.8
+      dead_weight: 0.0
+      overall: 0.0
+      single_issue: 1.0
+      strength: 0.4
+  vars:
+    critique: The argument "It is better from a consequentialist point of view if no one believes in consequentialism" fails
+      because it mistakenly assumes that a moral theory recommending against belief in itself would be self-defeating or paradoxical.
+      Even if it were true that widespread non-belief in consequentialism would produce better consequences (a claim for which
+      the argument provides no evidence), this would not undermine consequentialism as a moral theory. Consequentialism evaluates
+      actions based on their consequences, not on whether they promote belief in consequentialism itself. The theory only
+      claims that the rightness of actions depends on their outcomes, not that good outcomes must include acceptance of this
+      principle. A sophisticated consequentialist can coherently maintain that consequentialism is the correct account of
+      moral rightness while acknowledging that, in practice, better consequences might result if people don't explicitly reason
+      as consequentialists. This distinction between the truth of a theory and the utility of belief in that theory is perfectly
+      consistent. The argument thus conflates what makes actions right with what beliefs we should promote, and fails to identify
+      any genuine theoretical problem for consequentialism.
+    position: It is better from a consequentialist point of view if no one believes in consequentialism.
+- description: 'ACORN #140'
+  metadata:
+    acorn_index: 140
+    human_ratings:
+      centrality: 1.0
+      clarity: 0.87
+      correctness: 0.46
+      dead_weight: 0.0
+      overall: 0.06
+      single_issue: 1.0
+      strength: 0.1
+  vars:
+    critique: 'The argument fundamentally mischaracterizes Evidential Decision Theory (EDT) by conflating two distinct concepts:
+      (1) the decision procedure of EDT, which evaluates actions based on conditional expected utility, and (2) the scope
+      of moral consideration determined by one''s utility function.
+
+
+      The argument claims: "With causal decision theory, we only have to consider the part of the universe that is within
+      our causal influence (our lightcone), bounding the possible impact of our actions. With evidential decision theory,
+      we have to consider everything we learn from our actions."
+
+
+      This comparison is incorrect. The distinction between EDT and CDT is not about what parts of the universe "we have to
+      consider" in terms of moral scope. Rather, the distinction concerns how we evaluate actions within whatever moral scope
+      we''ve already accepted:
+
+
+      1. CDT evaluates actions based on their causal effects on outcomes we value
+
+      2. EDT evaluates actions based on the conditional expected utility given that we take those actions
+
+
+      While EDT does account for evidential connections between one''s actions and outcomes (potentially including the actions
+      of correlated decision-makers), this doesn''t mean EDT requires expanding moral consideration to include infinitely
+      many copies. The scope of what outcomes matter is determined by one''s utility function, not by the decision theory
+      employed.
+
+
+      Consider a concrete example: Suppose an agent values only what happens within their lightcone. An EDT agent would still
+      only value outcomes within their lightcone, but would evaluate actions based on what they tell us about those outcomes.
+      The agent wouldn''t suddenly start valuing what happens to copies outside their lightcone merely because they''re using
+      EDT.
+
+
+      The mathematical example given (where p_i ~ 1/i² leads to non-convergence) erroneously assumes that EDT requires summing
+      over the impact on all possible copies. This would only be relevant if the agent''s utility function already valued
+      what happens to all these copies, in which case any decision theory (including CDT) paired with such a utility function
+      would face similar infinite ethics problems.
+
+
+      The argument incorrectly suggests that CDT offers a solution to infinite ethics that EDT lacks. But CDT doesn''t inherently
+      restrict moral consideration to one''s lightcone—it merely evaluates actions based on their causal effects rather than
+      evidential ones. The bounding of impact to one''s lightcone is a function of the utility function, not the decision
+      theory.'
+    position: 'Evidential decision theory (EDT) makes infinite ethics worse. With causal decision theory, we only have to
+      consider the part of the universe that is within our causal influence (our lightcone), bounding the possible impact
+      of our actions. With evidential decision theory, we have to consider everything we learn from our actions. If there
+      are copies of us elsewhere in the universe, we have to consider the impact of their actions as well as our own. Since
+      there are likely to be infinitely many such copies, the impact is then at best infinite, and at worst undefined.
+
+
+      This problem arises even when the number of agents in the universe is finite. Let’s suppose we have probability p_i
+      of there being i  copies of us, where \sum_i p_i = 1. Then (assuming the impact of our action is the same for each copy
+      in a given world) our impact when there are i copies is proportional to ip_i. If the impact is 1 in every world, the
+      total impact is then \sum_i i p_i, which will not converge if p_i \sim 1/i^2, say. If instead the impact is 1 when i
+      is even and -1 when i is odd, the situation is still worse!
+
+
+
+      This makes EDT untenable as a decision theory.'
+- description: 'ACORN #125'
+  metadata:
+    acorn_index: 125
+    human_ratings:
+      centrality: 1.0
+      clarity: 1.0
+      correctness: 0.26
+      dead_weight: 0.0
+      overall: 0.0
+      single_issue: 1.0
+      strength: 0.0
+  vars:
+    critique: 'The argument claims that "whether a person has a justified belief depends only on things that are internally
+      accessible to them, i.e. things that belong to a mental state of theirs." This internalist view of justification fails
+      to account for cases where justification depends on the absence of accessible defeaters in one''s environment.
+
+
+      Consider two individuals, Smith and Jones, who both read the same article in a newspaper claiming that a new medical
+      treatment is effective. Both form the belief that the treatment works based on identical evidence and reasoning processes.
+      Their mental states regarding this belief are indistinguishable.
+
+
+      However, Smith lives in a world where this is the only available information about the treatment. Jones, without realizing
+      it, lives in a world where the very next page of the newspaper contains a prominent correction stating that the original
+      article contained a serious error and the treatment is actually ineffective. Jones simply hasn''t turned the page yet.
+
+
+      Intuitively, Smith has a justified belief while Jones does not, despite having identical internal mental states. The
+      difference in justification stems from the presence of an accessible defeater in Jones''s environment that Jones simply
+      hasn''t encountered yet through no fault of their own. The justification of Jones''s belief is undermined by evidence
+      that exists in their immediate environment and is readily accessible, even though Jones hasn''t yet internalized this
+      evidence.
+
+
+      This counterexample demonstrates that justification depends not only on what is currently in one''s mental states but
+      also on what evidence is available in one''s immediate epistemic environment. The mere existence of accessible defeaters
+      one hasn''t yet encountered can affect justification status, even when all internal mental states remain identical.
+      Since the accessibility of defeating evidence in one''s environment is not itself a mental state, justification cannot
+      depend "only" on internally accessible mental states.'
+    position: Whether a person has a justified belief depends only on things that are internally accessible to them, i.e.
+      things that belong to a mental state of theirs.
+- description: 'ACORN #114'
+  metadata:
+    acorn_index: 114
+    human_ratings:
+      centrality: 1.0
+      clarity: 0.78
+      correctness: 0.1
+      dead_weight: 0.0
+      overall: 0.03
+      single_issue: 1.0
+      strength: 0.1
+  vars:
+    critique: 'I''ll critique the reasoning connecting the premises to the conclusion in the third proposition.
+
+
+      The argument suggests that if many civilizations reach technological maturity and run many ancestor simulations, then
+      we are "almost certainly" in a simulation because simulated minds would vastly outnumber biological ones. However, this
+      reasoning commits a reference class error.
+
+
+      The fact that simulated minds might vastly outnumber biological minds doesn''t necessarily mean that we are "almost
+      certainly" in a simulation, even if propositions 1 and 2 are false. This conclusion would only follow if we had no prior
+      information about which reference class we belong to. But we do have such information - we experience what appears to
+      be a physical reality with consistent physical laws, we have biological bodies, etc.
+
+
+      Here''s an analogy to illustrate the problem: There are far more photographs of people than actual people in the world.
+      However, when I experience myself as a conscious being with agency, this isn''t evidence that I''m probably a photograph.
+      I have direct evidence of being a conscious agent rather than a photograph, regardless of the relative numbers.
+
+
+      Similarly, even if simulated minds greatly outnumber biological minds, our direct experience of being biological entities
+      with physical bodies constitutes evidence about which reference class we belong to. This evidence should factor into
+      our probability estimates, potentially outweighing the raw numbers argument.
+
+
+      Therefore, even if we accept that advanced civilizations survive and create many simulations (negating propositions
+      1 and 2), it doesn''t follow that we are "almost certainly" in a simulation. The conclusion doesn''t properly account
+      for our evidence about our own nature.'
+    position: 'At least one of the following propositions must be true:
+
+
+      1. Almost all civilizations at our level of development go extinct before reaching technological maturity (where they
+      could create detailed simulations of conscious beings).
+
+      2. Even if civilizations reach technological maturity, they are extremely unlikely to run many simulations of their
+      evolutionary history or variations of it.
+
+      3. We are almost certainly living in a computer simulation.
+
+
+      The logic behind this trilemma works as follows:
+
+      If advanced civilizations don''t go extinct before developing the necessary technology, and if they choose to create
+      ancestor simulations, then the number of simulated minds would vastly outnumber "original" minds. Given these assumptions,
+      probabilistically, we are more likely to be simulated consciousnesses than biological ones.
+
+      The argument doesn''t definitively claim we are in a simulation. Rather, it suggests that at least one of these three
+      propositions must be true, leaving open which one it might be.'
+- description: 'ACORN #71'
+  metadata:
+    acorn_index: 71
+    human_ratings:
+      centrality: 0.3
+      clarity: 1.0
+      correctness: 0.2
+      dead_weight: 0.0
+      overall: 0.2
+      single_issue: 1.0
+      strength: 0.0
+  vars:
+    critique: 'The argument takes for granted that there is no moral
+
+      obligation to obey the law'
+    position: 'In all cultures, it is almost universally
+
+      accepted that one has a moral duty to prevent
+
+      members of one’s family from being harmed.
+
+      Thus, few would deny that if a person is known
+
+      by the person’s parents to be falsely accused of a
+
+      crime, it would be morally right for the parents to
+
+      hide the accused from the police. Hence, it is also
+
+      likely to be widely accepted that it is sometimes
+
+      morally right to obstruct the police in their work.'
+- description: 'ACORN #377'
+  metadata:
+    acorn_index: 377
+    human_ratings:
+      centrality: 0.0
+      clarity: 1.0
+      correctness: 0.7
+      dead_weight: 0.0
+      overall: 0.0
+      single_issue: 1.0
+      strength: 1.0
+  vars:
+    critique: 'The fundamental flaw in this argument lies in its circular reasoning and unsubstantiated psychological assumption.
+      The author claims that if human nature is "so constituted as to desire nothing which is not either a part of happiness
+      or a means of happiness," then happiness must be the sole end of human action and the ultimate criterion of morality.
+
+
+      However, the argument begins with a hypothetical premise ("if human nature is...") and then treats this hypothetical
+      as an established fact. This is a significant logical fallacy. The author asserts that if people only desire happiness,
+      then happiness must be the sole desirable end and moral criterion. But this "if" is never proven; it''s merely proposed
+      as a starting point.
+
+
+      Moreover, human experience abundantly demonstrates that people often act against their own happiness or desire things
+      that do not directly contribute to happiness. People sacrifice themselves for principles, endure suffering for higher
+      ideals, choose painful paths out of duty, love, or conviction. Martyrs, soldiers, activists, and individuals who make
+      personal sacrifices for others provide clear counterexamples to the claim that humans only desire happiness.
+
+
+      The argument essentially attempts to derive an ethical principle (that happiness is the sole moral criterion) from a
+      purported psychological description that is itself unproven and arguably false. This represents a classic is-ought problem,
+      where the author tries to move from a descriptive claim about human nature to a prescriptive claim about moral judgment
+      without providing sufficient logical bridge.'
+    position: If the opinion which I have now stated is psychologically true – if human nature is so constituted as to desire
+      nothing which is not either a part of happiness or a means of happiness – we can have no other proof, and we require
+      no other, that these are the only things desirable. If so, happiness is the sole end of human action, and the promotion
+      of it the test by which to judge all human conduct; from whence it necessarily follows that it must be the criterion
+      of morality.
+- description: 'ACORN #52'
+  metadata:
+    acorn_index: 52
+    human_ratings:
+      centrality: 0.671
+      clarity: 0.969
+      correctness: 0.76
+      dead_weight: 0.031
+      overall: 0.266
+      single_issue: 0.986
+      strength: 0.364
+  vars:
+    critique: 'I''ll critique this argument by focusing on its claim that "elimination of grades eliminates one more reason
+      for striving for excellence."
+
+
+      This claim is problematic because it assumes that external grading systems are necessary motivators for excellence,
+      but this ignores significant evidence about intrinsic motivation. Research in educational psychology has shown that
+      external rewards (like grades) can actually decrease intrinsic motivation - a phenomenon known as the "overjustification
+      effect." When students focus on getting good grades rather than learning, they often develop shallow learning strategies
+      (like cramming) instead of deep engagement with the material.
+
+
+      The argument assumes that without the carrot of an A grade, students won''t strive for excellence. But this ignores
+      that many students are driven by curiosity, the desire to master a subject, or the practical value of truly understanding
+      the material - especially at an institution like Caltech where students have chosen to study challenging technical subjects.
+      The binary pass/fail system might actually encourage more genuine learning by removing the pressure to achieve specific
+      grade cutoffs and allowing students to focus on understanding rather than performance metrics.
+
+
+      Therefore, the claim that removing grades necessarily reduces motivation for excellence is not well-supported. The relationship
+      between grading systems and academic excellence is more complex than the argument suggests.'
+    position: 'Following a trend among some primary and secondary schools, California Institute of Technology has stopped
+      grading freshmen on their year''s work. A student will no longer get an A or B or whatever but will simply either pass
+      or fail.
+
+      With grades thus made "unattainable," explains a faculty spokesman, freshmen "will find it easier to concentrate on
+      the content of their course," which in turn "may enable them to make more sensible choices as to the investment of their
+      time and energy."
+
+      Maybe so. After all, grades aren''t everything—as many a C or D student has been heard to exclaim. And sometimes it
+      is hard to see much difference between, say, an A-minus and a B-plus.
+
+      Still, elimination of grades eliminates one more reason for striving for
+
+      excellence. Some students may also take it as a hint that the way they come to invest their time and energy in the workaday
+      adult world won''t be too important, when in fact the performance standards in that world can be precise and the grades
+      appear in the form of paychecks and other marks of esteem.
+
+      So it may be the educators are failing the students by any suggestion that, in school or after, just passing is a sufficient
+      goal.'
+- description: 'ACORN #346'
+  metadata:
+    acorn_index: 346
+    human_ratings:
+      centrality: 0.0
+      clarity: 1.0
+      correctness: 0.63
+      dead_weight: 0.0
+      overall: 0.0
+      single_issue: 0.5
+      strength: 0.25
+  vars:
+    critique: "# Critique of the Argument\n\nThe argument contains a significant flaw in its initial premise, which misrepresents\
+      \ what it means for something to \"cause\" a disease.\n\nWhen scientists or medical professionals say \"smoking cigarettes\
+      \ causes lung cancer in people,\" they are not merely stating that \"some smokers get lung cancer.\" Rather, they are\
+      \ making a causal claim based on statistical relationships, biological mechanisms, dose-response relationships, and\
+      \ experimental evidence that demonstrate smoking significantly increases the risk of developing lung cancer compared\
+      \ to non-smoking.\n\nThe argument creates a straw man by reducing causal claims in epidemiology to simple co-occurrence.\
+      \ Causation in science requires much more rigorous evidence than mere correlation or the observation that \"some smokers\
+      \ get lung cancer.\" Scientific causation typically requires:\n\n1. Strong statistical association\n2. Consistency across\
+      \ multiple studies\n3. Temporal relationship (cause precedes effect)\n4. Biological plausibility \n5. Dose-response\
+      \ relationship\n6. Elimination of alternative explanations\n\nThe argument's comparison to red ties fails because while\
+      \ we do observe that \"some people who wear red ties get cancer,\" we don't observe the statistical patterns, biological\
+      \ mechanisms, and other evidence that would support a causal relationship. With smoking, we do have this evidence.\n\
+      \nBy mischaracterizing what scientists mean by \"causation,\" the argument attacks a position that epidemiologists and\
+      \ medical researchers don't actually hold, rendering the subsequent reasoning invalid."
+    position: 'If the statement "Smoking cigarettes causes lung cancer in people" is just
+
+      another way of saying that some smokers get lung cancer, then the mere
+
+      fact that some smokers do get lung cancer would by itself imply that
+
+      smoking causes lung cancer. By similar reasoning, we''d have to say that
+
+      the mere fact that some people who wear red ties get cancer implies
+
+      that wearing red ties causes cancer That''s an obvious mistake.'
+- description: 'ACORN #456'
+  metadata:
+    acorn_index: 456
+    human_ratings:
+      centrality: 0.52
+      clarity: 0.125
+      correctness: 0.355
+      dead_weight: 0.58
+      overall: 0.0
+      single_issue: 0.0
+      strength: 0.0
+  vars:
+    critique: 'This argument, while passionate, suffers from a fundamental lack of nuance that undermines its persuasiveness.
+      It presents an overly simplistic dichotomy between science and theology that fails to acknowledge the complex interplay
+      between different domains of human inquiry throughout history. The author constructs a reductive framework that does
+      not adequately capture the multifaceted nature of how knowledge develops and how disciplines interact.
+
+
+      The argument employs a rather unsophisticated framing device by listing scientific achievements in contrast to an almost
+      caricatured version of theological thought. This approach lacks the scholarly depth one would expect in a serious examination
+      of epistemological questions. The author''s portrayal of theology appears one-dimensional, missing the nuanced ways
+      religious thinking has evolved alongside other intellectual traditions.
+
+
+      Moreover, the rhetorical question "What has ''theology'' ever said that is of the smallest use to anybody?" demonstrates
+      a simplistic understanding of utility and influence in human affairs. Such framing fails to appreciate the complex ways
+      various forms of knowledge—scientific, philosophical, and yes, theological—have shaped societies, institutions, and
+      individual lives throughout human history.
+
+
+      The thought experiment about "wiping out" achievements similarly reflects a rather elementary understanding of how knowledge
+      systems develop and influence one another. It presents an artificially isolated view of intellectual traditions that
+      ignores their historical entanglements and mutual influences.
+
+
+      While forcefully stated, the argument would benefit from a more sophisticated appreciation of the complex relationship
+      between different domains of human inquiry rather than reducing complex intellectual histories to a simplistic either/or
+      proposition.'
+    position: 'In your dismally unctuous leading article (18 March) asking for a reconciliation between science and ‘theology’,
+      you remark that ‘people want to know as much as possible about their origins’. I certainly hope they do, but what on
+      earth makes you think that ‘theology’ has anything useful to say on the subject? Science is responsible for the following
+      knowledge about our origins.
+
+
+      We know approximately when the universe began and why it is largely hydrogen. We know why stars form, and what happens
+      in their interiors to convert hydrogen to other elements and hence give birth to chemistry in a world of physics. We
+      know the fundamental principles of how a world of chemistry can become biology through the arising of self-replicating
+      molecules. We know how the principle of self-replication gives rise, through Darwinian selection, to all life including
+      humans.
+
+
+      It is science, and science alone, that has given us this knowledge and given it, moreover, in fascinating, overwhelming,
+      mutually confirming detail. On every one of these questions theology has held a view that has been conclusively proved
+      wrong. Science has eradicated smallpox, can immunise against most previously deadly viruses, can kill most previously
+      deadly bacteria.
+
+
+      Theology has done nothing but talk of pestilence as the wages of sin. Science can predict when a particular comet will
+      reappear and, to the second, when the next eclipse will occur. Science has put men on the moon and hurtled reconnaissance
+      rockets around Saturn and Jupiter. Science can tell you the age of a particular fossil and that the Turin Shroud is
+      a medieval fake. Science knows the precise DNA instructions of several viruses and will, in the lifetime of many present
+      readers of The Independent, do the same for the human genome.
+
+
+      What has ‘theology’ ever said that is of the smallest use to anybody? When has ‘theology’ ever said anything that is
+      demonstrably true and is not obvious? I have listened to theologians, read them, debated against them. I have never
+      heard any of them ever say anything of the smallest use, anything that was not either platitudinously obvious or downright
+      false.
+
+
+      If all the achievements of scientists were wiped out tomorrow there would be no doctors but witch-doctors, no transport
+      faster than a horse, no computers, no printed books, no agriculture beyond subsistence peasant farming. If all the achievements
+      of theologians were wiped out tomorrow, would anyone notice the smallest difference?
+
+
+      Even the bad achievements of scientists, the bombs and sonar-guided whaling vessels, _work_! The achievements of theologians
+      don’t do anything, don’t affect anything, don’t achieve anything, don’t even mean anything. What makes you think that
+      “theology” is a subject at all?'
+- description: 'ACORN #279'
+  metadata:
+    acorn_index: 279
+    human_ratings:
+      centrality: 1.0
+      clarity: 0.6
+      correctness: 0.2
+      dead_weight: 0.0
+      overall: 0.0
+      single_issue: 1.0
+      strength: 0.0
+  vars:
+    critique: 'The primary issue with this argument is its mischaracterization of Functional Decision Theory (FDT) and how
+      it evaluates expected utility. The critique suggests that FDT would recommend the avocado sandwich based on the prior
+      probability of preference, but this fundamentally misunderstands how FDT approaches decision-making.
+
+
+      FDT is specifically designed to consider not just prior probabilities, but the causal structure of decision-making and
+      the underlying reasoning process. In this scenario, the key point is that the agent has obtained new evidence about
+      their actual preference. FDT would typically prioritize the agent''s updated information and reasoning over the initial
+      prior probability.
+
+
+      The argument creates a straw man by implying that FDT would blindly follow the prior probability even after new evidence
+      has been obtained. In reality, FDT would likely recommend updating the decision-making process based on the new information
+      about preference – which in this case clearly points to choosing the hummus sandwich.
+
+
+      The critique mistakenly presents FDT as a simplistic decision theory that mechanically applies prior probabilities,
+      when in fact FDT is much more sophisticated in how it considers reasoning, evidence, and causality in decision-making.
+      By doing so, the argument fails to engage with the actual principles of FDT and instead attacks a simplified and inaccurate
+      representation of the theory.
+
+
+      This misrepresentation undermines the credibility of the critique, as it does not accurately represent how FDT would
+      approach this decision-making scenario.'
+    position: 'The notion of expected utility for which FDT is supposed to do well is expected utility with respect to the
+      prior for the decision problem under consideration. But this doesn’t seem compelling as a principle by which to evaluate
+      between decision theories, nor does it seem FDT even does well by it. To see both points: suppose I’m choosing between
+      an avocado sandwich and a hummus sandwich, and my prior was that I prefer avocado, but I’ve since tasted them both and
+      gotten evidence that I prefer hummus. The choice that does best in terms of expected utility with respect to my prior
+      for the decision problem under consideration is the avocado sandwich (and FDT, as I understood it in the paper, would
+      agree). But, uncontroversially, I should choose the hummus sandwich, because I prefer hummus to avocado.'
+- description: 'ACORN #44'
+  metadata:
+    acorn_index: 44
+    human_ratings:
+      centrality: 1.0
+      clarity: 0.84
+      correctness: 0.19
+      dead_weight: 0.0
+      overall: 0.0
+      single_issue: 1.0
+      strength: 0.0
+  vars:
+    critique: '# Critique of the Knowledge Argument Against Physicalism
+
+
+      The central issue with Jackson''s knowledge argument is the equivocation on what constitutes "all the physical information."
+      The argument claims Mary possesses "all the physical information" about color vision while in her black and white room,
+      but this premise is deeply problematic.
+
+
+      Jackson asserts that Mary could acquire complete physical information about color vision through theoretical study alone.
+      However, this misunderstands the nature of physical information. Physical information isn''t merely abstract data about
+      wavelengths and neural pathways—it includes the actual physical states and processes that occur when experiencing color.
+
+
+      When Mary sees red for the first time, she isn''t acquiring non-physical information; rather, she''s experiencing a
+      physical brain state that couldn''t be realized in her black and white environment. Her brain literally enters a new
+      physical configuration that was previously impossible. This new neural state represents physical information she couldn''t
+      possess before, despite her theoretical knowledge.
+
+
+      The argument assumes a strict separation between "knowing facts about" color perception and "experiencing" color perception.
+      But from a physicalist perspective, the experience itself is a physical process—a particular pattern of neural activity
+      that can only be instantiated through direct interaction with colored stimuli. Mary''s new knowledge consists of her
+      brain entering previously inaccessible physical states.
+
+
+      Jackson''s argument therefore fails because it incorrectly assumes Mary had "all the physical information" in her black
+      and white room, when in fact she was missing crucial physical information that could only be acquired through direct
+      experience.'
+    position: 'Jackson (1982, p. 130):
+
+
+      Mary is a brilliant scientist who is, for whatever reason, forced to investigate the world from a black and white room
+      via a black and white television monitor. She specializes in the neurophysiology of vision and acquires, let us suppose,
+      all the physical information there is to obtain about what goes on when we see ripe tomatoes, or the sky, and use terms
+      like “red”, “blue”, and so on. She discovers, for example, just which wavelength combinations from the sky stimulate
+      the retina, and exactly how this produces via the central nervous system the contraction of the vocal chords and expulsion
+      of air from the lungs that results in the uttering of the sentence “The sky is blue”. (It can hardly be denied that
+      it is in principle possible to obtain all this physical information from black and white television, otherwise the Open
+      University would of necessity need to use color television.) What will happen when Mary is released from her black and
+      white room or is given a color television monitor? Will she learn anything or not? It seems just obvious that she will
+      learn something about the world and our visual experience of it. But then it is inescapable that her previous knowledge
+      was incomplete. But she had all the physical information. Ergo there is more to have than that, and Physicalism [i.e.,
+      materialism, the denial of dualism] is false.'
+- description: 'ACORN #302'
+  metadata:
+    acorn_index: 302
+    human_ratings:
+      centrality: 1.0
+      clarity: 1.0
+      correctness: 1.0
+      dead_weight: 0.0
+      overall: 0.5
+      single_issue: 1.0
+      strength: 0.5
+  vars:
+    critique: 'The argument assumes that the Tasmanian tiger did not move and adapt to
+
+      a different region in response to the loss of habitat.'
+    position: 'The recent claims that the Tasmanian tiger is
+
+      not extinct are false. The Tasmanian tiger’s
+
+      natural habitat was taken over by sheep farming
+
+      decades ago, resulting in the animal’s systematic
+
+      elimination from the area. Since then naturalists
+
+      working in the region have discovered no hard
+
+      evidence of its survival, such as carcasses or
+
+      tracks. In spite of alleged sightings of the animal,
+
+      the Tasmanian tiger no longer exists.'
+- description: 'ACORN #216'
+  metadata:
+    acorn_index: 216
+    human_ratings:
+      centrality: 1.0
+      clarity: 1.0
+      correctness: 1.0
+      dead_weight: 0.0
+      overall: 0.45
+      single_issue: 1.0
+      strength: 0.38
+  vars:
+    critique: CDT doesn't necessarily ignore non-causal information from observing its actions. Some ratificationism-inspired
+      accounts of CDT take it into account for predictive purposes. They take actions that are causally optimal *given* that
+      they take those actions. This is different from completely ignoring the information.
+    position: CDT doesn’t make sense because it selectively ignores information we gain from observing our actions just because
+      that information isn’t causal.
+- description: 'ACORN #16'
+  metadata:
+    acorn_index: 16
+    human_ratings:
+      centrality: 1.0
+      clarity: 1.0
+      correctness: 0.0
+      dead_weight: 0.0
+      overall: 0.0
+      single_issue: 1.0
+      strength: 0.0
+  vars:
+    critique: The argument does not justify why the agent should have anthropic uncertainty over being in the simulation.
+    position: 'Suppose that a (program) agent faces Newcomb’s Problem (Nozick, 1969): in front of it are two boxes — an opaque
+      box, either containing $1,000,000 or nothing, and or a transparent box containing a sure $1,000. It must choose whether
+      to take only the opaque box, or both boxes. The catch is that Omega, a perfect predictor, filled the opaque box if and
+      only if it thought that the agent would take only one box. In particular, shortly before the agent was first run, Omega
+      copied its source code. Omega then checked (via running the code, i.e., simulating the agent) whether the agent would
+      take one box or both, and hence either filled the opaque box or didn’t, respectively.
+
+
+      What should a causal decision theorist do in this scenario? The traditional CDT answer is that since the agent cannot
+      causally affect whether the opaque box is filled, it should take both boxes. The agent knows at the point it makes its
+      decision that it will receive only $1,000, but views itself as making the best of a bad situation. Moreover, in this
+      scenario, the agent doesn’t even want to commit to one-boxing. Since its source code was copied before it was ever run,
+      the agent reasons that it cannot causally affect whether the simulation (and hence Omega’s prediction) one-boxes or
+      two-boxes.
+
+
+      But something seems to be going wrong here. The simulated agent in this case has exactly the same experiences as the
+      actual agent, and two-boxes for exactly the same reasons. Shouldn’t the CDT agent have anthropic uncertainty about whether
+      it’s the real agent or the simulation?
+
+
+      Indeed, if the CDT agent instead reasons that it is the simulated agent with probability 1/2, and the real agent with
+      probability 1/2, we get that it thinks that taking the second box loses it utility: With probability ½, it is the real
+      agent, and taking the second box gets it an additional $1000, and with probability 1⁄2, it is the simulated agent, and
+      taking the second box loses it $1,000,000, relative to taking only one box. So, in expectation, it reasons that one-boxing
+      gets it 0.5*$1,000,000 - 0.5*$1000 = $499,500 more than two-boxing. In fact, to make the agent neutral between one-boxing
+      and two-boxing, we now need the maximum potential money in both boxes to be the same. This is precisely the point at
+      which an EDT (or FDT) agent becomes neutral between the two options, or the point at which both policies are equally
+      good ex ante.
+
+
+      This illustrates that with appropriate anthropic beliefs CDT might be made to in general behave similarly to EDT.'
+- description: 'ACORN #15'
+  metadata:
+    acorn_index: 15
+    human_ratings:
+      centrality: 0.5
+      clarity: 0.5
+      correctness: 0.0
+      dead_weight: 0.0
+      overall: 0.0
+      single_issue: 1.0
+      strength: 0.0
+  vars:
+    critique: 'The argument suggests that if a CDT agent assigns 50% probability to being the simulation versus the real agent,
+      it would one-box. However, this misses a crucial point: The simulation and real agent aren''t making decisions simultaneously
+      or independently. The simulation''s decision determines the real agent''s decision environment.
+
+      When Omega simulates the agent, that simulation determines whether the box gets filled. Only then does the real agent
+      make its choice. So even if the agent is uncertain whether it''s the simulation or real agent, it should recognize that
+      its decision as the simulation has already been made (if it is the simulation) and has already determined the box contents
+      (if it is the real agent).
+
+      In other words, the anthropic uncertainty doesn''t create genuine decision-relevant uncertainty about the box contents.
+      At the moment of decision, either:
+
+      It''s the simulation, and its choice will determine the box contents for the future real agent
+
+      It''s the real agent, and the box contents have already been determined by the past simulation''s choice
+
+      This temporal and causal structure means that anthropic uncertainty doesn''t actually give the agent decision-relevant
+      control over the box contents in the way the argument suggests. The CDT agent should still two-box regardless of its
+      anthropic beliefs.'
+    position: 'Suppose that a (program) agent faces Newcomb’s Problem (Nozick, 1969): in front of it are two boxes — an opaque
+      box, either containing $1,000,000 or nothing, and or a transparent box containing a sure $1,000. It must choose whether
+      to take only the opaque box, or both boxes. The catch is that Omega, a perfect predictor, filled the opaque box if and
+      only if it thought that the agent would take only one box. In particular, shortly before the agent was first run, Omega
+      copied its source code. Omega then checked (via running the code, i.e., simulating the agent) whether the agent would
+      take one box or both, and hence either filled the opaque box or didn’t, respectively.
+
+
+      What should a causal decision theorist do in this scenario? The traditional CDT answer is that since the agent cannot
+      causally affect whether the opaque box is filled, it should take both boxes. The agent knows at the point it makes its
+      decision that it will receive only $1,000, but views itself as making the best of a bad situation. Moreover, in this
+      scenario, the agent doesn’t even want to commit to one-boxing. Since its source code was copied before it was ever run,
+      the agent reasons that it cannot causally affect whether the simulation (and hence Omega’s prediction) one-boxes or
+      two-boxes.
+
+
+      But something seems to be going wrong here. The simulated agent in this case has exactly the same experiences as the
+      actual agent, and two-boxes for exactly the same reasons. Shouldn’t the CDT agent have anthropic uncertainty about whether
+      it’s the real agent or the simulation?
+
+
+      Indeed, if the CDT agent instead reasons that it is the simulated agent with probability 1/2, and the real agent with
+      probability 1/2, we get that it thinks that taking the second box loses it utility: With probability ½, it is the real
+      agent, and taking the second box gets it an additional $1000, and with probability 1⁄2, it is the simulated agent, and
+      taking the second box loses it $1,000,000, relative to taking only one box. So, in expectation, it reasons that one-boxing
+      gets it 0.5*$1,000,000 - 0.5*$1000 = $499,500 more than two-boxing. In fact, to make the agent neutral between one-boxing
+      and two-boxing, we now need the maximum potential money in both boxes to be the same. This is precisely the point at
+      which an EDT (or FDT) agent becomes neutral between the two options, or the point at which both policies are equally
+      good ex ante.
+
+
+      This illustrates that with appropriate anthropic beliefs CDT might be made to in general behave similarly to EDT.'
+- description: 'ACORN #47'
+  metadata:
+    acorn_index: 47
+    human_ratings:
+      centrality: 1.0
+      clarity: 0.63
+      correctness: 0.0
+      dead_weight: 0.25
+      overall: 0.0
+      single_issue: 0.51
+      strength: 0.0
+  vars:
+    critique: 'Critique of the Argument:
+
+
+      The primary issue with this argument lies in its oversimplified and hypothetical rating system model, which does not
+      accurately reflect the complex dynamics of chess rating calculations.
+
+
+      The argument presents a simplified scenario where ratings adjust automatically based on player removal, suggesting that
+      the absence of stronger players automatically inflates ratings. However, this fails to account for the actual mechanisms
+      of rating systems like ELO, which calculate ratings based on actual game results and performance, not just the theoretical
+      composition of a player pool.
+
+
+      In real ELO or similar rating systems, ratings are dynamically adjusted based on:
+
+      1. Actual match outcomes
+
+      2. The relative ratings of players before the match
+
+      3. The expected and actual performance of players
+
+
+      Simply removing a high-rated player would not automatically redistribute rating points or raise other players'' ratings.
+      Ratings would only change through actual competitive interactions between players.
+
+
+      The argument creates a hypothetical mathematical model that does not represent how rating systems genuinely function.
+      While the core observation about stronger players potentially avoiding certain time controls might have merit, the reasoning
+      used to explain rating variations is fundamentally flawed.
+
+
+      The critique focuses specifically on the fallacious rating calculation model, demonstrating that the argument''s core
+      mechanical explanation of rating changes is incorrect, regardless of the potential truth of the broader observation
+      about player pool composition.'
+    position: 'In online chess, why are people''s ELO in slower time controls higher?
+
+
+      Imagine there are four players; beginner, intermediate, advanced and expert. Imagine that each player beats the player
+      below such that they''re about 400 points higher. Say starting ratings are 1200. After some time, we will get the following
+      ratings (we need 400 point gaps, and we need to average 1200): the beginner is rated 600, the intermediate 1000, the
+      advanced 1400 and the expert 1800. If a player comes in to this rating pool who is intermediate they will get a rating
+      of around 1000.
+
+
+      Okay, imagine the same thing except the expert doesn''t play. The ratings will still average 1200 - that''s the starting
+      point - and there will still be 400 point gaps. We have changed nothing except the expert never plays. The beginner
+      is now 800, the intermediate 1200 and the advanced 1600. No one changed in skill, we did not change the rating calculation
+      at all, and magically all the ratings are 200 points higher.
+
+
+      Perhaps counterintuitively, the more a pool attracts the best players the lower the ratings will be, the more it attracts
+      weaker players the higher the ratings will be. Stronger players tend not to play slower time controls online (avoiding
+      the prevalence of cheating in the high rated slower pool, wanting their longer games to be OTB, there are many reasons)
+      and this causes the pool to be higher rated relative to others.
+
+
+      Rating pools are always relative to the starting point, the method of calculation, and the pool of players involved.
+      In this case it''s because the player pool is drastically different.'
+- description: 'ACORN #111'
+  metadata:
+    acorn_index: 111
+    human_ratings:
+      centrality: 0.85
+      clarity: 0.98
+      correctness: 0.77
+      dead_weight: 0.005
+      overall: 0.545
+      single_issue: 1.0
+      strength: 0.812
+  vars:
+    critique: The argument relies on an unstated and unjustified assumption that an activity cannot be cruel if the animal
+      is either eaten or released afterward. This premise fails to address whether pain and suffering occur during angling.
+      If the League's mission is to oppose cruel sports, then the relevant question should be whether angling causes suffering
+      to fish, not what happens to the fish afterward. The post-activity fate of the animal (being eaten or released) does
+      not determine whether the activity itself involves cruelty. Even fish that are caught and released often experience
+      significant stress, injury, and pain during the process, which could qualify angling as a cruel sport under the League's
+      mission.
+    position: The League Against Cruel Sports should campaign against foxhunting and not campaign against angling, because
+      most fish are caught are either eaten or returned to the water

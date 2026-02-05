@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.8,
+  "paper_specificity": 0.75,
+  "tractability": 0.4,
+  "clarity": 0.65,
+  "decision_hook": 0.9,
+  "dead_weight": 0.15,
+  "overall": 0.55,
+  "reasoning": "Crucial because the choice of intertheoretic comparison/normalisation can flip whether policy should prioritise downside-risk minimisation vs upside-seeking (a strategy-level fork). Fairly paper-specific since it directly targets the paper\u2019s Section 3.5 comparison of extinction\u2013best, variance, and pairwise methods and the illustrative reversal; however, the underlying issue (intertheoretic value comparison) is also a broad, pre-existing philosophical problem. Tractability is limited: progress is possible via axiomatic analysis, coherence theorems, and applied decision-theory case studies, but it\u2019s not straightforwardly empirically resolvable and may not converge within 1\u20135 years. Clarity is moderate because \u201cdefensible enough to guide policy\u201d lacks operational criteria (e.g., which desiderata: dominance, invariance to cosmology updates, robustness, political legitimacy). Decision hook is strong and explicitly stated. Little dead weight; most context supports why the question matters and what hinges on it.",
+  "title": "Normalization method robustness for safety versus acceleration policy"
+}

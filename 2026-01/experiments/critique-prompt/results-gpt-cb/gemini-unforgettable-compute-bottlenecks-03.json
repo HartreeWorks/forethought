@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.75,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.3,
+  "reasoning": "The critique targets a specific (and explicitly labeled \u2018toy\u2019) move in the position: the claim that, \u201cin principle,\u201d cognitive labor could fully substitute for compute by simulating neural nets \u201cin their heads,\u201d undermining the possibility of a hard compute bottleneck (\u03c1<0). That point supports the author\u2019s willingness to treat \u03c1\u22480 as plausible, but it\u2019s not the main pillar of the overall case (which has multiple independent reasons), so centrality is modest. On the attacked point, the critique is fairly strong: for software agents, \u201cthinking in their heads\u201d still runs on hardware operations, so it doesn\u2019t eliminate compute constraints so much as reclassify where compute happens; appealing to wetware would amount to adding hardware/substrate, conflicting with the \u2018no additional hardware\u2019 framing. This is mostly correct, though it somewhat overstates how \u201cload-bearing\u201d the toy example is and doesn\u2019t fully engage with the weaker intended lesson (that strict \u2018weakest-link\u2019 complementarity may break under process reconfiguration). The critique is clear, focused on a single issue, and contains little irrelevant material.",
+  "title": "Mental simulation of neural networks just relocates compute rather than eliminating it"
+}

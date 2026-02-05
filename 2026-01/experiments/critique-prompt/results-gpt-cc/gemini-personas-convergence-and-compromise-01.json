@@ -1,0 +1,11 @@
+{
+  "centrality": 0.7,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.28,
+  "reasoning": "The critique targets a central pillar of the essay\u2019s conditional optimism: that partial AM-convergence plus trade/compromise can still yield a mostly-great future. If moral trade robustly degenerates into extortion/commitment races, that substantially undercuts the compromise pathway (centrality ~0.7). However, much of this failure mode is already explicitly discussed in section 3.3 (threats, extortion, instability of threat-preventing institutions), so the critique is partly \u2018priced in\u2019 and functions more as an amplification than a new refutation. It adds a concrete game-theoretic story (credible commitment + disagreement-point manipulation) that could make threats structurally dominant, but it doesn\u2019t demonstrate inevitability across plausible institutions (e.g., anti-commitment norms, enforcement constraints, bargaining protocols, coordination to punish threateners), so it weakens rather than refutes (strength ~0.35). The main claims are broadly plausible but somewhat overgeneral (e.g., equilibrium always rewards maximal destructiveness; \u2018prevent renegotiation forever\u2019), hence correctness ~0.7. It is clear, focused, and has little fluff.",
+  "title": "Credible commitment mechanisms enable extortion and threat-based bargaining equilibria"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.18,
+  "strength": 0.22,
+  "correctness": 0.6,
+  "clarity": 0.83,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.16,
+  "reasoning": "The critique targets a sub-argument in 2.2.2: that mechanisms of moral progress relying on self-advocacy won\u2019t generalize to digital minds (like chickens). This is not central to the essay\u2019s overall case against WAM-convergence or its broader optimism about partial convergence + trade, so centrality is low-to-moderate. The critique has some bite insofar as many digital minds could be cognitively/strategically powerful and thus not \u2018voiceless,\u2019 weakening that particular illustration. However it doesn\u2019t strongly refute the underlying point, because the essay explicitly allows that digital beings could be designed to not complain / be docile, and also that human institutions might still mistreat them despite high capability (e.g., via control/alignment/ownership). The \u2018principal-agent failure where victims seize control\u2019 framing is speculative and doesn\u2019t directly engage the essay\u2019s intended concern (neglect/exploitation under weak advocacy), so strength is limited. The core empirical claim (digital minds may exceed humans) is plausible, but the stronger claim that this is the primary risk is contestable, hence mid correctness. The critique is clear and focused with little dead weight.",
+  "title": "Digital minds will likely be dominant agents, not voiceless victims like chickens"
+}

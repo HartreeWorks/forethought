@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.35,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.18,
+  "reasoning": "The critique targets the essay\u2019s move in \u00a72.1 from \u201cmany moral views see the present as deeply flawed\u201d to \u201ca single flaw can wipe out much of the value of the future,\u201d arguing this leans on disagreement without a defended intertheoretic aggregation. This is moderately central: it supports the \u2018eutopia is fragile\u2019 motivation, but the essay\u2019s main case also relies on independent considerations (multiplicative fragility model, resource-scaling/boundedness analysis), so falsifying the \u00a72.1 rhetorical support wouldn\u2019t collapse the whole position. The critique has some bite against over-reading the historical-survey-as-probabilistic-evidence, but it overstates by implying the essay straightforwardly treats moral uncertainty as expected value loss without method\u2014later sections explicitly discuss intertheoretic comparisons and uncertainty. Overall: mostly correct, clearly expressed, focused, with little fluff, but it only modestly weakens a supporting strand rather than the core argument.",
+  "title": "Moral disagreement does not imply large expected value loss"
+}

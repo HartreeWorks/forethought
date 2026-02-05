@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.78,
+  "paper_specificity": 0.86,
+  "tractability": 0.57,
+  "clarity": 0.76,
+  "decision_hook": 0.92,
+  "dead_weight": 0.12,
+  "overall": 0.71,
+  "reasoning": "Cruciality is high because whether major algorithmic progress requires near-frontier runs strongly affects the compute-bottleneck story and thus governance levers (hardware controls vs focusing on software/organizational scaling). Paper-specificity is high: it directly targets the paper\u2019s rebuttal to the \u2018near-frontier experiments are fixed\u2019 move and its historical claim about declining near-frontier experiment counts. Tractability is moderate: partial evidence is feasible (historical case studies of breakthroughs, scaling-law extrapolation validity, analysis of ablation/small-run predictiveness, internal lab logs), but \u2018necessary for major breakthroughs\u2019 is hard to pin down and confounded by publication bias and shifting paradigms. Clarity is fairly good but has ambiguities about definitions (\u2018near-frontier\u2019, \u2018major breakthrough\u2019, \u2018necessary\u2019 vs \u2018usually helpful\u2019). Decision hook is excellent and explicitly bifurcates strategies. Dead weight is low: most context supports the precise fork.",
+  "title": "Necessity of near-frontier experiments for algorithmic breakthroughs"
+}

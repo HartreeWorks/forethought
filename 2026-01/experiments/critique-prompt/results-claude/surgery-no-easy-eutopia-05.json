@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.25,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.15,
+  "reasoning": "The critique targets a real, explicitly stated supporting claim: that further reflection is unlikely to make moral views more easygoing. If overturned, it would weaken the essay\u2019s robustness/psychology-of-moral-change story and slightly undercut the move from \u201cmany views are fussy\u201d to \u201cwe shouldn\u2019t expect convergence toward easygoingness,\u201d but it wouldn\u2019t by itself refute the main \u2018no easy eutopia\u2019 conclusion, which is driven largely by structural arguments about value functions, scale, boundedness, and goods/bads aggregation. Strength is limited because the critique mostly offers an alternative causal story (evolved small-scale psychology, bias correction, historical \u2018tolerance\u2019 trends) without engaging the essay\u2019s key technical contention that many plausible views are intrinsically fussy even after idealized reflection, nor showing that \u2018tolerance/inclusion\u2019 implies \u2018easygoing about near-best futures.\u2019 The points made are generally plausible/speculative rather than clearly false, but some claims are overstated (e.g., that the same evidence supports the opposite conclusion). It is clear, focused, and contains little filler.",
+  "title": "Fussy moral intuitions may be cognitive biases that reflection would dissolve"
+}

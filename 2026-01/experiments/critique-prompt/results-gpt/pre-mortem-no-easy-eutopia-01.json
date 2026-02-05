@@ -1,0 +1,11 @@
+{
+  "centrality": 0.7,
+  "strength": 0.4,
+  "correctness": 0.35,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.8,
+  "overall": 0.25,
+  "reasoning": "The critique targets a fairly central pillar of the essay: the \u2018value is multiplicative across many roughly independent dimensions\u2019 framing used to motivate eutopian fragility and the narrowness of the mostly-great target. If that independence/near-zeroing picture is badly wrong (because dimensions are strongly positively correlated under abundance and institutional maturity), the product-model intuition and some downstream conclusions weaken substantially\u2014though the essay also offers other routes to fussiness (population ethics, bounded/unbounded value functions, fat tails), so the position wouldn\u2019t fully collapse. The critique\u2019s argumentative force is moderate: it correctly identifies independence as a key assumption and offers a plausible alternative (bundled moral progress / correlated error correction), plus a mechanism for overreaction (veto-heavy institutions). However, it provides little direct argument or evidence that correlations would be strong enough to defeat fragility, and the essay\u2019s \u2018product\u2019 model is explicitly a toy/illustrative model rather than a fully defended empirical claim. Correctness is substantially reduced because the critique relies on concrete empirical/historical claims about \u201clate 2020s\u201d governance doctrines and their consequences, which (given the current timeframe) are not established and read as speculative at best. The critique is clear, focused, and contains little irrelevant material.",
+  "title": "Correlated moral progress breaks the product model and makes veto-heavy governance brittle"
+}

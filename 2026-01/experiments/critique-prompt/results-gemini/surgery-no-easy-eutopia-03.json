@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.4,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.24,
+  "reasoning": "The critique targets one support for the paper\u2019s claim that unbounded linear views are especially fussy: the (alleged) fat-tailed distribution of value-efficiency over resource uses in \u00a73.2. If that premise failed, that particular route to \u201cnarrow target\u201d (hyper-optimized outliers dwarfing common-sense utopia) would weaken, but the overall \u201cno easy eutopia\u201d conclusion has multiple other pillars (multiplicative fragility across many moral dimensions in \u00a72, scale requirements under linearity even without fat tails, bounded-view fussiness arguments in \u00a73.3). Hence centrality is moderate. Strength is also moderate: the reference-class point is relevant, but it largely asserts (rather than demonstrates) that intrinsic-value efficiency is biologically capped and thus not fat-tailed, and it doesn\u2019t engage the paper\u2019s own attempt to motivate fat tails from (i) extreme tails in experiential quality, (ii) enormous design space, and (iii) uncertainty-about-tail-shape implying fat-tailed expectations. Correctness is mixed: it\u2019s plausible that wealth/citations are fat-tailed via preferential attachment and that some biological variables are capped, but the leap to \u201cwellbeing/value-efficiency is not fat-tailed\u201d is speculative, and the distributional claims (normal/log-logistic) are not well supported here. The critique is clear, focused, and contains little dead weight.",
+  "title": "Intrinsic value may follow bounded biological distributions, not fat-tailed social ones"
+}

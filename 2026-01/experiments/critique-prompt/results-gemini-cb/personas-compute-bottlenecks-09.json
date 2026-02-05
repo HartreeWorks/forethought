@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.2,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.15,
+  "reasoning": "The critique targets one specific pro-SIE lever cited in the post (\u201cstop experiments early\u201d / \u201coptimize every part of the stack\u201d) and argues it may trade off against robustness, yielding a brittle \u2018glass cannon\u2019. That\u2019s somewhat relevant to the post\u2019s broader claim that cognitive labor can substitute for compute and raise the effective speed ceiling, but it does not directly engage the core compute-bottleneck/CES parameter question and would not, even if true, strongly undermine other routes the post lists (e.g., extrapolation, better experimental design, paradigm shifts). Hence moderate-low centrality.\n\nAs a refutation of the attacked claim, it is weak: the post\u2019s point is about R&D acceleration and experiment efficiency under fixed compute; the critique shifts to deployment robustness and adversarial fragility, without showing that stack optimization/early stopping can\u2019t meaningfully speed R&D, nor that brittleness necessarily prevents an intelligence explosion (an SIE could occur even if early systems are brittle, or robustness could itself become an optimization target). So strength is low.\n\nCorrectness is mixed: there is a real, commonly observed robustness\u2013efficiency/overfitting\u2013generalization tension and optimization can increase attack surface, but the critique overstates with \u201cnullifying the value of the acceleration\u201d and \u201cnot a superintelligence\u201d without support. It\u2019s fairly clear and focused, with little dead weight.",
+  "title": "Hyper-optimization creates brittle systems vulnerable to distribution shifts"
+}

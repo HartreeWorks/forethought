@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.4,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.3,
+  "reasoning": "The critique targets a fairly central optimistic pathway in the essay: that partial AM-convergence plus bargaining/trade could still yield a mostly-great future. If it worked, it would rescue value even without WAM-convergence; so undermining it matters. However, the essay is already explicitly conditional and cautious about trade (needs institutions, power distribution issues, and especially threats), so refuting \u201ctrade saves us\u201d doesn\u2019t collapse the overall position so much as reduce its optimism. Substantively, the critique is partly right that enforcement/\u2018iron-clad contracts\u2019 doesn\u2019t settle legitimacy, and that absent shared anti-extortion norms/equilibria bargaining can devolve into threat dynamics. But it overstates that this requires the same kind of meta-ethical/motivational convergence the essay rejects: stable property/contract regimes can arise from self-interest, coordination, and deterrence without deep ethical convergence. Still, it\u2019s a clear, focused, low-fluff objection that modestly weakens the essay\u2019s case that trade is the main escape hatch.",
+  "title": "Moral trade requires the same normative convergence it claims to bypass"
+}

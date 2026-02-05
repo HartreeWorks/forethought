@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.4,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.18,
+  "reasoning": "The critique targets the paper\u2019s Sec. 2.3.1 \u201cscale-insensitivity / population ethics\u201d route for making even a \u2018common-sense utopia\u2019 miss most value. That route is one illustrative \u201csingle-flaw\u201d factor in the broader \u2018eutopia is fragile / multiplicative factors\u2019 case, and the paper also argues fussiness via other channels (digital beings, wellbeing theories, bads vs goods aggregation, bounded/unbounded scaling). So centrality is moderate, not high. The critique has some real force: many serious population-ethical views (person-affecting, some average/priority/threshold/satiation views) do not treat \u201cmore happy people\u201d as linearly value-increasing, so \u201csolar-system utopia is a rounding error\u201d is not robust across plausible theories. However, it overstates how much the paper relies on this: the paper explicitly canvasses multiple population-ethics families (total, critical-level, variable-value) and uses population ethics as an example among many, not as the sole driver of narrow-targeting. Thus it weakens that sub-argument but does not substantially undermine the overall \u2018no easy eutopia\u2019 conclusion. The critique is mostly correct but somewhat overstated in claiming a main channel collapses and that the paper treats additive scope-sensitivity as the default. It is clear, focused, and contains little dead weight.",
+  "title": "The argument overweights additive population ethics, making scale shortfall wrongly catastrophic"
+}

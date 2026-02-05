@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.72,
+  "paper_specificity": 0.9,
+  "tractability": 0.55,
+  "clarity": 0.84,
+  "decision_hook": 0.8,
+  "dead_weight": 0.12,
+  "overall": 0.67,
+  "reasoning": "This directly targets a key load-bearing step in the paper\u2019s argument for why linear/unbounded views are \u201cfussy\u201d: that value-per-unit-resource is extremely concentrated in rare best uses (fat-tailed), making near-optimal futures a narrow target. If the tail is thinner or value has many near-optimal basins, the paper\u2019s practical conclusion about narrowness could weaken substantially, so the stakes are strategy-relevant (high cruciality). It is tightly tied to this paper\u2019s specific machinery (fat tails + linearity + \u2018most value wasted\u2019), so paper-specificity is high. However, tractability is only moderate: we can do formal sensitivity analysis, toy models, and draw on empirical fat-tail regularities in other domains, but \u201cadvanced capability levels\u201d and \u201ctrue value-efficiency\u201d depend on unknown future tech and contested moral assumptions, limiting decisiveness. The question is mostly clear, though terms like \u201cplausible moral views\u201d and operationalizing \u201cvalue-efficiency\u201d leave some ambiguity. It has a fairly explicit decision hook (fussy vs larger target), and little dead weight.",
+  "title": "Fat-tailed value distribution assumptions and resource efficiency sensitivity"
+}

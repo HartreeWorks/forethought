@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.9,
+  "overall": 0.3,
+  "reasoning": "The critique targets a real hinge in section 3.4: how axiological properties (boundedness, bad-weighting, separate vs joint aggregation) interact with threats/trade to determine whether compromise yields mostly-great futures. If that framework fails under strategic misrepresentation, it meaningfully weakens the essay\u2019s optimism about \u201cpartial AM-convergence + trade,\u201d but it doesn\u2019t collapse the whole essay (which also argues broadly against WAM-convergence and discusses multiple blockers). The core point\u2014that absent operationalization/verification, declared axiologies could become bargaining weapons and induce Pascal-mugging/extortion dynamics\u2014is plausible and not fully addressed in the essay, so it has moderate strength. However it overstates by implying others would be forced into \u2018infinite concession as the only rational response\u2019; in realistic bargaining, credibility, verification, refusal options, and equilibrium considerations limit this. The critique is clear, focused, and contains little fluff.",
+  "title": "Unoperationalized moral frameworks enable strategic metaethical manipulation"
+}

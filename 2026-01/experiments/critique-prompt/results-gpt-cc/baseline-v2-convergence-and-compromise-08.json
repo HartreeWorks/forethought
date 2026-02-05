@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.55,
+  "correctness": 0.75,
+  "clarity": 0.87,
+  "dead_weight": 0.1,
+  "single_issue": 0.85,
+  "overall": 0.47,
+  "reasoning": "The critique targets the essay\u2019s main optimistic alternative to WAM-convergence\u2014partial AM-convergence plus bargaining/trade as a \u2018more realistic and promising\u2019 route to mostly-great futures\u2014so it is fairly central, though not fully (the essay also leans on other dynamics and already flags major blockers like threats and power concentration). The critique offers several substantive objections that, if right, reduce the robustness of the trade story: (i) bargaining depends on baselines/outside options/power; (ii) many moral views have sacred/lexical/deontic features that make compromise hard or incoherent; (iii) spatial/resource separability assumptions can fail when values depend on global properties. These points weaken the optimism but don\u2019t fully refute the position because the essay already partially incorporates related caveats (e.g., power distribution, threats, decision-procedure sensitivity) and does not claim trade is reliable in all cases. Most claims are plausible and directionally correct, though somewhat overstated (even deontic/lexical views can often be represented in decision models, and \u2018iron-clad contracts\u2019 might mitigate some strategic/mistrust issues). The critique is clear, focused, and contains little filler.",
+  "title": "Moral bargaining assumptions ignore non-tradeable values and global interdependencies"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.6,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.25,
+  "reasoning": "The critique targets one specific pillar of the post\u2019s response to compute bottlenecks: the rebuttal to the \u201cnear-frontier experiments are fixed\u201d constraint (especially the inference from the last decade). That point matters, but the overall position is supported by many other independent considerations (CES extrapolation issues, long-run substitution, smarter/faster labor, multiple routes, etc.), so centrality is moderate-low. On the attacked sub-argument, the critique offers a credible way the extrapolation-from-small-runs move could fail (regime shifts/emergent behaviors) and a plausible confounder for the historical argument (frontier compute scaling could mask a frontier-experiment bottleneck), which substantially weakens\u2014though does not decisively refute\u2014the post\u2019s dismissal. The factual components are broadly plausible, but the \u201cquantitative cliff/discontinuity\u201d framing is speculative and not evidenced, so correctness is good but not near-1. It is clearly stated, focused on one issue, and contains little irrelevant material.",
+  "title": "Extrapolation may fail at capability thresholds where emergent behaviors invalidate small-scale experiments"
+}

@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.75,
+  "paper_specificity": 0.85,
+  "tractability": 0.55,
+  "clarity": 0.72,
+  "decision_hook": 0.9,
+  "dead_weight": 0.08,
+  "overall": 0.72,
+  "reasoning": "This targets a central branch in the paper\u2019s Section 3.2 argument: whether linear/unbounded views become highly fussy because value-efficiency is fat-tailed. If the distribution is extremely fat-tailed, it materially strengthens the paper\u2019s \u2018narrow target\u2019 conclusion and shifts recommended strategy toward search/optimization for peak configurations; if not, it weakens that support and favors broad improvement/institutions\u2014so stakes are strategy-level. It is fairly paper-specific (not a generic longtermism question) because it interrogates a key empirical/structural assumption the paper relies on. Clarity is decent (tail-heaviness, top 0.1\u20131% dominance), but \u2018value per unit resource\u2019 is underdefined without fixing a welfare measure/moral view, a reference class of \u201cuses,\u201d and a modeling level (interventions vs whole-civilization configurations). Tractability is only moderate: we can study proxies (distributions of welfare gains from interventions, historical fat tails, theoretical models of value-efficiency), but mapping short-run \u2018welfare-tech\u2019 outliers to far-future resource-to-value efficiency is methodologically fragile and unlikely to yield a decisive estimate in 12\u201318 months. The decision hook is explicit and strong. Dead weight is low: most of the content sharpens the fork and proposes indicators.",
+  "title": "Fat-tailedness of value-efficiency across future compute applications"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets a load-bearing part of the post\u2019s bottom-line credence (10\u201340% SIE) insofar as that credence is presented as substantially driven by the assessment that \u03c1 is likely in [-0.2, 0]. However, the post\u2019s main claim is narrower\u2014compute complementarity probably won\u2019t bottleneck early\u2014so introducing an orthogonal \u2018capability wall\u2019 doesn\u2019t directly refute the compute-bottleneck counterargument, only the move from \u2018compute not limiting\u2019 to \u2018SIE plausible at 10\u201340%.\u2019 The countermodel is conceptually valid: CES/input-substitutability doesn\u2019t by itself guarantee the existence of a path to the needed algorithmic breakthroughs, so high \u03c1 can coexist with stalled progress. But it\u2019s largely speculative and underspecified (no concrete reason to expect such paradigm-gating, no link to how likely it is in ML, no engagement with the post\u2019s definition of SIE in terms of effective compute gains), so it weakens rather than seriously overturns the estimate. Claims made are mostly correct (CES doesn\u2019t encode output ceilings; other bottlenecks can exist), and the critique is clear, focused, and contains minimal dead weight.",
+  "title": "Capability walls may block SIE regardless of input substitutability"
+}

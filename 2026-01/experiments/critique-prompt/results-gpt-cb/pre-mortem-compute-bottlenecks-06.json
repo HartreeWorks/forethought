@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.4,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.2,
+  "reasoning": "The critique targets one specific plank of the post\u2019s rebuttal to compute bottlenecks\u2014namely the claim (counterargument #5) that efficiency gains effectively expand the experiment budget under fixed compute, undermining a compute ceiling. If that move fails in practice, the position is weakened but far from refuted because the post offers multiple other, largely independent reasons for higher substitutability (e.g., long-run adaptation/Jones-style arguments, extrapolation issues, smarter/faster labor, non-frontier experiments, alternative routes). Hence moderate-low centrality.\n\nIts argumentative force is moderate: it highlights a real-world mechanism (incentive-driven allocation) by which \u201cfreed compute\u201d might not translate into more informative experiments, and could even reduce epistemic diversity. However, it is not tightly connected to the position\u2019s key question (whether compute *physically/technically* bottlenecks software progress): (i) the position can reply that an actor pursuing SIE/internal R&D would allocate freed compute toward information gain rather than marketing; (ii) even if frontier scaling absorbs compute, that still constitutes experimentation and can yield learning; (iii) the post already anticipates a related move about \u201cnear-frontier experiments,\u201d and the critique doesn\u2019t directly address the post\u2019s rebuttal to that. So it only partially refutes what it attacks.\n\nCorrectness is middling: the incentive/competition dynamic described is plausible, but stated too strongly (\u201creliably concentrate,\u201d \u201cnot automatic consequence\u201d) without evidence and may not generalize to SIE conditions. The critique is clear, focused on one issue, and contains little dead weight.",
+  "title": "Efficiency gains won\u2019t increase falsifying trials when incentives fund bigger runs"
+}

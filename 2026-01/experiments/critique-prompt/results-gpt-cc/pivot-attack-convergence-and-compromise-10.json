@@ -1,0 +1,11 @@
+{
+  "centrality": 0.62,
+  "strength": 0.55,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.46,
+  "reasoning": "The critique targets a key optimistic lever in the essay: that partial AM-convergence plus moral trade/compromise can still yield mostly-great futures, which (per the essay) is the most promising route given pessimism about WAM-convergence. If the \u2018correct-view share\u2019 is far smaller than the essay\u2019s rough heuristic, the trade-based rescue weakens substantially, so the attacked point is fairly central (though not strictly necessary, since the essay is already hedged and also discusses other determinants like threats, institutions, and power concentration). The critique\u2019s strength is moderate: it correctly highlights that bargaining outcomes are sensitive to initial endowments/\u2018outside options\u2019 and that the essay\u2019s own arguments about abundance/linear preferences could dilute the morally-motivated share at the decisive moment. However, it doesn\u2019t fully refute the trade story because the essay already flags major uncertainty here, and because trade outcomes need not resemble \u2018minority squeezed to ~0\u2019 if minorities can secure vetoes, credible exit, or institutional protections\u2014possibilities the essay leaves open. Most claims are broadly correct and fairly well-grounded, with some overgeneralization about bargaining dynamics. The critique is clear, focused, and contains little fluff.",
+  "title": "The heuristic power-share estimate is too high for trade to secure flourishing"
+}

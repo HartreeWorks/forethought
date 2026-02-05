@@ -1,0 +1,11 @@
+{
+  "centrality": 0.0,
+  "strength": 0.0,
+  "correctness": 0.75,
+  "clarity": 0.95,
+  "dead_weight": 0.0,
+  "single_issue": 1.0,
+  "overall": 0.02,
+  "reasoning": "The critique does not actually attack the essay\u2019s position; it largely restates and agrees with a point the essay itself makes in section 4.1 (that self-interest alone is unlikely to yield mostly-great futures). So it has effectively zero centrality to refuting the position and therefore zero strength. The claim is plausibly correct (and is endorsed by the position), but it is an unsupported assertion rather than an argument. It is very clear, contains no extraneous material, and focuses on a single issue.",
+  "title": "Self-interest alone cannot navigate us to mostly-great futures"
+}

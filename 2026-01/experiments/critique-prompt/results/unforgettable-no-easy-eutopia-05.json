@@ -1,0 +1,10 @@
+{
+  "centrality": 0.5,
+  "strength": 0.25,
+  "correctness": 0.6,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "The critique argues that the paper treats diverse moral views as independent when they share structural features, suggesting a future optimized for shared features might satisfy most views. This targets the paper's claim that eutopia is fragile because different moral views have conflicting requirements. However, this is only moderately central - the paper's main argument rests on multiple independent considerations (multiplicative value, fat-tailed distributions, bounded vs unbounded views, etc.), not solely on moral diversity. The strength is low because: (1) the paper explicitly acknowledges this possibility in Section 1 and addresses it in the companion essay on 'convergence and compromise'; (2) the paper's technical arguments in Section 3 about value functions being fussy don't depend on moral views being independent; (3) the examples in Section 2.3 show how even single moral views can be fussy (e.g., population ethics alone presents dilemmas). The critique is somewhat correct that moral views share features, but overstates how much this helps - the paper's point is that even small deviations from optimal choices across many dimensions compound multiplicatively. Clear argument, focused on single issue, minimal dead weight."
+}

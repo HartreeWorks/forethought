@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.35,
+  "correctness": 0.6,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.32,
+  "reasoning": "The critique targets the essay\u2019s main optimistic pathway in section 3: partial AM-convergence plus bargaining/trade as a route to mostly-great futures. If moral trade systematically increases systemic fragility and extinction/lock-in risk, that would substantially undermine the essay\u2019s conditional optimism about compromise, hence fairly high centrality. However, the essay already flags closely related issues (value-destroying threats, concentration of power, poor collective decision-making, sealing-off of futures), so the critique is partly \u2018priced in\u2019 and needs additional argument to exceed what the essay already concedes. As written it is largely speculative (asserts that scaled trade creates sovereign, unaccountable micro-regimes and permanently weakens coordination) without showing that trade must take that institutional form, that such partitioning is stable, or that it net-increases existential risk relative to alternative baselines. Many claims are plausible but overstated or under-argued, so correctness is moderate. It is clear, focused, and contains little fluff.",
+  "title": "Moral trade could legitimize atrocity zones and weaken global coordination"
+}

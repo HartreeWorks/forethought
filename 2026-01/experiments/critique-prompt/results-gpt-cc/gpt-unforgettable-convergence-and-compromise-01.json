@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.3,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.25,
+  "reasoning": "The critique targets the essay\u2019s early motivating analogy (narrow targets can still be reached via \u2018honing in\u2019 like flight/evolution) and argues it relies on an external optimization gradient that ethics lacks. If that analogy were doing major argumentative work, this would matter a lot; but the essay itself later emphasizes that WAM-convergence is unlikely and shifts much of its optimism to partial AM-convergence plus trade/compromise and institutional conditions, so refuting the analogy only partially undermines the overall position (moderate centrality). Substantively, the point about evolution/flight depending on a shared selection/physics gradient is largely correct, and it\u2019s a real caution against overgeneralizing from those cases. However, its refutational force is limited because (a) the essay already acknowledges lack of strong convergence pressures and develops alternative mechanisms (trade, selection effects, institutions), and (b) the analogy is presented more as an intuition-pump against \u201cnarrow target implies near-zero EV\u201d than as the core support for later claims. Hence moderate-low strength but high correctness, with clear, focused presentation and little dead weight.",
+  "title": "The flight analogy smuggles in a fitness gradient that moral optimization lacks"
+}

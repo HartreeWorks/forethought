@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.4,
+  "reasoning": "The critique targets a real and fairly central methodological thread: the essay frequently evaluates outcomes \u201con the correct moral view\u201d while also making recommendations under moral uncertainty and appealing to cross-view considerations (trade, threats). If this were a deep inconsistency, it would undermine a substantial portion of sections 3\u20135 (how to think about compromise/threats and what to prioritize), though it wouldn\u2019t collapse the entire essay (e.g., the empirical/structural claims about convergence and bargaining could stand). However, the critique overstates the contradiction: the essay can coherently use \u201ccorrect view\u201d as a placeholder for the true theory while also arguing, under moral uncertainty, for interventions that are robustly valuable across many plausible views (e.g., preventing value-destroying threats because \u201cmost views we\u2019ve considered are sensitive\u201d). The paper is admittedly not explicit about a single decision rule (moral parliament vs. moral realism vs. MEC), but it doesn\u2019t straightforwardly follow that its action-guidance is \u201cinternally unlicensed.\u201d Thus the critique is mostly correct in identifying an underspecified normative framework, but only moderately strong as a refutation.",
+  "title": "Oscillation between moral realism and moral parliament undermines action guidance"
+}

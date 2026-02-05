@@ -1,0 +1,11 @@
+{
+  "cruciality": 0.82,
+  "paper_specificity": 0.84,
+  "tractability": 0.58,
+  "clarity": 0.71,
+  "decision_hook": 0.96,
+  "dead_weight": 0.14,
+  "overall": 0.72,
+  "reasoning": "Crucial because it targets a central hinge for whether compute bottlenecks meaningfully slow a software-only intelligence explosion (sustained acceleration vs plateau), with explicit downstream strategic implications. Highly paper-specific: it directly interrogates the paper\u2019s key rebuttal that algorithmic efficiency increases effective experiment throughput under fixed hardware, undermining the \u2018fixed compute\u2019 bottleneck framing. Moderately tractable: partial answers are possible via time-series on algorithmic efficiency and marginal progress costs, but measurement is hard (attribution of gains to \u2018algorithmic improvement\u2019 vs data/engineering, defining \u2018unit of improvement,\u2019 access to lab-internal logs, confounding from scaling and shifting benchmarks). Clarity is decent but not perfect because \u201cidea difficulty\u201d and \u201crequired compute per marginal improvement\u201d need tighter operational definitions and scope (which tasks/benchmarks, what counts as an \u2018idea,\u2019 how to normalize across paradigm shifts). Decision hook is excellent and explicit. Dead weight is low; most text sharpens the question and how to answer it.",
+  "title": "Efficiency gains versus rising idea difficulty in AI scaling"
+}
