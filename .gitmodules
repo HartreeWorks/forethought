@@ -1,0 +1,3 @@
+[submodule "forethought-starter"]
+	path = forethought-starter
+	url = https://github.com/HartreeWorks/forethought-starter
