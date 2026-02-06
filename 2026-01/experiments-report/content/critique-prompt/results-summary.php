@@ -30,4 +30,4 @@
 </ol>
 
 
-<p>Now, I want you to form your own view. Below, I'll share the ACORN grader ratings, and then give you a bunch of example critiques.</p>
+<p>Now, I want you to form your own view. Below, I'll share the ACORN grader ratings, and then give you some example critiques to read.</p>

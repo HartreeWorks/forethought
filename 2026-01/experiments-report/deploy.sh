@@ -28,6 +28,7 @@ fi
 cp "$SCRIPT_DIR"/*.php "$BUILD_DIR/"
 cp -r "$SCRIPT_DIR/includes" "$BUILD_DIR/"
 cp -r "$SCRIPT_DIR/assets" "$BUILD_DIR/"
+cp -r "$SCRIPT_DIR/content" "$BUILD_DIR/"
 cp -r "$SCRIPT_DIR/research" "$BUILD_DIR/"
 
 # Bundle data
