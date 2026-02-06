@@ -1,1 +1,7 @@
-**Load-bearing claim attacked**: The paper argues economic estimates don't account for "smarter workers" and cites a survey suggesting 6x gains from median-to-top researcher quality. **Attack type: Parameter sensitivity.** The 6x estimate spans only the human range. Extrapolating from "median human to top human = 6x" to "top human to superintelligence = huge gains" assumes intelligence returns are roughly linear or better across this range. But if the 6x gain from median-to-top reflects the *entire* cognitive contribution (with the rest being experiment-bound), then superintelligence offers no additional gains—the curve has already flattened. The paper treats this 6x as evidence for high ρ, but it's equally consistent with a model where cognitive contributions max out quickly and the remaining variance is experiment-limited.
+**Load-bearing claim:**
+The paper argues economic estimates don't account for "smarter workers" and cites a survey suggesting 6x gains from median-to-top researcher quality
+
+**Attack type:**
+Parameter sensitivity
+
+The 6x estimate spans only the human range. Extrapolating from "median human to top human = 6x" to "top human to superintelligence = huge gains" assumes intelligence returns are roughly linear or better across this range. But if the 6x gain from median-to-top reflects the *entire* cognitive contribution (with the rest being experiment-bound), then superintelligence offers no additional gains—the curve has already flattened. The paper treats this 6x as evidence for high ρ, but it's equally consistent with a model where cognitive contributions max out quickly and the remaining variance is experiment-limited.
