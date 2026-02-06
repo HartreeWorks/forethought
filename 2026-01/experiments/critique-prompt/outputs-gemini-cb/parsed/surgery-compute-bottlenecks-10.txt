@@ -1,3 +1,5 @@
+> As AI systems become more agentic, their training dynamics grow less predictable and more prone to phase transitions, making "stop early" optimisations backfire by actually increasing the compute needed to verify performance.
+
 **Load-bearing claim:** Labor can substitute for compute by optimizing code and "stopping experiments early."
 **Attack type:** Equilibrium shift (Adversarial adaptation)
 **The specific problem:** Stopping experiments early (e.g., Chinchilla scaling laws) relies on predictable scaling laws. However, as AI systems become more complex and agentic (the prerequisite for an SIE), their training dynamics likely become *less* predictable and more prone to phase transitions (grokking), requiring longer runs to verify performance.

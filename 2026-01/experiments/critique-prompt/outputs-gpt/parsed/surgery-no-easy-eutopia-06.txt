@@ -1,3 +1,5 @@
+> The "bounded means practically linear" move only works if humanity's slice of cosmic value is tiny, but that assumes speculative cosmology and moral frameworks where distant alien civilisations actually count.
+
 **Load-bearing claim:**
 “If value is bounded with respect to the universe as a whole, then because the universe is very large relative to humanity’s influence, bounded concavity makes the view practically linear, hence fussy.”
 

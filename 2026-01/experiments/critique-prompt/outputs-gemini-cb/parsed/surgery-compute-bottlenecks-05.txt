@@ -1,3 +1,5 @@
+> If each AI breakthrough picks the lowest-hanging fruit, the remaining efficiency gains get exponentially harder to find, so "smarter" AI researchers just run faster on a steepening treadmill.
+
 **Load-bearing claim:** AI researchers getting "smarter" (quality of labor) provides a boost that standard economic models (quantity of labor) miss.
 **Attack type:** Equilibrium shift
 **The specific problem:** The paper assumes intelligence maps linearly to solving R&D problems, but R&D difficulties often scale exponentially (e.g., finding the next optimization trick becomes distinctively harder as low-hanging fruit is plucked). As AI gets smarter, the difficulty of the remaining "compute-saving" inventions likely rises to meet them (the "Burden of Knowledge" effect).

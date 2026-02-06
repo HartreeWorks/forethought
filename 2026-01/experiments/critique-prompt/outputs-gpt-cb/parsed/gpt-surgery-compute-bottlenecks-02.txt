@@ -1,3 +1,5 @@
+> Fixing α=0.5 looks neutral but actually encodes a huge assumption about how compute-intensive AI R&D is, and the speed-up ceilings swing dramatically if you let α vary—especially in the early stages claimed to be safe.
+
 **Load-bearing claim:**
 “*I’ll assume α=0.5 throughout*” (Economist version, multiple places)
 

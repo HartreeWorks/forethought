@@ -1,1 +1,3 @@
+> Treating moral goods and bads as fully separable ignores that most moral theories evaluate them relative to context and tradeoffs, so the "fussiness" problem may be an artefact of oversimplified aggregation.
+
 The discussion of bounded views aggregating goods and bads separately leading to fussiness because any small quantity of bads can undermine a mostly-great future (Section 3.3) suffers a reference class failure: this modeling treats moral goods and bads as fully separable in a large-scale outcome space, but many moral theories emphasize context and goal-relative tradeoffs that do not fit this simplistic aggregation. If correct, this weakens the paper’s case that bounded views must be fussy in this problematic way.

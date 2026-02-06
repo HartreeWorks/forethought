@@ -1,3 +1,5 @@
+> The CES framework treats AI progress as a smooth blend of labor and compute, but real R&D speed is bottlenecked by serial train-evaluate-iterate cycles whose wall-clock latency doesn't shrink just because you add more cognitive labor.
+
 **Load-bearing claim:**
 “*We can apply the CES formula to AI R&D… Y represents the pace of AI software progress*” (Economist version)
 

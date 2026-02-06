@@ -1,3 +1,5 @@
+> The fact that frontier labs already optimise across all available scaling routes means today's compute-heavy dominance is evidence the compute-light alternatives have already hit walls.
+
 **Load-bearing claim:**
 The paper argues there are "multiple routes to superintelligence" (extrapolation, scaffolding, data flywheels) and we only need one non-bottlenecked route
 

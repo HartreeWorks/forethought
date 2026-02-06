@@ -1,3 +1,5 @@
+> The "unbounded views dominate under uncertainty" result hinges on a normalisation choice the paper itself admits is contestable—switch to variance normalisation and the dominance vanishes.
+
 **Load-bearing claim:**
 Uncertainty between bounded and unbounded views should weight unbounded views more heavily
 

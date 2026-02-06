@@ -1,3 +1,5 @@
+> The "narrow target" argument assumes the optimal configuration is homogeneous, but a linear unbounded view could rank maximal diversity of experiences as most valuable, making the target inherently broad.
+
 **Load-bearing claim:**
 linear unbounded views require both using almost all resources AND putting them toward very specific uses, making the target narrow
 

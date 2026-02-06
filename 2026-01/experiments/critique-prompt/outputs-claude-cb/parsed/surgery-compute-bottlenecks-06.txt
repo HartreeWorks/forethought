@@ -1,3 +1,5 @@
+> The long-run estimates showing ρ≈0 bundle in decades of physical capital accumulation alongside labour reorganisation, so they can't justify assuming labour alone can substitute for fixed compute in days.
+
 **Load-bearing claim:**
 The paper argues that long-run economic estimates showing ρ≈0 should be weighted heavily because "Cobb Douglas is a good model for long-run growth."
 

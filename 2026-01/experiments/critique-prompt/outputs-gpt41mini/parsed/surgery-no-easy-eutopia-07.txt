@@ -1,1 +1,3 @@
+> Assuming all factors are independent and uniformly distributed ignores real-world correlations and non-uniform risks, making the "rarity of good futures" conclusion fragile to its own modelling choices.
+
 The modeling of expected value via a uniform distribution of independent factors between 0 and 1 in Section 2.4 is vulnerable to parameter sensitivity: treating all factors as independent and uniformly distributed ignores correlated improvements or failures, as well as non-uniform risk profiles, which can dramatically alter the distribution and expected value of futures. This undermines the robustness of the multiplicative model and its far-reaching conclusions about rarity.

@@ -1,3 +1,5 @@
+> The fat-tailed distributions cited (wealth, citations) arise from competition and network effects, not intrinsic value physics—a sufficiently powerful optimizer could mass-produce near-optimal experiences, flattening the tail entirely.
+
 **Load-bearing claim:**
 “Even a universe-spanning civilization could fall far short because value-per-resource across uses is fat-tailed, so only very specific configurations achieve near-max value.”
 

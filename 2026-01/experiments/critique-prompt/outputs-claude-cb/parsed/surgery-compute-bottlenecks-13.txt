@@ -1,3 +1,5 @@
+> The paper's own confidence in ρ rests on intuitions about superintelligent capabilities—an extrapolation far wilder than the economic estimates it dismisses as "truly heroic."
+
 **Load-bearing claim:**
 The paper dismisses economic estimates because "extrapolating very very far" from observed L/K variation of ~2x to OOM changes is "truly heroic."
 

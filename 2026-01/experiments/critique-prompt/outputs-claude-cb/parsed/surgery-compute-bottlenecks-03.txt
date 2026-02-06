@@ -1,1 +1,3 @@
+> Even if substitutability looks low in the short run, long-run estimates—which better reflect the flexibility firms actually have over time—consistently point toward near-perfect substitutability.
+
 Long-run estimates showing ρ≈0 are more applicable than short-run estimates showing ρ<0

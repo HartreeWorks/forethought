@@ -1,1 +1,3 @@
+> Strong dependencies between value dimensions—where getting some right pulls others along—would collapse the multiplicative fragility argument and make eutopia far less improbable.
+
 The claim that eutopian futures are rare because the value of the future is multiplicative across many independent factors (Section 2.4) is vulnerable to a countermodel attack: if there exist strong dependencies or complementarities between factors such that success on some key dimensions automatically improves others, then the multiplicative fragility argument would collapse and a broader target for mostly-great futures would emerge. If this critique holds, the paper’s core conclusion about the difficulty of achieving eutopia would be significantly weakened.

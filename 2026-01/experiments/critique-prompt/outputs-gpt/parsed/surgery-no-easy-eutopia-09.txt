@@ -1,3 +1,5 @@
+> The whole case for fussiness under moral uncertainty hinges on specific anchoring judgments in pairwise intertheoretic comparison, and small shifts in those anchors could easily flip which moral views dominate the mixture.
+
 **Load-bearing claim:**
 “Because intertheoretic comparisons under moral uncertainty (variance normalization, pairwise reasoning) plausibly give unbounded views more say, our all-things-considered stance should be fussy in practice.”
 

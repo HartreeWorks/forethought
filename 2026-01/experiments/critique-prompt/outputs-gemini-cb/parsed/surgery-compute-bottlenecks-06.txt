@@ -1,3 +1,5 @@
+> The algorithmic gains we've seen aren't independent of hardware—they've largely been about exploiting specific GPU characteristics, so with frozen hardware you'd eventually run out of inefficiencies to squeeze.
+
 **Load-bearing claim:** "Effective compute" (algorithmic gains) is a perfect substitute for "physical compute" (hardware).
 **Attack type:** Causal reversal
 **The specific problem:** Many historical algorithmic gains (like the Transformer) were only unlocking performance *because* they were tailored to specific hardware characteristics (GPU matrix multiplication). If hardware is fixed, software progress eventually hits the "hardware lottery" limit—you run out of inefficiencies to exploit that map to your specific fixed architecture.

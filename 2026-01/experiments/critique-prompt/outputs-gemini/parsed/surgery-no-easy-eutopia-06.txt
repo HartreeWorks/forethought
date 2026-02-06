@@ -1,2 +1,4 @@
+> Bounded views could easily survive the "tiny fraction of bads vetoes everything" objection if disvalue saturates or diminishes at the margins, just as goodness does.
+
 **Quantitative cliff (Separate Aggregation of Goods/Bads)**
 The critique of bounded views in Section 3.3 relies on a *Quantitative cliff*: on a "separate aggregation" view, a tiny fraction of "bads" (1 in $10^{22}$ resources) outweighs a universe of goods. This assumes the disvalue of bads scales linearly without saturation. However, a plausible bounded view would likely feature diminishing marginal disvalue for bads (just as it does for goods), or a "lexical threshold" where once a civilization creates enough goodness, small pockets of badness no longer veto the entire portfolio. If the disvalue function saturates or involves ratios rather than subtractions, the "fussy" conclusion regarding bounded views disappears, as the cliff-edge fragility is removed.

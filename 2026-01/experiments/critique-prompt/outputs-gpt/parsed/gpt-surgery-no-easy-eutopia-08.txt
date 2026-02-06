@@ -1,3 +1,5 @@
+> If high welfare is a broad plateau that most advanced architectures easily reach, the real challenge is avoiding rare failure modes, not hitting one specific optimal design.
+
 **Load-bearing claim:**
 The argument in Sec. 3.2 that on **unbounded linear views** “to be mostly-great, almost all resources must be used and put toward some very specific use” relies on “fat-tailed value-efficiency” and the existence of a “single value-efficient arrangement” to replicate
 

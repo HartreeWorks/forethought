@@ -1,3 +1,5 @@
+> Algorithmic efficiency gains aren't uniform—if most improvements flow to inference rather than training, the experiment bottleneck stays binding even as cognitive labour scales up.
+
 **Load-bearing claim:**
 The paper claims algorithmic efficiency gains mean "labs can increase the quantity of both key inputs: cognitive labor and # experiments."
 

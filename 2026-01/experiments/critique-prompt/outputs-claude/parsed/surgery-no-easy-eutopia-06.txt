@@ -1,3 +1,5 @@
+> The "scale tipping" objection smuggles in an assumption that the bounded function is roughly linear near zero, but a tanh-like shape would make crossing from net-negative to net-positive a genuinely significant moral threshold.
+
 **Load-bearing claim:**
 Joint-aggregation bounded views are implausible due to "scale tipping"
 

@@ -1,3 +1,5 @@
+> The paper's math only works if the disvalue function saturates absurdly fast—but a slower-saturating bound could tolerate millions of bad star systems and still count as mostly great.
+
 **Load-bearing claim:**
 bounded difference-making views that aggregate goods and bads separately are fussy because even tiny quantities of bads prevent mostly-great futures
 

@@ -1,3 +1,5 @@
+> The flight analogy breaks down because aircraft design has clear, shared feedback loops (fly or crash), while "mostly-great future" lacks any comparable consensus error signal—so optimisation may just lock in proxy targets like status or power.
+
 **Load-bearing claim:**
 In **§1–§2** you lean on the analogy “*powered flight is ubiquitous, because human design honed in on the design target*,” then map “honing in” to future society deliberately reaching a “mostly-great future.”
 

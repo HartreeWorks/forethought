@@ -1,3 +1,5 @@
+> The argument's conclusion hinges on assumed elasticities of collective action versus personal power—swap in plausible fast-takeoff parameters where early advantages compound, and the paper's own arithmetic flips to favour power-seeking.
+
 **Load-bearing claim:**
 one should act more on scenario (3) (broad convergence) than scenario (1) (almost no AM-convergence), because marginal actions are higher impact in (3) than personal power-seeking is in (1)
 

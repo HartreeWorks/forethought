@@ -1,3 +1,5 @@
+> If most of the AI R&D cycle is bottlenecked by physical and organisational frictions—cluster scheduling, hardware faults, eval construction—rather than idea generation, then even vastly superhuman cognition can't buy the high speedups needed to dismiss low max-speed estimates.
+
 **Load-bearing claim:**
 “*The implied ‘max speed’ … between 2 and 100… I think a max speed below 10 is implausible… informed by… optimising every part of the stack, generating way better ideas…*” (Counterargument 6)
 

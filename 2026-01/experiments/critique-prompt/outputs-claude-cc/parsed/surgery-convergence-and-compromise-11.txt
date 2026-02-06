@@ -1,3 +1,5 @@
+> If actors know trade is coming, they'll game their stated preferences to gain bargaining leverage, so the "fixed preferences" driving the paper's optimistic trade results may never actually hold.
+
 **Load-bearing claim:**
 Trade can achieve near-optimal outcomes for multiple views simultaneously (Claim 4)
 

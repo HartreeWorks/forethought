@@ -1,3 +1,5 @@
+> Shifting the "best feasible" benchmark even slightly—from the 99th to the 99.9999th percentile—could flip the paper's conclusion about whether eutopia is hard or easy.
+
 **Load-bearing claim:**
 The best feasible future should be defined as the 99.99th percentile outcome
 

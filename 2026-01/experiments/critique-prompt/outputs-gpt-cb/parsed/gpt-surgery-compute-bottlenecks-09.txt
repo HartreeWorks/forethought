@@ -1,3 +1,5 @@
+> Optimising for the "fastest route" under competitive pressure will systematically favour under-validated approaches, displacing compute costs into catastrophic post-hoc debugging rather than eliminating them.
+
 **Load-bearing claim:**
 “*There are multiple possible routes… a ‘strongest link’ framing… We’ll ultimately use whichever has the most favourable ρ*” (Counterargument 7)
 

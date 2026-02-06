@@ -1,3 +1,5 @@
+> Internalism could actually *boost* convergence if agents precommit to moral exposure as a self-control device, or if groups that track moral truth outcompete those that avoid it.
+
 **Load-bearing claim:**
 In **§2.4.1 (realism)** you argue: if realism/internalism, people “*prefer not to learn facts that end up motivating them*,” and if externalism, they may learn but not act—either way WAM-convergence is unlikely
 

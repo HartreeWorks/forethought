@@ -1,3 +1,5 @@
+> The whole "narrow target" argument hinges on assuming an *extremely* fat tail (α ≈ 1), but if the tail is even modestly thinner, "good enough" resource allocation captures most of the value.
+
 **Load-bearing claim:**
 Fat-tailed distribution of value-efficiency across resource uses
 

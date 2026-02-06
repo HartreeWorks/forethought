@@ -1,3 +1,5 @@
+> Even a superintelligence generating brilliant ideas hits a wall if verifying which ones actually work requires compute you don't have.
+
 **Load-bearing claim:** AI R&D is a "strongest link" problem where multiple routes exist, so we can select the one with the most favorable $\rho$.
 **Attack type:** Countermodel (Pipeline dependencies)
 **The specific problem:** Modern ML pipelines are "weakest link" systems: you need Data AND Architecture AND Verification. If Verification (running the model to see if it works) is compute-bottlenecked, having a superintelligence generate 1 billion brilliant architecture ideas is useless because you cannot filter them.

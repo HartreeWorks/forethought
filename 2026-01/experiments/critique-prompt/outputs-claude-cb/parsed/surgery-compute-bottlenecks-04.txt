@@ -1,1 +1,3 @@
+> Even the upper bound of 100x acceleration looks too conservative when you consider what genuinely superintelligent researchers might accomplish beyond just speeding up human-style work.
+
 The "max speed" implications of economic ρ estimates (2-100x) are implausibly low given what superintelligent researchers could achieve

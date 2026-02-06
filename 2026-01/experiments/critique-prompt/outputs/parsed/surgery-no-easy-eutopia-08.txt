@@ -1,3 +1,5 @@
+> If rational agents understand the scale-tipping property, they'd simply avoid threshold-adjacent gambles, so the supposedly absurd scenario never arises in practice—it's a feature, not a bug.
+
 **Load-bearing claim:**
 joint-aggregation bounded views, while potentially easygoing, suffer from fatal "scale-tipping" problems
 

@@ -1,3 +1,5 @@
+> The reference class of "unconstrained ethical exploration" may be wrong—shared decision-theoretic constraints, bargaining dynamics, and stability requirements could sharply prune the space even without moral realism.
+
 **Load-bearing claim:**
 without objective moral facts, “free parameters” in ethics make convergence across reflective processes very unlikely, so WAM-convergence is improbable
 

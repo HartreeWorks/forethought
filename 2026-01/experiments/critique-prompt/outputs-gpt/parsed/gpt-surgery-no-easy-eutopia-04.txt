@@ -1,3 +1,5 @@
+> Scale-sensitivity could actually favour *not* scaling, since aggressively pursuing a galaxy's worth of value amplifies the very conflict and lock-in risks that make catastrophe more likely.
+
 **Load-bearing claim:**
 In Sec. 2.3.1 you treat “**scale-insensitivity**” as a major way common-sense utopia “could lose out on most value,” e.g., “a galaxy’s worth of flourishing could be billions of times more valuable.”
 

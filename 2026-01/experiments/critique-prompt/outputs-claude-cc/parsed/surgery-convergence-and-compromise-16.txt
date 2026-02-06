@@ -1,3 +1,5 @@
+> The argument that scenario (3) matters more hangs entirely on arbitrary parameter choices—tweak the assumed magnitudes even slightly and the ranking of scenarios flips.
+
 **Load-bearing claim:**
 Scenario (3) deserves more decision weight because actions have higher impact there (supports Claim 8)
 

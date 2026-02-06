@@ -1,3 +1,5 @@
+> Smarter workers might actually *worsen* the compute bottleneck by generating hypotheses faster than they can be verified, so the direction of update on ρ could easily flip.
+
 **Load-bearing claim:**
 “*Economic estimates don’t include labourers becoming smarter or thinking faster… Takeaway: raise our estimate of ρ*” (Counterargument 4)
 

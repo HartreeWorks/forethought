@@ -1,3 +1,5 @@
+> Even with perfectly aligned values at the top, a dictatorship's structural lack of error-correction means a few bad institutional calls can lock in irreversible failures that sincere good intentions can't fix.
+
 **Load-bearing claim:**
 In **§2** you state: “*We’ll here assume that, given WAM-convergence, we will reach a mostly-great future*,” and even suggest “*even a global dictatorship could have a good chance*” under WAM-convergence
 

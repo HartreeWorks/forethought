@@ -1,1 +1,3 @@
+> Substitutability between AI and human researchers is probably much higher than the manufacturing-derived estimates used here, which could dramatically change the model's growth projections.
+
 The CES model's ρ parameter for AI R&D is likely higher (closer to 0) than economic estimates from manufacturing/other sectors suggest

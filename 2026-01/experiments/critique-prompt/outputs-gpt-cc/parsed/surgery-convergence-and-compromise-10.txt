@@ -1,3 +1,5 @@
+> The flight analogy breaks down because aerodynamics offers tight, local feedback, whereas "mostly-great futures" lack any shared evaluative signal—so optimisation is more likely to Goodhart than to genuinely hone in.
+
 **Load-bearing claim:**
 even if mostly-great futures are a narrow target (“no easy eutopia”), deliberate honing (like flight design/evolution) can still make them reasonably likely
 

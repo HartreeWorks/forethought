@@ -1,1 +1,3 @@
+> AI R&D breaks the assumptions behind standard economic estimates of ρ because smarter researchers disproportionately matter, experiments can get cheaper, and parallel discovery paths exist.
+
 Economic estimates of ρ from other domains shouldn't transfer to AI R&D because AI R&D has unique properties (smarter workers matter more, experiments can become more efficient, multiple routes exist)

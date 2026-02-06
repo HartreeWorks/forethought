@@ -1,3 +1,5 @@
+> The fussiness result hinges on how fast the bounding function saturates—a more gradual curve or a higher calibration point for "common-sense utopia" would tolerate orders of magnitude more bads.
+
 **Load-bearing claim:**
 Bounded views that aggregate goods and bads separately are fussy because even tiny bads eliminate mostly-great status
 

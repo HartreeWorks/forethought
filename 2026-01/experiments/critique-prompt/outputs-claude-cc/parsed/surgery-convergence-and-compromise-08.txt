@@ -1,3 +1,5 @@
+> Broad convergence across humans, AIs, and aliens should carry more decision weight than narrow human-only scenarios, yet the critique's own hidden assumptions about value-commensurability quietly undercut that shift.
+
 Scenario (3)—broad convergence across humans/AIs/aliens—deserves more decision weight than scenario (1)—no convergence
 
 **Dependencies**: Claims 1 and 3 jointly support pessimism about WAM-convergence → Claims 2 and 4 provide alternative path → Claim 5 undermines that path → Claim 6 determines who trades with whom → Claim 7 closes the "invisible hand" escape route → Claim 8 determines practical recommendations

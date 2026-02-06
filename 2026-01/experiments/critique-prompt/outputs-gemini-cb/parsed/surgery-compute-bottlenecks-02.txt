@@ -1,3 +1,5 @@
+> Running a thousand small experiments can't substitute for one large one because the behaviours you need to study only emerge above a certain scale threshold.
+
 **Load-bearing claim:** Because algorithmic efficiency allows running *more* experiments, labor can substitute for compute by increasing the quantity of experimental data.
 **Attack type:** Quantitative cliff
 **The specific problem:** This assumes experimental value scales linearly with quantity, ignoring emergent properties of scale. Training a thousand GPT-2s does not yield the empirical data needed to align GPT-6; frontier behaviors (like in-context learning or complex reasoning) often only appear continuously after a specific scale threshold.

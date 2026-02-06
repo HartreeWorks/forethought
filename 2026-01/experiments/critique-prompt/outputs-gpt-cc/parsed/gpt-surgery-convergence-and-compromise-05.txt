@@ -1,3 +1,5 @@
+> The entire argument hinges on a timing parameter you never model—if lock-in happens before compounding kicks in, the "long views win" mechanism is irrelevant, but if it happens after, it dominates.
+
 **Load-bearing claim:**
 In **§2.3.3 (“Long views win”)** you argue patient/altruistic agents may outgrow others via saving/fertility, but then note it may be too slow if “major decisions are made soon.”
 

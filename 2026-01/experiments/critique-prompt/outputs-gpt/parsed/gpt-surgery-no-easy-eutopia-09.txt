@@ -1,3 +1,5 @@
+> Even if the universe is vast, moral views that only count what we can actually affect—or that weight our own actions specially—make humanity's share big enough for nonlinearity to bite.
+
 **Load-bearing claim:**
 In Sec. 3.3 you argue “**bounded views of universal value are approximately linear in practice**” because “Earth’s difference is tiny vs universe,” so concave functions look linear locally
 

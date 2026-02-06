@@ -1,3 +1,5 @@
+> The "one part in 10²² ruins everything" result hinges on where you set the saturation scale for bads—treat that as a free parameter rather than fixing it near one utopia's worth, and the extreme fussiness dissolves.
+
 **Load-bearing claim:**
 Your “**separate aggregation bounded views imply extreme fussiness: one part in 10^22 bad prevents mostly-great**” (Sec. 3.3) depends on treating “bads” as additively scaling with resources and on a specific mapping from “mostly-great = >0.5 of bound” to “a star-system’s worth of bad hits >0.5 of disvalue bound.”
 

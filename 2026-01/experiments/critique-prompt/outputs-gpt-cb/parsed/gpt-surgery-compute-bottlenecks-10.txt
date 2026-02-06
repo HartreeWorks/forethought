@@ -1,3 +1,5 @@
+> The "effective compute" metric is gameable because gains in training efficiency can just shift costs to inference, evaluation, or tool use—so total physical compute stays binding even as the training number looks great.
+
 **Load-bearing claim:**
 “*I’ll define an ‘SIE’ as ‘>=5 OOMs of increase in effective training compute in <1 years without needing more hardware’*” (Taking stock)
 

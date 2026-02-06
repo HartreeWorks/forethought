@@ -1,3 +1,5 @@
+> Manufacturing actually has *higher* substitutability than AI because humans can hand-make physical goods without machines, but you literally cannot produce trained models without compute—the medium *is* the product.
+
 **Load-bearing claim:** Economic estimates of $\rho$ from manufacturing (e.g., -0.4) are too pessimistic because manufacturing lacks the "optimization depth" of software.
 **Attack type:** Reference class failure (Inversion)
 **The specific problem:** Manufacturing may actually have *higher* substitutability than AI because human labor can physically manipulate atoms to replace machines (hand-made vs. factory-made). In AI, the product *is* computation. You cannot produce a "compute-equivalent" output without the physical medium of FLOPs. The coupling between the input (compute) and output (trained model) is tighter in digital goods than physical goods.

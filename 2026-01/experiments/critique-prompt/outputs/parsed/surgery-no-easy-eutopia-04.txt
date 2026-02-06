@@ -1,3 +1,5 @@
+> Many configurations can land in the fat tail, so hitting exceptional value-efficiency might be easy rather than hard if the tail is thick with diverse winners.
+
 **Load-bearing claim:**
 fat-tailed distributions of value-efficiency across resource uses make linear views fussy
 

@@ -1,3 +1,5 @@
+> The lack of 100x productivity gaps among human researchers despite huge IQ variation suggests we're already near the ceiling of what raw cognitive ability can extract, not that optimisation has been left on the table.
+
 **Load-bearing claim:**
 The paper claims max speeds of <30x are "implausible" based on reasoning about what superintelligent researchers could do (running smaller experiments, optimizing every part of the stack, etc.)
 

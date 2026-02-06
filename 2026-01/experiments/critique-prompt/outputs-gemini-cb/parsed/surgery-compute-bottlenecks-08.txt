@@ -1,3 +1,5 @@
+> Even god-like intelligence can't shortcut computational irreducibility—if learning requires traversing the loss landscape, 30x speedup might be a hard physical limit, not a failure of imagination.
+
 **Load-bearing claim:** The "max speed" implied by low $\rho$ (e.g., 30x) is implausibly low for a world with "god-like" AI researchers.
 **Attack type:** Quantitative cliff
 **The specific problem:** This intuition ignores the "Look-Ahead Wall." In chaotic or high-dimensional optimization landscapes, no amount of intelligence allows you to predict the loss landscape without traversing it. God-like intelligence cannot compress the computational irreducibility of learning from data.

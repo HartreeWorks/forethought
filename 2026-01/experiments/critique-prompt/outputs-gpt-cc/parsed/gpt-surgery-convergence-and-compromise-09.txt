@@ -1,3 +1,5 @@
+> Banning overt threats doesn't eliminate coercion—it pushes it into stealthy, deniable channels that are harder to detect and police, potentially making things worse.
+
 **Load-bearing claim:**
 In **§3.3 (“problem of threats”)** you treat threats as a mostly negative overlay on otherwise-positive trade, and imply preventing them is a key lever: “*even small risks of executed threats can easily eat into the expected value*.”
 

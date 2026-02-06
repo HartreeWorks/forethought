@@ -1,3 +1,5 @@
+> The "value = product of independent factors" model is maximally pessimistic about correlation—if societies that solve one hard problem tend to solve others too, mostly-great futures aren't nearly as rare.
+
 **Load-bearing claim:**
 The centerpiece “**value is the product of many factors** … ‘as N increases… expected value shrinks’” toy model (Sec. 2.4) is doing heavy lifting for “mostly-great futures are rare.”
 

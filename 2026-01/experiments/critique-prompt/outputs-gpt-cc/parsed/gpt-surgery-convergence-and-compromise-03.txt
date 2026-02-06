@@ -1,3 +1,5 @@
+> Post-AGI agents might voluntarily converge on shared "value interoperability standards" to reduce conflict costs, so more optimization power doesn't necessarily mean more moral disagreement.
+
 **Load-bearing claim:**
 In **§2.2.1** you argue present agreement is mostly “low-hanging fruit” and will “*break down… as we max out on instrumentally valuable goods*,” with hedonism vs preference-satisfaction diverging under optimization
 

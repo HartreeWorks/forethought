@@ -1,3 +1,5 @@
+> Swap in even mild positive correlations between dimensions or institutional floors that prevent near-zero outcomes, and the "mostly-great futures are vanishingly rare" result from the toy model evaporates.
+
 **Load-bearing claim:**
 “The multiplicative toy model (independent Uniform[0,1] dimensions) is a good guide to the shape of the distribution of achievable future value; hence mostly-great futures are rare by default.”
 

@@ -1,3 +1,5 @@
+> Efficiency gains don't necessarily mean more experiments—labs tend to reinvest savings into bigger, harder-to-evaluate runs, which could actually tighten the bottleneck rather than loosening it.
+
 **Load-bearing claim:**
 “*when your AI algorithms become twice as efficient, you can run twice as many experiments… This completely pulls the rug out… which assumed an essential input was held fixed*” (Counterargument 5)
 

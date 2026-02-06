@@ -1,3 +1,5 @@
+> Compute might bottleneck AI progress not because it's a scarce CES input, but because there's a physical limit on how many bits of useful information each FLOP can extract.
+
 **Load-bearing claim:**
 The paper's core framework assumes AI R&D can be decomposed into "cognitive labor" and "compute" as separable CES inputs
 

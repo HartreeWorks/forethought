@@ -1,3 +1,5 @@
+> Algorithmic efficiency gains act as a force multiplier on *both* cognitive labour and experimental throughput, so treating either input as fixed understates the feedback loop.
+
 Algorithmic efficiency gains allow increasing both inputs (cognitive labor AND effective experiments), undermining the fixed-input assumption
 
 **Dependencies**:

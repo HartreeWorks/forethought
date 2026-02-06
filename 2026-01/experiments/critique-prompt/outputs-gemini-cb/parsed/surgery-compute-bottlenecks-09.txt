@@ -1,3 +1,5 @@
+> If the AI industry is already compute-constrained at the starting line, the CES production function's diminishing returns kick in immediately rather than only at high OOMs, potentially stalling the explosion before it begins.
+
 **Load-bearing claim:** Compute bottlenecks are unlikely to block an SIE in its *early* stages (0 vs -0.2 difference is small at low OOMs).
 **Attack type:** Parameter sensitivity (Initial Conditions)
 **The specific problem:** This holds only if we start at a point where Labor and Capital are balanced ($L \approx K$). However, the current AI industry is heavily compute-constrained (massive demand for H100s, huge training runs), suggesting we are already operating in a regime where the marginal return on Labor is diminishing relative to Capital.

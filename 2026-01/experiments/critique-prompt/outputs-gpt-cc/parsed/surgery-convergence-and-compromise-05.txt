@@ -1,3 +1,5 @@
+> Once expansion creates fast-replicating autonomous actors, every additional galaxy becomes a security liability rather than a clean resource to divvy up, so the tidy partitioning examples break down past a critical replication-rate threshold.
+
 **Load-bearing claim:**
 resource-compatibility and partitioning make near-best outcomes simultaneously achievable for divergent views
 

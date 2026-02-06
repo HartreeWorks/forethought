@@ -1,1 +1,3 @@
+> Joint aggregation bounded views might work perfectly fine at any realistic scale and only break down at limits no civilisation could actually reach, making them far less absurd than the paper suggests.
+
 The claim (Section 3.3) that bounded views which aggregate goods and bads jointly are implausible and lead to scale-tipping problems is vulnerable to a quantitative cliff critique: these views might behave well within certain reasonable scales (e.g., planetary or galactic) and only exhibit scale-tipping behaviors beyond practically attainable limits. If so, joint aggregation bounded views could be easier than argued to accept, challenging the paper’s dismissal of their plausibility.

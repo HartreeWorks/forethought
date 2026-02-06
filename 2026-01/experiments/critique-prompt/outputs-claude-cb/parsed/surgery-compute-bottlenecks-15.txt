@@ -1,3 +1,5 @@
+> If the breakthroughs needed for self-improvement are paradigm-gated rather than effort-gated, input substitutability is irrelevant—no amount of cognitive labour overcomes an architectural ceiling the CES model doesn't capture.
+
 **Load-bearing claim:**
 The paper's final probability estimate (10-40% chance of SIE despite compute bottlenecks) is anchored on ρ being "likely between -0.2 and 0."
 

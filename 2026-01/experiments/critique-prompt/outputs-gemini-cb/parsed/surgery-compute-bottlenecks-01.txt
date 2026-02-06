@@ -1,3 +1,5 @@
+> The critique's own substrate is compute, so "infinite AI researchers" would consume the very fixed compute budget they're meant to substitute for—the feedback loop eats itself before it can explode.
+
 **Load-bearing claim:** In the limit of infinite cognitive labor, AI researchers could simulate computational experiments in their heads, implying $\rho$ is not effectively negative.
 **Attack type:** Countermodel (Thermodynamic/Computational)
 **The specific problem:** The paper treats "cognitive labor" as an abstract input separate from "compute," but AI researchers *are* software running on hardware. To "simulate a neural network in one's head" requires running a simulation that is necessarily less efficient than running the code directly on optimized hardware (due to emulation overhead). If the premise is "fixed compute," adding "infinite AI researchers" is physically impossible because those researchers require the very compute resources they are supposed to substitute for.

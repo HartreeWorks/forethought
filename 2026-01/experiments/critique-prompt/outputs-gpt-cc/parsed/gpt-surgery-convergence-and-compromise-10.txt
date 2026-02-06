@@ -1,3 +1,5 @@
+> Optimising for scenario (3) could backfire if the interventions you'd pick—centralised governance, coordination institutions—actually increase the probability of the worst-case scenario (1).
+
 **Load-bearing claim:**
 In **§5** you argue we should “act much more on the assumption that we live in scenario (3)” because marginal impact is higher there, and you give a toy calculation comparing power-seeking in scenario (1) vs improving Surviving/Flourishing in scenario (3)
 

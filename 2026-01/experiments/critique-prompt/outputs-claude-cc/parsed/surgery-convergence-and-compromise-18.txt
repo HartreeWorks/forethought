@@ -1,3 +1,5 @@
+> Early coordination could let good-aligned actors monopolise the resources needed for suffering while retaining access to goods, breaking the symmetry that drives the paper's net-zero conclusion.
+
 **Load-bearing claim:**
 That bounded-above views with separately aggregated goods and bads likely reach both bounds, yielding net-zero value (Section 3.4 analysis)
 

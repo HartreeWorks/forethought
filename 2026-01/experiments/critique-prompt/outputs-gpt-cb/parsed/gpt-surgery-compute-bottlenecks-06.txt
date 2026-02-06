@@ -1,3 +1,5 @@
+> Each frontier experiment may now yield far more insight than a decade ago—thanks to scaling laws, standardisation, and better tooling—so fewer experiments can still drive rapid progress without disproving the bottleneck.
+
 **Load-bearing claim:**
 “*Over the past ten years, the number of near-frontier experiments… decreased… If these… were truly a bottleneck… progress would have slowed down*” (Counterargument 5.2)
 

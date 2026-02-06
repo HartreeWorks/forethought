@@ -1,3 +1,5 @@
+> The mere existence of morally-motivated agents at any frequency is irrelevant if institutional gatekeepers systematically filter them out of decision-making roles, so the paper needs a story about how such agents actually gain leverage, not just that they exist.
+
 **Load-bearing claim:**
 **partial AM-convergence at the level of “not less than ~1 in a million (power-weighted)” is plausible**, enabling meaningful moral bargaining
 

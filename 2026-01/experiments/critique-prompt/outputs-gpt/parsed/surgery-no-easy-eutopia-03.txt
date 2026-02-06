@@ -1,3 +1,5 @@
+> The paper assumes grabbing more cosmic resources always adds value, but if aggressive expansion also increases catastrophic risk or lock-in, a deliberately smaller civilisation could actually score higher in expected value.
+
 **Load-bearing claim:**
 “On unbounded linear views, a mostly-great future requires using almost all accessible resources (e.g., a Milky Way civilization is ~1/20B of the value of the best feasible future).”
 

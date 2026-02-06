@@ -1,1 +1,3 @@
+> If moral theories use fundamentally incomparable value scales, you can't meaningfully average across them—so any weighted aggregation under moral uncertainty just produces an indeterminate result.
+
 The handling of moral uncertainty and intertheoretic value aggregation (Section 3.5) is open to a countermodel attack: if views with different value scale normalizations cannot be meaningfully averaged or compared, then the attempt to aggregate across morally uncertain frameworks using weighted means or normalizations collapses, implying that the relative fussiness or easygoingness of the combined uncertainty-weighted view is undetermined. This undermines claims about aggregate decision-making under moral uncertainty.

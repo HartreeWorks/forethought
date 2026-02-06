@@ -1,3 +1,5 @@
+> If moral value clumps into discrete "good enough" basins rather than requiring precise parameter agreement, the convergence problem shrinks dramatically—and the paper never rules this out.
+
 **Load-bearing claim:**
 That "shared human preferences" are underpowered to ensure convergence across different idealizing processes (supports Claim 1)
 

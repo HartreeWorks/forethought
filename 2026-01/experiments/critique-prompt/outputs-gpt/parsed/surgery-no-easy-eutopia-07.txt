@@ -1,3 +1,5 @@
+> Scaling civilization might actually make it *easier* to keep "bads" tiny, since monitoring and enforcement resources can grow faster than harm—so separate aggregation isn't necessarily fussy at all.
+
 **Load-bearing claim:**
 “On bounded difference-making views that aggregate goods and bads separately, even one part in 10^22 resources going to bads prevents a mostly-great future; therefore such views are fussy and mostly-great is a narrow target.”
 

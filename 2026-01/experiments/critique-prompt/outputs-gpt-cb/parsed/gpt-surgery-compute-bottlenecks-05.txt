@@ -1,3 +1,5 @@
+> Extrapolation from small experiments breaks down at exactly the critical thresholds where emergent capabilities appear, so compute bottlenecks resurface precisely when the stakes are highest.
+
 **Load-bearing claim:**
 “*you might not need near-frontier experiments… you might be able to extrapolate from experiments that use increasingly small fractions of the lab’s compute*” (Counterargument 5.2)
 

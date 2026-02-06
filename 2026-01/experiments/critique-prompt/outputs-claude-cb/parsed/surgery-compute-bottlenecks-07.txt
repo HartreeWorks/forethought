@@ -1,3 +1,5 @@
+> Algorithmic efficiency gains may not symmetrically benefit both the AI researchers and their experiments, since architectural improvements require retraining the researchers themselves before they can be applied.
+
 **Load-bearing claim:**
 "If your AI algorithms become twice as efficient, you can run twice as many experiments (holding the capability level of AI in those experiments fixed)," which the paper claims undermines the fixed-input assumption
 

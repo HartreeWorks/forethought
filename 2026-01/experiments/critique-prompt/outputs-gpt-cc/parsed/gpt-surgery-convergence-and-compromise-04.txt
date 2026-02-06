@@ -1,3 +1,5 @@
+> Billionaire philanthropy rates may reflect institutional friction rather than preference curvature, so they're poor evidence against altruistic spending surging once post-AGI assumptions remove those exact frictions.
+
 **Load-bearing claim:**
 In **§2.3.2** you present an abundance-driven argument that weak altruistic preferences could dominate marginal spending because self-interested utility diminishes faster, then you rebut with billionaire philanthropy (~6% of income) as evidence against large shifts
 

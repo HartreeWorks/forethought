@@ -1,3 +1,5 @@
+> The "AGIs doing math in their heads" move just shuffles compute from one budget line to another—cognitive labour still runs on physical hardware, so you're double-counting FLOPs rather than genuinely substituting labour for compute.
+
 **Load-bearing claim:**
 “*in the limit of infinite AGIs you could use AGIs to do the math for NNs in their heads and thereby fully simulate computational experiments using cognitive labour in place of compute… Cognitive labour can in principle fully substitute for compute!*” (Counterargument 2.3)
 
