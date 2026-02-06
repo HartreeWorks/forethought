@@ -1,4 +1,3 @@
-[The Evolutionary Skeptic]
 **Target claim:** The assumption that there is massive "slack" in current AI algorithms allowing for orders of magnitude of efficiency gains via optimization.
 **Failure mode:** The current AI research ecosystem is already a massive, highly competitive evolutionary tournament involving thousands of human researchers and huge financial incentives. The "low-hanging fruit" of algorithmic efficiency (e.g., FlashAttention, quantization) is being aggressively harvested. The author assumes the current state is far from the Pareto frontier, but evolutionary theory suggests we are likely already near the limit of the current paradigm's efficiency.
 **Consequence:** The "max speed" multiplier is likely single-digit, not 30x or 100x. The SIE fizzles out almost immediately as automated researchers find that the remaining optimizations yield diminishing returns ($log(n)$), not exponential ones.

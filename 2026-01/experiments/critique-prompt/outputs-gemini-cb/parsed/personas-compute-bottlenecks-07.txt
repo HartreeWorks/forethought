@@ -1,4 +1,3 @@
-[The Empirical Hardliner]
 **Target claim:** The extrapolation that "smarter" researchers (moving from median to top-tier human equivalent, then to super-human) dramatically increases output.
 **Failure mode:** This is a "magic variable" unsupported by data. We have zero empirical evidence that R&D productivity scales linearly (let alone exponentially) with IQ beyond a certain threshold. It is equally plausible that R&D difficulty scales exponentially with complexity, cancelling out intelligence gains. The paper treats intelligence as a magic wand that dissolves physical constraints, but history shows that even geniuses (e.g., von Neumann) are bound by the empirical data availability of their time.
 **Consequence:** The model relies on an unproven "Super-IQ Multiplier." If this multiplier is 1.1x rather than 10x, the entire SIE thesis collapses into standard linear industrial progress.
