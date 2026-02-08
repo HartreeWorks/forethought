@@ -14,7 +14,7 @@ $graderExperiments = [
         'title' => 'Grader accuracy sanity check',
         'description' => 'We generate critiques with GPT-5.2 Pro and GPT-4.1 Mini. Can the ACORN grader detect the quality gap? This should be easy.',
         'file' => 'grader-accuracy.php',
-        'status' => 'complete',
+        'status' => '',
     ],
 ];
 
@@ -24,13 +24,17 @@ $contextExperiments = [
         'title' => 'Iterating on prompts with ACORN feedback',
         'description' => 'We draft three more sophisticated critique prompts and use the grader to compare them against a baseline.',
         'file' => 'critique-prompt-experiment.php',
-        'status' => 'complete',
+        'status' => '',
     ],
+];
+
+// Section 3: Unfinished experiments / notes in progress
+$unfinishedExperiments = [
     [
         'title' => 'Worldview primer experiment',
         'description' => 'Does providing Forethought\'s worldview primer as context produce more targeted critiques that focus on genuine uncertainties?',
         'file' => 'worldview-primer-experiment.php',
-        'status' => 'complete',
+        'status' => 'in-progress',
     ],
     [
         'title' => 'Crucial questions prompt experiment',
@@ -46,35 +50,26 @@ $contextExperiments = [
     ],
 ];
 
-// Section 3: Context engineering research
+// Appendix 1: Context engineering research
 $researchExperiments = [
     [
         'title' => 'Deep research prompting techniques (2025–2026)',
         'description' => 'A survey of prompting techniques for deep research tasks, covering chain-of-thought, self-consistency, reflection, and multi-agent approaches.',
         'file' => 'research/deep-research-prompting-techniques.php',
-        'status' => 'reference',
-    ],
-];
-
-// Section 4: Meta
-$metaPages = [
-    [
-        'title' => 'Limitations and open questions',
-        'description' => 'Key caveats about these experiments: validation gaps, sample sizes, and what would strengthen the conclusions.',
-        'file' => 'limitations.php',
         'status' => '',
     ],
 ];
+
 ?>
 
 <h1>January 2026 experiments</h1>
 
-<p>How much could systematic context engineering improve the quality of LLM-generated critiques?</p>
+<p>How much could context engineering/orchestration improve the quality of LLM-generated critiques?</p>
 
 <h2 id="automated-grader">Can we build an automated grader?</h2>
 
 
-<p>Systematic context engineering is impractical unless we can make automated graders that track our own judgement about the quality of LLM research outputs. Can we?</p>
+<p>Systematic experimentationis impractical unless we can make automated graders that track our own judgement about the quality of LLM research outputs. Can we?</p>
 
 <div class="experiment-list">
     <?php foreach ($graderExperiments as $exp): ?>
@@ -114,7 +109,9 @@ $metaPages = [
     <?php endforeach; ?>
 </div>
 
-<h2 id="context-engineering-research">Context engineering research</h2>
+<hr>
+
+<h2 id="context-engineering-research">Appendix 1: Context engineering research</h2>
 <p>Background research on prompting techniques and context engineering.</p>
 <div class="experiment-list">
     <?php foreach ($researchExperiments as $exp): ?>
@@ -134,9 +131,10 @@ $metaPages = [
     <?php endforeach; ?>
 </div>
 
-<h2 id="meta">Meta</h2>
+<h2 id="unfinished">Appendix 2: Unfinished experiments / notes in progress</h2>
+<p><em>I ran these experiments. Claude wrote up the results but I have not had time to carefully check them, do high-effort analysis or improve the write up with significant manual editing.</em></p>
 <div class="experiment-list">
-    <?php foreach ($metaPages as $exp): ?>
+    <?php foreach ($unfinishedExperiments as $exp): ?>
     <a href="<?= htmlspecialchars($exp['file']) ?>" class="experiment-card">
         <div class="experiment-header">
             <h2><?= htmlspecialchars($exp['title']) ?></h2>

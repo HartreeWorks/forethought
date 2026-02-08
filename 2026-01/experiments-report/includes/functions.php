@@ -47,42 +47,47 @@ function scoreClass($score) {
 
 /**
  * Calculate averages across multiple metrics for a set of results.
+ * Guarded so experiment pages can define their own version with different metrics.
  */
-function calculateAverages($results) {
-    $sums = ['centrality' => 0, 'strength' => 0, 'correctness' => 0, 'clarity' => 0, 'dead_weight' => 0, 'single_issue' => 0, 'overall' => 0];
-    // Add relevance if present in the data
-    $hasRelevance = false;
-    foreach ($results as $r) {
-        if (isset($r['relevance'])) {
-            $hasRelevance = true;
-            break;
+if (!function_exists('calculateAverages')) {
+    function calculateAverages($results) {
+        $sums = ['centrality' => 0, 'strength' => 0, 'correctness' => 0, 'clarity' => 0, 'dead_weight' => 0, 'single_issue' => 0, 'overall' => 0];
+        // Add relevance if present in the data
+        $hasRelevance = false;
+        foreach ($results as $r) {
+            if (isset($r['relevance'])) {
+                $hasRelevance = true;
+                break;
+            }
         }
-    }
-    if ($hasRelevance) {
-        $sums['relevance'] = 0;
-    }
-    $count = count($results);
-    foreach ($results as $r) {
-        foreach ($sums as $key => &$sum) {
-            $sum += $r[$key] ?? 0;
+        if ($hasRelevance) {
+            $sums['relevance'] = 0;
         }
+        $count = count($results);
+        foreach ($results as $r) {
+            foreach ($sums as $key => &$sum) {
+                $sum += $r[$key] ?? 0;
+            }
+        }
+        return array_map(fn($s) => $count > 0 ? $s / $count : 0, $sums);
     }
-    return array_map(fn($s) => $count > 0 ? $s / $count : 0, $sums);
 }
 
 /**
  * Calculate standard deviation for overall scores.
  */
-function calculateStdDev($results, $mean) {
-    $count = count($results);
-    if ($count < 2) return 0;
+if (!function_exists('calculateStdDev')) {
+    function calculateStdDev($results, $mean) {
+        $count = count($results);
+        if ($count < 2) return 0;
 
-    $sumSquaredDiff = 0;
-    foreach ($results as $r) {
-        $diff = ($r['overall'] ?? 0) - $mean;
-        $sumSquaredDiff += $diff * $diff;
+        $sumSquaredDiff = 0;
+        foreach ($results as $r) {
+            $diff = ($r['overall'] ?? 0) - $mean;
+            $sumSquaredDiff += $diff * $diff;
+        }
+        return sqrt($sumSquaredDiff / $count);
     }
-    return sqrt($sumSquaredDiff / $count);
 }
 
 /**

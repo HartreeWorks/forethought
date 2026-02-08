@@ -1,8 +1,6 @@
 <?php
 $pageTitle = 'Crucial questions prompt experiment';
 include 'includes/header.php';
-include 'includes/functions.php';
-
 // Load experiment results from all three papers (GPT 5.2 Pro only for main report)
 $resultsDirs = [
     'no-easy-eutopia' => __DIR__ . '/data/experiments/crucial-questions/results-gpt',
@@ -129,6 +127,8 @@ function calculateStdDev($results, $mean) {
     }
     return sqrt($sumSquaredDiff / $count);
 }
+
+include 'includes/functions.php';
 
 $variantAverages = [];
 $variantStdDevs = [];

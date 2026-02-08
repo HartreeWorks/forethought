@@ -16,6 +16,7 @@
     const uniquenessFilter = document.getElementById('uniqueness-filter');
     const critiqueList = document.getElementById('critique-list');
     const visibleCount = document.getElementById('visible-count');
+    const notConvExplainer = document.getElementById('not-conv-explainer');
 
     if (!paperFilter || !variantFilter || !critiqueList) return;
 
@@ -25,13 +26,13 @@
 
     let selectedPaper = 'all';
     let selectedVariant = 'all';
-    let selectedUniqueness = 'unique';
+    let selectedUniqueness = 'all';
 
     function updateURL() {
         const params = new URLSearchParams();
         if (selectedPaper !== 'all') params.set('paper', selectedPaper);
         if (selectedVariant !== 'all') params.set('variant', selectedVariant);
-        if (selectedUniqueness !== 'unique') params.set('uniqueness', selectedUniqueness);
+        if (selectedUniqueness !== 'all') params.set('uniqueness', selectedUniqueness);
         const queryString = params.toString();
         const newURL = window.location.pathname + (queryString ? '?' + queryString : '') + '#appendix-5-all-critiques';
         history.pushState({ paper: selectedPaper, variant: selectedVariant, uniqueness: selectedUniqueness }, '', newURL);
@@ -45,7 +46,9 @@
         items.forEach(item => {
             const matchPaper = selectedPaper === 'all' || item.dataset.paper === selectedPaper;
             const matchVariant = selectedVariant === 'all' || item.dataset.variant === selectedVariant;
-            const matchUniqueness = selectedUniqueness === 'all' || item.dataset.uniqueness === 'unique';
+            const matchUniqueness = selectedUniqueness === 'all'
+                || (selectedUniqueness === 'unique' && item.dataset.uniqueness === 'unique')
+                || (selectedUniqueness === 'not-conv' && item.dataset.uniqueness === 'unique' && item.dataset.convFound === 'no');
             const matchesFilter = matchPaper && matchVariant && matchUniqueness;
             if (matchesFilter) totalMatch++;
             // When not expanded, respect the all-hidden class (first N only)
@@ -64,6 +67,9 @@
                 showAllBtn.classList.add('hidden');
             }
         }
+        if (notConvExplainer) {
+            notConvExplainer.style.display = selectedUniqueness === 'not-conv' ? '' : 'none';
+        }
         if (updateHistory) updateURL();
     }
 
@@ -77,7 +83,7 @@
         const params = new URLSearchParams(window.location.search);
         selectedPaper = params.get('paper') || 'all';
         selectedVariant = params.get('variant') || 'all';
-        selectedUniqueness = params.get('uniqueness') || 'unique';
+        selectedUniqueness = params.get('uniqueness') || 'all';
         setActiveButton(paperFilter, selectedPaper);
         setActiveButton(variantFilter, selectedVariant);
         if (uniquenessFilter) setActiveButton(uniquenessFilter, selectedUniqueness);
@@ -183,7 +189,7 @@
     openCritiqueFromHash();
 
     // If any filter is non-default, expand all (defaults: paper=all, variant=all, uniqueness=unique)
-    if (selectedPaper !== 'all' || selectedVariant !== 'all' || selectedUniqueness !== 'unique') {
+    if (selectedPaper !== 'all' || selectedVariant !== 'all' || selectedUniqueness !== 'all') {
         expandAllCritiques();
     }
 

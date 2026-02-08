@@ -776,6 +776,13 @@ hr {
   color: var(--foreground);
 }
 
+.filter-explainer {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin: 0.75rem 0 0;
+  font-style: italic;
+}
+
 @media (max-width: 768px) {
   .filter-bar {
     flex-direction: column;

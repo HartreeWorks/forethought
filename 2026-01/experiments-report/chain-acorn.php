@@ -4,8 +4,8 @@ include 'includes/header.php';
 include 'includes/functions.php';
 
 // Load data
-$dataDir = __DIR__ . '/data/research/full-critique-chain-acorn-experiment/outputs';
-$promptsDir = __DIR__ . '/data/research/full-critique-chain-acorn-experiment/prompts';
+$dataDir = __DIR__ . '/data/experiments/full-critique-chain-acorn/outputs';
+$promptsDir = __DIR__ . '/data/experiments/full-critique-chain-acorn/prompts';
 
 $step1 = json_decode(file_get_contents("$dataDir/step1-brainstorm.json"), true);
 $step2Top5 = json_decode(file_get_contents("$dataDir/step2-top5.json"), true);
