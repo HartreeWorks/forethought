@@ -34,6 +34,14 @@ RESULTS_TO_PARSED = {
     'results-gemini-cc': 'outputs-gemini-cc/parsed',
     # GPT-4.1 Mini results
     'results-gpt41mini': 'outputs-gpt41mini/parsed',
+    # GPT worldview primer results
+    'results-gpt-wv': 'outputs-gpt-wv/parsed',
+    # ACORN v3 re-graded results
+    'results-gpt-v3': 'outputs-gpt/parsed',
+    'results-gpt-wv-v3': 'outputs-gpt-wv/parsed',
+    # Claude Opus 4.6 grader results
+    'results-gpt-claude-grader': 'outputs-gpt/parsed',
+    'results-gpt41mini-claude-grader': 'outputs-gpt41mini/parsed',
 }
 
 TITLE_PROMPT = """You are helping to label philosophical critiques for a research interface. Given a critique of an academic paper, generate a short title that captures the essence of the objection.

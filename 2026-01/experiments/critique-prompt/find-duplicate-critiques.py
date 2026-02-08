@@ -20,7 +20,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 # Load API keys from the acorn-benchmark .env file
-ENV_PATH = Path("/Users/ph/Documents/Projects/2025-09-forethought-ai-uplift/work/acorn-benchmark/.env")
+ENV_PATH = Path("/Users/ph/Documents/Projects/2025-09-forethought-ai-uplift/work/shared/2026-01/research/llm-grader-research/.env")
 load_dotenv(ENV_PATH)
 
 # Paper configurations
@@ -39,9 +39,10 @@ PAPERS = {
     },
 }
 
-# All 7 prompt variants
+# All 8 prompt variants
 PROMPTS = [
     'baseline-v2',
+    'conversational',
     'unforgettable',
     'personas',
     'surgery',
