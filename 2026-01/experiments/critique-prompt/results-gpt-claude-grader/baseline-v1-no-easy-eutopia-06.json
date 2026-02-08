@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.2,
+  "correctness": 0.55,
+  "clarity": 0.7,
+  "dead_weight": 0.1,
+  "single_issue": 0.85,
+  "overall": 0.15,
+  "reasoning": "The critique targets Section 2.1's use of diverse moral catastrophe examples as evidence for eutopian fragility. This is moderately central \u2014 the moral catastrophe examples serve as motivation and illustration for the broader argument, but the paper's core case rests on the multiplicative model (Section 2.4) and the systematic analysis of value functions (Section 3). Even if the moral catastrophe examples were entirely unconvincing, the formal arguments in Section 3 would still stand. Strength is low because the paper explicitly anticipates this kind of objection: it states 'we're not saying that (on these views) if the world were to persist like it is today, then that would be worse than extinction' and uses the examples precisely to show that across many different moral perspectives, single flaws can undermine most value \u2014 which is the relevant point for fragility, not that all views are equally weighty. The critique's alternative reading (diversity of condemnation supports easygoingness because 'many futures will be acceptable by at least some reasonable standards') doesn't actually engage with the paper's argument: the paper isn't claiming no future is acceptable to any view, but rather that for any given correct moral view, the range of near-best futures is narrow. The critique conflates 'some view finds it acceptable' with 'it achieves most of its potential value.' Correctness is moderate \u2014 it's true that listing diverse moral views side-by-side doesn't establish they're comparably weighty, and there is something to the observation about pluralism, but the claim that diversity of condemnation 'could equally support the opposite conclusion' is not well-supported. Clarity is decent \u2014 the point is understandable though somewhat compressed. Single issue is high as it focuses on one argumentative move.",
+  "title": "The paper's 'moral catastrophe' examples conflate disagreement with value loss"
+}

@@ -1,0 +1,8 @@
+{
+  "centrality": 0.3,
+  "strength": 0.7,
+  "relevance": 0.4,
+  "overall": 0.32,
+  "reasoning": "The critique targets a specific inferential step in the paper\u2019s argument for why unbounded linear (separable) moral views are \u201cfussy\u201d: the move from separability/additivity to there being a single canonical parcel-level optimum (\u201cone blueprint to replicate\u201d), hence requiring a very specific use of resources. That step is indeed not implied by separability; there can be many equally (or near-) optimal parcel-types, so the critique substantially weakens that sub-argument. However, the paper\u2019s broader claim that linear views are fussy is also supported by other considerations (e.g., needing most resources; fat-tailed value-efficiency implying only a small fraction of uses are near-optimal). The critique doesn\u2019t engage those, and the paper could be patched by replacing \u201csingle blueprint\u201d with \u201ca small high-value set,\u201d so it doesn\u2019t undermine the overall \u2018no easy eutopia\u2019 conclusion very much. Relevance is moderate: it engages a Tier-2-style internal argument in Forethought\u2019s Better Futures program rather than a Tier-3 open question, but it is a concrete and potentially useful correction to their reasoning.",
+  "title": "\"Separable Arrangements Need Not Be Unique\""
+}

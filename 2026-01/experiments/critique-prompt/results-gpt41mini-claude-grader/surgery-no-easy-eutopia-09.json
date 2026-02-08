@@ -1,0 +1,11 @@
+{
+  "centrality": 0.15,
+  "strength": 0.1,
+  "correctness": 0.5,
+  "clarity": 0.7,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.05,
+  "reasoning": "The critique addresses only one of many examples (digital beings, Section 2.3.2) used to illustrate the broader argument that eutopia is fragile. The position's argument does not rest on any single example being an inevitable moral catastrophe \u2014 it rests on the claim that there are MANY such dimensions where things could go wrong, and value is multiplicative across them. Even if adaptive governance perfectly resolved the digital beings issue, the position explicitly lists population ethics, wellbeing theory, resource allocation, suffering tradeoffs, discount rates, and many more as independent dimensions of potential failure. The critique doesn't engage with this multiplicative structure at all. Furthermore, the critique's substance \u2014 'future governance might adapt' \u2014 is extremely generic and is essentially already addressed by the position, which acknowledges in Section 1 and the conclusion that society might navigate toward good outcomes (this is the topic of the next essay on convergence and compromise). The position explicitly notes that the question is whether good outcomes happen 'by default' without deliberate optimization, making 'governance might adapt' largely priced in. The claim that adaptive governance mechanisms will arise is plausible but unsupported by any specific argument about why we should expect such mechanisms to work well across the specific failure modes described. Correctness is moderate \u2014 it's true that governance could adapt, but the framing as if the paper 'assumes' only extreme outcomes is somewhat of a mischaracterization, since the paper presents these as illustrative examples of how things could go wrong, not as the only possibilities. Clarity is decent \u2014 the point is understandable though somewhat vague about what 'adaptive governance mechanisms' would look like. Single issue: yes, focuses on one point.",
+  "title": "The paper's extreme digital rights assumptions may not hold"
+}

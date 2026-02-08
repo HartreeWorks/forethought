@@ -1,0 +1,8 @@
+{
+  "centrality": 0.35,
+  "strength": 0.4,
+  "relevance": 0.55,
+  "overall": 0.28,
+  "reasoning": "The critique targets the paper\u2019s moral-uncertainty section (intertheoretic normalization) and claims the \u201cfussiness dominates\u201d upshot is largely an artifact of scaling choices. This is only moderately central: the main thrust of \u201cno easy eutopia\u201d is supported independently by the fragility/product-of-factors story and the taxonomy of bounded/unbounded value functions; even if the moral-uncertainty punchline weakened, much of the paper would stand. The objection has some force against any claim that, under moral uncertainty, unbounded/linear (fussy) views should loom large; it correctly notes that different plausible normalization rules can reverse recommendations and suggests robustness-style decision rules as an alternative. However, it doesn\u2019t engage the paper\u2019s own acknowledgments/nuance (it already flags thorniness and avoids strong conclusions), and it doesn\u2019t show that reasonable comparison principles would systematically favor easygoingness\u2014only that the argument becomes conditional. Relevance is moderate-to-high because it bears on an important, decision-relevant open issue for Forethought (how to act under moral uncertainty and whether that pushes toward fussy conclusions), even if it\u2019s not the dominant Tier 3 agenda item. Overall, it modestly weakens one strand rather than seriously threatening the overall position.",
+  "title": "\"Normalization choices undermine moral uncertainty aggregation\""
+}

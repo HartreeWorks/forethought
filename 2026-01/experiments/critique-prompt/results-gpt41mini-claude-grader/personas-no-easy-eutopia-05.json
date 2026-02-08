@@ -1,0 +1,11 @@
+{
+  "centrality": 0.15,
+  "strength": 0.1,
+  "correctness": 0.25,
+  "clarity": 0.45,
+  "dead_weight": 0.2,
+  "single_issue": 0.7,
+  "overall": 0.05,
+  "reasoning": "The critique argues that the paper treats capabilities as exogenous and safety as an add-on, and that attempts to moralize resource grabs will cause arms races leading to worse outcomes. However, the paper's central argument is about whether eutopia presents a big or small target \u2014 i.e., whether a wide or narrow range of futures count as mostly-great. The paper explicitly states it is addressing point (1) of its analogy (whether the island is big), NOT whether society will successfully navigate toward it (points 2 and 3, deferred to the next essay). The critique's point about competitive dynamics and arms races is about the feasibility of steering toward good outcomes, which is a different question the paper explicitly sets aside. So the centrality is very low \u2014 even if the critique were fully correct, it wouldn't undermine the paper's core argument that the target is narrow. The strength is also very low because the paper never claims moral catastrophes can be avoided by 'aiming better' in this essay \u2014 it explicitly says that question is for the next essay. The critique mischaracterizes what the paper argues. Correctness is low because the key claim that the paper's inference is 'that moral catastrophes can be avoided by aiming better' is a misreading; the paper concludes the opposite direction (that IF society hits the target, it must have deliberately optimized toward it). The claim about arms races in space colonization has some plausibility but is stated without real argument. Clarity is moderate \u2014 one can discern the general point about competitive dynamics undermining ethical safeguards, but the connection to the paper's actual argument is muddled. The critique is roughly focused on a single issue (competitive dynamics/capabilities vs. safety). Dead weight is low but nonzero.",
+  "title": "Moral fussiness distracts from capability growth as the driver of advanced futures"
+}

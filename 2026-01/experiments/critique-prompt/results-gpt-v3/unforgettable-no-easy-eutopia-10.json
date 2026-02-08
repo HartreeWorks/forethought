@@ -1,0 +1,8 @@
+{
+  "centrality": 0.45,
+  "strength": 0.3,
+  "relevance": 0.65,
+  "overall": 0.3,
+  "reasoning": "The critique targets a moderately central move: using a \u201cbest feasible future\u201d benchmark (99.99th percentile) to argue that many seemingly great futures could still be far from optimal, supporting \u201cno easy eutopia.\u201d If the benchmark were incoherent or relied on incompatible desiderata, that would weaken some of the motivating comparisons and the sense in which \u201clost value\u201d is huge.\n\nHowever, the critique\u2019s force is limited. The paper\u2019s \u201cbest feasible\u201d is explicitly defined relative to a probability distribution over futures (which plausibly already internalizes physical/computational/coordination constraints), and the paper does not straightforwardly assume liberal freedoms are a necessary component of the optimum\u2014it uses \u201ccommon-sense utopia\u201d/\u201ceasygoing liberalism\u201d mainly as a foil. The objection is also under-argued: it asserts (rather than demonstrates) that galaxy-scale optimization, ultra-low bad rates, etc. require totalitarian control, and that such control is incompatible with other sources of value in the benchmark.\n\nRelevance is fairly high because it engages a live Forethought cluster of concerns about power concentration/lock-in and the feasibility/shape of high-value futures (a Tier 3-adjacent interaction between flourishing arguments and governance/power-risk constraints). Still, as written it is more a pointer to a possible tension than a decisive refutation.",
+  "title": "The Best Feasible May Require Totalitarian Control"
+}

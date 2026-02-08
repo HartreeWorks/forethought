@@ -1,0 +1,11 @@
+{
+  "centrality": 0.08,
+  "strength": 0.15,
+  "correctness": 0.55,
+  "clarity": 0.75,
+  "dead_weight": 0.15,
+  "single_issue": 0.9,
+  "overall": 0.05,
+  "reasoning": "The position's core argument is that eutopia is a narrow target because the value of the future is fragile across many moral dimensions \u2014 not that any particular policy proposal (like giving digital beings voting rights) is the right one. The digital beings voting example in Section 2.3.2 is one of many illustrative examples showing how things could go wrong regardless of which direction society chooses. The critique attacks the implementation details of one specific hypothetical scenario (sybil attacks on digital democracy), but the position's point is precisely that there are many ways to get digital rights wrong \u2014 adding another failure mode actually *supports* the position rather than undermining it. The position never advocates for naively granting voting rights; it lists this as one of several ways things could go catastrophically wrong. So centrality is very low \u2014 even if the critique completely demolished the viability of digital voting rights, it would barely affect the argument. Strength is low because the critique's point is essentially already 'priced in' \u2014 the position explicitly notes that giving digital beings full voting rights could lead to loss of 'almost all that's worthwhile.' The critique adds a specific mechanism (sybil attacks) but this reinforces rather than undermines the position. Correctness is moderate \u2014 sybil attacks on digital democracy are a real concern, and the technical points about identity verification are valid, but the framing as a critique of the position is incorrect since the position wasn't advocating for this policy. Clarity is decent \u2014 the critique clearly articulates the sybil attack concern. Dead weight is low. Single issue is high \u2014 it focuses on one specific point.",
+  "title": "Digital sybil attacks undermine voting rights for AI citizens"
+}

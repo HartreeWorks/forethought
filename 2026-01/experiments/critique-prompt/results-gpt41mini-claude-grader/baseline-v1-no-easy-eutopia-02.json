@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.1,
+  "correctness": 0.6,
+  "clarity": 0.5,
+  "dead_weight": 0.3,
+  "single_issue": 1.0,
+  "overall": 0.07,
+  "reasoning": "The critique targets the definition and quantification of 'best feasible future' and 'near-best future,' which are indeed foundational concepts in the argument. However, the position explicitly addresses this concern: it defines these terms precisely using von Neumann-Morgenstern utility theory (Section 3.1), sets specific percentile thresholds (99.99th percentile), and anchors the value function between extinction (0) and best feasible future (1). The position also explicitly acknowledges that 'not all reasonable moral views allow quantitative comparisons of value' and discusses moral uncertainty at length (Section 3.5). The critique's observation that these concepts are 'ambiguous' and 'subjective or culturally relative' is largely priced in \u2014 the entire essay is structured around showing that the conclusion holds across a wide range of moral views (utilitarian, bounded, unbounded, etc.), which is precisely the essay's strategy for handling the subjectivity concern. The critique is essentially a one-sentence generic worry that doesn't engage with the detailed formal framework the position provides. It has moderate centrality because the definitions do matter to the argument, but very low strength because the position already thoroughly addresses this concern. Correctness is moderate \u2014 it's true that there are open questions about value quantification, but the claim that the concepts are left 'ambiguous' is largely false given the formal treatment. Clarity is moderate \u2014 you can understand the general direction but it's vague about what specifically is problematic.",
+  "title": "The paper's key terms lack operational definitions"
+}

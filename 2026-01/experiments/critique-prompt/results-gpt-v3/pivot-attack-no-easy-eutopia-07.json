@@ -1,0 +1,8 @@
+{
+  "centrality": 0.4,
+  "strength": 0.35,
+  "relevance": 0.15,
+  "overall": 0.15,
+  "reasoning": "The critique targets the paper\u2019s Section 3 move of restricting attention to VNM-representable moral views and then defining \u201cmostly-great\u201d via cardinal thresholds, arguing this may bake in the kind of fine-grained tradeoffs that generate \u201cfussiness.\u201d That\u2019s somewhat central to the *systematic* fussy-vs-easygoing taxonomy, but the overall \u201cno easy eutopia\u201d case also leans on earlier, more informal fragility/product-of-factors arguments, so undermining VNM assumptions wouldn\u2019t collapse the whole position. The objection is plausible in outline (non-VNM views like incomparability/constraint-first/satisficing might avoid narrow numerical bands), but it\u2019s not developed enough to show (i) these views are sufficiently plausible in this context, (ii) they actually yield \u201ceasy eutopia\u201d rather than different forms of fussiness, or (iii) the authors\u2019 argument can\u2019t be reformulated in non-VNM terms; moreover the paper already flags that not all views satisfy completeness and uses VNM mainly as a representational convenience. Relevance is low because Forethought treats expected-value/VNM-style decision framing as a Tier 1 commitment; absent a substantially novel argument, this is largely a settled-premise challenge.",
+  "title": "\"The VNM Axioms Predetermine 'Fussiness'\""
+}

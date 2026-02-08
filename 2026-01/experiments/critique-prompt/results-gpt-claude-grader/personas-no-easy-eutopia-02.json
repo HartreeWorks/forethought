@@ -1,0 +1,11 @@
+{
+  "centrality": 0.15,
+  "strength": 0.15,
+  "correctness": 0.5,
+  "clarity": 0.7,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.08,
+  "reasoning": "The critique argues that the paper treats future societal arrangements as selectable 'moral dials' rather than as equilibrium outcomes shaped by strategic agents. This is a point about the feasibility of implementing particular arrangements, not about the paper's core argument. The paper's central claim is that eutopia is a narrow target \u2014 that most plausible moral views are 'fussy' about what constitutes a near-best future \u2014 and this conclusion holds regardless of whether the specific examples in Section 2.3 are best described as accidental moral errors or as strategic equilibria. In fact, the critique arguably *supports* the paper's thesis: if moral catastrophes are stable equilibria rather than accidental flaws, that makes them even harder to avoid, reinforcing 'no easy eutopia.' The paper uses the resource-allocation examples illustratively \u2014 to show that there are many dimensions along which the future could go wrong \u2014 and the core argument in Section 3 is built on formal analysis of value functions, not on the specific examples. So the critique attacks peripheral illustrative material (low centrality). The observation that rational agents game institutional rules is correct as a general point but is largely 'priced in' \u2014 the paper explicitly discusses how self-interested behavior, motivated cognition, and political dynamics can prevent optimal outcomes (Sec. 2.3.2). The critique doesn't engage with the formal argument about value functions being fussy, which is the paper's main analytical contribution. Correctness is moderate: it's true that strategic manipulation shapes institutions, but the claim that this means the examples 'systematically understate' the problem actually strengthens rather than weakens the paper's conclusion, which the critique doesn't seem to notice.",
+  "title": "Stable Exploitation of Proposed Moral Frameworks"
+}

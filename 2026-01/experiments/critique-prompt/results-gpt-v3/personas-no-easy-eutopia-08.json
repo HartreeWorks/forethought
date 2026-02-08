@@ -1,0 +1,8 @@
+{
+  "centrality": 0.4,
+  "strength": 0.3,
+  "relevance": 0.2,
+  "overall": 0.18,
+  "reasoning": "The critique targets the paper\u2019s move to a cardinal, vNM-representable value function (and the implicit commensurability this suggests). If that move were illegitimate, parts of the \u2018mostly-great\u2019/\u201890% of value\u2019 framing and some quantitative narrow-target claims would weaken, so centrality is moderate. However, the paper largely argues fragility \u201con many views\u201d without needing a single shared metric across religions/communism/etc., and it explicitly restricts Section 3 to complete vNM-style views while acknowledging that not all moral views fit; so the critique overstates how much the argument \u2018quietly assumes\u2019 cross-doctrine commensurability, limiting strength. Relevance is low-to-moderate because Forethought treats expected-value-style cardinalisation as a Tier 1 methodological commitment; unless backed by a novel route to decision-relevance under incomparability, this is close to questioning settled ground.",
+  "title": "The paper conflates moral pluralism with commensurable value dimensions"
+}

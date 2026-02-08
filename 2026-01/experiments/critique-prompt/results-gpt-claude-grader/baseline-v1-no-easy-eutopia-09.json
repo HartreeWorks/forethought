@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.25,
+  "correctness": 0.55,
+  "clarity": 0.7,
+  "dead_weight": 0.05,
+  "single_issue": 0.85,
+  "overall": 0.15,
+  "reasoning": "The critique targets the fat-tailed value-per-resource argument used in Section 3.2 to establish that linear unbounded views are fussy. This is one of several arguments in the essay \u2014 the essay's overall conclusion ('no easy eutopia') rests on multiple independent lines of reasoning: the multiplicative model in Section 2.4, the systematic analysis of bounded views in Section 3.3, and the fat-tailed argument in 3.2. Even if the fat-tailed argument were completely defeated, the essay would retain substantial force through its other arguments. So centrality is moderate but not high (~0.45). On strength: the critique raises a legitimate concern \u2014 the extrapolation from empirical fat-tailed distributions (wealth, citations) to moral value-efficiency is indeed a leap. However, the essay actually anticipates this somewhat by noting theoretical reasons (citing Schwartz 2019) and by arguing that mere uncertainty about fat-tailedness yields fat-tailed expected distributions (footnote 44). The critique doesn't engage with these defenses. The claim that 'value might be smoother, more redundant, or more saturating' is asserted without argument \u2014 it's a possibility, not a refutation. On correctness: the core observation that social distributions don't necessarily map to moral value distributions is fair, but the claim that 'many diverse lives are comparably good rather than dominated by rare peak experiences' is itself an unsupported assertion that happens to be exactly what the essay is arguing against. The critique is reasonably clear in what it's arguing, though somewhat brief. Minimal dead weight. It focuses on essentially one issue (the fat-tailed extrapolation). Overall, the critique identifies a real gap but doesn't press hard enough \u2014 it amounts to 'this might not be true' without providing reasons strong enough to seriously undermine the position, especially given the essay's multi-pronged structure.",
+  "title": "\"Fat-tailed value premise lacks empirical justification\""
+}

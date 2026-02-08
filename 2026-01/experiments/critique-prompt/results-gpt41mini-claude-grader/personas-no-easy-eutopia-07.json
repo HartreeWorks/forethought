@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.05,
+  "correctness": 0.4,
+  "clarity": 0.6,
+  "dead_weight": 0.2,
+  "single_issue": 1.0,
+  "overall": 0.05,
+  "reasoning": "The critique claims that adversarial actors will actively exploit moral/institutional gaps, making eutopia not just narrow but 'infeasible under persistent adversarial attack.' Centrality: The position's core argument is that eutopia is a narrow target because of the multiplicative structure of value and the fussiness of plausible moral views \u2014 it's about the *size of the target*, not about what forces prevent or enable hitting it. The position explicitly defers adversarial/strategic considerations to subsequent essays on convergence and compromise. The critique addresses something adjacent but not central to the argument being made. Strength: The critique adds essentially nothing beyond restating that the target is hard to hit, but attributing this to adversaries rather than the structural/philosophical reasons the paper gives. The paper already argues the target is narrow; saying 'and also adversaries will make it harder' is a minor addendum, not a refutation. The claim that adversarial attack makes eutopia 'infeasible' is asserted without argument \u2014 no mechanism is specified beyond vague gestures to 'malicious AIs, state actors, or ideological minorities.' The paper explicitly acknowledges that future essays address whether society can navigate toward the target, so the critique is attacking ground the paper hasn't claimed to cover. Correctness: It's broadly true that adversarial dynamics exist and can disrupt moral progress, but the claim that this renders eutopia 'infeasible' is unsupported and likely overstated. The claim that these are 'failure modes unseen by the authors' is likely false \u2014 the authors clearly anticipate such considerations and defer them. Clarity: The critique is understandable but vague about mechanisms. Dead weight: Minimal \u2014 most content is substantive, though thin. Single issue: Focuses on one point (adversarial disruption).",
+  "title": "Adversarial exploitation of moral gaps undermines eutopian target"
+}

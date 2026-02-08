@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.15,
+  "correctness": 0.5,
+  "clarity": 0.7,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.1,
+  "reasoning": "The critique targets the specific numerical cutoffs used in the paper's definitions (99.99th percentile for 'best feasible future,' 90% for 'near-best,' 50% for 'mostly-great'). Centrality: These definitions provide the framework for the analysis, but the paper's core argument does not hinge on these exact numbers. The paper explicitly notes 'There's nothing magical about the mostly great threshold' and uses these as convenient reference points. The main arguments about multiplicative value structures, fat-tailed distributions of value-efficiency, and the taxonomy of bounded/unbounded views would hold under different reasonable cutoffs. If you changed 90% to 80% or 50% to 40%, the qualitative conclusions would remain largely intact. So centrality is modest. Strength: The critique gestures at the possibility that the cutoffs 'predetermine' the conclusion, but doesn't actually demonstrate this. It says 'if feasibility tails are heavy or the distribution is misspecified' the reference point could be misleading, but doesn't explain how this would actually change the paper's conclusions. The paper's arguments about why most moral views are 'fussy' operate independently of the exact percentile cutoff \u2014 the multiplicative model, the analysis of bounded vs unbounded views, etc. The critique doesn't engage with these substantive arguments at all. The claim that the definitions are 'arbitrary' is partially true but largely priced in by the paper itself. Correctness: It's true that the cutoffs are somewhat arbitrary, and it's true that heavy tails could affect percentile-based definitions. But the claim that these cutoffs 'predetermine' the narrow target conclusion is not well-supported \u2014 the paper provides extensive independent argumentation for that conclusion. Clarity: Reasonably clear what the critique is arguing, though 'may predetermine' and 'rhetorically striking contrast' are somewhat vague about the mechanism of the alleged problem.",
+  "title": "Definitional cutoffs may prejudge the narrow target conclusion"
+}

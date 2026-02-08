@@ -1,0 +1,11 @@
+{
+  "centrality": 0.2,
+  "strength": 0.15,
+  "correctness": 0.6,
+  "clarity": 0.7,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.1,
+  "reasoning": "The critique identifies an interesting adversarial dynamic around digital moral patients, but the position's argument does not depend on the specific details of how digital being rights go wrong. The paper's point about digital beings (Section 2.3.2) is merely one illustrative example among many of how a single moral dimension could go catastrophically wrong, supporting the broader thesis that eutopia is fragile because value is multiplicative across many independent factors. The critique treats the digital beings discussion as if it were a load-bearing pillar, but the position explicitly says 'And so on' and lists many other potential catastrophes. Even if the adversarial moral patient problem were fully integrated, it would simply add another example of how things could go wrong\u2014which actually *strengthens* the position's thesis rather than undermining it. The critique's demand that the paper 'incorporate adversarial economics of moral status into its baseline' or else 'the digital-being discussion is not evidence of many independent moral dimensions but of one dominant security-style bottleneck' doesn't follow logically\u2014even if adversarial dynamics dominated the digital beings axis, the paper's other axes (population ethics, wellbeing theory, space governance, etc.) remain independent. The observation that compassion could be weaponized is genuinely interesting and correct as far as it goes, but it's largely 'priced in' by the position's framing that getting digital being treatment right is very hard and could fail in multiple directions. The critique doesn't engage with the paper's core formal arguments (Section 3) about why most moral views are fussy, which is where the actual heavy lifting occurs.",
+  "title": "The Adversarial Moral Patient Attack"
+}

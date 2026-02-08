@@ -1,0 +1,11 @@
+{
+  "centrality": 0.15,
+  "strength": 0.1,
+  "correctness": 0.5,
+  "clarity": 0.7,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.07,
+  "reasoning": "The critique argues that the paper neglects strategic incentive problems (defection, resource hoarding, exploitation) that would prevent society from reaching the narrow eutopian target. However, the paper's central argument is that eutopia is a narrow target \u2014 that most moral views are 'fussy' \u2014 NOT that the target can or will be hit. The paper explicitly states in the conclusion that whether society can aim at and hit the target is addressed in the NEXT essay on 'Convergence and Compromise.' The paper even says: 'our discussion so far doesn't imply that we're unlikely to reach eutopia... The next essay turns to this question.' So the critique is attacking a claim the paper explicitly defers, not one it makes. The critique is essentially agreeing with the paper's conclusion (eutopia is hard) while offering a different mechanism (strategic incentives rather than moral complexity), but the paper's argument is about the size of the target, not about navigation toward it. The paper explicitly separates these concerns using the sailing analogy (point 1 vs points 2 and 3). The critique's observation that incentive problems make eutopia harder is correct but largely 'priced in' \u2014 it reinforces rather than undermines the paper's thesis. The claim that fragility is 'less about moral complexity and more about unmanageable strategic incentives' does push back slightly on the paper's framing, but the paper never claims moral complexity is the only source of difficulty. Correctness is moderate: it's true that strategic incentives matter, but the claim that the paper has an 'implicit assumption that the narrow target can be stably reached' misreads the paper, which explicitly disclaims this.",
+  "title": "Incentive gradients can undermine convergence to eutopia"
+}

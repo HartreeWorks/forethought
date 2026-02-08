@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.1,
+  "correctness": 0.5,
+  "clarity": 0.6,
+  "dead_weight": 0.1,
+  "single_issue": 0.8,
+  "overall": 0.07,
+  "reasoning": "The critique targets the paper's use of population ethics (particularly scale-sensitivity and total views) as one of many examples of how futures could fall short of eutopia. However, the paper's argument does NOT depend on any particular population ethics view being correct \u2014 it explicitly presents multiple competing views (total, critical-level, variable-value) and argues that on EACH of them, different futures could lose most value. The paper's core argument is about the fragility of eutopia across many independent dimensions, of which population ethics is just one example among many (digital welfare, wellbeing theory, resource allocation, etc.). So even if the critique successfully undermined the population ethics dimension, the multiplicative model with the remaining dimensions would still support the 'no easy eutopia' conclusion. The critique's claim that the paper 'insufficiently addresses' the Repugnant Conclusion is somewhat fair \u2014 the paper doesn't explicitly name it \u2014 but the paper does present critical-level and variable-value views as alternatives to the total view, which are precisely the views developed in response to the Repugnant Conclusion. The critique is also somewhat vague ('insufficiently addresses persistent counterarguments') without explaining how addressing these counterarguments would change the paper's conclusions. The paper's point is precisely that different population ethics views disagree, making it hard to hit a target that satisfies all of them \u2014 the existence of counterarguments like the Repugnant Conclusion actually supports rather than undermines the paper's thesis.",
+  "title": "Reliance on population ethics conflates scale with moral value"
+}

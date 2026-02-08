@@ -1,0 +1,8 @@
+{
+  "centrality": 0.45,
+  "strength": 0.45,
+  "relevance": 0.72,
+  "overall": 0.38,
+  "reasoning": "The critique targets the paper\u2019s key setup move: assessing how likely \u201cmostly-great\u201d futures are conditional on survival but without serious de dicto optimisation. That baseline matters to the paper\u2019s practical implication that flourishing gains may be large even given survival, because it frames what \u2018default\u2019 surviving worlds look like. However, much of the essay (moral fragility/product-of-factors; many plausible moral views being fussy) can survive even if the baseline is adjusted, so it\u2019s not fully load-bearing. The argument is moderately strong: it\u2019s plausible that surviving TAI/IE-era existential hazards selects for unusually capable coordination, foresight, and institution-building, which could correlate with better moral steering, making the \u201cno optimisation pressure\u201d condition partly unstable. But the critique doesn\u2019t show that the needed coordination must be morally truth-tracking or that it would extend to the many listed value-fragility dimensions; survival-competence could also be narrowly security-focused or power-concentrating. Relevance is high because it flags an interaction Forethought explicitly cares about (survival vs flourishing decomposition/predetermination-style selection effects) rather than disputing Tier-1 premises.",
+  "title": "\"Surviving existential risks may require optimizing governance\""
+}

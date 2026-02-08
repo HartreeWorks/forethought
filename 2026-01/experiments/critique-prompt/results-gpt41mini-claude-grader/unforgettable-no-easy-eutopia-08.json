@@ -1,0 +1,11 @@
+{
+  "centrality": 0.15,
+  "strength": 0.15,
+  "correctness": 0.55,
+  "clarity": 0.7,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.07,
+  "reasoning": "The critique targets Section 2.3.4 on space resource allocation as one example among many of how the future could fall short. But the paper's argument does not depend on any single example being correct \u2014 the core argument is structural: value is multiplicative across many dimensions, and most plausible moral views are 'fussy' (Section 3). Space resource allocation is explicitly just one illustration in a long list (Section 2.3.5 says 'And so on' with many more examples). Even if dynamic governance institutions could mitigate this particular risk, the paper's thesis remains essentially intact. Hence centrality is very low. The critique's strength is also low because the paper already acknowledges uncertainty about which specific issues will matter and explicitly notes the list is 'very far from exhaustive.' The paper doesn't assume zero-sum permanent allocation \u2014 it notes that *whatever* allocation is chosen, some moral views will see it as catastrophic, which is a different and more robust claim than the critique engages with. The critique is somewhat correct that institutional innovation could reduce lock-in risks for this specific factor, but this observation is largely 'priced in' \u2014 it's compatible with and obvious to the authors. The critique is reasonably clear and focused on a single issue.",
+  "title": "\"Resource allocation ambiguity may not lock in moral catastrophe\""
+}

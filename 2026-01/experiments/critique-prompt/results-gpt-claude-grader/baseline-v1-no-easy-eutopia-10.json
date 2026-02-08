@@ -1,0 +1,11 @@
+{
+  "centrality": 0.65,
+  "strength": 0.25,
+  "correctness": 0.6,
+  "clarity": 0.55,
+  "dead_weight": 0.1,
+  "single_issue": 0.7,
+  "overall": 0.2,
+  "reasoning": "The critique targets Section 3's systematic analysis of which moral views are fussy vs easygoing, which is central to the paper's argument but not the only pillar (Section 2's empirical/historical arguments about moral catastrophe fragility stand independently). So centrality is moderate-to-high. However, the critique's strength is low for several reasons: (1) The paper explicitly acknowledges it doesn't cover all possible moral views and focuses on views representable via vNM utility functions \u2014 the critique that 'non-utilitarian, pluralist, or satisficing theories' might be easygoing is partially anticipated but not engaged with in any detail by the critique itself. (2) The specific claim about 'one bad part in 10^22' depending on 'particular symmetry, scaling, and normalization choice' is somewhat correct but the paper does walk through why the specific setup is natural for separate aggregation bounded views \u2014 the critique doesn't explain why alternative setups would yield different conclusions. (3) The mention of 'lexical priorities, pluralistic aggregation, sufficientarian constraints' is gesture-level \u2014 no argument is made that these specific frameworks would actually be easygoing. A sufficientarian view, for instance, might still be fussy if the sufficiency threshold is hard to universally meet. Lexical priorities could easily be even fussier. The critique is making a potentially valid point \u2014 the paper's taxonomy may not be exhaustive \u2014 but doesn't develop it enough to actually threaten the conclusion. Correctness is moderate: it's true that the functional forms are stylized and that the taxonomy isn't exhaustive, but the claim that the paper 'does not convincingly rule out' these alternatives overstates things given that the paper's argument is probabilistic ('easygoingness is unlikely') rather than claiming to have ruled out all alternatives. Clarity is moderate \u2014 the general thrust is understandable but the specific alternatives mentioned are not developed enough to be precisely evaluated.",
+  "title": "The paper's framing may generate fussiness through functional form choices"
+}

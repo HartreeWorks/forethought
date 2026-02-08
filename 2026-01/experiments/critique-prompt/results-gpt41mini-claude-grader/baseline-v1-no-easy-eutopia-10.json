@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.15,
+  "correctness": 0.7,
+  "clarity": 0.7,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.1,
+  "reasoning": "The critique points out that the essay's conclusion about the narrowness of eutopia may be 'premature' without integrating a developed account of social dynamics and institutional design that could help society converge on hitting the target. However, the essay explicitly acknowledges this point and deliberately scopes itself to address only whether the target is narrow (point 1 of the sailing analogy), postponing whether society can navigate toward it (points 2 and 3) to the next essay. The essay's conclusion section even states: 'But our discussion so far doesn't imply that we're unlikely to reach eutopia... The next essay turns to this question.' So the critique is essentially noting a limitation the authors themselves clearly flag and plan to address. This makes the critique largely 'priced in.' Centrality is moderate (~0.3) because the essay's core claim\u2014that eutopia is a narrow target\u2014does stand independently of whether society can hit it; the essay is explicitly about the size of the target, not the probability of hitting it. Strength is very low because the authors explicitly acknowledge this scope limitation and frame the essay as the first in a series. The critique is mostly correct in what it says (the essay does postpone this), but it fails to recognize this is by design rather than an oversight. Clarity is decent\u2014the point is understandable. No significant dead weight. It focuses on a single issue.",
+  "title": "The paper underestimates the possibility of moral convergence over time"
+}

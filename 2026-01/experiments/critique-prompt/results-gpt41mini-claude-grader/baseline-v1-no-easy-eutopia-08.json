@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.1,
+  "correctness": 0.6,
+  "clarity": 0.5,
+  "dead_weight": 0.3,
+  "single_issue": 0.7,
+  "overall": 0.05,
+  "reasoning": "The critique claims that empirical claims about digital beings being treated as property and interstellar colonization are 'presented as premises without sufficient engagement with ongoing debates.' However, the position does not rely on these as firm premises\u2014they are presented as illustrative examples of ways the future could go wrong, within a broader argument about the fragility of eutopia. The position explicitly frames these as possibilities ('suppose that...', 'there may be...') rather than as established facts. The central argument is structural: that value is multiplicative across many dimensions, and that most plausible moral views are 'fussy.' Even if one removed the specific examples about digital beings or space colonization entirely, the core argument would remain intact through the many other examples and the formal analysis in Section 3. The critique is somewhat correct that there is genuine uncertainty about these specific scenarios, but this observation is largely 'priced in' by the position itself, which acknowledges uncertainty throughout. The critique is vague\u2014it doesn't specify which debates or uncertainties it has in mind, nor does it explain how engaging with them would change the conclusion. It reads more as a generic complaint about insufficient caveating rather than a substantive objection.",
+  "title": "Insufficient evidence for key empirical premises"
+}

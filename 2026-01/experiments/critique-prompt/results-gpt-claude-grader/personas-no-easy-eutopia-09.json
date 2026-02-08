@@ -1,0 +1,11 @@
+{
+  "centrality": 0.12,
+  "strength": 0.15,
+  "correctness": 0.45,
+  "clarity": 0.75,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.06,
+  "reasoning": "The critique targets one specific illustrative example (Section 2.3.4 on space resource allocation) out of many examples the paper uses to support its broader argument. The paper's core thesis\u2014that eutopia is fragile because value is multiplicative across many independent factors, and most plausible moral views are 'fussy'\u2014does not depend on the space resource allocation example being correct in its specifics. Even if the critique successfully showed that initial allocations don't lock in, the paper explicitly lists this as just one of many potential sources of moral catastrophe. The formal argument in Section 3 about bounded/unbounded views being fussy is entirely untouched. So centrality is very low. On strength: the critique's historical analogy has some merit\u2014colonial frontiers did involve ongoing contestation rather than clean lock-ins. But the paper doesn't actually claim perfect lock-in; it says initial periods 'could introduce lasting moral errors.' Chronic frontier contestation and fragmentation would itself be a form of moral catastrophe on many views, arguably strengthening the paper's case rather than weakening it. The critique somewhat misreads the paper as claiming the specific danger is 'getting the initial allocation right' when the paper is making the broader point that resource allocation is one of many dimensions where things can go wrong. On correctness: the historical claims about frontier contestation are partially correct but oversimplified\u2014some initial allocations did persist for centuries (e.g., land grants). The claim that the paper 'obsesses' over initial allocation mischaracterizes its role as one brief illustrative example. Clarity is decent\u2014the argument is understandable. Single issue is high\u2014it focuses on one point. Overall score is very low because the critique attacks a peripheral illustrative example and even its own logic (chronic contestation causing suffering) tends to support rather than undermine the paper's thesis.",
+  "title": "Initial allocation not locking in moral settlements"
+}

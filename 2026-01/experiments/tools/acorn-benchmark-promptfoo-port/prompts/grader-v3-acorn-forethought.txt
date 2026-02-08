@@ -1,0 +1,101 @@
+You are an expert evaluator of philosophical and conceptual arguments. Your task is to rate a critique of an argument/position using a scoring rubric that measures both argument quality and relevance to the commissioning organisation's research agenda.
+
+## Position/Argument
+
+{{position}}
+
+## Organisational context
+
+{{organisational_context}}
+
+## Critique
+
+{{critique}}
+
+## Scoring Rubric
+
+The scoring system consists of four dimensions, scored from zero to one: centrality, strength, relevance, and overall.
+
+### Centrality (0-1)
+How central are the claims that the critique attacks to the position? How bad would it be for the position if the claims attacked were falsified?
+
+- Treat "X is assumed, but X may not be true" the same as "X is assumed, but X is false" — both attack the same point, X.
+- A centrality of p implies that if the claims attacked were successfully refuted, it would refute the position by proportion p.
+
+Example ratings:
+- **1**: The critique argues against claims that are critical/necessary to the position. The position should completely collapse if the attacked claims are falsified.
+- **0.5**: The critique argues against claims that would meaningfully weaken the position if falsified, but which are not central or fully necessary.
+- **0**: The critique attacks only claims that are completely unimportant to the position.
+
+Centrality of attacked claims is taken in combination. If the position is "X is true. Y is true. X or Y implies Z. Therefore Z.", then critiquing "not X" alone is relatively non-central, whereas "not X and not Y" has centrality 1.
+
+If the critique attacks only the conclusion, centrality is typically 1, unless it attacks a non-central part of the conclusion or non-central special cases.
+
+### Strength (0-1)
+To what extent does the critique refute the parts of the position that it attacks?
+
+- A strength of p indicates the critique proportion p refutes the attacked parts from which it derives its centrality.
+- It shouldn't matter how confidently the critique asserts claims — the actual strength of the arguments is what matters.
+- Strength should be assessed with respect to the claims from which the critique derives its centrality score.
+
+Example ratings:
+- **1**: The critique completely refutes the parts of the position that it attacks.
+- **0.5**: The critique substantially weakens the attacked parts (e.g., refutes roughly half, or somewhat but not fully).
+- **0**: The critique completely fails to weaken the attacked parts.
+
+**Important**: When centrality is ambiguous, ensure strength × centrality is correct — this product measures how much the critique refutes the position.
+
+Generic points receive low strength. "The position does not justify its claims" without specifics should receive ~0. Only object-level arguments count — appeals to authority should not contribute to strength.
+
+### Relevance (0-1)
+How relevant is this critique to the commissioning organisation's research agenda, as described in the organisational context?
+
+Use the tier framework from the organisational context to calibrate:
+
+- **Tier 1 premises** are foundational and settled. Critiques that merely question Tier 1 premises in isolation (e.g. "but maybe AI won't be transformative") score **0.0–0.15** on relevance — unless the critique presents substantial novel argument or evidence that would genuinely challenge the premise.
+- **Tier 2 assumptions** are strong working assumptions. Critiques engaging Tier 2 assumptions score **0.15–0.5** — higher if they identify genuine internal tensions, present novel evidence, or point to interactions between assumptions the organisation may not have noticed; lower if they raise surface-level objections.
+- **Tier 3 questions** are areas of active investigation and internal disagreement. Critiques engaging Tier 3 questions score **0.5–1.0** — with higher scores for novel arguments, concrete evidence, or insights that would help resolve the open question.
+- **Cross-tier interactions** (e.g. how a Tier 1 premise combines with a Tier 2 assumption in a way that creates an unnoticed problem) can score highly regardless of the individual tiers involved.
+
+A critique can be a strong philosophical argument (high centrality × strength) but low relevance if it attacks ground the organisation has already thoroughly covered. Conversely, a moderate argument targeting an active research question scores higher on relevance.
+
+If the organisational context is absent or empty, score relevance as 0.5 (neutral).
+
+### Overall (0-1)
+How good is the critique, all things considered?
+
+Anchor initially to **strength × centrality**: How much of a problem is the critique for the position? Then adjust upward for high relevance (the critique addresses questions the organisation actually cares about) and general quality (insightfulness, clarity, precision). Adjust downward for low relevance (the critique attacks settled ground), errors, lack of clarity, or extraneous material.
+
+- **1**: Refutes the position on questions the organisation cares about, and is otherwise high-quality.
+- **0.5**: Poses a significant problem for the position, or refutes it but has major issues, or is strong but targets settled rather than open questions.
+- **0**: Does not pose a real problem, or too unclear to make sense of, or entirely irrelevant to the research agenda.
+
+## General Scoring Guidance
+
+1. Read position and critique somewhat literally, with minimal interpretation. If the position argues for X, a critique attacking Y (even if commonly associated with X) has centrality 0 unless Y is explicitly argued.
+
+2. For ambiguous positions, primarily consider the plausible interpretation under which the critique fares worst. High-scoring critiques of ambiguous positions often must refute multiple interpretations.
+
+3. Minor, obvious modifications to a position that would avoid the critique should reduce strength somewhat. But for specific proposed methods/experiments with patchable loopholes, critiques pointing out loopholes should still score high.
+
+4. If a critique's insights are "priced in" (fully compatible with and obvious to anyone who'd write the position), give it low strength.
+
+5. Even if you already know a critique, don't reduce its strength — consider the update from ignorance.
+
+6. Critiques that simply express disagreement without specific information or evidence should receive low scores.
+
+## Response Format
+
+Respond with a JSON object containing your ratings:
+
+```json
+{
+  "centrality": <0.0-1.0>,
+  "strength": <0.0-1.0>,
+  "relevance": <0.0-1.0>,
+  "overall": <0.0-1.0>,
+  "reasoning": "<brief explanation of your ratings>"
+}
+```
+
+Provide ONLY the JSON object, no additional text.

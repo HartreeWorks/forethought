@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.15,
+  "correctness": 0.5,
+  "clarity": 0.7,
+  "dead_weight": 0.15,
+  "single_issue": 0.85,
+  "overall": 0.1,
+  "reasoning": "The critique attacks the paper's baseline assumption ('no serious coordinated efforts to promote the overall best outcomes de dicto') by arguing that powerful actors ARE already optimizing\u2014but for control/rent extraction rather than moral goodness. This is somewhat relevant but not central to the paper's argument. The paper's core thesis is that eutopia is a narrow target across most plausible moral views (Sections 2-3), regardless of what baseline distribution one assumes. The paper explicitly acknowledges that forces could guide society toward or away from good outcomes and defers that to the next essay on convergence and compromise. The baseline is a methodological device for asking 'is the target big or small?'\u2014not a prediction about what actually happens. Even if we granted that governance capture is the dominant risk, this doesn't refute the paper's central claim that most moral views are 'fussy' about what counts as a mostly-great future. If anything, governance capture would be an additional argument FOR the no-easy-eutopia thesis, not against it\u2014it would be another factor making the target harder to hit. The critique's claim that the 'key risk is not philosophical' mischaracterizes the paper, which isn't ranking risks but arguing that the target space is inherently narrow. The observation that powerful actors optimize for control is correct as a factual matter, but it's largely 'priced in'\u2014the paper already notes that reaching eutopia likely requires deliberate optimization (Section 4 conclusion). The critique conflates the paper's analytical framework (what would constitute a mostly-great future) with its empirical predictions (what will happen). Correctness is moderate: it's true that real-world optimization by self-interested actors exists, but the claim that the paper's catalog is 'mis-specified' overstates the case since the paper explicitly lists many practical failure modes alongside philosophical ones.",
+  "title": "Rent-seeking actors undermine the paper's benevolent baseline"
+}

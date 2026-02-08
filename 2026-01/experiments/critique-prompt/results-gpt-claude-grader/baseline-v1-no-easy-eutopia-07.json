@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.15,
+  "correctness": 0.55,
+  "clarity": 0.65,
+  "dead_weight": 0.15,
+  "single_issue": 0.8,
+  "overall": 0.1,
+  "reasoning": "The critique targets the paper's treatment of scale-sensitivity and population ethics, claiming the paper dismisses person-affecting and average utilitarian views as cognitive biases rather than substantive positions. However, the paper explicitly discusses variable-value views, critical-level views, and bounded views at length (Sections 3.2-3.4), and its central argument does NOT depend on 'bigger is better' being true. The paper's core claim is that eutopia is a narrow target across MANY plausible moral views, including bounded ones. The paper explicitly notes that even on bounded views that don't require scale, other factors (like the treatment of digital beings, wellbeing theory, goods/bads tradeoffs) make eutopia fragile. So the critique attacks something that is only one of many examples in the paper, not central to the main argument. The critique is partially correct that some framings in Section 2.3.1 treat scope-insensitivity as a potential 'mistake,' but the paper's systematic analysis in Section 3 carefully considers bounded views as serious positions, not cognitive errors. The critique is somewhat vague \u2014 it doesn't engage with the paper's detailed treatment of bounded views or explain how person-affecting views would actually make eutopia easy. The claim about 'stacking the deck' is asserted rather than demonstrated. Overall, this critique identifies a real tension in tone but fails to engage with the substance of the paper's arguments about bounded views, which directly address the concern raised.",
+  "title": "\"Underplaying the moral debate around population size\""
+}

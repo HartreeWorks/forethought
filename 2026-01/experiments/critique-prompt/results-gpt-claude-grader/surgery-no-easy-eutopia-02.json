@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.3,
+  "correctness": 0.7,
+  "clarity": 0.75,
+  "dead_weight": 0.05,
+  "single_issue": 1.0,
+  "overall": 0.2,
+  "reasoning": "Centrality: The multiplicative toy model (Section 2.4) is one illustrative element of the argument, but the paper's case for 'no easy eutopia' rests on much more: the historical prevalence of moral catastrophes (2.1), the concrete enumeration of future moral catastrophes (2.3), and the extensive Section 3 analysis of which moral views are fussy, which proceeds entirely independently of the toy model. The paper explicitly calls it a 'toy model' and uses it as an illustration of how multiplicative structure works, not as the core proof. If the toy model were completely discredited, the paper would lose one supporting analogy but retain its main arguments. Strength: The critique makes a valid mathematical point \u2014 positive correlations and truncation away from zero would change the product distribution. However, the paper is aware this is a simplified model and doesn't rest its case on it. The paper's deeper argument is that value IS multiplicative across independent moral dimensions (population ethics, digital welfare, wellbeing theory, resource allocation, etc.), and the critique doesn't engage with whether these dimensions are actually correlated or whether institutional floors would prevent near-zero outcomes on moral dimensions like 'getting population ethics right.' The critique doesn't address the Section 3 formal analysis at all. Correctness: The mathematical claims about correlation and truncation effects on product distributions are correct. The suggestion that institutions create floors is plausible but not demonstrated for the relevant moral dimensions. The claim that the result 'evaporates' with 'mild positive correlations' somewhat overstates \u2014 with enough dimensions, even moderate correlations still produce highly skewed distributions. Clarity: Reasonably clear about what it's attacking and why. Single issue: Focused entirely on the toy model's assumptions.",
+  "title": "\"Correlated dimensions undermine multiplicative fragility model\""
+}

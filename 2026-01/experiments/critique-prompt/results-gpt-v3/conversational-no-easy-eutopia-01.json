@@ -1,0 +1,8 @@
+{
+  "centrality": 0.6,
+  "strength": 0.25,
+  "relevance": 0.1,
+  "overall": 0.12,
+  "reasoning": "The critique targets the paper\u2019s use of VNM-style cardinalisation and the decision-relevant interpretation of thresholds like 0.5/0.9 and lottery comparisons (e.g., \u201c60\u201340 eutopia/extinction beats X\u201d), which is fairly central to the formal framing of \u2018mostly-great\u2019 and some of the dramatic comparative claims. However, much of the paper\u2019s core \u2018no easy eutopia\u2019 case (fragility, many dimensions, narrow target) can be restated in more qualitative/ordinal terms, and the authors explicitly flag that not all moral views admit this representation and restrict attention to those that do. The critique is also fairly generic (points to incompleteness/lexicality/independence worries without engaging the paper\u2019s specific stipulations or showing that the conclusions materially change under plausible non-VNM approaches), so it weakens rather than refutes. For Forethought specifically, it has low relevance because it challenges a Tier-1 methodological commitment (expected value reasoning/VNM apparatus) without offering a novel, organisation-actionable alternative or identifying a new internal tension the paper hasn\u2019t already gestured at.",
+  "title": "\"The paper illicitly quantifies incommensurable moral values\""
+}

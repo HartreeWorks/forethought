@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.2,
+  "correctness": 0.65,
+  "clarity": 0.7,
+  "dead_weight": 0.1,
+  "single_issue": 1.0,
+  "overall": 0.1,
+  "reasoning": "The critique targets Section 3.5 on moral uncertainty and intertheoretic comparisons. This section is not central to the paper's main argument\u2014it's essentially an addendum exploring how moral uncertainty interacts with the fussiness conclusion. The core argument (Sections 2-3.4) that most plausible moral views are fussy stands independently of how one resolves intertheoretic comparisons. The paper itself acknowledges 'Intertheoretic comparisons are very thorny, so we don't want to push any strong conclusions' and draws only modest upshots from this section. So centrality is low. The critique's strength is also low: it merely asserts the methods 'seem somewhat arbitrary' and that the paper 'does not engage sufficiently with well-established philosophical critiques' without naming any specific critiques, identifying specific errors, or explaining how different approaches would change the conclusions. The paper actually does discuss multiple normalization approaches (range, variance, pairwise) and acknowledges the difficulty. The critique is essentially a generic complaint about insufficient engagement with literature, which provides very little argumentative force. Correctness is moderate\u2014it's true that intertheoretic value comparisons are contested and that the paper's treatment is somewhat selective, but the claim that this 'potentially undermines the robustness of its conclusions' overstates the dependence of the main conclusions on Section 3.5. Clarity is decent\u2014one can understand what the critique is saying, though 'well-established philosophical critiques' is vague. No significant dead weight. Single issue: yes, focused on one point.",
+  "title": "The paper's aggregation methods lack philosophical grounding"
+}
