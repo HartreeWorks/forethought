@@ -21,7 +21,7 @@
 
     <ol>
         <li><strong>Make review easier:</strong> reviewing LLM outputs can be a slog. Minimally, the prompt could request progressive summarisation. Going further, we might provide lots of context on "the Forethought worldview", to help it filter out critiques that won't be of interest to us.</li>
-        <li><strong>Generate more insightful outputs:</strong>  Sophisticated context enginering might generate higher quality critiques.</li>
+        <li><strong>Generate more insightful outputs:</strong>  Sophisticated context engineering might generate higher quality critiques.</li>
 </ol>
 <p>This experiment will focus on <strong>(2)</strong>.</p>
 

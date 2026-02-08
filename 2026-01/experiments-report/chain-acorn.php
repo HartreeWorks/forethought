@@ -57,7 +57,7 @@ $acornPrompt = file_exists("$promptsDir/02-acorn-grader.txt") ? file_get_content
 <h2 id="design">Design</h2>
 
 <div class="prose">
-    <p>The <a href="experiment.php">previous experiment</a> tested brainstorm prompts in isolation—step 1 only. This experiment runs the <strong>full 6-step critique chain</strong> on "<a href="https://www.forethought.org/research/no-easy-eutopia" target="_blank">No Easy Eutopia</a>", replacing the chain's ad-hoc scoring at steps 2 and 6 with the ACORN grader.</p>
+    <p>The <a href="critique-prompt-experiment.php">previous experiment</a> tested brainstorm prompts in isolation—step 1 only. This experiment runs the <strong>full 6-step critique chain</strong> on "<a href="https://www.forethought.org/research/no-easy-eutopia" target="_blank">No Easy Eutopia</a>", replacing the chain's ad-hoc scoring at steps 2 and 6 with the ACORN grader.</p>
 </div>
 
 <div class="flowchart">
@@ -318,7 +318,7 @@ $acornPrompt = file_exists("$promptsDir/02-acorn-grader.txt") ? file_get_content
         <li><strong>Scores dropped after revision.</strong> The strongest critique (c20) went from 0.65 at brainstorm to 0.55 after revision, then back up to 0.58 after expansion. This could mean the develop→counter→revise cycle introduced hedging that weakened the argument in ACORN's view, or it could reflect noise in the grader. Either way, it's not clear the chain <em>improved</em> critique quality as measured by ACORN.</li>
         <li><strong>N=1 run.</strong> With a single run on a single paper, we can't distinguish signal from noise. The scores could look quite different on a second run.</li>
         <li><strong>No comparison baseline.</strong> We didn't run the same chain with the original ad-hoc scoring at steps 2 and 6, so we can't directly measure whether ACORN selection produced better final outputs.</li>
-        <li><strong>Moderate absolute scores.</strong> The best final critique scored 0.58. For context, in the <a href="experiment.php">brainstorm experiment</a>, the best single-step brainstorm critiques also scored around 0.55–0.65. The chain doesn't seem to be producing dramatically better critiques than a good single-step brainstorm—at least as ACORN measures them.</li>
+        <li><strong>Moderate absolute scores.</strong> The best final critique scored 0.58. For context, in the <a href="critique-prompt-experiment.php">brainstorm experiment</a>, the best single-step brainstorm critiques also scored around 0.55–0.65. The chain doesn't seem to be producing dramatically better critiques than a good single-step brainstorm—at least as ACORN measures them.</li>
     </ul>
 
     <h3 id="next-steps">Possible next steps</h3>

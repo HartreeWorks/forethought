@@ -119,7 +119,7 @@ $promptNames = [
     <p>I generated critiques of "<a href="https://www.forethought.org/research/no-easy-eutopia" target="_blank">No Easy Eutopia</a>" using two models:</p>
 
     <ol style="margin-left: 1.5rem;">
-        <li><strong>GPT-5.2 Pro</strong> — the strongest model (existing data from the <a href="experiment.php">main experiment</a>)</li>
+        <li><strong>GPT-5.2 Pro</strong> — the strongest model (existing data from the <a href="critique-prompt-experiment.php">main experiment</a>)</li>
         <li><strong>GPT-4.1 Mini</strong> — a mid-tier model, clearly weaker on reasoning benchmarks (~70% on GPQA vs ~89% for GPT-5)</li>
     </ol>
 

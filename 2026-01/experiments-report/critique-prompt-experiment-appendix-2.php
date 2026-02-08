@@ -234,7 +234,7 @@ foreach ($paperNames as $paperKey => $paperName) {
 arsort($exclusiveByPrompt);
 ?>
 
-<p><em>The uniqueness analysis was done by LLM. I've validated by eyballing it, I think it's good enough, though surely some mistakes.</em></p>
+<p><em>The uniqueness analysis was done by LLM. I've validated by eyeballing it, I think it's good enough, though surely some mistakes.</em></p>
 
 
 <h2>Exclusive ideas per prompt</h2>

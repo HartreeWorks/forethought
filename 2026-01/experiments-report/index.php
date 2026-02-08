@@ -69,7 +69,7 @@ $researchExperiments = [
 <h2 id="automated-grader">Can we build an automated grader?</h2>
 
 
-<p>Systematic experimentationis impractical unless we can make automated graders that track our own judgement about the quality of LLM research outputs. Can we?</p>
+<p>Systematic experimentation is impractical unless we can make automated graders that track our own judgement about the quality of LLM research outputs. Can we?</p>
 
 <div class="experiment-list">
     <?php foreach ($graderExperiments as $exp): ?>

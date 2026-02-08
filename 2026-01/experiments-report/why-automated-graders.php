@@ -37,7 +37,7 @@ $graderPrompt = file_exists($graderPath) ? file_get_contents($graderPath) : '';
 
 <h2 id="the-acorn-grader">The ACORN grader</h2>
 
-<p>Building a custom grader from scratch require collecting human-rated outputs and validating that the grader tracks those ratings.</p>
+<p>Building a custom grader from scratch requires collecting human-rated outputs and validating that the grader tracks those ratings.</p>
 
 <p>As a pragmatic shortcut, I adapted an already-human-validated grader from the <a href="https://www.andrew.cmu.edu/user/coesterh/conceptual_reasoning_benchmark.html" target="_blank">ACORN Conceptual Reasoning benchmark</a>. ACORN is a dataset for evaluating LLMs' ability to critique philosophical and conceptual arguments—similar to the kind of reasoning Forethought's researchers work with.</p>
 
