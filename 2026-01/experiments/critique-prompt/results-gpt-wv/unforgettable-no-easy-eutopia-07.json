@@ -1,0 +1,11 @@
+{
+  "centrality": 0.42,
+  "strength": 0.55,
+  "correctness": 0.76,
+  "clarity": 0.9,
+  "dead_weight": 0.08,
+  "single_issue": 0.95,
+  "overall": 0.34,
+  "reasoning": "The critique targets a real load-bearing step in \u00a73.2: the move from \u201c(unbounded) linear in resources\u201d to a replication/separability picture that yields the \u2018must capture ~all galaxies / otherwise you get ~1/20bn of value\u2019 conclusion. If that bridge fails, the paper\u2019s case that linear unbounded views are fussy for specifically \u2018cosmic land-grab / near-optimal allocation\u2019 reasons is weakened, though the broader \u2018no easy eutopia\u2019 thesis has additional independent supports (moral-catastrophe fragility, multiplicative-factor model, bounded-view fussiness), so centrality is moderate rather than high. Strength is moderate: it plausibly shows separability is an extra substantive assumption (or definitional stipulation) and that non-separable/relational value structures could break the inference from linearity to additive parcel replication and \u2018unrecoverable\u2019 missed resources. However, some examples (e.g., acausal trade/coordination) are not cleanly \u201cruled out by separability\u201d so much as they are alternative empirical pathways to controlling resources, and the paper could respond by tightening definitions (e.g., defining \u2018linear\u2019 as separable at scale) or arguing many candidate linear theories still approximate separability. The critique is mostly correct, clear, focused, and has little fluff.",
+  "title": "Separability Falsely Implies Cosmic Land-Grabbing"
+}

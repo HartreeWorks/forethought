@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.87,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets a real supporting step in the paper\u2019s case: Section 3.3\u2019s claim that (difference-making) bounded views that aggregate goods/bads separately are \u201cfussy\u201d because even an extremely tiny fraction of \u201cbad\u201d resource-use can block a mostly-great future. That\u2019s relevant but not load-bearing for the whole \u2018no easy eutopia\u2019 thesis (which also leans on linear/unbounded arguments, fat tails, multiplicative fragility, etc.), so centrality is moderate.\n\nHowever, the critique overstates the extent to which the paper\u2019s conclusion turns on an \u201carbitrary\u201d unit like star-systems. In the paper, the star-count is mostly an illustrative way to represent an enormous resource base; under the stipulated separate-aggregation setup (global summing of bads before applying a saturating transform) the worry is essentially scale: if the accessible domain is huge, even tiny fractions can correspond to large absolute bads, and whether that pushes you past some disvalue-saturation threshold depends on the curvature/bounds that were already partly fixed by assumptions like \u2018common-sense utopia is mostly-great.\u2019 So \u201cchange the grain and the conclusion flips\u201d isn\u2019t generally right given their modeling assumptions; it flips only if you change substantive composition/aggregation assumptions, not mere units.\n\nStill, the critique correctly notes that the paper\u2019s numerical \u20181/10^22\u2019 style argument is conditional on substantive assumptions about how disvalue composes across space (additivity prior to bounding, comparability across regions, no quarantine/local saturation, etc.), and that the paper would need to defend those assumptions (or show robustness across alternatives). Hence moderate correctness and some (but limited) weakening strength.",
+  "title": "\"Arbitrary moral grain size undermines catastrophe claim\""
+}

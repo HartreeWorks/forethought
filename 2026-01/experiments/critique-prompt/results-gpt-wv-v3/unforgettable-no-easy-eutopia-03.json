@@ -1,0 +1,8 @@
+{
+  "centrality": 0.55,
+  "strength": 0.35,
+  "relevance": 0.72,
+  "overall": 0.3,
+  "reasoning": "The critique targets Section 2.4\u2019s multiplicative \u201cvalue as product of factors\u201d model, which is one of the paper\u2019s main explanatory mechanisms for why mostly-great futures are rare, so it\u2019s fairly central. However, the paper also argues for fussiness via other routes (population ethics, digital minds, bounded/unbounded value-function analysis), so refuting strict complementarity wouldn\u2019t fully collapse the overall \u2018no easy eutopia\u2019 conclusion. The objection is conceptually apt\u2014product structure does assume strong complementarity, and alternative aggregations (additive/lexical/portfolio under pluralism) could yield a wider basin of high value\u2014but it remains underdeveloped: it doesn\u2019t show that plausible moral-uncertainty/trade regimes actually imply substitutability, nor that substitutable aggregation would make mostly-great futures likely given the paper\u2019s other arguments (e.g., fat-tailed value-efficiency, scale considerations, bads-dominance issues). Relevance is high because the narrow-target/multiplicative framing is a Tier-2 core working assumption in Forethought\u2019s better-futures program and interacts with their Tier-3 focus on moral trade/compromise. Overall, it\u2019s a useful pressure point but not (as stated) a decisive refutation.",
+  "title": "\"Moral Dimensions as Complements or Substitutes\""
+}

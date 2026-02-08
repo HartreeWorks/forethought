@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.45,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.26,
+  "reasoning": "The critique targets the paper\u2019s moral-uncertainty robustness move (that plausible intertheoretic comparison methods make unbounded/fussy views loom larger). This is a real, load-bearing sub-argument for robustness under moral uncertainty, but it is not the main support for \u201cno easy eutopia,\u201d which also rests on fragility/multiplicative structure and the taxonomy of fussy vs easygoing first-order value functions; so centrality is moderate (~0.3). The objection has moderate force: it points out (correctly) that the essay\u2019s own examples show normalization sensitivity and that there exist alternative decision procedures (bargaining/parliamentary, regret-style, dominance-avoidance) that aim to prevent high-range theories from dominating, thereby weakening the claim that \u2018fair\u2019 aggregation is itself fussy. However, it does not decisively refute the essay\u2019s specific claim that variance normalization or their pairwise-comparison story are among the most plausible approaches, nor does it show that the alternative procedures are themselves more plausible in this context; so strength is limited (~0.45). Most of the critique\u2019s claims are broadly correct (intertheoretic comparisons are contentious; rankings can flip; alternative frameworks exist), with some mild overstatement about what is standard or what follows (\u201ceasygoingness unlikely no longer follows\u201d) since that conclusion is also supported elsewhere. The critique is clear, focused, and contains little dead weight.",
+  "title": "Moral uncertainty methods can amplify but not mandate fussiness"
+}

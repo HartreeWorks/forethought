@@ -1,0 +1,8 @@
+{
+  "centrality": 0.25,
+  "strength": 0.4,
+  "relevance": 0.6,
+  "overall": 0.22,
+  "reasoning": "The critique targets the paper\u2019s use of fat-tailed \u201cvalue-efficiency\u201d under (approximately) linear views to argue that mostly-great futures require very specific resource uses, hence a narrow target. That is a real supporting pillar for one route to \u201cfussiness,\u201d but it\u2019s not the core of the overall \u201cno easy eutopia\u201d case (which also leans heavily on moral-catastrophe fragility/multiplicativity and on bounded-view aggregation arguments). So centrality is moderate-low. The objection itself is fair: fat-tailedness of a value/cost distribution does not, by itself, imply that default dynamics land far from the upper tail; one needs an explicit story about search/selection/optimization and the density of near-optima. However, it only partially weakens the argument because (i) the paper offers additional reasons for fussiness besides fat tails, and (ii) the critique does not provide an alternative quantitative model suggesting default trajectories are likely to hit the upper tail\u2014rather it mainly notes a missing inferential bridge and offers plausible countervailing considerations. Relevance is fairly high because it engages a key modeling move in Forethought\u2019s Better Futures agenda (how value distributions + optimization dynamics imply target narrowness), which bears on prioritisation between survival vs flourishing/trajectory work.",
+  "title": "\"Fat-tailed value does not imply a narrow moral target\""
+}

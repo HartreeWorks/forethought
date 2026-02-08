@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.35,
+  "correctness": 0.75,
+  "clarity": 0.87,
+  "dead_weight": 0.1,
+  "single_issue": 0.92,
+  "overall": 0.27,
+  "reasoning": "The critique targets a real pillar of the essay\u2019s case in Section 2: the \u201csingle flaw can unwind most value\u201d intuition and the illustrative multiplicative/independence toy model used to motivate \u2018eutopian fragility\u2019. If that entire fragility picture were undermined, the essay would lose a substantial part of its intuitive support\u2014though the later, more formal Section 3 argument for \u2018fussiness\u2019 could still largely stand, so this is not fully position-collapsing (hence centrality ~0.55). The objection has some bite: independence is a strong assumption, and coupled systems can exhibit error-correction and attractors; that does cast doubt on the specific product-of-independent-factors percentile numerics and on treating moral \u201cflaws\u201d as independent hits. However, the critique mostly offers an alternative possibility (robust basins) rather than showing that such coupling is likely to make near-best outcomes common; coupling can also correlate failures, create systemic lock-in, or generate large-scale failure modes, which is compatible with (or even supports) fragility. So it weakens but does not refute the attacked claims (strength ~0.35). Most statements are broadly plausible (complex feedback, correlation, attractors possible), but the leap from \u201ccoupling exists\u201d to \u201cinvalidates fussiness/distribution-shape claims\u201d is overstated (correctness ~0.75). It is focused, clear, and contains little filler.",
+  "title": "Separability assumptions underestimate resilience of complex moral systems"
+}

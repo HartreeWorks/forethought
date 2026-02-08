@@ -1,0 +1,11 @@
+{
+  "centrality": 0.25,
+  "strength": 0.35,
+  "correctness": 0.7,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.18,
+  "reasoning": "The critique targets a real feature of the essay\u2014its explicit expected-value/gamble framing and its inclusion of highly speculative \u201ccosmic stakes\u201d examples (acausal trade, simulations, infinite value)\u2014but this is not very central to the essay\u2019s core claim that near-best futures are a narrow target on many plausible moral views. If the critique landed fully, it would mostly undermine prudential/communication choices (and potentially the essay\u2019s net impact), not the main descriptive/philosophical conclusion. The argument\u2019s force is moderate: memetic weaponization and \u2018Pascal\u2019s mugging\u2019 style laundering of reckless actions is plausible, and the essay does supply rhetorical material that could be misused, but the critique is speculative about adversaries and decision-makers, doesn\u2019t show this is likely net-increasing in catastrophe risk, and doesn\u2019t directly rebut the underlying \u201cfussiness/fragility\u201d arguments. Most of what it says is reasonable (though not strongly evidenced), it is fairly clear and focused, and contains little dead weight.",
+  "title": "Framing speculative risks as live threats enables memetic exploitation"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.7,
+  "strength": 0.35,
+  "correctness": 0.6,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.35,
+  "reasoning": "The critique targets a central framing move: defining \u201cfussy/easygoing\u201d via how much probability mass lies above value thresholds (e.g., v>0.5) and then using that to support the headline claim that easygoingness is unlikely. If that framing were fatally scale-artifactual, it would substantially undercut the paper\u2019s main upshot (centrality ~0.7). However, the critique\u2019s core technical claim is only partly right. Within a single moral theory, once the paper stipulates v(extinction)=0 and v(best feasible)=1, the remaining positive affine freedom is effectively removed (any affine transform preserving both points is the identity), so the set/probability of outcomes with v>0.5 cannot be made to \u201cswing\u201d merely by admissible affine transformations. In that sense, calling this an \u201caffine invariance trap\u201d overreaches. Still, the critique is correct that (i) the choice of anchors/normalization is morally loaded, (ii) comparisons across moral views under uncertainty are sensitive to intertheoretic normalization, and (iii) the paper itself notes that alternative normalizations can flip some downstream recommendations\u2014so there is a genuine methodological vulnerability, especially for the moral-uncertainty/aggregation parts. Net effect: it weakens rather than refutes the central thesis (strength ~0.35). The critique is clearly presented and focused on one issue, with little fluff.",
+  "title": "\"Moral Fussiness Depends on Normalization Choices\""
+}

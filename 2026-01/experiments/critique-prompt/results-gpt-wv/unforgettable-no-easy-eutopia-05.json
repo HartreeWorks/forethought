@@ -1,0 +1,11 @@
+{
+  "centrality": 0.55,
+  "strength": 0.4,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.32,
+  "reasoning": "The critique targets a fairly central support structure in Sections 2.1\u20132.3: the move from \u201chistory contains pervasive, non-obvious moral catastrophes\u201d to \u201ctherefore near-best futures are unlikely by default / eutopia is fragile.\u201d If the evidence instead supports an attractor toward moral self-correction under abundance and high capability, that would significantly weaken the paper\u2019s case that the conditional distribution over post-survival futures is broadly \u2018drifty\u2019 across many fussy dimensions. However, it doesn\u2019t engage the paper\u2019s other main pillars (multiplicative fragility as a general model; the Section 3 \u2018fussy value functions\u2019 analysis), so it wouldn\u2019t collapse the overall thesis by itself. Strength is moderate: the attractor hypothesis is a plausible alternative explanation and does pressure the evidential arrow, but it\u2019s not decisive (moral learning may plateau, misgeneralize, or fail for novel cases like digital minds/population ethics; and the paper explicitly notes that navigation/convergence forces might exist and defers that to a subsequent essay). Correctness is fairly high: it\u2019s broadly true that improved information/coordination can make harms more salient and that many reforms correlated with capability increases, though the critique overgeneralizes somewhat from past reform dynamics to future unprecedented moral domains. The argument is clear, focused, and contains little to no dead weight.",
+  "title": "\"Moral Learning Expands Eutopia's Scope\""
+}

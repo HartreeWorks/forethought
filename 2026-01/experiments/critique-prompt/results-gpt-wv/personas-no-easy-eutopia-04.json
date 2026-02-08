@@ -1,0 +1,11 @@
+{
+  "centrality": 0.7,
+  "strength": 0.55,
+  "correctness": 0.75,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.85,
+  "overall": 0.48,
+  "reasoning": "The critique targets a fairly central pillar of the essay\u2019s Section 3: the move to restrict to complete, VNM-representable moral views and then define \u2018mostly-great\u2019 via cardinal tradeoffs (e.g., eutopia/extinction gambles). If that restriction is illegitimate or question-begging, then a substantial part of the paper\u2019s systematic \u2018most plausible views are fussy\u2019 conclusion is weakened, though not fully (Section 2\u2019s qualitative \u2018fragility\u2019 considerations could still support some version of the thesis). The critique has moderate strength: it correctly notes that VNM-style assumptions (especially continuity/independence) exclude lexicographic/sacred-value/deontological structures and thereby bias the analysis toward compensatory tradeoffs, making some \u201cfussiness\u201d look like an artifact of representational choices. However, it does not fully refute the paper because (i) the paper explicitly flags the restriction and could claim it is studying a large, decision-relevant subset of views, and (ii) deontological views can sometimes be modeled as constraints plus within-feasible-set aggregation, rather than being fully \u2018laundered\u2019 into scalar EU. The correctness is fairly high (the core formal point is right), but it somewhat overstates by implying the paper treats intertheoretic normalization as merely a nuisance\u2014Section 3.5 actually spends significant effort showing it can be decision-changing. The critique is clear, focused, and contains little dead weight.",
+  "title": "\"Formalizing moral views can induce value laundering\""
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.25,
+  "correctness": 0.65,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.2,
+  "reasoning": "The critique targets the paper\u2019s framing in sections 2.3.2 and 2.3.4 (and, indirectly, the later appeal to \u201ccompromise/trade\u201d) as overly focused on sincere moral choice rather than institutional capture. That is somewhat central insofar as those sections are used to motivate \u2018fragility\u2019 and the need for steering, but it is not central to the core thesis that near-best futures are a narrow target: if capture dominates, eutopia is (if anything) even harder, so the critique doesn\u2019t undercut the main conclusion and may even be compatible with it. Argumentative strength is therefore limited: it mainly alleges a missing causal mechanism (\u201cdominant driver is capture\u201d) and a misallocation of emphasis, without showing that the paper\u2019s fussiness/fragility arguments are wrong. Correctness is moderate: the institutional-capture mechanisms listed are plausible and conceptually coherent, but the critique overstates with \u201cdominated by capture\u201d and \u201csystematically misallocates concern\u201d without support, making key empirical/general claims uncertain. It is clear, focused on a single theme, and contains little dead weight.",
+  "title": "Institutional dynamics undermine the paper's moral optimization framing"
+}

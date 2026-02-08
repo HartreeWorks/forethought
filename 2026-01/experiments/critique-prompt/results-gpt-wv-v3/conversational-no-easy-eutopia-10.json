@@ -1,0 +1,8 @@
+{
+  "centrality": 0.4,
+  "strength": 0.35,
+  "relevance": 0.75,
+  "overall": 0.3,
+  "reasoning": "The critique targets the paper\u2019s move from acknowledged intertheoretic-comparison fragility to a relatively confident, action-relevant takeaway (\u201ceasygoingness unlikely\u201d, \u201cfussy views loom larger\u201d). If that move failed, the headline would need more qualification, but much of the paper\u2019s case for \u201cno easy eutopia\u201d also rests on object-level fragility/multiplicative-factor arguments and the bounded/unbounded \u2018fussiness\u2019 taxonomy that do not hinge on a single normalization choice\u2014so centrality is moderate, not total. The critique\u2019s force is also moderate: it correctly notes that different plausible moral-uncertainty aggregation schemes can reverse strategy rankings and that this undercuts practical confidence, but it doesn\u2019t closely engage with the paper\u2019s specific defenses of variance normalization/pairwise scaling or show that those are unreasonable; it mostly gestures at alternative meta-ethical frameworks without arguing they are (i) plausible enough and (ii) would materially rehabilitate \u2018easy eutopia\u2019 rather than merely shifting decision guidance. Relevance is high because moral uncertainty / intertheoretic comparisons and how they affect prioritisation are live (Tier 3-adjacent) issues in Forethought\u2019s agenda. Overall, it\u2019s a useful cautionary pressure on robustness but not a decisive refutation.",
+  "title": "\"Moral uncertainty vitiates the paper's practical confidence\""
+}

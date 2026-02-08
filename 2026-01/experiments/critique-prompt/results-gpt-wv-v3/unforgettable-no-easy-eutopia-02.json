@@ -1,0 +1,8 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "relevance": 0.75,
+  "overall": 0.33,
+  "reasoning": "The critique targets the paper\u2019s benchmarking move: defining \u201cbest feasible\u201d via a distribution that (at least in some passages) is conditioned on \u201cno serious de dicto optimisation,\u201d then using the gap to argue that deliberate optimisation is needed for mostly-great outcomes. If that benchmark is endogenously raised by the very intervention being recommended, the narrow-target framing could be partly an artifact. This is fairly central because the quantitative/threshold framing (0.5/0.9 of best-feasible) and the \u2018need steering\u2019 narrative depend on a stable ceiling. However, it likely doesn\u2019t collapse the core \u2018no easy eutopia\u2019 case because (i) much of Section 2\u2019s fragility argument is independent of how the 99.99th-percentile ceiling is set, and (ii) Forethought could reply that \u201cbest feasible\u201d is meant to be feasibility given physical/technological constraints (and possibly including optimisation), while the \u201cno-optimisation\u201d condition is only for estimating the probability mass above thresholds. The critique is therefore a moderate weakening / request for clarification and a more policy-invariant definition, rather than a decisive refutation. It is highly relevant to Forethought\u2019s agenda because it engages a key Tier-2/Tier-3 methodological hinge in the Better Futures programme (how to define/compare ceilings and default trajectories under different optimisation regimes).",
+  "title": "\"Benchmark Self-Undermines by Sampling from Unoptimized Worlds\""
+}

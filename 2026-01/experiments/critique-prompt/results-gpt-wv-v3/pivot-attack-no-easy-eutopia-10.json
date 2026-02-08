@@ -1,0 +1,8 @@
+{
+  "centrality": 0.4,
+  "strength": 0.35,
+  "relevance": 0.75,
+  "overall": 0.3,
+  "reasoning": "The critique targets a nontrivial step in Section 3: Forethought\u2019s attempt to rule out (or at least heavily discount) the main \u201ceasygoing\u201d candidate class\u2014bounded, difference-making, jointly aggregating views\u2014by appealing to stochastic-dominance violations and \u201cscale-tipping,\u201d and then concluding easygoingness is unlikely. If that eliminative step failed, the paper\u2019s systematic argument that most plausible views are fussy would be meaningfully weakened, though not fully overturned because the essay also argues for fussiness via (i) many concrete moral-catastrophe dimensions/multiplicative fragility (Section 2) and (ii) fussiness of linear/unbounded and many bounded-separate-aggregation views (Sections 3.2\u20133.3). Strength is moderate-low: the critique mainly argues these are defeasible intuitions (\u201ccosts not knockdowns\u201d) and that phase-transition behavior might be acceptable given bounded compression, but it does not provide a worked alternative jointly-aggregating bounded view that (a) is genuinely easygoing, (b) avoids the most troubling dominance/tipping pathologies in the relevant decision contexts, or (c) shows that accepting the violations is overall less revisionary than the paper\u2019s alternatives. Relevance is high because it engages a live Tier 3-ish issue for Forethought\u2014how to model moral uncertainty/aggregation and whether \u2018easygoing\u2019 value theories can be made plausible\u2014rather than disputing settled AI/longtermist premises.",
+  "title": "\"Dominance Violations Aren't Knockdown Arguments Against Easygoing Views\""
+}

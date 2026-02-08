@@ -1,0 +1,8 @@
+{
+  "centrality": 0.55,
+  "strength": 0.4,
+  "relevance": 0.45,
+  "overall": 0.35,
+  "reasoning": "The critique targets a key support for the paper\u2019s \u201ceutopia is fragile/narrow target\u201d conclusion: the move from a long menu of putative moral failure modes to a quasi-multiplicative rarity/fragility picture (Section 2\u21922.4). If the failure modes are substantially correlated or reducible to a few deep variables, that would weaken the justification for treating \u2018mostly-great\u2019 futures as requiring many independent successes. However, the critique only sketches the coupling claim and doesn\u2019t argue that the underlying \u2018deep variables\u2019 are themselves easy to steer, nor that correlation is strong enough to materially change the implied probability mass near the top. Also, a substantial part of the paper\u2019s case (Section 3 on bounded/unbounded/fussy value functions) can sustain \u201cno easy eutopia\u201d even if the Section 2 list is somewhat double-counted. Relevance is moderate: it engages a Tier-2 core working assumption (narrow eutopian target/product-of-factors framing) and suggests a concrete place where the argument may overstate independence, but it doesn\u2019t directly resolve one of Forethought\u2019s Tier-3 live disputes.",
+  "title": "\"Moral Catastrophes Aren't as Independent as They Seem\""
+}

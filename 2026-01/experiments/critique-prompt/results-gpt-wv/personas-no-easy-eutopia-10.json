@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.45,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.15,
+  "single_issue": 0.9,
+  "overall": 0.22,
+  "reasoning": "The critique targets the essay\u2019s linear/unbounded-resource discussion, especially the \u201cMilky Way is 1/20Bth of value\u201d style arithmetic and the associated \u2018fanaticism\u2019 comparison that treats additional cosmic resources as roughly fungible. That component supports (but is not the sole support for) the broader \u2018no easy eutopia / most plausible views are fussy\u2019 conclusion, so undermining it would weaken the case but not collapse it (other pillars: multiplicative fragility, moral-catasrophe examples, bounded-view fussiness). The objection is moderately strong: real expansion plausibly has sharply rising marginal costs/risks (time lags, coordination, security, thermodynamics), so counting raw galaxies as proportional value is too quick unless \u201cresources\u201d are already defined net of these costs. However, the position can be patched by redefining \u2018resources under control\u2019 to mean cost-adjusted usable resources, and linear separability doesn\u2019t itself entail negligible capture costs; so the critique doesn\u2019t fully refute the linear-view argument. Most claims are plausible/correct, though some (e.g., predicting it will justify reckless conflict) are speculative and somewhat rhetorical. The critique is clear, focused, and contains little non-contributing material.",
+  "title": "Cosmic resource expansion assumptions overlook practical limits"
+}

@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.4,
+  "correctness": 0.7,
+  "clarity": 0.88,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets the paper\u2019s benchmarking/framing move: defining \u201cbest feasible\u201d via a percentile of a (purportedly) no-de-dicto-optimization distribution and then judging how hard it is to reach 0.5/0.9 of that ceiling. If that were the paper\u2019s operative definition, it would meaningfully weaken some of the paper\u2019s \u201cnarrow target\u201d/\u201cfar from the ceiling\u201d framing, but it wouldn\u2019t collapse the core drivers of the thesis (value fragility across many dimensions; many plausible moral views being \u2018fussy\u2019). Hence moderate centrality.\n\nStrength is moderate because the endogeneity point is a real conceptual issue for any percentile-relative ceiling: feasibility/upper-tail outcomes can change with governance/optimization regimes, so a fixed ceiling can be non\u2013policy-invariant. However, the paper\u2019s later, more formal definition of \u201cbest feasible\u201d is not clearly conditional on the no-optimization regime in the way the critique alleges; rather, the \u201cno serious de dicto optimization\u201d conditioning is primarily used to define the baseline likelihood of mostly-great outcomes (fussiness), not necessarily to define the ceiling itself. That misread blunts the refutation.\n\nCorrectness is fairly high: the general \u2018shifting ceiling/endogeneity\u2019 concern and the suggested fix (policy-class-conditioned feasibility or explicit modeling of feasibility vs optimization) are basically right, but the critique likely overstates that the paper \u201cbakes in\u201d no-optimization into the best-feasible definition.\n\nClarity is high, dead weight is low, and it stays focused on a single issue.",
+  "title": "\"Circularity in defining the 'best feasible' benchmark\""
+}

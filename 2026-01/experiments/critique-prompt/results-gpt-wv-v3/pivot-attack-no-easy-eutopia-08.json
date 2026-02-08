@@ -1,0 +1,8 @@
+{
+  "centrality": 0.38,
+  "strength": 0.55,
+  "relevance": 0.72,
+  "overall": 0.36,
+  "reasoning": "The critique targets a real argumentative hinge in Section 2: the essay leverages the prevalence of \u201cmoral catastrophe\u201d judgments across views to motivate strong value-fragility and (implicitly) the multiplicative/near-zeroing picture. If that move fails, the rhetorical and intuitive case for \u201cno easy eutopia\u201d is meaningfully weakened. However, the paper\u2019s main support doesn\u2019t rest solely on this move: Section 3\u2019s more structural \u2018fussy vs easygoing\u2019 analysis (bounded/unbounded scaling, aggregation of goods/bads, etc.) can still sustain much of the conclusion even if Section 2\u2019s examples only show \u2018suboptimality\u2019 rather than \u2018most value lost.\u2019 Strength is moderate: it correctly identifies an equivocation between condemnation and near-total value-loss under the paper\u2019s own cardinalization (the gamble test), but it doesn\u2019t engage the paper\u2019s stronger examples (e.g., animal suffering possibly outweighing gains) nor show that *plausible* moral views systematically assign only modest disvalue to such flaws. Relevance is high because it bears on Forethought\u2019s Tier-2/3 agenda around whether flourishing is a narrow target and thus how much leverage \u2018better futures\u2019 work has relative to survival/x-risk work.",
+  "title": "\"Moral Disagreement Does Not Imply Massive Value Loss\""
+}

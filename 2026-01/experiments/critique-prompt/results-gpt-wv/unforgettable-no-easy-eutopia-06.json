@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.45,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.32,
+  "reasoning": "The critique targets a load-bearing step in the paper\u2019s case that (on unbounded linear views) achieving a mostly-great future is a narrow target because value-per-resource is fat-tailed: it argues that fat-tailedness can also create a large \u201csearch dividend\u201d when an advanced civilization can do massive parallel experimentation, so rarity of top configurations need not imply low discoverability. This is moderately central: it bears on one of the paper\u2019s key reasons for \u2018specific use\u2019 fussiness in \u00a73.2, but the overall \u2018no easy eutopia\u2019 thesis also rests on other independent supports (eutopia fragility/multiplicative factors, scale requirements, bads-dominance in bounded-separate aggregation, etc.), so refuting this wouldn\u2019t collapse the whole position. Strength is moderate because the order-statistics point is real and would force the paper to model sampling/search capacity and incentives, but it does not by itself show that high-value uses are discoverable/implementable under the paper\u2019s own conditioning (limited de dicto optimization), nor does it address hardness/coordination/incentive-misalignment reasons why search might not locate or deploy the extreme-tail configuration. Correctness is fairly high: the general mathematical intuition about maxima under heavy tails and parallel search is right, though the critique overreaches in implying this flips the conclusion without additional assumptions. The critique is clear, focused, and contains little extraneous material.",
+  "title": "\"Fat-tail search benefits offset 'astronomical space' challenge\""
+}

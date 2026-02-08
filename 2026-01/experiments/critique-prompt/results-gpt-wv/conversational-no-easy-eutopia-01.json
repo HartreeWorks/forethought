@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.3,
+  "correctness": 0.75,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets the paper\u2019s multiplicative \u201cproduct of factors\u201d model (Sec. 2.4) and related framing, arguing it builds fragility in by choice of aggregator. That point is relevant and would weaken one important intuitive plank of the case for \u2018no easy eutopia,\u2019 but it is not fully central because the paper also argues for fussiness via multiple other routes (historical moral catastrophe examples; the more technical bounded/unbounded, linearity, goods/bads aggregation analysis in Sec. 3). Strength is limited because the paper presents multiplicativity as a toy/one model rather than a proved necessity, and much of the later argument for fussiness does not depend on strict multiplicativity. Still, the critique correctly notes that multiplicativity is not a neutral default and that alternative aggregators could be more compensatory, which would blunt the inference from \u201cmany dimensions\u201d to \u201cnear-best outcomes are rare.\u201d The critique is clear, focused, and has little fluff; its main overreach is implying the product model is the \u2018core\u2019 or sole engine rather than a suggestive illustration among several arguments.",
+  "title": "The multiplicative moral factors model assumes fragility"
+}

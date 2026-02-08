@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.55,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.33,
+  "reasoning": "The critique targets an important argumentative bridge in Section 2: using pervasive moral-disagreement/\u201cmoral catastrophe\u201d examples to support the claim that a single non-obvious flaw can wipe out most of the (extinction\u2192eutopia) value gap, making eutopia a narrow target. If that bridge fails, the paper\u2019s intuitive/rhetorical support for \u2018eutopian fragility\u2019 is weakened, though the paper also has largely independent support from later technical sections (bounded/unbounded/fussiness analysis), so centrality is moderate rather than high. The critique\u2019s core point is strong: condemnation or \u2018deep flaw\u2019 does not automatically imply >50% value loss under the paper\u2019s own cardinalization (gamble test), and the paper would need to justify magnitude rather than rely on labels. However, it doesn\u2019t fully refute the fragility claim because the paper could (a) appeal to views where the disvalue plausibly is dominating (e.g., animal suffering, abortion for pro-life views), or (b) lean more on multiplicative/fat-tail arguments and other pathways to large value loss. The critique is mostly correct but slightly overstated in saying the paper \u201csilently equates\u201d condemnation with near-total loss; the original text often says \u2018significant fraction\u2019 and uses the list illustratively. It is clear, focused, and contains little dead weight.",
+  "title": "Moral disagreement doesn't imply massive value loss"
+}

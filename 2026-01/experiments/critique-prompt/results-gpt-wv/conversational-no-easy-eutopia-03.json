@@ -1,0 +1,11 @@
+{
+  "centrality": 0.4,
+  "strength": 0.45,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.05,
+  "single_issue": 0.95,
+  "overall": 0.28,
+  "reasoning": "The critique targets the paper\u2019s percentile-based definition of \u201cbest feasible future\u201d (99.99th percentile of a \u2018well-informed\u2019 distribution) and argues this makes the 0.5/0.9 thresholds and \u201cmostly-great is rare\u201d claims sensitive to modeling choices, especially under heavy tails. This is moderately central: the essay uses this benchmark to normalize/define \u2018mostly-great\u2019 and to motivate comparisons, but much of the \u201cno easy eutopia\u201d case also rests on independent considerations (fragility/multiplicative factors, moral-view fussiness) that could be reformulated without that particular percentile convention. The critique has moderate strength: it plausibly shows epistemic instability and a potential definitional artifact/circularity pressure, but it doesn\u2019t directly refute the underlying claim that good futures may be a narrow target under many moral views; it mainly challenges how the target is operationalized and how robust the rarity conclusion is to changes in the reference distribution. Most claims are correct/plausible (heavy-tail sensitivity, dependence on hypothesis class), with slight overstatement in implying strong circularity rather than a conventional normalization choice. It\u2019s clear, focused on one issue, and contains little dead weight.",
+  "title": "\"Percentile thresholds can shift with model scope\""
+}

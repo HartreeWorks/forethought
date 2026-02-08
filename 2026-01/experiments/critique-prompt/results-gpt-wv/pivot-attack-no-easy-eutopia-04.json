@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.55,
+  "correctness": 0.8,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.28,
+  "reasoning": "The critique targets a specific quantitative \u201cstar-count\u201d punchline used to argue that (difference-making) bounded views with separate aggregation are extremely fussy because even a 10^-22 fraction of resources going to bads prevents a mostly-great future. That\u2019s a meaningful support for the paper\u2019s broader \u201cmost plausible moral views are fussy\u201d claim, but it is only one route among several (multiplicative fragility arguments, unbounded-linear/resource-efficiency arguments, other bounded-view cases, etc.), so centrality is moderate rather than high. The critique has decent strength against that local argument: the paper\u2019s move from \u2018fraction of resources\u2019 to \u2018fraction of the disvalue bound\u2019 relies on tacit assumptions about (a) disvalue per unit resource, (b) how the bounded transform saturates for bads, and (c) what counts as \u201cbads\u201d produced by that resource share; changing these can substantially weaken the \u201ctiny bad ruins mostly-great\u201d conclusion. However, the critique somewhat overstates by implying the result largely disappears in \u201cmany plausible\u201d specifications; the paper\u2019s conclusion can be reinstated under reasonable symmetric/linear-in-bads per resource assumptions, and the argument was partly illustrative rather than fully derived. Most of what the critique says is true and relevant, and it is clearly presented with little fluff, focusing on a single issue.",
+  "title": "\"The paper relies on undefended scaling assumptions\""
+}

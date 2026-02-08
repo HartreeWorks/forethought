@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.4,
+  "correctness": 0.82,
+  "clarity": 0.9,
+  "dead_weight": 0.12,
+  "single_issue": 0.9,
+  "overall": 0.28,
+  "reasoning": "The critique targets the paper\u2019s move from meta-ethical/intertheoretic uncertainty to comparatively confident practical takeaways (e.g., that \u2018fair\u2019 comparisons make fussy/unbounded views loom larger). That is moderately central: it bears on how action-guiding and robust the headline \u2018no easy eutopia\u2019 conclusion is, but it doesn\u2019t directly undercut the paper\u2019s substantial object-level case that many plausible first-order moral views are fussy and that value can be fragile (those arguments could stand even if we suspend intertheoretic aggregation). Strength is moderate: it plausibly shows the paper\u2019s practical confidence should be more conditional and that alternative moral-uncertainty frameworks could reduce the dominance of fussy/unbounded theories, but it doesn\u2019t demonstrate that the paper\u2019s preferred approaches are wrong or that \u2018no easy eutopia\u2019 fails under most reasonable meta-ethical treatments. Correctness is high: it\u2019s true that intertheoretic comparison/normalization is contested and can flip recommendations, and that this weakens unconditional policy confidence; the critique slightly overstates by implying the headline claim is only meaningful if it survives meta-ethical variance (the claim can be presented as conditional, as the paper partly already does). The critique is clear, focused, and has little dead weight; multiple alternative frameworks are cited but all support the same single underlying objection.",
+  "title": "Moral uncertainty undermines the paper's practical confidence"
+}

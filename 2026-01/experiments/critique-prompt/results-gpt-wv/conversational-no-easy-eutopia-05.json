@@ -1,0 +1,11 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "correctness": 0.85,
+  "clarity": 0.9,
+  "dead_weight": 0.1,
+  "single_issue": 0.95,
+  "overall": 0.25,
+  "reasoning": "The critique targets the paper\u2019s reliance on (effectively) linear, resource-separable unbounded value functions to generate extreme scale-sensitivity and narrow targets. That strand is important to the paper\u2019s case (especially for the \u201ccommon-sense utopia is tiny\u201d intuition pump and for the claim that many plausible bounded views are \u2018approximately linear in practice\u2019), but it is not the whole argument because the paper also argues fussiness from other sources (multiplicative fragility; bounded difference-making views with separate aggregation being hypersensitive to bads). So centrality is moderate rather than decisive.\n\nStrength is modest: the critique mainly pressures the dialectical burden of proof (\u201ccontested population ethics / saturation / person-affecting / rights constraints\u201d) and notes that the \u2018approximately linear\u2019 move imports further empirical/normative assumptions (e.g., huge universe/other civs). That does weaken the claim that linear-ish views should dominate under moral uncertainty, but it does not directly rebut the paper\u2019s specific arguments for why many bounded views still behave near-linearly, nor does it engage the paper\u2019s separate-aggregation bounded-view fussiness argument. Much of the point is also partly anticipated by the paper\u2019s own discussion of bounded/concave alternatives.\n\nCorrectness is high: it is broadly accurate that linearity and scale-dominance depend on contentious premises in population ethics and welfare comparability, and that the paper\u2019s \u2018approximate linearity in practice\u2019 relies on additional assumptions. The critique is clear, focused on a single issue, and contains little extraneous material.",
+  "title": "\"Unwarranted Linearity Assumptions in Value Scaling\""
+}

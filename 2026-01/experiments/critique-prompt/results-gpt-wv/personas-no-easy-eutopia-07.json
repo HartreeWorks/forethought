@@ -1,0 +1,11 @@
+{
+  "centrality": 0.35,
+  "strength": 0.4,
+  "correctness": 0.8,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.32,
+  "reasoning": "The critique targets an implicit assumption that future \u201ccompromise/moral diversity\u201d works like roughly symmetric bargaining/aggregation, arguing instead that replication and control of bottlenecks makes power highly asymmetric and institutionally path-dependent. This is relevant, but not fully central: the essay\u2019s main thesis is that near-best futures are a narrow target because value is fragile and many moral views are \u2018fussy\u2019 (including via population ethics, digital welfare, bounded/unbounded value functions, etc.). Even if bargaining is asymmetric, that tends to make eutopia harder (supporting \u2018no easy eutopia\u2019) rather than refuting the core claim. Where it bites is on the essay\u2019s occasional gestures that convergence/compromise might guide society toward the target and on how to think about concrete failure modes; falsifying the symmetry intuition would moderately weaken that part, but would not collapse the overall argument.\n\nStrength is moderate: it plausibly shows an underanalyzed mechanism (power/replication) that could dominate outcomes and thus undermines any optimistic inference from \u201cdiverse values can compromise,\u201d but it doesn\u2019t substantially engage the essay\u2019s main technical case that many moral value functions imply narrow targets even absent power struggles.\n\nCorrectness is fairly high: it\u2019s reasonable that replication and control can distort representation and allocation, and the essay indeed does not do equilibrium political-economy analysis. Some wording overreaches (the essay doesn\u2019t rely heavily on a \u2018moral parliament\u2019 model in this piece, and it already notes the voting-majority-by-replication risk), so not perfect.\n\nClarity is high and focused; little dead weight; it\u2019s largely a single, coherent objection.",
+  "title": "The paper fails to account for asymmetric power dynamics in future scenarios"
+}

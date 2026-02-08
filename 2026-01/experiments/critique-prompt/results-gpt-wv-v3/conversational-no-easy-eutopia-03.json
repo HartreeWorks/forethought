@@ -1,0 +1,8 @@
+{
+  "centrality": 0.45,
+  "strength": 0.35,
+  "relevance": 0.7,
+  "overall": 0.3,
+  "reasoning": "The critique targets the paper\u2019s core comparative framing: defining \u201cmostly-great/eutopia\u201d as a fraction of a \u201cbest feasible future\u201d set by a 99.99th-percentile of a modelled distribution. If that benchmark is unstable or partly an artifact of how wide/\u2018weird\u2019 the outcome space is, then claims like \u201cmostly-great futures are rare by default\u201d become less diagnostic of steering difficulty and more sensitive to modelling choices\u2014so the attack has moderate centrality. However, the critique only establishes sensitivity/possible circularity, not that the paper\u2019s substantive fragility/fussiness arguments fail; many of those can be restated in more absolute or constraint-based terms (e.g., avoiding moral catastrophes, distributional/multiplicative failure modes) even if the percentile benchmark shifts. So it weakens the force and interpretability of the rarity claim but doesn\u2019t strongly refute it. It is nonetheless highly relevant to Forethought\u2019s agenda because it probes a live, decision-relevant methodological choice in the Better Futures framework (how to operationalise \u2018potential\u2019 and compare flourishing shortfalls), rather than disputing Tier-1 premises.",
+  "title": "\"The 'best feasible future' benchmark is epistemically unstable\""
+}

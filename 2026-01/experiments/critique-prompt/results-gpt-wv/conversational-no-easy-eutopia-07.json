@@ -1,0 +1,11 @@
+{
+  "centrality": 0.3,
+  "strength": 0.45,
+  "correctness": 0.8,
+  "clarity": 0.85,
+  "dead_weight": 0.1,
+  "single_issue": 0.9,
+  "overall": 0.25,
+  "reasoning": "The critique targets a specific supporting step in the paper\u2019s broader \u201cno easy eutopia / most plausible views are fussy\u201d case: the bounded, separately-aggregating-goods-and-bads argument that even extremely tiny proportions of bads can block \u2018mostly-great\u2019 status. That step matters, but it is only one branch among several (unbounded linear views, approximate linearity of many bounded views, multiplicative fragility examples, etc.), so centrality is moderate rather than high.\n\nSubstantively, the critique does put pressure on how the paper operationalizes the \u2018tiny fraction of bads\u2019 point: it highlights that mapping \u201cfraction of resources\u201d to \u201cfraction of maximum disvalue\u201d depends on particular scaling/aggregation assumptions, and that some plausible ethical modeling would track integrated suffering intensity/duration rather than physical extent, allowing \u2018quarantine/rapid correction\u2019 to prevent small bad regions from counting as massive bad totals. This weakens the rhetorical force and some generality of the 1-in-10^22 illustrative claim.\n\nHowever, it does not fully refute the underlying structural worry: on many separate-aggregation bounded views with large accessible scale, even small per-unit rates of bads can accumulate to large total bads, so some form of \u2018extreme sensitivity to bads at scale\u2019 can persist even if the specific resource-share-to-disvalue mapping is adjusted. The critique is mostly correct and clear, with little fluff, and it remains focused on essentially one issue.",
+  "title": "Aggregation and scaling assumptions drive the 'tiny bads dominate' claim"
+}
