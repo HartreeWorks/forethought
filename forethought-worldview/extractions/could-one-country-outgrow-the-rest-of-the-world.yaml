@@ -1,0 +1,88 @@
+paper:
+  slug: "could-one-country-outgrow-the-rest-of-the-world"
+  title: "Could one country outgrow the rest of the world?"
+
+premises_taken_as_given:
+  - claim: "AI will be transformative enough to potentially cause superexponential economic growth"
+    confidence: "strong"
+    evidence: "The paper builds its entire argument on the premise that AGI unlocks a labour-output feedback loop driving superexponential growth, citing multiple sources as establishing this but acknowledging most economists disagree."
+
+  - claim: "The concept of 'decisive strategic advantage' is a meaningful and important analytical category for thinking about AI futures"
+    confidence: "near-certain"
+    evidence: "Borrows Bostrom's framing without defending it and uses it as the motivating question for the entire analysis."
+
+  - claim: "Physical labour automation (robots, self-replicating capital) will eventually be feasible and is a key complement to cognitive automation"
+    confidence: "strong"
+    evidence: "Directly references Forethought's 'Industrial Explosion' paper and treats physical automation as a given input to the growth models, citing estimates of doubling times for physical capital."
+
+  - claim: "Cognitive labour can eventually double in quantity on timescales of weeks"
+    confidence: "strong"
+    evidence: "References own prior work on intelligence explosions and maximum speeds, treating extremely rapid AI capability scaling as the limiting case."
+
+  - claim: "The US (or US+allies) and China are the only plausible candidates for leading AI country"
+    confidence: "near-certain"
+    evidence: "The paper exclusively discusses US and China scenarios without considering any other country or bloc as a potential AI leader."
+
+  - claim: "AI-enabled coups are a real possibility worth analyzing"
+    confidence: "strong"
+    evidence: "References Forethought's coup paper as a natural scenario in which a country might coordinate to outgrow the world, treating it as an established possibility rather than arguing for it."
+
+distinctive_claims:
+  - claim: "A country could achieve decisive strategic advantage through economic outgrowth alone, without military aggression or norm-breaking"
+    centrality: "thesis"
+    key_argument: "Superexponential growth dynamics mean an initial GDP lead amplifies over time; a country with >50% GDP could outgrow the rest purely through economic mechanisms."
+
+  - claim: "Technological diffusion is the strongest objection to one country outgrowing the world, and blocking it would require a large, coordinated government effort"
+    centrality: "load-bearing"
+    key_argument: "Laggard countries can copy frontier technologies cheaply; competitive dynamics within the leading country drive diffusion; preventing it conflicts with liberal values and economic incentives."
+
+  - claim: "The >50% GDP threshold is the key condition for outgrowth under superexponential dynamics with trade"
+    centrality: "load-bearing"
+    key_argument: "Trade means the relevant unit is a trading bloc, not an individual country; a bloc with >50% can outgrow the remainder even accounting for trade gains."
+
+  - claim: "Grabbing space resources could convert a temporary technological/economic lead into a permanent one"
+    centrality: "load-bearing"
+    key_argument: "Less than one billionth of solar energy hits Earth; controlling solar system resources proportional to GDP share during a temporary lead locks in dominance permanently."
+
+  - claim: "The most likely path to one country outgrowing the world is a US+allies bloc extending export controls to outgrow authoritarian countries"
+    centrality: "supporting"
+    key_argument: "US+allies already have >50% GDP; extending existing AI chip export controls could sufficiently block tech diffusion to authoritarian rivals."
+
+  - claim: "A single company outgrowing the rest of the world is unlikely but surprisingly plausible"
+    centrality: "supporting"
+    key_argument: "A frontier AI company could monopolize cognitive labour, then rapidly build self-replicating physical capital before losing its edge, though this requires ~monthly doubling of physical capital stock."
+
+  - claim: "Post-AGI manufacturing will mostly occur outside the US even if the US leads on AI, because complementary physical inputs are globally distributed"
+    centrality: "supporting"
+    key_argument: "US cognitive labour is strongly complementary with globally distributed physical capital, human workers, and raw materials; competitive US AI companies will sell services abroad, distributing new physical technologies worldwide."
+
+positions_rejected:
+  - position: "Exponential (rather than superexponential) growth will continue after AGI"
+    why_rejected: "AGI enables investing output into creating more labour, unlocking a feedback loop that drives accelerating growth rates beyond constant exponential growth."
+
+  - position: "No country could ever reach >50% of world GDP"
+    why_rejected: "Historical precedent (Britain's share increased 8X during the industrial revolution) and AI advantages make this plausible for the US or China."
+
+  - position: "The dangerous precedent objection (that outgrowing sets up recursive splintering) is decisive"
+    why_rejected: "Countries can be united by ideology, governments can prevent internal splintering, groups can make credible commitments, and actors may accept the risk as with coups."
+
+  - position: "Military dominance is the only route to decisive strategic advantage"
+    why_rejected: "The paper's entire purpose is to explore economic outgrowth as an alternative, non-aggressive route to DSA."
+
+  - position: "Self-sufficiency concerns make decoupling prohibitively costly"
+    why_rejected: "Short-term costs of decoupling are temporary and small relative to the massive GDP growth rates expected under superexponential dynamics; gradual decoupling further mitigates costs."
+
+methodological_commitments:
+  - "Toy economic models with scalar output and hyperbolic growth equations, used to build intuition rather than as precise predictions"
+  - "Iterative objection-and-response structure: stating a simplified argument, then stress-testing it against increasingly realistic objections"
+  - "Scenario analysis and thought experiments rather than formal proofs or empirical studies"
+  - "Explicit separation of economic fundamentals from military/political considerations, analyzing one dimension at a time"
+  - "Reference class reasoning from historical episodes (British Industrial Revolution GDP share, 20th century catch-up growth)"
+  - "Back-of-envelope quantitative estimates (e.g. required doubling times for self-replicating capital) with linked spreadsheet models"
+  - "Speculative and tentative epistemic framing—explicitly flagging conclusions as lightly held"
+
+cross_references:
+  - "the-industrial-explosion"
+  - "ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power"
+  - "will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
+  - "three-types-of-intelligence-explosion"

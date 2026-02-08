@@ -1,0 +1,57 @@
+paper:
+  slug: "inference-scaling-log-x-chart"
+  title: "Inference Scaling & the Log-x Chart"
+
+premises_taken_as_given:
+  - claim: "AI will be transformative and frontier AI capability matters enormously for the future."
+    confidence: "near-certain"
+    evidence: "The paper devotes careful analysis to correctly interpreting AI progress charts, implying that accurately understanding the trajectory of AI capability is high-stakes."
+  - claim: "Compute costs and energy use are legitimate constraints that matter for evaluating AI progress, not just benchmark scores."
+    confidence: "near-certain"
+    evidence: "The paper repeatedly emphasises that cost-performance ratios, not raw performance, are the correct measure of progress."
+  - claim: "Epoch AI's estimates of algorithmic improvement rates (~3x/year) and compute cost reduction (~1.4x/year) are roughly reliable baselines for forecasting."
+    confidence: "strong"
+    evidence: "Uses these as primary inputs for the 5-year cost-reduction estimate, while noting 'substantial uncertainty.'"
+  - claim: "Accurate public understanding of AI progress rates matters and shapes important decisions."
+    confidence: "near-certain"
+    evidence: "The entire paper is motivated by correcting what Ord sees as widespread misreading of inference scaling results."
+
+distinctive_claims:
+  - claim: "Log-x charts systematically overstate how impressive inference scaling results are, and most observers are misreading them."
+    centrality: "thesis"
+    key_argument: "A logarithmic x-axis means compute costs rise exponentially for linear capability gains; the visual appearance of steady progress conceals exponentially increasing costs."
+  - claim: "o3's ARC-AGI results represent roughly where ~5 years of progress should take us at current cost levels, not what 3 months of progress has delivered."
+    centrality: "load-bearing"
+    key_argument: "o3-high uses ~1000x more compute than o1-low; at ~4x annual cost reduction, closing that gap takes ~5 years."
+  - claim: "The publicly available o3 vs o1 data is only weak evidence of genuine algorithmic progress because the data series don't overlap on the x-axis and o3 was fine-tuned on the benchmark."
+    centrality: "load-bearing"
+    key_argument: "Without overlapping compute budgets, like-for-like comparison is impossible; fine-tuning confounds the o1-to-o3 improvement signal."
+  - claim: "Exponential cost scaling is the characteristic signature of brute force, and it's unclear from public data how much better o1/o3 are than brute force (repeated sampling)."
+    centrality: "load-bearing"
+    key_argument: "The 'Large Language Monkeys' brute force results show similarly linear-looking progress on log-x charts in the 20%-80% regime."
+  - claim: "Genuine progress in inference scaling would manifest as higher slope or higher plateau on log-x charts, analogous to how alpha-beta pruning halved the exponent in game tree search."
+    centrality: "supporting"
+    key_argument: "Shifting a curve left by a constant factor on a log-x chart is modest; changing the slope or ceiling is what matters."
+  - claim: "Frontier labs should present inference scaling results alongside brute-force baselines and human performance curves with overlapping x-axis ranges; failure to do so may indicate they don't want informed readers to assess scaling quality."
+    centrality: "supporting"
+    key_argument: "Without these comparisons, charts can be misleading; the paper implies labs may be strategically withholding such context."
+
+positions_rejected:
+  - position: "o3 has essentially 'solved' ARC-AGI or reached human performance in a meaningful sense."
+    why_rejected: "The high score comes at ~$3,000 per task vs $3 for an untrained human; the cost gap of ~3 orders of magnitude means this isn't economically meaningful performance parity."
+  - position: "The jump from o1 (32%) to o3 (88%) on ARC-AGI represents 3 months of rapid capability progress."
+    why_rejected: "The comparison conflates higher compute budgets with algorithmic progress; adjusting for compute costs suggests ~5 years of progress was previewed, not 3 months."
+  - position: "Steady-looking lines on inference scaling charts indicate healthy, sustained progress."
+    why_rejected: "On a log-x chart, a linear trend means logarithmic returns (exponential costs for constant gains), which is characteristic of brute force and often considered intractable."
+  - position: "Inference scaling is clearly a superior paradigm to training scaling based on current public evidence."
+    why_rejected: "The paper argues the publicly available data is too limited and poorly controlled (no overlapping cost regimes, fine-tuning confounds) to support strong claims about inference scaling's quality."
+
+methodological_commitments:
+  - "Close reading and reinterpretation of published charts and data visualisations as a primary analytical method."
+  - "Quantitative back-of-envelope reasoning to convert between compute gaps and years of expected progress."
+  - "Comparison to brute-force baselines as a minimum bar for evaluating algorithmic sophistication."
+  - "Emphasis on like-for-like comparison (same x-axis range) as necessary for valid inference."
+  - "Use of historical trend extrapolation (Epoch AI data) with explicit uncertainty acknowledgment."
+  - "Analogies to classical computer science concepts (exponential costs as intractability, alpha-beta pruning) to frame what 'good' vs 'bad' scaling looks like."
+
+cross_references: []

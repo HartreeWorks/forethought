@@ -1,0 +1,94 @@
+paper:
+  slug: "space-debris-and-launch-denial"
+  title: "Space Debris and Launch Denial"
+
+premises_taken_as_given:
+  - claim: "A potential 'industrial explosion' (rapid acceleration of economic/technological activity) is a plausible near-term scenario that would dramatically increase space activity."
+    confidence: "strong"
+    evidence: "Repeatedly references 'the industrial explosion' as a Forethought concept, treating it as a serious planning scenario without arguing for its likelihood."
+
+  - claim: "Humanity's long-term potential depends significantly on accessing and settling outer space, making threats to Earth-departure capability existentially relevant."
+    confidence: "near-certain"
+    evidence: "The entire framing treats blocking access to outer space as a major concern for 'humanity's potential'; no argument is made for why space access matters—it's assumed."
+
+  - claim: "Lock-in of control over space resources by a single actor is a coherent and serious risk worth analysing."
+    confidence: "strong"
+    evidence: "Devotes substantial analysis to scenarios where a bad actor 'seizes' exclusive access to outer space, referencing Toby Ord's concept of 'totipotent' systems without defending the premise that such lock-in is possible."
+
+  - claim: "An intelligence explosion could lead to faster-than-anticipated increases in launch frequency and capability."
+    confidence: "strong"
+    evidence: "Final paragraph explicitly flags this as a scenario warranting further work, linking to another Forethought paper on preparing for the intelligence explosion."
+
+  - claim: "Arms control and verification regimes are important for global stability, and satellite-based remote sensing is a critical input to these."
+    confidence: "near-certain"
+    evidence: "Identifies loss of reconnaissance and verification satellites as perhaps the most important consequence of debris accumulation, treating this as obviously destabilising."
+
+  - claim: "Asymmetric growth between actors is a plausible pathway to global power concentration, independent of coercive strategies."
+    confidence: "strong"
+    evidence: "Concluding paragraph references the possibility that an actor could 'grow asymmetrically faster' than the rest of the world as an alternative pathway to space dominance, linking to a separate Forethought paper."
+
+distinctive_claims:
+  - claim: "Even fairly severe accidental Kessler syndrome would make transit through Earth orbit only negligibly more costly for launches beyond Earth, not practically impossible."
+    centrality: "thesis"
+    key_argument: "The brief transit time (~8 minutes) through LEO means exposure to debris is orders of magnitude lower than for resident satellites; worst-case estimates yield ~0.25 expected collisions per launch, implying ~28% cost increase rather than impossibility."
+
+  - claim: "Deliberate dispersal of optimally-sized fine debris (thousands to tens of thousands of tons) is the more serious threat to launch economics, but 'sealing the sky' is extremely difficult because shielding scales better than debris growth."
+    centrality: "thesis"
+    key_argument: "The number of launches needed to expect success grows exponentially with expected collisions, but shielding effectiveness grows linearly against that same parameter; Whipple shielding could plausibly reduce per-collision lethality by 100x or more."
+
+  - claim: "An actor could afford to launch enough debris to block conventional launches for under $1 billion before 2040, given current cost-decline trajectories."
+    centrality: "load-bearing"
+    key_argument: "Experience curves for SpaceX suggest ~23% annual cost decline; 6,000-60,000 tons of optimally-sized debris would suffice on worst-case assumptions; at projected prices this becomes surprisingly cheap."
+
+  - claim: "Launching debris from the Moon into LEO is much less feasible than it appears, primarily because aerobraking dispersed material (like sand) is impractical and the process takes months."
+    centrality: "load-bearing"
+    key_argument: "Moon-launched material enters highly eccentric orbits requiring many aerobraking passes over 3-6 months to circularise; sand grains would experience differential drag and mostly be lost; this gives ample time for countermeasures."
+
+  - claim: "The 'exclusive access' scenario—where an actor establishes an off-Earth presence and then blocks others from leaving Earth—is the most concerning motivation for deliberate debris dispersal, but faces severe practical obstacles."
+    centrality: "load-bearing"
+    key_argument: "Requires a 'totipotent' off-Earth presence first, which is technologically far-fetched in the near term; debris injection from Earth is easy to detect and sabotage; other actors could launch in the window before orbit is blocked."
+
+  - claim: "The most important consequence of space debris (accidental or deliberate) is not blocking launches beyond Earth but destroying satellite capabilities in LEO, especially those used for arms control verification and nuclear early warning."
+    centrality: "load-bearing"
+    key_argument: "Satellite destruction is orders of magnitude easier than blocking transit; loss of infrared missile detection and Earth observation could make first strikes more appealing, creating geopolitical instability."
+
+  - claim: "Detection, inspection, and political barriers are the primary realistic defences against deliberate debris dispersal, and these are relatively feasible because mass debris injection is hard to do quickly or covertly."
+    centrality: "supporting"
+    key_argument: "Unlike bioweapons, launching thousands of tons into orbit requires large-scale, visible infrastructure; payload inspections and monitoring agreements are practical to implement."
+
+  - claim: "Kessler syndrome is more likely than not within ~10 years of an industrial explosion, absent improved mitigations, but current orbit carrying capacities may be larger than naive models suggest."
+    centrality: "supporting"
+    key_argument: "Simple source-sink models with empirical parameters show blowup is sensitive to launch rates and decay rates; more detailed fragmentation models suggest higher carrying capacities than the one-bucket model implies."
+
+positions_rejected:
+  - position: "Accidental Kessler syndrome could make it practically impossible to leave Earth."
+    why_rejected: "Transit time through LEO is so brief (~500 seconds) that even worst-case post-Kessler debris densities yield manageable collision probabilities; the rocket-crossing-highway analogy illustrates the fundamental asymmetry."
+
+  - position: "Triggering Kessler cascades via ASAT weapons against existing satellites could block Earth departure."
+    why_rejected: "Such actions are constrained by the existing mass in orbit; the main damage is to satellites themselves, not to transit capability."
+
+  - position: "Deliberately blocking launches via orbital debris is more attractive than other means of causing diffuse global damage."
+    why_rejected: "Paper explicitly notes uncertainty about why this would be preferred over alternatives, suggesting it may not offer unique strategic leverage."
+
+  - position: "Launching debris from the Moon is a practical way to inject mass into LEO."
+    why_rejected: "Orbital mechanics require circularisation via aerobraking (impractical for dispersed material) or propulsive braking (bottlenecked by vehicle payload capacity, no better than Earth launch); the 3-6 month timeline enables countermeasures."
+
+  - position: "The economic cost of losing LEO satellite access would be catastrophic in itself."
+    why_rejected: "The private space industry is valued at ~$1tn, comparable to a single large company; the truly important losses are geopolitical (verification, early warning) rather than economic."
+
+  - position: "Debris-based launch denial is the most likely pathway to a single actor seizing control of space resources."
+    why_rejected: "Concluding section argues that asymmetric economic growth or decisive strategic advantage on Earth are alternative pathways that don't require blocking access, so mitigating debris alone is insufficient."
+
+methodological_commitments:
+  - "Fermi estimation and back-of-envelope physics modelling as a primary analytical tool, with explicit acknowledgment of large uncertainties."
+  - "Poisson process modelling of collision risk, treating debris as spatially homogeneous within shell volumes."
+  - "Validation of estimates through cross-checking independent methods (observed collision rates vs. direct spatial density estimates) and noting where they diverge."
+  - "Scenario analysis spanning best-case to worst-case, with explicit flagging of which assumptions are conservative/pessimistic."
+  - "Strategic reasoning about adversarial motivations and offence-defence balance, characteristic of security studies and longtermist threat modelling."
+  - "Explicit cost-curve extrapolation using experience curves and exponential trends to project future feasibility of threats."
+  - "Self-classification as a 'rough research note' shared for feedback, with lower confidence in methods and conclusions than typical Forethought output."
+
+cross_references:
+  - "the-industrial-explosion"
+  - "preparing-for-the-intelligence-explosion"
+  - "could-one-country-outgrow-the-rest-of-the-world"

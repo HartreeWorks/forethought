@@ -1,0 +1,56 @@
+paper:
+  slug: "better-futures"
+  title: "Better Futures"
+
+premises_taken_as_given:
+  - claim: "The long-run future matters enormously and actions today can affect its trajectory."
+    confidence: "near-certain"
+    evidence: "The entire series is premised on the question 'Suppose we want the future to go better. What should we do?' without arguing for why the long-run future matters."
+  - claim: "Avoiding human extinction is a valid and important goal."
+    confidence: "near-certain"
+    evidence: "Extinction risk reduction is treated as the established baseline approach ('One approach is to avoid near-term catastrophes, like human extinction'), not something requiring justification."
+  - claim: "AI will be transformative enough that near-term decisions around it shape the long-run future."
+    confidence: "strong"
+    evidence: "Implied by framing around 'plausible near-term events' with 'persistent and predictable path-dependent effects' and by Forethought's broader research focus."
+
+distinctive_claims:
+  - claim: "Improving the quality of futures where we survive ('flourishing') deserves comparable priority to reducing the probability of catastrophe ('surviving')."
+    centrality: "thesis"
+    key_argument: "The supplement introduces a model (EV ≈ S*F) and uses scale/neglectedness/tractability to argue flourishing is comparably important and underinvested relative to survival."
+  - claim: "Only a narrow range of futures qualify as 'mostly great'—even common-sense utopias miss almost all their potential value."
+    centrality: "load-bearing"
+    key_argument: "'No Easy Eutopia' argues that on most plausible moral views the target for a great future is narrow, so merely avoiding catastrophe or reaching a superficially pleasant future is insufficient."
+  - claim: "Society is unlikely to converge on near-best futures by default; trade and compromise help but are insufficient."
+    centrality: "load-bearing"
+    key_argument: "'Convergence and Compromise' argues against the view that moral progress or coordination mechanisms will naturally hone in on optimal futures."
+  - claim: "Near-term events will have persistent and predictable path-dependent effects on the long-run value of the future."
+    centrality: "load-bearing"
+    key_argument: "'Persistent Path-Dependence' argues against the 'wash-out' view that early actions lose influence over sufficiently long timescales, grounding the tractability of present action."
+  - claim: "There are concrete actions we can take now to improve the long-run quality of the future, not just reduce catastrophic risk."
+    centrality: "thesis"
+    key_argument: "'How to Make the Future Better' translates the preceding theoretical case into specific interventions."
+
+positions_rejected:
+  - position: "Existential risk reduction is the sole or overwhelmingly dominant priority for longtermists."
+    why_rejected: "The series explicitly frames itself as exploring a 'different, complementary approach,' arguing that improving future quality conditional on survival is comparably important and neglected."
+  - position: "Default futures (where we survive) will be close to optimal without deliberate effort to improve their quality."
+    why_rejected: "'No Easy Eutopia' argues the target is narrow and 'Convergence and Compromise' argues society won't naturally reach it."
+  - position: "The 'wash-out' thesis: early actions to shape future quality will lose their effects over long timescales."
+    why_rejected: "'Persistent Path-Dependence' argues that plausible near-term events create persistent, predictable path dependencies."
+  - position: "Common-sense or intuitive utopias capture most of the potential value of the future."
+    why_rejected: "Explicitly argued against in 'No Easy Eutopia'—such futures 'miss out on almost all their potential.'"
+
+methodological_commitments:
+  - "Expected value reasoning with an explicit decomposition (EV ≈ S*F) to compare survival-focused and flourishing-focused interventions."
+  - "Use of the scale, neglectedness, tractability (SNT) framework to evaluate cause areas."
+  - "Sequential structured argumentation: establishing a narrow target, showing default convergence fails, demonstrating path-dependence, then deriving practical implications."
+  - "Engagement with moral uncertainty across 'most plausible views' rather than committing to a single ethical framework."
+  - "Thought experiments and conceptual analysis (e.g., characterizing what makes a future 'great') rather than formal modelling or empirical case studies."
+
+cross_references:
+  - "introducing-better-futures"
+  - "no-easy-eutopia"
+  - "convergence-and-compromise"
+  - "persistent-path-dependence"
+  - "how-to-make-the-future-better"
+  - "supplement-the-basic-case-for-better-futures"

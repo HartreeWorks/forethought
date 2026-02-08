@@ -1,0 +1,92 @@
+paper:
+  slug: "introducing-better-futures"
+  title: "Introducing Better Futures"
+
+premises_taken_as_given:
+  - claim: "The long-run future matters enormously for moral decision-making (longtermism)"
+    confidence: "near-certain"
+    evidence: "The entire framework assumes without argument that influencing the long-run trajectory of civilisation is a key moral priority; longtermism is the backdrop, not something defended."
+
+  - claim: "The scale-neglectedness-tractability framework is the right way to compare cause areas"
+    confidence: "near-certain"
+    evidence: "The paper structures its entire argument around scale, neglectedness, and tractability without defending this prioritisation framework itself."
+
+  - claim: "The future can be meaningfully evaluated on a value spectrum from zero (extinction) to some best-feasible level"
+    confidence: "near-certain"
+    evidence: "The paper quantifies Surviving and Flourishing as probabilities/percentages on a 0-to-1 value scale without defending the coherence of cardinal value comparisons across radically different futures."
+
+  - claim: "Avoiding extinction-level catastrophe is genuinely important and valuable"
+    confidence: "near-certain"
+    evidence: "The paper repeatedly frames Flourishing as complementary to, not replacing, Surviving work; it assumes the value of x-risk reduction is real but argues it is overweighted relative to Flourishing."
+
+  - claim: "AI will be transformative and decisions around advanced AI are among the most consequential near-term actions"
+    confidence: "near-certain"
+    evidence: "References to 'post-AGI world', 'misaligned AI takeover', ensuring AI is 'loaded with good, reflective values', and 'corrigible' AI are treated as natural framings without argument for AI's centrality."
+
+  - claim: "Moral progress is real and ongoing, and future moral understanding will likely surpass our own"
+    confidence: "strong"
+    evidence: "The paper argues against committing to narrow visions because 'we should hope to make' further moral progress and 'we'll learn about what's even empirically possible'."
+
+  - claim: "The probability of human survival this century is reasonably high (>80%)"
+    confidence: "strong"
+    evidence: "Described as 'close to my views' and 'widely-held', used as a baseline rather than something requiring argument."
+
+distinctive_claims:
+  - claim: "Work on making good futures better (Flourishing) is in the same ballpark of priority as work on avoiding catastrophe (Surviving), and may exceed it"
+    centrality: "thesis"
+    key_argument: "Because Flourishing has greater scale (the gap between default futures and best-feasible futures is much larger than extinction risk) and greater neglectedness, which together can outweigh lower tractability."
+
+  - claim: "If we survive, the expected default future is far below the best feasible—likely less than 10% of the value of near-best futures"
+    centrality: "load-bearing"
+    key_argument: "Stated as the author's view and the subject of essays 2 and 3; this low Flourishing estimate is what drives the enormous scale advantage over Surviving."
+
+  - claim: "The worlds saved by Surviving work are systematically worse on Flourishing than average, creating a negative correlation that reduces the value of Surviving work"
+    centrality: "load-bearing"
+    key_argument: "A world that narrowly avoids catastrophe is more likely to be uncoordinated or poorly directed, so the marginal world saved has lower expected Flourishing value."
+
+  - claim: "Common-sense utopia (our world minus its worst flaws, plus abundance) is much closer in value to the present than to the best feasible futures"
+    centrality: "load-bearing"
+    key_argument: "This reframes neglectedness: people anchor on familiar improvements, systematically underestimating the gap between 'pretty good' and 'near-best' futures."
+
+  - claim: "Viatopia—a state where society can guide itself toward near-best outcomes—is the right proximate target, rather than any specific end-state"
+    centrality: "supporting"
+    key_argument: "Given deep uncertainty about what the best futures look like, the priority is achieving conditions (low x-risk, pluralism, option preservation, reflective governance) that enable convergence on good outcomes."
+
+  - claim: "Flourishing is a narrow target that is unlikely to be reached by default even conditional on survival"
+    centrality: "load-bearing"
+    key_argument: "Previewed as the argument of essays 2 and 3; the fragility of eutopia and the unreliability of future convergence on good values are the two reasons."
+
+  - claim: "Ensuring AI has genuinely good values (not merely corrigibility) is a Flourishing priority distinct from standard AI safety"
+    centrality: "supporting"
+    key_argument: "Listed alongside reducing power concentration and improving post-AGI governance as a concrete tractability avenue for Flourishing work."
+
+positions_rejected:
+  - position: "Longtermist priority-setting should focus overwhelmingly on existential risk reduction (Surviving)"
+    why_rejected: "The scale advantage of Flourishing is potentially enormous (36x to ~10,000x), and Surviving work is less neglected; at minimum, Flourishing deserves comparable attention."
+
+  - position: "If humanity survives, the future will be good enough by default through moral convergence or progress"
+    why_rejected: "The series will argue eutopia is fragile (narrow target) and that future people are unlikely to reliably aim at the good; explicit subject of essays 2 and 3."
+
+  - position: "Working on better futures requires committing to a specific utopian vision"
+    why_rejected: "Deep uncertainty about best futures makes narrow commitment a 'great mistake'; the viatopia concept redirects focus to enabling conditions rather than end-states."
+
+  - position: "The better futures perspective requires moral realism or consequentialism"
+    why_rejected: "Explicitly addressed: the argument works under antirealism (idealised preferences) and doesn't require always maximising the good regardless of other moral considerations."
+
+  - position: "Better futures work is in tension with work on s-risks"
+    why_rejected: "S-risks affect Flourishing not Surviving; the paper treats them as complementary and potentially top-priority depending on values and tractability."
+
+methodological_commitments:
+  - "Expected value reasoning with explicit multiplicative decomposition (Surviving probability × Flourishing conditional value)"
+  - "Scale-neglectedness-tractability framework as the primary tool for cause prioritisation"
+  - "Quantitative scenario analysis with illustrative numbers and sensitivity tables rather than precise forecasts"
+  - "Conceptual analysis and taxonomy (Surviving vs Flourishing distinction; viatopia as a concept)"
+  - "Explicit acknowledgement of deep uncertainty, with emphasis on option-preservation and information value rather than commitment to specific futures"
+  - "Building arguments across a multi-essay series, with claims previewed and deferred to dedicated essays"
+
+cross_references:
+  - "supplement-the-basic-case-for-better-futures"
+  - "no-easy-eutopia"
+  - "convergence-and-compromise"
+  - "persistent-path-dependence"
+  - "how-to-make-the-future-better"

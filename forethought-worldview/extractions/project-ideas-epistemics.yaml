@@ -1,0 +1,99 @@
+paper:
+  slug: "project-ideas-epistemics"
+  title: "Project ideas: Epistemics"
+
+premises_taken_as_given:
+  - claim: "AI capabilities will continue improving substantially, likely reaching transformative levels within roughly 10 years"
+    confidence: "near-certain"
+    evidence: "The entire paper is structured around 'if AI capabilities keep improving' and the series framing notes projects are 'especially valuable if transformative AI is coming in the next 10 years or so'—this is treated as the planning scenario, not argued for."
+
+  - claim: "AI misalignment poses a serious existential risk, primarily through humans making mistakes rather than through malicious intent"
+    confidence: "near-certain"
+    evidence: "States 'most x-risk from misaligned AI comes from future people making a mistake, underestimating risks that turned out to be real' without defending this framing—it is used as motivation for epistemic improvement."
+
+  - claim: "AI alignment is a solvable but not-yet-solved problem that is being worked on separately"
+    confidence: "near-certain"
+    evidence: "The entire series is framed as 'other than by working on alignment,' treating alignment as a distinct and separately addressed concern."
+
+  - claim: "There will be a critical transition period ('takeoff' / 'singularity') where decisions are especially consequential"
+    confidence: "strong"
+    evidence: "References 'during takeoff' and 'as the world accelerates' as planning frames, and discusses the timing question of whether AI advisory capability arrives before or after AI causes corresponding problems."
+
+  - claim: "Humanity's long-run trajectory can be permanently affected by decisions made during the AI transition period"
+    confidence: "strong"
+    evidence: "The paper's urgency argument depends heavily on lock-in dynamics and path dependencies, which are presented as motivating assumptions rather than novel claims requiring defense."
+
+  - claim: "Expected value reasoning and cause prioritization frameworks (importance, tractability, neglectedness) are the right way to evaluate projects"
+    confidence: "near-certain"
+    evidence: "References ITN analysis ('how ITN are these issues') and structures the entire paper around differential impact of interventions."
+
+  - claim: "AI could achieve superhuman persuasion capabilities"
+    confidence: "strong"
+    evidence: "Presented as a likely consequence of continued capability improvement, noting AI's potential for vastly more conversational experience than any human, without extensive argument."
+
+distinctive_claims:
+  - claim: "The epistemic landscape is a critical and neglected domain for AI safety intervention, distinct from alignment work"
+    centrality: "thesis"
+    key_argument: "Good epistemics during the AI transition are necessary both for making good near-term decisions (including about alignment risk) and for avoiding permanent epistemic deterioration; this is not addressed by alignment work alone."
+
+  - claim: "There is a 'veil of ignorance' window right now—before AI's conclusions on controversial topics are known—during which it's uniquely possible to build consensus on trusting AI-based epistemic methods"
+    centrality: "load-bearing"
+    key_argument: "Once AI's positions on controversial questions become known, people will be motivated to reject methods that disagree with their priors; establishing trust beforehand locks in better epistemic norms."
+
+  - claim: "Capability elicitation is importantly distinct from capability improvement, and the former is much safer to accelerate"
+    centrality: "load-bearing"
+    key_argument: "AI takeover risk comes primarily from latent capabilities (which a misaligned model could exploit), so improving elicitation helps humans without proportionally increasing risk—it improves monitoring, supervision, and access to advice."
+
+  - claim: "Differential technology development—specifically accelerating AI's ability to answer important questions relative to other capability gains—is a high-leverage intervention"
+    centrality: "load-bearing"
+    key_argument: "If AI advisory capability arrives before the capabilities that create corresponding problems, humanity has a better chance of navigating the transition well."
+
+  - claim: "AI personal assistants filtering information could lead to voluntary or socially coerced epistemic lock-in of poorly considered views"
+    centrality: "supporting"
+    key_argument: "People or communities may use AI assistants to permanently prevent exposure to views they currently reject, creating irreversible epistemic harm even without malicious intent."
+
+  - claim: "If epistemic quality degrades sufficiently, the process may not be self-correcting—people may lack the judgment to recognize and adopt better epistemic tools"
+    centrality: "load-bearing"
+    key_argument: "This non-self-correcting dynamic is what makes path dependencies in epistemics particularly dangerous and what justifies urgency."
+
+  - claim: "A GiveWell-style organization using frontier AI for rigorous analysis of important topics could become a trusted epistemic institution with outsized influence"
+    centrality: "supporting"
+    key_argument: "Transparent methodology plus AI-augmented research capacity could extend the GiveWell model to a much broader set of topics, and early entry builds reputation that provides semi-permanent advantage."
+
+  - claim: "A non-partisan government AI advisory agency (analogous to the CBO) could reduce both partisanship and corporate dependence in government AI use"
+    centrality: "supporting"
+    key_argument: "The CBO precedent shows non-partisan information agencies can work; establishing one before AI conclusions are known capitalizes on the veil of ignorance."
+
+  - claim: "Reduced selection pressure for good human epistemic practices is a genuine risk if AI handles all decision-making"
+    centrality: "supporting"
+    key_argument: "Historically, acquiring influence required somewhat accurate beliefs; if AI handles decisions, this selection pressure disappears, potentially causing epistemic deterioration without immediate cost."
+
+positions_rejected:
+  - position: "We should defer important questions to future AI rather than working on epistemics now"
+    why_rejected: "It's unclear whether AI advisory capability will arrive before AI capabilities that cause the corresponding problems; path dependencies and lock-in risks mean delay could be permanently costly."
+
+  - position: "Improving AI's latent capabilities is the primary way to get better epistemic assistance"
+    why_rejected: "The paper explicitly prefers elicitation over capability improvement because latent capability increases raise takeover risk, while elicitation improvements are largely beneficial (better monitoring, supervision, and advice)."
+
+  - position: "People will naturally develop appropriate trust in AI systems as they improve"
+    why_rejected: "The paper argues trust requires deliberate institutional design—transparent training, auditing, track records—and that people's trust calibration is likely to be poor by default, potentially too high or too low."
+
+  - position: "Epistemic problems from AI are primarily about misinformation/deepfakes in the traditional sense"
+    why_rejected: "The paper focuses on subtler mechanisms: superhuman real-time persuasion, voluntary epistemic lock-in via personal assistants, and degradation of selection pressures for good epistemic practices—not primarily fake content."
+
+  - position: "AI alignment alone is sufficient to ensure good outcomes from transformative AI"
+    why_rejected: "The entire series is premised on the claim that 'most of the projects would be valuable even if we were guaranteed to get aligned AI'—the epistemic landscape, governance, and digital minds questions remain critical regardless."
+
+methodological_commitments:
+  - "Project-oriented cause prioritization: structuring research around concrete, actionable interventions evaluated for differential impact during a critical transition period."
+  - "Differential technology development as a strategic framework: accelerating beneficial capabilities (especially elicitation) relative to dangerous ones."
+  - "Empirical validation emphasis: repeatedly stresses testing epistemic methods against held-out ground truth, running experiments, and measuring whether interventions actually improve belief accuracy."
+  - "Historical analogy for institutional design: draws on GiveWell, CBO, and Constitutional AI as precedents for proposed institutions and methods."
+  - "Veil-of-ignorance reasoning as a strategic tool: exploiting the current period of uncertainty about AI conclusions to build consensus on epistemic methods."
+  - "Sandwiching/scalable oversight methodology: endorses testing AI epistemic assistance on problems where ground truth is known, then transferring validated methods to domains without ground truth."
+  - "Survey and interview methodology for understanding trust formation: proposes presenting hypothetical scenarios to diverse stakeholders to understand what would shift their trust in AI systems."
+
+cross_references:
+  - "project-ideas-governance-during-explosive-technological-growth"
+  - "project-ideas-sentience-and-rights-of-digital-minds"
+  - "project-ideas-for-making-transformative-ai-go-well-other-than-by-working-on-alignment"

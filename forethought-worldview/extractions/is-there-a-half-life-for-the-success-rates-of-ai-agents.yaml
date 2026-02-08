@@ -1,0 +1,61 @@
+paper:
+  slug: "half-life-ai-agents"
+  title: "Is There a Half-Life for the Success Rates of AI Agents?"
+
+premises_taken_as_given:
+  - claim: "METR's empirical finding of an exponential trend in achievable task duration (doubling every ~7 months) is a real and meaningful signal worth building theory on."
+    confidence: "strong"
+    evidence: "The paper takes METR's data as its starting point and builds an entire theoretical model on it, while noting caveats about generalisability."
+  - claim: "AI capabilities are improving rapidly and measuring this improvement rigorously matters for forecasting."
+    confidence: "near-certain"
+    evidence: "The paper treats the need for good capability measurement as obvious and praises METR's time-horizon approach as addressing a real gap in AI forecasting."
+  - claim: "Task duration as measured by human completion time is a meaningful common currency for comparing AI performance across different task types."
+    confidence: "strong"
+    evidence: "The paper adopts METR's human-time metric without fundamentally questioning it, though it notes known limitations (e.g. tasks where AI-human time ratios diverge wildly)."
+  - claim: "Understanding the scaling behaviour of AI agent reliability is decision-relevant, particularly for predicting when agents can do useful real-world work."
+    confidence: "near-certain"
+    evidence: "The paper emphasises the gap between 50% and 99%+ reliability as practically important without arguing why reliability matters."
+
+distinctive_claims:
+  - claim: "AI agent performance decline with task length is well-explained by a constant hazard rate model (exponential decay), implying each agent can be characterised by a half-life."
+    centrality: "thesis"
+    key_argument: "An exponential survival curve fits METR's data roughly as well as the log-logistic distribution they used, with fewer parameters and stronger theoretical priors; the 80%/50% time-horizon ratio (~0.25 observed vs ~0.32 predicted) is consistent within noise."
+  - claim: "The constant hazard rate model implies that tasks are effectively composed of many sequential subtasks where failing any one fails the whole task, and current agents are poor at recovering from earlier mistakes."
+    centrality: "load-bearing"
+    key_argument: "A constant hazard rate arises naturally when success requires passing through a series of independent failure points proportional to task duration; this is the mechanistic interpretation that gives the model explanatory (not just descriptive) power."
+  - claim: "Very high reliability (99%, 99.9%) on tasks of a given length lags far behind 50% reliability — approximately 4 and 6 years respectively at current improvement rates."
+    centrality: "load-bearing"
+    key_argument: "Direct mathematical consequence of the exponential model combined with the 7-month doubling time; each additional 'nine' of reliability requires ~2 more years."
+  - claim: "Human performance may decay more slowly than exponential with task length, suggesting a qualitatively different scaling behaviour from current AI agents."
+    centrality: "supporting"
+    key_argument: "METR's human survival curve shows thicker tails than exponential decay would predict, possibly indicating humans are better at correcting earlier mistakes, though aggregation effects could also explain this."
+  - claim: "The exponential model is preferable to the log-logistic used by METR on parsimony grounds — one free parameter vs two, and exponential decay is the simplest possible survival curve."
+    centrality: "load-bearing"
+    key_argument: "Explicit appeal to the exponential being 'substantially more likely a priori' and the log-logistic being more complex than it appears (only looking logistic on a log scale)."
+  - claim: "The constant hazard rate model works as a theoretical baseline even if not exactly right — deviations from it are informative about what agents are doing wrong or right."
+    centrality: "supporting"
+    key_argument: "Framed as a null model: all alternatives imply systematic change in hazard rate over time, which the data doesn't clearly warrant."
+  - claim: "The fact that 50% and 80% time-horizons have the same doubling time implies that improvements are reducing the hazard rate uniformly across all times, regardless of whether the hazard rate is constant."
+    centrality: "supporting"
+    key_argument: "Mathematical argument that uniform scaling of time horizons is equivalent to uniform scaling of the hazard rate function."
+
+positions_rejected:
+  - position: "The log-logistic distribution is the best model for AI agent success rate decay."
+    why_rejected: "The exponential fits roughly as well with fewer parameters and stronger theoretical motivation; the log-logistic's apparent naturalness is an artefact of plotting on a log scale."
+  - position: "50% success rate time-horizons are sufficient for understanding practical AI capability."
+    why_rejected: "Real-world usefulness often requires much higher reliability (99%+), and the model reveals enormous gaps between 50% and high-reliability time-horizons."
+  - position: "If an agent can do an 8-hour task, it can straightforwardly do a 16-hour task by doing two 8-hour tasks."
+    why_rejected: "The constant hazard rate model shows success probability compounds multiplicatively — 50% on one 8-hour task means only 25% on two consecutive ones."
+  - position: "METR's time-horizon results straightforwardly generalise to all AI tasks."
+    why_rejected: "Explicitly flagged as unknown; the paper notes tasks where human-time is a poor predictor of AI difficulty (spatial reasoning, rote maths) and METR's own caveats about their task suite."
+
+methodological_commitments:
+  - "Applying parsimonious mathematical modelling (survival analysis, exponential decay) to empirical AI benchmark data."
+  - "Strong preference for simpler models with fewer free parameters over better-fitting but more complex alternatives (Occam's razor / prior probability reasoning)."
+  - "Seeking mechanistic explanations behind empirical regularities rather than treating them as mere curve-fitting."
+  - "Using formal mathematical relationships to derive quantitative predictions and rules of thumb from a simple model."
+  - "Treating an empirical regularity as suggestive rather than confirmed, with explicit calls for formal statistical comparison and further empirical work."
+  - "Drawing on analogies from physics (radioactive decay, half-life) to frame and communicate AI capability dynamics."
+
+cross_references:
+  - "the-lindy-effect"

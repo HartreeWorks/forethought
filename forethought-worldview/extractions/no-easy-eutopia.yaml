@@ -1,0 +1,107 @@
+paper:
+  slug: "no-easy-eutopia"
+  title: "No Easy Eutopia"
+
+premises_taken_as_given:
+  - claim: "AI will be transformative and could drive explosive industrial expansion, including extrasolar settlement within years or decades."
+    confidence: "near-certain"
+    evidence: "Mentioned matter-of-factly as context for space governance and resource allocation discussions, without argument."
+
+  - claim: "The long-run future could contain astronomically more value than the present, making its quality a central moral concern."
+    confidence: "near-certain"
+    evidence: "The entire framing presupposes that the difference between eutopia and extinction is the key moral variable; inherited from the series introduction."
+
+  - claim: "Humanity is closer to the ceiling on Surviving (avoiding extinction) than on Flourishing (quality of surviving futures)."
+    confidence: "strong"
+    evidence: "Stated as the 'basic argument for the better futures perspective' from the series introduction, treated as the motivating premise for the whole essay."
+
+  - claim: "Von Neumann-Morgenstern expected utility theory is an appropriate formal framework for representing the betterness of prospects across moral views."
+    confidence: "strong"
+    evidence: "Adopted as the formal backbone of Section 3 without defending it against alternatives; incompleteness and other violations are acknowledged but set aside."
+
+  - claim: "Moral views that satisfy VNM axioms are not restricted to consequentialism; non-consequentialist views can also be represented this way."
+    confidence: "strong"
+    evidence: "Explicitly stated to broaden the scope of the analysis beyond consequentialism."
+
+  - claim: "Widespread settlement of star systems outside our solar system is feasible and likely given survival."
+    confidence: "strong"
+    evidence: "Cited Armstrong and Sandberg (2013) and treated as a background fact for analyzing resource allocation."
+
+  - claim: "The distribution of value-per-unit-resource across possible uses is fat-tailed."
+    confidence: "strong"
+    evidence: "Argued for with analogies to wealth, city size, citations, and global health cost-effectiveness, plus theoretical references, but treated as a robust working assumption rather than a novel thesis."
+
+  - claim: "We currently live in the midst of a moral catastrophe, and this is true from many different moral perspectives."
+    confidence: "strong"
+    evidence: "Presented with a table spanning religious, conservative, cosmopolitan, environmentalist, communist, and animal welfare views; the universality of perceived moral catastrophe is used as evidence that moral flaws are easy to accidentally sustain."
+
+distinctive_claims:
+  - claim: "Eutopia (a near-best feasible future) is NOT a big target: most achievable futures, even those featuring material abundance and widespread satisfaction, fall far short of the best feasible future."
+    centrality: "thesis"
+    key_argument: "Single moral errors can erase most value; the value of the future is well-modeled as a product of many independent factors, so doing poorly on any one is sufficient to lose most value."
+
+  - claim: "Most plausible moral views are 'fussy' rather than 'easygoing' about what it takes to reach a mostly-great future."
+    centrality: "thesis"
+    key_argument: "Systematic analysis across unbounded linear, bounded-total, bounded-difference-making (separate and joint aggregation) views shows that only a narrow and problematic slice of views (jointly-aggregating, difference-making, bounded) are easygoing."
+
+  - claim: "The value of the future is well-modeled as multiplicative across relatively independent factors, such that the distribution of future value is highly right-skewed."
+    centrality: "load-bearing"
+    key_argument: "Toy model with N uniform factors shows that as dimensions increase, expected value shrinks exponentially while the average factor stays at 0.5; analogized to wealth distributions and individual wellbeing."
+
+  - claim: "A future in which everyone alive is happy, free, and gets what they self-interestedly want can still fall dramatically short of a mostly-great future."
+    centrality: "load-bearing"
+    key_argument: "Issues like population ethics, treatment of digital beings, theory of wellbeing, space resource allocation, and scale-insensitivity can each independently destroy most value without making anyone in that future discontented."
+
+  - claim: "The psychological analogy to the hedonic treadmill explains why eutopia seems more achievable than it is: we underestimate the distance because 'just-about-attainable' goods loom large."
+    centrality: "supporting"
+    key_argument: "If we acclimatized to any nearly-attainable future, we would reset expectations and recognize vast remaining room for improvement, suggesting our current intuitions systematically underestimate the difficulty."
+
+  - claim: "Bounded difference-making views that jointly aggregate goods and bads are the only plausible easygoing views, but they suffer from serious problems including violating stochastic dominance and a 'scale-tipping' dynamic, and may be pro-extinction."
+    centrality: "load-bearing"
+    key_argument: "Joint aggregation means a tiny shift in the goods-bads balance can flip value from worse-than-extinction to eutopian, which is counterintuitive; and if value has no lower bound, small chances of very bad futures outweigh large chances of near-best futures."
+
+  - claim: "Separately-aggregating bounded views become obsessively fussy about eliminating bads: even one part in 10^22 of resources used for bads prevents a mostly-great future."
+    centrality: "load-bearing"
+    key_argument: "If common-sense utopia is 50% of the way to the upper bound on goods, then a star-system's worth of bads in a universe-spanning civilization is also 50% of the way to the upper bound on bads, making the net value sub-mostly-great."
+
+  - claim: "Under moral uncertainty, the fairest intertheoretic comparison methods tend to give unbounded views more say, making the aggregate assessment itself fussy."
+    centrality: "supporting"
+    key_argument: "Variance normalization and pairwise comparison approaches both assign higher stakes to unbounded views, which are themselves fussy; so moral uncertainty doesn't wash out fussiness."
+
+  - claim: "The list of potential future moral catastrophes is likely very far from exhaustive, and the most important risks may stem from issues not yet recognized."
+    centrality: "supporting"
+    key_argument: "Concepts like acausal trade are esoteric and recent; by induction, future moral considerations may be stranger still."
+
+positions_rejected:
+  - position: "Easy eutopia: a wide range of futures are close in value to the best feasible future, so eutopia is a big target."
+    why_rejected: "The paper's central argument; rejected because most plausible moral views are fussy, single flaws can erase most value, and the multiplicative model shows that mostly-great futures are rare even among futures scoring well on average."
+
+  - position: "Easygoing liberalism: material abundance plus individual freedom is basically sufficient for a mostly-great future."
+    why_rejected: "Even common-sense utopia can feature moral catastrophes invisible to its inhabitants (wrong population ethics, mistreatment of digital beings, wrong theory of wellbeing, wrong resource allocation, insufficient scale)."
+
+  - position: "Moral progress is automatically achieved through material and technological progress."
+    why_rejected: "Many moral views (conservative, religious, suffering-focused, etc.) see technological progress as potentially making things worse; and even liberal views can't guarantee the right answers on population ethics, digital welfare, etc."
+
+  - position: "Superlinear value functions are plausible."
+    why_rejected: "Dismissed as 'ultra-fanatical' — willing to exchange high extinction risk for slightly faster space settlement — and strictly fussier than linear views."
+
+  - position: "Bounded views that evaluate the entire universe are meaningfully different from linear views in practice."
+    why_rejected: "Because the universe is likely vastly larger than the affectable portion, humanity's difference is tiny, and concave functions are approximately linear over small intervals."
+
+  - position: "Lower bounds on value are plausible for either separately or jointly aggregating views."
+    why_rejected: "Separately-aggregating views with lower bounds could recommend adding vast bads to get small goods; jointly-aggregating views with lower bounds could recommend fanatical gambles. Both are implausible."
+
+methodological_commitments:
+  - "Systematic taxonomy of moral views organized by formal properties (bounded/unbounded, linear/sublinear/superlinear, separate/joint aggregation) to draw general conclusions rather than arguing from a single ethical framework."
+  - "Expected utility theory (VNM axioms) as the representation framework for moral betterness orderings."
+  - "Quantitative toy models (e.g. value as product of N uniform factors) to build intuitions about structural features of value distributions."
+  - "Argument by cases across diverse moral traditions (religious, conservative, cosmopolitan, environmentalist, etc.) to establish robustness of conclusions."
+  - "Explicit treatment of moral uncertainty and intertheoretic value comparisons, including analysis of different normalization methods (range, variance, pairwise)."
+  - "Thought experiments involving concrete future scenarios (common-sense utopia, happiness machines, digital beings) to test intuitions against formal results."
+  - "Appeal to empirical analogies (fat-tailed distributions in wealth, health interventions, subjective experience) to ground claims about the structure of value."
+
+cross_references:
+  - "introducing-better-futures"
+  - "convergence-and-compromise"
+  - "how-to-make-the-future-better"
+  - "agi-and-lock-in"

@@ -1,0 +1,99 @@
+paper:
+  slug: "beyond-existential-risk"
+  title: "Beyond Existential Risk"
+
+premises_taken_as_given:
+  - claim: "Strong longtermism is correct—the most important feature of the most important decisions today is how they impact the long-term future."
+    confidence: "near-certain"
+    evidence: "The paper builds entirely on this premise without arguing for it, citing Greaves and MacAskill (2019) as the source and noting that a wide variety of moral views entail it."
+
+  - claim: "The accessible universe contains vast resources (~10^22 star systems) that could in principle be used to create extraordinary value."
+    confidence: "near-certain"
+    evidence: "Cited as background fact (Ord 2021) and used without argument in multiple sections to calibrate the scale of what's at stake."
+
+  - claim: "Existential risk reduction is genuinely important and valuable."
+    confidence: "near-certain"
+    evidence: "Repeatedly affirmed ('We do not deny that existential risk reduction is important') — the paper's thesis is that it is insufficient, not unimportant."
+
+  - claim: "AGI development is plausibly imminent and will be among the most consequential events in human history."
+    confidence: "strong"
+    evidence: "AGI is treated as the central mechanism for lock-in throughout sections 2 and 7, with no argument that AGI will actually be developed—only that if it is, it enables lock-in."
+
+  - claim: "Temporally impartial altruism (giving no intrinsic discount to future welfare) is the appropriate moral orientation for evaluating these questions."
+    confidence: "near-certain"
+    evidence: "The entire framing addresses 'temporally impartial altruists' without defending temporal impartiality itself."
+
+  - claim: "Expected value reasoning is the appropriate decision framework for choices affecting the long-term future."
+    confidence: "strong"
+    evidence: "The paper's formal decomposition of overall impact into existential and trajectory impact is built on expected value calculations, and alternatives (e.g., maximin) are not considered."
+
+distinctive_claims:
+  - claim: "Maxipok (maximizing probability of avoiding existential catastrophe as the sole priority) is wrong even for strong longtermists, because trajectory changes can rival existential risk reduction in expected value."
+    centrality: "thesis"
+    key_argument: "Formally decomposing expected value into existential impact and trajectory impact, showing that trajectory impact can be large when Dichotomy fails."
+
+  - claim: "Dichotomy—the view that likely futures cluster sharply into near-zero or near-maximal value—is the key hidden premise behind Maxipok, and it is false."
+    centrality: "thesis"
+    key_argument: "Three candidate justifications (convergence, bounded value, extremity of the best) are examined and found individually inadequate, and two general arguments (division of resources, moral uncertainty) further undermine it."
+
+  - claim: "Resources in the future will likely be divided among groups with different values, creating a continuous spectrum of future value rather than a binary outcome."
+    centrality: "load-bearing"
+    key_argument: "Even if EOTB or convergence holds within a single group, inter-group resource division means the fraction of cosmos used well varies continuously, undermining Dichotomy."
+
+  - claim: "Moral and empirical uncertainty makes the expected distribution of future value non-dichotomous, even if some individual hypotheses predict dichotomy."
+    centrality: "load-bearing"
+    key_argument: "Averaging over multiple possible distributions (some dichotomous, some not) produces a non-dichotomous expected distribution."
+
+  - claim: "Lock-in of values, institutions, and power distributions may occur this century—at least as likely as extinction—creating persistent path-dependence on astronomical timescales."
+    centrality: "load-bearing"
+    key_argument: "AGI-enforced institutions can self-perpetuate indefinitely via digital copying and verification; defense-dominant star systems lock in initial resource allocations permanently."
+
+  - claim: "Bounded axiologies face a dilemma: if value is bounded above but not below, expected value of human survival may be negative, potentially recommending promoting extinction—contrary to Maxipok."
+    centrality: "supporting"
+    key_argument: "With 10^22 star systems, the gap between 0 and worst-possible is vastly larger than between 0 and the upper bound, so even tiny probability of infernotopia dominates."
+
+  - claim: "Temporally impartial altruists should prioritize 'grand challenges'—events whose surrounding decisions alter expected value of Earth-originating life by at least 0.1%—rather than focusing solely on existential risk."
+    centrality: "thesis"
+    key_argument: "This broadened category captures trajectory-shaping events (digital rights, space governance, AGI institutions) that Maxipok would miss or deprioritize."
+
+  - claim: "Persistence skepticism, if true, would justify Max-PS (maximize probability of survival) rather than Maxipok, since extinction is only a subset of existential catastrophes."
+    centrality: "supporting"
+    key_argument: "AI takeover that ends humanity but preserves human-originating civilization would not be addressed by Max-PS, showing the distinction matters in practice."
+
+  - claim: "The quasilinear utility argument for convergence fails because people may have approximately linear self-interested preferences (e.g., longevity, status competition) or linear ideological preferences that are not oriented toward the objectively good."
+    centrality: "supporting"
+    key_argument: "Even with diminishing returns to self-interest, the 'moral' preferences that dominate at high wealth levels may be incorrect or ideological."
+
+positions_rejected:
+  - position: "Maxipok: existential risk reduction should be the sole priority for temporally impartial altruists."
+    why_rejected: "Relies on Dichotomy, which fails due to resource division, moral uncertainty, and the inadequacy of convergence/bounded value/EOTB arguments."
+
+  - position: "Dichotomy: likely futures are sharply bimodal between near-zero and near-maximal value."
+    why_rejected: "Each of three justifications (convergence, bounded value, extremity of the best) is found inadequate; two general arguments (resource division, uncertainty) further undermine it."
+
+  - position: "Wide basin of attraction: any sufficiently-good civilization will inevitably converge to near-optimal outcomes."
+    why_rejected: "Future actors (including possible immortal dictators) may know what is good but not care, or deliberately avoid learning; evolutionary forces are unlikely to be so strong as to guarantee single-attractor convergence."
+
+  - position: "Bounded axiology as a route to Dichotomy."
+    why_rejected: "Bounded above but not below leads to potentially negative expected value of survival; bounded axiologies violate separability and approximate linear axiologies in practice for small marginal changes."
+
+  - position: "Persistence skepticism: only extinction events have persistent long-term effects."
+    why_rejected: "AGI-enforced institutions and defense-dominant space territories provide plausible mechanisms for non-extinction lock-in on astronomical timescales."
+
+  - position: "EOTB supports Dichotomy straightforwardly."
+    why_rejected: "Even if the best uses of resources are vastly more efficient, resource division among groups means the fraction of cosmos optimized for valorium varies continuously."
+
+methodological_commitments:
+  - "Formal expected value decomposition: breaking overall impact into existential impact and trajectory impact using precise mathematical definitions."
+  - "Thought experiments and hypothetical scenarios (Strong World Government, Common-sense Utopia, Common-sense Infernotopia) to test principles against intuitions."
+  - "Systematic consideration and rejection of opposing arguments: steelmanning three defenses of Dichotomy before arguing against each."
+  - "Intertheoretic value comparison using multiple normalization methods (range, best-zero, worst-zero, variance, standard value) to assess robustness."
+  - "Appeal to empirical evidence from psychophysics (Weber-Fechner laws), survey data on experience intensity, and folk intuitions about gambles."
+  - "Broad moral pluralism: explicitly avoiding reliance on risk-neutrality, totalism, or utilitarianism, arguing conclusions hold across a wide range of moral views."
+
+cross_references:
+  - "better-futures"
+  - "how-to-make-the-future-better"
+  - "persistent-path-dependence"
+  - "preparing-for-the-intelligence-explosion"
+  - "no-easy-eutopia"

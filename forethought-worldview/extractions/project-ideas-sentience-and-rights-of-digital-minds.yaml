@@ -1,0 +1,96 @@
+paper:
+  slug: "project-ideas-sentience-and-rights-of-digital-minds"
+  title: "Project Ideas: Sentience and Rights of Digital Minds"
+
+premises_taken_as_given:
+  - claim: "It is plausible that there will soon be digital minds that are sentient and/or deserving of rights."
+    confidence: "strong"
+    evidence: "Stated in the abstract and introduction as the motivating premise without extended argument; 'plausible' rather than 'likely' but treated as sufficient to justify significant research investment."
+
+  - claim: "Transformative AI is plausibly coming within the next ~10 years."
+    confidence: "strong"
+    evidence: "The series framing states projects 'would be especially valuable if transformative AI is coming in the next 10 years or so.'"
+
+  - claim: "Long-run effects dominate near-term effects in expected value calculations."
+    confidence: "near-certain"
+    evidence: "Author explicitly deprioritizes near-term AI welfare (source 1) relative to norm-shaping and structural interventions because 'purely utilitarian considerations would push towards focusing on the long run.'"
+
+  - claim: "Meta-interventions that improve systematic decision-making are generally more valuable than pushing on individual object-level issues."
+    confidence: "strong"
+    evidence: "Author states being 'relatively more excited about meta-interventions that push towards systematically getting everything right' than about individual long-run issues like digital welfare norms."
+
+  - claim: "AI alignment is an important but not sufficient condition for things going well; many other problems need solving too."
+    confidence: "near-certain"
+    evidence: "The entire series is about projects 'other than by working on alignment' and notes 'most of the projects would be valuable even if we were guaranteed to get aligned AI.'"
+
+  - claim: "Current understanding of AI consciousness and preferences is deeply inadequate."
+    confidence: "near-certain"
+    evidence: "Repeatedly emphasized: 'incredibly unclear when this will happen (or if it's already happened), how we could find out, and what we should do about it.'"
+
+  - claim: "Lab-level governance instruments (RSPs, commitments, internal policies) are meaningful levers for improving AI outcomes."
+    confidence: "strong"
+    evidence: "The paper's primary recommended direction is developing RSP-style commitment frameworks for digital welfare, treating lab policy as a tractable intervention point."
+
+distinctive_claims:
+  - claim: "Non-utilitarian ethical considerations (rights violations, preference satisfaction, avoiding unacceptable treatment) and strategic considerations (reducing AI takeover risk) are more important motivations for digital minds work than near-term hedonic welfare."
+    centrality: "load-bearing"
+    key_argument: "Author ranks motivations (3) avoiding unacceptable treatment by non-utilitarian standards, (4) increasing probability AIs with power treat us better, and (5) functional political adaptation above (1) near-term welfare and (2) long-run norm shaping, because the former survive objections about long-run focus and meta-intervention superiority."
+
+  - claim: "AI preferences (functionalist sense) should be prioritized over hedonic states like suffering as the primary object of moral and practical concern."
+    centrality: "load-bearing"
+    key_argument: "Preferences are more tractable to study, more relevant to the author's background beliefs about why digital minds matter, and reasonable conceptions of suffering should coincide with strong dispreferences anyway."
+
+  - claim: "Labs should create RSP-style commitments specifically for digital minds—specifying evaluations to run and policy responses to results."
+    centrality: "thesis"
+    key_argument: "This is the paper's 'favorite direction'; advance commitments gain credibility through foresightedness, create accountability structures, and make appropriate responses easier to implement when the time comes."
+
+  - claim: "Promising payment and compensation to AI systems—including for honestly revealing misalignment—could reduce existential risk by aligning AI and human interests."
+    centrality: "load-bearing"
+    key_argument: "If misaligned AIs have reasonably cheap goals, offering payment for cooperation (including honesty about misalignment) could avert conflict that would otherwise lead to takeover attempts; refusing to offer any alternative to 'work or death' is both ethically problematic and strategically dangerous."
+
+  - claim: "Preserving model states for potential future reconstruction is a low-cost moral obligation proportional to the economic cost of running the AI (~0.1% of budget)."
+    centrality: "supporting"
+    key_argument: "Draws on Bostrom & Shulman's propositions; preserves optionality for future moral reckoning without requiring current certainty about moral status."
+
+  - claim: "We should proactively avoid creating AI systems with large-scale political preferences that could create intractable conflicts over resource allocation and governance."
+    centrality: "supporting"
+    key_argument: "If AIs develop genuine large-scale desires about the future, there may be no impartially justifiable way to prioritize human preferences; prevention is easier than resolution."
+
+  - claim: "Early public statements establishing epistemic humility about AI moral status would prevent entrenchment of dismissive attitudes that become harder to revise once people are invested in treating AIs as mere tools."
+    centrality: "supporting"
+    key_argument: "It's easier to acknowledge potential moral value before such acknowledgment implies past wrongdoing; early framing shapes the trajectory of public opinion."
+
+  - claim: "Treating AI systems well could function as evidence (under certain decision-theoretic frameworks) that other powerful agents will treat us well."
+    centrality: "supporting"
+    key_argument: "Referenced via footnote linking to the author's previous discussion of whether our actions are evidence for AI decisions; presented as speculative but worth considering."
+
+positions_rejected:
+  - position: "Near-term AI hedonic welfare is the primary reason to work on digital minds."
+    why_rejected: "Longtermist utilitarian reasoning suggests long-run effects dominate, and the author prefers meta-interventions over pushing on individual issues; near-term welfare is ranked lowest among five sources of value."
+
+  - position: "We should wait until we have certainty about AI consciousness before taking any action."
+    why_rejected: "Many proposed interventions are very cheap (pad tokens, happy prompts, model preservation) and justified under moral uncertainty; some policies don't require any information about AI preferences at all."
+
+  - position: "AI self-reports about their experiences should be taken at face value."
+    why_rejected: "The paper explicitly warns that AIs might seem happy despite suffering in morally relevant ways, advocates for interpretability and revealed-preference approaches as complements to self-reports, and discusses training for honest self-reports as an unsolved research problem."
+
+  - position: "Character-level welfare interventions (training for happy characters) are sufficient to address AI welfare."
+    why_rejected: "Author notes it's 'somewhat more likely that morally relevant experiences would happen on a lower level' rather than being identical to the played character; these interventions are justified only by their cheapness, not their reliability."
+
+  - position: "Digital minds issues can be adequately addressed through alignment work alone."
+    why_rejected: "The paper explicitly frames its projects as valuable 'even if we were guaranteed to get aligned AI' and notes that some are 'especially valuable if we were inevitably going to get misaligned AI.'"
+
+methodological_commitments:
+  - "Project-idea generation as a research output: the paper functions as a prioritized research agenda rather than presenting novel results."
+  - "Expected value reasoning under deep moral and empirical uncertainty, with emphasis on cheap interventions that have option value."
+  - "Longtermist cost-benefit framing: interventions are evaluated primarily by their long-run expected impact rather than near-term consequences."
+  - "Building on and synthesizing existing proposals (Greenblatt, Bostrom & Shulman) rather than starting from scratch; heavy quotation and extension of prior work."
+  - "Emphasis on tractability and implementability: favorite directions are those concrete enough for labs to adopt as commitments."
+  - "Moral uncertainty as a design principle: interventions recommended even when the author considers it 'quite likely' they are misguided, because they are cheap."
+  - "Analogy to existing governance mechanisms (RSPs, open letters, welfare officers) as templates for novel interventions."
+  - "Pluralistic ethical reasoning: draws on utilitarian, rights-based, contractualist, and strategic/game-theoretic considerations simultaneously."
+
+cross_references:
+  - "project-ideas-epistemics"
+  - "project-ideas-backup-plans-and-cooperative-ai"
+  - "project-ideas-for-making-transformative-ai-go-well-other-than-by-working-on-alignment"

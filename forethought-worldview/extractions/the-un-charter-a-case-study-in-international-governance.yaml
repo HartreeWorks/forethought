@@ -1,0 +1,59 @@
+paper:
+  slug: "un-charter-case-study"
+  title: "The UN Charter: a case study in international governance"
+
+premises_taken_as_given:
+  - claim: "The transition to advanced AI will likely require some form of international governance agreement."
+    confidence: "strong"
+    evidence: "The paper's framing sentence states 'Many imagine that the transition to advanced AI systems will at some point lead to some kind of international agreement' and the entire paper is motivated by drawing lessons for this scenario."
+  - claim: "Historical case studies of international agreements are informative for thinking about future AI governance."
+    confidence: "near-certain"
+    evidence: "The paper's entire methodology assumes that studying the UN Charter's creation yields transferable lessons for international AGI governance, without arguing for the validity of historical analogy."
+  - claim: "Great power dynamics and veto structures are among the most consequential features of international governance institutions."
+    confidence: "near-certain"
+    evidence: "The paper devotes its most substantial analytical section to the P5 veto, treating it as 'the most significant article in the Charter' and analyzing its contingency."
+  - claim: "An international AGI project or collaboration between governments is a serious policy option worth deep investigation."
+    confidence: "strong"
+    evidence: "The paper is part 7 of a 7-part series explicitly aimed at assessing 'how desirable an international AGI project is' and 'what the best version would look like.'"
+
+distinctive_claims:
+  - claim: "The broad, obstructionist interpretation of the Security Council veto was somewhat contingent, though Cold War tensions made it fairly likely."
+    centrality: "supporting"
+    key_argument: "The Charter text left ambiguity about 'substantive' vs 'procedural' matters; the norm of expansive veto use was established through early practice rather than being foreordained by the Charter itself."
+  - claim: "Preparatory intellectual and bureaucratic work by a small number of actors (primarily the US and UK) determined the substance of the agreement far more than the large multilateral conference."
+    centrality: "load-bearing"
+    key_argument: "The Dumbarton Oaks proposal was effectively the first draft; by the San Francisco conference the broad parameters were already set; the US subcommittee under Pasvolsky did years of intensive preparatory work that became the frame of reference."
+  - claim: "Intellectuals and civil society groups played a significant but bounded role—influential on framing and secondary provisions but excluded from core security architecture decisions."
+    centrality: "load-bearing"
+    key_argument: "Groups like CSOP shaped the Dumbarton Oaks proposal and secured provisions on human rights and NGO relations, but were 'ignored on the big issues like security, the veto, and trusteeship.'"
+  - claim: "Domestic political feasibility (especially US Congressional ratification) was a binding constraint that shaped the substance of the international agreement."
+    centrality: "load-bearing"
+    key_argument: "The League of Nations failed because Wilson couldn't get Senate ratification; Roosevelt and Truman deliberately courted Republican support and shaped public opinion to avoid repeating this, which constrained what the Charter could contain."
+  - claim: "A mixture of idealism and pragmatism, rather than pure idealism, was key to the UN Charter's relative success compared to the League of Nations."
+    centrality: "supporting"
+    key_argument: "The intellectual community split post-League into die-hard world federalists (who lost influence) and moderate pragmatists (who became the architects of the UN), and this pragmatic temperament enabled buy-in from great powers."
+  - claim: "The inclusion of France as a P5 member was highly contingent, driven by Churchill's desire to counterbalance US influence within the Western bloc."
+    centrality: "supporting"
+    key_argument: "France had to be persuaded to accept the seat; the decision was driven by one leader's strategic preference rather than France's objective great power status."
+
+positions_rejected:
+  - position: "International governance institutions are primarily shaped at large multilateral conferences."
+    why_rejected: "The paper shows that most substantive work happened in small-group preparatory processes (US State Department planning from 1939-1944, bilateral US-UK negotiations) well before San Francisco."
+  - position: "Pure idealism or world federalism is a viable basis for international governance."
+    why_rejected: "The paper presents the League of Nations as a cautionary tale of idealism without pragmatism, and notes that world federalists like H.G. Wells and Clarence Streit lost influence precisely because of the League's failure."
+  - position: "Civil society and intellectual input can reshape the core power architecture of international agreements."
+    why_rejected: "Despite significant civil society involvement, these groups were pre-selected for alignment by the State Department and were 'ignored on the big issues' while securing only modest secondary provisions."
+  - position: "The UN Charter was primarily a US creation with little UK contribution."
+    why_rejected: "While US sources claim this, the paper cites Ehrhardt (2020) showing the UK deliberately let the US take credit to maintain favorable US domestic opinion, and that UK intellectual contributions (Webster, Jebb) were substantial."
+
+methodological_commitments:
+  - "Historical case study as the primary method for generating lessons about future governance challenges."
+  - "Emphasis on contingency analysis—identifying which outcomes were over-determined versus which were path-dependent on specific actors or decisions."
+  - "Attention to domestic political economy and public opinion as binding constraints on international agreement design."
+  - "Explicit epistemic humility: the paper flags its preliminary nature (20 hours of research, no expert review) and marks conclusions as 'tentative.'"
+  - "Focus on process and institutional design rather than normative evaluation of outcomes."
+  - "Interest in the role of specific individuals and their intellectual orientations in shaping institutional outcomes."
+
+cross_references:
+  - "an-overview-of-some-international-organisations-with-their-voting-structures"
+  - "the-international-agi-project-series"

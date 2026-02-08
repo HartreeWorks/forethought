@@ -1,0 +1,98 @@
+paper:
+  slug: "three-types-of-intelligence-explosion"
+  title: "Three Types of Intelligence Explosion"
+
+premises_taken_as_given:
+  - claim: "AI will become capable enough to automate AI research and development tasks"
+    confidence: "near-certain"
+    evidence: "The paper builds its entire framework on the assumption that AI systems will be able to design better AI systems, treating this as the starting point rather than something requiring argument."
+
+  - claim: "Effective compute is the right lens through which to measure AI progress and capability gains"
+    confidence: "near-certain"
+    evidence: "All quantitative estimates of feedback loop strength, physical limits, and progress rates are operationalised in terms of effective compute (OOMs), without defending this choice."
+
+  - claim: "There is a roughly stable relationship between effective compute increases and capability jumps (the 'GPT-sized jump' = ~3 OOMs)"
+    confidence: "strong"
+    evidence: "Used to translate OOMs estimates into intuitive capability terms ('~4 GPT-sized jumps from software'), with only a brief conditional ('if the recent relationship continues to hold')."
+
+  - claim: "Scaling laws and the compute-centric framework for understanding AI progress are broadly correct"
+    confidence: "near-certain"
+    evidence: "The entire analysis depends on more compute (and compute-equivalents) translating into better AI capabilities, drawing on Epoch's empirical estimates without questioning the paradigm."
+
+  - claim: "The intelligence explosion concept (recursive self-improvement via AI) is a plausible and important scenario to analyse"
+    confidence: "near-certain"
+    evidence: "The paper opens with I.J. Good's original concept and builds on it as a serious analytical framework, not a speculative possibility requiring justification."
+
+  - claim: "AI progress will be transformative enough to have major implications for the distribution of geopolitical power"
+    confidence: "near-certain"
+    evidence: "The paper devotes a full section to strategic implications for power distribution across countries and companies, treating these stakes as self-evident."
+
+  - claim: "Physical automation (robotics) lags behind cognitive automation in AI capabilities"
+    confidence: "strong"
+    evidence: "Stated as justification for why chip production will be automated last: 'robotics has been a relatively slow area of AI to progress.'"
+
+distinctive_claims:
+  - claim: "The intelligence explosion should be decomposed into three distinct feedback loops (software, chip technology, chip production) rather than treated as a monolithic software recursion"
+    centrality: "thesis"
+    key_argument: "The classic IE scenario focuses only on software self-improvement, but chip technology and chip production are separate feedback loops with distinct time lags, automation timelines, physical limits, and strategic implications."
+
+  - claim: "There are three corresponding types of intelligence explosion (software IE, AI-technology IE, full-stack IE) that are likely to occur in sequence"
+    centrality: "thesis"
+    key_argument: "The feedback loops will likely be automated in order (software → chip technology → chip production) and have increasing time lags, leading to three natural types of IE with different speeds, scales, and power dynamics."
+
+  - claim: "The AI-technology and full-stack intelligence explosions have been systematically under-analysed relative to the software IE"
+    centrality: "load-bearing"
+    key_argument: "Most existing analysis focuses on the classic software-only recursive improvement, missing the distinct dynamics and strategic implications of IEs that require hardware improvements."
+
+  - claim: "A full-stack IE is very likely (~90%) to eventually produce accelerating progress, even if a software-only IE is only ~50% likely to accelerate"
+    centrality: "load-bearing"
+    key_argument: "Chip production has a natural doubling property (twice as many robots can build twice as many robots), and any technology improvement on top of that guarantees super-linear returns, making acceleration near-certain for the full stack."
+
+  - claim: "The total room for improvement before physical limits is enormous: ~12 OOMs from software, ~6 from chip technology, ~5-14 from chip production"
+    centrality: "load-bearing"
+    key_argument: "Estimated by combining software efficiency gains relative to brain efficiency, Landauer's limit for chip technology, and earth/solar energy budgets for chip production."
+
+  - claim: "A 'fast takeoff' over minutes/hours/days (Bostrom's scenario) is now very unlikely"
+    centrality: "supporting"
+    key_argument: "Compute constraints and ~3-month training times for new models create irreducible time lags; even aggressive parameter values in takeoff models yield timelines of months."
+
+  - claim: "The type of intelligence explosion determines which countries and actors hold power: software IE concentrates power in the US, full-stack IE distributes it more broadly including to China and Gulf states"
+    centrality: "load-bearing"
+    key_argument: "Software IE depends only on existing chip stocks and algorithms (US-concentrated), while full-stack IE depends on broad industrial capacity, favouring countries with strong manufacturing and permissive regulation."
+
+  - claim: "Authoritarian countries may have structural advantages in a full-stack IE due to permissive regulation and ability to maintain higher savings rates"
+    centrality: "supporting"
+    key_argument: "Full-stack IE requires rapid industrial expansion; authoritarian regimes face fewer regulatory constraints and can direct more resources to capital investment."
+
+  - claim: "Maximum theoretical AI progress speed could be ~100X faster than current rates, with effective compute doubling daily"
+    centrality: "supporting"
+    key_argument: "Post-training enhancements can be implemented in days, and biological replicators (fruit flies) demonstrate that compute (brains) can double in days, suggesting artificial replicators could potentially match or exceed this."
+
+positions_rejected:
+  - position: "The intelligence explosion is solely about software recursive self-improvement"
+    why_rejected: "This misses the chip technology and chip production feedback loops, which have different dynamics, timelines, and strategic implications, and which could drive an IE even if the software loop alone is insufficient."
+
+  - position: "Fast takeoff over minutes, hours, or days (Bostrom's original framing)"
+    why_rejected: "Training new models takes ~3 months, creating irreducible time lags; even aggressive modelling yields takeoff periods of months; current near-human-level models haven't yet produced superintelligence."
+
+  - position: "If the software feedback loop alone can't drive accelerating progress, an intelligence explosion won't happen"
+    why_rejected: "The chip technology and chip production loops could provide additional returns sufficient for acceleration even when software alone falls short; the full-stack IE is ~90% likely to accelerate."
+
+  - position: "Analysis should focus primarily on the sudden/rapid software IE scenario"
+    why_rejected: "The gradual and bumpy scenarios (where significantly superhuman AI comes only after long delays and industrial expansion) have received too little strategic analysis and are plausible."
+
+methodological_commitments:
+  - "Decomposition of complex systems into distinct feedback loops with separately analysable properties (time lags, returns to scale, physical limits)"
+  - "Quantitative estimation using orders of magnitude (OOMs) of effective compute as the central metric"
+  - "Empirical calibration using historical data (Epoch's efficiency estimates, hardware R&D trends, NVIDIA revenue doubling times)"
+  - "Probabilistic reasoning with rough subjective probabilities (~50%, ~65%, ~75%, ~80%, ~90%)"
+  - "Scenario analysis generating multiple plausible futures (gradual, bumpy, rapid) rather than point predictions"
+  - "Physical limits analysis as upper bounds, deliberately setting aside human/regulatory constraints to focus on what's physically possible"
+  - "Strategic/geopolitical implications analysis connecting technical dynamics to power distribution"
+  - "Analogical reasoning from biology (fruit fly replication rates as proof of concept for compute doubling speed)"
+
+cross_references:
+  - "once-ai-research-is-automated-will-ai-progress-accelerate"
+  - "how-quick-and-big-would-a-software-intelligence-explosion-be"
+  - "how-far-can-ai-progress-before-hitting-effective-physical-limits"
+  - "how-suddenly-will-ai-accelerate-the-pace-of-ai-progress"

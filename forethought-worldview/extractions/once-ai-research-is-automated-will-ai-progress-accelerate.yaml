@@ -1,0 +1,63 @@
+paper:
+  slug: "once-ai-research-is-automated-will-ai-progress-accelerate"
+  title: "Once AI Research is Automated, Will AI Progress Accelerate?"
+
+premises_taken_as_given:
+  - claim: "AI will eventually automate most or all of the cognitive work involved in improving AI (software, chip design, chip production)."
+    confidence: "near-certain"
+    evidence: "The paper's entire framing presupposes this transition, treating it as a matter of 'when' not 'if' and focusing on what happens after."
+  - claim: "AI progress can be meaningfully decomposed into three feedback loops: software improvements, chip technology improvements, and chip production scaling."
+    confidence: "strong"
+    evidence: "This decomposition structures the entire analysis without being argued for; it appears to be inherited from Davidson's compute-centric framework."
+  - claim: "The parameter r (returns to doubling cumulative inputs) from growth theory is the right lens for analyzing whether AI progress will accelerate."
+    confidence: "strong"
+    evidence: "The paper builds its entire argument around estimating r for each feedback loop, treating the growth-theoretic framework as the appropriate analytical tool."
+  - claim: "Historical patterns of human economic and population growth (where r > 1 led to accelerating growth) are informative about future AI-driven growth dynamics."
+    confidence: "strong"
+    evidence: "The paper uses the historical population doubling table and economic growth arguments as direct analogies without questioning their applicability to AI systems."
+  - claim: "Physical limits exist but are far enough away that significant acceleration can occur before they bind."
+    confidence: "strong"
+    evidence: "The paper acknowledges S-curves and physical limits but focuses on the accelerating phase, implying substantial room for acceleration before plateaus."
+
+distinctive_claims:
+  - claim: "The chip production feedback loop is the most robust driver of acceleration (r robustly above 1, ~80% likelihood), because doubling robots straightforwardly doubles production capacity with additional gains from robot technology improvements."
+    centrality: "load-bearing"
+    key_argument: "Physical replication of robots has near-constant returns to scale by default, and any technological improvement on top makes r > 1; this parallels standard arguments for explosive economic growth from full labor automation."
+  - claim: "The chip technology feedback loop likely drives acceleration (~65%), with r estimated around 4 after adjustments, because historically hardware R&D has shown very high returns to cognitive inputs."
+    centrality: "load-bearing"
+    key_argument: "Davidson's compute-centric framework estimates r ≈ 5 for all hardware R&D inputs; after adjusting for cognitive labor share, capability gains beyond efficiency, and diminishing returns, r remains comfortably above 1."
+  - claim: "The software feedback loop alone has roughly even odds of driving acceleration (~50%), with r estimated around 1.2 but with wide uncertainty (0.4–3.6)."
+    centrality: "load-bearing"
+    key_argument: "Empirical estimates of r from training efficiency (ImageNet r ≈ 1.4) and other domains are noisy, and capability improvements beyond efficiency push r up, but compute-experiment bottlenecks push it down."
+  - claim: "The r values from different feedback loops are additive when loops combine, making multi-loop intelligence explosions substantially more likely to accelerate than any single loop alone."
+    centrality: "thesis"
+    key_argument: "A full-stack intelligence explosion combining all three loops reaches ~90% likelihood of acceleration because even if individual r values are modest, their sum exceeds 1."
+  - claim: "There is meaningful correlation between r values across feedback loops—if extra compute doesn't translate to intelligence, or extra intelligence doesn't help research, all loops weaken simultaneously."
+    centrality: "supporting"
+    key_argument: "This correlation makes extreme outcomes (very fast acceleration or no acceleration) more likely than independent loop models would suggest."
+
+positions_rejected:
+  - position: "AI progress will settle into steady exponential growth after automation (constant growth rate, no acceleration)."
+    why_rejected: "Empirical evidence on r values for software, chip technology, and chip production all suggest r ≥ 1, meaning doubling inputs yields at least a doubling of outputs, supporting acceleration rather than mere exponential growth."
+  - position: "Approaching physical limits in chip technology (end of Moore's Law) means chip-related feedback loops cannot drive acceleration."
+    why_rejected: "While acknowledged as a downward adjustment factor, the paper argues r remains comfortably above 1 even after deference to expert concerns about fundamental limits."
+  - position: "Scarce natural resources will prevent the chip production feedback loop from sustaining acceleration."
+    why_rejected: "Historical evidence shows innovation has more than compensated for resource scarcity; the paper treats this as unlikely to be the binding constraint."
+  - position: "Human regulatory or cultural constraints are the primary determinants of whether acceleration occurs."
+    why_rejected: "Explicitly set aside; the paper focuses on technological likelihood only, noting all-things-considered probability would be lower."
+
+methodological_commitments:
+  - "Growth-theoretic modeling using the parameter r (returns to doubling cumulative inputs) as the central analytical framework."
+  - "Decomposition of a complex system into distinct feedback loops analyzed independently then combined."
+  - "Empirical estimation of r from historical data on efficiency improvements and R&D productivity, drawing on Epoch AI datasets."
+  - "Explicit subjective probability estimates (~50%, ~65%, ~80%, ~90%) for qualitative conclusions."
+  - "Qualitative reasoning grounded in forthcoming formal mathematical work (Halperin and Houlden), presented as a preview."
+  - "Adjustment-based reasoning: starting from empirical base rates then applying upward and downward adjustments for factors like capability gains, diminishing returns, and compute bottlenecks."
+  - "Historical analogy (human population growth, economic growth) used to motivate the theoretical framework."
+
+cross_references:
+  - "how-suddenly-will-ai-accelerate-the-pace-of-ai-progress"
+  - "three-types-of-intelligence-explosion"
+  - "how-far-can-ai-progress-before-hitting-effective-physical-limits"
+  - "will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
+  - "how-quick-and-big-would-a-software-intelligence-explosion-be"

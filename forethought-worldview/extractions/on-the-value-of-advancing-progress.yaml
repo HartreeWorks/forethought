@@ -1,0 +1,58 @@
+paper:
+  slug: "on-the-value-of-advancing-progress"
+  title: "On the Value of Advancing Progress"
+
+premises_taken_as_given:
+  - claim: "Long-term progress in science, technology, and values has tended to make people's lives longer, freer, and more prosperous."
+    confidence: "near-certain"
+    evidence: "Stated as uncontested background in the opening paragraph and never argued for; described as 'a standard story within economics'."
+  - claim: "Humanity's future trajectory is finite — civilisation will eventually end."
+    confidence: "near-certain"
+    evidence: "Presented as an obvious correction to economic models that assume infinite horizons: 'The trajectory of humanity's future is not literally infinite. One day it will come to an end.'"
+  - claim: "The total value of the human future is dominated by its duration, not just its quality at any given moment."
+    confidence: "strong"
+    evidence: "The entire argument turns on whether a year of existence is lost at the end, implying that losing duration matters enormously — a longtermist framing taken as background."
+  - claim: "Pure time preference (discounting future value itself) is not a legitimate basis for social evaluation."
+    confidence: "strong"
+    evidence: "The paper treats arguments that rely on pure time preference as 'troubling' and akin to 'robbing tomorrow to pay for today', framing patience as the correct normative stance."
+  - claim: "Anthropogenic existential risk is substantial and plausibly larger than natural existential risk."
+    confidence: "strong"
+    evidence: "Asserted without extended argument: 'there isn't actually much natural extinction risk for progress to reduce, whereas progress appears to be introducing larger anthropogenic risks.'"
+
+distinctive_claims:
+  - claim: "Whether uniformly advancing progress is good or bad depends crucially on whether humanity's end time is exogenous or endogenous — a question almost entirely absent from the progress literature."
+    centrality: "thesis"
+    key_argument: "Under an endogenous end time, shifting the quality-of-life curve leftward loses the first year's value with no replacement, making total value strictly lower; this is shown by a simple geometric/integral argument about shifted curves."
+  - claim: "If the end time is fully endogenous, uniformly advancing all progress always produces lower total (and average) quality of life than the default trajectory."
+    centrality: "load-bearing"
+    key_argument: "The area under the shifted curve is identical to the original minus the first slice; like skipping a good early track on a steadily improving album."
+  - claim: "Infinite-horizon models of progress hide this problem in a manner 'troublingly reminiscent of a Ponzi scheme' — each generation's debt is passed forward and never comes due."
+    centrality: "load-bearing"
+    key_argument: "With a finite horizon, advancing the curve eventually runs out of future curve to reveal; the infinite model masks this by always having more curve."
+  - claim: "If uniform advancement of progress turns out to be bad, the right intervention is 'differential progress' — selectively advancing some domains (e.g. moral, institutional) while potentially slowing others (e.g. certain technologies)."
+    centrality: "supporting"
+    key_argument: "Advancing only some kinds of progress changes the shape or duration of the curve rather than merely shifting it; technological/economic progress is more plausibly linked to endogenous catastrophe."
+  - claim: "Questions about the ultimate cause of human extinction are not esoteric curiosities but are central to evaluating mainstream policy proposals about accelerating progress."
+    centrality: "load-bearing"
+    key_argument: "The sign of the value of advancing progress flips entirely depending on the answer, so economics and social science papers on progress must explicitly address it."
+
+positions_rejected:
+  - position: "Advancing progress is straightforwardly and robustly good because it raises quality of life."
+    why_rejected: "This conclusion relies on an infinite-horizon or exogenous-end-time assumption; under endogenous end times it reverses, so the standard argument has a critical gap."
+  - position: "Historical evidence of progress improving quality of life settles the question of whether further acceleration is desirable."
+    why_rejected: "Historical data on quality-of-life improvements is 'entirely moot' if advancing progress also silently shortens humanity's lifespan."
+  - position: "Pure time preference provides a sound justification for advancing progress even under endogenous end times."
+    why_rejected: "The resulting rationale reduces to 'robbing tomorrow to pay for today', which the paper considers normatively untenable and far from the 'full-throated endorsement' progress advocates seek."
+  - position: "Progress might be justified by bringing forward technologies that protect against natural existential threats."
+    why_rejected: "Natural extinction risk is very small, anthropogenic risk introduced by progress is larger, and even if the case could be made it would be a fundamentally different argument (about duration, not quality)."
+
+methodological_commitments:
+  - "Simple formal/geometric modelling: representing quality of life as a curve over time, using area-under-the-curve reasoning to compare scenarios."
+  - "Thought experiment and idealisation: considering the clean case of 'uniform advancement of all progress by one year' to isolate a conceptual issue."
+  - "Normative assumption of patience (zero pure time preference) as the default evaluative stance."
+  - "Categorisation of end-time scenarios (exogenous vs endogenous) as the key analytical variable."
+  - "Emphasis on identifying neglected considerations and gaps in existing arguments rather than resolving the question definitively."
+  - "Longtermist framing: the value at stake is primarily about what happens over the full duration of humanity's future."
+
+cross_references:
+  - "shaping-humanitys-longterm-trajectory"

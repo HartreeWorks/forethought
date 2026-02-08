@@ -1,0 +1,103 @@
+paper:
+  slug: "will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
+  title: "Will AI R&D Automation Cause a Software Intelligence Explosion?"
+
+premises_taken_as_given:
+  - claim: "AI systems will eventually be capable of fully automating all AI R&D tasks (ASARA), likely within years to decades."
+    confidence: "strong"
+    evidence: "The paper builds its entire analysis on the assumption that ASARA will be developed, treating the question as 'when' not 'if', citing current trends in AI assisting with R&D tasks."
+
+  - claim: "AI progress is driven by two main factors: more computational power and better software, and these can be meaningfully decomposed and analyzed separately."
+    confidence: "near-certain"
+    evidence: "This decomposition structures the entire paper and is presented without argument as a framework for understanding AI progress."
+
+  - claim: "Upon reaching ASARA, it will be possible to run orders of magnitude more automated AI researchers than the current number of leading human AI researchers."
+    confidence: "strong"
+    evidence: "Derived from the arithmetic that training compute vastly exceeds inference compute, allowing millions of parallel ASARA copies, presented as a straightforward calculation."
+
+  - claim: "Sufficiently advanced AI, if managed well, would offer tremendous benefits to society."
+    confidence: "near-certain"
+    evidence: "Stated in the introduction with links to Amodei and Altman essays, treated as background assumption rather than argued for."
+
+  - claim: "AI software progress is a real and measurable phenomenon, distinct from hardware scaling."
+    confidence: "near-certain"
+    evidence: "The paper compiles multiple empirical studies of algorithmic efficiency improvements across domains as established fact."
+
+  - claim: "The semi-endogenous growth model (where exponential growth in research inputs yields exponential but slower growth in outputs) is a reasonable framework for modeling technological progress."
+    confidence: "strong"
+    evidence: "The paper's core model is built on this framework, with the Appendix providing theoretical and empirical justification including experience curves, economic growth data, and the Jones (1995) model."
+
+  - claim: "An intelligence explosion, if it occurs, would exacerbate risks from AI and could outpace society's capacity to prepare and adapt."
+    confidence: "near-certain"
+    evidence: "Treated as motivation for the entire paper without substantive argument; the paper focuses on whether an SIE will occur, not whether it would be dangerous."
+
+premises_taken_as_given:
+  - claim: "Hardware-centric AI governance proposals are valuable but may be insufficient if software progress alone can drive explosive capability gains."
+    confidence: "strong"
+    evidence: "Presented as a key implication of the SIE possibility, motivating the paper's focus on software-only scenarios."
+
+distinctive_claims:
+  - claim: "A 'software intelligence explosion' (SIE) — where AI progress accelerates explosively through software improvements alone, even with fixed hardware — is plausible, with an estimated 30-60% probability given ASARA and constant hardware."
+    centrality: "thesis"
+    key_argument: "Empirical evidence suggests returns to software R&D (r) are likely ~1-4, where r>1 implies the positive feedback loop from AI improving AI overcomes diminishing returns, leading to accelerating progress."
+
+  - claim: "The key parameter determining whether an SIE occurs is r (returns to software R&D), defined as the number of times software capacity doubles per doubling of cumulative R&D effort, with r>1 being the threshold for an SIE."
+    centrality: "load-bearing"
+    key_argument: "This single variable captures the balance between diminishing returns (harder problems) and the feedback loop (more capable researchers), and can be empirically estimated from historical data."
+
+  - claim: "AI software efficiency has been doubling approximately every ~6 months, with substantial additional gains from capability improvements and post-training enhancements."
+    centrality: "load-bearing"
+    key_argument: "Synthesizes multiple empirical studies across LLMs, image recognition, game playing, and language translation, with LLM data weighted most heavily given relevance to ASARA."
+
+  - claim: "Historical empirical data from Epoch suggests r for image recognition is ~1.4 (median), and preliminary analysis suggests r for LLMs is at least as high."
+    centrality: "load-bearing"
+    key_argument: "Based on Epoch's analysis comparing the rate of algorithmic efficiency improvement to the growth in researcher numbers, using the semi-endogenous growth framework."
+
+  - claim: "Even a 'fizzle' (r<1) could still produce very fast AI progress for a period — roughly comparable to today's annual rate of AI capability improvement — at a time when systems are already extremely capable."
+    centrality: "supporting"
+    key_argument: "Mathematical analysis of the r=0.7 case shows ~30x improvement in AI software capacity within a year, comparable to current annual AI progress rates including hardware gains."
+
+  - claim: "The two main obstacles to an SIE — fixed compute limiting experiments and long training times — are likely to delay rather than prevent an SIE."
+    centrality: "load-bearing"
+    key_argument: "Algorithmic efficiency improvements reduce experiment costs over time; training runs can be progressively shortened; and AI R&D may shift toward methods requiring less compute (scaffolding, fine-tuning, or even non-ML paradigms)."
+
+  - claim: "Software progress may have historically grown at rates comparable to hardware progress (Moore's law), which is underappreciated."
+    centrality: "supporting"
+    key_argument: "Software efficiency doubling times (~6 months) are faster than hardware doubling times (~2 years for transistors per chip), and historical r for software (~1-4) is in a similar range to r for hardware (~5-7)."
+
+  - claim: "Shorter timelines to ASARA increase the probability of an SIE, because r is less likely to have declined to 1 by then."
+    centrality: "supporting"
+    key_argument: "r must eventually fall toward 0 as physical limits are approached; the sooner ASARA arrives, the more room remains for the feedback loop to operate."
+
+  - claim: "Policy responses should include ongoing measurement of software progress, pre-deployment R&D automation evaluations, threshold commitments on software acceleration rates, and robust governance practices — all implemented proactively before signs of an SIE appear."
+    centrality: "supporting"
+    key_argument: "By the time clear signs of an SIE emerge, it may be too late; governance mechanisms need to be in place before ASARA is reached."
+
+positions_rejected:
+  - position: "Hardware constraints alone will prevent an intelligence explosion after AI R&D automation."
+    why_rejected: "The entire paper argues that software improvements alone could sustain accelerating progress with fixed hardware, making hardware constraints insufficient as a safeguard."
+
+  - position: "Diminishing returns will necessarily cause AI progress to fizzle after ASARA."
+    why_rejected: "Empirical evidence suggests r>1, meaning the feedback loop from more capable AI researchers grows faster than the difficulty of finding further improvements."
+
+  - position: "Compute-centric governance metrics (e.g., training FLOP thresholds) are sufficient for tracking frontier AI capabilities."
+    why_rejected: "In an SIE, rapid software progress would make compute-based metrics outdated quickly; ongoing monitoring of R&D progress and deployed system capabilities would also be needed."
+
+  - position: "Long training times for new AI systems would prevent an SIE."
+    why_rejected: "Training efficiency improvements could progressively shorten each subsequent training run; even if training remains necessary, the delay is finite and bounded, delaying rather than preventing an SIE."
+
+  - position: "The Bitter Lesson (computation-leveraging methods always win) would hold in a post-ASARA, fixed-hardware world."
+    why_rejected: "The Bitter Lesson reflects a world of exponentially growing compute with slower growth in researcher labor; if the situation reverses (fixed compute, massively expanding AI researcher labor), methods leveraging cognitive labor could become dominant."
+
+methodological_commitments:
+  - "Semi-endogenous growth modeling: uses a single parameter r to capture the relationship between cumulative R&D effort and technological output, drawing on established economics of innovation."
+  - "Empirical calibration of theoretical models: grounds the key parameter r in multiple independent empirical estimates from different AI domains and algorithmic progress studies."
+  - "Toy model reasoning: constructs simplified scenarios (fizzle vs. explosion) to build intuition before introducing the full mathematical framework."
+  - "Synthesis across multiple empirical studies rather than reliance on any single estimate, with explicit discussion of which evidence deserves most weight (LLMs over other domains)."
+  - "Scenario analysis with explicit uncertainty: provides probability ranges (30-60% for SIE), discusses both directions of uncertainty, and explores implications across different parameter values."
+  - "Expected value reasoning about tail risks: takes seriously low-but-non-trivial probabilities of extremely consequential outcomes as warranting proactive policy responses."
+  - "Deliberate isolation of one causal pathway (software-only) to establish a lower bound on the plausibility of explosive progress, noting that adding hardware growth only increases the probability."
+
+cross_references:
+  - "how-can-ai-labs-incorporate-risks-from-ai-accelerating-ai-progress-into"
+  - "will-the-need-to-retrain-ai-models"

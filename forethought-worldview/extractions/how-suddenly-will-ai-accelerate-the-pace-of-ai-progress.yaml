@@ -1,0 +1,60 @@
+paper:
+  slug: "how-suddenly-will-ai-accelerate-ai-progress"
+  title: "How Suddenly will AI Accelerate the Pace of AI progress?"
+
+premises_taken_as_given:
+  - claim: "AI will eventually automate most of the work of improving AI, transitioning from human-driven to AI-driven AI progress."
+    confidence: "near-certain"
+    evidence: "The paper's entire framing assumes this transition will happen; it only asks about the dynamics (speed, magnitude), never whether it will occur."
+  - claim: "AI progress can be usefully decomposed into three feedback loops: software, chip technology, and chip production."
+    confidence: "strong"
+    evidence: "This decomposition structures the entire analysis without justification; it is treated as an analytical primitive."
+  - claim: "The pace of AI progress is a critical variable for understanding the future trajectory of AI and its societal implications."
+    confidence: "near-certain"
+    evidence: "The paper focuses entirely on the speed and dynamics of AI progress acceleration, implying this is among the most important questions to answer."
+  - claim: "Frontier AI labs currently have only a few hundred people working on core software R&D."
+    confidence: "strong"
+    evidence: "Stated as a factual premise to motivate the claim about large potential speed-ups from automation."
+  - claim: "Once AI can do software R&D, the number of human-equivalent AI researchers could quickly scale to millions."
+    confidence: "strong"
+    evidence: "Cited via external reference ('continuous doesn't mean slow') and used as a key input to the 2x-20x software speed-up estimate."
+
+distinctive_claims:
+  - claim: "The transition from human-driven to AI-driven progress will be most sudden and largest for software, followed by chip technology, then chip production."
+    centrality: "thesis"
+    key_argument: "Software has shortest time lags (months vs years), most homogeneous tasks, most available training data, and no physical-world bottlenecks, making it automatable faster and more completely."
+  - claim: "The concept of 'elasticity of AI R&D output from humans vs AI' is the right way to define the start and end of the transition period."
+    centrality: "load-bearing"
+    key_argument: "Defining transition as the period when AI's elasticity moves from 1/10 to 9/10 of human labor's elasticity provides a continuous, quantifiable framing."
+  - claim: "Time lags inherent in each feedback loop (training time, chip printing, fab construction) place physical lower bounds on how sudden the transition can be."
+    centrality: "load-bearing"
+    key_argument: "Even with instant automation of cognitive tasks, physical processes impose irreducible delays that differ across the three loops."
+  - claim: "Rapid progress in the software feedback loop could compress the suddenness of the chip technology and chip production transitions by quickly producing AI capable of automating those domains."
+    centrality: "supporting"
+    key_argument: "A large software-driven capability jump could cause chip-related transitions to begin very suddenly even if those loops have longer intrinsic time lags."
+  - claim: "The initial speed-up from automating software R&D could be 2x-20x, while chip technology speed-up could be 2x-14x, and chip production speed-up would be smallest."
+    centrality: "load-bearing"
+    key_argument: "Software is bottlenecked primarily by experiment time, not physical production; chip production is bottlenecked by years-long fab construction and may already be near peak investment rates."
+  - claim: "There will be multiple gradual transitions rather than a single discrete takeoff event."
+    centrality: "supporting"
+    key_argument: "Different domains transition at different times with different dynamics, so the overall picture is multiple overlapping transitions."
+
+positions_rejected:
+  - position: "Extremely sudden (days-scale) transition to AI-driven progress across all domains simultaneously."
+    why_rejected: "Time lags in training runs (~3 months), chip printing (months), and fab construction (years) impose physical lower bounds on transition speed; tasks are automated gradually, not all at once."
+  - position: "A single undifferentiated 'intelligence explosion' or 'takeoff' concept is sufficient for analysis."
+    why_rejected: "The paper insists on decomposing into three distinct feedback loops with different dynamics, arguing a monolithic framing obscures important variation in suddenness and magnitude."
+  - position: "Chip production will be the primary driver of AI-driven acceleration."
+    why_rejected: "Chip production has the longest time lags, the most physical-world bottlenecks, and may already be growing near its sustainable maximum before the feedback loop kicks in."
+
+methodological_commitments:
+  - "Decomposition of complex systems into distinct feedback loops analyzed separately."
+  - "Use of elasticity concepts from economics to define transition boundaries."
+  - "Reliance on structured expert interviews (e.g. chip designers) for quantitative estimates rather than formal modeling."
+  - "Qualitative reasoning about physical constraints (time lags, data availability, task heterogeneity) to bound transition dynamics."
+  - "Explicit acknowledgment of high uncertainty and speculative nature of estimates (self-described as 'rough research note')."
+  - "Scenario-based thinking: presenting ranges (2x-20x) rather than point estimates."
+  - "Privileging analysis of transition dynamics over steady-state outcomes."
+
+cross_references:
+  - "could-advanced-ai-accelerate-the-pace-of-ai-progress-interviews-with-ai"

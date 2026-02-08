@@ -1,0 +1,106 @@
+paper:
+  slug: "how-quick-and-big-would-a-software-intelligence-explosion-be"
+  title: "How quick and big would a software intelligence explosion be?"
+
+premises_taken_as_given:
+  - claim: "AI systems will soon fully automate AI R&D."
+    confidence: "near-certain"
+    evidence: "Stated as a near-term possibility in the opening line; the paper's entire analysis begins from the point of ASARA deployment without arguing for its feasibility."
+
+  - claim: "A software intelligence explosion (rapid AI progress from AI improving AI software) is plausible once AI R&D is fully automated."
+    confidence: "strong"
+    evidence: "Treated as established by Eth & Davidson (2025); this paper extends rather than argues for the basic plausibility of the feedback loop."
+
+  - claim: "Recent AI progress is roughly 50% from increased compute and 50% from improved software."
+    confidence: "strong"
+    evidence: "Assumed without extensive justification as a baseline for translating software progress into overall AI progress; acknowledged as an assumption users can change."
+
+  - claim: "Effective training compute has been rising at roughly 10X per year recently."
+    confidence: "near-certain"
+    evidence: "Cited from Epoch trends data as a factual baseline; used to convert OOMs of efficiency gains into equivalent years of progress."
+
+  - claim: "AI software progress can be meaningfully modelled using semi-endogenous growth theory with cognitive labour and compute as inputs."
+    confidence: "strong"
+    evidence: "Adopted as the modelling framework without defending it against alternatives; acknowledged as extremely simplified but treated as the best available approach."
+
+  - claim: "There exist fundamental effective limits on AI software efficiency that cannot be exceeded."
+    confidence: "near-certain"
+    evidence: "Taken as axiomatic—software cannot improve indefinitely; the only question is how far away those limits are."
+
+  - claim: "The elasticity of substitution between cognitive labour and compute in AI R&D equals 1 (Cobb-Douglas production function)."
+    confidence: "strong"
+    evidence: "Explicitly flagged as an important assumption, with links to separate analyses, but adopted without resolution of the debate."
+
+  - claim: "Software improvements get harder to find as software improves (positive β), consistent with the 'ideas getting harder to find' literature."
+    confidence: "strong"
+    evidence: "Embedded in the semi-endogenous growth model structure; supported by citation to Jones and Bloom et al."
+
+  - claim: "AI software has recently been doubling every ~3 months (measured in units relevant to the feedback loop)."
+    confidence: "strong"
+    evidence: "Derived from Epoch's 8-9 month training efficiency doubling time, adjusted downward for post-training enhancements and capability-equivalent gains."
+
+distinctive_claims:
+  - claim: "The software intelligence explosion will probably (~60%) compress >3 years of AI progress into <1 year, but is somewhat unlikely (~20%) to compress >10 years into <1 year."
+    centrality: "thesis"
+    key_argument: "Monte Carlo simulation over uncertain parameters for initial speed-up (2-32X), returns to software R&D (r=0.4-3.6), and distance to effective limits (6-16 OOMs) yields this intermediate distribution."
+
+  - claim: "The intelligence explosion debate should converge on an intermediate view: significant acceleration but probably not 30X+ compression without a paradigm shift."
+    centrality: "thesis"
+    key_argument: "Both extreme scepticism and extremely rapid sustained capability increases are unlikely; the model's parameter ranges and sensitivity analysis consistently support a moderate acceleration."
+
+  - claim: "Returns to software R&D are likely (median r=1.2) high enough that progress initially accelerates after ASARA deployment, with ~60% probability of acceleration."
+    centrality: "load-bearing"
+    key_argument: "Empirical evidence from Epoch's computer vision data (r~1.4) adjusted upward for capabilities and post-training enhancements, then downward for fixed compute, fixed hardware scale, and expected deterioration over time."
+
+  - claim: "AI software is approximately 6-16 OOMs from effective limits when ASARA is developed."
+    centrality: "load-bearing"
+    key_argument: "Human learning is ~4 OOMs more training-efficient than ASARA; effective limits are a further 4-10 OOMs beyond human learning due to data improvements, algorithm improvements, relaxation of biological constraints, and coordination advantages."
+
+  - claim: "The initial speed-up from deploying ASARA is likely 2-32X (median 8X) faster software progress."
+    centrality: "load-bearing"
+    key_argument: "Triangulated from multiple methods: researcher surveys (5-28X), AI 2027 analyses (5-417X for different capability levels), slow-corporation thought experiments, and Cobb-Douglas modelling (15X); erring conservative."
+
+  - claim: "To get 30+ years of progress in one year would require either ~30 OOMs of efficiency gains or a major paradigm shift enabling massive progress without effective compute increases."
+    centrality: "supporting"
+    key_argument: "The model's parameter space makes extremely dramatic explosions unlikely under current-paradigm extrapolation; qualitative breakthroughs are outside the model's scope."
+
+  - claim: "The need to retrain models from scratch does not significantly change the bottom-line results."
+    centrality: "supporting"
+    key_argument: "Model variant that 'spends' some software progress on reducing training duration shows results within a few percentage points of the base case."
+
+  - claim: "The human brain is severely 'undertrained' relative to Chinchilla-optimal scaling, suggesting ~4-5 OOMs of training efficiency headroom from data alone."
+    centrality: "supporting"
+    key_argument: "The brain has ~1e14 synapses but only processes ~1e9 data points during lifetime learning, compared to Chinchilla's recommendation of ~20X tokens per parameter."
+
+positions_rejected:
+  - position: "Extreme intelligence explosion scepticism (the feedback loop won't produce meaningful acceleration)."
+    why_rejected: "Initial speed-ups of >3X are likely, and returns to software R&D are probably high enough to sustain acceleration for multiple OOMs of progress."
+
+  - position: "Extremely rapid and sustained intelligence explosion (days-to-weeks transition to superintelligence, à la Bostrom 2014 or Yudkowsky 2013)."
+    why_rejected: "Requires either ~30 OOMs of efficiency gains (far beyond estimated limits) or a paradigm shift not captured by extrapolation from modern ML evidence; the model assigns only ~20% probability to 10+ years compressed into 1 year."
+
+  - position: "The software intelligence explosion will last for only ~1 OOM of algorithmic progress (Erdil & Barnett 2025)."
+    why_rejected: "Paper predicts it will likely last for several OOMs, based on the estimated 6-16 OOMs distance to effective limits."
+
+  - position: "AI 2027's median takeoff forecast is representative of the most likely outcome."
+    why_rejected: "Paper estimates only ~20% probability of the explosion being as fast as AI 2027's median scenario; their forecast is toward the aggressive end of the paper's range."
+
+  - position: "Compute bottlenecks will prevent meaningful software-only acceleration."
+    why_rejected: "While compute constraints are accounted for (reducing the initial speed-up and r estimates), multiple lines of evidence suggest large gains remain possible through cognitive labour alone."
+
+methodological_commitments:
+  - "Semi-endogenous growth modelling: adopts a standard economic growth framework (Jones-style) as the structural model for AI software progress."
+  - "Monte Carlo simulation over log-uniform (and uniform) parameter distributions to propagate deep uncertainty through to bottom-line probabilities."
+  - "Empirical calibration from recent ML trends: grounds key parameters in observable data (Epoch's training efficiency estimates, researcher population growth, effective compute trends)."
+  - "Triangulation across multiple estimation methods for each parameter (surveys, decomposition analyses, economic models, thought experiments) rather than relying on any single approach."
+  - "Deliberate conservatism: holds compute fixed, uses lower-end estimates for initial speed-ups, and frames results as back-of-the-envelope calculations rather than precise forecasts."
+  - "Explicit acknowledgment of massive uncertainty: characterises the exercise as speculative, provides an interactive tool for users to substitute their own parameter estimates, and disclaims confidence in specific numbers."
+  - "Biological comparison as a reference point: uses human brain efficiency (FLOP, learning data, architectural constraints) as an anchor for estimating effective limits of software."
+  - "Sensitivity analysis via model variants (retraining cost, gradual boost) to check robustness of high-level conclusions."
+
+cross_references:
+  - "will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
+  - "could-advanced-ai-accelerate-the-pace-of-ai-progress-interviews-with-ai"
+  - "three-types-of-intelligence-explosion"
+  - "will-compute-bottlenecks-prevent-a-software-intelligence-explosion"
+  - "will-the-need-to-retrain-ai-models"

@@ -1,0 +1,108 @@
+paper:
+  slug: "evaluating-the-infinite"
+  title: "Evaluating the Infinite"
+
+premises_taken_as_given:
+  - claim: "The extended reals (+∞, -∞) are too coarse-grained to adequately represent infinite values for decision theory, economics, and ethics."
+    confidence: "near-certain"
+    evidence: "Treated as the motivating problem throughout without argument; presented as obvious that having only one positive infinite value forces unacceptable equivalences."
+
+  - claim: "Cardinal numbers and ordinal numbers are inadequate for evaluating infinite aggregates in normative contexts."
+    confidence: "near-certain"
+    evidence: "Dismissed in the introduction as 'missing too much of the structure of the reals' without extended argument; the conclusion explicitly warns against using cardinal-number reasoning for infinite value comparisons."
+
+  - claim: "The hyperreal number system is a legitimate and well-understood mathematical structure."
+    confidence: "near-certain"
+    evidence: "Robinson (1966) and the transfer principle are cited as established foundations; no space is spent defending the coherence of the hyperreals themselves."
+
+  - claim: "Utility is a meaningful quantity that can in principle be unbounded, and the question of whether to bound it should be decided on substantive rather than technical grounds."
+    confidence: "strong"
+    evidence: "The paper explicitly frames bounded utility as a 'controversial workaround' adopted prematurely to solve technical problems, and argues technical solutions exist that remove the pressure to bound utility."
+
+  - claim: "Pure time preference (exponential discounting of future utility) is a controversial assumption that should be avoided if possible."
+    confidence: "strong"
+    evidence: "Described as a 'workaround' motivated by technical problems of infinite sums; the paper presents temporal impartiality as a desirable default and develops tools to avoid discounting."
+
+  - claim: "Infinite futures and infinite populations are scenarios that normative theories must be able to handle, not merely dismiss as unrealistic."
+    confidence: "strong"
+    evidence: "Draws on cosmological theories suggesting spatially infinite universes, and argues that even finite-future models reintroduce infinities through probabilistic reasoning and uncertainty about hazard rates."
+
+  - claim: "State-wise dominance and Strong Pareto are foundational normative principles that should be preserved if possible."
+    confidence: "strong"
+    evidence: "These principles are used as key desiderata throughout; violations of them by existing theories are treated as serious deficiencies."
+
+distinctive_claims:
+  - claim: "Divergent sums and integrals can be assigned fine-grained infinite hyperreal values by replacing the limit-based definitions with finite sums/integrals evaluated at hyperreal bound ω."
+    centrality: "thesis"
+    key_argument: "Define ∑ to ∞ as *∑ to ω, which inherits all first-order properties of finite sums via the transfer principle, producing intuitive values like ω, 2ω, ω(ω+1)/2."
+
+  - claim: "The Fundamental Theorem of Calculus extends to the starred integral with hyperreal bounds, enabling direct evaluation of improper integrals."
+    centrality: "load-bearing"
+    key_argument: "Proved directly from the element-wise definition; this makes the theory computationally tractable and not merely a philosophical gesture."
+
+  - claim: "Ultrafilter dependence in some sums/integrals can be managed via a three-valued approach (determinately true / determinately false / indeterminate) rather than requiring a specific ultrafilter choice."
+    centrality: "load-bearing"
+    key_argument: "This middle path preserves meaningful comparisons for well-behaved cases while honestly flagging indeterminacy for oscillatory cases."
+
+  - claim: "The St Petersburg gamble has a 'lesser infinite' expected value (⌊log₂(ω)⌋), which is infinite but much smaller than ω, revealing a rich structure among distributions with divergent means."
+    centrality: "load-bearing"
+    key_argument: "Lesser infinities are beaten by any positive real chance of receiving ω value, which gives a principled way to compare divergent-mean distributions that the standard theory treats as equivalent."
+
+  - claim: "Hyperreal summation of infinite utility streams provides the same partial ordering as the overtaking criterion but additionally assigns numerical values, enabling ratio and difference comparisons."
+    centrality: "load-bearing"
+    key_argument: "The hyperreal sum satisfies Strong Pareto and Finite Anonymity simultaneously, and its partial ordering exactly matches the overtaking criterion."
+
+  - claim: "The existence of hyperreal methods for handling infinite values undermines the most common argument for bounded utility functions and for pure time preference in economics."
+    centrality: "thesis"
+    key_argument: "If the technical problems motivating bounded utility and discounting can be solved technically, there is no reason to change fundamental values or introduce temporal partiality even in finite cases."
+
+  - claim: "Numerosity (hyperreal-valued set sizes) complements Cantorian cardinality by preserving the intuition that proper subsets are strictly smaller than their supersets."
+    centrality: "supporting"
+    key_argument: "Summing the index function via hyperreal summation assigns sizes that respect subset relations and are additive under partitioning."
+
+  - claim: "The hyperreals offer 'infinite dynamic range' analogous to camera sensors — they can represent both infinite totals and finite differences simultaneously, unlike standard sums (which clip at infinity) or averages (which lose finite distinctions)."
+    centrality: "supporting"
+    key_argument: "The camera/dynamic-range analogy illustrates that standard approaches sacrifice resolution at either the infinite or finite end, while hyperreals preserve both."
+
+  - claim: "Treating infinite values with the mathematics of extended reals or cardinal numbers is a category error; most claims of 'infinite value' merely assert exceeding all finite levels, with inter-infinite comparisons requiring richer number systems."
+    centrality: "thesis"
+    key_argument: "Many paradoxes and counterintuitive results (Pascal's Wager equivalences, bijection-based arguments about infinite populations) dissolve when the coarse +∞ is replaced with fine-grained hyperreal values."
+
+  - claim: "Fanaticism (small finite chances of infinite value dominating all finite options) is not uniquely a problem of infinite cases and likely cannot be solved by how one handles the infinite."
+    centrality: "supporting"
+    key_argument: "Cites Bostrom (2009) showing analogous problems in large finite cases, suggesting fanaticism is a more general issue."
+
+positions_rejected:
+  - position: "Utility functions must be bounded to avoid paradoxes of infinite expected value."
+    why_rejected: "This is a 'controversial workaround' that changes values even in finite cases; the hyperreal approach solves the technical problems that motivated bounding, making it unnecessary."
+
+  - position: "Pure time preference / exponential discounting is necessary for evaluating infinite utility streams."
+    why_rejected: "The hyperreal sum can evaluate infinite streams without discounting while satisfying Strong Pareto and Finite Anonymity."
+
+  - position: "Cardinal numbers are the appropriate tool for comparing sizes of infinite populations or sets."
+    why_rejected: "Cardinality ignores internal structure (e.g. density), produces counterintuitive equivalences between clearly different infinite worlds, and is not designed for normative evaluation."
+
+  - position: "All distributions with infinite expected value are equivalent and incomparable."
+    why_rejected: "The hyperreal approach reveals a richer structure among infinite-mean distributions than exists among finite-mean ones, with differences that can be infinite in both magnitude and ratio."
+
+  - position: "Divergent sums and integrals are simply undefined and nothing meaningful can be said about their values."
+    why_rejected: "The hyperreal theory assigns consistent, fine-grained values that refine standard results and inherit first-order properties via the transfer principle."
+
+  - position: "The sure-thing principle must hold even in infinite contexts."
+    why_rejected: "Acknowledged as a genuine cost, but following Cain (1995), dominance arguments must fail in infinite cases; the paper tentatively accepts this as a necessary trade-off."
+
+  - position: "Non-standard analysis already does everything needed with hyperreals."
+    why_rejected: "Non-standard analysis uses hyperreals only as intermediate steps to prove standard (extended-real) results; it deliberately rounds off infinite values, passing up the opportunity to refine and extend analysis."
+
+methodological_commitments:
+  - "Mathematical construction followed by application: develops a formal theory first, then explores consequences across multiple applied domains."
+  - "Preservation of first-order properties via the transfer principle as a core design criterion for the theory."
+  - "Preference for technical solutions to technical problems rather than changing fundamental values or assumptions."
+  - "Explicit enumeration and honest assessment of limitations and open problems (six numbered challenges plus further issues)."
+  - "Use of intuitive desiderata (Strong Pareto, Finite Anonymity, dominance, linearity) as criteria for evaluating competing approaches."
+  - "Analogical reasoning (camera dynamic range metaphor) to convey conceptual points about expressiveness of number systems."
+  - "Leibnizian philosophical orientation: 'the rules of the finite succeed in the infinite' as a guiding principle, contrasted with the Cantorian approach."
+  - "Willingness to accept indeterminacy and incompleteness over false precision (the middle path on ultrafilter dependence)."
+
+cross_references:
+  - "the-lindy-effect"

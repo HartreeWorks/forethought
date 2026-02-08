@@ -1,0 +1,104 @@
+paper:
+  slug: "should-there-be-just-one-western-agi-project"
+  title: "Should There Be Just One Western AGI Project?"
+
+premises_taken_as_given:
+  - claim: "AGI will be developed and will be transformatively powerful, conferring enormous strategic advantages on whoever controls it."
+    confidence: "near-certain"
+    evidence: "The entire analysis assumes AGI development is happening and that its control has massive implications for power, global security, and the long-term future—none of this is argued for."
+
+  - claim: "The US and China are the only plausible near-term AGI developers."
+    confidence: "near-certain"
+    evidence: "Explicitly stated in footnote 1: 'Timelines are short enough that there are no plausible AGI developers outside the US and China.'"
+
+  - claim: "AI timelines are short enough that current governance decisions about project structure matter now."
+    confidence: "near-certain"
+    evidence: "The paper treats the question as urgent and practically relevant, not hypothetical; the appendix argues against complacency about inevitability."
+
+  - claim: "There is a meaningful period between human-level and superintelligent AI during which safety and governance work is particularly valuable."
+    confidence: "strong"
+    evidence: "The paper discusses the importance of being able to 'slow down or pause at the crucial time between human-level and superintelligent AI' as a key consideration."
+
+  - claim: "Recursive self-improvement / automating AI R&D could enable a decisive strategic advantage."
+    confidence: "strong"
+    evidence: "Discussed as a serious risk in the appendix on inevitability; the paper proposes countermeasures but treats the underlying dynamic as plausible."
+
+  - claim: "The long-term future is enormously valuable and the primary frame for evaluating AI governance decisions."
+    confidence: "near-certain"
+    evidence: "Risks are evaluated in terms of permanent dictatorship, pluralist futures, x-risk, and 'a lot of the value of the future'—classic longtermist framing treated as the default."
+
+  - claim: "AI takeover risk (from misalignment), proliferation risk, and coup/dictatorship risk are the key catastrophic risk categories from AGI."
+    confidence: "near-certain"
+    evidence: "These three categories structure the entire analysis without being argued for as the right taxonomy."
+
+  - claim: "It matters who develops AGI first (US vs. China), at least on many people's views."
+    confidence: "strong"
+    evidence: "The paper repeatedly analyzes effects on US-China race dynamics and treats 'US developing AGI before China' as a significant consideration, though it doesn't strongly endorse this view itself."
+
+  - claim: "Model weight security is a critical variable for AI safety and geopolitical outcomes."
+    confidence: "near-certain"
+    evidence: "Infosecurity is one of the three main analytical dimensions, with detailed discussion of weight theft scenarios."
+
+distinctive_claims:
+  - claim: "It is very unclear whether centralizing western AGI development would be net good or net bad."
+    centrality: "thesis"
+    key_argument: "The sign of centralization is ambiguous across all key variables (racing, infosecurity, power concentration), and the trade-offs between risk categories are extremely hard to weigh."
+
+  - claim: "Centralization is probably net bad, primarily because of risks from power concentration."
+    centrality: "thesis"
+    key_argument: "Power concentration from a single project—removing competing projects, reducing global access to AI, increasing USG integration—creates risks of permanent dictatorship and reduced pluralism that probably outweigh benefits to racing and infosecurity."
+
+  - claim: "The best path forward is to pursue interventions that are robustly good under either single or multiple project scenarios, rather than to push for centralization per se."
+    centrality: "thesis"
+    key_argument: "The variation between good and bad versions of either scenario is more significant than the variation between centralized vs. decentralized, so effort should go to improving governance structures for both."
+
+  - claim: "Centralization of western AGI development is not inevitable."
+    centrality: "load-bearing"
+    key_argument: "Economies of scale don't necessarily push to a single project if revenues exceed costs; DSA can be prevented with oversight and weight-sharing; government involvement doesn't require centralization."
+
+  - claim: "Competition between AGI projects can create 'races to the top' on safety, not just races to the bottom."
+    centrality: "load-bearing"
+    key_argument: "Competition creates incentives to scrutinize competitors, publish safety work, and develop safer systems for consumers—partially counteracting the race-to-the-bottom narrative."
+
+  - claim: "Centralizing US AGI could intensify US-China racing rather than reduce it, because China would likely accelerate in response."
+    centrality: "load-bearing"
+    key_argument: "A US centralization move could prompt Chinese centralization, attempts to blockade Taiwan, or intensified espionage, potentially shrinking or eliminating any lead gained."
+
+  - claim: "A centralized project would face stronger motivation for attacks even if it has a smaller attack surface, making the net infosecurity effect unclear."
+    centrality: "load-bearing"
+    key_argument: "Reducing the number of targets increases the stakes of attacking each one, potentially provoking larger and earlier attacks that offset the benefit of consolidation."
+
+  - claim: "Robust checks and balances on a single project would be less reliable than competition between multiple projects, because they would be policy-based rather than structurally enforced by competitive survival."
+    centrality: "load-bearing"
+    key_argument: "Market mechanisms and governance constraints on a monopoly can be reversed once the monopoly has sufficient power, whereas competitive pressure is self-enforcing."
+
+  - claim: "The probability-weighted impact of power concentration / permanent dictatorship risk may be comparable to or exceed that of AI takeover from misalignment."
+    centrality: "supporting"
+    key_argument: "The authors state p(doom) from misalignment is <10% and express doubt that misalignment risk dominates power concentration risk, though they haven't modeled this formally."
+
+positions_rejected:
+  - position: "Centralization of western AGI development is clearly good and should be actively pursued."
+    why_rejected: "The paper's central argument is that confidence in this direction is unwarranted given deep uncertainty about effects on racing, infosecurity, and power concentration."
+
+  - position: "Centralization is inevitable, so we should focus only on getting a good version of it."
+    why_rejected: "The appendix argues that economies of scale don't necessarily push to one project, DSA can be prevented, and government involvement doesn't require centralization."
+
+  - position: "AI misalignment / takeover risk clearly dominates all other considerations in AGI governance."
+    why_rejected: "The authors explicitly note their p(doom) from misalignment is <10% and argue that power concentration risks—including permanent dictatorship—may be comparably important."
+
+  - position: "A single project would clearly have better infosecurity."
+    why_rejected: "While a single project has less attack surface, it also motivates more serious attacks; USG can provide or mandate strong infosecurity for multiple projects; a sufficiently large single project could have more total attack surface."
+
+  - position: "Racing between western companies is so dangerous that it alone justifies centralization."
+    why_rejected: "Regulation can mitigate inter-company racing; races to the top on safety partially offset races to the bottom; the counterfactual of well-regulated multiple projects may not be that bad."
+
+methodological_commitments:
+  - "Qualitative strategic analysis using scenario comparison rather than formal modeling or quantitative estimates."
+  - "Systematic consideration of both directions of key variables (could go either way) rather than arguing for a single conclusion."
+  - "Explicit uncertainty acknowledgment: the paper flags its own tentative status and lists concrete ways the best guess could be wrong."
+  - "Expected value reasoning across multiple catastrophic risk categories (AI takeover, proliferation, power concentration, coup risk)."
+  - "Structural/institutional analysis: evaluating how competitive dynamics, government integration, and market mechanisms shape outcomes rather than focusing on technical AI properties."
+  - "Longtermist risk framing: evaluating interventions based on their impact on permanent/irreversible outcomes (permanent dictatorship, pluralist futures, x-risk)."
+  - "Robustness-seeking: preferring interventions that are good across multiple scenarios over interventions that optimize for one scenario."
+
+cross_references: []

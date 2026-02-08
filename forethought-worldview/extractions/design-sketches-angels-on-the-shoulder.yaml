@@ -1,0 +1,85 @@
+paper:
+  slug: "design-sketches-angels-on-the-shoulder"
+  title: "Design Sketches: Angels-on-the-Shoulder"
+
+premises_taken_as_given:
+  - claim: "There is a persistent and significant gap between how well people could make decisions and how well they actually do."
+    confidence: "near-certain"
+    evidence: "Stated flatly as the primary motivation without arguing for it; treated as obvious ('Many costly issues involve someone making what looks in retrospect like an obviously bad call')."
+
+  - claim: "AI will be transformative and near-term AI systems are already or will soon be capable enough to meaningfully assist human decision-making."
+    confidence: "near-certain"
+    evidence: "The entire paper is premised on building practical AI-powered tools; feasibility sections discuss when capabilities will be sufficient, not whether they will be."
+
+  - claim: "Humanity is navigating a critical period where decisions could shape the long-term future, and the quality of those decisions matters enormously."
+    confidence: "near-certain"
+    evidence: "Linked to 'the choice transition' without arguing for it; treated as shared background between authors and audience."
+
+  - claim: "Current social media recommender systems are misaligned with users' genuine interests due to engagement-optimization and ad-based incentive structures."
+    confidence: "near-certain"
+    evidence: "Stated as established fact with external citations; no space devoted to defending it."
+
+  - claim: "People have 'endorsed' or 'considered' values that are meaningfully distinct from their revealed preferences in the moment, and the former should be privileged."
+    confidence: "strong"
+    evidence: "The entire framework depends on this distinction (e.g. 'what people would actually endorse focusing on' vs. what they click on), but the paper doesn't argue for it philosophically, merely gestures at it."
+
+  - claim: "Gradual human disempowerment through AI decision-outsourcing is a real risk to be avoided."
+    confidence: "strong"
+    evidence: "Linked to gradual-disempowerment.ai as motivation for keeping humans in the loop; presented as a known concern rather than argued for."
+
+  - claim: "Improving individual and collective decision quality is a tractable lever for reducing major AI risks."
+    confidence: "strong"
+    evidence: "Stated as a key motivation ('this technology might help us to avoid the major AI risks we're facing') but acknowledged as insufficient on its own."
+
+distinctive_claims:
+  - claim: "A cluster of 'angels-on-the-shoulder' technologies—aligned recommenders, personalised learning, deep briefing, reflection scaffolding, and guardian angels—represents a coherent and high-value design space for near-term AI development."
+    centrality: "thesis"
+    key_argument: "Each technology addresses a different facet of the decision-quality gap (information, situational awareness, values-alignment); together they form a unified approach to helping people make decisions they'd endorse."
+
+  - claim: "The right goal for AI-assisted decision support is 'endorsement later' rather than satisfaction in the moment—systems should optimize for what users would reflectively approve of, not what they immediately prefer."
+    centrality: "load-bearing"
+    key_argument: "This principle distinguishes every proposed system from existing engagement-optimized tools; it's the core normative criterion for 'alignment' in this context (e.g. content rated 'a few days later' as nourishing, guardian angels optimizing for 'endorsement later, not momentary impulse')."
+
+  - claim: "These tools should be empowering rather than constraining—providing information and scaffolding rather than making decisions for people or restricting their choices."
+    centrality: "load-bearing"
+    key_argument: "Explicitly distinguished from 'fallen angel' variants that constrain or manipulate; motivated by both the value of autonomy and the risk of gradual disempowerment."
+
+  - claim: "It is generally better if people make decisions that are better by their own lights, even when those decisions may be bad for the world."
+    centrality: "supporting"
+    key_argument: "Stated directly as a considered normative position ('Overall we are inclined to the view that...'), acknowledging the tension but coming down on the side of respecting individual autonomy."
+
+  - claim: "Specialized, purpose-built AI tools with dedicated UIs and context ingestion may meaningfully outperform general-purpose chatbots for decision support, though this is uncertain."
+    centrality: "supporting"
+    key_argument: "The paper hedges repeatedly on whether dedicated tools beat chatbots, but argues that UI design, expert fine-tuning, better context ingestion, and retrospective measurement could make dedicated tools worthwhile."
+
+  - claim: "Adoption should start with high-demand niches where users are dissatisfied with existing options and willing to tolerate early-stage products."
+    centrality: "supporting"
+    key_argument: "Repeated across multiple technology sketches as a practical strategy for overcoming cold-start and trust problems."
+
+positions_rejected:
+  - position: "AI should make decisions for people rather than help them decide."
+    why_rejected: "Risks gradual disempowerment of humanity; the paper explicitly frames its tools as empowering rather than replacing human agency."
+
+  - position: "Engagement-optimized recommender systems adequately serve users' interests."
+    why_rejected: "They track short-term engagement rather than long-term endorsement, leading to unhealthy patterns like doom-scrolling; misaligned incentives from ad-based models."
+
+  - position: "'Fallen angel' variants that constrain or manipulate choices are acceptable."
+    why_rejected: "Explicitly flagged as close but undesirable relatives of the proposed technologies; distinguished on grounds of user empowerment vs. manipulation."
+
+  - position: "These tools should be withheld because people might make endorsed decisions that are bad for the world."
+    why_rejected: "The authors acknowledge this possibility but explicitly state they are 'inclined to the view that it's better if people generally make decisions that are better by their own lights.'"
+
+  - position: "Standard chatbots are already sufficient for these use cases, making dedicated tools unnecessary."
+    why_rejected: "Not fully rejected but treated as a live possibility; the paper argues there is 'scope for specialized systems to perform better' through better UI, context ingestion, expert data, and retrospective measurement."
+
+methodological_commitments:
+  - "Design thinking / speculative product design: the paper produces concrete 'design sketches' of imagined technologies rather than formal models or empirical analysis."
+  - "Practical orientation: each technology section ends with 'possible starting points // concrete projects,' indicating a focus on inspiring builders rather than purely academic analysis."
+  - "Normative reasoning grounded in 'endorsement': the paper's evaluative framework centers on what people would reflectively endorse, not revealed preferences or welfare metrics."
+  - "Qualitative feasibility assessment: each sketch includes informal analysis of technical and adoption challenges without formal cost-benefit calculations."
+  - "Broad stakeholder imagination: the paper considers adoption pathways, incentive landscapes, market dynamics, and trust-building as integral to the design space, not just technical capability."
+  - "Collaborative and iterative process: the paper acknowledges multiple rounds of development, AI assistance in preparation, and extensive feedback from a large group of named contributors."
+
+cross_references:
+  - "design-sketches-collective-epistemics"
+  - "design-sketches-for-a-more-sensible-world"

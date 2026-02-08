@@ -1,0 +1,60 @@
+paper:
+  slug: "overview-international-organisations-voting-structures"
+  title: "An overview of some international organisations, with their voting structures"
+
+premises_taken_as_given:
+  - claim: "The governance structure of international organisations is a critical design variable with major consequences for effectiveness, legitimacy, and participation"
+    confidence: "near-certain"
+    evidence: "The entire paper is structured around cataloguing and analysing voting rules as important design choices, without arguing that governance design matters"
+  - claim: "Historical precedents from international organisations are relevant and informative for designing governance of AGI development"
+    confidence: "near-certain"
+    evidence: "The paper is part of the 'international AGI project series' and repeatedly evaluates organisations as analogies for AI governance (IAEA, Intelsat, ITER), treating this relevance as given"
+  - claim: "AGI development will require some form of international institutional governance"
+    confidence: "strong"
+    evidence: "The paper's existence within the series and its focus on extracting design lessons for AI governance presuppose this; the paper never argues for the need itself"
+  - claim: "The US will be the leading actor in AGI development and its participation in any governance arrangement is essential"
+    confidence: "strong"
+    evidence: "The paper consistently evaluates organisations from the perspective of whether powerful states (especially the US) would join, and highlights the ISA's failure to attract the US as a cautionary tale"
+  - claim: "Weighted voting among Western allies is likely feasible for an AGI governance body"
+    confidence: "strong"
+    evidence: "The paper tentatively argues this based on evidence that opposition to weighted voting comes mainly from developing nations, and that UK/Netherlands have recently joined weighted-voting orgs"
+
+distinctive_claims:
+  - claim: "Weighted voting is controversial primarily among developing nations, not among Western allies, making it a feasible mechanism for a US-led coalition governing AGI"
+    centrality: "load-bearing"
+    key_argument: "Historical opposition to weighted voting came from developing countries; UK and Netherlands have recently joined weighted-voting orgs (AIIB, ESM) without major objections, suggesting Western allies would accept it"
+  - claim: "Intelsat is a particularly instructive model for AGI governance because it shows a dominant power (the US) voluntarily trading some control for the legitimacy and strategic benefits of multilateralism"
+    centrality: "load-bearing"
+    key_argument: "The US could have built satellite communications unilaterally but chose a multilateral structure with weighted voting for PR and strategic benefits; this parallels the AGI case where allies are even more needed"
+  - claim: "International organisations' voting rules are typically 'hacky' products of specific negotiations rather than principled designs, suggesting that pragmatic negotiation rather than ideal theory should guide AGI governance design"
+    centrality: "supporting"
+    key_argument: "Multiple examples cited (Council of EU Treaty of Nice, ISA's four-chamber system, Intelsat's time-decaying supermajority thresholds) show rules emerging from ad hoc bargaining"
+  - claim: "The strictest voting rules (unanimity or high supermajorities) cluster around hard power issues (money, security) and constitutional amendments, suggesting AGI governance should reserve strict rules for analogous high-stakes decisions"
+    centrality: "supporting"
+    key_argument: "Cross-cutting pattern observed across ISA (unanimity for benefit distribution), IMF (85% for quota changes), NATO (unanimity), EU (unanimity for tax/security)"
+  - claim: "The IAEA model has significant weaknesses as an analogy for AI governance, particularly around verification difficulty, speed of development, and the centrality of private actors"
+    centrality: "supporting"
+    key_argument: "AI systems are harder to verify than nuclear materials, IAEA developed too slowly for AI timelines, and AI development is led by private companies rather than states"
+
+positions_rejected:
+  - position: "IAEA-style governance can straightforwardly transfer to AI"
+    why_rejected: "AI systems are black boxes harder to verify than nuclear materials, AI development is faster than IAEA's pace, and key actors are private companies not states"
+  - position: "Democratic legitimacy of founding members determines the choice of voting rules in international organisations"
+    why_rejected: "Blake and Payton (2015) find no significant correlation between founding members' democracy levels and voting rule choice"
+  - position: "Consensus/unanimity decision-making maximises institutional effectiveness"
+    why_rejected: "Empirical evidence from Panke et al. (2022) shows consensus rules decrease perceived problem-solving effectiveness; theoretical analysis shows high decision costs and gridlock"
+  - position: "One-size-fits-all voting rules are appropriate for international organisations"
+    why_rejected: "The paper repeatedly emphasises that organisations use different rules for different bodies and issue types, and that the strictest rules should be reserved for the most consequential decisions"
+
+methodological_commitments:
+  - "Informal literature review drawing on international law, political science, and IR scholarship, with explicit acknowledgment of limitations (~20 hours, not domain expert)"
+  - "Comparative institutional analysis: systematically cataloguing and classifying organisations by structural features to identify empirical patterns"
+  - "Historical case study reasoning: tracing the evolution of voting rules over time to understand path dependencies and feasibility constraints"
+  - "Explicit use of LLM-assisted research, acknowledged transparently"
+  - "Pragmatic analogical reasoning: evaluating historical organisations for lessons applicable to AGI governance, with attention to both analogies and disanalogies"
+  - "Trade-off analysis framing: consistently presenting voting rules in terms of decision costs vs. exploitation costs, rather than seeking optimal designs"
+
+cross_references:
+  - "intelsat-as-a-model-for-international-agi-governance"
+  - "a-global-convention-to-govern-the-intelligence-explosion"
+  - "the-un-charter-a-case-study-in-international-governance"

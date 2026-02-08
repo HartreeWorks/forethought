@@ -1,0 +1,63 @@
+paper:
+  slug: "the-international-agi-project-series"
+  title: "The International AGI Project Series"
+
+premises_taken_as_given:
+  - claim: "AGI will be developed and will be transformative enough to warrant major international governance efforts"
+    confidence: "near-certain"
+    evidence: "The entire series presupposes AGI development as a near-term policy problem requiring institutional design now, with no space given to arguing AGI is coming."
+  - claim: "The US is and will remain the leading AGI developer, such that any international project must be US-led or US-compatible"
+    confidence: "near-certain"
+    evidence: "The core proposal is structured around giving non-US countries 'meaningful influence over only a relatively small number of decisions' while 'letting the US call the shots day to day.'"
+  - claim: "An intelligence explosion (recursive AI self-improvement) is a realistic possibility worth planning around"
+    confidence: "strong"
+    evidence: "A dedicated paper argues that the possibility of intelligence explosion makes international collaboration more desirable; a convention is proposed to be triggered by capability thresholds."
+  - claim: "Unilateral development of AGI (by any single actor) poses catastrophic risks that international collaboration would significantly reduce"
+    confidence: "strong"
+    evidence: "The series frames US-only development as a baseline that the proposal aims to improve upon in terms of catastrophic risk reduction."
+  - claim: "AGI governance is a problem that can and should be addressed through institutional design informed by historical precedents"
+    confidence: "near-certain"
+    evidence: "The entire series is structured around learning from Intelsat, the UN Charter, and other international organisations."
+
+distinctive_claims:
+  - claim: "The best version of an international AGI project is an 'Intelsat for AGI'—US-led, with circumscribed non-US influence over a small number of key decisions, plus broad benefit sharing"
+    centrality: "thesis"
+    key_argument: "Limiting non-US influence to specific decisions makes the project unusually feasible compared to other international project proposals, while still significantly reducing catastrophic risk vs. US-only development."
+  - claim: "Intelsat is a better historical model for international AGI governance than the Manhattan Project or CERN, because AGI is a general-purpose, primarily commercial technology"
+    centrality: "load-bearing"
+    key_argument: "Existing scholarship defaults to military (Manhattan) or scientific (CERN) analogues, but AGI's commercial nature makes Intelsat—a multilateral project for commercially and strategically important technology—a more apt precedent."
+  - claim: "The first AGI project could organically become a de facto world government if there is a large enough intelligence explosion"
+    centrality: "load-bearing"
+    key_argument: "This possibility strengthens the case for multilateral democratic governance, interim institutional arrangements, and credible sovereignty reassurances for non-participating countries."
+  - claim: "International AGI projects should limit only the most dangerous AI capabilities (especially AI R&D capabilities) while promoting beneficial ones like forecasting and ethical deliberation"
+    centrality: "supporting"
+    key_argument: "Differential development—restricting dangerous capabilities while promoting helpful ones—could increase risk-handling capacity, reduce race incentives, and improve industry buy-in; though technical feasibility is uncertain."
+  - claim: "A threshold-triggered international convention with a one-month US pause on frontier AI development would be a feasible preparatory mechanism for governing an intelligence explosion"
+    centrality: "supporting"
+    key_argument: "There is currently no plan for navigating an intelligence explosion; a pre-agreed trigger mechanism could create the political window needed for rapid treaty-making."
+
+positions_rejected:
+  - position: "The Manhattan Project or CERN are the best historical models for international AGI governance"
+    why_rejected: "AGI is fundamentally a general-purpose, commercially oriented technology, making these military/scientific analogues poor fits; Intelsat better captures the relevant dynamics."
+  - position: "An international AGI project requires equal or fully democratic governance among all participating nations"
+    why_rejected: "Full multilateral governance would be infeasible and likely to produce bureaucratic paralysis; circumscribed non-US influence is presented as both more realistic and more effective."
+  - position: "All frontier AI development should be equally restricted within an international project"
+    why_rejected: "Some AI capabilities actively help with risk management; blanket restrictions would reduce capacity to handle risk and alienate industry."
+  - position: "AGI governance can be left to market forces or individual national regulation"
+    why_rejected: "Implicit throughout: the stakes (including de facto world government scenarios and catastrophic risk) are too high for uncoordinated approaches."
+
+methodological_commitments:
+  - "Historical analogy as a primary method: detailed case studies of Intelsat, the UN Charter, and other international organisations are used to derive institutional design principles."
+  - "Feasibility-constrained institutional design: proposals are explicitly shaped by what is politically achievable, not just what is theoretically ideal."
+  - "Scenario-based reasoning: considering intelligence explosion scenarios and de facto world government outcomes to stress-test governance proposals."
+  - "Differential technology assessment: distinguishing between dangerous and beneficial AI capabilities rather than treating AI development monolithically."
+  - "Iterative research disclosure: the series is published as work-in-progress rather than polished conclusions, suggesting a commitment to epistemic transparency and intellectual humility."
+
+cross_references:
+  - "what-an-international-project-to-develop-agi-should-look-like"
+  - "intelsat-as-a-model-for-international-agi-governance"
+  - "agi-and-world-government"
+  - "international-ai-projects-and-differential-ai-development"
+  - "a-global-convention-to-govern-the-intelligence-explosion"
+  - "an-overview-of-some-international-organisations-with-their-voting-structures"
+  - "the-un-charter-a-case-study-in-international-governance"

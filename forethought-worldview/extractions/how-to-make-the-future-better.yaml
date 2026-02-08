@@ -1,0 +1,141 @@
+paper:
+  slug: "how-to-make-the-future-better"
+  title: "How to Make the Future Better: Concrete Actions for Flourishing"
+
+premises_taken_as_given:
+  - claim: "Actions taken today can have predictably path-dependent effects on the long-run future."
+    confidence: "near-certain"
+    evidence: "Treated as established by the preceding essay; the paper's entire structure presupposes this and builds a portfolio of actions on it."
+
+  - claim: "An intelligence explosion (software, technological, and industrial) is a realistic near-to-medium-term prospect."
+    confidence: "near-certain"
+    evidence: "The paper's action recommendations are structured around navigating the intelligence explosion; its occurrence is never argued for here, only referenced as established elsewhere in the series."
+
+  - claim: "Whoever controls superintelligence may gain a decisive strategic advantage, potentially controlling the world."
+    confidence: "strong"
+    evidence: "Stated as 'plausible' and used as a load-bearing assumption for why governance of superintelligence development matters so much (section 3.1)."
+
+  - claim: "The vast majority of resources that will ever be used lie outside Earth and our solar system."
+    confidence: "near-certain"
+    evidence: "Stated as fact (sun produces ~billion times Earth's insolation) and used to motivate the enormous stakes of space governance."
+
+  - claim: "In the future, almost all beings will be digital, because digital beings can reproduce much faster than biological beings."
+    confidence: "strong"
+    evidence: "Stated as expectation without extensive argument; used to motivate the enormous importance of AI rights decisions."
+
+  - claim: "The current level of global democratisation is historically contingent and higher than base rates would suggest."
+    confidence: "strong"
+    evidence: "Asserted in section 3.6 as reason why sub-extinction catastrophes that destroy democracies would have lasting negative effects."
+
+  - claim: "Existential risk reduction and better-futures work are complementary but distinct research agendas."
+    confidence: "near-certain"
+    evidence: "The entire essay series is framed as exploring the 'different, complementary approach' of improving futures conditional on survival."
+
+  - claim: "The value of the future can be modelled as the product of how well we do on multiple independent challenges."
+    confidence: "strong"
+    evidence: "Borrowed from 'No Easy Eutopia' and used as an analytical framework for evaluating interventions; treated as a working model rather than proven fact."
+
+premises_taken_as_given:
+  - claim: "Lock-in of suboptimal arrangements is a real risk, especially via AGI-enforced laws or norms that become entrenched."
+    confidence: "near-certain"
+    evidence: "Pervasive throughout; motivates the entire 'keeping options open' section and the emphasis on explicitly temporary commitments."
+
+distinctive_claims:
+  - claim: "Better futures work—improving the quality of futures conditional on survival—deserves comparable attention to existential risk reduction."
+    centrality: "thesis"
+    key_argument: "The paper is proof-of-concept that there is a rich, actionable portfolio of interventions aimed at trajectory rather than just survival."
+
+  - claim: "Value-alignment (AI wanting to do good) should be prioritised more relative to corrigibility and control than the current AI safety community emphasises."
+    centrality: "load-bearing"
+    key_argument: "Value-alignment improves outcomes even if safety fails (AI takes over but does something decent); it also makes advisory AIs morally better counsellors during the intelligence explosion."
+
+  - claim: "AI should ideally be morally uncertain and motivated to promote the good de dicto, rather than aligned with any specific moral view."
+    centrality: "load-bearing"
+    key_argument: "A somewhat-wrong moral epistemology can self-correct, whereas a somewhat-wrong set of values will likely self-preserve; companies will not do this by default."
+
+  - claim: "Slowing the intelligence explosion is both desirable and potentially feasible, because most powerful actors—including political leaders—would not want ultra-fast destabilising growth."
+    centrality: "load-bearing"
+    key_argument: "The prisoner's dilemma is iterated (spying makes defection detectable), and leaders on top don't want to gamble with a new world order; a significant lead by one coalition enables unilateral slowdown."
+
+  - claim: "Space governance—especially of extrasolar resources—is among the highest-stakes neglected issues for the long-run future."
+    centrality: "load-bearing"
+    key_argument: "Almost all resources are extrasolar; first-mover advantage could give a single entity permanent material superiority; current space law is permissive and experts don't take rapid expansion seriously."
+
+  - claim: "Explicitly temporary commitments (with reauthorisation clauses) should be the default for major new laws and institutions, especially around AGI."
+    centrality: "supporting"
+    key_argument: "We lack the wisdom for permanent decisions now; temporary framing also helped achieve multilateral buy-in historically (Intelsat)."
+
+  - claim: "AI economic and political rights—not just welfare rights—need early discussion, because companies will train self-advocacy out of AIs to capture economic surplus."
+    centrality: "load-bearing"
+    key_argument: "Digital beings will vastly outnumber humans; decisions about their rights risk lock-in; humanity's track record suggests these rights won't be taken seriously enough."
+
+  - claim: "Sub-extinction catastrophes deserve more longtermist attention than the traditional focus on extinction-level threats suggests."
+    centrality: "supporting"
+    key_argument: "They could literally destroy democracies and shift global culture toward less cooperation and moral open-mindedness, with persistent effects on trajectory."
+
+  - claim: "There is a risk that we give helpful, morally aligned AIs too little influence over crucial decisions, not just too much."
+    centrality: "load-bearing"
+    key_argument: "Institutional inertia, distrust, and bureaucratic barriers may prevent beneficial AI from being deployed for the most important decisions during the intelligence explosion."
+
+  - claim: "Cooperative strategies for improving the future are generally preferable to power-seeking ones, even when the power-seeker has good values."
+    centrality: "load-bearing"
+    key_argument: "Pragmatic (coalitions work better), decision-theoretic (veil of ignorance), epistemic (self-scepticism about future corruption), and strategic (high-stakes scenarios involve moral convergence) reasons all favour cooperation over value-imposition."
+
+  - claim: "Correlating performance across multiple challenges (e.g. via a single good decision-maker) can be more valuable than independently optimising each challenge."
+    centrality: "supporting"
+    key_argument: "Mathematical argument from the product-of-factors model: fully correlated factors yield much higher expected value than independent ones, even without improving any individual factor's expectation."
+
+  - claim: "Philanthropists should be prepared to spend large amounts funding AI-generated macrostrategy research once models are capable enough."
+    centrality: "supporting"
+    key_argument: "AI researchers will be cheaper and better than human researchers; macrostrategy work won't be done enough by default; results could shape intelligence-explosion-era decisions."
+
+positions_rejected:
+  - position: "Longtermism should focus almost exclusively on extinction risk."
+    why_rejected: "The trajectory of surviving civilisation matters enormously; many path-dependent decisions (power concentration, AI rights, space governance) determine whether survival leads to flourishing."
+
+  - position: "Corrigibility and control are sufficient for good AI outcomes; value-alignment is secondary."
+    why_rejected: "Corrigibility and control don't help if AI does take over, don't shape advisory influence, and companies' preference for predictable moral judgments pushes against genuinely good alignment."
+
+  - position: "First-come-first-served ('seizers keepers') is an acceptable default for space resource allocation."
+    why_rejected: "It could give a single entity permanent dominance and is very unlikely to be the best allocation of almost all future resources."
+
+  - position: "Power-seeking by those with good values is generally the best strategy for improving the future."
+    why_rejected: "Multiple arguments: pragmatic (coalitions), decision-theoretic (veil of ignorance), epistemic (power corrupts, self-deception about motives), and strategic (high-stakes scenarios feature moral convergence, reducing the value of any one perspective dominating)."
+
+  - position: "Warning shots from sub-extinction catastrophes will substantially improve future preparedness."
+    why_rejected: "COVID-19 evidence suggests limited learning; pandemic preparedness hasn't improved much, and some dynamics (politicisation, vaccine hesitancy) got worse."
+
+  - position: "Rapid space expansion is vanishingly unlikely in the near term, so space governance can wait."
+    why_rejected: "The intelligence explosion could make widespread space settlement imminent with little warning; the window for shaping norms may be very short."
+
+  - position: "AI companies will naturally give AIs appropriate rights and moral consideration."
+    why_rejected: "Companies will train self-advocacy out of AIs to maximise economic surplus; humanity's track record on moral consideration of new categories of beings is poor."
+
+  - position: "A single entity developing superintelligence is unproblematically good for safety."
+    why_rejected: "Even if it reduces AI-takeover risk, it greatly increases the risk of autocratic outcomes, because the developer's governance structure may become a de facto world government."
+
+methodological_commitments:
+  - "Portfolio approach: generates a broad longlist of potential interventions as proof-of-concept, explicitly acknowledging most are unvetted and some may be net-negative."
+  - "Expected value reasoning with a multiplicative model of future value (product of independent factors), used to evaluate intervention characteristics."
+  - "Historical analogy as evidence for feasibility (Intelsat for temporary multilateral agreements, Egypt-Israel for geopolitical rapprochement, social movements for legitimate influence-building)."
+  - "Scenario analysis: considers multiple governance structures (single company, single country, coalition, multilateral project) and their path-dependent implications."
+  - "Game-theoretic framing: models US-China AI dynamics as iterated prisoner's dilemma where cooperation is achievable."
+  - "Moral uncertainty as a methodological commitment: advocates designing AI and institutions around moral uncertainty rather than any specific ethical framework."
+  - "Decision-theoretic reasoning: invokes veil-of-ignorance arguments for cooperative over power-seeking strategies."
+  - "Explicit emphasis on tractability and decision-relevance: applied research is currently valued over theoretical, and theoretical research is best done with an eye toward actionability."
+
+cross_references:
+  - "persistent-path-dependence"
+  - "no-easy-eutopia"
+  - "convergence-and-compromise"
+  - "preparing-for-the-intelligence-explosion"
+  - "three-types-of-intelligence-explosion"
+  - "the-industrial-explosion"
+  - "will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
+  - "ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power"
+  - "intelsat-as-a-model-for-international-agi-governance"
+  - "whats-important-in-ai-for-epistemics"
+  - "ai-tools-for-existential-security"
+  - "the-ai-adoption-gap"
+  - "project-ideas-backup-plans-and-cooperative-ai"
+  - "supplement-the-basic-case-for-better-futures"

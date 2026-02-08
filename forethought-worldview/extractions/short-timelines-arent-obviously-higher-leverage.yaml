@@ -1,0 +1,109 @@
+paper:
+  slug: "short-timelines-arent-obviously-higher-leverage"
+  title: "Short Timelines Aren't Obviously Higher-Leverage"
+
+premises_taken_as_given:
+  - claim: "AI will be transformative and there will be an 'intelligence explosion' of some form"
+    confidence: "near-certain"
+    evidence: "The entire analysis is structured around scenarios for 'fully automated AI R&D' leading to ASI; the intelligence explosion is never argued for, only its timing and character."
+
+  - claim: "AI takeover (loss of human control to AI systems) is a significant risk worth dedicating substantial resources to preventing"
+    confidence: "near-certain"
+    evidence: "AI takeover risk is treated as a baseline category of impact throughout; its reality is never questioned, only its magnitude across timelines."
+
+  - claim: "The long-term future has enormous expected value and longtermist impact assessment is the right framework for resource allocation"
+    confidence: "near-certain"
+    evidence: "The entire analysis frames decisions in terms of impact on the 'value of the future' over cosmological timescales, with no justification offered for this framing."
+
+  - claim: "There is a meaningful AI safety community with significant financial resources and influence over frontier AI labs"
+    confidence: "near-certain"
+    evidence: "Taken as background context: 'The AI safety community is currently closely connected to leading AI projects' and 'the AI safety community will be fairly rich due to investments in frontier AI safety companies.'"
+
+  - claim: "The US currently leads in AI development and controls key hardware supply chains"
+    confidence: "near-certain"
+    evidence: "Stated as fact in the short timelines scenario description without argument."
+
+  - claim: "A 'near-best future' requires avoiding extreme power concentration, catastrophic risks, value lock-in, and reflection/aggregation failures"
+    confidence: "strong"
+    evidence: "The appendix BOTEC decomposes the value of the future into these components, treating them as the key threats without extensively arguing for this decomposition."
+
+  - claim: "Faster takeoff speeds are generally more dangerous and harder for institutions to manage"
+    confidence: "strong"
+    evidence: "Treated as a key driver throughout: 'faster takeoff gives human decision-makers and institutions less time to react'; argued for briefly but mostly assumed."
+
+  - claim: "China controlling more of the future is bad for expected value"
+    confidence: "strong"
+    evidence: "Chinese influence is consistently treated as a factor that reduces the value of the future, with authoritarian governance assumed to increase concentration of power and reduce reflection quality."
+
+  - claim: "Value lock-in is a feasible and significant risk during the intelligence explosion"
+    confidence: "strong"
+    evidence: "Listed as one of the key challenges without extended argument; references other Forethought work on the topic."
+
+distinctive_claims:
+  - claim: "When assessing which timeline scenarios are highest leverage, you must account for the default value of the future conditional on avoiding AI takeover, not just the magnitude of risk reduction achievable"
+    centrality: "thesis"
+    key_argument: "The standard argument that short timelines are higher leverage focuses only on neglectedness and tractability of risk reduction, but ignores that the value of succeeding at risk reduction varies across timelines. This is the paper's core conceptual contribution."
+
+  - claim: "Medium timelines (~2035) produce the highest default value of the future conditional on no AI takeover, not short or long timelines"
+    centrality: "thesis"
+    key_argument: "Short timelines have high power concentration risk from rapid takeoff; long timelines have high risk from Chinese dominance and accumulated pre-ASI catastrophic risk. Medium timelines balance these, yielding ~30-50% higher expected value than short timelines."
+
+  - claim: "Direct workers should focus on short timelines but funders should focus on medium timelines for AI takeover reduction work"
+    centrality: "thesis"
+    key_argument: "Short timelines are talent-bottlenecked (high-context people can drive outsized risk reduction), but medium timelines allow funders to deploy large capital more productively, especially via scalable AI labor."
+
+  - claim: "Trajectory impact work (improving value conditional on no takeover) should focus on long timelines (~2045)"
+    centrality: "thesis"
+    key_argument: "The default probability of surviving AI takeover is higher on longer timelines, which multiplies the value of trajectory improvements; and strategic understanding improves with time."
+
+  - claim: "Longer timelines likely mean slower takeoff, and this relationship is important for risk assessment"
+    centrality: "load-bearing"
+    key_argument: "Different AI improvement feedback loops operate at different speeds; faster ones are automated earlier, so shorter timelines correlate with software-driven, rapid intelligence explosions."
+
+  - claim: "The AI safety community's current proximity to frontier labs is a form of leverage that depreciates on longer timelines"
+    centrality: "load-bearing"
+    key_argument: "Government control becomes more likely as timelines lengthen, and influence over a government AI project is harder to maintain than influence over current lab leadership."
+
+  - claim: "Pre-ASI period carries unusually high 'state risk' and spending fewer years in it favors shorter timelines on one margin"
+    centrality: "supporting"
+    key_argument: "Early AI capabilities increase annual catastrophic risk (bio, conflict) before ASI can implement preventive measures; longer timelines mean more years of elevated risk."
+
+  - claim: "The current LLM paradigm might be unusually safe because pretraining on human text gives AI a deep understanding of human values"
+    centrality: "supporting"
+    key_argument: "This is a countervailing consideration against the default expectation that longer timelines reduce takeover risk; short timelines are more likely to produce ASI from the current paradigm."
+
+  - claim: "Wider proliferation of AI capabilities before the intelligence explosion is weakly net positive"
+    centrality: "supporting"
+    key_argument: "AI adoption could improve government decision-making and biodefense, though it also risks worsening epistemics and enabling bioweapons; the authors weakly expect benefits to outweigh costs."
+
+positions_rejected:
+  - position: "Short timelines are straightforwardly higher leverage because they are more neglected and riskier"
+    why_rejected: "This argument ignores two key factors: (1) the default value of the future conditional on avoiding takeover varies by timeline, and (2) resource growth and strategic understanding compound over time, making longer timelines more tractable for certain resource types."
+
+  - position: "Longer timelines are always better because they give more time to prepare"
+    why_rejected: "Longer timelines increase Chinese influence over the future and accumulate pre-ASI catastrophic risk, which can reduce the default value of the future enough to offset preparation benefits."
+
+  - position: "The same strategy should be pursued regardless of timeline beliefs"
+    why_rejected: "The paper explicitly argues different strategies are optimal under different timeline assumptions (e.g., investing in current labs vs. building Chinese safety ecosystems vs. outreach to students)."
+
+  - position: "Leverage analysis should focus solely on tractability of risk reduction"
+    why_rejected: "The paper's central conceptual contribution is that leverage must also account for the value of the future conditional on success—what you're 'buying' by reducing risk matters, not just how much risk you can reduce."
+
+methodological_commitments:
+  - "Back-of-the-envelope calculations (BOTECs) with explicit acknowledgment of their limitations and simplifying assumptions"
+  - "Scenario analysis with three discrete timeline scenarios (2027, 2035, 2045) rather than continuous probability distributions"
+  - "Decomposition of expected value into multiplicative components (risk reduction × value of future; value increase × survival probability)"
+  - "Multiple independent point estimates from two researchers (Mia and Will) to illustrate parameter uncertainty"
+  - "Qualitative reasoning about directional effects followed by rough quantification, with the conceptual insight prioritized over precise numbers"
+  - "Expected value reasoning across possible futures, treating impact as probability-weighted across timeline scenarios"
+  - "Explicit separation of 'what the paper argues' from 'what the paper takes as given' in framing leverage considerations"
+
+cross_references:
+  - "three-types-of-intelligence-explosion"
+  - "ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power"
+  - "convergence-and-compromise"
+  - "human-takeover-might-be-worse-than-ai-takeover"
+  - "preparing-for-the-intelligence-explosion"
+  - "better-futures"
+  - "how-to-make-the-future-better"
+  - "ai-tools-for-existential-security"

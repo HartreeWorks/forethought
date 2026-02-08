@@ -1,0 +1,63 @@
+paper:
+  slug: "viatopia"
+  title: "Viatopia"
+
+premises_taken_as_given:
+  - claim: "Superintelligence—AI far exceeding the best humans across all domains—is being actively built by major companies and will arrive."
+    confidence: "near-certain"
+    evidence: "Opening paragraph states this as fact ('Many of the biggest companies in the world are racing to build superintelligence') with no hedging on whether it will be achieved."
+  - claim: "The transition to superintelligence will be the most consequential and transformative period in human history, comparable to the evolution of Homo sapiens or life itself."
+    confidence: "near-certain"
+    evidence: "Stated directly and used as the motivating urgency for the entire essay; not argued for."
+  - claim: "The speed and scale of the AI transition means incremental muddling-through is insufficient."
+    confidence: "strong"
+    evidence: "Asserted as motivation for why a north star is needed: 'we can't just muddle through.'"
+  - claim: "Decisions made during the transition could set the course of the future indefinitely (lock-in or path-dependence is a real risk)."
+    confidence: "strong"
+    evidence: "'People will need to make some enormously high-stakes decisions, which could set the course of the future indefinitely.'"
+  - claim: "We are deeply uncertain about what an ideal end-state for civilization looks like."
+    confidence: "near-certain"
+    evidence: "Central to the argument; treated as a lesson from the entire history of utopian thought."
+  - claim: "There is enormous option value in the long-term future if we navigate the transition well."
+    confidence: "near-certain"
+    evidence: "The entire framing assumes the future could be 'truly wonderful' or 'as good as it could be' if steered correctly."
+
+distinctive_claims:
+  - claim: "We should aim for 'viatopia'—an intermediate societal state that is on track for a near-best future—rather than a utopia or mere incremental improvement."
+    centrality: "thesis"
+    key_argument: "Utopianism is discredited by history (every generation's utopia looks dystopian to successors), while protopianism/piecemeal engineering cannot prioritize among simultaneous huge problems during the AI transition. Viatopia is the missing middle: a waystation concept that preserves optionality while providing directional guidance."
+  - claim: "We can identify good intermediate states (waystations) even under deep uncertainty about the ideal final state."
+    centrality: "load-bearing"
+    key_argument: "Analogies: a teenager keeping options open via education; adventurers moving to high ground to survey terrain. We can characterize what makes a society well-positioned without knowing the destination."
+  - claim: "There exist 'societal primary goods'—things beneficial for a society to have regardless of what futures it aims toward—analogous to Rawls's individual primary goods."
+    centrality: "load-bearing"
+    key_argument: "Extends Rawls's concept to the societal level; proposed examples include material abundance, scientific knowledge, coordination ability, low catastrophic risk."
+  - claim: "Beyond societal primary goods, viatopia requires meta-level steering capacity: optionality preservation, value reflection, good collective deliberation, and structural stability."
+    centrality: "load-bearing"
+    key_argument: "These conditions enable society to navigate toward best outcomes rather than merely accumulating resources; they are process-oriented rather than outcome-oriented."
+  - claim: "The 'long reflection' (Ord/MacAskill) is one possible instantiation of viatopia but not the only one; viatopia is a more general concept."
+    centrality: "supporting"
+    key_argument: "Explicitly frames viatopia as superseding or generalizing earlier Forethought-adjacent thinking about the long reflection."
+  - claim: "Almost no one has articulated a positive vision for what comes after superintelligence, and this is a critical gap."
+    centrality: "supporting"
+    key_argument: "Frames the essay series as filling a neglected intellectual space; implies existing AI discourse is too focused on risk without a positive target."
+
+positions_rejected:
+  - position: "Utopianism: designing and aiming toward a specific ideal end-state for society."
+    why_rejected: "Every generation's utopia has looked dystopian to later generations (from Plato's Republic onward). We should expect the same of ourselves. Utopianism requires more confidence about the good than we can justify."
+  - position: "Protopianism / piecemeal engineering (Kevin Kelly, Karl Popper): solving near-term problems one by one without any big-picture vision."
+    why_rejected: "Insufficient for the superintelligence transition because many huge problems arise simultaneously, requiring prioritization. May encourage grabbing short-term wins at the expense of long-term flourishing."
+  - position: "Defaulting to whatever emerges from market and geopolitical dynamics."
+    why_rejected: "There is 'little reason to think that the result will be anywhere close to as good as it could be.' The transition is too consequential and fast for emergent outcomes to be trusted."
+
+methodological_commitments:
+  - "Conceptual/philosophical analysis: introduces and motivates a new concept (viatopia) through definition, analogy, and contrast with existing frameworks."
+  - "Historical reasoning: uses the track record of utopian thinking across centuries as evidence against utopianism."
+  - "Option-value and optionality reasoning: favors strategies that keep many futures possible rather than committing to one."
+  - "Deep uncertainty as a first-class consideration: the framework is explicitly designed for conditions where we cannot specify the optimal end-state."
+  - "Analogical reasoning as a primary explanatory tool (teenager/education, adventurers/high ground)."
+  - "Rawlsian-style reasoning extended to the societal level (societal primary goods)."
+  - "Programmatic/agenda-setting mode: this essay explicitly sets up a series rather than resolving the question, signaling iterative intellectual development as a method."
+
+cross_references:
+  - "long-reflection"

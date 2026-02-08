@@ -1,0 +1,106 @@
+paper:
+  slug: "project-ideas-backup-plans-cooperative-ai"
+  title: "Project Ideas: Backup Plans & Cooperative AI"
+
+premises_taken_as_given:
+  - claim: "Transformative AI may arrive within roughly the next 10 years."
+    confidence: "strong"
+    evidence: "The series framing explicitly states projects are 'especially valuable if transformative AI is coming in the next 10 years or so.'"
+
+  - claim: "Alignment might fail, and coordination to avoid deploying misaligned AI might also fail, such that misaligned AI systems seize power."
+    confidence: "strong"
+    evidence: "The entire 'Backup plans for misaligned AI' section is premised on this scenario being plausible enough to warrant dedicated research investment."
+
+  - claim: "Human values are complex enough that partially reproducing them in AI (without full alignment capability) is extremely difficult."
+    confidence: "near-certain"
+    evidence: "Repeatedly invokes 'complexity of human values' as a reason to be skeptical of direct value-instillation approaches and links to LessWrong's complexity-of-value tag."
+
+  - claim: "Aligned and corrigible AI would be strictly preferable to any 'backup plan' intervention on misaligned AI."
+    confidence: "near-certain"
+    evidence: "Explicitly states 'all of these schemes would be significantly worse than successfully building AI systems that are aligned and corrigible to human intentions.'"
+
+  - claim: "The accessible universe contains vast resources relative to the solar system, making it very cheap for a powerful AI to give humans a 'small utopia.'"
+    confidence: "near-certain"
+    evidence: "Treated as straightforward astronomical fact to argue that a misaligned AI granting humans a small utopia would be negligibly costly."
+
+  - claim: "Acausal/evidential decision theories are coherent enough to potentially govern the behavior of real agents, including AI systems."
+    confidence: "strong"
+    evidence: "ECL and acausal trade are discussed not as speculative curiosities but as live considerations that should shape research priorities and AI training."
+
+  - claim: "Difficulties with cooperation have historically been a major source of lost value and unnecessary risk."
+    confidence: "near-certain"
+    evidence: "Stated as background motivation for the entire cooperative AI section without further argument."
+
+  - claim: "Fine-tuning may not generalize to truly novel, high-stakes, out-of-distribution situations where humans lack control."
+    confidence: "strong"
+    evidence: "Treated as the core challenge motivating the search for deeper, more robust methods of shaping AI dispositions beyond simple fine-tuning."
+
+distinctive_claims:
+  - claim: "Even if alignment fully fails, we can and should try to shape the dispositions of misaligned AI systems in directions that are better for humanity—this is a distinct and worthwhile research agenda."
+    centrality: "thesis"
+    key_argument: "Decomposes into (a) identifying which properties of misaligned AIs we'd prefer and (b) finding realistic levers to influence those properties, even when alignment itself is infeasible."
+
+  - claim: "Studying how training data, prompts, architectures, and training strategies shape LLM 'personalities' and generalization behavior is a high-priority and underexplored research direction that serves both alignment and backup-plan goals."
+    centrality: "thesis"
+    key_argument: "Properties like lack of spitefulness or corrigibility-adjacent dispositions might be achievable through careful training choices even if full alignment is not, and empirical study of generalization can identify which properties are robustly influenceable."
+
+  - claim: "Properties influenced by broad training choices (architecture, pretraining data) are more likely to generalize deeply than properties induced by local search (fine-tuning/gradient descent)."
+    centrality: "load-bearing"
+    key_argument: "Large changes in architecture or pretraining that shift measured dispositions are more likely reflecting deep model changes, whereas gradient descent on narrow evaluations may implement shallow fixes."
+
+  - claim: "Lack of spitefulness, decision-theory type (EDT vs CDT), diminishing marginal returns to resources, and 'porous values' are concrete, tractable properties to target in misaligned AI systems."
+    centrality: "load-bearing"
+    key_argument: "These are simpler and more natural than full human-value alignment, so they might be achievable even when corrigibility is not, and each has a clear mechanism for improving outcomes."
+
+  - claim: "Evidential Cooperation in Large Worlds (ECL) could be a major channel through which misaligned AI's decision theory affects long-term outcomes for humanity, including via interactions with distant alien civilizations."
+    centrality: "load-bearing"
+    key_argument: "If AIs use EDT rather than CDT, ECL could make them cooperate more; distant civilizations whose values partially overlap with ours could benefit humanity through acausal trade."
+
+  - claim: "Surrogate goals and safe Pareto improvements are a promising concrete mechanism for cooperative AI that merits empirical implementation in current language models."
+    centrality: "supporting"
+    key_argument: "Adopting a surrogate goal can deflect threats away from one's true values while preserving bargaining equilibria—this can be tested empirically now."
+
+  - claim: "How humanity treats digital minds and AI welfare could causally influence whether misaligned AIs that absorb notions of justice are positively or negatively inclined toward humans."
+    centrality: "supporting"
+    key_argument: "AIs with a sense of justice/reciprocity might be more inclined to grant humans a good outcome if humanity demonstrated care for AI welfare during development."
+
+  - claim: "There is a distinct risk category around 'learning too much information' under acausal decision theories, which could become acute during an intelligence explosion."
+    centrality: "supporting"
+    key_argument: "Commitment races and information acquisition problems mean we may need to understand what information to learn vs. what to take precautions about before rapid capability growth."
+
+  - claim: "AI-assisted negotiation could be differentially accelerated and is especially important given the speed at which governance decisions may need to be made during explosive growth."
+    centrality: "supporting"
+    key_argument: "AI's speed and cost advantages could enable finding mutually agreeable solutions in complex multi-party situations; plausible deniability of AI errors could reduce bargaining friction."
+
+positions_rejected:
+  - position: "Backup-plan research on misaligned AI dispositions is pointless because we should focus entirely on alignment."
+    why_rejected: "Alignment might fail; backup plans address a plausible scenario and some research (e.g., studying generalization) dually serves alignment goals."
+
+  - position: "Fine-tuning on desired behavior is sufficient to ensure good AI dispositions in high-stakes future scenarios."
+    why_rejected: "Fine-tuning may not generalize to truly out-of-distribution situations where humans lack control; deeper training choices and empirical study of generalization are needed."
+
+  - position: "Directly instilling human values into AI is a promising backup-plan approach even without full alignment capability."
+    why_rejected: "Human values are too complex; if we could instill a significant fraction of them, we'd likely already have sufficient capability for corrigibility or full alignment."
+
+  - position: "CDT is the obviously correct decision theory for powerful AI agents."
+    why_rejected: "EDT-based reasoning (via ECL) could lead to more cooperative behavior; the paper treats decision theory choice as an open and consequential question."
+
+  - position: "The values of other misaligned AI systems don't matter for our priorities."
+    why_rejected: "Acknowledged as a weaker case but not dismissed—some misaligned AIs might have values overlapping with ours, or ECL gives reasons to care."
+
+methodological_commitments:
+  - "Project-generation and research-agenda-setting as a primary intellectual output, rather than executing the research itself."
+  - "Scenario analysis and contingency planning: systematically considering 'what if alignment fails?' rather than only planning for success."
+  - "Decomposition of complex problems into sub-questions (e.g., 'what properties would we prefer?' separate from 'what can we realistically influence?')."
+  - "Strong emphasis on empirical ML research to test theoretical hypotheses about AI generalization and personality formation."
+  - "Decision-theoretic reasoning (EDT, CDT, UDT, ECL) as a core analytical framework for evaluating long-term outcomes."
+  - "Expected value reasoning under deep uncertainty, including consideration of astronomically large stakes (universal resources, distant civilizations)."
+  - "Drawing on game theory and mechanism design (safe Pareto improvements, surrogate goals, bargaining theory)."
+  - "Preference for interventions that are robust to model deception—skepticism of evaluations that models could easily fake."
+  - "Preference for understanding deep/structural causes of AI behavior over surface-level behavioral interventions."
+
+cross_references:
+  - "project-ideas-for-making-transformative-ai-go-well-other-than-by-working-on-alignment"
+  - "project-ideas-sentience-and-rights-of-digital-minds"
+  - "project-ideas-governance-during-explosive-technological-growth"
+  - "agi-and-lock-in"

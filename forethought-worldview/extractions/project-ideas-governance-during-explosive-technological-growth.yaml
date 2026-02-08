@@ -1,0 +1,102 @@
+paper:
+  slug: "project-ideas-governance-during-explosive-technological-growth"
+  title: "Project Ideas: Governance During Explosive Technological Growth"
+
+premises_taken_as_given:
+  - claim: "AI will likely be transformative, potentially leading to explosive economic and technological growth"
+    confidence: "near-certain"
+    evidence: "The paper's entire framing assumes this as the motivating scenario, linking to Open Philanthropy reports and Holden Karnofsky's 'Most Important Century' series as established background rather than arguing for it."
+
+  - claim: "Governance and coordination failures, not just misalignment or specific dual-use risks, are a primary category of existential/catastrophic risk from advanced AI"
+    confidence: "near-certain"
+    evidence: "The paper is structured around the premise that even with perfectly aligned AI, explosive growth itself generates severe governance problems — this is the paper's raison d'être."
+
+  - claim: "Historical super-exponential growth trends are the relevant reference class for AI-driven growth"
+    confidence: "strong"
+    evidence: "Cites Open Philanthropy's 'Modeling the Human Trajectory' as the basic framework, and uses 30x growth speed-up as an illustrative baseline without defending it extensively."
+
+  - claim: "A relatively small number of actors (labs, governments) will control the critical decisions about AI development in the near term"
+    confidence: "strong"
+    evidence: "Policy proposals consistently target labs and national governments as the key decision-makers, with proposals like nationalization, oversight, and inter-lab agreements."
+
+  - claim: "Transformative AI may arrive within roughly 10 years"
+    confidence: "strong"
+    evidence: "The series introduction states projects 'would be especially valuable if transformative AI is coming in the next 10 years or so,' treating this as a serious planning horizon."
+
+  - claim: "The alignment problem is important but insufficient — governance problems persist even conditional on aligned AI"
+    confidence: "near-certain"
+    evidence: "Explicitly states 'Most of the projects would be valuable even if we were guaranteed to get aligned AI' and excludes purely alignment-focused proposals."
+
+  - claim: "Power concentration is a core risk vector distinct from misalignment"
+    confidence: "near-certain"
+    evidence: "Devotes extensive treatment to AI-assisted coups, concentration of hard power within institutions, and first-mover intelligence explosions as separate risk categories."
+
+distinctive_claims:
+  - claim: "The 'meta-problem' of explosive growth — too many novel challenges arriving simultaneously — deserves as much attention as any individual risk"
+    centrality: "thesis"
+    key_argument: "If growth speeds up 30x, all the technologies normally discovered over 100 years arrive in a few years; the governance system's inability to process this fast enough is itself the danger."
+
+  - claim: "International norms analogous to nuclear first-strike prohibitions should be developed for unilateral intelligence explosions"
+    centrality: "thesis"
+    key_argument: "A unilateral intelligence explosion effectively disempowers all other nations, making it analogous to a first strike; norms prohibiting this (absent broad agreement) could prevent destabilizing races."
+
+  - claim: "There should be a maximum rate of technological/economic growth, perhaps no more than 5x the 2023 rate"
+    centrality: "load-bearing"
+    key_argument: "Coordination to slow the pace of an intelligence explosion is presented as a concrete, opinionated proposal to give governance time to adapt."
+
+  - claim: "AI shifts hard power from distributed human agents to programmable systems, creating novel coup risks even within legitimate institutions"
+    centrality: "load-bearing"
+    key_argument: "Current institutions rely on humans in the chain of command exercising independent judgment; AI subordinates trained to obey specific humans without question fundamentally change the power distribution within organizations."
+
+  - claim: "Pre-committing to a 'grand constitutional convention' at a specific AI capability threshold is a viable governance proposal"
+    centrality: "load-bearing"
+    key_argument: "A pre-specified deliberative body (randomly sampled or government-appointed) triggered by capability evaluations could provide democratic legitimacy during an intelligence explosion."
+
+  - claim: "Even dubiously enforceable international promises about AI use have significant value"
+    centrality: "supporting"
+    key_argument: "Formal commitments (e.g., US Congressional bills promising not to use AI to violate sovereignty) shift probabilities of compliance even without perfect enforcement mechanisms."
+
+  - claim: "Establishing thorny questions publicly — even without answers — is itself a high-value intervention"
+    centrality: "load-bearing"
+    key_argument: "Clearly flagging problems forces actors to provide *some* answer and prevents easy dismissal of any individual solution; current AI systems' responses to dilemmas can already be tested and published."
+
+  - claim: "New commitment mechanisms (via aligned AI or lie detection) could create entirely novel and dangerous brinkmanship dynamics"
+    centrality: "supporting"
+    key_argument: "Traditional game theory recommends committing to 'something crazy' first; new commitment technologies make this easier and more dangerous, and current theory is inadequate."
+
+  - claim: "Transparency about the case for explosive growth is net positive despite acceleration risks"
+    centrality: "supporting"
+    key_argument: "The current equilibrium may be worse — everyone already believes AI translates to power but nobody expects growth fast enough to motivate serious preparation."
+
+positions_rejected:
+  - position: "Alignment is the only or overwhelmingly dominant AI risk"
+    why_rejected: "The paper explicitly frames governance-of-growth problems as important even with perfectly aligned AI, treating the standard alignment + bioweapons framing as incomplete."
+
+  - position: "Technology will naturally provide sufficient defenses against destructive technologies"
+    why_rejected: "Explicitly notes that while some defensive technologies are imaginable (e.g., pandemic defenses), others seem fundamentally hard (e.g., defense against nuclear detonation nearby), so offense-defense balance cannot be assumed to favor safety."
+
+  - position: "Standard game theory adequately addresses commitment and brinkmanship problems"
+    why_rejected: "Characterizes standard game theory's recommendation ('commit to something crazy first') as clearly undesirable and notes that alternative approaches like open-source game theory 'haven't gotten very far.'"
+
+  - position: "Open-source / widely distributed AI capabilities are unambiguously good"
+    why_rejected: "Implicitly rejects this via emphasis on controlling access (API over weights, hardware controls, security) and the vulnerable world hypothesis framing."
+
+  - position: "Current democratic and governance structures will naturally adapt to AI-driven change"
+    why_rejected: "The entire paper is premised on the opposite — that governance cannot keep up with current technological change, let alone a 30x acceleration."
+
+  - position: "Pervasive surveillance is straightforwardly the answer to the vulnerable world hypothesis"
+    why_rejected: "Acknowledges surveillance as a possible solution but devotes significant space to finding alternatives that minimize harms, citing 'surveil things not people' and privacy-preserving technical approaches."
+
+methodological_commitments:
+  - "Problem-generation and agenda-setting as a primary intellectual output, rather than solving individual problems"
+  - "Scenario-based reasoning: constructing concrete, vivid scenarios of explosive growth and tracing governance implications"
+  - "Reference to historical growth trends and analogies (super-exponential growth models, Cuban missile crisis, nuclear norms) as grounding"
+  - "Expected value reasoning applied to information interventions (weighing backfire risk of publicizing explosive growth against value of preparedness)"
+  - "Preference for establishing norms and coordination mechanisms in advance of crises, on the theory that pre-crisis norm-setting shapes equilibrium selection"
+  - "Emphasis on identifying tractable policy levers (capability evaluations, compute governance, access controls) rather than purely theoretical analysis"
+  - "Collaborative intellectual production, with extensive acknowledgment of discussions with Carl Shulman, Will MacAskill, Nick Beckstead, Ajeya Cotra, Daniel Kokotajlo, and Joe Carlsmith"
+
+cross_references:
+  - "project-ideas-epistemics"
+  - "project-ideas-sentience-and-rights-of-digital-minds"
+  - "project-ideas-for-making-transformative-ai-go-well-other-than-by-working-on-alignment"

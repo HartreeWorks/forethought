@@ -1,0 +1,81 @@
+paper:
+  slug: "project-ideas-for-making-transformative-ai-go-well-other-than-by-working-on-alignment"
+  title: "Project Ideas for Making Transformative AI Go Well, Other Than by Working on Alignment"
+
+premises_taken_as_given:
+  - claim: "Transformative AI is plausibly coming in the next ~10 years"
+    confidence: "strong"
+    evidence: "The framing explicitly says projects 'would be especially valuable if transformative AI is coming in the next 10 years or so', treating this as a serious planning scenario rather than arguing for it."
+
+  - claim: "AI alignment is important but insufficient—there are many other crucial considerations for AI going well"
+    confidence: "near-certain"
+    evidence: "The entire paper is premised on the existence of a large portfolio of valuable work outside alignment; this is the paper's organizing assumption, not something it argues for."
+
+  - claim: "AI could lead to explosive economic and technological growth"
+    confidence: "strong"
+    evidence: "Treated as 'plausible' without extended argument; the governance section assumes this scenario is likely enough to merit substantial preparatory work."
+
+  - claim: "Current governance and institutional structures are inadequate for rapid technological change"
+    confidence: "near-certain"
+    evidence: "'Our current methods of governance can barely keep up with today's technological advances' is stated flatly as context for the governance section."
+
+  - claim: "Misaligned AI getting into positions of power is a realistic enough scenario to plan for"
+    confidence: "strong"
+    evidence: "An entire section on 'backup plans for misaligned AI' presupposes this as a live possibility worth investing in."
+
+  - claim: "Digital minds may soon be sentient and deserving of moral consideration"
+    confidence: "strong"
+    evidence: "'It's plausible that there will soon be digital minds that are sentient and deserving of rights' is stated as a premise motivating an entire project category."
+
+  - claim: "The Importance-Tractability-Neglectedness (ITN) framework is the right way to prioritize"
+    confidence: "near-certain"
+    evidence: "References ITN analysis of these topics and links to prior discussion using the framework, treating it as the standard for assessing project value."
+
+distinctive_claims:
+  - claim: "The AI safety community's portfolio is too concentrated on alignment, neglecting a broad set of other high-value interventions"
+    centrality: "thesis"
+    key_argument: "The paper's entire structure—cataloguing dozens of non-alignment projects across governance, epistemics, digital minds, cooperative AI, and backup plans—argues implicitly that the field's attention allocation is suboptimal."
+
+  - claim: "We should invest now in preparing for scenarios where misaligned AI ends up in power, by trying to influence the dispositions of such systems"
+    centrality: "load-bearing"
+    key_argument: "Even if alignment fails and coordination fails, we can still influence properties of misaligned AI systems (e.g. via studying generalization and AI personalities), making this a distinct and underexplored intervention point."
+
+  - claim: "AI's impact on the epistemic landscape (both positive and negative) is an urgent and tractable area for intervention"
+    centrality: "load-bearing"
+    key_argument: "AI could either massively improve collective reasoning or be weaponized for persuasion; the window to shape which outcome obtains is now."
+
+  - claim: "Many of these interventions would be valuable even conditional on getting aligned AI, and some are especially valuable conditional on getting misaligned AI"
+    centrality: "load-bearing"
+    key_argument: "This framing argues these projects are robustly valuable across different alignment outcome scenarios, not just hedges against alignment failure."
+
+  - claim: "We should not defer all these problems to future AI systems to solve"
+    centrality: "load-bearing"
+    key_argument: "Explicitly flags and rebuts the objection 'why not leave these issues to future AI systems?', linking to prior discussion; implies the window for human agency on these issues may close."
+
+  - claim: "Cooperative AI and bargaining dynamics deserve attention as a distinct cause area, separate from alignment"
+    centrality: "supporting"
+    key_argument: "Cooperation failures have historically been a major source of lost value; AI will dramatically change bargaining dynamics, creating both risks and opportunities."
+
+positions_rejected:
+  - position: "Alignment is the only (or overwhelmingly dominant) priority for making AI go well"
+    why_rejected: "The paper's entire purpose is to push against this view by cataloguing a large set of non-alignment projects that are highly valuable and neglected."
+
+  - position: "These non-alignment issues can be deferred to future AI systems"
+    why_rejected: "Explicitly addressed as an objection in prior work; the paper proceeds on the assumption that human preparatory work now is essential."
+
+  - position: "Governance and institutional preparedness for explosive growth is premature or speculative"
+    why_rejected: "Implicitly rejected by devoting significant attention to governance during explosive growth as a priority area, treating the scenario as probable enough to warrant current investment."
+
+methodological_commitments:
+  - "Portfolio thinking: evaluating the overall allocation of effort across cause areas rather than just individual projects"
+  - "Importance-Tractability-Neglectedness (ITN) framework as the standard for prioritization"
+  - "Scenario planning across multiple AI outcome worlds (aligned, misaligned, various capability levels)"
+  - "Practical, action-oriented framing: generating concrete project ideas rather than abstract analysis"
+  - "Robustness reasoning: preferring interventions that have value across multiple scenarios"
+  - "Skills-based matching: tagging projects by required skills to facilitate talent allocation"
+
+cross_references:
+  - "project-ideas-governance-during-explosive-technological-growth"
+  - "project-ideas-epistemics"
+  - "project-ideas-sentience-and-rights-of-digital-minds"
+  - "project-ideas-backup-plans-and-cooperative-ai"

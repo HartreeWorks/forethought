@@ -1,0 +1,112 @@
+paper:
+  slug: "convergence-and-compromise"
+  title: "Convergence and Compromise"
+
+premises_taken_as_given:
+  - claim: "Only a narrow range of likely futures capture most achievable value ('no easy eutopia')"
+    confidence: "near-certain"
+    evidence: "Treated as established by the previous essay in the series; the entire paper builds on this premise without re-arguing it."
+
+  - claim: "AI will become superintelligent and transform the economy and decision-making landscape"
+    confidence: "near-certain"
+    evidence: "References to 'post-AGI world', 'intelligence explosion', and 'superintelligent AI advisors' are used as background assumptions throughout without argument."
+
+  - claim: "The long-term future matters enormously and is the appropriate object of ethical concern"
+    confidence: "near-certain"
+    evidence: "The entire framing assumes cosmic-scale value calculations and multi-generational futures are the relevant unit of analysis."
+
+  - claim: "There is deep, unresolved meta-ethical uncertainty between moral realism and antirealism"
+    confidence: "strong"
+    evidence: "The paper structures its central argument by considering implications under both realism and antirealism, treating neither as settled."
+
+  - claim: "Current moral agreement is substantially explained by instrumental convergence, conformity pressures, and limited reflection rather than deep shared values"
+    confidence: "strong"
+    evidence: "Three distinct arguments are offered for why current agreement overstates genuine convergence, treated as fairly confident conclusions."
+
+  - claim: "The value of the future conditional on survival is much less than its maximum potential (Flourishing >> Surviving in scale)"
+    confidence: "near-certain"
+    evidence: "Stated as a conclusion of the series and treated as the motivation for the entire research agenda."
+
+  - claim: "Lock-in of values or trajectories is a real possibility in the near future"
+    confidence: "strong"
+    evidence: "Discussed as a 'blocker' and deferred to the next essay; treated as a serious concern that shapes the analysis."
+
+distinctive_claims:
+  - claim: "Widespread, accurate, and motivational moral convergence (WAM-convergence) is unlikely even under reasonably good conditions"
+    centrality: "thesis"
+    key_argument: "Under moral realism, the correct view is likely alien and non-motivating; under antirealism, different idealising processes from different starting points are underpowered to converge on the same precise view, given the vast space of 'free parameters' in ethics."
+
+  - claim: "Partial AM-convergence plus moral trade/compromise is the most plausible path to a mostly-great future"
+    centrality: "thesis"
+    key_argument: "Even if only a minority converge on the correct moral view, enormous gains from trade between groups with different values could enable near-best outcomes for multiple views simultaneously, especially given resource-compatibility of some moral views."
+
+  - claim: "Past moral progress provides only weak evidence for future convergence toward correct moral views"
+    centrality: "load-bearing"
+    key_argument: "Current moral views are products of contingent historical processes (industrialisation, geopolitics, conformity pressure); the mechanisms that drove past progress may not extend to post-AGI moral questions, especially those where affected parties cannot advocate for themselves."
+
+  - claim: "Value-destroying threats could undermine most of the expected value of trade-based futures"
+    centrality: "load-bearing"
+    key_argument: "On views where bads weigh heavily against goods, even a small fraction of resources devoted to executed threats could eliminate most future value; holders of the correct moral view may be disproportionately vulnerable to extortion."
+
+  - claim: "Self-interest alone is insufficient to produce a mostly-great future"
+    centrality: "load-bearing"
+    key_argument: "The correlation between aggregate self-interest and overall value is too weak—people won't create enough additional good lives, may create bad lives (e.g. digital servants), and many forms of value are not good for anyone in particular."
+
+  - claim: "The distinction between motivation to promote the good 'de dicto' vs 'de re' is crucial for evaluating convergence scenarios"
+    centrality: "load-bearing"
+    key_argument: "Hitting a narrow target requires some people to be explicitly motivated by doing what's best (whatever that turns out to be), not just motivated by particular causes that happen to be good."
+
+  - claim: "Scenarios with broad convergence (scenario 3) are higher-stakes and should receive more decision-making weight than scenarios with no convergence (scenario 1)"
+    centrality: "supporting"
+    key_argument: "Actions have much higher expected impact in worlds where convergence is possible, because the future has far more value to protect or improve; power-seeking is less impactful than cooperative strategies."
+
+  - claim: "The diminishing-returns argument for altruism in abundance is real but limited"
+    centrality: "supporting"
+    key_argument: "While self-interested preferences diminish faster than altruistic ones, non-altruistic preferences can also be linear in resources (e.g. wanting more galaxies, positional goods); current billionaire philanthropy data weakly suggests abundance alone won't drive altruistic spending."
+
+  - claim: "Moral reflection modeled as random walks suggests current agreement will break down with further reflection"
+    centrality: "supporting"
+    key_argument: "If views start close together but reflection involves stochastic exploration, expected divergence grows with the square root of reflection time; advanced technology dramatically increases the scope for such divergence."
+
+  - claim: "The expected value of the future given survival is roughly 5-10% of maximum, revised upward from <1%"
+    centrality: "supporting"
+    key_argument: "Trade/compromise considerations warrant significant optimism relative to naive no-easy-eutopia pessimism, but not enough to expect a mostly-great future is likely."
+
+positions_rejected:
+  - position: "Current moral agreement implies future WAM-convergence"
+    why_rejected: "Current agreement reflects instrumental convergence on low-hanging-fruit goods, conformity pressures, and insufficient reflection; it will break down as optimisation power increases and people diverge through enhanced reflection and self-modification."
+
+  - position: "Historical moral progress reliably continues into the post-AGI future"
+    why_rejected: "Past progress may be contingent on specific historical circumstances (industrialisation, geopolitics); the mechanisms (self-advocacy by affected groups) don't apply to many future moral questions (animals, digital minds, population ethics)."
+
+  - position: "Superintelligent AI advisors will naturally produce moral convergence"
+    why_rejected: "People may not want open-ended moral reflection, may choose constrained advisors matching their existing worldview, may reject conclusions of their reflective selves, or may simply remain self-interested."
+
+  - position: "Material abundance will naturally shift most resources toward altruistic ends"
+    why_rejected: "Non-altruistic preferences can also be linear in resources; billionaire data shows little correlation between wealth and proportional giving; advanced technology provides greater scope for self-interested spending."
+
+  - position: "A mostly-great future is very unlikely (expected value near 0) given no easy eutopia"
+    why_rejected: "This is the naive inference the paper argues against; convergence, trade, and compromise mechanisms provide meaningful probability of reaching good outcomes, analogous to how design hones in on narrow targets."
+
+  - position: "Personal power-seeking is the main practical upshot of pessimism about convergence"
+    why_rejected: "Actions in broad-convergence scenarios have higher expected impact than power-seeking in no-convergence scenarios; the future has far more value to protect when convergence is possible."
+
+  - position: "If no one aims at the good de dicto, self-interest or instrumental value production will suffice"
+    why_rejected: "The correlation between self-interest and overall good is too weak given no easy eutopia; many forms of value aren't good for anyone individually; people may create disvalue (e.g. digital servants) that benefits them."
+
+methodological_commitments:
+  - "Structured analysis by meta-ethical position: considering implications separately under moral realism, antirealism/subjectivism, and various sub-positions"
+  - "Extended analogy and thought experiments (sailing to an island, random walks in moral space, coin collectors) to make abstract points vivid"
+  - "Systematic consideration of opposing arguments followed by rebuttals, giving each position charitable treatment before critiquing it"
+  - "Explicit quantitative estimates where possible (5-10% of maximum value, billionaire philanthropy fractions, resource shares)"
+  - "Distinction between what follows given different axiological views (bounded/unbounded, goods/bads aggregation, negative-leaning) as a way of being robust to moral uncertainty"
+  - "Case-by-case analysis of how different types of moral views interact with trade, threats, and compromise"
+  - "Personal credence updating disclosed transparently (Will's revision from <1% to 5-10%)"
+  - "Expected value reasoning as the primary decision framework, with attention to which scenarios are 'higher-stakes' for action"
+
+cross_references:
+  - "no-easy-eutopia"
+  - "introducing-better-futures"
+  - "supplement-the-basic-case-for-better-futures"
+  - "persistent-path-dependence"
+  - "how-to-make-the-future-better"

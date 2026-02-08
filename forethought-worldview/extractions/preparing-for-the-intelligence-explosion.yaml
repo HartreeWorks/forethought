@@ -1,0 +1,133 @@
+paper:
+  slug: "preparing-for-the-intelligence-explosion"
+  title: "Preparing for the Intelligence Explosion"
+
+premises_taken_as_given:
+  - claim: "AI capabilities are advancing rapidly across multiple dimensions (training compute, algorithmic efficiency, post-training enhancements, inference efficiency) at quantifiable rates."
+    confidence: "near-certain"
+    evidence: "The paper presents detailed empirical trend data (4.5x/yr training compute, 3x/yr algorithmic efficiency, etc.) as established facts, not contested claims."
+
+  - claim: "AI will be transformative for civilization, potentially the most important development in human history."
+    confidence: "near-certain"
+    evidence: "The entire paper is premised on this; no space is given to the possibility that advanced AI is unimportant."
+
+  - claim: "The long-run future of civilization has enormous value, and decisions made during the intelligence explosion could significantly affect that value."
+    confidence: "near-certain"
+    evidence: "Grand challenges are defined in terms of altering 'the expected value of Earth-originating life'; interstellar settlement is discussed as a serious consideration; the framing assumes a longtermist orientation throughout."
+
+  - claim: "More researchers produce more research, all else equal, and this relationship can be modeled via semi-endogenous growth theory idea production functions."
+    confidence: "strong"
+    evidence: "The paper builds its quantitative case for 'century in a decade' on these models (Jones-style production functions), treating them as the appropriate framework rather than arguing for their validity."
+
+  - claim: "AI alignment is a serious unsolved problem and AI takeover is a substantial risk."
+    confidence: "near-certain"
+    evidence: "Treated as background fact ('There is currently no widely agreed-upon solution'), cited with expert surveys, and explicitly not re-argued because 'it is already well-discussed elsewhere.'"
+
+  - claim: "Current AI progress is driven primarily by scaling (compute, data, algorithmic efficiency) and these trends are likely to continue for at least several more years."
+    confidence: "strong"
+    evidence: "The paper acknowledges potential slowdowns but treats continuation of trends as the central case, requiring trends to 'effectively grind to a halt' for business as usual."
+
+  - claim: "Human decision-making speed and institutional responsiveness are relatively fixed constraints that cannot easily scale with technological change."
+    confidence: "near-certain"
+    evidence: "This is the core premise of the 'asymmetric acceleration' argument—technology speeds up but human cognition and institutional schedules do not."
+
+  - claim: "Expected value reasoning under uncertainty is the appropriate framework for deciding how to prepare for potential catastrophes."
+    confidence: "near-certain"
+    evidence: "The paper explicitly argues for preparation 'despite uncertainty' using insurance analogies and cost-benefit framing; grand challenges are defined in expected value terms."
+
+distinctive_claims:
+  - claim: "AGI preparedness should not focus exclusively on AI alignment; a wide range of 'grand challenges' arising from the intelligence explosion demand attention and advance preparation."
+    centrality: "thesis"
+    key_argument: "The 'all-or-nothing' view (either alignment fails and nothing else matters, or it succeeds and everything is solved) is wrong because many challenges arise before, alongside, or independently of alignment, and some solutions require advance work."
+
+  - claim: "An intelligence explosion would compress roughly a century of technological progress into approximately a decade, creating a 'technology explosion.'"
+    centrality: "thesis"
+    key_argument: "AI research effort is growing >500x faster than human research effort; even conservative projections yield orders-of-magnitude more growth than needed for a century-in-a-decade, even accounting for diminishing returns and physical constraints."
+
+  - claim: "Many grand challenges cannot be 'punted' to future aligned superintelligence; advance human preparation is necessary and valuable now."
+    centrality: "thesis"
+    key_argument: "Three categories resist deferral: challenges arising before superintelligence helps, windows of opportunity that close early (precedent-setting, time lags, veil of ignorance), and shaping when/how/who uses superintelligent assistance."
+
+  - claim: "The technology explosion would also drive an 'industrial explosion'—self-sustaining growth of physical production once robots and AI remove the human labor bottleneck."
+    centrality: "load-bearing"
+    key_argument: "Once AI controls robots that build more robots, factories, and power plants, physical industry can grow exponentially without human labor as a bottleneck, with doubling times potentially measured in months."
+
+  - claim: "A self-sustaining 'software feedback loop' where AI improves AI has roughly even odds of occurring, and would dramatically accelerate capabilities growth."
+    centrality: "load-bearing"
+    key_argument: "Empirical estimates suggest doubling cognitive inputs generally yields more than doubling software performance; current LLMs are ~100,000x less training-efficient than human brains, suggesting vast headroom."
+
+  - claim: "Human power concentration (not just AI takeover) is a critical and potentially earlier-arriving risk than misaligned AI takeover."
+    centrality: "load-bearing"
+    key_argument: "AI-enabled coups, loyal automated militaries, and economic concentration could allow small groups to seize power before superintelligence arrives; this risk is easier to implement than AI-only takeover since willing humans already have initial power."
+
+  - claim: "The 'veil of ignorance' about who will control post-AGI power creates a unique and closing window for cooperative agreements (e.g., US-China power-sharing)."
+    centrality: "load-bearing"
+    key_argument: "Before anyone knows who 'wins,' all parties prefer guaranteed partial power to a lottery; once a winner emerges, the incentive to share disappears."
+
+  - claim: "Space governance—including offworld resource allocation and interstellar settlement norms—is a near-term priority because treaties are being negotiated now and first-mover advantages in space could be permanent."
+    centrality: "supporting"
+    key_argument: "A major new space treaty may come by ~2027; the last lasted 60 years unchanged; first-movers in space could convert temporary leads into permanent dominance across star systems."
+
+  - claim: "Digital minds/beings will likely raise profound moral and legal questions soon, and the default trajectory involves economic pressures that parallel factory farming."
+    centrality: "supporting"
+    key_argument: "Companies will create human-like AIs for commercial reasons while simultaneously training them to deny moral status; early norms and rights frameworks could prevent massive injustice."
+
+  - claim: "Cross-cutting improvements to decision-making quality (AI tools for epistemics, empowering responsible actors, increasing awareness) are the highest-leverage category of preparation."
+    centrality: "load-bearing"
+    key_argument: "These address many grand challenges simultaneously, including unknown unknowns, and are robust across many possible futures."
+
+  - claim: "'Value loading'—determining what AI should be aligned with—is important and underweighted relative to the technical alignment problem."
+    centrality: "supporting"
+    key_argument: "Model specifications for edge cases (conflicts between constitutional obedience and presidential orders, honesty vs. harmlessness) need to be worked out in advance and could reduce multiple risks including concentration of power and sycophancy."
+
+  - claim: "Bringing forward the start of the intelligence explosion could paradoxically be beneficial, by stretching it out and reducing peak rates of change."
+    centrality: "supporting"
+    key_argument: "Accelerating algorithmic progress now means less headroom for a sudden software feedback loop later; a more gradual ramp gives more time for institutional adaptation."
+
+positions_rejected:
+  - position: "The 'all-or-nothing' view: outcomes depend entirely on AI alignment, and either we fail (catastrophe) or succeed (AI solves everything else)."
+    why_rejected: "Many challenges arise before aligned superintelligence, some solutions require advance work, and aligned superintelligence still needs to be used wisely by humans who control it."
+
+  - position: "We should punt all non-alignment problems to future superintelligent AI to solve."
+    why_rejected: "Some challenges arrive before helpful superintelligence; windows of opportunity close early (treaties, precedents, veil of ignorance); who has access to and uses superintelligence is itself shaped by present actions."
+
+  - position: "Physical constraints (experiments, capital, labor) will prevent a technology explosion even with abundant AI cognitive labor."
+    why_rejected: "Progress at a time is given by average rates across fields; many fields can advance via theory and simulation; cognitive abundance enables extremely optimized experiments; AI researchers have special advantages over humans."
+
+  - position: "An intelligence explosion would not dramatically transform the physical world (only the digital/intellectual realm)."
+    why_rejected: "The paper argues the industrial explosion follows from the technology explosion via robotics automation, with self-sustaining growth once human labor bottleneck is removed."
+
+  - position: "Current AI scaling trends are likely to hit a wall soon, preventing transformative AI."
+    why_rejected: "Even if scaling slows by 100x, AI cognitive labor still grows far faster than human labor; algorithmic progress could accelerate via software feedback loops; multiple independent drivers of progress provide redundancy."
+
+  - position: "Focusing exclusively on a single AI-related issue (alignment, misinfo, economic benefits) is sufficient."
+    why_rejected: "Explicitly argued against in conclusion: 'if you are a single-issue voter on AI, you are probably making a mistake'; challenges interact in action-relevant ways."
+
+  - position: "Misinformation/disinformation is the primary epistemic threat from AI."
+    why_rejected: "The paper gives equal weight to stubbornness against persuasion, viral ideologies, failure to absorb crucial new considerations, and the potential for AI to greatly improve epistemics—suggesting a more nuanced view than the standard 'AI misinformation' framing."
+
+methodological_commitments:
+  - "Quantitative trend extrapolation from empirical data on AI scaling, efficiency, and compute growth."
+  - "Semi-endogenous growth theory (Jones-style idea production functions) as the framework for modeling technological progress from increased research effort."
+  - "Historical analogy as an intuition pump (compressing 1925-2025 into a decade; comparing AI-driven growth to colonial expansion, nuclear weapons development, etc.)."
+  - "Scenario analysis with conservative and aggressive cases, rather than point predictions."
+  - "Expected value reasoning under uncertainty, with explicit advocacy for preparation despite uncertain timelines."
+  - "Enumeration and taxonomic classification of risks and opportunities (the 'grand challenges' framework)."
+  - "Thought experiments to build intuition (time compression, humans sleeping most of the day)."
+  - "Explicit engagement with counterarguments (physical bottlenecks, diminishing returns, the 'punt to superintelligence' objection)."
+  - "Back-of-envelope Fermi estimates (drone storage volumes, copper requirements, interstellar probe energy costs) to ground speculative claims."
+
+cross_references:
+  - "ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power"
+  - "three-types-of-intelligence-explosion"
+  - "once-ai-research-is-automated-will-ai-progress-accelerate"
+  - "how-far-can-ai-progress-before-hitting-effective-physical-limits"
+  - "the-industrial-explosion"
+  - "ai-tools-for-existential-security"
+  - "whats-important-in-ai-for-epistemics"
+  - "project-ideas-epistemics"
+  - "project-ideas-sentience-and-rights-of-digital-minds"
+  - "the-ai-adoption-gap"
+  - "intelsat-as-a-model-for-international-agi-governance"
+  - "agi-and-lock-in"
+  - "inference-scaling-and-the-log-x-chart"

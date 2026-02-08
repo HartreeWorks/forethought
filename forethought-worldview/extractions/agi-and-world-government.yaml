@@ -1,0 +1,104 @@
+paper:
+  slug: "agi-and-world-government"
+  title: "AGI and World Government"
+
+premises_taken_as_given:
+  - claim: "Alignment is achievable (i.e. we can align AGI to chosen objectives)"
+    confidence: "strong"
+    evidence: "The paper's entire argument is conditional on alignment being solved ('assuming that alignment is achievable'); misaligned AI takeover is listed as one scenario but the paper's analysis proceeds on the assumption alignment works."
+
+  - claim: "A software intelligence explosion is fairly likely"
+    confidence: "strong"
+    evidence: "Stated directly ('an intelligence explosion is fairly likely') and linked to Forethought's own research on the topic; the paper builds its central scenario on this premise."
+
+  - claim: "We cannot rule out that an intelligence explosion will be very fast, very sustained, and very concentrated"
+    confidence: "strong"
+    evidence: "Cited as the current state of evidence with a direct link to Forethought's research on speed/scale of intelligence explosions."
+
+  - claim: "The long-term future matters enormously and governance choices at the point of AGI could lock in for a very long time"
+    confidence: "near-certain"
+    evidence: "The paper's entire framing—treating AGI governance as potentially determining 'what happens next for the world'—presupposes that these decisions have outsized long-term stakes. Lock-in is treated as a real and serious possibility."
+
+  - claim: "Autocracy is a very bad outcome and avoiding it is extremely important"
+    confidence: "near-certain"
+    evidence: "Treated as a premise rather than argued for; the paper structures its recommendations primarily around reducing autocracy risk."
+
+  - claim: "Democratic governance is the best tested approach to political power"
+    confidence: "near-certain"
+    evidence: "Stated as a straightforward comparison with corporate governance without further justification."
+
+  - claim: "Most morally relevant beings are future beings (plus animals and digital minds), not present humans"
+    confidence: "strong"
+    evidence: "Used as a load-bearing premise when arguing that global democratic governance has limited marginal value over a coalition of democracies—the representativeness gains are small relative to the total moral constituency."
+
+  - claim: "AI will be transformative enough that the leading project could achieve decisive strategic advantage"
+    confidence: "strong"
+    evidence: "The paper lists concrete capabilities (automating 99%+ of the economy, bloodlessly disarming militaries, seizing space resources) as plausible consequences of ASI, building on Carl Shulman's analysis."
+
+distinctive_claims:
+  - claim: "The first project to build AGI may organically become a de facto world government if there is a large enough intelligence explosion"
+    centrality: "thesis"
+    key_argument: "A sufficiently fast/sustained/concentrated intelligence explosion gives the leading project a decisive strategic advantage; whoever controls that project's alignment constitution effectively has ultimate authority over the world."
+
+  - claim: "Taking this scenario seriously shifts the desirability of governance features in specific directions—toward government-led, multilateral, democratic-coalition, interim, weighted-vote structures"
+    centrality: "thesis"
+    key_argument: "Each recommendation follows from asking 'if this project becomes a world government, what properties should it have?' rather than from standard AI safety or competition framing."
+
+  - claim: "A coalition of democratic countries is preferable to global democratic governance for the AGI project"
+    centrality: "load-bearing"
+    key_argument: "Three reasons: feasibility (the US won't accept dilution), limited marginal representativeness gains (order of magnitude vs. eight orders of magnitude from avoiding autocracy), and risk that global democracy actually increases authoritarianism risk given survey data on public attitudes."
+
+  - claim: "Voting power should be fixed (not population-linked) to prevent post-AGI population manipulation as a power grab"
+    centrality: "load-bearing"
+    key_argument: "Post-AGI, rapid population growth (digital citizens, artificial wombs) becomes possible; one-person-one-vote creates an incentive for explosive population growth to seize governance control."
+
+  - claim: "The governance structure should be explicitly interim and time-bound, with renegotiation built in"
+    centrality: "load-bearing"
+    key_argument: "Designing ideal world government is extremely hard pre-AGI; ASI can help with this, so we should defer definitive governance design while locking in basic safeguards now (analogous to Intelsat's approach)."
+
+  - claim: "If AGI is first developed privately, the relevant government will likely intervene anyway, but in haste and without multilateral design"
+    centrality: "supporting"
+    key_argument: "This makes it better to plan government-led projects proactively rather than wait for crisis nationalization."
+
+  - claim: "Non-participating countries should receive major benefits and sovereignty reassurances, but not necessarily formal governance power"
+    centrality: "supporting"
+    key_argument: "Without this, excluded countries may resort to drastic actions (theft, kinetic strikes, safety shortcuts), but giving formal power to authoritarian states creates other risks."
+
+  - claim: "The moral diversity gain of going from one person to hundreds of millions is far more important than going from hundreds of millions to 8 billion"
+    centrality: "supporting"
+    key_argument: "Framed in orders-of-magnitude terms (8 orders vs. 1 order), suggesting a logarithmic-like value of representational diversity."
+
+positions_rejected:
+  - position: "AGI will not be transformative enough to matter much (the Tyler Cowen 'not much happens' view)"
+    why_rejected: "Acknowledged as a possibility but not the scenario the paper focuses on; the paper's analysis is conditional on an intelligence explosion being fairly likely."
+
+  - position: "Global democratic governance (one-person-one-vote across all countries) is the ideal for AGI governance"
+    why_rejected: "Rejected on three grounds: infeasibility (US won't accept it), limited marginal moral diversity gains, and empirical evidence that global publics have high support for authoritarianism."
+
+  - position: "One-country-one-vote is appropriate for an international AGI project"
+    why_rejected: "Gives small countries disproportionate power per capita in a way that is 'arbitrary and very non-democratic' and makes the arrangement infeasible for the US."
+
+  - position: "Private companies are appropriate stewards for AGI development"
+    why_rejected: "Corporate governance is not designed or tested for political power; CEOs could become de facto dictators; power would rest with a small fraction of society (largest shareholders)."
+
+  - position: "Authoritarian countries should be given formal governance power in the AGI project"
+    why_rejected: "The paper advocates benefits and sovereignty reassurances for non-democratic countries but explicitly recommends reluctance about giving them formal governance power, due to authoritarianism risk."
+
+  - position: "We should design definitive long-term governance structures for AGI now"
+    why_rejected: "Too hard pre-AGI; better to create explicitly interim arrangements and redesign later with ASI assistance."
+
+methodological_commitments:
+  - "Scenario-conditional reasoning: the paper explicitly conditions on a specific scenario (intelligence explosion leading to decisive strategic advantage) and traces implications, rather than estimating overall probabilities."
+  - "Comparative institutional analysis: evaluating governance structures (private vs. government, unilateral vs. multilateral, democratic coalition vs. global democracy) by their properties in the world-government scenario."
+  - "Orders-of-magnitude reasoning about moral diversity and representativeness."
+  - "Historical analogy (Intelsat) as a model for interim international governance design."
+  - "Empirical evidence from survey data (Pew) to support claims about public attitudes toward authoritarianism."
+  - "Explicit caveats about the strength of claims ('weakly held implications', 'more desirable than they would otherwise be' rather than 'desirable all things considered')."
+  - "Emphasis on feasibility constraints alongside normative desiderata (especially regarding US willingness to participate)."
+
+cross_references:
+  - "will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
+  - "how-quick-and-big-would-a-software-intelligence-explosion-be"
+  - "preparing-for-the-intelligence-explosion"
+  - "intelsat-as-a-model-for-international-agi-governance"
+  - "international-ai-projects-and-differential-ai-development"

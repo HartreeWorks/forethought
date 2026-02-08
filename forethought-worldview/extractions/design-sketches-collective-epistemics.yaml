@@ -1,0 +1,89 @@
+paper:
+  slug: "design-sketches-collective-epistemics"
+  title: "Design Sketches: Collective Epistemics"
+
+premises_taken_as_given:
+  - claim: "Near-term AI systems are capable enough to power meaningful collective epistemics tools (writing community notes, detecting rhetoric, evaluating claims, etc.)"
+    confidence: "near-certain"
+    evidence: "The paper treats current AI capability as sufficient for early versions of all five sketches, citing existing prototypes and doing cost calculations with today's API prices rather than arguing AI can do these tasks."
+
+  - claim: "The current information ecosystem is epistemically unhealthy in ways that matter for existential risk and societal outcomes"
+    confidence: "near-certain"
+    evidence: "Stated without argument: 'The current information ecosystem often rewards confidence and spiciness over accuracy'; honesty equilibria are straightforwardly presented as more desirable."
+
+  - claim: "Society can occupy different honesty equilibria, and technological changes can shift which equilibrium is reached"
+    confidence: "strong"
+    evidence: "The high-honesty vs. low-honesty equilibrium framing is presented as the core theory of change without formal justification, treated as analogous to corruption equilibria."
+
+  - claim: "We are at a moment of flux where the information equilibrium is unusually up-in-the-air due to AI-driven technological change"
+    confidence: "strong"
+    evidence: "Asserted in the 'What's at stake' section as motivation for urgency, building on the equilibrium framing."
+
+  - claim: "Existential risk reduction is a central motivation for improving collective epistemics"
+    confidence: "near-certain"
+    evidence: "The paper explicitly frames the value of high-honesty equilibria in terms of preventing power concentration, tracking catastrophe risk, and maintaining epistemic health — all standard existential risk concerns."
+
+  - claim: "AI costs will continue to decrease, making these tools more economically feasible over time"
+    confidence: "strong"
+    evidence: "Mentioned casually in feasibility sections ('if API prices continue to drop') as an expected trend rather than something requiring argument."
+
+  - claim: "The main bottleneck for these technologies is social adoption and trust, not technical capability"
+    confidence: "strong"
+    evidence: "Repeatedly stated across multiple sketches: 'feasibility may be bottlenecked less by the technical side, and more by the social.'"
+
+distinctive_claims:
+  - claim: "The primary impact of collective epistemics tools would come not from helping individuals navigate information, but from changing incentive landscapes so that honesty becomes the dominant strategy for information producers"
+    centrality: "thesis"
+    key_argument: "If people know lies and obfuscation will make them look bad, they'll be disincentivized from lying — shifting the equilibrium rather than just helping individual consumers."
+
+  - claim: "Five specific AI-powered technologies (community notes for everything, rhetoric highlighting, reliability tracking, epistemic virtue evals, provenance tracing) form a coherent and composable portfolio for improving collective epistemics"
+    centrality: "thesis"
+    key_argument: "Each is presented as independently useful but mutually reinforcing, with provenance tracing as a potential integration layer."
+
+  - claim: "Epistemic virtue evals for AI systems are important and neglected — measuring calibration, non-sycophancy, non-manipulation, precision, and clarity should be a priority alongside capability benchmarks"
+    centrality: "load-bearing"
+    key_argument: "AI company incentives optimize for engagement not epistemic virtue; without measurement, you don't get improvement; evals create market pressure and enable informed user choice."
+
+  - claim: "Reliability tracking of public actors — systematic, automated assessment of prediction accuracy and promise-keeping — could heal broken feedback loops in democratic discourse"
+    centrality: "load-bearing"
+    key_argument: "Currently pundits and politicians face no consequences for wrong predictions; automated tracking could make reliability salient and create incentives for accuracy."
+
+  - claim: "The 'hair-on-fire user' / niche adoption strategy is the right approach for bootstrapping these tools toward broader impact"
+    centrality: "supporting"
+    key_argument: "Each sketch identifies specific early adopter groups (academics, journalists, finance, policy staff) as starting points, reflecting a product-thinking approach to public goods."
+
+  - claim: "AI-empowered technologies could also make collective epistemics much worse, though this paper deliberately focuses on positive possibilities"
+    centrality: "supporting"
+    key_argument: "Explicitly flagged as a deliberate scope choice with a promise to address risks in a later article."
+
+  - claim: "Provenance tracing — making the epistemic genealogy of claims transparent and traversable — could serve as foundational infrastructure for all other collective epistemics tools"
+    centrality: "load-bearing"
+    key_argument: "Presented as the most ambitious and integrative of the five sketches; other tools could become components within it."
+
+positions_rejected:
+  - position: "Technical AI capability is the main barrier to better collective epistemics"
+    why_rejected: "The paper consistently argues that social adoption, trust-building, and incentive design are the harder problems; technical feasibility is treated as largely solved or solvable."
+
+  - position: "These tools should wait for more advanced AI"
+    why_rejected: "Back-of-the-envelope cost calculations and citations of existing prototypes (bot-written community notes, RoastMyPost, auto-grading) are used to argue current feasibility."
+
+  - position: "Centralized fact-checking or top-down truth arbitration is the right model"
+    why_rejected: "The paper emphasizes cross-spectrum consensus mechanisms (community notes model), user-customizable methodology, transparent/auditable assessment, and decentralized trust propagation rather than authoritative verdicts."
+
+  - position: "Individual empowerment of information consumers is the main theory of change"
+    why_rejected: "Explicitly deprioritized in favor of changing information producers' incentive landscapes: 'we envision most of the impact... not from helping individuals... but by changing the shape of those informational landscapes.'"
+
+  - position: "A single monolithic solution is needed"
+    why_rejected: "The paper explicitly presents five distinct but composable technologies, each with independent value and different adoption pathways."
+
+methodological_commitments:
+  - "Design sketching / concrete product envisioning — the paper makes ideas tangible through specific UI mockups, system architecture descriptions, and implementation pathways rather than abstract argument"
+  - "Back-of-the-envelope cost estimation to assess near-term feasibility (token costs, API pricing)"
+  - "Equilibrium analysis from economics/game theory applied to information ecosystems (high-honesty vs. low-honesty equilibria)"
+  - "Product-market-fit thinking borrowed from startup methodology (hair-on-fire users, adoption pathways, niche-to-scale strategy)"
+  - "Constructive/optimistic framing — deliberately focusing on positive possibilities while acknowledging risks exist, as a way to inspire builders"
+  - "Reasoning about incentive structures and feedback loops rather than direct welfare effects"
+
+cross_references:
+  - "design-sketches-angels-on-the-shoulder"
+  - "design-sketches-for-a-more-sensible-world"

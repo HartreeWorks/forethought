@@ -1,0 +1,62 @@
+paper:
+  slug: "the-scaling-paradox"
+  title: "The Scaling Paradox"
+
+premises_taken_as_given:
+  - claim: "AI progress over the last five years has been qualitatively impressive and genuinely transformative in capability terms."
+    confidence: "near-certain"
+    evidence: "The paper opens by affirming scaling is 'shockingly impressive' and never questions that real capability gains occurred; the critique is about efficiency, not outcomes."
+  - claim: "The potential upside of advanced AI is extraordinarily large — potentially replacing more than half of all human labour and accelerating science by centuries."
+    confidence: "strong"
+    evidence: "Stated as the reason scaling can be justified despite terrible resource efficiency ('benefits of extreme value'), presented without argument as the high-end possibility."
+  - claim: "Recursive self-improvement is a plausible regime that AI systems could enter at some capability threshold."
+    confidence: "strong"
+    evidence: "Mentioned as a key reason labs push through inefficient scaling — 'smart enough to ride it up through some number of floors of recursive self-improvement' — without arguing this is feasible, just noting it as a motivating hope."
+  - claim: "The tractable/intractable boundary in computer science is a meaningful lens for evaluating AI scaling."
+    confidence: "near-certain"
+    evidence: "The paper's central analytical move is applying CS complexity intuitions (polynomial vs exponential, brute-force characterisation) to AI scaling curves without justifying this transfer."
+  - claim: "Next-token prediction and text are remarkably versatile as an intelligence assessment medium."
+    confidence: "near-certain"
+    evidence: "Credited as a 'key reason' scaling worked, citing Turing and connections to sequence prediction and compression, treated as established background."
+
+distinctive_claims:
+  - claim: "The celebrated AI scaling laws actually demonstrate extraordinarily poor scaling — accuracy is nearly insensitive to resource increases, with exponents of 11, 13, and 20 on required resources."
+    centrality: "thesis"
+    key_argument: "Inverting the standard log-log scaling law presentation reveals that compute scales as the 20th power of accuracy, data as the 11th, and parameters as the 13th — polynomials with exponents so high they would normally be considered intractable."
+  - claim: "The standard presentation of scaling law graphs (log-log with auto-clipped axes) is deceptive, hiding the severity of diminishing returns."
+    centrality: "load-bearing"
+    key_argument: "With both axes logarithmic and auto-scaled, 'there is literally nothing you can tell from the shape or slope of these graphs beyond them being some kind of power law' — the impressive-looking lines obscure million-fold compute increases for factor-of-2 quality gains."
+  - claim: "The Chinchilla scaling law shows worse-than-polynomial (faster than power law) resource growth, meaning scaling is even worse than the original OpenAI scaling laws suggest."
+    centrality: "load-bearing"
+    key_argument: "The grey curve in the Chinchilla paper is not a straight line on a log-log chart, indicating super-polynomial resource requirements."
+  - claim: "AI progress as a function of time is impressive even though AI progress as a function of resources is deeply unimpressive — these are reconcilable because labs have been able to scale resources at extraordinary rates."
+    centrality: "thesis"
+    key_argument: "The logistical achievement of quadrupling infrastructure annually masks the poor return per resource unit; the paradox dissolves once you separate temporal progress from efficiency."
+  - claim: "Logarithmic returns to compute (equivalently, exponential compute for linear gains) are characteristic of brute-force approaches, suggesting current methods may be fundamentally naive."
+    centrality: "load-bearing"
+    key_argument: "Draws explicit analogy to brute-force search in CS where trying every solution one-by-one produces this exact resource-quality relationship."
+  - claim: "Real-world financial/economic impact may scale much better with AI quality than technical benchmarks do with resources, which could justify continued investment despite poor technical scaling."
+    centrality: "supporting"
+    key_argument: "If financial returns scale super-linearly with quality metrics, increasing marginal returns could explain the industry structure of few players investing maximally."
+  - claim: "The sheer inefficiency of current scaling is evidence that fundamentally more efficient architectures likely exist."
+    centrality: "supporting"
+    key_argument: "The human mind achieves general intelligence without internet-scale data, proving better approaches are possible; discovering one could produce a step change in capabilities."
+
+positions_rejected:
+  - position: "Scaling laws demonstrate that current AI approaches scale impressively well."
+    why_rejected: "The paper's core argument is that this is an illusion created by log-log presentation; the actual exponents show near-intractable resource growth for quality improvements."
+  - position: "Algorithmic improvements fundamentally change the scaling picture."
+    why_rejected: "Algorithmic improvements lower constants but do not change the exponents; an exponential-time algorithm with a smaller constant is still exponential."
+  - position: "The pre-2020s view that architectural innovation (not scale) was the path to AI progress was simply wrong."
+    why_rejected: "Not fully rejected — the paper suggests the inefficiency of scaling implies better architectures exist and could produce a 'step change,' partially vindicating the older view."
+  - position: "Pessimism about scaling means AI progress will stall."
+    why_rejected: "Explicitly reconciled: temporal progress can remain impressive because labs keep dramatically increasing resources, and recursive self-improvement could change the regime entirely."
+
+methodological_commitments:
+  - "Reinterpretation of existing empirical results through mathematical inversion (flipping axes, taking reciprocals of exponents) to reveal hidden structure."
+  - "Application of computer science complexity theory intuitions (polynomial vs exponential, brute-force characterisation) to empirical AI scaling relationships."
+  - "Critical examination of data visualisation choices (log scales, axis clipping) as sources of systematic misinterpretation."
+  - "Qualitative reconciliation of apparently contradictory framings rather than formal modelling — synthesising multiple perspectives into a coherent picture."
+  - "Reasoning about strategic motivations of AI labs (why scaling is pursued despite poor efficiency) as an economic/decision-theoretic question."
+
+cross_references: []

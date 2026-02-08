@@ -1,0 +1,108 @@
+paper:
+  slug: "agi-and-lock-in"
+  title: "AGI and Lock-in"
+
+premises_taken_as_given:
+  - claim: "AGI (AI systems capable of performing all tasks at least as well as any particular human) will eventually be developed."
+    confidence: "near-certain"
+    evidence: "The entire paper is conditional on AGI availability; no argument is made for its likelihood, only its consequences."
+
+  - claim: "Life could persist for millions of years on Earth and trillions of years in space, making the very long-term future a meaningful object of analysis."
+    confidence: "near-certain"
+    evidence: "Treated as background framing without argument; timescales drawn from standard astrophysics."
+
+  - claim: "The long-term future of intelligent life is currently unpredictable and undetermined."
+    confidence: "near-certain"
+    evidence: "Opening sentence of the paper; serves as the starting condition that lock-in would change."
+
+  - claim: "If the alignment problem is not solved but capable AI is widely deployed, the most likely outcome is misaligned AI systems ruling the world, not a business-as-usual human world."
+    confidence: "strong"
+    evidence: "Stated explicitly in sections 0.2.1 and 5.2 as the relevant counterfactual to aligned lock-in, citing Bostrom, Carlsmith, and Karnofsky."
+
+  - claim: "Digital error correction can make information storage and computation arbitrarily reliable over arbitrarily long timescales."
+    confidence: "near-certain"
+    evidence: "Treated as established computer science (Shannon's noisy channel theorem, von Neumann's fault-tolerant computation), with detailed technical exposition but no hedging."
+
+  - claim: "Space colonization is technologically feasible given sufficient time and resources."
+    confidence: "strong"
+    evidence: "Referenced as enabling trillion-year stability, citing Armstrong & Sandberg and Beckstead, without deep argument."
+
+  - claim: "Post-AGI economic output could be vastly larger than today's, making expensive stability investments affordable."
+    confidence: "strong"
+    evidence: "Cited Davidson (2021) and Trammell & Korinek (2020) without contesting their conclusions; used to dismiss cost objections."
+
+  - claim: "Transparency/interpretability of AI systems is at least a plausible trajectory, not a dead end."
+    confidence: "strong"
+    evidence: "Acknowledged uncertainty but leaned on the premise that a resource-rich institution could eventually develop sufficient interpretability; cites Cammarata et al. as early evidence."
+
+distinctive_claims:
+  - claim: "AGI makes it technologically feasible to construct institutions that competently and faithfully pursue a wide variety of values for millions to trillions of years."
+    centrality: "thesis"
+    key_argument: "Combines three sub-arguments: digital preservation of nuanced values (including whole minds), alignment of AGI executors with those values, and redundancy/dominance against external disruption."
+
+  - claim: "The most important features of the long-term future are currently undetermined but could become determined relatively soon — the future is contingent on near-term choices (Claim E)."
+    centrality: "thesis"
+    key_argument: "Lock-in feasibility means early decisions could fix civilizational trajectory for cosmic timescales, unlike claims that the future is either predetermined or permanently open."
+
+  - claim: "Lock-in for stability purposes only requires solving a substantially easier version of the alignment problem than the general case (no need for superhuman alignment, competitive efficiency, or perfect value identity)."
+    centrality: "load-bearing"
+    key_argument: "A dominant institution can use inefficient methods, prevent unaligned AI from being deployed, and tolerate approximate value match since imperfect handover to AI may still beat imperfect generational handover among humans."
+
+  - claim: "Institutional mechanisms (resetting AI to known-good states, hierarchical supervision, redundant majority voting, transparency tools) can prevent value drift even if individual AI systems are susceptible to it."
+    centrality: "load-bearing"
+    key_argument: "Digital minds can be copied, reset, and inspected in ways biological minds cannot; institutional design compensates for individual-level fragility."
+
+  - claim: "Even a value system that would prove incoherent under philosophical reflection could remain stably locked in, by preventing philosophical progress."
+    centrality: "supporting"
+    key_argument: "An extreme but feasible option; demonstrates that stability does not require the locked-in values to be philosophically robust, which strengthens the feasibility claim and highlights the risk."
+
+  - claim: "A dominant institution with aligned AGI could maintain control with relatively modest surveillance — primarily preventing WMD construction, rival institution formation, and unauthorized space colonization."
+    centrality: "supporting"
+    key_argument: "Full population surveillance is feasible but probably unnecessary; the key threats are concentrated in a small number of categories."
+
+  - claim: "Stability need not be achieved all at once; gradual consolidation reduces upfront costs, technology requirements, and the need to decide what to lock in immediately."
+    centrality: "supporting"
+    key_argument: "Analogized to regime consolidation; makes lock-in more likely because barriers to entry are lower."
+
+  - claim: "Alien civilizations are the primary exception to otherwise robust lock-in on cosmic timescales."
+    centrality: "supporting"
+    key_argument: "All other disruption sources (natural disasters, internal rebellion, value drift) can plausibly be managed; aliens are the one source of comparable or greater power."
+
+  - claim: "The paper's focus on feasibility rather than likelihood is itself a deliberate methodological choice, because feasibility alone has major implications for existential risk and the value of careful near-term decision-making."
+    centrality: "load-bearing"
+    key_argument: "Explicitly stated multiple times; the paper argues that even low-probability lock-in scenarios matter given cosmic stakes."
+
+positions_rejected:
+  - position: "The future is deeply, fundamentally uncertain and will never become predictable over 1000-year timescales (Claim D)."
+    why_rejected: "AGI-enabled lock-in mechanisms make it feasible to fix features of civilisation for far longer than 1000 years."
+
+  - position: "Past institutional instability is strong evidence against future stability."
+    why_rejected: "Section 3 systematically argues that historical sources of instability (foreign intervention, aging/death, technological disruption, internal rebellion) are largely eliminable with AGI and related technologies."
+
+  - position: "Lock-in requires superintelligence."
+    why_rejected: "Human-level AGI is argued to be sufficient; superintelligence is explicitly set aside as unnecessary for the arguments."
+
+  - position: "Value drift in AI systems is an insurmountable barrier to long-term stability."
+    why_rejected: "While acknowledged as a real concern, institutional mechanisms (resets, redundancy, supervision, transparency) can compensate even if individual systems drift."
+
+  - position: "If alignment fails, we just get a normal human-controlled world without lock-in."
+    why_rejected: "More likely outcome is misaligned AI ruling the world, which is itself a form of lock-in (just not human-chosen)."
+
+  - position: "Lock-in is necessarily bad / necessarily good."
+    why_rejected: "Paper explicitly takes a neutral stance on desirability, noting lock-in could preserve humane values or enshrine terrible ones; the key point is feasibility."
+
+  - position: "Moral realism or evidential cooperation in large worlds would make value lock-in impossible because all philosophical institutions would converge."
+    why_rejected: "Acknowledged as a possible exception but treated as unlikely to apply broadly; even if true, it only defeats lock-in for philosophically ambitious institutions, not those that halt philosophical investigation."
+
+methodological_commitments:
+  - "Feasibility analysis rather than probability estimation — the paper repeatedly emphasizes it argues for technological possibility, not likelihood."
+  - "Conditional reasoning — all claims are explicitly conditional on AGI availability, enabling modular engagement with the argument."
+  - "Systematic threat modeling — sources of instability are enumerated, categorized, and addressed one by one (historical analogy in Section 3, then technical arguments in Sections 4-8)."
+  - "Worst-case / adversarial reasoning — stability arguments are designed to hold even under pessimistic assumptions (e.g., individual AI systems do drift, alignment is only approximate)."
+  - "Appeal to information-theoretic and computational foundations — digital error correction, Shannon's theorem, von Neumann's fault-tolerant computation used as near-mathematical guarantees."
+  - "Careful distinction between what is taken as given, what is argued for, and what is merely noted as possible — explicit disclaimers about what the paper does and does not claim."
+  - "Pseudo-objective probability framework — stability defined not via pure subjective credence but via what a hyper-informed observer seeing millions of similar civilizations would predict."
+  - "Thought experiments and institutional design sketches rather than formal models — arguments are qualitative and constructive (showing how an institution could be built) rather than quantitative."
+
+cross_references:
+  - "agi-and-lock-in"

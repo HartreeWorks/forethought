@@ -1,0 +1,63 @@
+paper:
+  slug: "how-far-can-ai-progress-before-hitting-effective-physical-limits"
+  title: "How Far Can AI Progress Before Hitting Effective Physical Limits?"
+
+premises_taken_as_given:
+  - claim: "AI systems will eventually be capable of designing and building more capable AI systems, creating recursive feedback loops."
+    confidence: "near-certain"
+    evidence: "The paper opens with this as a framing assumption and builds the entire analysis on the three feedback loops (software, chip technology, chip production) without arguing for their feasibility."
+  - claim: "Effective compute is a meaningful and sufficient metric for operationalizing AI capability progress."
+    confidence: "near-certain"
+    evidence: "The paper converts all three dimensions of progress into OOMs of effective compute without defending this reduction, treating it as a natural operationalization."
+  - claim: "AI will be transformative and intelligence explosions are plausible scenarios worth analyzing in detail."
+    confidence: "near-certain"
+    evidence: "The paper takes the intelligence explosion framework as given and focuses on quantifying its limits rather than arguing for its plausibility."
+  - claim: "Human lifetime learning requires approximately 1e24 FLOP and provides a meaningful comparison point for AI training efficiency."
+    confidence: "strong"
+    evidence: "Cited as an external estimate and used as an anchor for the software progress calculation without extended defense."
+  - claim: "The three feedback loops (software, chip technology, chip production) are relatively independent and their OOM contributions can be summed."
+    confidence: "strong"
+    evidence: "The combined progress section simply adds OOMs across loops to estimate total limits for each IE type, implying approximate independence."
+  - claim: "GPT scaling patterns (10,000X compute increase per two model generations) will continue to GPT-6."
+    confidence: "strong"
+    evidence: "Used as a starting assumption for estimating GPT-6 training compute at ~1e29 FLOP, treated as a reasonable extrapolation."
+
+distinctive_claims:
+  - claim: "Software improvements alone could yield ~12 OOMs of effective compute gain before hitting physical limits."
+    centrality: "thesis"
+    key_argument: "Comparison of GPT-6 training compute to human lifetime learning (~5 OOMs gap), plus 4-10 additional OOMs from improved data quality and algorithmic improvements over biological constraints."
+  - claim: "Chip technology could yield ~6 OOMs of improvement approaching Landauer's limit, with ~2 OOMs within the current CMOS paradigm."
+    centrality: "thesis"
+    key_argument: "Current chips achieve ~1e13 FLOP/J; Landauer's limit with ~10 bit erasures per FLOP implies ~3e19 FLOP/J, giving ~6.5 OOMs total headroom."
+  - claim: "Chip production could scale by ~5 OOMs with earth-based energy and ~14 OOMs total capturing all solar energy."
+    centrality: "thesis"
+    key_argument: "AI currently uses ~0.1-0.3% of global electricity; 100X share increase combined with ~3000X energy expansion from earth-based solar yields ~5 OOMs; space-based solar adds ~9 more."
+  - claim: "A full-stack intelligence explosion could increase effective compute by ~23-32 OOMs before hitting physical limits."
+    centrality: "thesis"
+    key_argument: "Summation of the three feedback loops' limits, representing the ceiling on how far recursive AI improvement could go."
+  - claim: "The human brain is significantly suboptimal relative to physical limits on training efficiency, due to poor data quality, biological constraints, and evolution being a blind search process."
+    centrality: "load-bearing"
+    key_argument: "Humans spend little time on focused learning, must coordinate via language, and show significant inter-individual variation—suggesting 4-10 additional OOMs beyond human-level efficiency."
+  - claim: "Reversible computing could push chip technology limits beyond Landauer's limit, since that limit only applies to irreversible operations."
+    centrality: "supporting"
+    key_argument: "Noted as a speculative possibility that would raise the ceiling further."
+
+positions_rejected:
+  - position: "Intelligence explosions would lead to literally infinite capability increases."
+    why_rejected: "Physical limits on software, chip technology, and chip production guarantee that progress must eventually plateau, making infinite-progress models implausible."
+  - position: "Human-level intelligence represents a ceiling for computational efficiency."
+    why_rejected: "The brain operates under biological constraints and uses poor-quality training data; algorithmic and data improvements could yield 4-10 OOMs beyond human-level efficiency."
+  - position: "Progress will necessarily slow well before physical limits due to diminishing returns, regulation, or other human constraints."
+    why_rejected: "Not rejected but explicitly set aside as outside the scope of this analysis; the paper deliberately focuses on physical rather than social/economic limits."
+
+methodological_commitments:
+  - "Fermi estimation and order-of-magnitude reasoning: all results expressed in OOMs of effective compute."
+  - "Decomposition into independent feedback loops (software, chip technology, chip production) to enable modular analysis."
+  - "Anchoring on physical limits (thermodynamic, energy-capture) rather than economic or social constraints."
+  - "Using the human brain as a comparison point and efficiency anchor for software progress estimates."
+  - "Reliance on external quantitative estimates (Epoch AI data, IEA energy statistics) as inputs to back-of-envelope calculations."
+  - "Explicit framing as a 'rough research note' shared for feedback—characteristic willingness to publish preliminary quantitative analysis."
+
+cross_references:
+  - "three-types-of-intelligence-explosion"
+  - "how-quick-and-big-would-a-software-intelligence-explosion-be"

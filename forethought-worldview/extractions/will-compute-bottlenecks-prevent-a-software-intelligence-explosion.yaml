@@ -1,0 +1,78 @@
+paper:
+  slug: "will-compute-bottlenecks-prevent-a-software-intelligence-explosion"
+  title: "Will Compute Bottlenecks Prevent a Software Intelligence Explosion?"
+
+premises_taken_as_given:
+  - claim: "AI R&D will be substantially automated in the near-ish future, creating a feedback loop of AI improving AI algorithms."
+    confidence: "near-certain"
+    evidence: "The paper takes 'automating OAI' as a starting condition and directly references the companion SIE report without re-arguing for automation feasibility."
+
+  - claim: "A software intelligence explosion, if it occurs, would have massive and severe consequences (AI takeover, coups, societal disruption, dangerous technologies)."
+    confidence: "near-certain"
+    evidence: "Stated matter-of-factly as obvious consequences in the intro with no supporting argument."
+
+  - claim: "The CES production function is the right mathematical framework for formalizing the compute bottleneck objection."
+    confidence: "strong"
+    evidence: "The paper adopts the CES framing from Epoch as the 'more precise' version of the objection and structures its entire counterargument around the ρ parameter, even while questioning whether it applies well to AI R&D."
+
+  - claim: "AI algorithmic progress has been substantial and ongoing over the past decade, and has not been obviously slowed by decreasing numbers of near-frontier experiments."
+    confidence: "near-certain"
+    evidence: "Used as an empirical datum to rebut the claim that near-frontier experiments are the binding bottleneck."
+
+  - claim: "There are strong increasing returns to cognitive labor in AI R&D specifically—smarter and faster researchers matter enormously."
+    confidence: "strong"
+    evidence: "Cites survey of 8 AI researchers estimating a 6x pace increase from median-to-top employee quality, and treats this as a key disanalogy with manufacturing."
+
+distinctive_claims:
+  - claim: "Compute bottlenecks are unlikely to prevent a software intelligence explosion in its early stages, but could plausibly constrain it after several OOMs of progress."
+    centrality: "thesis"
+    key_argument: "For the most likely range of ρ (-0.2 to 0), the CES predictions don't diverge significantly until cognitive labor has grown by ~5 OOMs, meaning early SIE dynamics are robust to compute constraints."
+
+  - claim: "The effective ρ for AI R&D is likely between -0.2 and 0, substantially higher than standard economic estimates from manufacturing."
+    centrality: "thesis"
+    key_argument: "Seven distinct arguments that AI R&D has higher substitutability than manufacturing: longer-run estimates trend toward ρ=0, heroic extrapolation from narrow empirical ranges, economic estimates don't capture 'smarter/faster workers', experiments themselves become more compute-efficient during an SIE, implausibly low max speeds from economic ρ values, and strongest-link rather than weakest-link production dynamics."
+
+  - claim: "Algorithmic efficiency improvements during an SIE effectively increase the number of experiments you can run, meaning both key inputs (cognitive labor AND experiments) grow together, undermining the fixed-input assumption of the bottleneck argument."
+    centrality: "load-bearing"
+    key_argument: "When AI algorithms become 2x more efficient, you can run 2x as many experiments at a fixed capability level, so compute is not truly held fixed in the relevant sense."
+
+  - claim: "Economic estimates of ρ from manufacturing yield implausibly low 'max speeds' for AI software progress (often below 10x), which is a reductio against applying those estimates to AI R&D."
+    centrality: "load-bearing"
+    key_argument: "The specific things you can do with abundant cognitive labor in AI R&D (optimizing every part of the stack, better experiment design, early stopping, extrapolation from small-scale experiments) have no clear analogues in manufacturing."
+
+  - claim: "Jones's (2003) hypothesis—that long-run ρ approaches 0 because production processes reconfigure to exploit abundant inputs—applies with particular force to AI R&D because fast-thinking AGIs could reconfigure R&D processes in days or weeks rather than years."
+    centrality: "load-bearing"
+    key_argument: "Short-run low ρ reflects inability to reorganize production, but AGIs thinking at accelerated speeds could reorganize AI R&D almost instantly."
+
+  - claim: "AI R&D has a 'strongest link' structure (multiple alternative routes to progress), not a 'weakest link' structure (all routes bottlenecked by the same constraint)."
+    centrality: "supporting"
+    key_argument: "Different sources of progress (extrapolation from small experiments, scaffolding, data flywheels, better experiment design) will have different ρ values, and we use whichever is most favorable."
+
+  - claim: "There is a 10-40% probability of a software intelligence explosion (≥5 OOMs effective training compute increase in <1 year without more hardware) despite compute bottlenecks."
+    centrality: "supporting"
+    key_argument: "Described as very tentative, but significantly higher than naive application of economic estimates would suggest."
+
+positions_rejected:
+  - position: "Economic estimates of ρ (typically -1 to -0.15) from manufacturing or the broader economy can be straightforwardly applied to AI R&D."
+    why_rejected: "Multiple disanalogies: AI R&D benefits from smarter/faster workers (not just more workers), has routes to reduce compute per experiment, involves heroic extrapolation from narrow empirical ranges, and has a strongest-link rather than weakest-link structure."
+
+  - position: "Near-frontier experiments (those using ~1% of lab's total compute) are the binding bottleneck on AI progress."
+    why_rejected: "Proves too much—over the past decade, training run size grew much faster than total compute, reducing the number of near-frontier experiments, yet algorithmic progress didn't slow. Also, extrapolation from smaller experiments may suffice."
+
+  - position: "The Epoch blog post's conclusion that a software-only singularity would 'fizzle out after less than an order of magnitude of improvement in efficiency.'"
+    why_rejected: "Relies on ρ=-0.4 from US manufacturing, which the paper argues is far too low for AI R&D for multiple structural reasons."
+
+  - position: "ρ = 0 (Cobb-Douglas) is the correct assumption for AI R&D (the position taken in the companion SIE report)."
+    why_rejected: "Not fully rejected but acknowledged as 'likely a bit too high'—the paper updates toward some compute bottleneck existing, just much weaker than economic estimates suggest."
+
+methodological_commitments:
+  - "Using formal economic models (CES production function) as the framework for analyzing the objection, while systematically arguing against naive parameter transfer from other domains."
+  - "Reasoning about implications of parameter estimates to check plausibility (e.g., translating ρ into 'max speed' and asking whether that max speed is believable)."
+  - "Qualitative argumentation based on structural disanalogies between AI R&D and manufacturing/broader economy."
+  - "Appealing to expert surveys and AI researcher intuitions as evidence about the returns to cognitive labor."
+  - "Explicit probabilistic framing of conclusions (10-40% probability range)."
+  - "Engaging seriously with the strongest version of opposing arguments ('economist version') rather than only the intuitive version."
+  - "Identifying the paper as a 'rough research note' shared for feedback—reflecting a commitment to transparent, iterative reasoning under uncertainty."
+
+cross_references:
+  - "will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"

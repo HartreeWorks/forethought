@@ -1,0 +1,96 @@
+paper:
+  slug: "ai-accelerating-ai-rsp"
+  title: "How Can AI Labs Incorporate Risks From AI Accelerating AI Progress Into Their Responsible Scaling Policies?"
+
+premises_taken_as_given:
+  - claim: "AI has already started to accelerate AI progress, and this acceleration will increase as we approach AGI."
+    confidence: "near-certain"
+    evidence: "Stated as fact with a citation to ai-improving-ai.safe.ai; the paper builds entirely on this trajectory."
+
+  - claim: "Responsible Scaling Policies (RSPs) are the right framework for managing dangerous AI capabilities, and labs should operate within them."
+    confidence: "near-certain"
+    evidence: "The entire paper is structured as a proposal for RSP integration; the legitimacy of the RSP framework is never questioned."
+
+  - claim: "AI labs are the primary actors who must manage these risks, and voluntary self-governance commitments are a viable mechanism."
+    confidence: "strong"
+    evidence: "All recommendations are addressed to labs and framed as commitments labs should make, rather than as regulations imposed externally."
+
+  - claim: "Misaligned AI is a realistic threat model, including AI that could subtly poison the AI development process to ensure future models are misaligned."
+    confidence: "strong"
+    evidence: "Treated as a key threat model justifying alignment, boxing, and internal monitoring measures without arguing for its plausibility."
+
+  - claim: "Software/algorithmic progress is harder to measure and govern than compute, making it a particularly dangerous vector for rapid capability gains."
+    confidence: "near-certain"
+    evidence: "Stated directly: 'advances in algorithms and data are hard to measure and control' contrasted with compute governance."
+
+  - claim: "Competitive dynamics between labs create 'race to the bottom' pressures that could lead to catastrophically unsafe behavior."
+    confidence: "strong"
+    evidence: "Race dynamics are a core part of the threat model; multiple protective measures (speed limits, external oversight, legibility) are specifically designed to mitigate them."
+
+  - claim: "There exist plausible scenarios where a global pause on AI development may be necessary."
+    confidence: "strong"
+    evidence: "Stated directly: 'it may be necessary to pause AI development globally, for example if we cannot find a scalable alignment solution.'"
+
+  - claim: "The pace of AI software progress in 2020-23 serves as a meaningful baseline for measuring acceleration."
+    confidence: "strong"
+    evidence: "Used as the reference period throughout for defining 2X and 3X acceleration thresholds without justifying why this period is the right baseline."
+
+distinctive_claims:
+  - claim: "AI that could accelerate a lab's pace of software progress by 3X is a specific dangerous capability threshold that RSPs should incorporate."
+    centrality: "thesis"
+    key_argument: "3X acceleration implies ~90% automation of AI R&D cognitive tasks, 8X effective compute gains in one year from algorithms alone, and likely rapid further acceleration beyond 3X—making it extremely destabilizing."
+
+  - claim: "Labs should pause development when they detect a 2X acceleration in software progress (or AI passing autonomous R&D task evals), unless protective measures are in place."
+    centrality: "thesis"
+    key_argument: "2X serves as an early warning for 3X because noise could mask true capability; 2X itself requires ~75% automation of R&D tasks and is inherently dangerous."
+
+  - claim: "AI-driven acceleration of AI progress is among the most dangerous capabilities AI can possess, distinct from and potentially more important than other dangerous capabilities like bioweapons or cyberattacks."
+    centrality: "load-bearing"
+    key_argument: "It destabilizes the entire safety ecosystem: undermining cautious development, enabling rapid power concentration, and making all other risks harder to manage."
+
+  - claim: "RSPs should include explicit AI development speed limits—caps on how fast a lab advances overall capabilities given current safety processes."
+    centrality: "load-bearing"
+    key_argument: "Existing RSP mechanisms (evals, oversight cycles) break down under rapid progress; speed limits provide legible guarantees that prevent race dynamics."
+
+  - claim: "Publicly legible external oversight mechanisms are essential, not just for decision quality but for mutual assurance between labs."
+    centrality: "load-bearing"
+    key_argument: "Other labs may take risks if they believe a capable lab is advancing irresponsibly; legible oversight solves a coordination problem, not just an accountability problem."
+
+  - claim: "Labs should prioritize using AI inference compute for alignment work over capabilities work (e.g. >2X ratio), once AI significantly accelerates progress."
+    centrality: "supporting"
+    key_argument: "Once AI massively accelerates R&D, how the AI workforce is directed becomes a critical safety lever; alignment must not be deprioritized relative to capabilities."
+
+  - claim: "A toy model where rate of progress scales as (cognitive output)^0.5 × (compute)^0.5 is useful for reasoning about the relationship between AI R&D automation and the pace of progress."
+    centrality: "supporting"
+    key_argument: "Used to derive that 3X faster progress requires ~9X cognitive output increase and ~90% task automation, grounding the threshold in quantitative reasoning."
+
+  - claim: "Speed limit commitments should have an explicit exception for falling behind a demonstrably less cautious competitor."
+    centrality: "supporting"
+    key_argument: "Without this exception, cautious labs face an unacceptable competitive disadvantage; with it, the commitment is more credible and adoptable."
+
+positions_rejected:
+  - position: "Compute governance alone is sufficient to manage risks from rapid AI progress."
+    why_rejected: "Software progress can occur without additional compute and is much harder to measure and control; the paper specifically highlights this as a governance gap."
+
+  - position: "Existing RSP eval-based frameworks are sufficient to handle AI-accelerated AI progress."
+    why_rejected: "Existing mechanisms break down under rapid progress—evals may need to be rerun too frequently, oversight cycles become too slow, and whistleblower windows shrink."
+
+  - position: "AI acceleration of AI progress will necessarily be gradual enough to detect and respond to."
+    why_rejected: "The paper explicitly designs for sudden acceleration scenarios and creates a second warning sign (autonomous task evals) specifically because gradual detection may fail."
+
+  - position: "Internal lab governance and shareholder-aligned incentives are sufficient for responsible decision-making at this capability level."
+    why_rejected: "Pursuing shareholder value could pose large externalities; pro-social governance and external oversight are needed precisely because profit motives may conflict with safety."
+
+  - position: "Alignment work alone (without boxing and monitoring) is sufficient to prevent misaligned AI from corrupting the development process."
+    why_rejected: "The paper insists on alignment, boxing, AND internal monitoring as complementary layers, because no single measure provides sufficient guarantee."
+
+methodological_commitments:
+  - "Threat model → dangerous capability threshold → early warning signs → protective measures structure, mirroring and extending the RSP framework."
+  - "Quantitative thresholds (3X dangerous, 2X warning) grounded in toy mathematical models of AI R&D production functions."
+  - "Emphasis on operationalizability: proposals designed to be measurable and implementable by labs today."
+  - "RCTs and internal surveys as empirical methods for attributing acceleration to AI contributions."
+  - "Conservative/precautionary approach: warning signs designed so that false negatives (missing dangerous capability) are much worse than false positives."
+  - "Explicitly preliminary framing ('rough research note') inviting feedback, indicating iterative research methodology."
+
+cross_references:
+  - "continuous-doesnt-mean-slow"

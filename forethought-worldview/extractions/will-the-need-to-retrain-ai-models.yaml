@@ -1,0 +1,79 @@
+paper:
+  slug: "will-the-need-to-retrain-ai-models"
+  title: "Will the Need to Retrain AI Models from Scratch Block a Software Intelligence Explosion?"
+
+premises_taken_as_given:
+  - claim: "A software intelligence explosion (SIE) is a plausible scenario worth modelling in detail once AI fully automates AI R&D."
+    confidence: "strong"
+    evidence: "The paper treats the SIE as a realistic enough possibility to warrant detailed quantitative investigation of specific objections to it, without arguing for its plausibility."
+
+  - claim: "Semi-endogenous growth models are the appropriate framework for modelling AI software progress dynamics."
+    confidence: "strong"
+    evidence: "Uses the Jones model as the default analytical framework without justifying this choice over alternatives, calling it 'the simplest model I know of to estimate the dynamics of an SIE.'"
+
+  - claim: "AI software progress exhibits diminishing returns that can be empirically estimated."
+    confidence: "strong"
+    evidence: "References empirical estimates for diminishing returns to software progress and uses a median estimate that software must double ~5 times before the pace of progress doubles."
+
+  - claim: "Training compute for SOTA models currently takes ~3 months and uses ~1e29 FLOP."
+    confidence: "near-certain"
+    evidence: "Cited as empirical baseline from Epoch data, used without qualification."
+
+  - claim: "Algorithmic efficiency improvements can be 'spent' either on making models smarter or on making training faster (by reducing compute for equivalent capability)."
+    confidence: "near-certain"
+    evidence: "This fungibility between capability improvement and training speedup is treated as obvious and is central to the analysis of how retraining delays shrink over time."
+
+  - claim: "AI will eventually fully automate AI R&D."
+    confidence: "strong"
+    evidence: "The paper begins from the premise 'Once AI fully automates AI R&D' without arguing for this possibility."
+
+  - claim: "Software progress (algorithmic efficiency) is a key driver of AI capability improvement, distinct from hardware scaling."
+    confidence: "near-certain"
+    evidence: "The entire analysis focuses on software doublings as the unit of progress, treating software efficiency gains as the primary mechanism of an SIE."
+
+distinctive_claims:
+  - claim: "Retraining from scratch will NOT block a software intelligence explosion; it will only slow acceleration by roughly ~20% (from ~5 to ~6 doublings needed to double the pace of progress)."
+    centrality: "thesis"
+    key_argument: "In the theoretical model, retraining adds only one additional software doubling requirement because efficiency gains can be redirected to shorten training runs, so the feedback loop still accelerates."
+
+  - claim: "Retraining makes a much bigger difference to very aggressive/fast SIE scenarios than to median scenarios."
+    centrality: "load-bearing"
+    key_argument: "When only 1 doubling is needed to double the pace of progress, retraining increases this to 2 (a 100% increase), versus 5→6 (a 20% increase) in the median case."
+
+  - claim: "An SIE completing in less than 10 months is unlikely unless training times have already shortened before the SIE begins, or runtime/post-training improvements are large."
+    centrality: "load-bearing"
+    key_argument: "Toy models with 100-day initial training runs show >10 months to singularity; with 30-day runs, >7 months. The 3-month current training baseline creates a meaningful floor."
+
+  - claim: "The degree to which retraining slows an SIE depends heavily on whether AI R&D automation happens suddenly or gradually."
+    centrality: "load-bearing"
+    key_argument: "Gradual automation allows training times to shorten in advance (matching the theoretical model's ~20% slowdown), while sudden automation leaves long training times intact (matching the toy model's ~3X slowdown)."
+
+  - claim: "Runtime efficiency improvements and post-training enhancements could enable fast takeoff without needing to retrain from scratch, potentially circumventing the retraining bottleneck entirely."
+    centrality: "supporting"
+    key_argument: "Mentioned as an unmodelled factor that could make very fast SIE scenarios more plausible despite retraining constraints."
+
+  - claim: "Half of training compute being redirected to continuous retraining (rather than all going to algorithmic research) is a reasonable modelling assumption."
+    centrality: "supporting"
+    key_argument: "Used as a simplifying assumption in the toy model; represents the tradeoff between using compute for research versus keeping the AI workforce up-to-date."
+
+positions_rejected:
+  - position: "Retraining from scratch is a fundamental blocker that would prevent a software intelligence explosion."
+    why_rejected: "The analysis shows that efficiency gains can be redirected to shorten training runs, so retraining only slows but does not prevent acceleration. The feedback loop still compounds."
+
+  - position: "Retraining has negligible impact on SIE dynamics."
+    why_rejected: "The toy models show 2-3.5X slowdowns in time to singularity, and retraining substantially dampens the most aggressive/fast takeoff scenarios."
+
+  - position: "Hardware scaling is the primary consideration for SIE dynamics."
+    why_rejected: "Implicitly set aside; the paper focuses entirely on software/algorithmic progress as the key variable, holding compute roughly fixed."
+
+methodological_commitments:
+  - "Semi-endogenous growth modelling (Jones model) as the primary analytical framework for AI progress dynamics."
+  - "Simple spreadsheet toy models to generate quantitative estimates, with explicit parameter sweeps."
+  - "Separation of theoretical analysis (asymptotic behavior) from toy model analysis (specific timelines), with explicit discussion of why they diverge."
+  - "Use of 'doublings needed to double pace of progress' as a key metric for acceleration speed."
+  - "Willingness to publish rough research notes for feedback rather than only polished results."
+  - "Focus on identifying whether qualitative conclusions hold across parameter ranges rather than point estimates."
+  - "Quantitative scenario analysis with explicit parameter sensitivity (varying N, initial training time)."
+
+cross_references:
+  - "how-quick-and-big-would-a-software-intelligence-explosion-be"

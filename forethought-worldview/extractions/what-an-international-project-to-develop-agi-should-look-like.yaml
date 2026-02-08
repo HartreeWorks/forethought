@@ -1,0 +1,107 @@
+paper:
+  slug: "what-an-international-project-to-develop-agi-should-look-like"
+  title: "What an international project to develop AGI should look like"
+
+premises_taken_as_given:
+  - claim: "AGI (systems that can do essentially all economically useful tasks more cheaply than humans at any expertise level) will be developed, and superintelligence may follow."
+    confidence: "near-certain"
+    evidence: "The paper treats AGI development as a given and focuses entirely on governance structures for it, never arguing for its likelihood."
+
+  - claim: "An intelligence explosion (rapid recursive self-improvement) is a real possibility once AGI is achieved."
+    confidence: "strong"
+    evidence: "Discusses 'breathing room to pause AI development during an intelligence explosion' and scenarios where 'a leap forward in algorithmic efficiency of five orders of magnitude within a year is on the table.'"
+
+  - claim: "Whoever develops AGI/superintelligence first could achieve decisive and potentially permanent strategic advantage, including the capacity for world dictatorship."
+    confidence: "near-certain"
+    evidence: "Repeatedly references risk of 'total disempowerment' of non-developers, links to 'AGI and World Government' paper, and structures the entire proposal around preventing concentration of power."
+
+  - claim: "AI development is currently concentrated in the US, which is the frontrunner and most likely solo developer."
+    confidence: "near-certain"
+    evidence: "The entire proposal is structured around US dominance—giving it 52% equity, 50% of compute—and the main alternatives analyzed assume US primacy."
+
+  - claim: "Model weights security is a critical bottleneck; state-level cyberattacks on model weights are a realistic threat."
+    confidence: "near-certain"
+    evidence: "Proposes encrypted distributed model weights, very strong infosecurity, and treats weight theft by non-member states as a core threat to manage."
+
+  - claim: "Democratic governance is more likely to lead to good outcomes (moral reflection, compromise) than authoritarian governance."
+    confidence: "strong"
+    evidence: "Explicitly favors democratic coalitions, stating they are 'more likely to lead to extensive moral reflection, compromise and trade than governance by authoritarian countries.'"
+
+  - claim: "Lock-in of values or power structures is a serious risk during the transition to superintelligence."
+    confidence: "near-certain"
+    evidence: "Lists 'where possible, it avoids locking in major decisions' as a key desideratum and frames the entire treaty as 'interim arrangements.'"
+
+  - claim: "A monopoly or near-monopoly on AGI development is desirable for safety, as it reduces racing dynamics."
+    confidence: "strong"
+    evidence: "Lists 'at least a short-term monopoly on the development of AGI' as one of the top desiderata, arguing it enables pausing, differential development, and better security."
+
+distinctive_claims:
+  - claim: "An international AGI project modeled on Intelsat—led by a coalition of democracies with the US holding majority control—is the most desirable feasible governance arrangement for the transition to superintelligence."
+    centrality: "thesis"
+    key_argument: "Balances political feasibility (US won't accept equal partnership) with meaningful constraints on any single country's power, while providing a monopoly that enables safer development."
+
+  - claim: "The Intelsat governance model (weighted equity voting, intergovernmental commercial entity) is the best historical template for international AGI governance."
+    centrality: "load-bearing"
+    key_argument: "Intelsat demonstrated that international agreements can be set up quickly, can accommodate dominant-power dynamics, and can operate commercially while serving public interests."
+
+  - claim: "It is valuable to develop detailed, concrete proposals for an international AGI project now, even if current political conditions make it unlikely, because a sudden change in political sentiment could create a narrow window of opportunity."
+    centrality: "load-bearing"
+    key_argument: "Stated explicitly as a motivation: 'in case some event triggers a sudden and large change in political sentiment.'"
+
+  - claim: "The US should receive 52% of voting equity—enough for simple majority control but not enough for supermajority decisions—as the optimal feasibility-safety tradeoff."
+    centrality: "load-bearing"
+    key_argument: "Makes the project palatable to the US while ensuring major decisions (model spec, deployment, weight release) require broader coalition agreement."
+
+  - claim: "Non-participating countries should receive tangible benefits (equity, API access, sovereignty guarantees) conditional on good standing, as an enforcement mechanism against racing and weight theft."
+    centrality: "load-bearing"
+    key_argument: "Creates incentives for non-members to cooperate rather than defect, and is also described as 'fairer' and beneficial to people's lives."
+
+  - claim: "Kill switches distributed across founding member countries and encrypted distributed model weights are essential safeguards against US defection after AGI is created."
+    centrality: "supporting"
+    key_argument: "Guards against the specific scenario where the US takes unilateral control of datacenters and models post-AGI."
+
+  - claim: "The international project should fund training runs considerably larger (e.g. 3x-10x) than would otherwise occur, deliberately accelerating AGI development."
+    centrality: "supporting"
+    key_argument: "Acceleration is worth it if it buys a decisive lead that enables the ability to pause, slow down, or differentially develop capabilities during the intelligence explosion."
+
+  - claim: "The window of opportunity for establishing such a project is limited; as compute costs for frontier runs approach $1T, it becomes politically harder to organize."
+    centrality: "supporting"
+    key_argument: "Trends in increasing compute costs create a time-pressure argument for acting sooner."
+
+  - claim: "Essential semiconductor supply chain countries (Netherlands, Japan, South Korea, Germany) have genuine hard power leverage over the US regarding AI development."
+    centrality: "supporting"
+    key_argument: "These countries can threaten to restrict chip/equipment supply or supply China instead, giving them real bargaining power in negotiations."
+
+positions_rejected:
+  - position: "A UN-led global project is the best governance structure for AGI development."
+    why_rejected: "Less feasible, vulnerable to Security Council stalemate, and would require unacceptable concessions to authoritarian countries; though acknowledged as more legitimate."
+
+  - position: "Private enterprise with regulation is sufficient to govern the transition to superintelligence."
+    why_rejected: "Less likely to produce the monopoly needed to reduce racing; though acknowledged as potentially better for innovation and less risky for concentration of power."
+
+  - position: "A US-only government project is acceptable."
+    why_rejected: "Unacceptable risk of AI-enabled dictatorship by a single country; less legitimate; less likely to produce benefit-sharing."
+
+  - position: "China should be a founding member of an international AGI project."
+    why_rejected: "Dismissed as politically infeasible: 'on the presumption that the US wouldn't accept that proposal.'"
+
+  - position: "Taiwan should be a founding member."
+    why_rejected: "Excluded specifically to increase the chance of Chinese participation as a non-founding member."
+
+  - position: "AGI governance can wait until AGI is closer or already exists."
+    why_rejected: "Implicitly rejected by the paper's urgency about developing concrete proposals now, before political conditions shift."
+
+  - position: "Accelerating AGI development is always bad from a safety perspective."
+    why_rejected: "Explicitly argues the tradeoff is worth it: 'I would gladly trade earlier-AGI for the developers having more control over AGI development, including the ability to stop and start.'"
+
+methodological_commitments:
+  - "Concrete institutional design: deliberately spells out specific governance structures, voting rules, equity distributions, and even draft treaty text, at the cost of 'being almost certainly off-base in the specifics.'"
+  - "Historical analogy as primary reasoning tool: draws heavily from the Intelsat model for institutional design."
+  - "Feasibility-weighted reasoning: repeatedly weights proposals by political feasibility, not just desirability in the abstract."
+  - "Scenario analysis: considers different scenarios (US elites believe in intelligence explosion vs. not) and how they affect feasibility."
+  - "Comparative institutional analysis: systematically compares international project against US-only, private enterprise, and UN-led alternatives using pros/cons."
+  - "Preparedness-oriented framing: justifies detailed proposal development as preparation for possible sudden political shifts, even if current likelihood is low."
+
+cross_references:
+  - "agi-and-world-government"
+  - "intelsat-as-a-model-for-international-agi-governance"

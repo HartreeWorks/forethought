@@ -1,0 +1,92 @@
+paper:
+  slug: "is-flourishing-predetermined"
+  title: "Is Flourishing Predetermined?"
+
+premises_taken_as_given:
+  - claim: "The expected value of the future can be usefully decomposed into a survival factor and a flourishing factor, where total value is approximately their product."
+    confidence: "near-certain"
+    evidence: "Adopted without argument as the framework for analysis, citing the 'SF model' from MacAskill and Trammell (2025) as established Forethought infrastructure."
+
+  - claim: "The chance humanity achieves a great future is low (around 10%) but nonzero, making it a high-leverage target for improvement."
+    confidence: "strong"
+    evidence: "Stated in the abstract as the conclusion of the Better Futures series, treated as the motivating starting point rather than something to be argued for."
+
+  - claim: "Flourishing is very difficult—the expected fraction of surviving civilisations that flourish is very low."
+    confidence: "strong"
+    evidence: "The author's best-guess distribution places most weight very close to zero, citing previous Forethought work ('No Easy Eutopia', 'Convergence and Compromise') as establishing this difficulty."
+
+  - claim: "Expected value reasoning is the appropriate framework for prioritising between cause areas under deep uncertainty."
+    confidence: "near-certain"
+    evidence: "The entire analysis computes expected movability and marginal value of effort without questioning whether expected value maximisation is appropriate under the radical uncertainty described."
+
+  - claim: "The reference class of 'human-level civilisations' is a meaningful concept for reasoning about our prospects."
+    confidence: "strong"
+    evidence: "Used as the foundational framing device throughout, though the author acknowledges uncertainty about what this reference class looks like."
+
+  - claim: "Work on existential risk reduction (survival) and work on flourishing are the two key categories for improving the long-run future."
+    confidence: "near-certain"
+    evidence: "The paper's entire comparative analysis takes this binary decomposition as given, inherited from the Better Futures framework."
+
+distinctive_claims:
+  - claim: "Radical uncertainty about the default probability of a desired outcome systematically reduces the expected tractability (movability) of working on that outcome, because the variance of the probability distribution enters as a penalty."
+    centrality: "thesis"
+    key_argument: "The hidden-difficulty model shows expected movability equals p̄(1−p̄) minus Var(p), so more spread-out distributions always reduce expected impact relative to a point estimate at the same mean."
+
+  - claim: "This 'predetermination penalty' is a real but modest downward update to the value of working on flourishing—roughly halving expected movability on the author's numbers."
+    centrality: "thesis"
+    key_argument: "Using beta(0.1, 0.6) for flourishing, the variance penalty reduces movability by about 60%, but the author emphasises this is surprisingly small given how extreme the distribution looks."
+
+  - claim: "The predetermination penalty is larger for flourishing than for survival, making survival look roughly twice as promising relative to flourishing after the update."
+    centrality: "load-bearing"
+    key_argument: "We know more about the objective probability of survival (from empirical evidence like nuclear near-misses) than about flourishing (which depends on unresolved philosophical and theoretical questions), so the survival distribution has lower variance."
+
+  - claim: "Human civilisation appears to be in a more 'middling' and chancy state regarding flourishing than a random civilisation might be—we're neither obviously doomed nor obviously on track."
+    centrality: "load-bearing"
+    key_argument: "Our civilisation lacks both the features of one clearly heading for lock-in/collapse and one that 'has its act together,' suggesting the fraction of our-type civilisations that flourish is more middling than the all-civilisations distribution."
+
+  - claim: "When acting on one of several multiplicative factors (survival × flourishing), one should act as if optimistic about the other factor, because interventions pay off more in worlds where the other factor is high."
+    centrality: "supporting"
+    key_argument: "The marginal value of increasing one factor is multiplied by the level of the other factor, so interventions that work best in high-other-factor worlds are more valuable in expectation."
+
+  - claim: "Uninformative priors for radically uncertain objective probabilities should spread credence evenly across orders of magnitude in odds, not uniformly across probability."
+    centrality: "load-bearing"
+    key_argument: "A uniform distribution over probability implicitly treats extreme odds as far less plausible than middling odds, which conflicts with genuine radical uncertainty; the Jeffreys prior (beta(0.5, 0.5)) is recommended as the natural starting point."
+
+  - claim: "'Movability' (absolute marginal change in probability per unit effort) is a more natural and less confusing quantity than ITN-tractability for this kind of analysis."
+    centrality: "supporting"
+    key_argument: "ITN-tractability conflates multiple factors and creates confusing consequences (e.g. higher total effort implies higher tractability), whereas movability directly captures what we care about."
+
+positions_rejected:
+  - position: "The value of working on flourishing should be assessed by taking one's subjective probability estimate at face value, without considering the shape of one's uncertainty about the objective probability."
+    why_rejected: "This ignores the predetermination effect: a 10% subjective credence could reflect genuine chanciness or extreme polarisation between near-zero and near-one, with very different implications for tractability."
+
+  - position: "Flourishing is comparably tractable to survival reduction work."
+    why_rejected: "After applying the predetermination penalty, flourishing suffers a larger hit because we're more radically uncertain about its objective likelihood, making survival look about twice as relatively promising."
+
+  - position: "A uniform prior over probability is an appropriate uninformative prior for the objective chance of flourishing."
+    why_rejected: "It assigns far too little weight to extreme odds (e.g. 10,000:1) relative to middling odds, which doesn't match the epistemic state of radical uncertainty."
+
+  - position: "The 'multiplicative model' of civilisational value naturally generates a U-shaped distribution over the fraction of flourishing civilisations."
+    why_rejected: "Heavy-tailed value distributions generate distributions concentrated near zero with no symmetric pile-up near one; U-shaped distributions require more contrived parameter choices."
+
+  - position: "The predetermination argument is a devastating objection to working on flourishing."
+    why_rejected: "On the author's numbers, the penalty is real but modest (roughly a 2x factor), and the author is cautious about drawing big conclusions from such abstract reasoning."
+
+  - position: "The ITN framework is the best tool for this particular comparison."
+    why_rejected: "The paper explicitly introduces 'movability' as an alternative that avoids confusions inherent in ITN when applied to this context, while showing formal correspondence in the appendix."
+
+methodological_commitments:
+  - "Formal probabilistic modelling with explicit distributional assumptions (beta distributions, logistic functions) to make intuitive arguments precise."
+  - "Reference class reasoning about civilisations as a way to operationalise uncertainty about our own prospects."
+  - "Use of uninformative priors (Jeffreys prior) as starting points for radical uncertainty, with argued justification for the choice."
+  - "Expected value reasoning as the decision-theoretic framework, including computing marginal expected value of effort."
+  - "Decomposition of complex problems into multiplicative factors (survival × flourishing) for tractability comparison."
+  - "Thought experiments and intuition pumps (city council vote, planetary civilisations) to motivate formal models."
+  - "Explicit acknowledgement of model limitations and caution about over-interpreting abstract frameworks—preference for concrete interventions over abstract prioritisation."
+  - "Building on and extending previous Forethought frameworks rather than starting from scratch."
+
+cross_references:
+  - "better-futures"
+  - "no-easy-eutopia"
+  - "convergence-and-compromise"
+  - "supplement-the-basic-case-for-better-futures"

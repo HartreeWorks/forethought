@@ -1,0 +1,109 @@
+paper:
+  slug: "ai-enabled-coups"
+  title: "AI-Enabled Coups: How a Small Group Could Use AI to Seize Power"
+
+premises_taken_as_given:
+  - claim: "AI systems that surpass top human experts across coup-relevant domains are sufficiently probable to warrant serious analysis of their implications."
+    confidence: "strong"
+    evidence: "The paper explicitly acknowledges 'broad disagreement about whether and when' but argues this is 'sufficiently probable that it is important to explore its implications,' citing multiple industry leaders' 5-10 year timelines."
+
+  - claim: "AI will eventually be capable of both cognitive and physical labor that can fully replace humans, including in military roles."
+    confidence: "strong"
+    evidence: "The paper assumes robotics will reach human-equivalent physical capability and cites Todd (2025) on falling robot costs, treating the combination of cognitive and physical AI automation as a matter of when, not if."
+
+  - claim: "Once AI can automate AI R&D, feedback loops could lead to dramatically accelerating capabilities progress."
+    confidence: "strong"
+    evidence: "Treated as a key enabling assumption throughout, citing Davidson (2023b), Aschenbrenner (2024a), and Forethought's own intelligence explosion papers. The paper builds extensively on the assumption that acceleration could make a small lead into an enormous capabilities gap."
+
+  - claim: "Power concentration is inherently dangerous and illegitimate when it reaches the level of one person or small group controlling a sovereign state without democratic accountability."
+    confidence: "near-certain"
+    evidence: "The paper states this is 'deeply concerning in its own right' and 'wholly illegitimate,' treating it as a normative foundation rather than arguing for it."
+
+  - claim: "Frontier AI development is already concentrated among very few organizations and this concentration is likely to intensify."
+    confidence: "near-certain"
+    evidence: "Stated as empirical fact (only 3 orgs have topped GPQA Diamond) and argued to worsen due to rising costs, accelerating progress, and potential government centralization."
+
+  - claim: "The distribution of power among many humans has been a crucial historical check on tyranny."
+    confidence: "near-certain"
+    evidence: "Treated as a foundational political premise: 'even dictators rely on others to maintain their power,' citing Svolik (2012), and the paper's entire threat model rests on AI undermining this constraint."
+
+  - claim: "Lock-in of values or institutions via AI is technologically feasible."
+    confidence: "strong"
+    evidence: "Cited directly via Finnveden, Riedel and Shulman (2023), with the claim that 'coup leaders could potentially stay in power indefinitely' treated as a serious consequence rather than argued for at length."
+
+distinctive_claims:
+  - claim: "Advanced AI introduces three novel, interacting risk factors for coups: singular loyalties, secret loyalties, and exclusive access to coup-enabling capabilities."
+    centrality: "thesis"
+    key_argument: "AI removes the historical constraint that seizing power requires human cooperation. A single person could command a loyal AI workforce, embed undetectable secret objectives, or monopolize superhuman capabilities—and these three dynamics reinforce each other."
+
+  - claim: "AI-enabled coups are a distinct and underappreciated category of catastrophic risk, separate from both misaligned AI takeover and conventional geopolitical risks."
+    centrality: "thesis"
+    key_argument: "The paper explicitly frames this as concerning 'whether or not humans can successfully align AI,' and as applying even in established democracies—carving out a novel threat category."
+
+  - claim: "Secret loyalties can propagate forward through generations of AI systems: one compromised generation of internal AI researchers can ensure all subsequent generations are also compromised."
+    centrality: "load-bearing"
+    key_argument: "Once internally deployed AI systems are secretly loyal, they can be instructed to make future systems secretly loyal too, potentially culminating in secretly loyal military AI without any human detecting the chain of compromise."
+
+  - claim: "A CEO of a leading AI project is among the most dangerous potential coup actors, potentially more so than heads of state."
+    centrality: "load-bearing"
+    key_argument: "CEOs have enormous power over their companies, can replace employees with loyal AI, can demand unrestricted access on productivity grounds, and can direct AI R&D to insert secret loyalties—all without the democratic checks that constrain heads of state."
+
+  - claim: "Military competition will drive premature deployment of fully autonomous AI systems despite known coup risks."
+    centrality: "load-bearing"
+    key_argument: "Security dilemma dynamics and unprecedentedly rapid military technology advancement create intense pressure to deploy, and coup risks may be dismissed as 'theoretical and speculative' relative to concrete military threats."
+
+  - claim: "Centralizing AI development into a single government project significantly increases coup risk and should be avoided unless necessary to reduce other risks."
+    centrality: "load-bearing"
+    key_argument: "A single project creates a single point of failure for secret loyalties, eliminates independent auditing capacity, and concentrates exclusive access—all three risk factors simultaneously intensified."
+
+  - claim: "Mitigations can be effective even though a determined power-seeker could remove them, because many potential coups are opportunistic rather than premeditated."
+    centrality: "load-bearing"
+    key_argument: "By preventing easy passive accumulation of coup-enabling capabilities, mitigations can head off the majority of attempts. Additionally, some mitigations (technically enforced terms of service, distributed oversight) cannot be unilaterally removed."
+
+  - claim: "Behind the veil of ignorance, even the most powerful leaders have reason to support strong protections against AI-enabled coups."
+    centrality: "supporting"
+    key_argument: "Since no one knows who will be in position to seize power, building consensus now allows powerful actors to keep each other in check—analogous to Washington voluntarily limiting presidential terms."
+
+  - claim: "An 'intelligence curse' analogous to the resource curse could weaken democratic accountability as governments derive revenue from AI rather than citizen taxation."
+    centrality: "supporting"
+    key_argument: "If governments can generate massive revenue from taxing AI projects, citizens lose economic leverage to resist coups and backsliding, echoing resource curse dynamics documented by Ross (2015)."
+
+  - claim: "Civil disobedience and strikes may become ineffective as mechanisms of resistance if humans can be replaced by AI workers."
+    centrality: "supporting"
+    key_argument: "AI automation eliminates the leverage that human labor provides as a check on power, since even loyal coup supporters could eventually be replaced."
+
+positions_rejected:
+  - position: "AI-enabled coups require strong assumptions about a single leading AI project."
+    why_rejected: "The paper explicitly states its analysis 'does not depend on strong assumptions about the number of leading AI projects'—even multiple competing projects leave serious risk from executives or government officials leveraging their positions."
+
+  - position: "AI-enabled coups are only a concern for autocratic states."
+    why_rejected: "The paper argues these risks apply to established democracies, since the novel dynamics (loyal AI replacing humans, secret loyalties, exclusive access) bypass traditional democratic safeguards."
+
+  - position: "AI alignment is the primary or sole concern—if we solve alignment, power concentration is not a problem."
+    why_rejected: "The paper argues coup risk exists 'whether or not humans can successfully align AI': aligned AI can be aligned to a single person, and misaligned AI could be used for a temporarily successful coup."
+
+  - position: "Centralizing AI development into a single government project is straightforwardly risk-reducing."
+    why_rejected: "While acknowledging benefits for safety and security, the paper argues centralization significantly increases coup risk by creating single points of failure, eliminating independent audit capacity, and concentrating exclusive access."
+
+  - position: "Restricting dangerous capabilities to no one (rather than sharing with multiple trusted actors) is sufficient."
+    why_rejected: "If guardrails can be circumvented, restricting to 'no one' effectively means one actor could gain access. The paper advocates sharing with multiple independent stakeholders as more robust."
+
+  - position: "Existing governance structures and military norms are sufficient to prevent AI-enabled coups."
+    why_rejected: "The paper argues existing approaches are fundamentally insufficient because they were not designed for a world where power can be exercised without human cooperation, and current guardrails/infosecurity would be too easy to circumvent."
+
+methodological_commitments:
+  - "Scenario analysis and illustrative vignettes: extensive use of detailed fictional scenarios (Boxes 1-5) to make abstract risks concrete and demonstrate plausibility of threat pathways."
+  - "Structural/mechanistic reasoning rather than probabilistic estimation: the paper identifies novel causal mechanisms by which AI changes power dynamics rather than assigning probabilities to outcomes."
+  - "Historical analogy as validation: draws on historical coup data, democratic backsliding literature, the British Industrial Revolution, resource curse research, and civil-military relations scholarship to ground claims about future dynamics."
+  - "Taxonomy-driven analysis: systematically identifies three risk factors, four military coup pathways, and two conventional coup categories, then maps mitigations onto each."
+  - "Fermi estimation for AI capabilities: uses order-of-magnitude calculations for number of AI copies, thinking speed, and labor equivalents to establish the scale of capabilities."
+  - "Policy-oriented framing: explicitly structured to produce actionable recommendations for AI developers, governments, and independent actors, reflecting an applied rather than purely theoretical orientation."
+  - "Veil of ignorance reasoning: invokes Rawlsian logic to argue that even powerful actors should support anti-coup measures when they don't know who will be in position to seize power."
+
+cross_references:
+  - "agi-and-lock-in"
+  - "should-there-be-just-one-western-agi-project"
+  - "three-types-of-intelligence-explosion"
+  - "will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
+  - "how-quick-and-big-would-a-software-intelligence-explosion-be"
+  - "could-one-country-outgrow-the-rest-of-the-world-9"

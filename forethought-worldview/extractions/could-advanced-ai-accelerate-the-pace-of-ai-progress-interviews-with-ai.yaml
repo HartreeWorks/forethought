@@ -1,0 +1,61 @@
+paper:
+  slug: "ai-accelerate-ai-progress-interviews"
+  title: "Could Advanced AI Accelerate the Pace of AI Progress? Interviews with AI Researchers"
+
+premises_taken_as_given:
+  - claim: "AI systems will eventually be capable of fully automating AI capabilities research."
+    confidence: "near-certain"
+    evidence: "The entire paper is built around exploring the consequences of this scenario, not whether it will happen; the question is framed as 'when' and 'what then', not 'whether'."
+  - claim: "The pace of AI capabilities progress is a critically important variable for safety and policy."
+    confidence: "near-certain"
+    evidence: "The paper frames its motivation around intelligence explosion scenarios and cites safety frameworks from OpenAI, DeepMind, and Anthropic that highlight AI R&D automation as a key risk."
+  - claim: "Algorithmic progress is a major driver of AI capabilities alongside compute scaling."
+    confidence: "near-certain"
+    evidence: "The entire interview structure presupposes that cognitive labor directed at algorithmic research is a significant input to AI progress, citing Ho et al. 2024 on algorithmic progress."
+  - claim: "A rapid acceleration in AI capabilities ('intelligence explosion' or fast takeoff) is a plausible scenario worth serious analysis."
+    confidence: "strong"
+    evidence: "The paper explicitly references Davidson 2023 on takeoff speeds and OpenAI's mention of intelligence explosion; the research is designed to investigate parameters of this scenario."
+  - claim: "The relevant unit of analysis for AI progress acceleration is the effective cognitive labor available to AI research organizations."
+    confidence: "strong"
+    evidence: "The hypothetical scenario is constructed entirely around a massive increase in cognitive labor (900x), holding compute for experiments roughly constant, to isolate this factor."
+
+distinctive_claims:
+  - claim: "Compute for running experiments is likely the primary bottleneck preventing a 900x cognitive labor increase from translating into a proportional speedup in AI capabilities progress."
+    centrality: "thesis"
+    key_argument: "Most interviewed researchers identified experiment runtime and compute availability as the binding constraint; abundant cognitive labor hits diminishing returns because ideas must be validated through computationally expensive experiments."
+  - claim: "Even with compute as a bottleneck, abundant AI cognitive labor could plausibly achieve a 2-20x speedup in the overall pace of AI capabilities progress."
+    centrality: "thesis"
+    key_argument: "Researchers' estimates clustered in this range across multiple timeframes, reflecting efficiency gains from better experiment design, bug elimination, smaller-scale experimentation, and improved resource allocation."
+  - claim: "Gains from AI labor would be disproportionately larger for smaller experiments than for larger ones, because small experiments are currently bottlenecked by coding time rather than compute."
+    centrality: "load-bearing"
+    key_argument: "Interviewees noted that small-scale experiments are constrained by implementation time, so dramatically faster coding would multiply the number of small experiments that can be run."
+  - claim: "There is a meaningful possibility that recursive data generation—using AI cognitive outputs as training data for next-generation systems—could create a positive feedback loop."
+    centrality: "supporting"
+    key_argument: "One researcher proposed scaffolding AI workers into a bureaucracy whose collective outputs become high-quality training data, creating an iterative improvement cycle."
+  - claim: "Transferability of results from small-scale to large-scale experiments is a key uncertainty that bounds the effectiveness of abundant cognitive labor."
+    centrality: "load-bearing"
+    key_argument: "Multiple researchers noted that some techniques (e.g., RLHF, GANs) only work at larger scales, limiting the value of running many small experiments as a substitute for large ones."
+  - claim: "Organizational coordination problems (principal-agent issues, communication bottlenecks) represent a potentially large but uncertain source of efficiency gains from AI automation."
+    centrality: "supporting"
+    key_argument: "One researcher argued that AI workers sharing weights or scaling up supervisory roles could overcome coordination failures that waste significant effort in human organizations."
+
+positions_rejected:
+  - position: "A 900x increase in cognitive labor would translate into anything close to a 900x speedup in AI progress."
+    why_rejected: "Compute for experiments creates a hard bottleneck; most researchers estimated speedups far below 900x, emphasizing diminishing returns to cognitive labor when experimental validation is the binding constraint."
+  - position: "Better experiment design alone would yield very large gains."
+    why_rejected: "Some researchers argued that competent human researchers are already near-optimal at experiment selection, and inherent noise in experimental data limits further gains from better design."
+  - position: "A 'software-only singularity' (unbounded recursive self-improvement without physical resource constraints) is the most likely scenario."
+    why_rejected: "Implicitly rejected by the finding that compute, real-world data, and physical infrastructure are binding constraints; one researcher explicitly expressed relief that compute is a bottleneck because 'a software-only singularity just sounds terrifying'."
+  - position: "GPU resource allocation is a major source of potential efficiency gains."
+    why_rejected: "At least one researcher argued GPU usage is already highly optimized at leading labs, especially for large-scale experiments, limiting the marginal value of better allocation."
+
+methodological_commitments:
+  - "Expert elicitation through structured interviews with AI researchers at leading companies, using a detailed hypothetical scenario to ground responses."
+  - "Use of a specific, concrete thought experiment (30 copies × 30x speed = 900x cognitive labor) to make abstract questions about AI R&D acceleration tractable and comparable across interviewees."
+  - "Decomposition of overall speedup into component sources (bugs, experiment design, scale, resource allocation, etc.) to identify which factors drive the aggregate estimate."
+  - "Collection of quantitative estimates alongside qualitative reasoning, while emphasizing the high uncertainty in those estimates."
+  - "Holding compute roughly constant while varying cognitive labor to isolate the contribution of the latter—a counterfactual reasoning approach."
+  - "Explicit acknowledgment of limitations including small sample size, biased sample toward optimistic researchers, and simplifications in the hypothetical scenario."
+
+cross_references:
+  - "what-a-compute-centric-framework-says-about-takeoff-speeds"

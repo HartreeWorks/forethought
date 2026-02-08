@@ -1,0 +1,95 @@
+paper:
+  slug: "inference-scaling-reshapes-ai-governance"
+  title: "Inference Scaling Reshapes AI Governance"
+
+premises_taken_as_given:
+  - claim: "AI systems will reach transformative or human-level capabilities, making AI governance a critical and urgent challenge."
+    confidence: "near-certain"
+    evidence: "The paper throughout assumes governance of frontier AI is necessary and discusses timing and preparedness for 'transformative AGI' without arguing this will occur."
+
+  - claim: "Pre-training scaling has been the dominant driver of AI capability gains from 2020–2024, growing at roughly 5x per year."
+    confidence: "near-certain"
+    evidence: "Treated as established fact, citing Epoch AI data, and used as the baseline against which the new inference-scaling paradigm is contrasted."
+
+  - claim: "Pre-training scaling is hitting diminishing returns, likely due to exhaustion of high-quality training data."
+    confidence: "strong"
+    evidence: "Cited as reported by unnamed employees at leading labs and supported by the Meta/LibGen court documents, but acknowledged as not yet fully settled ('it is not yet clear if it has gone to zero')."
+
+  - claim: "Compute is the right lens through which to analyze AI capability progress and governance."
+    confidence: "near-certain"
+    evidence: "The entire analytical framework treats compute (training and inference) as the primary variable determining capabilities and governance leverage, never questioning this framing."
+
+  - claim: "AI governance is desirable and should involve some regulatory oversight of frontier models."
+    confidence: "near-certain"
+    evidence: "The paper assumes a governance regime should exist and analyzes how inference scaling challenges it, rather than questioning whether governance is warranted."
+
+  - claim: "There is a roughly quantifiable trade-off between pre-training compute and inference compute, with ~0.5–1 OOMs of pre-training equivalent to 1 OOM of inference."
+    confidence: "strong"
+    evidence: "Cited from Jones 2021 and Villalobos & Atkinson 2023 as a 'rule of thumb' and used in the illustrative formula, while cautioning against overreliance."
+
+  - claim: "The concept of 'human-level AGI' is a meaningful threshold for governance and strategic analysis."
+    confidence: "strong"
+    evidence: "Used repeatedly as an analytical lens ('the first human-level AGI systems'), with a brief caveat that AI is better than humans at some tasks and worse at others."
+
+distinctive_claims:
+  - claim: "The shift from pre-training scaling to inference scaling requires a fundamental rethinking of most existing AI governance frameworks, not just minor adjustments."
+    centrality: "thesis"
+    key_argument: "Training-compute thresholds (EU AI Act, US executive order) are the backbone of current governance but become ineffective when capability gains come from inference scaling, since sub-threshold models can be amplified to exceed those thresholds."
+
+  - claim: "The governance implications differ dramatically depending on whether inference compute is scaled at deployment vs. during training, and this distinction must be central to analysis."
+    centrality: "thesis"
+    key_argument: "Inference-at-deployment reduces immediate impact, raises costs, and democratizes somewhat; inference-during-training enables recursive self-improvement, reduces transparency, and may shorten timelines — opposite governance implications."
+
+  - claim: "Scaling inference-at-deployment would increase the cost and reduce the immediate impact of the first human-level AGI systems, potentially creating a buffer period for safety work and policy response."
+    centrality: "load-bearing"
+    key_argument: "Each OOM of inference scaling reduces simultaneous deployable copies by that factor and increases per-use costs proportionally, potentially making first AGI systems more expensive than human labor initially."
+
+  - claim: "Scaling inference-at-deployment reduces the strategic importance of both open-weight models and model weight security."
+    centrality: "load-bearing"
+    key_argument: "If the lion's share of cost is inference rather than training, stolen weights save only a small fraction of total cost, and open-weight models become less attractive since users must pay the high inference costs themselves."
+
+  - claim: "Iterated distillation and amplification of LLMs constitutes a credible pathway for recursive self-improvement of general intelligence, not just narrow domains."
+    centrality: "load-bearing"
+    key_argument: "AlphaGo Zero provides proof of concept for narrow domains; applying the same amplify-then-distill loop to LLMs starting from a strong general base model (like GPT-4o) could plausibly extend this to general capabilities, though significant uncertainty remains."
+
+  - claim: "Inference-during-training via iterated distillation and amplification could reduce transparency about state-of-the-art capabilities, creating governance blind spots even under existing regulations."
+    centrality: "load-bearing"
+    key_argument: "EU AI Act only requires oversight at deployment, so labs could climb many rungs of the amplification-distillation ladder internally without external knowledge, leading to a more abrupt shock when deployed."
+
+  - claim: "Inference-at-deployment ends the 'Coca Cola' property of AI — where all users get essentially the same quality — by allowing wealthier users to purchase better AI outputs."
+    centrality: "supporting"
+    key_argument: "OpenAI already charges 10x more for higher inference-compute versions; scaling inference further would systematically advantage wealthier users and organizations."
+
+  - claim: "Policies requiring disclosure of current capabilities and immediate plans for greater capabilities would be especially valuable given inference-during-training opacity."
+    centrality: "supporting"
+    key_argument: "If labs can internally scale models to transformative levels without external visibility, mandatory disclosure becomes critical for maintaining any governance regime."
+
+  - claim: "The shift to inference scaling makes the AI future less predictable than the pre-training era, placing a premium on institutional agility over fixed rules."
+    centrality: "supporting"
+    key_argument: "Greater uncertainty about capability trajectories and which features of the frontier landscape persist means governance needs to be responsive rather than locked into compute-threshold frameworks."
+
+positions_rejected:
+  - position: "Inference scaling is merely an implementation detail in the broader story of compute scaling, requiring no rethinking of governance."
+    why_rejected: "The paper argues this obscures key structural differences: inference-at-deployment shifts costs to deployment time, varies by task, changes who bears costs, and breaks training-compute-based governance thresholds."
+
+  - position: "Training compute thresholds (like the EU AI Act's 10^25 FLOP threshold) remain adequate for governing frontier AI capabilities."
+    why_rejected: "Models below the threshold can be amplified via inference scaling to perform at or above the capability level the thresholds were designed to capture, potentially rendering them ineffective."
+
+  - position: "Open-weight models will remain a central governance concern as AI advances."
+    why_rejected: "If capability gains come primarily from inference scaling, open weights become less valuable (users must pay inference costs) and less dangerous (proliferation of weights alone insufficient for frontier capability)."
+
+  - position: "The first human-level AI systems will immediately be deployed at massive scale and low cost, causing rapid economic disruption."
+    why_rejected: "Inference scaling at deployment could make first human-level systems expensive to run — potentially more expensive than human labor — creating a buffer period before transformative deployment."
+
+  - position: "Securing model weights is one of the most critical AI safety priorities."
+    why_rejected: "If training costs plateau while inference costs dominate, the value of stolen weights diminishes since the thief still faces the bulk of costs at deployment."
+
+methodological_commitments:
+  - "Scenario analysis: systematically distinguishing two futures (inference-at-deployment vs. inference-during-training) and tracing implications of each."
+  - "Order-of-magnitude reasoning and back-of-envelope calculations (e.g., the formula relating effective OOMs of pre-training and inference, the appendix cost model)."
+  - "Governance-oriented analysis: evaluating technical developments primarily through their implications for policy levers and regulatory frameworks."
+  - "Historical analogy and proof-of-concept reasoning (AlphaGo Zero as evidence for feasibility of iterated distillation and amplification in LLMs)."
+  - "Emphasis on identifying which existing governance assumptions break under new technical regimes, rather than proposing detailed new policies."
+  - "Explicit acknowledgment of deep uncertainty about which scenario will obtain, with emphasis on the need for agility over rigid frameworks."
+
+cross_references: []
