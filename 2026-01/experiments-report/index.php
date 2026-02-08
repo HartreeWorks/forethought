@@ -27,6 +27,12 @@ $contextExperiments = [
         'status' => 'complete',
     ],
     [
+        'title' => 'Worldview primer experiment',
+        'description' => 'Does providing Forethought\'s worldview primer as context produce more targeted critiques that focus on genuine uncertainties?',
+        'file' => 'worldview-primer-experiment.php',
+        'status' => 'complete',
+    ],
+    [
         'title' => 'Crucial questions prompt experiment',
         'description' => 'Which prompts best generate "crucial considerations" from research papers—questions that could change strategy?',
         'file' => 'crucial-questions-experiment.php',
@@ -65,7 +71,7 @@ $metaPages = [
 
 <p>How much could systematic context engineering improve the quality of LLM-generated critiques?</p>
 
-<h2>Can we build an automated grader?</h2>
+<h2 id="automated-grader">Can we build an automated grader?</h2>
 
 
 <p>Systematic context engineering is impractical unless we can make automated graders that track our own judgement about the quality of LLM research outputs. Can we?</p>
@@ -88,7 +94,7 @@ $metaPages = [
     <?php endforeach; ?>
 </div>
 
-<h2>Context engineering experiments using the ACORN grader</h2>
+<h2 id="context-engineering-experiments">Context engineering experiments using the ACORN grader</h2>
 <p>Does some quick prompt iteration deliver meaningfully better outputs?</p>
 <div class="experiment-list">
     <?php foreach ($contextExperiments as $exp): ?>
@@ -108,7 +114,7 @@ $metaPages = [
     <?php endforeach; ?>
 </div>
 
-<h2>Context engineering research</h2>
+<h2 id="context-engineering-research">Context engineering research</h2>
 <p>Background research on prompting techniques and context engineering.</p>
 <div class="experiment-list">
     <?php foreach ($researchExperiments as $exp): ?>
@@ -128,7 +134,7 @@ $metaPages = [
     <?php endforeach; ?>
 </div>
 
-<h2>Meta</h2>
+<h2 id="meta">Meta</h2>
 <div class="experiment-list">
     <?php foreach ($metaPages as $exp): ?>
     <a href="<?= htmlspecialchars($exp['file']) ?>" class="experiment-card">

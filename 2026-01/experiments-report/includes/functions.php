@@ -50,6 +50,17 @@ function scoreClass($score) {
  */
 function calculateAverages($results) {
     $sums = ['centrality' => 0, 'strength' => 0, 'correctness' => 0, 'clarity' => 0, 'dead_weight' => 0, 'single_issue' => 0, 'overall' => 0];
+    // Add relevance if present in the data
+    $hasRelevance = false;
+    foreach ($results as $r) {
+        if (isset($r['relevance'])) {
+            $hasRelevance = true;
+            break;
+        }
+    }
+    if ($hasRelevance) {
+        $sums['relevance'] = 0;
+    }
     $count = count($results);
     foreach ($results as $r) {
         foreach ($sums as $key => &$sum) {

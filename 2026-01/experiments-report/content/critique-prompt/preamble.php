@@ -20,8 +20,8 @@
     <p>Two ways to make the outputs more useful:</p>
 
     <ol>
-        <li><strong>Make review easier:</strong> reviewing LLM outputs can be a slog. Minimally, the prompt could request progressive summarisation. Maximally, we could build a custom review interface—perhaps something like <a href="https://share.cleanshot.com/8rhKk98sDB2MNSD0t2kP" target="_blank">this</a>.</li>
-        <li><strong>Get more insightful outputs:</strong>  Sophisticated context enginering might generate higher quality critiques.</li>
+        <li><strong>Make review easier:</strong> reviewing LLM outputs can be a slog. Minimally, the prompt could request progressive summarisation. Going further, we might provide lots of context on "the Forethought worldview", to help it filter out critiques that won't be of interest to us.</li>
+        <li><strong>Generate more insightful outputs:</strong>  Sophisticated context enginering might generate higher quality critiques.</li>
 </ol>
 <p>This experiment will focus on <strong>(2)</strong>.</p>
 
@@ -36,5 +36,5 @@
 </ol>
 
 
-<p><strong>Limitation:</strong> I am only experimenting with prompt texts. I'm not experimenting with other kinds of context engineering and orchestration, e.g. prompt chains, multi-model synthesis, best-of-N, self-critique, etc. Some of these techniques may be more powerful.</p>
+<p><strong>Limitation:</strong> I am only experimenting with prompt texts. I'm not experimenting with other kinds of context engineering (e.g. prompt chains, multi-model synthesis, best-of-N, self-critique, etc). Some of those techniques may be more powerful.</p>
 </div>

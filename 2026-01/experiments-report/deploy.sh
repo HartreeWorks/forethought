@@ -36,7 +36,7 @@ mkdir -p "$BUILD_DIR/data/experiments/critique-prompt"
 mkdir -p "$BUILD_DIR/data/experiments/full-critique-chain-acorn/prompts"
 
 # Critique prompt experiment - Results (JSON scores)
-for dir in results-gpt results-gpt-cb results-gpt-cc results-claude results-claude-cb results-claude-cc results-gemini results-gemini-cb results-gemini-cc results-gpt41mini; do
+for dir in results-gpt results-gpt-cb results-gpt-cc results-gpt-wv results-gpt-v3 results-gpt-wv-v3 results-gpt-claude-grader results-gpt41mini-claude-grader results-claude results-claude-cb results-claude-cc results-gemini results-gemini-cb results-gemini-cc results-gpt41mini; do
   if [ -d "$EXPERIMENTS_SRC/critique-prompt/$dir" ]; then
     cp -r "$EXPERIMENTS_SRC/critique-prompt/$dir" \
           "$BUILD_DIR/data/experiments/critique-prompt/"
@@ -44,7 +44,7 @@ for dir in results-gpt results-gpt-cb results-gpt-cc results-claude results-clau
 done
 
 # Critique prompt experiment - Parsed critique text
-for dir in outputs-gpt outputs-gpt-cb outputs-gpt-cc outputs-claude outputs-gemini outputs-gpt41mini; do
+for dir in outputs-gpt outputs-gpt-cb outputs-gpt-cc outputs-gpt-wv outputs-claude outputs-gemini outputs-gpt41mini; do
   if [ -d "$EXPERIMENTS_SRC/critique-prompt/$dir/parsed" ]; then
     mkdir -p "$BUILD_DIR/data/experiments/critique-prompt/$dir"
     cp -r "$EXPERIMENTS_SRC/critique-prompt/$dir/parsed" \

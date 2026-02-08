@@ -11,7 +11,7 @@ $graderPrompt = file_exists($graderPath) ? file_get_contents($graderPath) : '';
 
 <p>Systematic context engineering is impractical without automated evaluation.</p>
 
-<h2>The evaluation bottleneck</h2>
+<h2 id="the-evaluation-bottleneck">The evaluation bottleneck</h2>
 
 <p>If you want to systematically improve LLM outputs through context engineering, you need to run experiments: try different prompts, chain architectures, few-shot examples, and model combinations. Even a modest experiment might generate hundreds of outputs. A serious exploration could produce thousands.</p>
 
@@ -19,21 +19,21 @@ $graderPrompt = file_exists($graderPath) ? file_get_contents($graderPath) : '';
 
 <p>Without this, you're limited to ad-hoc vibes-based iteration. With it, you can run structured experiments, measure improvements, and make evidence-based decisions about where to invest further effort.</p>
 
-<h2>Two approaches to automated grading</h2>
+<h2 id="two-approaches">Two approaches to automated grading</h2>
 
 <p>There are two main approaches to building automated graders:</p>
 
-<h3>1. Deterministic graders</h3>
+<h3 id="deterministic-graders">1. Deterministic graders</h3>
 
 <p>Code-based evaluation using regex matching, rubric checklists, or structural analysis. These are reliable and fast, but only work when quality can be reduced to checkable rules. For creative or reasoning tasks—like evaluating the quality of a philosophical critique—deterministic graders are rarely useful.</p>
 
-<h3>2. LLM-as-judge</h3>
+<h3 id="llm-as-judge">2. LLM-as-judge</h3>
 
 <p>Prompt an LLM to evaluate the output, usually against a rubric. This is more flexible and can handle nuanced quality judgements, but introduces its own problems: LLM judges can be biased toward their own outputs, may not calibrate well to human standards, and can be inconsistent across runs.</p>
 
 <p>For evaluating research critiques, we need the LLM-as-judge approach. The question is: can we find or build a judge that correlates well enough with human judgement to be useful?</p>
 
-<h2>The ACORN grader</h2>
+<h2 id="the-acorn-grader">The ACORN grader</h2>
 
 <p>Building a custom grader from scratch would require collecting human-rated samples and validating that the grader tracks human judgement—expensive and time-consuming.</p>
 
@@ -57,7 +57,7 @@ $graderPrompt = file_exists($graderPath) ? file_get_contents($graderPath) : '';
     </div>
 </details>
 
-<h2>Using ACORN for these experiments</h2>
+<h2 id="using-acorn">Using ACORN for these experiments</h2>
 
 <p>For the experiments in this sprint, we use the ACORN grader (run on GPT-5.2 Pro) to evaluate critique quality. This lets us:</p>
 

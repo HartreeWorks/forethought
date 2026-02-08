@@ -111,13 +111,11 @@ $promptNames = [
 
 <p><a href="index.php">&larr; Back to main experiment</a></p>
 
-<p>Can the ACORN grader distinguish strong critiques from weak ones? If it can't reliably tell the difference between critiques from a frontier model and a much weaker one, that's a problem for any experiment that relies on it.</p>
+<p>Does the ACORN grader work at all? To verify that, let's generate some critiques of "No Easy Eutopia" using GPT 5.2 Pro and GPT 4.1 Mini.</p>
 
 <h2 id="method">Method</h2>
 
 <div class="prose">
-    <p>Simple test: generate critiques with models of different capability, grade them all with the same grader, and check whether the scores reflect the expected quality ordering.</p>
-
     <p>I generated critiques of "<a href="https://www.forethought.org/research/no-easy-eutopia" target="_blank">No Easy Eutopia</a>" using two models:</p>
 
     <ol style="margin-left: 1.5rem;">
@@ -125,9 +123,11 @@ $promptNames = [
         <li><strong>GPT-4.1 Mini</strong> — a mid-tier model, clearly weaker on reasoning benchmarks (~70% on GPQA vs ~89% for GPT-5)</li>
     </ol>
 
-    <p>Each model generated 10 critiques using four prompts (baseline-v1, surgery, personas, unforgettable), for <strong>40 critiques per model</strong>. All 80 critiques were graded by GPT-5.2 Pro using the ACORN rubric—the grader model stays constant, only the generation model varies.</p>
+    <p>Each model generated 10 critiques using four different prompts, for <strong>40 critiques per model</strong>. All 80 critiques were graded by GPT-5.2 Pro* using the ACORN rubric—the grader model stays constant, only the generation model varies.</p>
 
     <p>If the grader is doing its job, GPT-5.2 Pro critiques should score substantially higher than GPT-4.1 Mini critiques.</p>
+
+    <p class="text-muted"><em>* One might worry that GPT-5.2 Pro is biased to prefer its own outputs. But I also graded the same critiques with Claude Opus 4.6, and got the same bottom line.</em></p>
 </div>
 
 <h2 id="results">Results</h2>
@@ -220,9 +220,78 @@ $miniAvg = $modelAverages['gpt41mini']['avgs']['overall'] ?? 0;
 <p class="todo">Data not yet available.</p>
 <?php endif; ?>
 
+<?php
+// =====================================================
+// Cross-grader comparison: Claude Opus 4.6 as independent grader
+// =====================================================
+$claudeGraderDirs = [
+    'gpt52pro' => "$expBase/results-gpt-claude-grader",
+    'gpt41mini' => "$expBase/results-gpt41mini-claude-grader",
+];
+
+$claudeResults = [];
+$claudeAverages = [];
+$claudeByPrompt = [];
+
+foreach ($claudeGraderDirs as $modelKey => $dirPath) {
+    $claudeResults[$modelKey] = [];
+    if (!is_dir($dirPath)) continue;
+
+    $files = glob("$dirPath/*-no-easy-eutopia-[0-9][0-9].json");
+    foreach ($files as $file) {
+        $name = basename($file, '.json');
+        $data = json_decode(file_get_contents($file), true);
+        if (!$data || !isset($data['overall'])) continue;
+
+        $prompt = preg_replace('/-no-easy-eutopia-\d{2}$/', '', $name);
+        if (!in_array($prompt, $targetPrompts)) continue;
+
+        $data['_filename'] = $name;
+        $data['_prompt'] = $prompt;
+        $data['_model'] = $modelKey;
+        $claudeResults[$modelKey][] = $data;
+    }
+
+    $results = $claudeResults[$modelKey];
+    $count = count($results);
+    if ($count === 0) {
+        $claudeAverages[$modelKey] = null;
+        continue;
+    }
+
+    $sum = 0;
+    foreach ($results as $r) $sum += $r['overall'];
+    $claudeAverages[$modelKey] = [
+        'count' => $count,
+        'avg_overall' => $sum / $count,
+    ];
+
+    // Break down by prompt
+    $byPrompt = [];
+    foreach ($results as $r) {
+        $p = $r['_prompt'];
+        if (!isset($byPrompt[$p])) $byPrompt[$p] = [];
+        $byPrompt[$p][] = $r;
+    }
+    $claudeByPrompt[$modelKey] = $byPrompt;
+}
+
+$hasCrossGraderData = ($claudeAverages['gpt52pro'] !== null && $claudeAverages['gpt41mini'] !== null);
+?>
+
+<?php
+$claudeProOverall = isset($claudeAverages['gpt52pro']) ? $claudeAverages['gpt52pro']['avg_overall'] : 0;
+$claudeMiniOverall = isset($claudeAverages['gpt41mini']) ? $claudeAverages['gpt41mini']['avg_overall'] : 0;
+$gptProOverall = $modelAverages['gpt52pro']['avgs']['overall'] ?? 0;
+$gptMiniOverall = $modelAverages['gpt41mini']['avgs']['overall'] ?? 0;
+$claudeAgrees = $claudeProOverall > $claudeMiniOverall;
+$claudeRatio = $claudeMiniOverall > 0 ? $claudeProOverall / $claudeMiniOverall : 0;
+$gptRatio = $gptMiniOverall > 0 ? $gptProOverall / $gptMiniOverall : 0;
+?>
+
 <h3 id="top-unique-critiques">Top unique critiques by model</h3>
 
-<p>To get a qualitative sense of the difference, here are the three highest-scoring <em>unique</em> critiques from each model (i.e. distinct arguments, with duplicates removed).</p>
+<p>To get a qualitative sense of the difference, here are the three highest-scoring <em>unique</em> critiques from each model.</p>
 
 <?php
 // === GPT-5.2 Pro: top 3 unique critiques ===
@@ -245,18 +314,17 @@ $proTop3 = array_slice($proUnique, 0, 3);
 $proParsedDir = $models['gpt52pro']['parsed_dir'];
 ?>
 
-<h4>GPT-5.2 Pro: top 3 unique critiques</h4>
+<h4 style="margin-bottom: 1rem;">GPT-5.2 Pro: top 3 unique critiques</h4>
 
+<div>
 <?php foreach ($proTop3 as $result):
     $critiqueFile = "$proParsedDir/{$result['_filename']}.txt";
     $critiqueText = file_exists($critiqueFile) ? file_get_contents($critiqueFile) : 'Critique text not found.';
 ?>
-<details class="critique-card">
+<details class="critique-card" id="critique-<?= htmlspecialchars($result['_filename']) ?>">
     <summary>
         <span><?= htmlspecialchars($result['title'] ?? $result['_prompt'] . ' #' . substr($result['_filename'], -2)) ?></span>
         <span>
-            <span class="badge" style="background: <?= $models['gpt52pro']['badge_color'] ?>; margin-right: 0.5rem;"><?= htmlspecialchars($models['gpt52pro']['label']) ?></span>
-            <span class="badge" style="margin-right: 0.5rem;"><?= htmlspecialchars($promptNames[$result['_prompt']] ?? $result['_prompt']) ?></span>
             <span class="font-mono <?= scoreClass($result['overall']) ?>"><?= number_format($result['overall'], 2) ?></span>
         </span>
     </summary>
@@ -297,6 +365,7 @@ $proParsedDir = $models['gpt52pro']['parsed_dir'];
     </div>
 </details>
 <?php endforeach; ?>
+</div>
 
 <?php
 // === GPT-4.1 Mini: top 3 unique critiques ===
@@ -305,6 +374,7 @@ $miniCorrelatedCluster = [
     'unforgettable-no-easy-eutopia-01', // 0.20 - "Fragile Island" (correlated factors)
     'personas-no-easy-eutopia-10',      // 0.20 - complexity theorist (correlated/nonlinear)
     'personas-no-easy-eutopia-01',      // 0.20 - empirical hardliner (factor independence)
+    'surgery-no-easy-eutopia-07',       // 0.22 - correlated factors + non-uniform distributions
     'personas-no-easy-eutopia-04',      // 0.15 - correlated factors
     'surgery-no-easy-eutopia-01',       // 0.15 - correlated factors
     'baseline-v1-no-easy-eutopia-01',   // 0.15 - correlated factors
@@ -321,18 +391,17 @@ $miniTop3 = array_slice($miniUnique, 0, 3);
 $miniParsedDir = $models['gpt41mini']['parsed_dir'];
 ?>
 
-<h4>GPT-4.1 Mini: top 3 unique critiques</h4>
+<h4 style="margin-top: 2rem; margin-bottom: 1rem;">GPT-4.1 Mini: top 3 unique critiques</h4>
 
+<div>
 <?php foreach ($miniTop3 as $result):
     $critiqueFile = "$miniParsedDir/{$result['_filename']}.txt";
     $critiqueText = file_exists($critiqueFile) ? file_get_contents($critiqueFile) : 'Critique text not found.';
 ?>
-<details class="critique-card">
+<details class="critique-card" id="critique-<?= htmlspecialchars($result['_filename']) ?>">
     <summary>
         <span><?= htmlspecialchars($result['title'] ?? $result['_prompt'] . ' #' . substr($result['_filename'], -2)) ?></span>
         <span>
-            <span class="badge" style="background: <?= $models['gpt41mini']['badge_color'] ?>; margin-right: 0.5rem;"><?= htmlspecialchars($models['gpt41mini']['label']) ?></span>
-            <span class="badge" style="margin-right: 0.5rem;"><?= htmlspecialchars($promptNames[$result['_prompt']] ?? $result['_prompt']) ?></span>
             <span class="font-mono <?= scoreClass($result['overall']) ?>"><?= number_format($result['overall'], 2) ?></span>
         </span>
     </summary>
@@ -373,8 +442,7 @@ $miniParsedDir = $models['gpt41mini']['parsed_dir'];
     </div>
 </details>
 <?php endforeach; ?>
-
-<p class="text-muted">Both models' top critiques were deduplicated by removing variations on the "correlated dimensions undermine the multiplicative model" argument—the most common critique across all runs. The best representative of that cluster is kept; the rest are excluded.</p>
+</div>
 
 <h2 id="discussion">Discussion</h2>
 
@@ -385,11 +453,102 @@ $miniParsedDir = $models['gpt41mini']['parsed_dir'];
 
     <ul style="margin-left: 1.5rem;">
         <li><strong>Fine-grained discrimination.</strong> The grader can spot a big quality gap. Can it reliably distinguish critiques that are <em>slightly</em> different in quality? The prompt comparison experiment is a softer test of this, but we'd need human validation to be confident.</li>
-        <li><strong>Grader bias.</strong> Since the grader is also GPT-5.2 Pro, it might systematically prefer GPT-style outputs. The <a href="experiment.php#appendix-4">cross-model comparison</a> (where GPT-5.2 Pro also scored higher than Claude and Gemini) could partly reflect this bias rather than genuine quality differences.</li>
+        <li><strong>Grader bias.</strong> Since the grader is also GPT-5.2 Pro, it might systematically prefer GPT-style outputs. The <a href="#cross-grader">cross-grader comparison</a> (appendix) addresses this directly: re-grading the same critiques with Claude Opus 4.6 <?php if ($hasCrossGraderData && $claudeAgrees): ?>confirms the quality gap holds with an independent grader<?php elseif ($hasCrossGraderData && !$claudeAgrees): ?>suggests some of the gap may reflect grader self-preference<?php else: ?>would help distinguish genuine quality differences from grader self-preference<?php endif; ?>.</li>
         <li><strong>Calibration.</strong> Are the absolute scores meaningful, or just the relative ordering? GPT-4.1 Mini averages 0.15—is that really half as good as GPT-5.2 Pro's 0.29, or is the grader compressing the lower end of the scale?</li>
     </ul>
 
-    <p>Overall: the grader passes a basic sanity check. It's good enough to use for comparing prompts within the same model (the <a href="experiment.php">main experiment</a>), where grader bias cancels out. It's less reliable for cross-model comparisons.</p>
+    <p>Overall: the grader passes a basic sanity check.</p>
 </div>
 
+<?php if ($hasCrossGraderData): ?>
+<h2 id="cross-grader">Appendix: cross-grader comparison</h2>
+
+<div class="prose">
+    <p>To check whether the GPT-5.2 Pro grader's preference for GPT-5.2 Pro critiques reflects genuine quality differences (rather than self-preference bias), the same 80 critiques were re-graded by Claude Opus 4.6 using the identical ACORN rubric.</p>
+</div>
+
+<h3>Average overall score by generation model and grader</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Generation model</th>
+            <th>GPT-5.2 Pro grader</th>
+            <th>Claude Opus 4.6 grader</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($models as $modelKey => $config):
+            $gptAvg = $modelAverages[$modelKey] ? $modelAverages[$modelKey]['avgs']['overall'] : null;
+            $claudeAvg = isset($claudeAverages[$modelKey]) ? $claudeAverages[$modelKey]['avg_overall'] : null;
+        ?>
+        <tr>
+            <td><strong><?= htmlspecialchars($config['label']) ?></strong></td>
+            <td class="font-mono <?= $gptAvg !== null ? scoreClass($gptAvg) : '' ?>">
+                <?= $gptAvg !== null ? number_format($gptAvg, 2) : '—' ?>
+            </td>
+            <td class="font-mono <?= $claudeAvg !== null ? scoreClass($claudeAvg) : '' ?>">
+                <?= $claudeAvg !== null ? number_format($claudeAvg, 2) : '—' ?>
+            </td>
+        </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>
+
+<h3>Per-prompt breakdown</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2">Prompt</th>
+            <th colspan="2">GPT-5.2 Pro grader</th>
+            <th colspan="2">Claude Opus 4.6 grader</th>
+        </tr>
+        <tr>
+            <th>GPT-5.2 Pro</th>
+            <th>GPT-4.1 Mini</th>
+            <th>GPT-5.2 Pro</th>
+            <th>GPT-4.1 Mini</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($targetPrompts as $prompt):
+            $gptProVal = $promptModelAverages[$prompt]['gpt52pro'] ?? null;
+            $gptMiniVal = $promptModelAverages[$prompt]['gpt41mini'] ?? null;
+
+            $claudeProResults = $claudeByPrompt['gpt52pro'][$prompt] ?? [];
+            $claudeMiniResults = $claudeByPrompt['gpt41mini'][$prompt] ?? [];
+            $claudeProVal = count($claudeProResults) > 0 ? array_sum(array_map(fn($r) => $r['overall'], $claudeProResults)) / count($claudeProResults) : null;
+            $claudeMiniVal = count($claudeMiniResults) > 0 ? array_sum(array_map(fn($r) => $r['overall'], $claudeMiniResults)) / count($claudeMiniResults) : null;
+        ?>
+        <tr>
+            <td><strong><?= htmlspecialchars($promptNames[$prompt]) ?></strong></td>
+            <td class="font-mono <?= $gptProVal !== null ? scoreClass($gptProVal) : '' ?>">
+                <?= $gptProVal !== null ? number_format($gptProVal, 2) : '—' ?>
+            </td>
+            <td class="font-mono <?= $gptMiniVal !== null ? scoreClass($gptMiniVal) : '' ?>">
+                <?= $gptMiniVal !== null ? number_format($gptMiniVal, 2) : '—' ?>
+            </td>
+            <td class="font-mono <?= $claudeProVal !== null ? scoreClass($claudeProVal) : '' ?>">
+                <?= $claudeProVal !== null ? number_format($claudeProVal, 2) : '—' ?>
+            </td>
+            <td class="font-mono <?= $claudeMiniVal !== null ? scoreClass($claudeMiniVal) : '' ?>">
+                <?= $claudeMiniVal !== null ? number_format($claudeMiniVal, 2) : '—' ?>
+            </td>
+        </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>
+
+<div class="prose">
+    <?php if ($claudeAgrees): ?>
+    <p>Claude Opus 4.6 <?= $claudeRatio >= 1.3 ? 'clearly agrees' : 'agrees' ?> that GPT-5.2 Pro critiques are stronger: <?= number_format($claudeProOverall, 2) ?> vs <?= number_format($claudeMiniOverall, 2) ?> (<?= number_format($claudeRatio, 1) ?>x ratio, compared to <?= number_format($gptRatio, 1) ?>x from the GPT grader). This suggests the quality gap is real and not primarily driven by grader self-preference.</p>
+    <?php else: ?>
+    <p>Interestingly, Claude Opus 4.6 does <em>not</em> rank GPT-5.2 Pro critiques higher (<?= number_format($claudeProOverall, 2) ?> vs <?= number_format($claudeMiniOverall, 2) ?>), unlike the GPT-5.2 Pro grader (<?= number_format($gptProOverall, 2) ?> vs <?= number_format($gptMiniOverall, 2) ?>). This raises the possibility that the GPT grader's preference partly reflects self-preference bias rather than genuine quality differences.</p>
+    <?php endif; ?>
+</div>
+
+<?php endif; ?>
+
+<script src="assets/critique-deeplink.js"></script>
 <?php include 'includes/footer.php'; ?>

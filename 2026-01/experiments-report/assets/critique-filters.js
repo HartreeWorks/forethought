@@ -13,6 +13,7 @@
 (function() {
     const paperFilter = document.getElementById('paper-filter');
     const variantFilter = document.getElementById('variant-filter');
+    const uniquenessFilter = document.getElementById('uniqueness-filter');
     const critiqueList = document.getElementById('critique-list');
     const visibleCount = document.getElementById('visible-count');
 
@@ -24,14 +25,16 @@
 
     let selectedPaper = 'all';
     let selectedVariant = 'all';
+    let selectedUniqueness = 'unique';
 
     function updateURL() {
         const params = new URLSearchParams();
         if (selectedPaper !== 'all') params.set('paper', selectedPaper);
         if (selectedVariant !== 'all') params.set('variant', selectedVariant);
+        if (selectedUniqueness !== 'unique') params.set('uniqueness', selectedUniqueness);
         const queryString = params.toString();
         const newURL = window.location.pathname + (queryString ? '?' + queryString : '') + '#appendix-3-all-critiques';
-        history.pushState({ paper: selectedPaper, variant: selectedVariant }, '', newURL);
+        history.pushState({ paper: selectedPaper, variant: selectedVariant, uniqueness: selectedUniqueness }, '', newURL);
     }
 
     function updateFilters(updateHistory = true) {
@@ -39,7 +42,8 @@
         items.forEach(item => {
             const matchPaper = selectedPaper === 'all' || item.dataset.paper === selectedPaper;
             const matchVariant = selectedVariant === 'all' || item.dataset.variant === selectedVariant;
-            const visible = matchPaper && matchVariant;
+            const matchUniqueness = selectedUniqueness === 'all' || item.dataset.uniqueness === 'unique';
+            const visible = matchPaper && matchVariant && matchUniqueness;
             item.style.display = visible ? '' : 'none';
             if (visible) count++;
         });
@@ -57,8 +61,10 @@
         const params = new URLSearchParams(window.location.search);
         selectedPaper = params.get('paper') || 'all';
         selectedVariant = params.get('variant') || 'all';
+        selectedUniqueness = params.get('uniqueness') || 'unique';
         setActiveButton(paperFilter, selectedPaper);
         setActiveButton(variantFilter, selectedVariant);
+        if (uniquenessFilter) setActiveButton(uniquenessFilter, selectedUniqueness);
         updateFilters(false);
     }
 
@@ -88,12 +94,25 @@
         }
     });
 
+    if (uniquenessFilter) {
+        uniquenessFilter.addEventListener('click', e => {
+            if (e.target.classList.contains('pill')) {
+                selectedUniqueness = e.target.dataset.value;
+                setActiveButton(uniquenessFilter, selectedUniqueness);
+                expandAllCritiques();
+                updateFilters();
+            }
+        });
+    }
+
     window.addEventListener('popstate', e => {
         if (e.state) {
             selectedPaper = e.state.paper || 'all';
             selectedVariant = e.state.variant || 'all';
+            selectedUniqueness = e.state.uniqueness || 'unique';
             setActiveButton(paperFilter, selectedPaper);
             setActiveButton(variantFilter, selectedVariant);
+            if (uniquenessFilter) setActiveButton(uniquenessFilter, selectedUniqueness);
             updateFilters(false);
         }
     });
@@ -119,8 +138,10 @@
                 if (critiqueEl.classList.contains('critique-item') && critiqueEl.style.display === 'none') {
                     selectedPaper = 'all';
                     selectedVariant = 'all';
+                    selectedUniqueness = 'all';
                     setActiveButton(paperFilter, 'all');
                     setActiveButton(variantFilter, 'all');
+                    if (uniquenessFilter) setActiveButton(uniquenessFilter, 'all');
                     updateFilters(false);
                 }
 
@@ -141,8 +162,8 @@
     loadFromURL();
     openCritiqueFromHash();
 
-    // If URL has filter params, expand all
-    if (selectedPaper !== 'all' || selectedVariant !== 'all') {
+    // If any filter is active, expand all (uniqueness defaults to 'unique' so always expand)
+    if (selectedPaper !== 'all' || selectedVariant !== 'all' || selectedUniqueness !== 'all') {
         expandAllCritiques();
     }
 

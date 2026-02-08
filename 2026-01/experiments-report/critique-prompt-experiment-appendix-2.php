@@ -183,7 +183,7 @@ function renderCritiqueCard($result, $parsedDirs) {
 
 <h1>How many unique critiques?</h1>
 
-<p>Each of the seven prompts independently generated 10 critiques per paper. How many of those 70 critiques are genuinely distinct arguments?</p>
+<p>Each of the eight prompts independently generated 10 critiques per paper. How many of those 80 critiques are genuinely distinct arguments?</p>
 
 <?php
 // Load duplicate cluster data from JSON files
@@ -205,7 +205,72 @@ foreach ($paperNames as $paperKey => $paperName) {
         $paperResultsByFilename[$paperKey][$r['_filename']] = $r;
     }
 }
+
+// Count standalone unique critiques per prompt across all papers
+$promptVariantMap = [
+    'baseline-v2' => 'Baseline',
+    'conversational' => 'Conversational',
+    'unforgettable' => 'Unforgettable',
+    'personas' => 'Personas',
+    'surgery' => 'Surgery',
+    'pivot-attack' => 'Pivot-attack',
+    'authors-tribunal' => 'Authors-tribunal',
+    'pre-mortem' => 'Pre-mortem',
+];
+$exclusiveByPrompt = [];
+foreach ($promptVariantMap as $variant => $label) {
+    $exclusiveByPrompt[$variant] = 0;
+}
+foreach ($paperNames as $paperKey => $paperName) {
+    $uniqueFns = $duplicateData[$paperKey]['unique'] ?? [];
+    foreach ($uniqueFns as $fn) {
+        $parsed = parseFilename($fn);
+        $variant = $parsed['variant'];
+        if (isset($exclusiveByPrompt[$variant])) {
+            $exclusiveByPrompt[$variant]++;
+        }
+    }
+}
+arsort($exclusiveByPrompt);
 ?>
+
+<p><em>The uniqueness analysis was done by LLM. I've validated by eyballing it, I think it's good enough, though surely some mistakes.</em></p>
+
+
+<h2>Exclusive ideas per prompt</h2>
+
+<p>How many critiques did each prompt surface that no other prompt generated?</p>
+
+<table class="data-table">
+<thead>
+<tr>
+    <th>Prompt</th>
+    <th>Exclusive ideas</th>
+</tr>
+</thead>
+<tbody>
+<?php foreach ($exclusiveByPrompt as $variant => $count): ?>
+<tr>
+    <td><?= htmlspecialchars($promptVariantMap[$variant]) ?></td>
+    <td class="num"><?= $count ?></td>
+</tr>
+<?php endforeach; ?>
+</tbody>
+</table>
+
+<p>According to the ACORN grader, exclusive critiques score lower on average than clustered ones (0.28 vs 0.31). Only 2 of the top 3 exclusive ideas made the top 30 (out of 240 critiques across all papers). This makes sense: critiques that multiple prompts independently converge on likely target more obvious, central weaknesses.</p>
+
+<p>The two highest-scoring exclusive ideas (both for Compute Bottlenecks):</p>
+
+<?php
+$topExclusiveFilenames = ['conversational-compute-bottlenecks-10', 'personas-compute-bottlenecks-09'];
+foreach ($topExclusiveFilenames as $fn) {
+    if (isset($paperResultsByFilename['compute-bottlenecks'][$fn])) {
+        echo renderCritiqueCard($paperResultsByFilename['compute-bottlenecks'][$fn], $parsedDirs);
+    }
+}
+?>
+<p>&nbsp;</p>
 
 <div class="filter-bar" id="results-filter-bar">
     <div class="filter-bar-container">
@@ -226,12 +291,62 @@ foreach ($paperNames as $paperKey => $paperName) {
     $uniqueFilenames = $data['unique'] ?? [];
     $summary = $data['summary'] ?? [];
     $totalCritiques = count($baseCritiquesByPaper[$paperKey]);
+    $analysedCritiques = $data['total_critiques'] ?? 80;
     $clusteredCount = $summary['clustered'] ?? 0;
     $uniqueCount = $summary['unique'] ?? 0;
 ?>
 <div class="appendix2-paper-section" data-appendix2-paper="<?= htmlspecialchars($paperKey) ?>" style="<?= $paperKey === 'no-easy-eutopia' ? '' : 'display: none;' ?>">
 
-<p>LLM analysis identified <?= count($clusters) ?> clusters of duplicates—arguments that multiple prompts generated independently. The remaining <?= $uniqueCount ?> critiques are considered unique.</p>
+<?php
+// Build filename -> cluster index mapping (null = standalone unique)
+$filenameToCluster = [];
+foreach ($clusters as $clusterIdx => $cluster) {
+    foreach ($cluster['critiques'] as $fn) {
+        $filenameToCluster[$fn] = $clusterIdx;
+    }
+}
+foreach ($uniqueFilenames as $fn) {
+    $filenameToCluster[$fn] = null;
+}
+
+// Filter to only analysed critiques, sorted by score descending
+$analysedResults = array_filter($baseCritiquesByPaper[$paperKey], fn($r) => isset($filenameToCluster[$r['_filename']]));
+$analysedResults = array_values($analysedResults);
+usort($analysedResults, fn($a, $b) => $b['overall'] <=> $a['overall']);
+
+// Count unique arguments in top 10
+$top10 = array_slice($analysedResults, 0, 10);
+$seenClusters = [];
+$top10Unique = 0;
+foreach ($top10 as $r) {
+    $cid = $filenameToCluster[$r['_filename']];
+    if ($cid === null) {
+        $top10Unique++;
+    } elseif (!isset($seenClusters[$cid])) {
+        $seenClusters[$cid] = true;
+        $top10Unique++;
+    }
+}
+
+// Count standalone unique critiques per prompt (arguments only that prompt surfaced)
+$promptStandaloneUniques = [];
+foreach ($uniqueFilenames as $fn) {
+    $parsed = parseFilename($fn);
+    $variant = $parsed['variant_display'];
+    if (!isset($promptStandaloneUniques[$variant])) {
+        $promptStandaloneUniques[$variant] = 0;
+    }
+    $promptStandaloneUniques[$variant]++;
+}
+arsort($promptStandaloneUniques);
+$topPrompt = array_key_first($promptStandaloneUniques);
+$topPromptCount = $promptStandaloneUniques[$topPrompt];
+?>
+<h2>Unique critiques of each paper</h2>
+
+<p>The models generated <?= $uniqueCount + count($clusters) ?> unique critiques of <?= htmlspecialchars($paperNames[$paperKey]) ?>. The remaining <?= $analysedCritiques - $uniqueCount - count($clusters) ?> critiques were duplicates. Of the top 10 critiques by score, <?= $top10Unique ?> were unique. The &ldquo;<?= htmlspecialchars(strtolower($topPrompt)) ?>&rdquo; prompt contributed the most arguments that no other prompt surfaced (<?= $topPromptCount ?>).</p>
+
+<p><em>Limitation: we only asked for 10 critiques per prompt. If we'd requested ~50 per prompt, we might have ended up with many more unique critiques.</em></p>
 
 <?php if (count($clusters) > 0): ?>
 <?php

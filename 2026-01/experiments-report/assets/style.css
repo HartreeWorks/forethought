@@ -310,6 +310,18 @@ tr:hover {
   background: var(--accent-light);
 }
 
+td.num, th.num {
+  text-align: right;
+}
+
+.data-table {
+  max-width: 42rem;
+}
+
+.data-table tfoot td {
+  border-top: 2px solid var(--border);
+}
+
 /* Hidden columns */
 .col-hidden {
   display: none;

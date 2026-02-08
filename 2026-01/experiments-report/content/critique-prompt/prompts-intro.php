@@ -87,6 +87,6 @@
 </div>
 
 <h3 id="running-the-prompts">Running the prompts</h3>
-<p>I selected three Forethought papers (No Easy Eutopia, Convergence & Compromise and Compute Bottlenecks). I sent each of the eight prompts to GPT 5.2 Pro, requesting 10 critiques from each. Then I asked GPT 5.2 Pro to evaluate each critique using the ACORN grader (one model call per critique).*</p>
+<p>I selected three Forethought papers (<a href="https://www.forethought.org/research/no-easy-eutopia">No Easy Eutopia</a>, <a href="https://www.forethought.org/research/convergence-and-compromise">Convergence & Compromise</a> and <a href="https://www.forethought.org/research/will-compute-bottlenecks-prevent-a-software-intelligence-explosion">Compute Bottlenecks</a>). I sent each of the eight prompts to GPT 5.2 Pro, requesting 10 critiques from each. Then I asked GPT 5.2 Pro to evaluate each critique using the ACORN grader (one model call per critique).*</p>
 
 <p class="table-footnote">* So that's 24 critique generation prompts, then 240 evaluation prompts. Total cost ~$300 in API credits.</p>

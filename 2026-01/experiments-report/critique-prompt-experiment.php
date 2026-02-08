@@ -261,6 +261,43 @@ foreach ($baseByPaper as $paperKey => $paperResults) {
 uasort($basePaperAverages, fn($a, $b) => $b['overall'] <=> $a['overall']);
 
 // =============================================================================
+// DUPLICATE CLUSTER DATA (for unique/duplicate filtering)
+// =============================================================================
+
+$duplicatesDir = __DIR__ . '/data/experiments/critique-prompt';
+$uniqueRepresentatives = []; // filename => true for critiques to show in "unique" mode
+
+foreach ($paperNames as $dupPaperKey => $dupPaperName) {
+    $dupJsonPath = "$duplicatesDir/duplicates-$dupPaperKey.json";
+    if (!file_exists($dupJsonPath)) continue;
+    $dupData = json_decode(file_get_contents($dupJsonPath), true);
+    if (!$dupData) continue;
+
+    // Standalone uniques are all representatives
+    foreach ($dupData['unique'] ?? [] as $fn) {
+        $uniqueRepresentatives[$fn] = true;
+    }
+
+    // For each cluster, pick the top-scoring critique as representative
+    foreach ($dupData['clusters'] ?? [] as $cluster) {
+        $bestScore = -1;
+        $bestFilename = null;
+        foreach ($cluster['critiques'] as $fn) {
+            // Look up score from results
+            foreach ($baseByPaper[$dupPaperKey] ?? [] as $r) {
+                if ($r['_filename'] === $fn && ($r['overall'] ?? 0) > $bestScore) {
+                    $bestScore = $r['overall'];
+                    $bestFilename = $fn;
+                }
+            }
+        }
+        if ($bestFilename) {
+            $uniqueRepresentatives[$bestFilename] = true;
+        }
+    }
+}
+
+// =============================================================================
 // TOP N CRITIQUES CALCULATIONS
 // =============================================================================
 
@@ -545,8 +582,6 @@ $novemberCount = $topNByPrompt['November'] ?? 0;
 </div>
 <?php endforeach; ?>
 
-<?php include 'content/critique-prompt/discussion.php'; ?>
-
 <?php include 'content/critique-prompt/appendix-1.php'; ?>
 
 <?php include 'content/critique-prompt/appendix-2.php'; ?>
@@ -572,6 +607,13 @@ $novemberCount = $topNByPrompt['November'] ?? 0;
             <?php endforeach; ?>
         </div>
     </div>
+    <div class="filter-group">
+        <span class="filter-label">Critiques</span>
+        <div class="filter-pills" id="uniqueness-filter">
+            <button class="pill active" data-value="unique">Unique</button>
+            <button class="pill" data-value="all">All (including duplicates)</button>
+        </div>
+    </div>
     <div class="filter-count">
         Showing <span id="visible-count"><?= $baseCritiqueCount ?></span> of <?= $baseCritiqueCount ?>
     </div>
@@ -593,8 +635,9 @@ $parsedPath = $parsedDirs[$paperKey] ?? '';
 $critiqueFile = "$parsedPath/{$result['_filename']}.txt";
 $critiqueText = file_exists($critiqueFile) ? file_get_contents($critiqueFile) : 'Critique text not found.';
 $allHiddenClass = $allIdx >= 3 ? ' all-hidden' : '';
+$isUniqueRep = isset($uniqueRepresentatives[$result['_filename']]);
 ?>
-<details class="critique-item<?= $allHiddenClass ?>" id="critique-<?= htmlspecialchars($result['_filename']) ?>" data-paper="<?= htmlspecialchars($paperKey) ?>" data-variant="<?= htmlspecialchars($parsed['variant_display']) ?>">
+<details class="critique-item<?= $allHiddenClass ?>" id="critique-<?= htmlspecialchars($result['_filename']) ?>" data-paper="<?= htmlspecialchars($paperKey) ?>" data-variant="<?= htmlspecialchars($parsed['variant_display']) ?>" data-uniqueness="<?= $isUniqueRep ? 'unique' : 'duplicate' ?>">
     <summary>
         <span>
             <span class="badge" style="background: #e0e0e0; margin-right: 0.5rem;"><?= htmlspecialchars($paperNames[$paperKey]) ?></span>
