@@ -109,6 +109,8 @@ $researchExperiments = [
     <?php endforeach; ?>
 </div>
 
+<p style="margin-top: 1.5rem;">Want to chat with Claude about this experiment, the data it generated, or start related experiments? <a href="https://github.com/HartreeWorks/forethought/tree/main/2026-01">Clone the repo.</a></p>
+
 <hr>
 
 <h2 id="context-engineering-research">Appendix 1: Context engineering research</h2>
