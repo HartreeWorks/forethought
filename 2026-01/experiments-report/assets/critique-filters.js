@@ -33,21 +33,37 @@
         if (selectedVariant !== 'all') params.set('variant', selectedVariant);
         if (selectedUniqueness !== 'unique') params.set('uniqueness', selectedUniqueness);
         const queryString = params.toString();
-        const newURL = window.location.pathname + (queryString ? '?' + queryString : '') + '#appendix-3-all-critiques';
+        const newURL = window.location.pathname + (queryString ? '?' + queryString : '') + '#appendix-5-all-critiques';
         history.pushState({ paper: selectedPaper, variant: selectedVariant, uniqueness: selectedUniqueness }, '', newURL);
     }
 
+    const defaultLimit = 20;
+
     function updateFilters(updateHistory = true) {
-        let count = 0;
+        let totalMatch = 0;
+        let shownCount = 0;
         items.forEach(item => {
             const matchPaper = selectedPaper === 'all' || item.dataset.paper === selectedPaper;
             const matchVariant = selectedVariant === 'all' || item.dataset.variant === selectedVariant;
             const matchUniqueness = selectedUniqueness === 'all' || item.dataset.uniqueness === 'unique';
-            const visible = matchPaper && matchVariant && matchUniqueness;
+            const matchesFilter = matchPaper && matchVariant && matchUniqueness;
+            if (matchesFilter) totalMatch++;
+            // When not expanded, respect the all-hidden class (first N only)
+            const truncated = !allExpanded && item.classList.contains('all-hidden');
+            const visible = matchesFilter && !truncated;
             item.style.display = visible ? '' : 'none';
-            if (visible) count++;
+            if (visible) shownCount++;
         });
-        if (visibleCount) visibleCount.textContent = count;
+        if (visibleCount) visibleCount.textContent = shownCount;
+        // Update show-all button visibility and text
+        if (showAllBtn) {
+            if (!allExpanded && totalMatch > shownCount) {
+                showAllBtn.textContent = 'Show all ' + totalMatch + ' critiques';
+                showAllBtn.classList.remove('hidden');
+            } else {
+                showAllBtn.classList.add('hidden');
+            }
+        }
         if (updateHistory) updateURL();
     }
 
@@ -71,8 +87,8 @@
     function expandAllCritiques() {
         if (!allExpanded) {
             items.forEach(item => item.classList.remove('all-hidden'));
-            if (showAllBtn) showAllBtn.classList.add('hidden');
             allExpanded = true;
+            updateFilters(false);
         }
     }
 
@@ -134,6 +150,10 @@
         if (hash && hash.startsWith('#critique-')) {
             const critiqueEl = document.getElementById(hash.slice(1));
             if (critiqueEl) {
+                // Expand truncated list if needed
+                if (critiqueEl.classList.contains('all-hidden')) {
+                    expandAllCritiques();
+                }
                 // If it's in the filtered list and hidden, reset filters
                 if (critiqueEl.classList.contains('critique-item') && critiqueEl.style.display === 'none') {
                     selectedPaper = 'all';
@@ -162,8 +182,8 @@
     loadFromURL();
     openCritiqueFromHash();
 
-    // If any filter is active, expand all (uniqueness defaults to 'unique' so always expand)
-    if (selectedPaper !== 'all' || selectedVariant !== 'all' || selectedUniqueness !== 'all') {
+    // If any filter is non-default, expand all (defaults: paper=all, variant=all, uniqueness=unique)
+    if (selectedPaper !== 'all' || selectedVariant !== 'all' || selectedUniqueness !== 'unique') {
         expandAllCritiques();
     }
 

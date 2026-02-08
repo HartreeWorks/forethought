@@ -48,7 +48,7 @@ function renderPaperExamples($paperKey, $paperName, $paperUrl, $topConversationa
     <?php endforeach; ?>
 
     <?php if ($isDefault): ?>
-    <p>Use the paper toggle above to see critiques for the other papers, or see the <a href="#appendix-3-all-critiques">appendix</a> for all critiques.</p>
+    <p>Use the paper toggle above to see critiques for the other papers, or see the <a href="#appendix-5-all-critiques">appendix</a> for all critiques.</p>
     <?php endif; ?>
 
     <h3<?= $isDefault ? ' id="example-3-bottom-scoring-unique-critiques"' : '' ?>>Example 3. Bottom-scoring unique critiques</h3>

@@ -869,7 +869,7 @@ h3[id] .anchor-link {
   text-decoration: none;
   position: absolute;
   right: 100%;
-  margin-right: 0.3em;
+  padding-right: 0.3em;
   font-weight: 400;
   transition: opacity 0.15s;
 }

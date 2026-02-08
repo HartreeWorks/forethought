@@ -1,4 +1,6 @@
-<h2 id="appendix-1-how-did-critique-quality-vary-by-paper">Appendix 1: How did critique quality vary by paper?</h2>
+<hr style="margin: 6rem 0 3rem 0;">
+
+<h2 id="appendix-3-how-did-critique-quality-vary-by-paper">Appendix 3: How did critique quality vary by paper?</h2>
 
 <p>According to the ACORN grader, it didn't vary much. I've not done my own comparisons.</p>
 <table>

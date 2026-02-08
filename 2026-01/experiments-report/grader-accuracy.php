@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Grader accuracy experiment';
+$pageTitle = 'Grader accuracy sanity check';
 include 'includes/header.php';
 include 'includes/functions.php';
 
@@ -111,7 +111,7 @@ $promptNames = [
 
 <p><a href="index.php">&larr; Back to main experiment</a></p>
 
-<p>Does the ACORN grader work at all? To verify that, let's generate some critiques of "No Easy Eutopia" using GPT 5.2 Pro and GPT 4.1 Mini.</p>
+<p>Does the ACORN grader work at all?</p>
 
 <h2 id="method">Method</h2>
 
@@ -123,11 +123,13 @@ $promptNames = [
         <li><strong>GPT-4.1 Mini</strong> — a mid-tier model, clearly weaker on reasoning benchmarks (~70% on GPQA vs ~89% for GPT-5)</li>
     </ol>
 
-    <p>Each model generated 10 critiques using four different prompts, for <strong>40 critiques per model</strong>. All 80 critiques were graded by GPT-5.2 Pro* using the ACORN rubric—the grader model stays constant, only the generation model varies.</p>
+    <p>Each model generated 10 critiques using four different prompts, for <strong>40 critiques per model</strong>. All 80 critiques were graded by GPT-5.2 Pro using the ACORN rubric—the grader model stays constant, only the generation model varies.*</p>
 
-    <p>If the grader is doing its job, GPT-5.2 Pro critiques should score substantially higher than GPT-4.1 Mini critiques.</p>
+    <p>If the grader is doing its job, GPT-5.2 Pro critiques should score much higher than GPT-4.1 Mini critiques.**</p>
 
     <p class="text-muted"><em>* One might worry that GPT-5.2 Pro is biased to prefer its own outputs. But I also graded the same critiques with Claude Opus 4.6, and got the same bottom line.</em></p>
+
+    <p class="text-muted"><em>** I'm assuming, on priors, that GPT 4.1 Mini critiques are in fact a bunch weaker.</em></p>
 </div>
 
 <h2 id="results">Results</h2>
@@ -444,23 +446,16 @@ $miniParsedDir = $models['gpt41mini']['parsed_dir'];
 <?php endforeach; ?>
 </div>
 
-<h2 id="discussion">Discussion</h2>
+<h2 id="discussion">Conclusion</h2>
 
-<div class="prose">
-    <p>The grader clearly distinguishes GPT-5.2 Pro critiques from GPT-4.1 Mini critiques. The gap is large and consistent across all four prompts. This is the minimum bar for a useful grader—if it couldn't tell these apart, we'd have a problem.</p>
+<div class="prose" style="margin-bottom: 2rem;">
+    <p>The grader clearly distinguishes GPT-5.2 Pro critiques from GPT-4.1 Mini critiques. The gap is large and consistent across all four prompts. So: the grader passes a basic sanity check.</p>
 
-    <p>What this <em>doesn't</em> tell us:</p>
-
-    <ul style="margin-left: 1.5rem;">
-        <li><strong>Fine-grained discrimination.</strong> The grader can spot a big quality gap. Can it reliably distinguish critiques that are <em>slightly</em> different in quality? The prompt comparison experiment is a softer test of this, but we'd need human validation to be confident.</li>
-        <li><strong>Grader bias.</strong> Since the grader is also GPT-5.2 Pro, it might systematically prefer GPT-style outputs. The <a href="#cross-grader">cross-grader comparison</a> (appendix) addresses this directly: re-grading the same critiques with Claude Opus 4.6 <?php if ($hasCrossGraderData && $claudeAgrees): ?>confirms the quality gap holds with an independent grader<?php elseif ($hasCrossGraderData && !$claudeAgrees): ?>suggests some of the gap may reflect grader self-preference<?php else: ?>would help distinguish genuine quality differences from grader self-preference<?php endif; ?>.</li>
-        <li><strong>Calibration.</strong> Are the absolute scores meaningful, or just the relative ordering? GPT-4.1 Mini averages 0.15—is that really half as good as GPT-5.2 Pro's 0.29, or is the grader compressing the lower end of the scale?</li>
-    </ul>
-
-    <p>Overall: the grader passes a basic sanity check.</p>
+    <p>Worry: the highest scoring GPT 5.2 Pro critique is the same basic idea as the highest scoring GPT-4.1 Mini critique. But the ACORN rating is very different (0.60 vs 0.30). The grader might be too sensitive to the precision with which the critique is stated, rather than the strength of the core idea.</p>
 </div>
 
 <?php if ($hasCrossGraderData): ?>
+    <div style="display: none;">
 <h2 id="cross-grader">Appendix: cross-grader comparison</h2>
 
 <div class="prose">
@@ -547,8 +542,9 @@ $miniParsedDir = $models['gpt41mini']['parsed_dir'];
     <p>Interestingly, Claude Opus 4.6 does <em>not</em> rank GPT-5.2 Pro critiques higher (<?= number_format($claudeProOverall, 2) ?> vs <?= number_format($claudeMiniOverall, 2) ?>), unlike the GPT-5.2 Pro grader (<?= number_format($gptProOverall, 2) ?> vs <?= number_format($gptMiniOverall, 2) ?>). This raises the possibility that the GPT grader's preference partly reflects self-preference bias rather than genuine quality differences.</p>
     <?php endif; ?>
 </div>
-
+</div>
 <?php endif; ?>
+
 
 <script src="assets/critique-deeplink.js"></script>
 <?php include 'includes/footer.php'; ?>

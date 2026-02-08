@@ -258,16 +258,23 @@ arsort($exclusiveByPrompt);
 </tbody>
 </table>
 
-<p>According to the ACORN grader, exclusive critiques score lower on average than clustered ones (0.28 vs 0.31). Only 2 of the top 3 exclusive ideas made the top 30 (out of 240 critiques across all papers). This makes sense: critiques that multiple prompts independently converge on likely target more obvious, central weaknesses.</p>
+<p>According to the ACORN grader, exclusive critiques score lower on average than clustered ones (0.28 vs 0.31). This makes sense: critiques that multiple prompts independently converge on likely target more obvious, central weaknesses. That said, the exclusive ideas are not all obviously useless.</p>
 
-<p>The two highest-scoring exclusive ideas (both for Compute Bottlenecks):</p>
+<p>The five highest-scoring exclusive ideas for No Easy Eutopia:</p>
 
 <?php
-$topExclusiveFilenames = ['conversational-compute-bottlenecks-10', 'personas-compute-bottlenecks-09'];
-foreach ($topExclusiveFilenames as $fn) {
-    if (isset($paperResultsByFilename['compute-bottlenecks'][$fn])) {
-        echo renderCritiqueCard($paperResultsByFilename['compute-bottlenecks'][$fn], $parsedDirs);
+// Top 5 exclusive critiques for No Easy Eutopia, sorted by score
+$neeUniques = $duplicateData['no-easy-eutopia']['unique'] ?? [];
+$neeExclusives = [];
+foreach ($neeUniques as $fn) {
+    if (isset($paperResultsByFilename['no-easy-eutopia'][$fn])) {
+        $neeExclusives[] = $paperResultsByFilename['no-easy-eutopia'][$fn];
     }
+}
+usort($neeExclusives, fn($a, $b) => $b['overall'] <=> $a['overall']);
+$topExclusives = array_slice($neeExclusives, 0, 5);
+foreach ($topExclusives as $exResult) {
+    echo renderCritiqueCard($exResult, $parsedDirs);
 }
 ?>
 <p>&nbsp;</p>

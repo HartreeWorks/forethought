@@ -11,8 +11,8 @@ $graderExperiments = [
         'status' => '',
     ],
     [
-        'title' => 'Quick test of the ACORN grader',
-        'description' => 'We generate critiques with GPT-5.2 Pro and GPT-4.1 Mini. Is the ACORN grader discerning enough to detect the quality gap?',
+        'title' => 'Grader accuracy sanity check',
+        'description' => 'We generate critiques with GPT-5.2 Pro and GPT-4.1 Mini. Can the ACORN grader detect the quality gap? This should be easy.',
         'file' => 'grader-accuracy.php',
         'status' => 'complete',
     ],
